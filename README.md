@@ -1,1 +1,1 @@
-This is Cartoons.
+Cartoons is where you make Cartoons.
