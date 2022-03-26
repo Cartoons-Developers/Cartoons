@@ -26,7 +26,7 @@ function showImporter() {
 		case false:
 		default: {
 			importerVisible = true;
-			importer.css("width", "400px");
+			importer.show();
 			if (!importer.data("importer"))
 				importer.data("importer", new AssetImporter(importer))
 			studio.openYourLibrary();
@@ -36,7 +36,7 @@ function showImporter() {
 }
 function hideImporter() {
 	importerVisible = false;
-	importer.css("width", "");
+	importer.hide();
 }
 function initPreviewPlayer(dataXmlStr, startFrame, containsChapter, themeList) {
 	movieDataXmlStr = dataXmlStr;
@@ -133,6 +133,11 @@ class AssetImporter {
 						</div>
 					</div>
 				`).appendTo(this.queue);
+				const fr = new FileReader();
+				fr.addEventListener("load", e => {
+					el.find("img").attr("src", e.target.result)
+				})
+				fr.readAsDataURL(file)
 				break;
 			}
 		}
@@ -151,21 +156,12 @@ class ImporterFile {
 		this.initialize();
 	}
 	initialize() {
-		switch (this.ext) {
-			case "jpg":
-			case "png": { // load image preview
-				const fr = new FileReader();
-				fr.addEventListener("load", (e) => {
-					this.el.find("img").attr("src", e.target.result)
-				})
-				fr.readAsDataURL(this.file)
-			}
-		}
 		this.el.find("[type]").on("click", (event) => {
 			const el = $(event.target);
 			const type = el.attr("type");
 			const t = this.typeFickser(type);
-			this.upload(this.file, t);
+			const name = prompt("What do you want this asset to be called?", this.file.name);
+			this.upload(name, t);
 		});
 	}
 	typeFickser(type) {
@@ -176,15 +172,15 @@ class ImporterFile {
 				return { type: "sound", subtype: type }
 			}
 			case "bg":
-			case "prop":
-			case "watermark": {
+			case "prop": {
 				return { type: type, subtype: 0 }
 			}
 		}
 	}
-	async upload(file, type) { // adds a file to the queue
+	async upload(name, type) {
 		var b = new FormData();
-		b.append("import", file);
+		b.append("import", this.file);
+		b.append("name", name)
 		b.append("type", type.type);
 		b.append("subtype", type.subtype);
 		$.ajax({
