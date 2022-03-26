@@ -3,8 +3,8 @@
 :: You should be using settings.bat, and not touching this. Remastered relies on this file remaining consistent, and it's easy to mess that up.
 
 :: Opens this file in Notepad when run
-set VERBOSEWRAPPER=n
-
+setlocal
+if "%SUBSCRIPT%"=="" ( pushd "C:\Users\david\Downloads\please work\vyond-remastered-public-main\" & start notepad.exe config.bat & exit )
 endlocal
 
 :: Shows exactly Remastered is doing, and never clears the screen. Useful for development and troubleshooting. Default: n
