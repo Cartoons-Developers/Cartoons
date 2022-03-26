@@ -1,8 +1,11 @@
+
+/***
+ * movie parsing
+ * if you don't know what's going on here, look at the lvm's code
+ * ffdec does a great job with that
+ */
 const themeFolder = process.env.THEME_FOLDER;
-const mp3Duration = require('mp3-duration');
 const char = require('../character/main');
-const ttsInfo = require('../tts/info');
-const caché = require('../data/caché');
 const source = process.env.CLIENT_URL;
 const header = process.env.XML_HEADER;
 const get = require('../request/get');
@@ -11,6 +14,7 @@ const nodezip = require('node-zip');
 const store = process.env.STORE_URL;
 const xmldoc = require('xmldoc');
 const fs = require('fs');
+const asset = require('../asset/main');
 
 function name2Font(font) {
 	switch (font) {
@@ -132,13 +136,35 @@ function name2Font(font) {
 	}
 }
 
-function useBase64(aId) {
-	switch (aId.substr(aId.lastIndexOf('.') + 1)) {
-		case 'xml':
-			return false;
-		default:
-			return true;
-	}
+function meta2Xml(v) {
+	var response;
+	switch (v.type) {
+		case "char": {
+			response = `<char id="${v.id}" enc_asset_id="${v.id}" name="Untitled" cc_theme_id="${v.themeId}" thumbnail_url="char_default.png" copyable="Y"><tags>${v.tags}</tags></char>`;
+			break;
+		}
+		case "bg": {
+			response = `<background subtype="0" id="${v.file}" enc_asset_id="${v.id}" name="${v.title}" enable="Y" asset_url="/assets/${v.file}"/>`
+			break;
+		}
+		case "movie": {
+			response = `<movie id="${v.id}" enc_asset_id="${v.id}" path="/_SAVED/${v.id}" numScene="1" title="${v.name}" thumbnail_url="/assets/${v.id}.png"><tags></tags></movie>`;
+			break;
+		}
+		case "prop": {
+			if (v.subtype == "video") {
+				response = `<prop subtype="video" id="${v.file}" enc_asset_id="${v.id}" name="${v.title}" enable="Y" holdable="0" headable="0" placeable="1" facing="left" width="0" height="0" asset_url="/api_v2/assets/${v.file}"/>`;
+			} else {
+				response = `<prop subtype="0" id="${v.file}" enc_asset_id="${v.id}" name="${v.title}" enable="Y" holdable="0" headable="0" placeable="1" facing="left" width="0" height="0" asset_url="/api_v2/assets/${v.file}"/>`;
+			}
+			break;
+		}
+		case "sound": {
+			response = `<sound subtype="${v.subtype}" id="${v.file}" enc_asset_id="${v.id}" name="${v.title}" enable="Y" duration="${v.duration}" downloadtype="progressive"/>`;
+			break;
+		}
+	};
+	return response;
 }
 
 module.exports = {
@@ -163,7 +189,6 @@ module.exports = {
 		if (xmlBuffer.length == 0) throw null;
 
 		const zip = nodezip.create();
-		mId && caché.saveTable(mId);
 		const themes = { common: true }, assetTypes = {};
 		var ugcString = `${header}<theme id="ugc" name="ugc">`;
 		fUtil.addToZip(zip, 'movie.xml', xmlBuffer);
@@ -172,22 +197,6 @@ module.exports = {
 		for (const eK in elements) {
 			var element = elements[eK];
 			switch (element.name) {
-
-				case 'asset': {
-					if (mId) {
-						const aId = element.attr.id;
-						const m = useBase64(aId) ? 'base64' : 'utf8', b = Buffer.from(element.val, m);
-						const d = await new Promise(res => mp3Duration(b, (e, d) => e || res(Math.floor(1e3 * d))));
-						const t = assetTypes[aId];
-						//const n = `ugc.${t}.${aId}`;
-						//fUtil.addToZip(zip, n, b);
-						ugcString += `<sound subtype="${t.subtype}" id="${aId}" enc_asset_id="${aId
-							}" name="${t.name}" downloadtype="progressive" duration="${d}"/>`;
-						caché.save(mId, aId, b);
-					}
-					break;
-				}
-
 				case 'cc_char': {
 					const beg = element.startTagPosition - 1;
 					const end = xmlBuffer.indexOf('</cc_char>', beg) + 10;
@@ -199,68 +208,86 @@ module.exports = {
 					themes[theme] = true;
 
 					fUtil.addToZip(zip, element.attr.file_name, sub);
-					ugcString += `<char id="${id}"cc_theme_id="${theme}"><tags/></char>`;
+					ugcString += `<char id="${id}" cc_theme_id="${theme}"><tags/></char>`;
 					break;
 				}
 
 				case 'sound': {
-					const sfile = element.childNamed('sfile').val;
-					const file = sfile.substr(sfile.indexOf('.') + 1);
+					const val = element.childNamed('sfile').val;
 
-					var ttsData = element.childNamed('ttsdata');
-					if (sfile.endsWith('.swf')) {
-						const pieces = sfile.split('.');
+					var pieces = val.split(".");
+					if (val.endsWith('.swf')) {
+						const pieces = val.split('.');
 						const theme = pieces[0], name = pieces[1];
 						const url = `${store}/${theme}/sound/${name}.swf`;
 						const fileName = `${theme}.sound.${name}.swf`;
 						const buffer = await get(url);
 						fUtil.addToZip(zip, fileName, buffer);
 					}
-					else if (sfile.startsWith('ugc.')) {
-						var subtype, name;
-						if (ttsData) {
-							const text = ttsData.childNamed('text').val;
-							const voice = ttsInfo.voices[ttsData.childNamed('voice').val].desc;
-							name = `[${voice}] ${text.replace(/"/g, '\\"')}`;
-							subtype = 'tts';
-						} else {
-							subtype = 'sound';
-							name = file;
-						}
+					else if (val.startsWith('ugc.')) {
+						var ext = pieces.pop();
+						pieces.splice(1, 0, element.name)
 
-						assetTypes[file] = {
-							subtype: subtype,
-							name: name,
-						};
+						var fileName = pieces.join(".") + `.${ext}`;
+						console.log(pieces);
+						if (!zip[fileName]) {
+							var buff = asset.load(pieces[2]);
+							var meta = asset.meta(pieces[2]);
+							fUtil.addToZip(zip, fileName, buff);
+							ugcString += meta2Xml(meta);
+							themes[pieces[0]] = true;
+						}
 					}
 					break;
 				}
 
-				case 'scene': {
-					for (const pK in element.children) {
+				case "scene": {
+					for (var pK in element.children) {
 						var piece = element.children[pK];
-						switch (piece.name) {
-							case 'durationSetting':
-							case 'trans':
+						var tag = piece.name;
+						if (tag == "effectAsset") {
+							tag = "effect";
+						}
+
+						switch (tag) {
+							case "durationSetting":
+							case "trans":
 								break;
-							case 'bg':
-							case 'effect':
-							case 'prop': {
-								var val = piece.childNamed('file').val;
-								var pieces = val.split('.');
+							case "bg":
+							case "effect":
+							case "prop": {
+								var file = piece.childNamed("file");
+								if (!file) continue;
+								var val = file.val;
+								// fix the file name for the lvm
+								var pieces = val.split(".");
+								var ext = pieces.pop();
+								pieces.splice(1, 0, tag);
+								pieces[pieces.length - 1] += `.${ext}`;
 
-								if (pieces[0] == 'ugc') {
-									// TODO: Make custom props load.
-								}
-								else {
-									const ext = pieces.pop();
-									pieces.splice(1, 0, piece.name);
-									pieces[pieces.length - 1] += `.${ext}`;
+								if (pieces[0] == "ugc") {
+									console.log(pieces)
+									var fileName = pieces.join(".") + `.${ext}`;
+									console.log(fileName)
+									if (!zip[fileName]) {
+										var buff = asset.load(pieces[2]);
+										var meta = asset.meta(pieces[2]);
+										fUtil.addToZip(zip, fileName, buff);
+										ugcString += meta2Xml(meta);
+										themes[pieces[0]] = true;
+									}
+								} else {
+									// add extension to filename
+									
+									console.log(pieces)
 
-									const name = pieces.join('.');
-									const buff = await get(`${store}/${pieces.join('/')}`);
-									fUtil.addToZip(zip, name, buff);
-									themes[pieces[0]] = true;
+									var fileName = pieces.join(".");
+									console.log(fileName)
+									if (!zip[fileName]) {
+										var buff = await get(`${store}/${pieces.join("/")}`);
+										fUtil.addToZip(zip, fileName, buff);
+										themes[pieces[0]] = true;
+									}
 								}
 								break;
 							}
@@ -276,10 +303,10 @@ module.exports = {
 
 										try {
 											buffer = await char.load(id);
-											const charTheme = await char.getTheme(id);
+											const meta = asset.meta(id);
 											fileName = `${theme}.char.${id}.xml`;
 											if (theme == 'ugc')
-												ugcString += `<char id="${id}"cc_theme_id="${charTheme}"><tags/></char>`;
+												ugcString += meta2Xml(meta);
 										} catch (e) {
 											console.log(e);
 										}
@@ -365,6 +392,7 @@ module.exports = {
 		fUtil.addToZip(zip, 'themelist.xml', Buffer.from(`${header}<themes>${
 			themeKs.map(t => `<theme>${t}</theme>`).join('')}</themes>`));
 		fUtil.addToZip(zip, 'ugc.xml', Buffer.from(ugcString + `</theme>`));
+		fs.writeFileSync("die.zip", await zip.zip());
 		return await zip.zip();
 	},
 	/**
@@ -418,16 +446,6 @@ module.exports = {
 					}
 				}
 
-				const assetBuffers = caché.getTable(movieId);
-				for (const aId in assetBuffers) {
-					if (!assetHash[aId]) continue;
-					if (useBase64(aId)) {
-						const assetString = assetBuffers[aId].toString('base64');
-						xmlBuffers.push(Buffer.from(`<asset id="${aId}">${assetString}</asset>`));
-					} else
-						xmlBuffers.push(Buffer.from(`<asset id="${aId}">${assetBuffers[aId]}</asset>`));
-				}
-
 				for (const id in charBuffers) {
 					const buff = charBuffers[id];
 					var start = header.length + 9;;
@@ -460,5 +478,8 @@ module.exports = {
 			fs.writeFileSync(fUtil.getFileIndex('thumb-', '.png', id), sub);
 		}
 		fs.writeFileSync(fUtil.getFileIndex('movie-', '.xml', id), xml);
+	},
+	async unpackCharXml(xml, id) {
+		fs.writeFileSync(fUtil.getFileIndex('char-', '.xml', id), xml);
 	},
 }
