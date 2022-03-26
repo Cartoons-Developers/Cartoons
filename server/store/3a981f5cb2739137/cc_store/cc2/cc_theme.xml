@@ -1,13 +1,16 @@
 <cc_theme id="cc2" studio_theme_id="action" name="Urban" xsi:noNamespaceSchemaLocation="http://alvin.goanimate.org/schema/cc_library_theme.xsd" version="2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <color r="ccSkinColor" component_type="bodyshape" enable="Y">
-        <choice>0xEAD2B0</choice>
+        <choice>0xEED8C9</choice>
         <choice>0xEBC9AF</choice>
-        <choice>0xE2C294</choice>
+        <choice>0xEAD2B0</choice>
+        <choice>0xEBC79E</choice>
+        <choice>0xD1AE7B</choice>
         <choice>0xCE9D7D</choice>
+        <choice>0xAE7B5A</choice>
         <choice>0xAC8151</choice>
-        <choice>0x97C1A4</choice>
         <choice>0x8D6850</choice>
-        <choice>0x3681A9</choice>
+        <choice>0x715643</choice>
+        <choice>0x48342A</choice>
     </color>
     <color r="ccFaceHairColor" component_type="bodyshape" enable="Y">
         <choice>0xF2E784</choice>
