@@ -9537,6 +9537,9 @@
   <component type="hair" id="braids" path="braids" name="braids" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
     <state id="default" filename="default.swf" />
   </component>
+  <component type="hair" id="bowlcut" path="bowlcut" name="bowlcut" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+    <state id="default" filename="default.swf" />
+  </component>
   <component type="hair" id="dreadlocks" path="dreadlocks" name="dreadlocks" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
     <state id="default" filename="default.swf" />
   </component>
