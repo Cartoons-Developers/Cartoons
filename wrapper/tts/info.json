@@ -1,4 +1,4 @@
-﻿{
+{
 	"voices": {
 		"aditi": {
 			"language": "en",
@@ -1153,6 +1153,6 @@
 		"nl": "Dutch",
 		"cy": "Welsh",
 		"cs": "Czech",
-		"is": "Icelandic"
+		"is": "Icelandic",
 	}
 }
