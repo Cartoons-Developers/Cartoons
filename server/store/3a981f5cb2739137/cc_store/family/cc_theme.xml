@@ -2493,7 +2493,7 @@
       <component type="eyebrow" component_id="109" theme_id="family" x="0" y="2" xscale="1" yscale="1" offset="0" rotation="0" />
       <component type="lower_body" component_id="adam_080" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" />
       <component type="nose" component_id="014" theme_id="family" x="0" y="2" xscale="1" yscale="1" offset="0" rotation="0" />
-      <component type="hair" component_id="136new" theme_id="family" x="0" y="2" xscale="1" yscale="1" offset="0" rotation="0" />
+      <component type="hair" component_id="new_hairstyle8" theme_id="family" x="0" y="2" xscale="1" yscale="1" offset="0" rotation="0" />
       <component type="eye" component_id="male" theme_id="family" x="0" y="4" xscale="1" yscale="1" offset="2" rotation="0" />
       <component type="upper_body" component_id="adam_044" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" />
     </default_char>
@@ -4101,7 +4101,7 @@
       <component type="mouth" component_id="201" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" />
       <component type="upper_body" component_id="adam_068" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" />
       <component type="eye" component_id="female" theme_id="family" x="0" y="4" xscale="1" yscale="1" offset="2" rotation="0" />
-      <component type="hair" component_id="233" theme_id="family" x="0" y="2" xscale="1" yscale="1" offset="0" rotation="0" />
+      <component type="hair" component_id="081" theme_id="family" x="0" y="2" xscale="1" yscale="1" offset="0" rotation="0" />
     </default_char>
     <action id="stand" name="Stand" loop="Y" totalframe="1" enable="Y" category="Poses" is_motion="N">
       <selection type="facial" facial_id="head_neutral" />
