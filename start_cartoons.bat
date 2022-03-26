@@ -1,7 +1,7 @@
-:: Cartoons
-:: Author: Joey Nigro
+:: Cartoons Launcher
 :: License: MIT
-
+set WRAPPER_VER=2.4.0
+title Cartoons v%WRAPPER_VER% [Initializing...]
 ::::::::::::::::::::
 :: Initialization ::
 ::::::::::::::::::::
@@ -11,40 +11,6 @@
 
 :: Lets variables work or something idk im not a nerd
 SETLOCAL ENABLEDELAYEDEXPANSION
-
-:: Idk what this is
-if exist %tmp%\importserver.bat ( del %tmp%\importserver.bat )
-
-:: Load metadata
-if not exist utilities\metadata.bat ( set NOMETA=y & goto metamissing )
-set SUBSCRIPT=y
-call utilities\metadata.bat
-goto metaavailable
-
-:metamissing
-if %NOMETA%==y (
-	title Cartoons [Metadata Missing]
-	echo The metadata's missing for some reason?
-	echo Restoring...
-	goto metacopy
-)
-
-:returnfrommetacopy
-if not exist utilities\metadata.bat ( echo Something is horribly wrong. You may be in a read-only system/admin folder. & pause & exit )
-if %NOMETA%==n ( set SUBSCRIPT=y & call utilities\metadata.bat )
-
-:rebootasadmin
-if %ADMIN%==n (
-	:: echo Set UAC = CreateObject^("Shell.Application"^)>> %tmp%\requestAdmin.vbs
-	:: set params= %*
-	:: echo UAC.ShellExecute "cmd.exe", "/c ""%~s0"" %params:"=""%", "", "runas", 1>> %tmp%\requestAdmin.vbs
-	:: start "" %tmp%\requestAdmin.vbs
-	exit
-)
-:metaavailable
-
-:: Set title
-title Cartoons v!WRAPPER_VER!b!WRAPPER_BLD! [Initializing...]
 
 :: Make sure we're starting in the correct folder, and that it worked (otherwise things would go horribly wrong)
 pushd "%~dp0"
@@ -78,9 +44,43 @@ if not exist server ( goto error_location )
 :: Create checks folder if nonexistent
 if not exist "utilities\checks" md utilities\checks
 
+:: Operator, attention!
+if not exist "utilities\checks\disclaimer.txt" (
+	echo DISCLAIMER
+  echo:
+	echo Cartoons is a project made by Joey to give people the ability to use the LVM freely with the business themes and no charge whatsoever.
+	echo By using this product, you agree to the terms and conditions, which you must read before using the software.
+	echo all of the devs think that use of this software is justified.
+	echo:
+	echo I Joey do not promote piracy whatsoever, I just want people to feel free to use business friendly and the non business themes without having to pay.
+	echo:
+	echo Excluding Adobe Flash and GoAnimate Inc's assets, Cartoons is free/libre software.
+	echo You are free to redistribute and/or modify it under the terms of the MIT ^(aka Expat^) license,
+	echo except for some dependencies which have different licenses with slightly different rights.
+	echo Read the LICENSE file in Cartoons's base folder and the licenses in utilities/sourcecode for more info.
+	echo:
+	echo By continuing to use Cartoons, you acknowledge the nature of this project, and your right to use it.
+	echo If you object to any of this, feel free to close Cartoons now.
+	echo You will be allowed to accept 20 seconds after this message has appeared.
+	echo: 
+	PING -n 21 127.0.0.1>nul
+	echo If you still want to use Cartoons, press Y. If you no longer want to, press N.
+	:disclaimacceptretry
+	set /p ACCEPTCHOICE= Response:
+	echo:
+	if not '!acceptchoice!'=='' set acceptchoice=%acceptchoice:~0,1%
+	if /i "!acceptchoice!"=="y" goto disclaimaccepted
+	if /i "!acceptchoice!"=="n" exit
+	goto disclaimacceptretry
+	:disclaimaccepted
+	echo: 
+	echo Sorry for all the legalese, let's get back on track.
+	echo You've accepted the disclaimer. To reread it, remove this file. > utilities\checks\disclaimer.txt
+)
+
 :: Welcome, Director Ford!
 echo Cartoons
-echo A project from VisualPlugin adapted by Joey Nigro
+echo A project from PurpleCreation adapted by The Cartoons Team
 echo Version !WRAPPER_VER!
 echo:
 
@@ -118,13 +118,14 @@ if !VERBOSEWRAPPER!==n (
 	echo:
 )
 
-title Cartoons v!WRAPPER_VER!b!WRAPPER_BLD! [Checking dependencies...]
+title Cartoons v!WRAPPER_VER! [Checking dependencies...]
 
 :: Preload variables
 set NEEDTHEDEPENDERS=n
 set ADMINREQUIRED=n
 set FLASH_DETECTED=n
 set FLASH_CHROMIUM_DETECTED=n
+set FLASH_FIREFOX_DETECTED=n
 set NODEJS_DETECTED=n
 set HTTPSERVER_DETECTED=n
 set HTTPSCERT_DETECTED=n
@@ -134,6 +135,9 @@ if !INCLUDEDCHROMIUM!==y set BROWSER_TYPE=chrome
 if !VERBOSEWRAPPER!==y ( echo Checking for Flash installation... )
 if exist "!windir!\SysWOW64\Macromed\Flash\*pepper.exe" set FLASH_CHROMIUM_DETECTED=y
 if exist "!windir!\System32\Macromed\Flash\*pepper.exe" set FLASH_CHROMIUM_DETECTED=y
+if exist "!windir!\SysWOW64\Macromed\Flash\*plugin.exe" set FLASH_FIREFOX_DETECTED=y
+if exist "!windir!\System32\Macromed\Flash\*plugin.exe" set FLASH_FIREFOX_DETECTED=y
+if !BROWSER_TYPE!==chrome (
 	if !FLASH_CHROMIUM_DETECTED!==n (
 		echo Flash for Chrome could not be found.
 		echo:
@@ -146,6 +150,36 @@ if exist "!windir!\System32\Macromed\Flash\*pepper.exe" set FLASH_CHROMIUM_DETEC
 		set FLASH_DETECTED=y
 		goto flash_checked
 	)
+)
+if !BROWSER_TYPE!==firefox (
+	if !FLASH_FIREFOX_DETECTED!==n (
+		echo Flash for Firefox could not be found.
+		echo:
+		set NEEDTHEDEPENDERS=y
+		set ADMINREQUIRED=y
+		goto flash_checked
+	) else (
+		echo Flash is installed.
+		echo:
+		set FLASH_DETECTED=y
+		goto flash_checked
+	)
+)
+:: just assume chrome it's what everyone uses
+if !BROWSER_TYPE!==n (
+	if !FLASH_CHROMIUM_DETECTED!==n (
+		echo Flash for Chrome could not be found.
+		echo:
+		set NEEDTHEDEPENDERS=y
+		set ADMINREQUIRED=y
+		goto flash_checked
+	) else (
+		echo Flash is installed.
+		echo:
+		set FLASH_DETECTED=y
+		goto flash_checked
+	)
+)
 :flash_checked
 
 :: Node.js
@@ -180,7 +214,7 @@ if !errorlevel! == 0 (
 
 :: HTTPS cert
 if !VERBOSEWRAPPER!==y ( echo Checking for HTTPS certificate... )
-call certutil -store -enterprise root | findstr "WOCRTV3" >nul
+certutil -store -enterprise root | findstr "WOCRTV3" >nul
 if !errorlevel! == 0 (
 	echo HTTPS cert installed.
 	echo:
@@ -241,7 +275,7 @@ if !NEEDTHEDEPENDERS!==y (
 		set "line=%%b"
 		>>!tmpcfg! echo(!line:~1!
 		set /a count+=1
-		if !count! GEQ 9 goto linereached
+		if !count! GEQ 14 goto linereached
 	)
 	:linereached
 	:: Overwrite the original setting
@@ -257,7 +291,7 @@ if !NEEDTHEDEPENDERS!==y (
 	goto skip_dependency_install
 )
 
-title Cartoons v!WRAPPER_VER!b!WRAPPER_BLD! [Installing dependencies...]
+title Cartoons v!WRAPPER_VER! [Installing dependencies...]
 
 :: Preload variables
 set INSTALL_FLAGS=ALLUSERS=1 /norestart
@@ -270,7 +304,7 @@ if /i "!processor_architecture!"=="AMD64" set CPU_ARCHITECTURE=64
 if /i "!PROCESSOR_ARCHITEW6432!"=="AMD64" set CPU_ARCHITECTURE=64
 
 :: Check for admin if installing Flash or Node.js
-:: Skipped in Safe Mode, just in case anyone is running Wrapper in safe mode... for some reason
+:: Skipped in Safe Mode, just in case anyone is running Cartoons in safe mode... for some reason
 :: and also because that was just there in the code i used for this and i was like "eh screw it why remove it"
 if !ADMINREQUIRED!==y (
 	if !VERBOSEWRAPPER!==y ( echo Checking for Administrator rights... && echo:)
@@ -294,7 +328,7 @@ if !ADMINREQUIRED!==y (
 			echo To do this, it must be started with Admin rights.
 			echo:
 			echo Close this window and re-open Cartoons as an Admin.
-			echo ^(right-click start_wrapper.bat and click "Run as Administrator"^)
+			echo ^(right-click start_vyond.bat and click "Run as Administrator"^)
 			echo:
 			if !DRYRUN!==y (
 				echo ...yep, dry run is going great so far, let's skip the exit
@@ -302,20 +336,55 @@ if !ADMINREQUIRED!==y (
 				goto postadmincheck
 			)
 			pause
-			set ADMIN=n
-			goto rebootasadmin
+			exit
 		)
 	)
 	if !VERBOSEWRAPPER!==y ( echo Admin rights detected. && echo:)
 )
 :postadmincheck
-if exist "%tmp%\requestAdmin.vbs" ( del "%tmp%\requestAdmin.vbs">nul )
 
 :: Flash Player
 if !FLASH_DETECTED!==n (
 	:start_flash_install
 	echo Installing Flash Player...
-	set BROWSER_TYPE=chrome && if !VERBOSEWRAPPER!==y ( echo Chromium-based browser picked. && echo:) && goto escape_browser_ask
+	echo:
+	if !BROWSER_TYPE!==n (
+		:: Ask what type of browser is being used.
+		echo What web browser do you use? If it isn't here,
+		echo look up whether it's based on Chromium or Firefox.
+		echo If it's not based on either, then
+		echo Wrapper: Offline will not be able to install Flash.
+		echo Unless you know what you're doing and have a
+		echo version of Flash made for your browser, please
+		echo install a Chrome or Firefox based browser.
+		echo:
+		echo Enter 1 for Chrome
+		echo Enter 2 for Firefox
+		echo Enter 3 for Edge
+		echo Enter 4 for Opera
+		echo Enter 5 for Brave
+		echo Enter 6 for Chrome-based browser
+		echo Enter 7 for Firefox-based browser
+		echo Enter 0 for a non-standard browser ^(skips install^)
+		:browser_ask
+		set /p FLASHCHOICE=Response:
+		echo:
+		if "!flashchoice!"=="1" goto chromium_chosen
+		if "!flashchoice!"=="2" goto firefox_chosen
+		if "!flashchoice!"=="3" goto chromium_chosen
+		if "!flashchoice!"=="4" goto chromium_chosen
+		if "!flashchoice!"=="5" goto chromium_chosen
+		if "!flashchoice!"=="6" goto chromium_chosen
+		if "!flashchoice!"=="7" goto firefox_chosen
+		if "!flashchoice!"=="0" echo Flash will not be installed.&& goto after_flash_install
+		echo You must pick a browser.&& goto browser_ask
+
+		:chromium_chosen
+		set BROWSER_TYPE=chrome && if !VERBOSEWRAPPER!==y ( echo Chromium-based browser picked. && echo:) && goto escape_browser_ask
+
+		:firefox_chosen
+		set BROWSER_TYPE=firefox && if !VERBOSEWRAPPER!==y ( echo Firefox-based browser picked. ) && goto escape_browser_ask
+	)
 
 	:escape_browser_ask
 	echo To install Flash Player, Cartoons must kill any currently running web browsers.
@@ -331,9 +400,9 @@ if !FLASH_DETECTED!==n (
 		goto lurebrowserslayer
 	)
 	echo Rip and tear, until it is done.
-	for %%i in (firefox,palemoon,tor,iexplore,maxthon,microsoftedge,chrome,chrome64,chromium,opera,brave,torch,waterfox,basilisk,Basilisk-Portable) do (
+	for %%i in (firefox,palemoon,iexplore,microsoftedge,chrome,chrome64,opera,brave) do (
 		if !VERBOSEWRAPPER!==y (
-			 taskkill /f /im %%i.exe /t >nul
+			 taskkill /f /im %%i.exe /t
 			 wmic process where name="%%i.exe" call terminate
 		) else (
 			 taskkill /f /im %%i.exe /t >nul
@@ -342,18 +411,33 @@ if !FLASH_DETECTED!==n (
 	)
 	:lurebrowserslayer
 	echo:
-		echo Starting the Flash Player installer...
-		echo:
+
+	if !BROWSER_TYPE!==chrome (
+		echo Starting Flash for Chrome installer...
 		if not exist "utilities\installers\flash_windows_chromium.msi" (
 			echo ...erm. Bit of an issue there actually. The installer doesn't exist.
 			echo A normal copy of Cartoons should come with one.
-			echo You may be able to get the installer here:
-			echo:
+			echo You may be able to find a copy on this website:
+			echo https://helpx.adobe.com/flash-player/kb/archived-flash-player-versions.html
 			echo Although Flash is needed, Offline will continue launching.
+			pause
+		)
+		if !DRYRUN!==n ( msiexec /i "utilities\installers\flash_windows_chromium.msi" !INSTALL_FLAGS! /quiet )
+	)
+	if !BROWSER_TYPE!==firefox (
+		echo Starting Flash for Firefox installer...
+		if not exist "utilities\installers\flash_windows_firefox.msi" (
+			echo ...erm. Bit of an issue there actually. The installer doesn't exist.
+			echo A normal copy of Cartoons should come with one.
+			echo You may be able to find a copy on this website:
+			echo https://helpx.adobe.com/flash-player/kb/archived-flash-player-versions.html
+			echo Although Flash is needed, Cartoons will try to install anything else it can.
 			pause
 			goto after_flash_install
 		)
-		if !DRYRUN!==n ( msiexec /i "utilities\installers\flash_windows_chromium.msi" !INSTALL_FLAGS! /quiet )
+		if !DRYRUN!==n ( msiexec /i "utilities\installers\flash_windows_firefox.msi" !INSTALL_FLAGS! /quiet )
+	)
+
 	echo Flash has been installed.
 	echo:
 )
@@ -371,7 +455,7 @@ if !NODEJS_DETECTED!==n (
 			echo A normal copy of Cartoons should come with one.
 			echo You should be able to find a copy on this website:
 			echo https://nodejs.org/en/download/
-			echo Although Node.js is needed, Offline will try to install anything else it can.
+			echo Although Node.js is needed, Cartoons will try to install anything else it can.
 			pause
 			goto after_nodejs_install
 		)
@@ -392,22 +476,17 @@ if !NODEJS_DETECTED!==n (
 			goto after_nodejs_install
 		)
 		echo Proper Node.js installation doesn't seem possible to do automatically.
-		echo You can just keep clicking next until it finishes, and Cartoons will continue once it closes.
+		echo You can just keep clicking next until it finishes, and Vyond : Remastered will continue once it closes.
 		if !DRYRUN!==n ( msiexec /i "utilities\installers\node_windows_x32.msi" !INSTALL_FLAGS! )
 		goto nodejs_installed
 	)
 	if !CPU_ARCHITECTURE!==what (
 		echo:
 		echo Well, this is a little embarassing.
-		echo:
 		echo Cartoons can't tell if you're on a 32-bit or 64-bit system.
 		echo Which means it doesn't know which version of Node.js to install...
 		echo:
 		echo If you have no idea what that means, press 1 to just try anyway.
-		echo:
-		echo If you know what kind of architecture you're running, but Offline
-		echo didn't detect it, press 2.
-		echo:
 		echo If you're in the future with newer architectures or something
 		echo and you know what you're doing, then press 3 to keep going.
 		echo:
@@ -415,20 +494,6 @@ if !NODEJS_DETECTED!==n (
 		set /p CPUCHOICE= Response:
 		echo:
 		if "!cpuchoice!"=="1" if !DRYRUN!==n ( msiexec /i "utilities\installers\node_windows_x32.msi" !INSTALL_FLAGS! ) && if !VERBOSEWRAPPER!==y ( echo Attempting 32-bit Node.js installation. ) && goto nodejs_installed
-		if "!cpuchoice!"=="2" (
-			echo:
-			echo Press 1 if you're running Cartoons on a 32-bit system.
-			echo Press 2 if you're running Cartoons on a 64-bit system.
-			echo:
-			:whatsystemreask
-			set /p WHATSYSTEM= Response:
-			echo:
-			if "!whatsystem!"=="1" set CPU_ARCHITECTURE=32
-			if "!whatsystem!"=="2" set CPU_ARCHITECTURE=64
-			if "!whatsystem!"=="32" echo Why couldn't you just type 1? & echo: & pause & set CPU_ARCHITECTURE=32
-			if "!whatsystem!"=="64" echo Why couldn't you just type 2? & echo: & pause & set CPU_ARCHITECTURE=64			
-			if "!whatsystem!"=="" echo That's an invalid option. Please try again. && goto whatsystemreask
-		)
 		if "!cpuchoice!"=="3" echo Node.js will not be installed. && goto after_nodejs_install
 		echo You must pick one or the other.&& goto architecture_ask
 	)
@@ -457,7 +522,7 @@ if !HTTPSERVER_DETECTED!==n (
 
 		:: Double check for installation
 		echo Checking for http-server installation again...
-		call npm list -g | find "http-server" > nul
+		npm list -g | find "http-server" > nul
 		if !errorlevel! == 0 (
 			goto httpserverinstalled
 		) else (
@@ -469,7 +534,7 @@ if !HTTPSERVER_DETECTED!==n (
 				echo A normal copy of Cartoons should come with them.
 				echo You should be able to find a copy on this website:
 				echo https://www.npmjs.com/package/http-server
-				echo Although http-server is needed, Offline will try to install anything else it can.
+				echo Although http-server is needed, Cartoons will try to install anything else it can.
 				pause
 				goto after_nodejs_install
 			)
@@ -487,7 +552,7 @@ if !HTTPSERVER_DETECTED!==n (
 			echo:
 			echo Local file installation failed. Something's not right.
 			echo Unless this was intentional, ask for support or install http-server manually.
-			echo Enter "npm install http-server -g" into a separate Command Prompt window.
+			echo Enter "npm install http-server -g" into a command prompt.
 			echo:
 			pause
 			exit
@@ -527,8 +592,8 @@ if !HTTPSCERT_DETECTED!==n (
 		if /i not !ERRORLEVEL!==0 (
 			if !VERBOSEWRAPPER!==n ( cls )
 			echo For Cartoons to work, it needs an HTTPS certificate to be installed.
-			echo If you have administrator privileges, you should reopen start_wrapper.bat as Admin.
-			echo ^(it will do this automatically if you say you have admin rights^)
+			echo If you have administrator privileges, you should reopen start_vyond.bat as Admin.
+			echo ^(do this by right-clicking start_vyond.bat and click "Run as Administrator"^)
 			echo:
 			echo If you can't do that, there's another method, but it's less reliable and is done per-browser.
 			echo: 
@@ -537,7 +602,7 @@ if !HTTPSCERT_DETECTED!==n (
 			set /p CERTCHOICE= Response:
 			echo:
 			if not '!certchoice!'=='' set certchoice=%certchoice:~0,1%
-			if /i "!certchoice!"=="y" echo This window will now close so you can restart it with admin. & set ADMIN=n & goto rebootasadmin
+			if /i "!certchoice!"=="y" echo This window will now close so you can restart it with admin. & pause & exit
 			if /i "!certchoice!"=="n" goto certnonadmin
 			echo You must answer Yes or No. && goto certaskretry
 
@@ -560,7 +625,7 @@ if !HTTPSCERT_DETECTED!==n (
 				)
 			) else (
 				pushd utilities\ungoogled-chromium
-				start chromium.exe --user-data-dir=the_profile https://localhost:4664/certbypass.html --allow-outdated-plugins >nul
+				start chrome.exe --allow-outdated-plugins --user-data-dir=the_profile https://localhost:4664/certbypass.html >nul
 				popd
 			)
 			pause
@@ -581,7 +646,7 @@ if !HTTPSCERT_DETECTED!==n (
 )
 :after_cert_install
 
-:: Alert user to restart Wrapper without running as Admin
+:: Alert user to restart Cartoons without running as Admin
 if !ADMINREQUIRED!==y (
 	color 20
 	if !VERBOSEWRAPPER!==n ( cls )
@@ -604,64 +669,34 @@ if !ADMINREQUIRED!==y (
 	exit
 )
 color 0f
-echo Restarting explorer.exe...
-echo:
-TASKKILL /F /IM explorer.exe >nul
-PING -n 2 127.0.0.1>nul
-start explorer.exe
-cls
-echo All dependencies now installed^^!
-echo:
-echo It is recommended that you restart the computer
-echo to make sure that everything is fully working.
-echo:
-echo Would you like to restart your system before
-echo using Cartoons? [Y/n]
-echo:
-set /p RESTARTPC= Response: 
-if not '!restartpc!'=='' set restartpc=%restartpc:~0,1%
-if /i "!restartpc!"=="y" (
-	echo Press any key to start the rebooting process.
-	echo:
-	pause
-	echo Your PC will reboot in 10 seconds.
-	PING -n 11 127.0.0.1>nul
-	echo Rebooting your PC...
-	call shutdown /r /t 00
-	exit
-)
-if /i "!restartpc!"=="n" goto continuing
-
-:continuing
-echo Continuing with Cartoons boot.
+echo All dependencies now installed^^! Continuing with Cartoons boot.
 echo:
 
 :skip_dependency_install
 
 ::::::::::::::::::::::
-:: Starting Wrapper ::
+:: Starting Vyond ::
 ::::::::::::::::::::::
 
-title Cartoons v!WRAPPER_VER!b!WRAPPER_BLD! [Loading...]
+title Cartoons v!WRAPPER_VER! [Loading...]
 
 :: Close existing node apps
 :: Hopefully fixes EADDRINUSE errors??
 if !VERBOSEWRAPPER!==y (
-	echo Closing any existing node and/or PHP apps and batch processes...
-	for %%i in (npm start,npm,http-server,HTTP-SERVER HASN'T STARTED,NODE.JS HASN'T STARTED YET,VFProxy PHP Launcher for Cartoons) do (
+        echo Closing any existing node and/or PHP apps and batch processes...
+	for %%i in (npm start,npm,http-server,HTTP-SERVER HASN'T STARTED,NODE.JS HASN'T STARTED YET) do (
 		if !DRYRUN!==n ( TASKKILL /FI "WINDOWTITLE eq %%i" >nul 2>&1 )
 	)
-	if !DRYRUN!==n ( TASKKILL /IM node.exe /F >nul 2>&1 )
-	if !DRYRUN!==n ( TASKKILL /IM php.exe /F >nul 2>&1 )
+	echo Closing any existing node apps...
+	if !DRYRUN!==n ( TASKKILL /IM node.exe /F )
 	echo:
 ) else (
-	if !DRYRUN!==n ( TASKKILL /IM node.exe /F >nul 2>&1 )
-	if !DRYRUN!==n ( TASKKILL /IM php.exe /F >nul 2>&1 )
+	if !DRYRUN!==n ( TASKKILL /IM node.exe /F 2>nul )
 )
 
-:: Start Node.js, http-server and PHP webserver for VFProxy
+:: Start Node.js and http-server 
 if !CEPSTRAL!==n (
-	echo Loading Node.js, http-server and PHP webserver ^(for VFProxy only^)...
+	echo Loading Node.js and http-server...
 ) else (
 	echo Loading Node.js and http-server...
 )
@@ -669,11 +704,9 @@ pushd utilities
 if !VERBOSEWRAPPER!==y (
 	if !DRYRUN!==n ( start /MIN open_http-server.bat )
 	if !DRYRUN!==n ( start /MIN open_nodejs.bat )
-	if !DRYRUN!==n ( start /MIN open_vfproxy_php.bat )
 ) else (
 	if !DRYRUN!==n ( start SilentCMD open_http-server.bat )
 	if !DRYRUN!==n ( start SilentCMD open_nodejs.bat )
-	if !DRYRUN!==n ( start SilentCMD open_vfproxy_php.bat )
 	)
 )
 popd
@@ -682,157 +715,119 @@ popd
 :: Prevents the video list opening too fast
 PING -n 6 127.0.0.1>nul
 
-echo Opening Cartoons...
-pushd utilities\ungoogled-chromium
-if !APPCHROMIUM!==y ( 
-	if !FULLSCREEN!==y (
-		set ARGS=--app=http://localhost:!port! --allow-outdated-plugins --start-fullscreen
+:: Open Cartoons in preferred browser
+if !INCLUDEDCHROMIUM!==n (
+	if !CUSTOMBROWSER!==n (
+		echo Opening Cartoons in your default browser...
+		if !DRYRUN!==n ( start http://localhost:4343 )
 	) else (
-		set ARGS=--app=http://localhost:!port! --allow-outdated-plugins
+		echo Opening Cartoons in your set browser...
+		echo If this does not work, you may have set the path wrong.
+		if !DRYRUN!==n ( start !CUSTOMBROWSER! http://localhost:4343 )
 	)
-)
-if !APPCHROMIUM!==n ( 
-	if !FULLSCREEN!==y (
-		set ARGS=http://localhost:!port! --allow-outdated-plugins --start-fullscreen
+) else (
+	echo Opening Cartoons using included Chromium...
+	pushd utilities\ungoogled-chromium
+	if !APPCHROMIUM!==y (
+		if !DRYRUN!==n ( start chrome.exe --allow-outdated-plugins --user-data-dir=the_profile --app=http://localhost:4343 )
 	) else (
-		set ARGS=http://localhost:!port! --allow-outdated-plugins
+		if !DRYRUN!==n (  start chrome.exe --allow-outdated-plugins --user-data-dir=the_profile http://localhost:4343 )
 	)
+	popd
 )
-if !DRYRUN!==n ( start chromium.exe --user-data-dir=the_profile !args! )
+
 echo Cartoons has been started^^! The video list should now be open.
 
 ::::::::::::::::
 :: Post-Start ::
 ::::::::::::::::
 
-title Cartoons v!WRAPPER_VER!b!WRAPPER_BLD!
+title Cartoons v!WRAPPER_VER!
 if !VERBOSEWRAPPER!==y ( goto wrapperstarted )
 :wrapperstartedcls
 cls
 :wrapperstarted
 
 echo:
-echo Cartoons v!WRAPPER_VER!b!WRAPPER_BLD! running
-echo A project from VisualPlugin adapted by GoTest334 and the Cartoons team
+echo Cartoons v!WRAPPER_VER! running
+echo A project from PurpleCreation adapted by Benson
 echo:
 if !VERBOSEWRAPPER!==n ( echo DON'T CLOSE THIS WINDOW^^! Use the quit option ^(0^) when you're done. )
-if !VERBOSEWRAPPER!==y ( echo Verbose mode is on, see the extra CMD windows for extra output. )
+if !VERBOSEWRAPPER!==y ( echo Verbose mode is on, see the two extra CMD windows for extra output. )
 if !DRYRUN!==y ( echo Don't forget, nothing actually happened, this was a dry run. )
+if !JUSTIMPORTED!==y ( echo Note: You'll need to reload the editor for your file to appear. )
 :: Hello, code wanderer. Enjoy seeing all the secret options easily instead of finding them yourself.
-if !DEVMODE!==y (
-	echo:
-	echo Standard options:
-	echo --------------------------------------
-)
-:: Spacing when dev mode is off
-if !DEVMODE!==n ( echo: )
+echo:
 echo Enter 1 to reopen the video list
-echo Enter 2 to open the settings
-echo Enter 3 to open the server page
-echo Enter 4 to export a video
-echo Enter 5 to Update Cartoons using git
-echo Enter 6 to open the backup/restore tool
-echo Enter 7 to view software information
-echo Enter ? to open the FAQ
+echo Enter 2 to open the server page
 echo Enter clr to clean up the screen
 echo Enter 0 to close Cartoons
 set /a _rand=(!RANDOM!*67/32768)+1
 if !_rand!==25 echo Enter things you think'll show a secret if you're feeling adventurous
-if !DEVMODE!==y (
-	echo:
-	echo Developer options:
-	echo --------------------------------------
-	echo Type "amnesia" to wipe your save.
-	echo Type "restart" to restart Cartoons.
-	echo Type "reload" to reload your settings and metadata.
-	echo Type "folder" to open the files.
-)
-echo:
 :wrapperidle
-popd
 echo:
-
-:::::::::::::
-:: Choices ::
-:::::::::::::
-
 set /p CHOICE=Choice:
 if "!choice!"=="0" goto exitwrapperconfirm
 set FUCKOFF=n
 if "!choice!"=="1" goto reopen_webpage
-if "!choice!"=="2" goto settings
-if "!choice!"=="3" goto open_server
-if "!choice!"=="4" goto start_exporter
-if "!choice!"=="5" goto updategit
-if "!choice!"=="6" goto backupandrestore
-if "!choice!"=="7" goto verinfo
-if "!choice!"=="?" goto open_faq
+if "!choice!"=="2" goto open_server
 if /i "!choice!"=="clr" goto wrapperstartedcls
 if /i "!choice!"=="cls" goto wrapperstartedcls
 if /i "!choice!"=="clear" goto wrapperstartedcls
 :: dev options
-if !DEVMODE!==y (
-	if /i "!choice!"=="amnesia" goto wipe_save
-	if /i "!choice!"=="restart" goto restart
-	if /i "!choice!"=="reload" goto reload_settings
-	if /i "!choice!"=="folder" goto open_files
-)
-if !DEVMODE!==n (
-	if /i "!choice!"=="amnesia" goto devmodeerror
-	if /i "!choice!"=="restart" goto devmodeerror
-	if /i "!choice!"=="reload" goto devmodeerror
-	if /i "!choice!"=="folder" goto devmodeerror
-)
+if /i "!choice!"=="amnesia" goto wipe_save
+if /i "!choice!"=="restart" goto restart
+if /i "!choice!"=="folder" goto open_files
 echo Time to choose. && goto wrapperidle
 
-:reopen_webpage	
-		echo Opening Cartoons...
-		pushd utilities\ungoogled-chromium
-		if !DRYRUN!==n ( start chromium.exe --user-data-dir=the_profile !args! )
+:reopen_webpage
+if !INCLUDEDCHROMIUM!==n (
+	if !CUSTOMBROWSER!==n (
+		echo Opening Cartoons in your default browser...
+		start http://localhost:4343
+	) else (
+		echo Opening Cartoons in your set browser...
+		start !CUSTOMBROWSER! http://localhost:4343 >nul
+	)
+) else (
+	echo Opening Cartoons using included Chromium...
+	pushd utilities\ungoogled-chromium
+	if !APPCHROMIUM!==y (
+		start chrome.exe --allow-outdated-plugins --user-data-dir=the_profile --app=http://localhost:4343 >nul
+	) else (
+		start chrome.exe --allow-outdated-plugins --user-data-dir=the_profile http://localhost:4343 >nul
+	)
+	popd
+)
 goto wrapperidle
 
 :open_server
-	echo Opening the server page...
+if !INCLUDEDCHROMIUM!==n (
+	if !CUSTOMBROWSER!==n (
+		echo Opening the server page in your default browser...
+		start https://localhost:4664
+	) else (
+		echo Opening the server page in your set browser...
+		start !CUSTOMBROWSER! https://localhost:4664 >nul
+	)
+) else (
+	echo Opening the server page using included Chromium...
 	pushd utilities\ungoogled-chromium
-	if !DRYRUN!==n ( start chromium.exe --user-data-dir=the_profile https://localhost:4664 --allow-outdated-plugins )
+	if !APPCHROMIUM!==y (
+		start chrome.exe --allow-outdated-plugins --user-data-dir=the_profile --app=https://localhost:4664 >nul
+	) else (
+		start chrome.exe --allow-outdated-plugins --user-data-dir=the_profile https://localhost:4664 >nul
+	)
+	popd
+)
 goto wrapperidle
 
 :open_files
-pushd
-echo Opening the wrapper-offline folder...
-start explorer.exe "%CD%"
+pushd ..
+echo Opening the vyond-remastered folder...
+start explorer.exe vyond-remastered
 popd
 goto wrapperidle
-
-
-:start_exporter
-echo Opening the exporter ^(in another window^)...
-pushd utilities
-start export.bat
-popd
-goto wrapperidle
-
-:updategit
-echo Updating W:O...
-cls
-call update_wrapper.bat
-cls
-title Cartoons v!WRAPPER_VER!b!WRAPPER_BLD!
-goto wrapperstartedcls
-
-:backupandrestore
-echo Starting the backup and restore tool...
-pushd utilities
-start backup_and_restore.bat
-popd
-goto wrapperidle
-
-:settings
-echo Launching settings..
-call settings.bat
-cls
-title Cartoons v!WRAPPER_VER!b!WRAPPER_BLD!
-goto wrapperstartedcls
 
 :youfuckoff
 echo You fuck off.
@@ -841,60 +836,124 @@ goto wrapperidle
 
 :open_faq
 echo Opening the FAQ...
-start notepad.exe FAQ.md
+start notepad.exe FAQ.txt
 goto wrapperidle
-
-:reload_settings
-call utilities\config.bat
-call utilities\metadata.bat
-goto wrapperstartedcls
-
-:verinfo
-cls
-echo Cartoons
-echo Version !WRAPPER_VER! Beta
-echo:
-echo This copy of Cartoons belongs to:
-if not %FIRST_NAME%==n (
-	if not %LAST_NAME%==n (
-		echo %FULL_NAME% ^(User: %USERNAME%^)
-	)
-) else (
-	echo User: %USERNAME%
-)
-if not %EMAIL%==n ( echo E-Mail: %EMAIL% )
-if not %DISCORD%==n ( echo Discord Tag: %DISCORD% )
-echo Machine ID: %COMPUTERNAME%
-echo:
-echo ^(DEV TIP: Interested in registering your copy of W:O under
-echo your name? Open "utilities\metadata.bat" in a text editor and
-echo edit any of the necessary values to your liking. This process
-echo will be automated in the near future.^)
-echo:
-pause & goto wrapperstartedcls
 
 :wipe_save
 call utilities\reset_install.bat
 if !errorlevel! equ 1 goto wrapperidle
-goto wrapperidle
 :: flows straight to restart below
 
 :restart
 TASKKILL /IM node.exe /F >nul 2>&1
 if !CEPSTRAL!==n ( TASKKILL /IM php.exe /F >nul 2>&1 )
 if !VERBOSEWRAPPER!==y (
-	for %%i in (npm start,npm,http-server,HTTP-SERVER HASN'T STARTED,NODE.JS HASN'T STARTED YET,VFProxy PHP Launcher for Cartoons,Server for imported voice clips TTS voice) do (
+	for %%i in (npm start,npm,http-server,HTTP-SERVER HASN'T STARTED,NODE.JS HASN'T STARTED YET, Server for imported voice clips TTS voice) do (
 		TASKKILL /FI "WINDOWTITLE eq %%i" >nul 2>&1
 	)
 )
 start "" /wait /B "%~F0" point_insertion
 exit
 
-:devmodeerror
-echo You have to have developer mode on
-echo in order to access these features.
+:w_a_t_c_h
+echo watch benson on youtube
+echo watch benson on youtube
+echo watch benson on youtube
+echo watch benson on youtube
+echo watch benson on youtube
+echo wa
+goto wrapperidle
+
+:patchtime
 echo:
-echo Please turn developer mode on in the settings, then try again.
+echo would you like to patch whoper online
+echo press y or n
+:patchtimeretry
+set /p PATCHCHOICE= Response:
+echo:
+if not '!patchchoice!'=='' set patchchoice=%patchchoice:~0,1%
+if /i "!patchchoice!"=="y" echo too bad B^) & goto wrapperidle
+if /i "!patchchoice!"=="n" echo good & goto wrapperidle
+echo yes or no question here && goto patchtimeretry
+
+:sayarandom
+:: welcome to "inside jokes with no context" land
+set /a _rand=!RANDOM!*15/32767
+if !_rand!==0 echo stress level ^>0
+if !_rand!==1 echo Something random.
+if !_rand!==2 echo oisjdoiajfgmafvdsdg
+if !_rand!==3 echo my head is unscrewed & echo what do i need it for
+if !_rand!==4 echo when you're eating popcorn you're eating busted nuts
+if !_rand!==5 echo chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+if !_rand!==6 echo when u nut so hard that ur roblox crashes
+if !_rand!==7 echo seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven
+if !_rand!==8 echo DONT ASK HOW I GOT IT OR YOU WILL BE BANNED FROM MY CHANNEL WITH NO SECOND CHANCES
+if !_rand!==9 echo everything you know is wrong & echo black is white up is down and short is long
+if !_rand!==10 echo It's a chekcpoint.
+if !_rand!==11 echo Another monday... & echo Another mind-numbing, run-of-the-mill monday... & echo ANOTHER MUNDANE, MORIBUND, HUMDRUM MONDAY!
+if !_rand!==12 echo try typing "with style" when exiting
+if !_rand!==13 echo elmo
+if !_rand!==14 echo gnorm gnat says: trans rights are human rights
+if !_rand!==15 echo wrapper inline
+goto wrapperidle
+
+:slayerstestaments
+echo:
+echo In the first age,
+PING -n 3 127.0.0.1>nul
+echo In the first battle,
+PING -n 3 127.0.0.1>nul
+echo When the shadows first lengthened,
+PING -n 4 127.0.0.1>nul
+echo One stood.
+PING -n 3 127.0.0.1>nul
+echo Slowed by the waste of unoptimized websites,
+PING -n 4 127.0.0.1>nul
+echo His soul harvested by the trackers of Google
+PING -n 5 127.0.0.1>nul
+echo And exposed beyond anonymity, 
+PING -n 4 127.0.0.1>nul
+echo He chose the path of perpetual torment.
+PING -n 6 127.0.0.1>nul
+echo In his ravenous hatred,
+PING -n 3 127.0.0.1>nul
+echo He found no peace,
+PING -n 3 127.0.0.1>nul
+echo And with boiling blood,
+PING -n 3 127.0.0.1>nul
+echo He scoured the search results,
+PING -n 4 127.0.0.1>nul
+echo Seeking vengeance against the companies who had wronged him.
+PING -n 6 127.0.0.1>nul
+echo He wore the crown of the Taskkillers,
+PING -n 4 127.0.0.1>nul
+echo and those that tasted the bite of his sword
+PING -n 5 127.0.0.1>nul
+echo named him...
+PING -n 3 127.0.0.1>nul
+echo the Browser Slayer.
+PING -n 3 127.0.0.1>nul
+:: here comes something that looks awesome normaly but is disgusting when escaped for batch
+:: credit to http://www.gamers.org/~fpv/doomlogo.html
+echo ^=^=^=^=^=^=^=^=^=^=^=^=^=^=^=^=^=     ^=^=^=^=^=^=^=^=^=^=^=^=^=^=^=     ^=^=^=^=^=^=^=^=^=^=^=^=^=^=^=   ^=^=^=^=^=^=^=^=  ^=^=^=^=^=^=^=^=
+echo ^\^\ ^. ^. ^. ^. ^. ^. ^.^\^\   //^. ^. ^. ^. ^. ^. ^.^\^\   //^. ^. ^. ^. ^. ^. ^.^\^\  ^\^\^. ^. ^.^\^\// ^. ^. //
+echo ^|^|^. ^. ^._____^. ^. ^.^|^| ^|^|^. ^. ^._____^. ^. ^.^|^| ^|^|^. ^. ^._____^. ^. ^.^|^| ^|^| ^. ^. ^.^\/ ^. ^. ^.^|^|
+echo ^|^| ^. ^.^|^|   ^|^|^. ^. ^|^| ^|^| ^. ^.^|^|   ^|^|^. ^. ^|^| ^|^| ^. ^.^|^|   ^|^|^. ^. ^|^| ^|^|^. ^. ^. ^. ^. ^. ^. ^|^|
+echo ^|^|^. ^. ^|^|   ^|^| ^. ^.^|^| ^|^|^. ^. ^|^|   ^|^| ^. ^.^|^| ^|^|^. ^. ^|^|   ^|^| ^. ^.^|^| ^|^| ^. ^| ^. ^. ^. ^. ^.^|^|
+echo ^|^| ^. ^.^|^|   ^|^|^. _-^|^| ^|^|-_ ^.^|^|   ^|^|^. ^. ^|^| ^|^| ^. ^.^|^|   ^|^|^. _-^|^| ^|^|-_^.^|^\ ^. ^. ^. ^. ^|^|
+echo ^|^|^. ^. ^|^|   ^|^|-^'  ^|^| ^|^|  ^`-^|^|   ^|^| ^. ^.^|^| ^|^|^. ^. ^|^|   ^|^|-^'  ^|^| ^|^|  ^`^|^\_ ^. ^.^|^. ^.^|^|
+echo ^|^| ^. _^|^|   ^|^|    ^|^| ^|^|    ^|^|   ^|^|_ ^. ^|^| ^|^| ^. _^|^|   ^|^|    ^|^| ^|^|   ^|^\ ^`-_/^| ^. ^|^|
+echo ^|^|_-^' ^|^|  ^.^|/    ^|^| ^|^|    ^\^|^.  ^|^| ^`-_^|^| ^|^|_-^' ^|^|  ^.^|/    ^|^| ^|^|   ^| ^\  / ^|-_^.^|^|
+echo ^|^|    ^|^|_-^'      ^|^| ^|^|      ^`-_^|^|    ^|^| ^|^|    ^|^|_-^'      ^|^| ^|^|   ^| ^\  / ^|  ^`^|^|
+echo ^|^|    ^`^'         ^|^| ^|^|         ^`^'    ^|^| ^|^|    ^`^'         ^|^| ^|^|   ^| ^\  / ^|   ^|^|
+echo ^|^|            ^.^=^=^=^' ^`^=^=^=^.         ^.^=^=^=^'^.^`^=^=^=^.         ^.^=^=^=^' /^=^=^. ^|  ^\/  ^|   ^|^|
+echo ^|^|         ^.^=^=^'   ^\_^|-_ ^`^=^=^=^. ^.^=^=^=^'   _^|_   ^`^=^=^=^. ^.^=^=^=^' _-^|/   ^`^=^=  ^\/  ^|   ^|^|
+echo ^|^|      ^.^=^=^'    _-^'    ^`-_  ^`^=^'    _-^'   ^`-_    ^`^=^'  _-^'   ^`-_  /^|  ^\/  ^|   ^|^|
+echo ^|^|   ^.^=^=^'    _-^'          ^`-__^\^._-^'         ^`-_^./__-^'         ^`^' ^|^. /^|  ^|   ^|^|
+echo ^|^|^.^=^=^'    _-^'                                                     ^`^' ^|  /^=^=^.^|^|
+echo ^=^=^'    _-^'                                                            ^\/   ^`^=^=
+echo ^\   _-^'                                                                ^`-_   /
+echo  ^`^'^'                                                                      ^`^`^'
 goto wrapperidle
 
 ::::::::::::::
@@ -919,105 +978,31 @@ echo You must answer Yes or No. && goto exitwrapperretry
 
 :point_extraction
 
-title Cartoons v!WRAPPER_VER!b!WRAPPER_BLD! [Shutting down...]
+title Cartoons v!WRAPPER_VER! [Shutting down...]
 
-:: Shut down Node.js, PHP and http-server
-
-:: Copies config.bat first in case for whatever reason this messes it up (it's happened before trust me)
-pushd utilities
-copy config.bat tmpcfg.bat>nul
-popd
-
-:: Deletes a temporary batch file again just in case
-if exist %tmp%\importserver.bat ( del %tmp%\importserver.bat )
-
+:: Shut down Node.js and http-server
 if !VERBOSEWRAPPER!==y (
-	if !DRYRUN!==n (
-	TASKKILL /IM SilentCMD.exe /F >nul 2>&1 
-	TASKKILL /IM node.exe /F >nul 2>&1
-	for %%i in (npm start,npm,http-server,HTTP-SERVER HASN'T STARTED,NODE.JS HASN'T STARTED YET,VFProxy PHP Launcher for Cartoons,Server for imported voice clips TTS voice) do (
-	TASKKILL /FI "WINDOWTITLE eq %%i" >nul 2>&1 )
-	)
-	if !DRYRUN!==n ( 
-		if !CEPSTRAL!==n ( 
-			TASKKILL /IM php.exe /F >nul 2>&1
-		)
-	)
-	if !DRYRUN!==n ( 
-		if !INCLUDEDCHROMIUM!==y ( 
-			TASKKILL /IM chromium.exe /F >nul 2>&1
-		)
-		if !INCLUDEDBASILISK!==y ( 
-			TASKKILL /IM "utilities\basilisk\Basilisk-Portable\Basilisk-Portable.exe" /F >nul 2>&1
-		)
-	)
+	if !DRYRUN!==n ( TASKKILL /IM node.exe /F )
 	echo:
 ) else (
-	if !DRYRUN!==n ( TASKKILL /IM node.exe /F >nul 2>&1 )
-	if !DRYRUN!==n ( 
-		TASKKILL /IM SilentCMD.exe /F >nul 2>&1 
-		if !CEPSTRAL!==n ( 
-			TASKKILL /IM php.exe /F >nul 2>&1
-		)
-	)
-	if !DRYRUN!==n ( 
-		if !INCLUDEDCHROMIUM!==y ( 
-			TASKKILL /IM chromium.exe /F >nul 2>&1 
-		)
-		if !INCLUDEDBASILISK!==y ( 
-			TASKKILL /IM utilities\basilisk\Basilisk-Portable\Basilisk-Portable.exe /F 2>nul
-		)
-	)
+	if !DRYRUN!==n ( TASKKILL /IM node.exe /F 2>nul )
 )
-
-:: Puts config.bat back to normal
-pushd utilities
-del config.bat
-ren tmpcfg.bat config.bat
-popd
 
 :: This is where I get off.
 echo Cartoons has been shut down.
 if !FUCKOFF!==y ( echo You're a good listener. )
 echo This window will now close.
-echo Open start_wrapper.bat again to start W:O again.
+if !INCLUDEDCHROMIUM!==y (
+	echo You can close the web browser now.
+)
+echo Open start_vyond.bat again to start V:R again.
 if !DRYRUN!==y ( echo Go wet your run next time. ) 
 pause & exit
 
 :exitwithstyle
-title Cartoons v!WRAPPER_VER!b!WRAPPER_BLD! [Shutting down... WITH STYLE]
-echo SHUTTING DOWN THE WRAPPER OFFLINE
+title Cartoons v!WRAPPER_VER! [Shutting down... WITH STYLE]
+echo SHUTTING DOWN CARTOONS
 PING -n 3 127.0.0.1>nul
-color 9b
-echo BEWEWEWEWWW PSSHHHH KSHHHHHHHHHHHHHH
-PING -n 3 127.0.0.1>nul
-for %%i in (npm start,npm,http-server,HTTP-SERVER HASN'T STARTED,NODE.JS HASN'T STARTED YET,VFProxy PHP Launcher for Cartoons,Server for imported voice clips TTS voice) do (
-	if !DRYRUN!==n ( TASKKILL /FI "WINDOWTITLE eq %%i" >nul 2>&1 )
-)
-TASKKILL /IM node.exe /F >nul 2>&1
-echo NODE DOT JS ANNIHILATED....I THINK
-PING -n 3 127.0.0.1>nul
-if !CEPSTRAL!==n (
-	TASKKILL /IM php.exe /F >nul 2>&1
-	echo PHP DESTROYED....MAYBE...THE BATCH WINDOW WAS ALREADY DESTROYED
-	PING -n 3 127.0.0.1>nul
-)
-if !INCLUDEDCHROMIUM!==y (
-	TASKKILL /IM chromium.exe /F >nul 2>&1
-	echo UNGOOGLED CHROMIUM COMPLETELY OBLITERATED
-	PING -n 3 127.0.0.1>nul
-)
-if !INCLUDEDBASILISK!==y (
-	TASKKILL /IM %CD%\utilities\basilisk\Basilisk-Portable\Basilisk-Portable.exe /F >nul 2>&1
-	echo BASILISK COMPLETELY OBLITERATED
-	PING -n 3 127.0.0.1>nul
-)
-echo TIME TO ELIMINATE WRAPPER OFFLINE
-PING -n 3 127.0.0.1>nul
-echo BOBOOBOBMWBOMBOM SOUND EFFECTSSSSS
-PING -n 3 127.0.0.1>nul
-echo WRAPPER OFFLINE ALSO ANNIHILA
-PING -n 2 127.0.0.1>nul
 exit
 
 :patched
@@ -1033,21 +1018,20 @@ echo whoever put patch.jpeg back, you are grounded grounded gorrudjnmed for 6000
 PING -n 3 127.0.0.1>nul
 :grr
 echo g r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r 
-PING -n 0.55 127.0.0.1>nul
 goto grr
 
 :configcopy
 if not exist utilities ( md utilities )
 echo :: Cartoons Config>> utilities\config.bat
 echo :: This file is modified by settings.bat. It is not organized, but comments for each setting have been added.>> utilities\config.bat
-echo :: You should be using settings.bat, and not touching this. Offline relies on this file remaining consistent, and it's easy to mess that up.>> utilities\config.bat
+echo :: You should be using settings.bat, and not touching this. Remastered relies on this file remaining consistent, and it's easy to mess that up.>> utilities\config.bat
 echo:>> utilities\config.bat
 echo :: Opens this file in Notepad when run>> utilities\config.bat
 echo setlocal>> utilities\config.bat
-echo if "%%SUBSCRIPT%%"=="" ( start notepad.exe "%%CD%%\%%~nx0" ^& exit )>> utilities\config.bat
+echo if "%%SUBSCRIPT%%"=="" ( pushd "%~dp0" ^& start notepad.exe config.bat ^& exit )>> utilities\config.bat
 echo endlocal>> utilities\config.bat
 echo:>> utilities\config.bat
-echo :: Shows exactly Offline is doing, and never clears the screen. Useful for development and troubleshooting. Default: n>> utilities\config.bat
+echo :: Shows exactly Remastered is doing, and never clears the screen. Useful for development and troubleshooting. Default: n>> utilities\config.bat
 echo set VERBOSEWRAPPER=n>> utilities\config.bat
 echo:>> utilities\config.bat
 echo :: Won't check for dependencies (flash, node, etc) and goes straight to launching. Useful for speedy launching post-install. Default: n>> utilities\config.bat
@@ -1056,32 +1040,19 @@ echo:>> utilities\config.bat
 echo :: Won't install dependencies, regardless of check results. Overridden by SKIPCHECKDEPENDS. Mostly useless, why did I add this again? Default: n>> utilities\config.bat
 echo set SKIPDEPENDINSTALL=n>> utilities\config.bat
 echo:>> utilities\config.bat
+echo :: Opens Offline in an included copy of ungoogled-chromium. Allows continued use of Flash as modern browsers disable it. Default: y>> utilities\config.bat
+echo set INCLUDEDCHROMIUM=y>> utilities\config.bat
+echo:>> utilities\config.bat
+echo :: Opens INCLUDEDCHROMIUM in headless mode. Looks pretty nice. Overrides CUSTOMBROWSER and BROWSER_TYPE. Default: y>> utilities\config.bat
+echo set APPCHROMIUM=y>> utilities\config.bat
+echo:>> utilities\config.bat
+echo :: Opens Offline in a browser of the user's choice. Needs to be a path to a browser executable in quotes. Default: n>> utilities\config.bat
+echo set CUSTOMBROWSER=n>> utilities\config.bat
+echo:>> utilities\config.bat
+echo :: Lets the launcher know what browser framework is being used. Mostly used by the Flash installer. Accepts "chrome", "firefox", and "n". Default: n>> utilities\config.bat
+echo set BROWSER_TYPE=chrome>> utilities\config.bat
+echo:>> utilities\config.bat
 echo :: Runs through all of the scripts code, while never launching or installing anything. Useful for development. Default: n>> utilities\config.bat
 echo set DRYRUN=n>> utilities\config.bat
 echo:>> utilities\config.bat
-echo :: Makes it so both the settings and the Wrapper launcher shows developer options. Default: n>> utilities\config.bat
-echo set DEVMODE=n>> utilities\config.bat
-echo:>> utilities\config.bat
-echo :: Tells settings.bat which port the frontend is hosted on. ^(If changed manually, you MUST also change the value of "SERVER_PORT" to the same value in wrapper\env.json^) Default: 4343>> utilities\config.bat
-echo set PORT=4343>> utilities\config.bat
-echo:>> utilities\config.bat
-echo :: Automatically restarts the NPM whenever it crashes. Default: y>> utilities\config.bat
-echo set AUTONODE=y>> utilities\config.bat
-echo:>> utilities\config.bat
 goto returnfromconfigcopy
-
-:metacopy
-if not exist utilities ( md utilities )
-echo :: Cartoons Metadata>> utilities\metadata.bat
-echo :: Important useful variables that are displayed by start_wrapper.bat>> utilities\metadata.bat
-echo :: You probably shouldn't touch this. This only exists to make things easier for the devs everytime we go up a build number or something like that.>> utilities\metadata.bat
-echo:>> utilities\metadata.bat
-echo :: Opens this file in Notepad when run>> utilities\metadata.bat
-echo setlocal>> utilities\metadata.bat
-echo if "%%SUBSCRIPT%%"=="" ( start notepad.exe "%%CD%%\%%~nx0" ^& exit )>> utilities\metadata.bat
-echo endlocal>> utilities\metadata.bat
-echo:>> utilities\metadata.bat
-echo set WRAPPER_VER=1.3.0>> utilities\metadata.bat
-echo:>> utilities\metadata.bat
-set NOMETA=n
-goto returnfrommetacopy
