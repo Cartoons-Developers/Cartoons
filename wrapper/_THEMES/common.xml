@@ -19770,33 +19770,17 @@
   <body taily="65" tailx="90" linergb="0" rgb="0xFFFFFF"/>
   <text rgb="0" font="Raleway" size="20" align="center" bold="false" italic="false">Double-click to input text</text>
 </bubble>
-  <bubble id="blank17" x="-90" y="-45" w="180" h="90" rotate="0" type="BLANK" enable="Y" is_premium="N" aid="31728" money="0" sharing="0" hasTail="0" display_order="5">
-  <body rgb="0xFFFFFF" linergb="0" tailx="90" taily="65"/>
-  <text rgb="0" font="Gochi Hand" size="20" align="center" bold="false" italic="false">Double-click to input text</text>
-</bubble>
   <bubble id="blank3" x="-90" y="-45" w="180" h="90" rotate="0" type="BLANK" enable="Y" is_premium="N" aid="17685" money="0" sharing="0" hasTail="0" display_order="6">
   <body rgb="0xFFFFFF" linergb="0" tailx="90" taily="65"/>
   <text rgb="0" font="Glegoo" size="20" align="center" bold="false" italic="false">Double-click to input text</text>
-</bubble>
-  <bubble id="blank16" x="-90" y="-45" w="180" h="90" rotate="0" type="BLANK" enable="Y" is_premium="N" aid="31727" money="0" sharing="0" hasTail="0" display_order="7">
-  <body rgb="0xFFFFFF" linergb="0" tailx="90" taily="65"/>
-  <text rgb="0" font="Satisfy" size="20" align="center" bold="false" italic="false">Double-click to input text</text>
 </bubble>
   <bubble id="blank7" x="-90" y="-45" w="180" h="90" rotate="0" type="BLANK" enable="Y" is_premium="N" aid="20464" money="0" sharing="0" hasTail="0" display_order="8">
   <body rgb="0xFFFFFF" linergb="0" tailx="90" taily="65"/>
   <text rgb="0" font="Lilita One" size="20" align="center" bold="false" italic="false">Double-click to input text</text>
 </bubble>
-  <bubble id="blank15" x="-90" y="-45" w="180" h="90" rotate="0" type="BLANK" enable="Y" is_premium="N" aid="31726" money="0" sharing="0" hasTail="0" display_order="9">
-  <body rgb="0xFFFFFF" linergb="0" tailx="90" taily="65"/>
-  <text rgb="0" font="Mouse Memoirs" size="20" align="center" bold="false" italic="false">Double-click to input text</text>
-</bubble>
   <bubble id="blank" x="-90" y="-45" w="180" h="90" rotate="0" type="BLANK" enable="N" is_premium="N" aid="3431" money="0" sharing="0" hasTail="0" display_order="10">
   <body rgb="0xFFFFFF" linergb="0" tailx="90" taily="65"/>
   <text rgb="0" font="Arial" size="20" align="center" bold="false" italic="false">Double-click to input text</text>
-</bubble>
-  <bubble id="blank18" x="-90" y="-45" w="180" h="90" rotate="0" type="BLANK" enable="Y" is_premium="N" aid="31729" money="0" sharing="0" hasTail="0" display_order="10">
-  <body rgb="0xFFFFFF" linergb="0" tailx="90" taily="65"/>
-  <text rgb="0" font="Patrick Hand" size="20" align="center" bold="true" italic="false">Double-click to input text</text>
 </bubble>
   <bubble id="blank8" x="-90" y="-45" w="180" h="90" rotate="0" type="BLANK" enable="Y" is_premium="N" aid="20465" money="0" sharing="0" hasTail="0" display_order="11">
   <body rgb="0xFFFFFF" linergb="0" tailx="90" taily="65"/>
