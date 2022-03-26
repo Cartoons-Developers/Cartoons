@@ -1,3 +1,3 @@
 Cartoons is where you make Cartoons.
 
-You can use adam, eve, boy, girl, bob, and rocky for Comedy World character body types.
+Adam, eve, boy, girl, bob, and rocky are the Comedy World character body types.
