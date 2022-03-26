@@ -3935,6 +3935,9 @@
 	<char id="324728013" name="Chef" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
 		<tags>family,_free,_cat:Catering</tags>
 	</char>
+	<char id="324728023" name="Cowboy" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+		<tags>family,_free,_cat:Holidays and Costumes</tags>
+	</char>
 	<char id="324728016" name="Firefighter" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
 		<tags>family,_free,_cat:Government</tags>
 	</char>
