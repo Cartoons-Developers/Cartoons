@@ -1,7 +1,6 @@
 :: Cartoons Launcher
 :: License: MIT
-set WRAPPER_VER=2.4.0
-title Cartoons v%WRAPPER_VER% [Initializing...]
+title Cartoons [Initializing...]
 ::::::::::::::::::::
 :: Initialization ::
 ::::::::::::::::::::
