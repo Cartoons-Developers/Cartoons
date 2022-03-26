@@ -1370,7 +1370,7 @@
         <state id="sit" filename="sit.swf"/>
         <state id="walk" filename="walk.swf"/>
     </component>
-    <component type="lower_body" id="adam_werewolf" path="adam_werewolf" name="adam_werewolf" thumb="thumbnail.swf" display_order="190" money="0" sharing="0" enable="Y">
+    <component type="lower_body" id="adam_werewolf" path="adam_werewolf" name="adam_werewolf" thumb="thumbnail.swf" display_order="190" money="0" sharing="0" enable="N">
         <state id="dance" filename="dance.swf"/>
         <state id="default" filename="default.swf"/>
         <state id="excited" filename="excited.swf"/>
@@ -2483,7 +2483,7 @@
       <state id="taunt" filename="taunt.swf" />
       <state id="walk" filename="walk.swf" />
     </component>
-    <component type="upper_body" id="adam_werewolf" path="adam_werewolf" name="adam_werewolf" thumb="thumbnail.swf" display_order="230" money="0" sharing="0" enable="Y">
+    <component type="upper_body" id="adam_werewolf" path="adam_werewolf" name="adam_werewolf" thumb="thumbnail.swf" display_order="230" money="0" sharing="0" enable="N">
       <state id="chuckle" filename="chuckle.swf" />
       <state id="crossed_arms" filename="crossed_arms.swf" />
       <state id="dance" filename="dance.swf" />
@@ -9651,7 +9651,7 @@
   <component type="nose" id="030" path="030" name="030" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
     <state id="default" filename="default.swf" />
   </component>
-  <component type="nose" id="werewolf" path="werewolf" name="werewolf" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+  <component type="nose" id="werewolf" path="werewolf" name="werewolf" thumb="thumbnail.swf" money="0" sharing="0" enable="N">
     <state id="default" filename="default.swf" />
   </component>
   <component type="beard" id="005" path="005" name="005" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
@@ -9672,7 +9672,7 @@
   <component type="ear" id="seamonster" path="seamonster" name="seamonster" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
     <state id="default" filename="default.swf" />
   </component>
-  <component type="ear" id="werewolf" path="werewolf" name="werewolf" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+  <component type="ear" id="werewolf" path="werewolf" name="werewolf" thumb="thumbnail.swf" money="0" sharing="0" enable="N">
     <state id="default" filename="default.swf" />
   </component>
   <component type="facedecoration" id="013" path="013" name="013" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
