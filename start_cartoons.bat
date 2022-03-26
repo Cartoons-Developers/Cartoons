@@ -1,5 +1,5 @@
-:: Wrapper: Offline Launcher
-:: Author: benson#0411
+:: Cartoons
+:: Author: Joey Nigro
 :: License: MIT
 
 ::::::::::::::::::::
@@ -23,7 +23,7 @@ goto metaavailable
 
 :metamissing
 if %NOMETA%==y (
-	title Wrapper: Offline [Metadata Missing]
+	title Cartoons [Metadata Missing]
 	echo The metadata's missing for some reason?
 	echo Restoring...
 	goto metacopy
@@ -44,7 +44,7 @@ if %ADMIN%==n (
 :metaavailable
 
 :: Set title
-title Wrapper: Offline v!WRAPPER_VER!b!WRAPPER_BLD! [Initializing...]
+title Cartoons v!WRAPPER_VER!b!WRAPPER_BLD! [Initializing...]
 
 :: Make sure we're starting in the correct folder, and that it worked (otherwise things would go horribly wrong)
 pushd "%~dp0"
@@ -54,7 +54,7 @@ if not exist wrapper ( goto error_location )
 if not exist server ( goto error_location )
 goto noerror_location
 :error_location
-echo Doesn't seem like this script is in a Wrapper: Offline folder.
+echo Doesn't seem like this script is in a Cartoons folder.
 pause && exit
 :noerror_location
 
@@ -79,8 +79,8 @@ if not exist server ( goto error_location )
 if not exist "utilities\checks" md utilities\checks
 
 :: Welcome, Director Ford!
-echo Wrapper: Offline
-echo A project from VisualPlugin adapted by GoTest334 and the Wrapper: Offline team
+echo Cartoons
+echo A project from VisualPlugin adapted by Joey Nigro
 echo Version !WRAPPER_VER!
 echo:
 
@@ -118,7 +118,7 @@ if !VERBOSEWRAPPER!==n (
 	echo:
 )
 
-title Wrapper: Offline v!WRAPPER_VER!b!WRAPPER_BLD! [Checking dependencies...]
+title Cartoons v!WRAPPER_VER!b!WRAPPER_BLD! [Checking dependencies...]
 
 :: Preload variables
 set NEEDTHEDEPENDERS=n
@@ -257,7 +257,7 @@ if !NEEDTHEDEPENDERS!==y (
 	goto skip_dependency_install
 )
 
-title Wrapper: Offline v!WRAPPER_VER!b!WRAPPER_BLD! [Installing dependencies...]
+title Cartoons v!WRAPPER_VER!b!WRAPPER_BLD! [Installing dependencies...]
 
 :: Preload variables
 set INSTALL_FLAGS=ALLUSERS=1 /norestart
@@ -284,16 +284,16 @@ if !ADMINREQUIRED!==y (
 			echo:
 			if !FLASH_DETECTED!==n (
 				if !NODEJS_DETECTED!==n (
-					echo Wrapper: Offline needs to install Flash and Node.js.
+					echo Cartoons needs to install Flash and Node.js.
 				) else (
-					echo Wrapper: Offline needs to install Flash.
+					echo Cartoons needs to install Flash.
 				)
 			) else (
-				echo Wrapper: Offline needs to install Node.js.
+				echo Cartoons needs to install Node.js.
 			)
 			echo To do this, it must be started with Admin rights.
 			echo:
-			echo Close this window and re-open Wrapper: Offline as an Admin.
+			echo Close this window and re-open Cartoons as an Admin.
 			echo ^(right-click start_wrapper.bat and click "Run as Administrator"^)
 			echo:
 			if !DRYRUN!==y (
@@ -318,9 +318,9 @@ if !FLASH_DETECTED!==n (
 	set BROWSER_TYPE=chrome && if !VERBOSEWRAPPER!==y ( echo Chromium-based browser picked. && echo:) && goto escape_browser_ask
 
 	:escape_browser_ask
-	echo To install Flash Player, Wrapper: Offline must kill any currently running web browsers.
+	echo To install Flash Player, Cartoons must kill any currently running web browsers.
 	echo Please make sure any work in your browser is saved before proceeding.
-	echo Wrapper: Offline will not continue installation until you press a key.
+	echo Cartoons will not continue installation until you press a key.
 	echo:
 	pause
 	echo:
@@ -346,7 +346,7 @@ if !FLASH_DETECTED!==n (
 		echo:
 		if not exist "utilities\installers\flash_windows_chromium.msi" (
 			echo ...erm. Bit of an issue there actually. The installer doesn't exist.
-			echo A normal copy of Wrapper: Offline should come with one.
+			echo A normal copy of Cartoons should come with one.
 			echo You may be able to get the installer here:
 			echo:
 			echo Although Flash is needed, Offline will continue launching.
@@ -368,7 +368,7 @@ if !NODEJS_DETECTED!==n (
 		if !VERBOSEWRAPPER!==y ( echo 64-bit system detected, installing 64-bit Node.js. )
 		if not exist "utilities\installers\node_windows_x64.msi" (
 			echo We have a problem. The 64-bit Node.js installer doesn't exist.
-			echo A normal copy of Wrapper: Offline should come with one.
+			echo A normal copy of Cartoons should come with one.
 			echo You should be able to find a copy on this website:
 			echo https://nodejs.org/en/download/
 			echo Although Node.js is needed, Offline will try to install anything else it can.
@@ -376,7 +376,7 @@ if !NODEJS_DETECTED!==n (
 			goto after_nodejs_install
 		)
 		echo Proper Node.js installation doesn't seem possible to do automatically.
-		echo You can just keep clicking next until it finishes, and Wrapper: Offline will continue once it closes.
+		echo You can just keep clicking next until it finishes, and Cartoons will continue once it closes.
 		if !DRYRUN!==n ( msiexec /i "utilities\installers\node_windows_x64.msi" !INSTALL_FLAGS! )
 		goto nodejs_installed
 	)
@@ -384,7 +384,7 @@ if !NODEJS_DETECTED!==n (
 		if !VERBOSEWRAPPER!==y ( echo 32-bit system detected, installing 32-bit Node.js. )
 		if not exist "utilities\installers\node_windows_x32.msi" (
 			echo We have a problem. The 32-bit Node.js installer doesn't exist.
-			echo A normal copy of Wrapper: Offline should come with one.
+			echo A normal copy of Cartoons should come with one.
 			echo You should be able to find a copy on this website:
 			echo https://nodejs.org/en/download/
 			echo Although Node.js is needed, Offline will try to install anything else it can.
@@ -392,7 +392,7 @@ if !NODEJS_DETECTED!==n (
 			goto after_nodejs_install
 		)
 		echo Proper Node.js installation doesn't seem possible to do automatically.
-		echo You can just keep clicking next until it finishes, and Wrapper: Offline will continue once it closes.
+		echo You can just keep clicking next until it finishes, and Cartoons will continue once it closes.
 		if !DRYRUN!==n ( msiexec /i "utilities\installers\node_windows_x32.msi" !INSTALL_FLAGS! )
 		goto nodejs_installed
 	)
@@ -400,7 +400,7 @@ if !NODEJS_DETECTED!==n (
 		echo:
 		echo Well, this is a little embarassing.
 		echo:
-		echo Wrapper: Offline can't tell if you're on a 32-bit or 64-bit system.
+		echo Cartoons can't tell if you're on a 32-bit or 64-bit system.
 		echo Which means it doesn't know which version of Node.js to install...
 		echo:
 		echo If you have no idea what that means, press 1 to just try anyway.
@@ -417,8 +417,8 @@ if !NODEJS_DETECTED!==n (
 		if "!cpuchoice!"=="1" if !DRYRUN!==n ( msiexec /i "utilities\installers\node_windows_x32.msi" !INSTALL_FLAGS! ) && if !VERBOSEWRAPPER!==y ( echo Attempting 32-bit Node.js installation. ) && goto nodejs_installed
 		if "!cpuchoice!"=="2" (
 			echo:
-			echo Press 1 if you're running Wrapper: Offline on a 32-bit system.
-			echo Press 2 if you're running Wrapper: Offline on a 64-bit system.
+			echo Press 1 if you're running Cartoons on a 32-bit system.
+			echo Press 2 if you're running Cartoons on a 64-bit system.
 			echo:
 			:whatsystemreask
 			set /p WHATSYSTEM= Response:
@@ -466,7 +466,7 @@ if !HTTPSERVER_DETECTED!==n (
 			echo:
 			if not exist "utilities\installers\http-server-master" (
 				echo Well, we'd try that if the files existed.
-				echo A normal copy of Wrapper: Offline should come with them.
+				echo A normal copy of Cartoons should come with them.
 				echo You should be able to find a copy on this website:
 				echo https://www.npmjs.com/package/http-server
 				echo Although http-server is needed, Offline will try to install anything else it can.
@@ -496,7 +496,7 @@ if !HTTPSERVER_DETECTED!==n (
 		color cf
 		echo:
 		echo http-server is missing, but somehow Node.js has not been installed yet.
-		echo Seems either the install failed, or Wrapper: Offline managed to skip it.
+		echo Seems either the install failed, or Cartoons managed to skip it.
 		echo If installing directly from nodejs.org does not work, something is horribly wrong.
 		echo Please ask for help in the #support channel on Discord, or email me.
 		pause
@@ -515,8 +515,8 @@ if !HTTPSCERT_DETECTED!==n (
 	echo:
 	if not exist "server\the.crt" (
 		echo ...except it doesn't exist for some reason.
-		echo Wrapper: Offline requires this to run.
-		echo You should get a "the.crt" file from someone else, or redownload Wrapper: Offline.
+		echo Cartoons requires this to run.
+		echo You should get a "the.crt" file from someone else, or redownload Cartoons.
 		echo Offline has nothing left to do since it can't launch without the.crt, so it will close.
 		pause
 		exit
@@ -526,7 +526,7 @@ if !HTTPSCERT_DETECTED!==n (
 		fsutil dirty query !systemdrive! >NUL 2>&1
 		if /i not !ERRORLEVEL!==0 (
 			if !VERBOSEWRAPPER!==n ( cls )
-			echo For Wrapper: Offline to work, it needs an HTTPS certificate to be installed.
+			echo For Cartoons to work, it needs an HTTPS certificate to be installed.
 			echo If you have administrator privileges, you should reopen start_wrapper.bat as Admin.
 			echo ^(it will do this automatically if you say you have admin rights^)
 			echo:
@@ -588,11 +588,11 @@ if !ADMINREQUIRED!==y (
 	echo:
 	echo Dependencies needing Admin now installed^^!
 	echo:
-	echo Wrapper: Offline no longer needs Admin rights,
+	echo Cartoons no longer needs Admin rights,
 	echo please restart normally by double-clicking.
 	echo:
 	echo If you saw this from running normally,
-	echo Wrapper: Offline should continue normally after a restart.
+	echo Cartoons should continue normally after a restart.
 	echo:
 	if !DRYRUN!==y (
 		echo ...you enjoying the dry run experience? Skipping closing.
@@ -616,7 +616,7 @@ echo It is recommended that you restart the computer
 echo to make sure that everything is fully working.
 echo:
 echo Would you like to restart your system before
-echo using Wrapper: Offline? [Y/n]
+echo using Cartoons? [Y/n]
 echo:
 set /p RESTARTPC= Response: 
 if not '!restartpc!'=='' set restartpc=%restartpc:~0,1%
@@ -633,7 +633,7 @@ if /i "!restartpc!"=="y" (
 if /i "!restartpc!"=="n" goto continuing
 
 :continuing
-echo Continuing with Wrapper: Offline boot.
+echo Continuing with Cartoons boot.
 echo:
 
 :skip_dependency_install
@@ -642,13 +642,13 @@ echo:
 :: Starting Wrapper ::
 ::::::::::::::::::::::
 
-title Wrapper: Offline v!WRAPPER_VER!b!WRAPPER_BLD! [Loading...]
+title Cartoons v!WRAPPER_VER!b!WRAPPER_BLD! [Loading...]
 
 :: Close existing node apps
 :: Hopefully fixes EADDRINUSE errors??
 if !VERBOSEWRAPPER!==y (
 	echo Closing any existing node and/or PHP apps and batch processes...
-	for %%i in (npm start,npm,http-server,HTTP-SERVER HASN'T STARTED,NODE.JS HASN'T STARTED YET,VFProxy PHP Launcher for Wrapper: Offline) do (
+	for %%i in (npm start,npm,http-server,HTTP-SERVER HASN'T STARTED,NODE.JS HASN'T STARTED YET,VFProxy PHP Launcher for Cartoons) do (
 		if !DRYRUN!==n ( TASKKILL /FI "WINDOWTITLE eq %%i" >nul 2>&1 )
 	)
 	if !DRYRUN!==n ( TASKKILL /IM node.exe /F >nul 2>&1 )
@@ -682,7 +682,7 @@ popd
 :: Prevents the video list opening too fast
 PING -n 6 127.0.0.1>nul
 
-echo Opening Wrapper: Offline...
+echo Opening Cartoons...
 pushd utilities\ungoogled-chromium
 if !APPCHROMIUM!==y ( 
 	if !FULLSCREEN!==y (
@@ -699,21 +699,21 @@ if !APPCHROMIUM!==n (
 	)
 )
 if !DRYRUN!==n ( start chromium.exe --user-data-dir=the_profile !args! )
-echo Wrapper: Offline has been started^^! The video list should now be open.
+echo Cartoons has been started^^! The video list should now be open.
 
 ::::::::::::::::
 :: Post-Start ::
 ::::::::::::::::
 
-title Wrapper: Offline v!WRAPPER_VER!b!WRAPPER_BLD!
+title Cartoons v!WRAPPER_VER!b!WRAPPER_BLD!
 if !VERBOSEWRAPPER!==y ( goto wrapperstarted )
 :wrapperstartedcls
 cls
 :wrapperstarted
 
 echo:
-echo Wrapper: Offline v!WRAPPER_VER!b!WRAPPER_BLD! running
-echo A project from VisualPlugin adapted by GoTest334 and the Wrapper: Offline team
+echo Cartoons v!WRAPPER_VER!b!WRAPPER_BLD! running
+echo A project from VisualPlugin adapted by GoTest334 and the Cartoons team
 echo:
 if !VERBOSEWRAPPER!==n ( echo DON'T CLOSE THIS WINDOW^^! Use the quit option ^(0^) when you're done. )
 if !VERBOSEWRAPPER!==y ( echo Verbose mode is on, see the extra CMD windows for extra output. )
@@ -730,12 +730,12 @@ echo Enter 1 to reopen the video list
 echo Enter 2 to open the settings
 echo Enter 3 to open the server page
 echo Enter 4 to export a video
-echo Enter 5 to Update W:O using git
+echo Enter 5 to Update Cartoons using git
 echo Enter 6 to open the backup/restore tool
 echo Enter 7 to view software information
 echo Enter ? to open the FAQ
 echo Enter clr to clean up the screen
-echo Enter 0 to close Wrapper: Offline
+echo Enter 0 to close Cartoons
 set /a _rand=(!RANDOM!*67/32768)+1
 if !_rand!==25 echo Enter things you think'll show a secret if you're feeling adventurous
 if !DEVMODE!==y (
@@ -743,7 +743,7 @@ if !DEVMODE!==y (
 	echo Developer options:
 	echo --------------------------------------
 	echo Type "amnesia" to wipe your save.
-	echo Type "restart" to restart Wrapper: Offline.
+	echo Type "restart" to restart Cartoons.
 	echo Type "reload" to reload your settings and metadata.
 	echo Type "folder" to open the files.
 )
@@ -786,7 +786,7 @@ if !DEVMODE!==n (
 echo Time to choose. && goto wrapperidle
 
 :reopen_webpage	
-		echo Opening Wrapper: Offline...
+		echo Opening Cartoons...
 		pushd utilities\ungoogled-chromium
 		if !DRYRUN!==n ( start chromium.exe --user-data-dir=the_profile !args! )
 goto wrapperidle
@@ -817,7 +817,7 @@ echo Updating W:O...
 cls
 call update_wrapper.bat
 cls
-title Wrapper: Offline v!WRAPPER_VER!b!WRAPPER_BLD!
+title Cartoons v!WRAPPER_VER!b!WRAPPER_BLD!
 goto wrapperstartedcls
 
 :backupandrestore
@@ -831,7 +831,7 @@ goto wrapperidle
 echo Launching settings..
 call settings.bat
 cls
-title Wrapper: Offline v!WRAPPER_VER!b!WRAPPER_BLD!
+title Cartoons v!WRAPPER_VER!b!WRAPPER_BLD!
 goto wrapperstartedcls
 
 :youfuckoff
@@ -851,10 +851,10 @@ goto wrapperstartedcls
 
 :verinfo
 cls
-echo Wrapper: Offline
+echo Cartoons
 echo Version !WRAPPER_VER! Beta
 echo:
-echo This copy of Wrapper: Offline belongs to:
+echo This copy of Cartoons belongs to:
 if not %FIRST_NAME%==n (
 	if not %LAST_NAME%==n (
 		echo %FULL_NAME% ^(User: %USERNAME%^)
@@ -883,7 +883,7 @@ goto wrapperidle
 TASKKILL /IM node.exe /F >nul 2>&1
 if !CEPSTRAL!==n ( TASKKILL /IM php.exe /F >nul 2>&1 )
 if !VERBOSEWRAPPER!==y (
-	for %%i in (npm start,npm,http-server,HTTP-SERVER HASN'T STARTED,NODE.JS HASN'T STARTED YET,VFProxy PHP Launcher for Wrapper: Offline,Server for imported voice clips TTS voice) do (
+	for %%i in (npm start,npm,http-server,HTTP-SERVER HASN'T STARTED,NODE.JS HASN'T STARTED YET,VFProxy PHP Launcher for Cartoons,Server for imported voice clips TTS voice) do (
 		TASKKILL /FI "WINDOWTITLE eq %%i" >nul 2>&1
 	)
 )
@@ -904,7 +904,7 @@ goto wrapperidle
 :: Confirmation before shutting down
 :exitwrapperconfirm
 echo:
-echo Are you sure you want to quit Wrapper: Offline?
+echo Are you sure you want to quit Cartoons?
 echo Be sure to save all your work.
 echo Type Y to quit, and N to go back.
 :exitwrapperretry
@@ -919,7 +919,7 @@ echo You must answer Yes or No. && goto exitwrapperretry
 
 :point_extraction
 
-title Wrapper: Offline v!WRAPPER_VER!b!WRAPPER_BLD! [Shutting down...]
+title Cartoons v!WRAPPER_VER!b!WRAPPER_BLD! [Shutting down...]
 
 :: Shut down Node.js, PHP and http-server
 
@@ -935,7 +935,7 @@ if !VERBOSEWRAPPER!==y (
 	if !DRYRUN!==n (
 	TASKKILL /IM SilentCMD.exe /F >nul 2>&1 
 	TASKKILL /IM node.exe /F >nul 2>&1
-	for %%i in (npm start,npm,http-server,HTTP-SERVER HASN'T STARTED,NODE.JS HASN'T STARTED YET,VFProxy PHP Launcher for Wrapper: Offline,Server for imported voice clips TTS voice) do (
+	for %%i in (npm start,npm,http-server,HTTP-SERVER HASN'T STARTED,NODE.JS HASN'T STARTED YET,VFProxy PHP Launcher for Cartoons,Server for imported voice clips TTS voice) do (
 	TASKKILL /FI "WINDOWTITLE eq %%i" >nul 2>&1 )
 	)
 	if !DRYRUN!==n ( 
@@ -977,7 +977,7 @@ ren tmpcfg.bat config.bat
 popd
 
 :: This is where I get off.
-echo Wrapper: Offline has been shut down.
+echo Cartoons has been shut down.
 if !FUCKOFF!==y ( echo You're a good listener. )
 echo This window will now close.
 echo Open start_wrapper.bat again to start W:O again.
@@ -985,13 +985,13 @@ if !DRYRUN!==y ( echo Go wet your run next time. )
 pause & exit
 
 :exitwithstyle
-title Wrapper: Offline v!WRAPPER_VER!b!WRAPPER_BLD! [Shutting down... WITH STYLE]
+title Cartoons v!WRAPPER_VER!b!WRAPPER_BLD! [Shutting down... WITH STYLE]
 echo SHUTTING DOWN THE WRAPPER OFFLINE
 PING -n 3 127.0.0.1>nul
 color 9b
 echo BEWEWEWEWWW PSSHHHH KSHHHHHHHHHHHHHH
 PING -n 3 127.0.0.1>nul
-for %%i in (npm start,npm,http-server,HTTP-SERVER HASN'T STARTED,NODE.JS HASN'T STARTED YET,VFProxy PHP Launcher for Wrapper: Offline,Server for imported voice clips TTS voice) do (
+for %%i in (npm start,npm,http-server,HTTP-SERVER HASN'T STARTED,NODE.JS HASN'T STARTED YET,VFProxy PHP Launcher for Cartoons,Server for imported voice clips TTS voice) do (
 	if !DRYRUN!==n ( TASKKILL /FI "WINDOWTITLE eq %%i" >nul 2>&1 )
 )
 TASKKILL /IM node.exe /F >nul 2>&1
@@ -1038,7 +1038,7 @@ goto grr
 
 :configcopy
 if not exist utilities ( md utilities )
-echo :: Wrapper: Offline Config>> utilities\config.bat
+echo :: Cartoons Config>> utilities\config.bat
 echo :: This file is modified by settings.bat. It is not organized, but comments for each setting have been added.>> utilities\config.bat
 echo :: You should be using settings.bat, and not touching this. Offline relies on this file remaining consistent, and it's easy to mess that up.>> utilities\config.bat
 echo:>> utilities\config.bat
@@ -1072,7 +1072,7 @@ goto returnfromconfigcopy
 
 :metacopy
 if not exist utilities ( md utilities )
-echo :: Wrapper: Offline Metadata>> utilities\metadata.bat
+echo :: Cartoons Metadata>> utilities\metadata.bat
 echo :: Important useful variables that are displayed by start_wrapper.bat>> utilities\metadata.bat
 echo :: You probably shouldn't touch this. This only exists to make things easier for the devs everytime we go up a build number or something like that.>> utilities\metadata.bat
 echo:>> utilities\metadata.bat
