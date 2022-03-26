@@ -3941,6 +3941,15 @@
 	<char id="324728016" name="Firefighter" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
 		<tags>family,_free,_cat:Government</tags>
 	</char>
+	<char id="324728024" name="Graduate" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+		<tags>family,_free,_cat:Special Occasions</tags>
+	</char>
+	<char id="324728025" name="Graduate" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+		<tags>family,_free,_cat:Special Occasions</tags>
+	</char>
+	<char id="324728027" name="Graduate" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+		<tags>family,_free,_cat:Special Occasions</tags>
+	</char>
 	<char id="324728018" name="Hotel Porter" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
 		<tags>family,_free,_cat:Travel</tags>
 	</char>
@@ -3957,6 +3966,12 @@
 		<tags>family,_free,_cat:Casual</tags>
 	</char>
 	<char id="324728019" name="Kid" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+		<tags>family,_free,_cat:Casual</tags>
+	</char>
+	<char id="324728026" name="Kid" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+		<tags>family,_free,_cat:Casual</tags>
+	</char>
+	<char id="324728028" name="Kid" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
 		<tags>family,_free,_cat:Casual</tags>
 	</char>
 	<char id="324728014" name="Nurse" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
