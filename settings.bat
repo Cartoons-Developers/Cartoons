@@ -135,35 +135,29 @@ if exist "wrapper\static\info-*nowatermark*.json" (
 ) else ( 
 	echo ^(8^) Wrapper: Offline watermark is[91m OFF [0m
 )
-:: Truncated themelist
-if exist "wrapper\_THEMES\_themelist-allthemes.xml" (
-	echo ^(9^) Truncated themelist is[92m ON [0m
-) else ( 
-	echo ^(9^) Truncated themelist is[91m OFF [0m
-)
 :: Developer mode
 if !DEVMODE!==y (
-	echo ^(10^) Developer mode is[92m ON [0m
+	echo ^(9^) Developer mode is[92m ON [0m
 ) else ( 
-	echo ^(10^) Developer mode is[91m OFF [0m
+	echo ^(9^) Developer mode is[91m OFF [0m
 )
 :: View software info
-echo ^(11^) View software information
+echo ^(10^) View software information
 :: Headless mode
 if !APPCHROMIUM!==y (
-	echo ^(12^) Headless mode for Chromium is[92m ON [0m
+	echo ^(11^) Headless mode for Chromium is[92m ON [0m
 ) else ( 
-	echo ^(12^) Headless mode for Chromium is[91m OFF [0m
+	echo ^(11^) Headless mode for Chromium is[91m OFF [0m
 )
 :: Full Screen mode
 if !FULLSCREEN!==y (
-	echo ^(13^) Full screen mode for Chromium is[92m ON [0m
+	echo ^(12^) Full screen mode for Chromium is[92m ON [0m
 ) else ( 
-	echo ^(13^) Full screen mode for Chromium is[91m OFF [0m
+	echo ^(12^) Full screen mode for Chromium is[91m OFF [0m
 )
 :: Character solid archive
 if exist "server\characters\characters.zip" (
-    echo ^(14^) Original LVM character IDs are[91m OFF [0m
+    echo ^(13^) Original LVM character IDs are[91m OFF [0m
 )
 
 if !DEVMODE!==y (
