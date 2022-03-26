@@ -315,16 +315,8 @@ if "!choice!"=="?8" (
     echo disable the watermark if you'd like.
     goto reaskoptionscreen
 )
-:: Truncated themelist
-if "!choice!"=="9" goto allthemechange
-if "!choice!"=="?9" (
-	echo Cuts down the amount of themes that clog up the themelist in the videomaker.
-	echo Keeping this off is highly suggested.
-	echo However, if you want to see everything the program has to offer, turn this on.
-	goto reaskoptionscreen
-)
 :: Check depends
-if "!choice!"=="10" (
+if "!choice!"=="9" (
 	set TOTOGGLE=DEVMODE
 	if !DEVMODE!==n (
 		set TOGGLETO=y
@@ -334,7 +326,7 @@ if "!choice!"=="10" (
 	set CFGLINE=15
 	goto toggleoption
 )
-if "!choice!"=="?10" (
+if "!choice!"=="?9" (
 	echo Wrapper: Offline is free and open-source, and a lot of folks in the community like to make mods for it.
 	echo:
 	echo Turning on developer mode will provide you with some useful features for development or making your own
@@ -343,7 +335,7 @@ if "!choice!"=="?10" (
 	echo The developer settings will be visible both in these settings and in the Wrapper launcher.
 	goto reaskoptionscreen
 )
-if "!choice!"=="11" (
+if "!choice!"=="10" (
 	cls
 	echo Wrapper: Offline
 	echo Version !WRAPPER_VER! Beta
@@ -368,14 +360,14 @@ if "!choice!"=="11" (
 	pause
 	goto optionscreen
 )
-if "!choice!"=="?11" (
+if "!choice!"=="?10" (
 	echo This option exists to view any software and existing license info
 	echo for this copy of Wrapper: Offline. It helps show the user if they're
 	echo running the beta build or the stable build.
 	goto reaskoptionscreen
 )
 :: Headless mode
-if "!choice!"=="12" (
+if "!choice!"=="11" (
 	set TOTOGGLE=APPCHROMIUM
 	if !APPCHROMIUM!==n (
 		set TOGGLETO=y
@@ -385,7 +377,7 @@ if "!choice!"=="12" (
 	set CFGLINE=24
 	goto toggleoption
 )
-if "!choice!"=="?12" (
+if "!choice!"=="?11" (
 	echo Wrapper: Offline uses an included Chromium that still supports Flash. However, to hide the browser
 	echo aspects of Chromium, Wrapper: Offline usually activates a "headless mode" for Chromium so that things
 	echo like the URL box, the back/forward arrows, the home button and other icons are rendered invisible to the user.
@@ -395,7 +387,7 @@ if "!choice!"=="?12" (
 	goto reaskoptionscreen
 )
 :: Full Screen Mode
-if "!choice!"=="13" (
+if "!choice!"=="12" (
 	set TOTOGGLE=FULLSCREEN
 	if !FULLSCREEN!==n (
 		set TOGGLETO=y
@@ -405,7 +397,7 @@ if "!choice!"=="13" (
 	set CFGLINE=27
 	goto toggleoption
 )
-if "!choice!"=="?13" (
+if "!choice!"=="?12" (
 	echo Wrapper: Offline has a full-screen mode available which will help improve user experience.
 	echo:
 	echo Turning it on will have the included Chromium start in a full-screen mode, regardless of if
@@ -414,8 +406,8 @@ if "!choice!"=="?13" (
 )
 :: Character solid archive
 if exist "server\characters\characters.zip" (
-    if "!choice!"=="14" goto extractchars
-    if "!choice!"=="?14" (
+    if "!choice!"=="13" goto extractchars
+    if "!choice!"=="?13" (
         echo When first getting Wrapper: Offline, all non-stock characters are put into a single zip file.
         echo This is because if they're all separate, extracting takes forever and is incredibly annoying.
         echo If you wish to import characters made on the LVM when it was still up and hosted by Vyond,
