@@ -9658,6 +9658,9 @@
   <component type="hair" id="new_hairstyle13" path="new_hairstyle13" name="new_hairstyle13" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
     <state id="default" filename="default.swf" />
   </component>
+  <component type="hair" id="new_hairstyle14" path="new_hairstyle14" name="new_hairstyle14" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+    <state id="default" filename="default.swf" />
+  </component>
   <component type="mustache" id="010" path="010" name="010" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
     <state id="default" filename="default.swf" />
   </component>
