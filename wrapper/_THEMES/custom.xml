@@ -4037,6 +4037,9 @@
 	<char id="324728039" name="Thief" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
 		<tags>family,_free,_cat:Holidays and Costumes</tags>
 	</char>
+	<char id="324728041" name="Tourist" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+		<tags>family,_free,_cat:Travel</tags>
+	</char>
 	<char id="324728038" name="Werewolf" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
 		<tags>family,_free,_cat:Holidays and Costumes</tags>
 	</char>
