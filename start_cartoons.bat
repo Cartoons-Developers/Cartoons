@@ -759,6 +759,7 @@ if !JUSTIMPORTED!==y ( echo Note: You'll need to reload the editor for your file
 echo:
 echo Enter 1 to reopen the video list
 echo Enter 2 to open the server page
+echo Enter 3 to import a file
 echo Enter clr to clean up the screen
 echo Enter 0 to close Cartoons
 set /a _rand=(!RANDOM!*67/32768)+1
@@ -767,9 +768,9 @@ if !_rand!==25 echo Enter things you think'll show a secret if you're feeling ad
 echo:
 set /p CHOICE=Choice:
 if "!choice!"=="0" goto exitwrapperconfirm
-set FUCKOFF=n
 if "!choice!"=="1" goto reopen_webpage
 if "!choice!"=="2" goto open_server
+if "!choice!"=="3" goto start_importer
 if /i "!choice!"=="clr" goto wrapperstartedcls
 if /i "!choice!"=="cls" goto wrapperstartedcls
 if /i "!choice!"=="clear" goto wrapperstartedcls
@@ -819,6 +820,11 @@ if !INCLUDEDCHROMIUM!==n (
 	)
 	popd
 )
+
+:start_importer
+echo Opening the importer...
+start "" "utilities\import.bat"
+goto wrapperidle
 goto wrapperidle
 
 :open_files
@@ -826,11 +832,6 @@ pushd ..
 echo Opening the vyond-remastered folder...
 start explorer.exe vyond-remastered
 popd
-goto wrapperidle
-
-:youfuckoff
-echo You fuck off.
-set FUCKOFF=y
 goto wrapperidle
 
 :open_faq
@@ -960,9 +961,8 @@ goto wrapperidle
 ::::::::::::::
 
 :: Confirmation before shutting down
-:exitwrapperconfirm
 echo:
-echo Are you sure you want to quit Cartoons?
+echo Are you sure you want to quit Wrapper: Offline?
 echo Be sure to save all your work.
 echo Type Y to quit, and N to go back.
 :exitwrapperretry
@@ -989,12 +989,10 @@ if !VERBOSEWRAPPER!==y (
 
 :: This is where I get off.
 echo Cartoons has been shut down.
-if !FUCKOFF!==y ( echo You're a good listener. )
-echo This window will now close.
 if !INCLUDEDCHROMIUM!==y (
 	echo You can close the web browser now.
 )
-echo Open start_vyond.bat again to start V:R again.
+echo Open start_cartoons.bat again to start V:R again.
 if !DRYRUN!==y ( echo Go wet your run next time. ) 
 pause & exit
 
