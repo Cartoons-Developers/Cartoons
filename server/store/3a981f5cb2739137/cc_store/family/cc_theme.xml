@@ -6962,7 +6962,7 @@
       <color r="ccMouthLip">0xFFB0AB</color>
       <color r="ccEyebrow">0x523112</color>
       <color r="ccUpperMain" oc="0x336699">0x4166B2</color>
-      <color r="ccUpperMinor" oc="0xE5E5E5">0x660000</color>
+      <color r="ccUpperMinor" oc="0xE5E5E5">0xFFFFFF</color>
       <color r="ccLowerMain" oc="0xCCBC9A">0x515151</color>
       <color r="ccLowerMinor" oc="0xEEEEEE">0x333333</color>
       <color r="ccHairMajor">0x523112</color>
@@ -7710,7 +7710,7 @@
       <color r="ccEyebrow">0x523112</color>
       <color r="ccUpperMain" oc="0x336699">0x596B75</color>
       <color r="ccUpperMinor" oc="0xE5E5E5">0xFFFFFF</color>
-      <color r="ccLowerMain" oc="0xCCBC9A">0x656633</color>
+      <color r="ccLowerMain" oc="0xCCBC9A">0x333333</color>
       <color r="ccLowerMinor" oc="0xEEEEEE">0x54331D</color>
       <color r="ccHairMajor">0x523112</color>
       <component type="bodyshape" component_id="rocky" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" />
