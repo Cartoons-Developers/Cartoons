@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?> 
 <theme id="import" name="Your Library"> 
-  <char id="matchBoy" name="Match Boy" thumb="stand.swf" facing="left" default="stand.swf" motion="walk.swf" enable="N" is_premium="N" aid="4806" money="0" sharing="0">
+  <char id="matchBoy" name="Match Boy" thumb="stand.swf" facing="left" default="stand.swf" motion="walk.swf" enable="Y" is_premium="N" aid="4806" money="0" sharing="0">
     <action id="stand.swf" name="Stand" loop="Y" totalframe="72" enable="Y" aid="4807"/>
     <motion id="walk.swf" name="Walk" loop="Y" totalframe="8" enable="Y" aid="4808"/>
     <action id="angry.swf" name="angry" loop="Y" totalframe="50" enable="Y" aid="4809"/>
@@ -29,7 +29,7 @@
     <action id="murder02.swf" name="Murdered (b)" loop="Y" totalframe="50" enable="Y" aid="4832"/>
     <action id="kill06.swf" name="Kill" loop="Y" totalframe="20" enable="Y" aid="4833"/>
   </char>
-  <char id="matchGirl" name="Match Girl" thumb="stand.swf" facing="left" default="stand.swf" motion="walk.swf" enable="N" is_premium="N" aid="4834" money="0" sharing="0">
+  <char id="matchGirl" name="Match Girl" thumb="stand.swf" facing="left" default="stand.swf" motion="walk.swf" enable="Y" is_premium="N" aid="4834" money="0" sharing="0">
     <action id="stand.swf" name="Stand" loop="Y" totalframe="4" enable="Y" aid="4835"/>
     <motion id="walk.swf" name="Walk" loop="Y" totalframe="58" enable="Y" aid="4836"/>
     <action id="angry.swf" name="angry" loop="Y" totalframe="50" enable="Y" aid="4837"/>

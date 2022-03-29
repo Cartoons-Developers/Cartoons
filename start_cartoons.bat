@@ -290,7 +290,7 @@ if !NEEDTHEDEPENDERS!==y (
 	goto skip_dependency_install
 )
 
-title Cartoons v!WRAPPER_VER! [Installing dependencies...]
+title Cartoons [Installing dependencies...]
 
 :: Preload variables
 set INSTALL_FLAGS=ALLUSERS=1 /norestart
@@ -677,7 +677,7 @@ echo:
 :: Starting Vyond ::
 ::::::::::::::::::::::
 
-title Cartoons v!WRAPPER_VER! [Loading...]
+title Cartoons [Loading...]
 
 :: Close existing node apps
 :: Hopefully fixes EADDRINUSE errors??
@@ -741,14 +741,14 @@ echo Cartoons has been started^^! The video list should now be open.
 :: Post-Start ::
 ::::::::::::::::
 
-title Cartoons v!WRAPPER_VER!
+title Cartoons 
 if !VERBOSEWRAPPER!==y ( goto wrapperstarted )
 :wrapperstartedcls
 cls
 :wrapperstarted
 
 echo:
-echo Cartoons v!WRAPPER_VER! running
+echo Cartoons running
 echo A project from PurpleCreation adapted by Benson
 echo:
 if !VERBOSEWRAPPER!==n ( echo DON'T CLOSE THIS WINDOW^^! Use the quit option ^(0^) when you're done. )
