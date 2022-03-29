@@ -3959,9 +3959,6 @@
 	<char id="324728052" name="Casual" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
 		<tags>family,_free,_cat:Casual</tags>
 	</char>
-	<char id="324728053" name="Casual" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
-		<tags>family,_free,_cat:Casual</tags>
-	</char>
 	<char id="324728054" name="Casual" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
 		<tags>family,_free,_cat:Casual</tags>
 	</char>
@@ -4068,6 +4065,9 @@
 		<tags>family,_free,_cat:Casual</tags>
 	</char>
 	<char id="324728036" name="Senior" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+		<tags>family,_free,_cat:Casual</tags>
+	</char>
+	<char id="324728053" name="Senior" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
 		<tags>family,_free,_cat:Casual</tags>
 	</char>
 	<char id="324728009" name="Soldier" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
