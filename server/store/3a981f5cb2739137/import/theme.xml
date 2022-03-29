@@ -57,4 +57,5 @@
     <action id="think.swf" name="Think" loop="Y" totalframe="75" enable="Y" aid="4859"/>
     <action id="cry.swf" name="Cry" loop="Y" totalframe="24" enable="Y" aid="4860"/>
   </char>
+  
 </theme> 
