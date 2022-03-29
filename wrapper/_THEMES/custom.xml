@@ -4061,6 +4061,9 @@
 	<char id="324728014" name="Nurse" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
 		<tags>family,_free,_cat:Healthcare</tags>
 	</char>
+	<char id="324728067" name="Office worker" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+		<tags>family,_free,_cat:Office</tags>
+	</char>
 	<char id="324728015" name="President" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
 		<tags>family,_free,_cat:Office</tags>
 	</char>
