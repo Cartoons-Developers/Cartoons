@@ -2,7 +2,6 @@
 <list version="1.0">
 	<fvm_meta theme_code="" is_biz="0" />
 	<theme id="custom" name="Comedy World" thumb="" cc_theme_id="custom" />
-	<theme id="import" name="Your Library" thumb="" cc_theme_id="import" />
 	<theme id="action" name="Peepz" thumb="" cc_theme_id="action" />
 	<theme id="politics2" name="White Houserz" thumb="" cc_theme_id="politics2" />
 	<theme id="retro" name="Cartoon Classics" thumb="ann-stand.swf" cc_theme_id="retro" />
@@ -14,6 +13,7 @@
 	<theme id="space" name="Space Peepz" thumb="" cc_theme_id="space" />
 	<theme id="stick" name="Stick Figure" thumb="" cc_theme_id="stick" />
 	<theme id="animal" name="Animals" thumb="" cc_theme_id="animal" />
+	<theme id="import" name="Your Library" thumb="" cc_theme_id="import" />
 	<theme id="common" name="Common" thumb="matchboy-stand.swf" cc_theme_id="common" />
 	<word></word>
 	<whiteword></whiteword>
