@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?> 
-<theme id="import" name="Imported Assets"> 
+<theme id="import" name="Imported Assets" cc_theme_id="import"> 
   
 </theme> 
