@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?> 
-<theme id="import" name="Your Library" cc_theme_id="import"> 
+<theme id="import" name="Your Library"> 
   <char id="matchBoy" name="Match Boy" thumb="stand.swf" facing="left" default="stand.swf" motion="walk.swf" enable="N" is_premium="N" aid="4806" money="0" sharing="0">
     <action id="stand.swf" name="Stand" loop="Y" totalframe="72" enable="Y" aid="4807"/>
     <motion id="walk.swf" name="Walk" loop="Y" totalframe="8" enable="Y" aid="4808"/>
