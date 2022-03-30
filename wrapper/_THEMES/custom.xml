@@ -4007,6 +4007,9 @@
 	<char id="324728016" name="Firefighter" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
 		<tags>family,_free,_cat:Government</tags>
 	</char>
+	<char id="324728068" name="Firefighter" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+		<tags>family,_free,_cat:Government</tags>
+	</char>
 	<char id="324728024" name="Graduate" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
 		<tags>family,_free,_cat:Special Occasions</tags>
 	</char>
@@ -4017,6 +4020,9 @@
 		<tags>family,_free,_cat:Special Occasions</tags>
 	</char>
 	<char id="324728018" name="Hotel Porter" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+		<tags>family,_free,_cat:Travel</tags>
+	</char>
+	<char id="324728069" name="Hotel Porter" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
 		<tags>family,_free,_cat:Travel</tags>
 	</char>
 	<char id="324728002" name="Kid" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
