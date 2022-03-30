@@ -3145,7 +3145,7 @@
   <prop id="supermarket_cloth_tray.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="9124" money="0" sharing="0"/>
   <prop id="supermarket_pants_tray.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="9125" money="0" sharing="0"/>
   <prop id="hospital_rm_bed.swf" name="Bed" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9126" money="0" sharing="0"/>
-  <prop id="cc_foldchair.swf" name="folding chair" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9015" money="0" sharing="0"/>
+  <prop id="cc_foldchair.swf" name="folding chair" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9015" money="0" sharing="0"/>
   <prop id="msp_hosiptal_blanket" name="Blanket" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_hosiptal_blanket_hospital_rm_blanket_full.swf" enable="N" is_premium="N" aid="9127" money="0" sharing="0">
     <state id="msp_hosiptal_blanket_hospital_rm_blanket_empty.swf" name="Empty" enable="Y"/>
     <state id="msp_hosiptal_blanket_hospital_rm_blanket_full.swf" name="Occupied" enable="Y" default="Y"/>
@@ -3642,7 +3642,7 @@
   <prop id="xm_bell.swf" name="Xmas Bell" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="8982" money="0" sharing="0"/>
   <prop id="xm_candle.swf" name="candle" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="8983" money="0" sharing="0"/>
   <prop id="xm_cookies.swf" name="cookies" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="8984" money="0" sharing="0"/>
-  <prop id="xm_decoball.swf" name="decoball" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="8985" money="0" sharing="0"/>
+  <prop id="xm_decoball.swf" name="Ornament" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="8985" money="0" sharing="0"/>
   <prop id="xm_gift.swf" name="Gift" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="8986" money="0" sharing="0"/>
   <prop id="xm_jettoy.swf" name="jet toy" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="8987" money="0" sharing="0"/>
   <prop id="xm_sock.swf" name="Xmas Sock" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="8988" money="0" sharing="0"/>
@@ -3661,12 +3661,10 @@
   <c_area oc="">ccHColorA</c_area>
 </c_parts>
   </prop>
-  <prop id="house_deco.swf" name="Decoration" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9002" money="0" sharing="0"/>
-  <prop id="house_top.swf" name="Decoration" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9003" money="0" sharing="0"/>
-  <prop id="sorting_hat_still.swf" name="Sorting Hat (still)" holdable="0" placeable="1" wearable="1" facing="left" thumb="" enable="Y" is_premium="N" aid="8913" money="0" sharing="0"/>
-  <prop id="sorting_hat_talk.swf" name="Sorting Hat (talk)" holdable="0" placeable="1" wearable="1" facing="left" thumb="" enable="Y" is_premium="N" aid="8914" money="0" sharing="0"/>
+  <prop id="sorting_hat_still.swf" name="Sorting Hat (still)" holdable="0" placeable="1" wearable="1" facing="left" thumb="" enable="N" is_premium="N" aid="8913" money="0" sharing="0"/>
+  <prop id="sorting_hat_talk.swf" name="Sorting Hat (talk)" holdable="0" placeable="1" wearable="1" facing="left" thumb="" enable="N" is_premium="N" aid="8914" money="0" sharing="0"/>
   <prop id="broomstick.swf" name="Broomstick" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="8915" money="0" sharing="0"/>
-  <prop id="snitch.swf" name="Golden snitch" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="8916" money="0" sharing="0"/>
+  <prop id="snitch.swf" name="Golden snitch" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="8916" money="0" sharing="0"/>
   <prop id="owl.swf" name="Owl" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="8917" money="0" sharing="0"/>
   <prop id="magic_wand.swf" name="Magic Wand" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="8918" money="0" sharing="0"/>
   <prop id="magic_book.swf" name="Book" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="8919" money="0" sharing="0"/>
@@ -3676,7 +3674,7 @@
   <prop id="classroom_wall.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="8923" money="0" sharing="0"/>
   <prop id="corridor_wall.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="8924" money="0" sharing="0"/>
   <prop id="dining_room_table.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="8925" money="0" sharing="0"/>
-  <prop id="library_bookshelf.swf" name="Bookshelves" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="8926" money="0" sharing="0"/>
+  <prop id="library_bookshelf.swf" name="Bookshelves" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="8926" money="0" sharing="0"/>
   <prop id="library_chair.swf" name="Chair" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="8927" money="0" sharing="0"/>
   <prop id="outside_tree01.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="8928" money="0" sharing="0"/>
   <prop id="outside_tree02.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="8929" money="0" sharing="0"/>
@@ -3926,7 +3924,7 @@
 		<state id="msp_cat_cat_running.swf" name="Running" enable="Y"/>
 		<state id="msp_cat_cat_eating.swf" name="Eating" enable="Y"/>
 		<state id="msp_cat_cat_playing.swf" name="Playing" enable="Y"/>
-	</prop>
+  </prop>
 
   
 	<char id="324728001" name="Casual" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
