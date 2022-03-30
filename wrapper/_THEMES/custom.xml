@@ -3063,8 +3063,8 @@
   <prop id="toy_workshop_drum.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="8977" money="0" sharing="0"/>
   <prop id="sitting_room_sofa.swf" name="Sofa" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="8993" money="0" sharing="0"/>
   <prop id="sitting_room_sofa2.swf" name="Sofa" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9001" money="0" sharing="0"/>
-  <prop id="cc_beanie_hat.swf" name="Beanie Hat With Ball" holdable="0" placeable="1" wearable="1" facing="left" thumb="" enable="Y" is_premium="N" aid="8994" money="0" sharing="0"/>
-  <prop id="cc_beanie_hat_ball.swf" name="Beanie Hat" holdable="0" placeable="1" wearable="1" facing="left" thumb="" enable="Y" is_premium="N" aid="8995" money="0" sharing="0"/>
+  <prop id="cc_beanie_hat.swf" name="Beanie Hat" holdable="0" placeable="1" wearable="1" facing="left" thumb="" enable="Y" is_premium="N" aid="8994" money="0" sharing="0"/>
+  <prop id="cc_beanie_hat_ball.swf" name="Beanie Hat With Ball" holdable="0" placeable="1" wearable="1" facing="left" thumb="" enable="Y" is_premium="N" aid="8995" money="0" sharing="0"/>
   <prop id="cc_ear_muffs.swf" name="Ear Muffs" holdable="0" placeable="1" wearable="1" facing="left" thumb="" enable="Y" is_premium="N" aid="8996" money="0" sharing="0"/>
   <prop id="cc_elf_hat.swf" name="Elf Hat" holdable="0" placeable="1" wearable="1" facing="left" thumb="" enable="Y" is_premium="N" aid="8997" money="0" sharing="0"/>
   <prop id="msp_toy_workshop_doorframe" name="doorframe" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_toy_workshop_doorframe_toy_workshop_doorframe1.swf" enable="N" is_premium="N" aid="8978" money="0" sharing="0">
@@ -4075,6 +4075,9 @@
 		<tags>family,_free,_cat:Healthcare</tags>
 	</char>
 	<char id="324728067" name="Office Worker" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+		<tags>family,_free,_cat:Office</tags>
+	</char>
+	<char id="324728070" name="Office Worker" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
 		<tags>family,_free,_cat:Office</tags>
 	</char>
 	<char id="324728015" name="President" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
