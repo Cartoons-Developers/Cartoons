@@ -3918,7 +3918,16 @@
   <prop id="bar_light_02.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="9806" money="0" sharing="0"/>
   <prop id="bar_stool.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="9807" money="0" sharing="0"/>
   <prop id="living_room_sofa.swf" name="Sofa" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9797" money="0" sharing="0"/>
-  
+  <prop id="msp_cat" name="Cat" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_cat_cat_still.swf" enable="Y" is_premium="N" aid="9802" money="0" sharing="0">
+		<state id="msp_cat_cat_still.swf" name="Still" enable="Y" default="Y"/>
+		<state id="msp_cat_cat_standing.swf" name="Standing" enable="Y"/>
+		<state id="msp_cat_cat_sitting.swf" name="Sitting" enable="Y"/>
+		<state id="msp_cat_cat_walking.swf" name="Walking" enable="Y"/>
+		<state id="msp_cat_cat_running.swf" name="Running" enable="Y"/>
+		<state id="msp_cat_cat_eating.swf" name="Eating" enable="Y"/>
+		<state id="msp_cat_cat_playing.swf" name="Playing" enable="Y"/>
+	</prop>
+
   
 	<char id="324728001" name="Casual" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
 		<tags>family,_free,_cat:Casual</tags>
