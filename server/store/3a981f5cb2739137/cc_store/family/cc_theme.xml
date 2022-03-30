@@ -9858,7 +9858,7 @@
   <component type="facedecoration" id="052" path="052" name="052" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
     <state id="default" filename="default.swf" />
   </component>
-  <component type="facedecoration" id="053" path="053" name="053" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+  <component type="facedecoration" id="053" path="053" name="053" thumb="thumbnail.swf" money="0" sharing="0" enable="N">
     <state id="default" filename="default.swf" />
   </component>
   <component type="facedecoration" id="054" path="054" name="054" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
