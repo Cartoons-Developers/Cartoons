@@ -186,25 +186,4 @@
     <state id="msp_vending_drink_vending_drink.swf" name="front" enable="Y" default="Y"/>
     <state id="msp_vending_drink_ncc_vending_drink_side.swf" name="side" enable="Y"/>
   </prop>
-	<char id="832001" name="Cat" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
-		<tags>cc2,_free,_cat:Animals</tags>
-	</char>
-	<char id="832007" name="Fox" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
-		<tags>cc2,_free,_cat:Animals</tags>
-	</char>
-	<char id="832002" name="Lion" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
-		<tags>cc2,_free,_cat:Animals</tags>
-	</char>
-	<char id="832003" name="Lioness" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
-		<tags>cc2,_free,_cat:Animals</tags>
-	</char>
-	<char id="832005" name="Raccoon" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
-		<tags>cc2,_free,_cat:Animals</tags>
-	</char>
-	<char id="832004" name="Skunk" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
-		<tags>cc2,_free,_cat:Animals</tags>
-	</char>
-	<char id="832006" name="Squirrel" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
-		<tags>cc2,_free,_cat:Animals</tags>
-	</char>
 </theme>
