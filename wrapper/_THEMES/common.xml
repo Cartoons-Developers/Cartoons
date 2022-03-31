@@ -16424,7 +16424,7 @@
   <prop id="msp_ncc_xray" name="X-ray" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_ncc_xray_ncc_xray01.swf" enable="Y" is_premium="N" aid="11313" money="0" sharing="0">
     <state id="msp_ncc_xray_ncc_xray01.swf" name="head" enable="Y" default="Y"/>
     <state id="msp_ncc_xray_ncc_xray02.swf" name="body" enable="Y"/>
-    <state id="msp_ncc_xray_ncc_xray03.swf" name="homer" enable="Y"/>
+    <state id="msp_ncc_xray_ncc_xray03.swf" name="homer" enable="N"/>
   </prop>
   <prop id="ncc_05akgun.swf" name="Gun" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="11317" money="0" sharing="0" handstyle="gun"/>
   <prop id="ncc_slfire.swf" name="Fire extinguishers" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="11330" money="0" sharing="0"/>
