@@ -3926,7 +3926,7 @@
 		<state id="msp_cat_cat_playing.swf" name="Playing" enable="Y"/>
   </prop>
   <prop id="pencil.swf" name="Pencil" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9797" money="0" sharing="0"/>
-  <prop id="prohibition_sign.swf" name="Prohibition Sign" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9797" money="0" sharing="0"/>
+  <prop id="prohibition_sign.swf" name="Prohibition Sign" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9797" money="0" sharing="0"/>
   <prop id="wine.swf" name="Wine" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9797" money="0" sharing="0"/>
 
 
