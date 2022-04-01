@@ -2202,12 +2202,12 @@
 		<library type="GoUpper" id="2014" path="2014" name="2014" thumb="2014_thumbnail.swf" display_order="10" money="0" sharing="0" enable="N">
 
 		</library>
-
+		
+<!--PAGE 1-->
+        <library type="GoUpper" id="animal_body" path="animal_body" name="animal_body" thumb="animal_body_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
         <library type="GoUpper" id="282" path="282" name="282" thumb="282_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y">
 
 		</library>
-		
-<!--PAGE 1-->
         <library type="GoUpper" id="263" path="263" name="263" thumb="263_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
         <library type="GoUpper" id="264" path="264" name="264" thumb="264_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
         <library type="GoUpper" id="224" path="224" name="224" thumb="224_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
@@ -2572,7 +2572,6 @@
         <library type="GoUpper" id="245" path="245" name="245" thumb="245_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
         <library type="GoUpper" id="246" path="246" name="246" thumb="246_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
         <library type="GoUpper" id="247" path="247" name="247" thumb="247_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
-        <library type="GoUpper" id="animal_body" path="animal_body" name="animal_body" thumb="animal_body_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
 		
 <!-- FEET START HERE -->
         <library type="GoLower" id="000" path="000" name="000" thumb="000_thumbnail.swf" display_order="10" money="0" sharing="0" enable="N">
@@ -3947,10 +3946,6 @@
         <state id="default" filename="default.swf"/>
 		<tag>_userrole_admin</tag>
     </component>
-
-    <component type="faceshape" id="001" path="001" name="001" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
-        <state id="default" filename="default.swf"/>
-    </component>
     <component type="faceshape" id="eye_marking" path="eye_marking" name="eye_marking" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
         <state id="default" filename="default.swf"/>
     </component>
@@ -3958,6 +3953,10 @@
         <state id="default" filename="default.swf"/>
     </component>
     <component type="faceshape" id="mouth_marking" path="mouth_marking" name="mouth_marking" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+        <state id="default" filename="default.swf"/>
+    </component>
+
+    <component type="faceshape" id="001" path="001" name="001" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
         <state id="default" filename="default.swf"/>
     </component>
     <component type="faceshape" id="002" path="002" name="002" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
