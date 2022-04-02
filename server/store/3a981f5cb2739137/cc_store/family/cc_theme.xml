@@ -5890,12 +5890,6 @@
       <selection type="skeleton" state_id="bend" />
       <selection type="upper_body" state_id="default" />
     </action>
-    <action id="kneel2" name="Kneel down - sad" loop="Y" totalframe="60" enable="Y" category="Emotions" is_motion="N">
-      <selection type="facial" facial_id="head_sad" />
-      <selection type="lower_body" state_id="kneel_down" />
-      <selection type="skeleton" state_id="sad" />
-      <selection type="upper_body" state_id="sad" />
-    </action>
     <component type="lower_body" id="eve_001" path="eve_001" name="eve_001" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
       <state id="dance" filename="dance.swf" />
       <state id="default" filename="default.swf" />
