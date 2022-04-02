@@ -4022,6 +4022,18 @@
 	<char id="324728027" name="Graduate" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
 		<tags>family,_free,_cat:Special Occasions</tags>
 	</char>
+	<char id="324728078" name="Graduate" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+		<tags>family,_free,_cat:Special Occasions</tags>
+	</char>
+	<char id="324728079" name="Graduate" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+		<tags>family,_free,_cat:Special Occasions</tags>
+	</char>
+	<char id="324728080" name="Graduate" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+		<tags>family,_free,_cat:Special Occasions</tags>
+	</char>
+	<char id="324728081" name="Graduate" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+		<tags>family,_free,_cat:Special Occasions</tags>
+	</char>
 	<char id="324728018" name="Hotel Porter" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
 		<tags>family,_free,_cat:Travel</tags>
 	</char>
