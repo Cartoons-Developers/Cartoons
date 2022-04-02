@@ -9721,6 +9721,9 @@
   <component type="ear" id="gauged" path="gauged" name="gauged" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
     <state id="default" filename="default.swf" />
   </component>
+  <component type="ear" id="rock_star" path="rock_star" name="rock_star" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+    <state id="default" filename="default.swf" />
+  </component>
   <component type="ear" id="seamonster" path="seamonster" name="seamonster" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
     <state id="default" filename="default.swf" />
   </component>

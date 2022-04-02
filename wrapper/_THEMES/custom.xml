@@ -4112,6 +4112,9 @@
 	<char id="324728008" name="Police" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
 		<tags>family,_free,_cat:Government</tags>
 	</char>
+	<char id="324728077" name="Rocker" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+		<tags>family,_free,_cat:Casual</tags>
+	</char>
 	<char id="324728017" name="Santa Claus" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
 		<tags>family,_free,_cat:Holidays and Costumes</tags>
 	</char>
