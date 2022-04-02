@@ -4079,6 +4079,9 @@
 	<char id="324728072" name="Kid" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
 		<tags>family,_free,_cat:Casual</tags>
 	</char>
+	<char id="324728074" name="Kid" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+		<tags>family,_free,_cat:Casual</tags>
+	</char>
 	<char id="324728040" name="Monster" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
 		<tags>family,_free,_cat:Holidays and Costumes</tags>
 	</char>
@@ -4090,6 +4093,9 @@
 	</char>
 	<char id="324728070" name="Office Worker" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
 		<tags>family,_free,_cat:Office</tags>
+	</char>
+	<char id="324728075" name="Pajamas" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+		<tags>family,_free,_cat:Casual</tags>
 	</char>
 	<char id="324728073" name="Pirate" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
 		<tags>family,_free,_cat:Holidays and Costumes</tags>
