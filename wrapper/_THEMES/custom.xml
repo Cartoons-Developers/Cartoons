@@ -4109,6 +4109,27 @@
 	<char id="324728070" name="Office Worker" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
 		<tags>family,_free,_cat:Office</tags>
 	</char>
+	<char id="324728084" name="Office Worker" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+		<tags>family,_free,_cat:Office</tags>
+	</char>
+	<char id="324728085" name="Office Worker" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+		<tags>family,_free,_cat:Office</tags>
+	</char>
+	<char id="324728086" name="Office Worker" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+		<tags>family,_free,_cat:Office</tags>
+	</char>
+	<char id="324728087" name="Office Worker" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+		<tags>family,_free,_cat:Office</tags>
+	</char>
+	<char id="324728088" name="Office Worker" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+		<tags>family,_free,_cat:Office</tags>
+	</char>
+	<char id="324728089" name="Office Worker" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+		<tags>family,_free,_cat:Office</tags>
+	</char>
+	<char id="324728090" name="Office Worker" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+		<tags>family,_free,_cat:Office</tags>
+	</char>
 	<char id="324728075" name="Pajamas" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
 		<tags>family,_free,_cat:Casual</tags>
 	</char>
