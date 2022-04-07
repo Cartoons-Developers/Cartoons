@@ -4139,6 +4139,15 @@
 	<char id="324728015" name="President" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
 		<tags>family,_free,_cat:Office</tags>
 	</char>
+	<char id="324728091" name="Prisoner" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+		<tags>family,_free,_cat:Government</tags>
+	</char>
+	<char id="324728092" name="Prisoner" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+		<tags>family,_free,_cat:Government</tags>
+	</char>
+	<char id="324728093" name="Prisoner" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+		<tags>family,_free,_cat:Government</tags>
+	</char>
 	<char id="324728006" name="Police" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
 		<tags>family,_free,_cat:Government</tags>
 	</char>
