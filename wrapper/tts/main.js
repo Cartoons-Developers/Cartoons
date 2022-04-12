@@ -8,27 +8,22 @@ module.exports = function (voiceName, text) {
 		const voice = voices[voiceName];
 		switch (voice.source) {
 			case 'polly': {
-				var buffers = [];
-				var req = https.request({
-					hostname: 'pollyvoices.com',
-					port: '443',
-					path: '/api/sound/add',
-					method: 'POST',
-					headers: {
-						'Content-Type': 'application/x-www-form-urlencoded',
-					},
-				}, r => {
-					r.on('data', b => buffers.push(b));
-					r.on('end', () => {
-						var json = JSON.parse(Buffer.concat(buffers));
-						if (json.file)
-							get(`https://pollyvoices.com${json.file}`).then(res);
-						else
-							rej();
-					});
+				https.get('https://nextup.com/ivona/index.html', (r) => {
+				var q = qs.encode({
+					voice: voice.arg,
+				    language: `${voice.language}-${voice.country}`,
+					text: text
 				});
-				req.write(qs.encode({ text: text, voice: voice.arg }));
-				req.end();
+				var buffers = [];
+                var req = https.get(`https://nextup.com/ivona/php/nextup-polly/CreateSpeech/CreateSpeechGet3.php?${q}`, (r) => {
+                    r.on("data", (d) => buffers.push(d));
+                    r.on("end", () => {
+                        const loc = Buffer.concat(buffers).toString();
+                        get(loc).then(res).catch(rej);
+                    });
+                    r.on("error", rej);
+                    });
+				});
 				break;
 			}
 			case 'cepstral':
