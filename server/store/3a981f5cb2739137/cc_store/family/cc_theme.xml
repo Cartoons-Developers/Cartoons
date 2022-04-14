@@ -5903,6 +5903,18 @@
       <selection type="skeleton" state_id="bend" />
       <selection type="upper_body" state_id="default" />
     </action>
+    <action id="sit_xarms" name="Sit - crossed arms" loop="Y" totalframe="1" enable="Y" category="Poses" is_motion="N">
+      <selection type="facial" facial_id="head_neutral"/>
+      <selection type="lower_body" state_id="sit"/>
+      <selection type="skeleton" state_id="crossed_arms"/>
+      <selection type="upper_body" state_id="crossed_arms"/>
+    </action>
+    <action id="sit_talk" name="Sit - talk" loop="Y" totalframe="1" enable="Y" category="Daily life" is_motion="N">
+      <selection type="facial" facial_id="head_talk_a"/>
+      <selection type="lower_body" state_id="sit"/>
+      <selection type="skeleton" state_id="talk"/>
+      <selection type="upper_body" state_id="talk"/>
+    </action>
     <component type="lower_body" id="eve_001" path="eve_001" name="eve_001" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
       <state id="dance" filename="dance.swf" />
       <state id="default" filename="default.swf" />
@@ -10019,6 +10031,9 @@
     <state id="default" filename="default.swf" />
   </component>
   <component type="facedecoration" id="facemask" path="facemask" name="facemask" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+    <state id="default" filename="default.swf" />
+  </component>
+  <component type="facedecoration" id="fedora" path="fedora" name="fedora" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
     <state id="default" filename="default.swf" />
   </component>
   <component type="facedecoration" id="fez" path="fez" name="fez" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
