@@ -891,6 +891,12 @@
       <selection type="skeleton" state_id="faint" />
       <selection type="upper_body" state_id="walk" />
     </action>
+    <action id="furious" name="Furious" loop="Y" totalframe="80" enable="Y" category="Emotions" is_motion="N">
+      <selection type="facial" facial_id="head_angry"/>
+      <selection type="lower_body" state_id="laugh"/>
+      <selection type="skeleton" state_id="excited"/>
+      <selection type="upper_body" state_id="excited"/>
+    </action>
     <action id="kneel2" name="Kneel down - sad" loop="Y" totalframe="60" enable="Y" category="Emotions" is_motion="N">
       <selection type="facial" facial_id="head_sad" />
       <selection type="lower_body" state_id="kneel_down" />
@@ -920,6 +926,12 @@
       <selection type="lower_body" state_id="sit" />
       <selection type="skeleton" state_id="sit" />
       <selection type="upper_body" state_id="crossed_arms" />
+    </action>
+    <action id="sit_laugh" name="Sit - laugh" loop="Y" totalframe="6" enable="Y" category="Emotions" is_motion="N">
+      <selection type="facial" facial_id="head_laugh" />
+      <selection type="lower_body" state_id="sit" />
+      <selection type="skeleton" state_id="laugh" />
+      <selection type="upper_body" state_id="laugh" />
     </action>
     <action id="sit_talk" name="Sit - talk" loop="Y" totalframe="100" enable="Y" category="Daily life" is_motion="N">
       <selection type="facial" facial_id="head_talk_a" />
@@ -2725,6 +2737,12 @@
       <selection type="skeleton" state_id="sit" />
       <selection type="upper_body" state_id="crossed_arms" />
     </action>
+    <action id="sit_laugh" name="Sit - laugh" loop="Y" totalframe="6" enable="Y" category="Emotions" is_motion="N">
+      <selection type="facial" facial_id="head_laugh" />
+      <selection type="lower_body" state_id="sit" />
+      <selection type="skeleton" state_id="laugh" />
+      <selection type="upper_body" state_id="laugh" />
+    </action>
     <action id="sit_talk" name="Sit - talk" loop="Y" totalframe="100" enable="Y" category="Daily life" is_motion="N">
       <selection type="facial" facial_id="head_talk_a" />
       <selection type="lower_body" state_id="sit" />
@@ -4366,6 +4384,12 @@
       <selection type="skeleton" state_id="sit" />
       <selection type="upper_body" state_id="crossed_arms" />
     </action>
+    <action id="sit_laugh" name="Sit - laugh" loop="Y" totalframe="6" enable="Y" category="Emotions" is_motion="N">
+      <selection type="facial" facial_id="head_laugh" />
+      <selection type="lower_body" state_id="sit" />
+      <selection type="skeleton" state_id="laugh" />
+      <selection type="upper_body" state_id="laugh" />
+    </action>
     <action id="sit_talk" name="Sit - talk" loop="Y" totalframe="100" enable="Y" category="Daily life" is_motion="N">
       <selection type="facial" facial_id="head_talk_a" />
       <selection type="lower_body" state_id="sit" />
@@ -5936,11 +5960,23 @@
       <selection type="skeleton" state_id="bend" />
       <selection type="upper_body" state_id="default" />
     </action>
+    <action id="furious" name="Furious" loop="Y" totalframe="80" enable="Y" category="Emotions" is_motion="N">
+      <selection type="facial" facial_id="head_angry"/>
+      <selection type="lower_body" state_id="laugh"/>
+      <selection type="skeleton" state_id="excited"/>
+      <selection type="upper_body" state_id="excited"/>
+    </action>
     <action id="sit_xarms" name="Sit - crossed arms" loop="Y" totalframe="1" enable="Y" category="Poses" is_motion="N">
       <selection type="facial" facial_id="head_neutral"/>
       <selection type="lower_body" state_id="sit"/>
       <selection type="skeleton" state_id="crossed_arms"/>
       <selection type="upper_body" state_id="crossed_arms"/>
+    </action>
+    <action id="sit_laugh" name="Sit - laugh" loop="Y" totalframe="6" enable="Y" category="Emotions" is_motion="N">
+      <selection type="facial" facial_id="head_laugh" />
+      <selection type="lower_body" state_id="sit" />
+      <selection type="skeleton" state_id="laugh" />
+      <selection type="upper_body" state_id="laugh" />
     </action>
     <action id="sit_talk" name="Sit - talk" loop="Y" totalframe="1" enable="Y" category="Daily life" is_motion="N">
       <selection type="facial" facial_id="head_talk_a"/>
