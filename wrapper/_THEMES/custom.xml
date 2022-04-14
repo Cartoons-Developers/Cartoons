@@ -3932,6 +3932,9 @@
 
 
   
+	<char id="324728096" name="Basketball Player" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+		<tags>family,_free,_cat:Sports</tags>
+	</char>
 	<char id="324728001" name="Casual" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
 		<tags>family,_free,_cat:Casual</tags>
 	</char>
