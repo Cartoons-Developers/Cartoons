@@ -186,4 +186,7 @@
     <state id="msp_vending_drink_vending_drink.swf" name="front" enable="Y" default="Y"/>
     <state id="msp_vending_drink_ncc_vending_drink_side.swf" name="side" enable="Y"/>
   </prop>
+	<char id="834001" name="Casual" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
+		<tags>cc2,_free,_cat:Casual</tags>
+	</char>
 </theme>
