@@ -3932,6 +3932,9 @@
 
 
   
+	<char id="324728097" name="Baseball Player" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+		<tags>family,_free,_cat:Sports</tags>
+	</char>
 	<char id="324728096" name="Basketball Player" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
 		<tags>family,_free,_cat:Sports</tags>
 	</char>
@@ -3993,6 +3996,9 @@
 		<tags>family,_free,_cat:Casual</tags>
 	</char>
 	<char id="324728060" name="Casual" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+		<tags>family,_free,_cat:Casual</tags>
+	</char>
+	<char id="324728098" name="Casual" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
 		<tags>family,_free,_cat:Casual</tags>
 	</char>
 	<char id="324728061" name="Casual" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
@@ -4200,6 +4206,9 @@
 		<tags>family,_free,_cat:Casual</tags>
 	</char>
 	<char id="324728082" name="Student" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+		<tags>family,_free,_cat:Casual</tags>
+	</char>
+	<char id="324728099" name="Student" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
 		<tags>family,_free,_cat:Casual</tags>
 	</char>
 	<char id="324728047" name="Superhero" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
