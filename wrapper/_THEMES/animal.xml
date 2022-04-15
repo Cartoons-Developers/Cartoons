@@ -79,6 +79,9 @@
 	<char id="832009" name="Beaver" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
 		<tags>cc2,_free</tags>
 	</char>
+	<char id="832012" name="Bunny" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
+		<tags>cc2,_free</tags>
+	</char>
 	<char id="832001" name="Cat" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
 		<tags>cc2,_free</tags>
 	</char>
