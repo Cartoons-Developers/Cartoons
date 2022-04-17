@@ -112,4 +112,7 @@
 	<char id="832006" name="Squirrel" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
 		<tags>cc2,_free</tags>
 	</char>
+	<char id="832013" name="Tiger" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
+		<tags>cc2,_free</tags>
+	</char>
 </theme>

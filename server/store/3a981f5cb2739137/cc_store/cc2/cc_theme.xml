@@ -2205,6 +2205,7 @@
 		
 <!--PAGE 1-->
         <library type="GoUpper" id="animal_body" path="animal_body" name="animal_body" thumb="animal_body_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
+        <library type="GoUpper" id="tiger" path="tiger" name="tiger" thumb="tiger_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
         <library type="GoUpper" id="282" path="282" name="282" thumb="282_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y">
 
 		</library>
@@ -3951,6 +3952,9 @@
         <state id="default" filename="default.swf"/>
     </component>
     <component type="faceshape" id="mouth_marking" path="mouth_marking" name="mouth_marking" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+        <state id="default" filename="default.swf"/>
+    </component>
+    <component type="faceshape" id="tiger" path="tiger" name="tiger" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
         <state id="default" filename="default.swf"/>
     </component>
 

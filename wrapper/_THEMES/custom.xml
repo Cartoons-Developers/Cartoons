@@ -3935,6 +3935,15 @@
 	<char id="324728097" name="Baseball Player" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
 		<tags>family,_free,_cat:Sports</tags>
 	</char>
+	<char id="324728100" name="Baseball Player" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+		<tags>family,_free,_cat:Sports</tags>
+	</char>
+	<char id="324728101" name="Baseball Player" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+		<tags>family,_free,_cat:Sports</tags>
+	</char>
+	<char id="324728102" name="Baseball Player" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+		<tags>family,_free,_cat:Sports</tags>
+	</char>
 	<char id="324728096" name="Basketball Player" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
 		<tags>family,_free,_cat:Sports</tags>
 	</char>
