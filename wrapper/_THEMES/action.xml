@@ -189,4 +189,7 @@
 	<char id="834001" name="Casual" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
 		<tags>cc2,_free,_cat:Casual</tags>
 	</char>
+	<char id="834002" name="Skeleton" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
+		<tags>cc2,_free,_cat:Holidays and Costumes</tags>
+	</char>
 </theme>
