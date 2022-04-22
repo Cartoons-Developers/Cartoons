@@ -7151,9 +7151,9 @@
       <color r="ccEyeIris">0x0086D3</color>
       <color r="ccMouthLip">0xFFB0AB</color>
       <color r="ccEyebrow">0x523112</color>
-      <color r="ccUpperMain" oc="0x336699">0x4166B2</color>
+      <color r="ccUpperMain" oc="0x336699">0xFFFFFF</color>
       <color r="ccUpperMinor" oc="0xE5E5E5">0xFFFFFF</color>
-      <color r="ccLowerMain" oc="0xCCBC9A">0x515151</color>
+      <color r="ccLowerMain" oc="0xCCBC9A">0x2E415D</color>
       <color r="ccLowerMinor" oc="0xEEEEEE">0x333333</color>
       <color r="ccHairMajor">0x523112</color>
       <component type="bodyshape" component_id="bob" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" />
@@ -7164,8 +7164,8 @@
       <component type="hair" component_id="027" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" />
       <component type="nose" component_id="026" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" />
       <component type="eyebrow" component_id="109" theme_id="family" x="-1" y="2" xscale="1" yscale="1" offset="-2" rotation="0" />
-      <component type="upper_body" component_id="bob_011" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" />
-      <component type="lower_body" component_id="bob_005" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" />
+      <component type="upper_body" component_id="bob_003" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" />
+      <component type="lower_body" component_id="bob_001" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" />
       <component type="eye" component_id="male" theme_id="family" x="0" y="0" xscale="0.89" yscale="0.75" offset="0" rotation="0" />
     </default_char>
     <action id="stand" name="Stand" loop="Y" totalframe="1" enable="Y" category="Poses" is_motion="N">
