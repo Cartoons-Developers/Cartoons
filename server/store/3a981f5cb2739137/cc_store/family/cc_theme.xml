@@ -4251,7 +4251,7 @@
       <component type="mouth" component_id="201" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" />
       <component type="upper_body" component_id="adam_068" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" />
       <component type="eye" component_id="female" theme_id="family" x="0" y="4" xscale="1" yscale="1" offset="2" rotation="0" />
-      <component type="hair" component_id="081" theme_id="family" x="0" y="2" xscale="1" yscale="1" offset="0" rotation="0" />
+      <component type="hair" component_id="new_hairstyle12" theme_id="family" x="0" y="2" xscale="1" yscale="1" offset="0" rotation="0" />
     </default_char>
     <action id="stand" name="Stand" loop="Y" totalframe="1" enable="Y" category="Poses" is_motion="N">
       <selection type="facial" facial_id="head_neutral" />
@@ -9777,6 +9777,9 @@
     <state id="default" filename="default.swf" />
   </component>
   <component type="hair" id="bowlcut" path="bowlcut" name="bowlcut" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+    <state id="default" filename="default.swf" />
+  </component>
+  <component type="hair" id="dreadlock_afro" path="dreadlock_afro" name="dreadlock_afro" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
     <state id="default" filename="default.swf" />
   </component>
   <component type="hair" id="dreadlocks" path="dreadlocks" name="dreadlocks" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
