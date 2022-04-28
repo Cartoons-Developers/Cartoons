@@ -602,7 +602,7 @@
 
 
     <bodyshape id="default" name="Default" default_action="stand" default_motion="walk" action_thumb="stand" facial_thumb="head_neutral" thumb_path="thumbnail.swf" enable="Y">
-        <default_char xscale='1' yscale='1' hxscale='1' hyscale='1' headdx='0' headdy='0' version='2.0'>
+        <default_char xscale='1' yscale='1' hxscale='1' hyscale='1' headdx='0' headdy='0' version="2.0">
 		<color r="ccSkinColor">0xE2C294</color>
 		<color r="ccEyeLib">0xBD8764</color>
 		<color r="ccEyeIris">0x003333</color>
