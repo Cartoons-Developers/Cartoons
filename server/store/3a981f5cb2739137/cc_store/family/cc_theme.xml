@@ -9581,7 +9581,7 @@
   <component type="glasses" id="016" path="016" name="016" thumb="thumbnail.swf" money="0" sharing="0" enable="N">
     <state id="default" filename="default.swf" />
   </component>
-  <component type="glasses" id="pixel" path="pixel" name="pixel" thumb="thumbnail.swf" money="0" sharing="0" enable="N">
+  <component type="glasses" id="pixel" path="pixel" name="pixel" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
     <state id="default" filename="default.swf" />
   </component>
   <component type="hair" id="084" path="084" name="084" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
