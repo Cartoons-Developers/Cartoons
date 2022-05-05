@@ -4028,6 +4028,21 @@
 	<char id="324728098" name="Casual" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
 		<tags>family,_free,_cat:Casual</tags>
 	</char>
+	<char id="324728111" name="Construction Worker" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+		<tags>family,_free,_cat:Industrial</tags>
+	</char>
+	<char id="324728112" name="Construction Worker" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+		<tags>family,_free,_cat:Industrial</tags>
+	</char>
+	<char id="324728113" name="Construction Worker" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+		<tags>family,_free,_cat:Industrial</tags>
+	</char>
+	<char id="324728114" name="Construction Worker" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+		<tags>family,_free,_cat:Industrial</tags>
+	</char>
+	<char id="324728115" name="Construction Worker" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+		<tags>family,_free,_cat:Industrial</tags>
+	</char>
 	<char id="324728061" name="Casual" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
 		<tags>family,_free,_cat:Casual</tags>
 	</char>
