@@ -192,4 +192,7 @@
 	<char id="834002" name="Skeleton" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
 		<tags>cc2,_free,_cat:Holidays and Costumes</tags>
 	</char>
+	<char id="834003" name="Superhero" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
+		<tags>cc2,_free,_cat:Holidays and Costumes</tags>
+	</char>
 </theme>
