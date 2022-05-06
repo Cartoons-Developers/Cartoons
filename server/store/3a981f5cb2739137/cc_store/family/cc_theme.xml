@@ -2618,7 +2618,7 @@
       <component type="faceshape" component_id="002" theme_id="family" x="0" y="0" xscale="1" yscale="0.96" offset="0" rotation="0" />
       <component type="ear" component_id="010" theme_id="family" x="0" y="1" xscale="1" yscale="1" offset="0" rotation="0" />
       <component type="mouth" component_id="201" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" />
-      <component type="eyebrow" component_id="109" theme_id="family" x="0" y="2" xscale="1" yscale="1" offset="0" rotation="0" />
+      <component type="eyebrow" component_id="106" theme_id="family" x="0" y="2" xscale="1" yscale="1" offset="0" rotation="0" />
       <component type="lower_body" component_id="adam_080" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" />
       <component type="nose" component_id="014" theme_id="family" x="0" y="2" xscale="1" yscale="1" offset="0" rotation="0" />
       <component type="hair" component_id="new_hairstyle8" theme_id="family" x="0" y="2" xscale="1" yscale="1" offset="0" rotation="0" />
@@ -4204,7 +4204,7 @@
       <component type="skeleton" component_id="adam_001" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" />
       <component type="lower_body" component_id="adam_060" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" />
       <component type="faceshape" component_id="002" theme_id="family" x="0" y="0" xscale="1" yscale="0.96" offset="0" rotation="0" />
-      <component type="eyebrow" component_id="109" theme_id="family" x="0" y="2" xscale="1" yscale="1" offset="0" rotation="0" />
+      <component type="eyebrow" component_id="108" theme_id="family" x="0" y="2" xscale="1" yscale="1" offset="0" rotation="0" />
       <component type="nose" component_id="014" theme_id="family" x="0" y="2" xscale="1" yscale="1" offset="0" rotation="0" />
       <component type="ear" component_id="010" theme_id="family" x="0" y="1" xscale="1" yscale="1" offset="0" rotation="0" />
       <component type="mouth" component_id="201" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" />
@@ -7062,7 +7062,7 @@
       <component type="mouth" component_id="201" theme_id="family" x="-3" y="-4" xscale="1" yscale="0.92" offset="0" rotation="2" />
       <component type="hair" component_id="027" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" />
       <component type="nose" component_id="026" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" />
-      <component type="eyebrow" component_id="109" theme_id="family" x="-1" y="2" xscale="1" yscale="1" offset="-2" rotation="0" />
+      <component type="eyebrow" component_id="106" theme_id="family" x="0" y="2" xscale="1" yscale="1" offset="-1" rotation="0" />
       <component type="upper_body" component_id="bob_003" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" />
       <component type="lower_body" component_id="bob_001" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" />
       <component type="eye" component_id="male" theme_id="family" x="0" y="0" xscale="0.89" yscale="0.75" offset="0" rotation="0" />
@@ -7805,12 +7805,12 @@
       <component type="bodyshape" component_id="rocky" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" />
       <component type="skeleton" component_id="rocky_001" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" />
       <component type="faceshape" component_id="021" theme_id="family" x="1" y="-1" xscale="0.99" yscale="0.95" offset="0" rotation="-2" />
-      <component type="eyebrow" component_id="002" theme_id="family" x="0" y="7" xscale="1" yscale="1" offset="-2" rotation="0" />
+      <component type="eyebrow" component_id="106" theme_id="family" x="0" y="5" xscale="1" yscale="1" offset="-2" rotation="0" />
       <component type="mouth" component_id="201" theme_id="family" x="-1" y="-5" xscale="1" yscale="0.71" offset="0" rotation="0" />
-      <component type="nose" component_id="019" theme_id="family" x="-2" y="0" xscale="0.9" yscale="0.91" offset="0" rotation="0" />
+      <component type="nose" component_id="003" theme_id="family" x="-2" y="0" xscale="0.9" yscale="0.91" offset="0" rotation="0" />
       <component type="hair" component_id="006" theme_id="family" x="1" y="-1" xscale="0.98" yscale="0.97" offset="0" rotation="0" />
       <component type="lower_body" component_id="rocky_001" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" />
-      <component type="eye" component_id="male" theme_id="family" x="0" y="2" xscale="0.81" yscale="0.71" offset="0" rotation="0" />
+      <component type="eye" component_id="male" theme_id="family" x="0" y="2" xscale="0.81" yscale="0.71" offset="-1" rotation="0" />
       <component type="upper_body" component_id="rocky_a007" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" />
       <component type="ear" component_id="010" theme_id="family" x="0" y="-2" xscale="1" yscale="1" offset="0" rotation="0" />
     </default_char>
