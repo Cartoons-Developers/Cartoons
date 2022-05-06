@@ -2679,8 +2679,10 @@
 			<tag>_scifi</tag>
 		</library>		
 
-        <library type="GoBehindBody" id="020" path="020" name="020" thumb="020_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
-        <library type="GoBehindBody" id="021" path="021" name="021" thumb="021_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
+        <library type="GoBehindBody" id="new_cape" path="new_cape" name="new_cape" thumb="new_cape_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
+        <library type="GoBehindBody" id="new_cape_muscular" path="new_cape_muscular" name="new_cape_muscular" thumb="new_cape_muscular_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
+        <library type="GoBehindBody" id="020" path="020" name="020" thumb="020_thumbnail.swf" display_order="10" money="0" sharing="0" enable="N"/>
+        <library type="GoBehindBody" id="021" path="021" name="021" thumb="021_thumbnail.swf" display_order="10" money="0" sharing="0" enable="N"/>
         <library type="GoBehindBody" id="019" path="019" name="019" thumb="019_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
         <library type="GoBehindBody" id="018" path="018" name="018" thumb="018_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
         <library type="GoBehindBody" id="016" path="016" name="016" thumb="016_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
