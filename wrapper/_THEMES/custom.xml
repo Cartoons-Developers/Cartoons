@@ -4085,6 +4085,9 @@
 	<char id="324728081" name="Graduate" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
 		<tags>family,_free,_cat:Special Occasions</tags>
 	</char>
+	<char id="324728117" name="Hijab" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+		<tags>family,_free,_cat:Casual</tags>
+	</char>
 	<char id="324728018" name="Hotel Porter" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
 		<tags>family,_free,_cat:Travel</tags>
 	</char>
@@ -4155,6 +4158,9 @@
 		<tags>family,_free,_cat:Casual</tags>
 	</char>
 	<char id="324728040" name="Monster" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+		<tags>family,_free,_cat:Holidays and Costumes</tags>
+	</char>
+	<char id="324728116" name="Ninja" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
 		<tags>family,_free,_cat:Holidays and Costumes</tags>
 	</char>
 	<char id="324728014" name="Nurse" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
