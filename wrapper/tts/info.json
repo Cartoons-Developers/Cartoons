@@ -1064,14 +1064,6 @@
 			"source": "vocalware",
 			"desc": "Vilde"
 		},
-		"vittoria": {
-			"country": "IT",
-			"language": "it",
-			"gender": "F",
-			"source": "cepstral",
-			"arg": "Vittoria",
-			"desc": "Vittoria"
-		},
 		"willem": {
 			"country": "NL",
 			"language": "nl",
