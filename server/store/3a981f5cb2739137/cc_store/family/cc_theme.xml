@@ -7669,6 +7669,18 @@
       <state id="sit" filename="sit.swf" />
       <state id="walk" filename="walk.swf" />
     </component>
+    <component type="lower_body" id="eve_026" path="eve_026" name="eve_026" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+      <state id="dance" filename="dance.swf" />
+      <state id="default" filename="default.swf" />
+      <state id="excited" filename="excited.swf" />
+      <state id="fearful" filename="fearful.swf" />
+      <state id="kneel_down" filename="kneel_down.swf" />
+      <state id="laugh" filename="laugh.swf" />
+      <state id="lie_down" filename="lie_down.swf" />
+      <state id="run" filename="run.swf" />
+      <state id="sit" filename="sit.swf" />
+      <state id="walk" filename="walk.swf" />
+    </component>
     <component type="lower_body" id="eve_029" path="eve_029" name="eve_029" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
       <state id="dance" filename="dance.swf" />
       <state id="default" filename="default.swf" />
@@ -7766,6 +7778,18 @@
       <state id="walk" filename="walk.swf" />
     </component>
     <component type="lower_body" id="eve_047" path="eve_047" name="eve_047" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+      <state id="dance" filename="dance.swf" />
+      <state id="default" filename="default.swf" />
+      <state id="excited" filename="excited.swf" />
+      <state id="fearful" filename="fearful.swf" />
+      <state id="kneel_down" filename="kneel_down.swf" />
+      <state id="laugh" filename="laugh.swf" />
+      <state id="lie_down" filename="lie_down.swf" />
+      <state id="run" filename="run.swf" />
+      <state id="sit" filename="sit.swf" />
+      <state id="walk" filename="walk.swf" />
+    </component>
+    <component type="lower_body" id="eve_051" path="eve_051" name="eve_051" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
       <state id="dance" filename="dance.swf" />
       <state id="default" filename="default.swf" />
       <state id="excited" filename="excited.swf" />
