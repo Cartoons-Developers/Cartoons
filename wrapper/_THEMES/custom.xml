@@ -4031,6 +4031,9 @@
 	<char id="324728098" name="Casual" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
 		<tags>family,_free,_cat:Casual</tags>
 	</char>
+	<char id="324728125" name="Casual" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+		<tags>family,_free,_cat:Casual</tags>
+	</char>
 	<char id="324728111" name="Construction Worker" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
 		<tags>family,_free,_cat:Industrial</tags>
 	</char>
@@ -4211,6 +4214,9 @@
 	<char id="324728109" name="Office Worker" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
 		<tags>family,_free,_cat:Office</tags>
 	</char>
+	<char id="324728127" name="Office Worker" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+		<tags>family,_free,_cat:Office</tags>
+	</char>
 	<char id="324728075" name="Pajamas" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
 		<tags>family,_free,_cat:Casual</tags>
 	</char>
@@ -4275,6 +4281,9 @@
 		<tags>family,_free,_cat:Casual</tags>
 	</char>
 	<char id="324728099" name="Student" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+		<tags>family,_free,_cat:Casual</tags>
+	</char>
+	<char id="324728126" name="Student" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
 		<tags>family,_free,_cat:Casual</tags>
 	</char>
 	<char id="324728047" name="Superhero" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
