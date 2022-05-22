@@ -4190,6 +4190,18 @@
 	<char id="324728110" name="Office Professional" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
 		<tags>family,_free,_cat:Office</tags>
 	</char>
+	<char id="324728130" name="Office Professional" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+		<tags>family,_free,_cat:Office</tags>
+	</char>
+	<char id="324728131" name="Office Professional" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+		<tags>family,_free,_cat:Office</tags>
+	</char>
+	<char id="324728132" name="Office Professional" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+		<tags>family,_free,_cat:Office</tags>
+	</char>
+	<char id="324728133" name="Office Professional" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+		<tags>family,_free,_cat:Office</tags>
+	</char>
 	<char id="324728067" name="Office Worker" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
 		<tags>family,_free,_cat:Office</tags>
 	</char>
