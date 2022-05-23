@@ -2971,14 +2971,8 @@
     <rotation>0</rotation>
   </prop>
 </compositebg>
-  <prop id="cc_arrow2.swf" name="Arrow" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9167" money="0" sharing="0">
-    <colorset enable="Y" aid="9168">
-  <color r="ccColorA">0x30A197</color>
-</colorset>
-    <c_parts enable="Y">
-  <c_area oc="">ccColorA</c_area>
-</c_parts>
-  </prop>
+  <prop id="ncc_03apple.swf" name="Apple" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="11858" money="0" sharing="0"/>
+
   <prop id="cc_basketball.swf" name="Basketball" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9628" money="0" sharing="0">
     <colorset enable="Y" aid="9629">
   <color r="ccColorA">0xFA722F</color>
@@ -2999,8 +2993,14 @@
   <c_area oc="">ccColorA</c_area>
 </c_parts>
   </prop>
-
-  <prop id="cc_cake.swf" name="Birthday Cake" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9008" money="0" sharing="0"/>  <prop id="msp_milk_bucket" name="Bucket" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_milk_bucket_barn_int_milk_bucket02.swf" enable="Y" is_premium="N" aid="9666" money="0" sharing="0">
+  <prop id="cc_cake.swf" name="Birthday Cake" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9008" money="0" sharing="0"/>
+  <prop id="msp_ncc_bomb" name="Bomb" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_ncc_bomb_ncc_bomb_on.swf" enable="Y" is_premium="N" aid="10925" money="0" sharing="0">
+    <state id="msp_ncc_bomb_ncc_bomb_on.swf" name="Ignited" enable="Y" default="Y"/>
+    <state id="msp_ncc_bomb_ncc_bomb_off.swf" name="Still" enable="Y"/>
+  </prop>
+  <prop id="cc_rose.swf" name="Bouquet" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9024" money="0" sharing="0"/>
+  <prop id="cc_briefcase.swf" name="Briefcase" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9007" money="0" sharing="0"/>
+  <prop id="msp_milk_bucket" name="Bucket" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_milk_bucket_barn_int_milk_bucket02.swf" enable="Y" is_premium="N" aid="9666" money="0" sharing="0">
     <state id="msp_milk_bucket_barn_int_milk_bucket01.swf" name="full" enable="Y"/>
     <state id="msp_milk_bucket_barn_int_milk_bucket02.swf" name="empty" enable="Y" default="Y"/>
     <colorset enable="Y" aid="9669">
@@ -3009,9 +3009,7 @@
 <c_parts enable="Y">
   <c_area oc="">ccColorA</c_area>
 </c_parts>
-  </prop> 
-  <prop id="cc_rose.swf" name="Bouquet" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9024" money="0" sharing="0"/>
-  <prop id="cc_briefcase.swf" name="Briefcase" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9007" money="0" sharing="0"/>
+  </prop>
   <prop id="cc_bush.swf" name="Bush" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9575" money="0" sharing="0">
     <colorset enable="Y" aid="9576">
   <color r="ccColorA">0x47602E</color>
@@ -3020,6 +3018,8 @@
   <c_area oc="">ccColorA</c_area>
 </c_parts>
   </prop>
+  <prop id="ncc_03hamburger.swf" name="Burger" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="11858" money="0" sharing="0"/>
+  <prop id="ncc_03chickenroll.swf" name="Burrito" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="11858" money="0" sharing="0"/>
   <prop id="cc_calendar.swf" name="Calendar" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9156" money="0" sharing="0"/>
   <prop id="cc_camera.swf" name="Camera" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9009" money="0" sharing="0"/>
   <prop id="cc_camera_with_flash.swf" name="Camera" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9010" money="0" sharing="0"/>
@@ -3041,6 +3041,7 @@
   <c_area oc="">ccColorA</c_area>
 </c_parts>
   </prop>
+  <prop id="ncc_03chocolate.swf" name="Chocolate Bar" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="11858" money="0" sharing="0"/>
   <prop id="msp_clock" name="Clock" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_clock_cc_clock_move.swf" enable="Y" is_premium="N" aid="9153" money="0" sharing="0">
     <state id="msp_clock_cc_clock_move.swf" name="Moving" enable="Y" default="Y"/>
     <state id="msp_clock_cc_clock_no_move.swf" name="Still" enable="Y"/>
@@ -3057,7 +3058,9 @@
   </prop>
   <prop id="cc_diamond_ring.swf" name="Diamond Ring" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9013" money="0" sharing="0"/>
   <prop id="dirt.swf" name="Dirt" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9013" money="0" sharing="0"/>
+  <prop id="ncc_03donut.swf" name="Doughnut" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="11858" money="0" sharing="0"/>
   <prop id="cc_secretfolder.swf" name="File" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9027" money="0" sharing="0"/>
+  <prop id="ncc_03fries.swf" name="Fries" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="11858" money="0" sharing="0"/>
   <prop id="cc_hammer.swf" name="Hammer" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9016" money="0" sharing="0"/>
   <prop id="cc_hay.swf" name="Hay" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9618" money="0" sharing="0">
     <colorset enable="Y" aid="9619">
@@ -3067,6 +3070,10 @@
   <c_area oc="">ccColorA</c_area>
 </c_parts>
   </prop>
+  <prop id="ncc_03hotdog.swf" name="Hot Dog" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="11858" money="0" sharing="0"/>
+  <prop id="ncc_03icecream02.swf" name="Ice Cream" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="11858" money="0" sharing="0"/>
+  <prop id="glasses_juice.swf" name="Juice" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9041" money="0" sharing="0"/>
+  <prop id="kitchen_knife.swf" name="Knife" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9022" money="0" sharing="0"/>
   <prop id="cc_wool_ball.swf" name="Knitting - Yarn Ball" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9034" money="0" sharing="0"/>
   <prop id="cc_foldchair.swf" name="Lawn Chair" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9041" money="0" sharing="0"/>
   <prop id="msp_dish" name="Meal" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_dish_msp_computer_cc_dish_02.swf" enable="Y" is_premium="N" aid="9189" money="0" sharing="0">
@@ -3099,12 +3106,26 @@
   <prop id="battlefield_oil_drum01.swf" name="Oil Drum" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9674" money="0" sharing="0"/>
   <prop id="battlefield_oil_drum02.swf" name="Oil Drum" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9675" money="0" sharing="0"/>
   <prop id="battlefield_oil_drum03.swf" name="Oil Drums" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9676" money="0" sharing="0"/>
+  <prop id="ncc_03onionring.swf" name="Onion Rings" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="11858" money="0" sharing="0"/>
   <prop id="cc_paint_roller.swf" name="Paint Roller" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9023" money="0" sharing="0"/>
+  <prop id="ncc_03orange.swf" name="Orange" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="11858" money="0" sharing="0"/>
+  <prop id="palm_tree01.swf" name="Palm Tree" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9587" money="0" sharing="0"/>
   <prop id="pencil.swf" name="Pencil" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9797" money="0" sharing="0"/>
+  <prop id="ncc_03pizza.swf" name="Pizza" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="11858" money="0" sharing="0"/>
+  <prop id="ncc_03popcorn.swf" name="Popcorn" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="11858" money="0" sharing="0"/>
   <prop id="office_plant.swf" name="Potted Plant" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="8946" money="0" sharing="0"/>
   <prop id="prohibition_sign.swf" name="Prohibition Sign" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9797" money="0" sharing="0"/>
   <prop id="cc_saw.swf" name="Saw" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9025" money="0" sharing="0"/>
    <prop id="cc_screwdriver.swf" name="Screwdriver" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9026" money="0" sharing="0"/>
+  <prop id="cc_arrow2.swf" name="Shapes - Arrow" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9167" money="0" sharing="0"/>
+  <prop id="circle01.swf" name="Shapes - Circle" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="10887" money="0" sharing="0"/>
+  <prop id="ncc_circle_outline.swf" name="Shapes - Circle Outline" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="10887" money="0" sharing="0"/>
+  <prop id="ncc_cube.swf" name="Shapes - Cube" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="10887" money="0" sharing="0"/>
+  <prop id="aquare01.swf" name="Shapes - Square" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="10887" money="0" sharing="0"/>
+  <prop id="ncc_trapeziform.swf" name="Shapes - Trapezoid" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="10887" money="0" sharing="0"/>
+  <prop id="ncc_triangle.swf" name="Shapes - Triangle" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="10887" money="0" sharing="0"/>
+  <prop id="triangle01.swf" name="Shapes - Triangle" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="10887" money="0" sharing="0"/>
+  <prop id="ncc_03soda.swf" name="Soda" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="11858" money="0" sharing="0"/>
  <prop id="msp_sofa" name="Sofa" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_sofa_sofa_front.swf" enable="Y" is_premium="N" aid="9802" money="0" sharing="0">
 		<state id="msp_sofa_sofa_front.swf" name="Front" enable="Y" default="Y"/>
 		<state id="msp_sofa_sofa_side.swf" name="Standing" enable="Y"/>
@@ -3129,7 +3150,9 @@
   <prop id="restaurant_lamp.swf" name="Wall Lamp" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="8950" money="0" sharing="0"/>
   <prop id="wine.swf" name="Wine" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9797" money="0" sharing="0"/>
   <prop id="cc_wine1.swf" name="Wine Bottle" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9033" money="0" sharing="0"/> 
-  
+  <prop id="ncc_03yogurt.swf" name="Yogurt" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="11858" money="0" sharing="0"/>
+  <prop id="ncc_03yogurt02.swf" name="Yogurt" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="11858" money="0" sharing="0"/>
+
   <prop id="cc_ak47.swf" name="AK47" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="9004" money="0" sharing="0"/>
   <prop id="cc_arrow.swf" name="arrow" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="9005" money="0" sharing="0"/>
   <prop id="cc_book.swf" name="book" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="9006" money="0" sharing="0"/>
