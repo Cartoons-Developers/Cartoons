@@ -2983,7 +2983,7 @@
   </prop>
   <prop id="msp_armchair" name="Armchair" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_armchair_armchair_front.swf" enable="Y" is_premium="N" aid="9802" money="0" sharing="0">
 	<state id="msp_armchair_armchair_front.swf" name="Front" enable="Y" default="Y"/>
-	<state id="msp_armchair_armchair_side.swf" name="Standing" enable="Y"/>
+	<state id="msp_armchair_armchair_side.swf" name="Side" enable="Y"/>
   </prop>
   <prop id="msp_ncc_02cup" name="Beer" holdable="1" placeable="1" wearable="0" facing="left" thumb="msp_ncc_02cup_ncc_02cup01.swf" enable="Y" is_premium="Y" aid="12249" money="0" sharing="0" handstyle="stick">
     <state id="msp_ncc_02cup_ncc_02cup01.swf" name="full" enable="Y" default="Y"/>
