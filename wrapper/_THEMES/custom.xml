@@ -2901,6 +2901,7 @@
   </prop>
   <prop id="cc_rose.swf" name="Bouquet" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9024" money="0" sharing="0"/>
   <prop id="cc_briefcase.swf" name="Briefcase" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9007" money="0" sharing="0"/>
+  <prop id="broccoli.swf" name="Broccoli" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9041" money="0" sharing="0"/>
   <prop id="msp_milk_bucket" name="Bucket" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_milk_bucket_barn_int_milk_bucket02.swf" enable="Y" is_premium="N" aid="9666" money="0" sharing="0">
     <state id="msp_milk_bucket_barn_int_milk_bucket01.swf" name="full" enable="Y"/>
     <state id="msp_milk_bucket_barn_int_milk_bucket02.swf" name="empty" enable="Y" default="Y"/>
