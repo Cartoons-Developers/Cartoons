@@ -2926,7 +2926,7 @@
   <prop id="cc_camera.swf" name="Camera" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9009" money="0" sharing="0"/>
   <prop id="cc_camera_with_flash.swf" name="Camera" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9010" money="0" sharing="0"/>
   <prop id="cc_walking_stick.swf" name="Cane" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9032" money="0" sharing="0"/>
-  <prop id="msp_cape" name="Cape" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_ncc_bomb_ncc_bomb_on.swf" enable="Y" is_premium="N" aid="10925" money="0" sharing="0">
+  <prop id="msp_cape" name="Cape" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_cape_cape_still.swf" enable="Y" is_premium="N" aid="10925" money="0" sharing="0">
     <state id="msp_cape_cape_still.swf" name="Still" enable="Y" default="Y"/>
     <state id="msp_cape_cape_windswept.swf" name="Windswept" enable="Y"/>
   </prop>
