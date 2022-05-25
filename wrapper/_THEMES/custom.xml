@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <theme id="custom" name="Comedy World" cc_theme_id="family">
+  <background id="wall10.swf" name="Hallway" enable="Y" default="N" is_premium="N" aid="9811" money="0" sharing="0" category="Locations"/>
   <background id="living_room_bg.swf" name="Living room" enable="N" default="N" is_premium="N" aid="9811" money="0" sharing="0"/>
   <background id="barn_ext_bg.swf" name="Y" enable="N" default="N" is_premium="N" aid="9700" money="0" sharing="0">
     <colorset enable="Y" aid="9701">
@@ -134,8 +135,9 @@
   <background id="convinient_store_cashier_bg.swf" name="Convinient store cashier" enable="N" default="N" is_premium="N" aid="9133" money="0" sharing="0"/>
   <background id="convinient_store_bg.swf" name="Convinient store" enable="N" default="N" is_premium="N" aid="9132" money="0" sharing="0"/>
   <background id="classroom.swf" name="Potion room" enable="N" default="N" is_premium="N" aid="9047" money="0" sharing="0"/>
-  <background id="snowynight.swf" name="Snowy Night" enable="Y" default="N" is_premium="N" aid="9064" money="0" sharing="0"/>
+  <background id="snowynight.swf" name="Snowy Night" enable="N" default="N" is_premium="N" aid="9064" money="0" sharing="0"/>
   <background id="subway_train_bg.swf" name="Subway train" enable="N" default="N" is_premium="N" aid="9059" money="0" sharing="0"/>
+
   <compositebg id="cbg_bedroom" name="Bedroom" enable="Y" default="Y" thumb="bedroom.png" display_order="1" is_premium="N" money="0" sharing="0" aid="9065">
   <bg id="cbg_bedroom_BG65" index="0">
     <file>custom.bedroom_bg.swf</file>
@@ -200,46 +202,50 @@
     <rotation>0</rotation>
   </prop>
 </compositebg>
-  <compositebg id="cbg_sittingroom" name="Sitting room" enable="Y" default="N" thumb="sitting_room.png" display_order="3" is_premium="N" money="0" sharing="0" aid="9074">
-  <bg id="cbg_sittingroom_BG260" index="0">
-    <file>custom.sitting_room_bg.swf</file>
-  </bg>
-  <prop id="cbg_sittingroom_PROP74" index="4">
-    <file>custom.sitting_room_lamp.swf</file>
-    <x>446</x>
-    <y>246</y>
-    <xscale>1</xscale>
-    <yscale>1</yscale>
-    <face>1</face>
-    <rotation>0</rotation>
-  </prop>
-  <prop id="cbg_sittingroom_PROP75" index="6">
-    <file>custom.sitting_room_plant.swf</file>
-    <x>107</x>
-    <y>245</y>
-    <xscale>1</xscale>
-    <yscale>1</yscale>
-    <face>1</face>
-    <rotation>0</rotation>
-  </prop>
-  <prop id="PROP8" index="5">
-    <file>custom.sitting_room_sofa2.swf</file>
-    <x>290</x>
-    <y>256</y>
-    <xscale>1</xscale>
-    <yscale>1</yscale>
-    <face>1</face>
-    <rotation>0</rotation>
-  </prop>
-  <prop id="PROP9" index="7">
-    <file>custom.sitting_room_sofa.swf</file>
-    <x>561</x>
-    <y>279</y>
-    <xscale>1</xscale>
-    <yscale>1</yscale>
-    <face>1</face>
-    <rotation>0</rotation>
-  </prop>
+  <compositebg id="cbg_living_room" name="Living Room" enable="Y" default="N" thumb="living_room.png" display_order="3" is_premium="N" money="0" sharing="0" aid="9074">
+    <bg id="cbg_living_room_BG130" index="0">
+      <file>custom.wall10.swf</file>
+      <color r="ccColorB">11243634</color>
+      <color r="ccColorA">9746637</color>
+    </bg>
+    <prop id="cbg_living_room_PROP3" index="2">
+      <file>custom.msp_sofa.msp_sofa_sofa_front.swf</file>
+      <x>221.775</x>
+      <y>224.7</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>-1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="cbg_living_room_PROP4" index="4">
+      <file>custom.msp_dining_table.msp_dining_table_dining_table_front.swf</file>
+      <x>313.15</x>
+      <y>295.25</y>
+      <xscale>0.6698016</xscale>
+      <yscale>0.562405</yscale>
+      <face>-1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="cbg_living_room_PROP5" index="3">
+      <file>custom.msp_armchair.msp_armchair_armchair_side.swf</file>
+      <x>530.475</x>
+      <y>265.625</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>-1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="cbg_living_room_PROP6" index="1">
+      <file>custom.lamp_floor.swf</file>
+      <x>398.2</x>
+      <y>176.325</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+      <color r="ccColorA">16314050</color>
+      <color r="ccColorB">8684676</color>
+    </prop>
 </compositebg>
   <compositebg id="cbg_office_pentry" name="Office Pentry" enable="Y" default="N" thumb="office_pentry.png" display_order="4" is_premium="N" money="0" sharing="0" aid="9068">
   <bg id="cbg_office_pentry_BG102" index="0">
@@ -2670,38 +2676,6 @@
     <rotation>0</rotation>
   </prop>
 </compositebg>
-  <compositebg id="cbg_living_room" name="Living room" enable="Y" default="N" thumb="living_room.jpg" display_order="55" is_premium="N" money="0" sharing="0" aid="9815">
-  <bg id="cbg_living_room_BG2" index="0">
-    <file>custom.living_room_bg.swf</file>
-  </bg>
-  <prop id="cbg_living_room_PROP0" index="2">
-    <file>custom.msp_living_rm_door.msp_living_rm_door_living_room_door_close.swf</file>
-    <x>292.6</x>
-    <y>129</y>
-    <xscale>1</xscale>
-    <yscale>1</yscale>
-    <face>1</face>
-    <rotation>0</rotation>
-  </prop>
-  <prop id="cbg_living_room_PROP1" index="3">
-    <file>custom.living_room_sofa.swf</file>
-    <x>369.6</x>
-    <y>250</y>
-    <xscale>1</xscale>
-    <yscale>1</yscale>
-    <face>1</face>
-    <rotation>0</rotation>
-  </prop>
-  <prop id="cbg_living_room_PROP2" index="4">
-    <file>custom.msp_TV_version.msp_TV_version_living_room_tv01.swf</file>
-    <x>76.6</x>
-    <y>283</y>
-    <xscale>1</xscale>
-    <yscale>1</yscale>
-    <face>1</face>
-    <rotation>0</rotation>
-  </prop>
-</compositebg>
   <compositebg id="cbg_forest" name="Forest" enable="Y" default="N" thumb="outside.png" display_order="301" is_premium="N" money="0" sharing="0" aid="9076">
   <bg id="cbg_forest_BG2" index="0">
     <file>custom.outside.swf</file>
@@ -2888,83 +2862,6 @@
     <file>custom.msp_toy_workshop_doorframe.msp_toy_workshop_doorframe_toy_workshop_doorframe1.swf</file>
     <x>420</x>
     <y>130</y>
-    <xscale>1</xscale>
-    <yscale>1</yscale>
-    <face>1</face>
-    <rotation>0</rotation>
-  </prop>
-</compositebg>
-  <compositebg id="cbg_house" name="House" enable="Y" default="N" thumb="house.png" display_order="403" is_premium="N" money="0" sharing="0" aid="9081">
-  <bg id="cbg_sittingroom_BG260" index="0">
-    <file>custom.sitting_room_bg.swf</file>
-  </bg>
-  <prop id="PROP281" index="8">
-    <file>custom.house_deco.swf</file>
-    <x>262</x>
-    <y>67</y>
-    <xscale>1</xscale>
-    <yscale>1</yscale>
-    <face>1</face>
-    <rotation>0</rotation>
-  </prop>
-  <prop id="PROP279" index="7">
-    <file>custom.xm_tree.swf</file>
-    <x>114</x>
-    <y>215</y>
-    <xscale>1</xscale>
-    <yscale>1</yscale>
-    <face>1</face>
-    <rotation>0</rotation>
-  </prop>
-  <prop id="PROP278" index="6">
-    <file>custom.house_top.swf</file>
-    <x>352</x>
-    <y>46</y>
-    <xscale>1</xscale>
-    <yscale>1</yscale>
-    <face>1</face>
-    <rotation>0</rotation>
-  </prop>
-  <prop id="PROP9" index="5">
-    <file>custom.sitting_room_sofa.swf</file>
-    <x>561</x>
-    <y>279</y>
-    <xscale>1</xscale>
-    <yscale>1</yscale>
-    <face>1</face>
-    <rotation>0</rotation>
-  </prop>
-  <prop id="PROP280" index="4">
-    <file>custom.xm_gift.swf</file>
-    <x>61</x>
-    <y>303</y>
-    <xscale>1</xscale>
-    <yscale>1</yscale>
-    <face>1</face>
-    <rotation>0</rotation>
-  </prop>
-  <prop id="cbg_sittingroom_PROP75" index="3">
-    <file>custom.sitting_room_plant.swf</file>
-    <x>107</x>
-    <y>245</y>
-    <xscale>1</xscale>
-    <yscale>1</yscale>
-    <face>1</face>
-    <rotation>0</rotation>
-  </prop>
-  <prop id="PROP114" index="2">
-    <file>custom.sitting_room_sofa2.swf</file>
-    <x>290</x>
-    <y>256</y>
-    <xscale>1</xscale>
-    <yscale>1</yscale>
-    <face>1</face>
-    <rotation>0</rotation>
-  </prop>
-  <prop id="cbg_sittingroom_PROP74" index="1">
-    <file>custom.sitting_room_lamp.swf</file>
-    <x>446</x>
-    <y>246</y>
     <xscale>1</xscale>
     <yscale>1</yscale>
     <face>1</face>
@@ -4099,6 +3996,12 @@
 		<tags>family,_free,_cat:Casual</tags>
 	</char>
 	<char id="324728125" name="Casual" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+		<tags>family,_free,_cat:Casual</tags>
+	</char>
+	<char id="324728134" name="Casual" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+		<tags>family,_free,_cat:Casual</tags>
+	</char>
+	<char id="324728135" name="Casual" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
 		<tags>family,_free,_cat:Casual</tags>
 	</char>
 	<char id="324728128" name="Casual Sports" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
