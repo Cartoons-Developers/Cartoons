@@ -10729,10 +10729,10 @@
   <component type="hair" id="bowlcut" path="bowlcut" name="bowlcut" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
     <state id="default" filename="default.swf" />
   </component>
-  <component type="hair" id="cornrow_ponytail" path="cornrow_ponytail" name="cornrow_ponytail" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+  <component type="hair" id="dreadlock_afro" path="dreadlock_afro" name="dreadlock_afro" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
     <state id="default" filename="default.swf" />
   </component>
-  <component type="hair" id="dreadlock_afro" path="dreadlock_afro" name="dreadlock_afro" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+  <component type="hair" id="dreadlock_updo" path="dreadlock_updo" name="dreadlock_updo" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
     <state id="default" filename="default.swf" />
   </component>
   <component type="hair" id="dreadlocks" path="dreadlocks" name="dreadlocks" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
