@@ -4282,6 +4282,9 @@
 	<char id="324728140" name="Kid" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
 		<tags>family,_free,_cat:Casual</tags>
 	</char>
+	<char id="324728145" name="Kid" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+		<tags>family,_free,_cat:Casual</tags>
+	</char>
 	<char id="324728040" name="Monster" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
 		<tags>family,_free,_cat:Holidays and Costumes</tags>
 	</char>
