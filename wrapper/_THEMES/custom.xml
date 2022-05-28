@@ -1269,7 +1269,7 @@
     <rotation>0</rotation>
   </prop>
 </compositebg>
-  <compositebg id="cbg_classroom" name="Classroom" enable="Y" default="N" thumb="classroom.jpg" display_order="26" is_premium="N" money="0" sharing="0" aid="9544">
+  <compositebg id="cbg_classroom" name="Classroom" enable="Y" default="N" thumb="classroom.png" display_order="26" is_premium="N" money="0" sharing="0" aid="9544">
   <bg id="BG130" index="0">
       <file>custom.wall12.swf</file>
       <color r="ccColorA">16381164</color>
