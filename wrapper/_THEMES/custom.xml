@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <theme id="custom" name="Comedy World" cc_theme_id="family">
   <background id="wall10.swf" name="Hallway" enable="Y" default="N" is_premium="N" aid="9811" money="0" sharing="0" category="Locations"/>
+  <background id="wall12.swf" name="Room" enable="Y" default="N" is_premium="N" aid="11453" money="0" sharing="0" category="Locations"/>
+  <background id="wall03.swf" name="Wallpaper" enable="Y" default="N" is_premium="N" aid="9811" money="0" sharing="0" category="patterns"/>
   <background id="living_room_bg.swf" name="Living room" enable="N" default="N" is_premium="N" aid="9811" money="0" sharing="0"/>
   <background id="barn_ext_bg.swf" name="Y" enable="N" default="N" is_premium="N" aid="9700" money="0" sharing="0">
     <colorset enable="Y" aid="9701">
@@ -1268,74 +1270,174 @@
   </prop>
 </compositebg>
   <compositebg id="cbg_classroom" name="Classroom" enable="Y" default="N" thumb="classroom.jpg" display_order="26" is_premium="N" money="0" sharing="0" aid="9544">
-  <bg id="BG2" index="0">
-    <file>custom.classroom_bg.swf</file>
-    <dcsn>9538</dcsn>
-    <color r="ccColorA" oc="0x0">8754265</color>
-  </bg>
-  <prop id="PROP0" index="2">
-    <file>custom.classrm_tech_table.swf</file>
-    <x>236</x>
-    <y>287</y>
-    <xscale>1</xscale>
-    <yscale>1</yscale>
-    <face>1</face>
-    <rotation>0</rotation>
-  </prop>
-  <prop id="PROP1" index="3">
-    <file>custom.classrm_tech_chair.swf</file>
-    <x>523.5</x>
-    <y>255</y>
-    <xscale>0.79</xscale>
-    <yscale>0.79</yscale>
-    <face>1</face>
-    <rotation>0</rotation>
-  </prop>
-  <prop id="PROP2" index="4">
-    <file>custom.classrm_stu_table.swf</file>
-    <x>476.5</x>
-    <y>263</y>
-    <xscale>0.65</xscale>
-    <yscale>0.65</yscale>
-    <face>1</face>
-    <rotation>0</rotation>
-  </prop>
-  <prop id="PROP3" index="6">
-    <file>custom.classrm_stu_table.swf</file>
-    <x>512.5</x>
-    <y>289</y>
-    <xscale>0.8</xscale>
-    <yscale>0.8</yscale>
-    <face>1</face>
-    <rotation>0</rotation>
-  </prop>
-  <prop id="PROP4" index="8">
-    <file>custom.classrm_stu_table.swf</file>
-    <x>551.5</x>
-    <y>318</y>
-    <xscale>0.92</xscale>
-    <yscale>0.92</yscale>
-    <face>1</face>
-    <rotation>0</rotation>
-  </prop>
-  <prop id="PROP5" index="5">
-    <file>custom.classrm_tech_chair.swf</file>
-    <x>558.5</x>
-    <y>275</y>
-    <xscale>0.92</xscale>
-    <yscale>0.92</yscale>
-    <face>1</face>
-    <rotation>0</rotation>
-  </prop>
-  <prop id="PROP6" index="7">
-    <file>custom.classrm_tech_chair.swf</file>
-    <x>599.5</x>
-    <y>296</y>
-    <xscale>1.12</xscale>
-    <yscale>1.12</yscale>
-    <face>1</face>
-    <rotation>0</rotation>
-  </prop>
+  <bg id="BG130" index="0">
+      <file>custom.wall12.swf</file>
+      <color r="ccColorA">16381164</color>
+      <color r="ccColorB">4884128</color>
+      <color r="ccColorC">16777215</color>
+    </bg>
+    <prop id="PROP24" index="2">
+      <file>custom.msp_clock.msp_clock_cc_clock_move.swf</file>
+      <x>514.9</x>
+      <y>90.7</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP2" index="4">
+      <file>custom.ncc_crmtable01.swf</file>
+      <x>182.0640966</x>
+      <y>275.725</y>
+      <xscale>0.718069</xscale>
+      <yscale>0.718069</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+      <color r="ccColorA">9399115</color>
+    </prop>
+    <prop id="PROP3" index="5">
+      <file>custom.ncc_crmtable02.swf</file>
+      <x>469.1911217</x>
+      <y>237.6753937</y>
+      <xscale>0.718069</xscale>
+      <yscale>0.718069</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+      <color r="ccColorA">9399115</color>
+      <color r="ccColorB">12105912</color>
+    </prop>
+    <prop id="PROP0" index="6">
+      <file>custom.msp_crmchair.msp_crmchair_ncc_crmchair_back.swf</file>
+      <x>514.9321185</x>
+      <y>229.9561517</y>
+      <xscale>0.718069</xscale>
+      <yscale>0.718069</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+      <color r="ccColorA">9399115</color>
+      <color r="ccColorB">12105912</color>
+    </prop>
+    <prop id="PROP6" index="7">
+      <file>custom.ncc_crmtable02.swf</file>
+      <x>411.0516699</x>
+      <y>276.5075033</y>
+      <xscale>0.718069</xscale>
+      <yscale>0.718069</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+      <color r="ccColorA">9399115</color>
+      <color r="ccColorB">12105912</color>
+    </prop>
+    <prop id="PROP7" index="8">
+      <file>custom.msp_crmchair.msp_crmchair_ncc_crmchair_back.swf</file>
+      <x>456.7926666</x>
+      <y>268.7882613</y>
+      <xscale>0.718069</xscale>
+      <yscale>0.718069</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+      <color r="ccColorA">9399115</color>
+      <color r="ccColorB">12105912</color>
+    </prop>
+    <prop id="PROP8" index="9">
+      <file>custom.ncc_crmtable02.swf</file>
+      <x>352.912218</x>
+      <y>316.9920431</y>
+      <xscale>0.718069</xscale>
+      <yscale>0.718069</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+      <color r="ccColorA">9399115</color>
+      <color r="ccColorB">12105912</color>
+    </prop>
+    <prop id="PROP9" index="10">
+      <file>custom.msp_crmchair.msp_crmchair_ncc_crmchair_back.swf</file>
+      <x>398.6532147</x>
+      <y>309.2728011</y>
+      <xscale>0.718069</xscale>
+      <yscale>0.718069</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+      <color r="ccColorA">9399115</color>
+      <color r="ccColorB">12105912</color>
+    </prop>
+    <prop id="PROP18" index="11">
+      <file>custom.ncc_crmtable02.swf</file>
+      <x>620.3411217</x>
+      <y>236.8753937</y>
+      <xscale>0.718069</xscale>
+      <yscale>0.718069</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+      <color r="ccColorA">9399115</color>
+      <color r="ccColorB">12105912</color>
+    </prop>
+    <prop id="PROP20" index="12">
+      <file>custom.ncc_crmtable02.swf</file>
+      <x>562.2016699</x>
+      <y>275.7075033</y>
+      <xscale>0.718069</xscale>
+      <yscale>0.718069</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+      <color r="ccColorA">9399115</color>
+      <color r="ccColorB">12105912</color>
+    </prop>
+    <prop id="PROP21" index="13">
+      <file>custom.msp_crmchair.msp_crmchair_ncc_crmchair_back.swf</file>
+      <x>607.9426666</x>
+      <y>267.9882613</y>
+      <xscale>0.718069</xscale>
+      <yscale>0.718069</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+      <color r="ccColorA">9399115</color>
+      <color r="ccColorB">12105912</color>
+    </prop>
+    <prop id="PROP22" index="14">
+      <file>custom.ncc_crmtable02.swf</file>
+      <x>504.062218</x>
+      <y>316.1920431</y>
+      <xscale>0.718069</xscale>
+      <yscale>0.718069</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+      <color r="ccColorA">9399115</color>
+      <color r="ccColorB">12105912</color>
+    </prop>
+    <prop id="PROP23" index="15">
+      <file>custom.msp_crmchair.msp_crmchair_ncc_crmchair_back.swf</file>
+      <x>549.8032147</x>
+      <y>308.4728011</y>
+      <xscale>0.718069</xscale>
+      <yscale>0.718069</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+      <color r="ccColorA">9399115</color>
+      <color r="ccColorB">12105912</color>
+    </prop>
+    <prop id="PROP13" index="3">
+      <file>custom.msp_blkboard01.msp_blkboard01_ncc_blackboard_side.swf</file>
+      <x>129.3931128</x>
+      <y>149.3152205</y>
+      <xscale>0.7245122</xscale>
+      <yscale>0.7245122</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+      <dcsn>9705</dcsn>
+      <color r="ccColorA">3360048</color>
+      <color r="ccColorB">8086613</color>
+    </prop>
+    <prop id="PROP14" index="1">
+      <file>custom.msp_sldoor.msp_sldoor_ncc_sldoor01.swf</file>
+      <x>315.9</x>
+      <y>159.0683895</y>
+      <xscale>0.7355805</xscale>
+      <yscale>0.7355805</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+      <color r="ccColorA">9399115</color>
+    </prop>
 </compositebg>
   <compositebg id="cbg_school_ext" name="School exterior" enable="Y" default="N" thumb="school_ext.jpg" display_order="28" is_premium="N" money="0" sharing="0" aid="9612">
   <bg id="cbg_school_ext_BG2" index="0">
@@ -2869,7 +2971,10 @@
   </prop>
 </compositebg>
   <prop id="ncc_03apple.swf" name="Apple" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="11858" money="0" sharing="0"/>
-
+  <prop id="msp_armchair" name="Armchair" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_armchair_armchair_front.swf" enable="Y" is_premium="N" aid="9802" money="0" sharing="0">
+	<state id="msp_armchair_armchair_front.swf" name="Front" enable="Y" default="Y"/>
+	<state id="msp_armchair_armchair_side.swf" name="Side" enable="Y"/>
+  </prop>
   <prop id="cc_basketball.swf" name="Basketball" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9628" money="0" sharing="0">
     <colorset enable="Y" aid="9629">
   <color r="ccColorA">0xFA722F</color>
@@ -2877,10 +2982,6 @@
     <c_parts enable="Y">
   <c_area oc="">ccColorA</c_area>
 </c_parts>
-  </prop>
-  <prop id="msp_armchair" name="Armchair" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_armchair_armchair_front.swf" enable="Y" is_premium="N" aid="9802" money="0" sharing="0">
-	<state id="msp_armchair_armchair_front.swf" name="Front" enable="Y" default="Y"/>
-	<state id="msp_armchair_armchair_side.swf" name="Side" enable="Y"/>
   </prop>
   <prop id="msp_ncc_02cup" name="Beer" holdable="1" placeable="1" wearable="0" facing="left" thumb="msp_ncc_02cup_ncc_02cup01.swf" enable="Y" is_premium="Y" aid="12249" money="0" sharing="0" handstyle="stick">
     <state id="msp_ncc_02cup_ncc_02cup01.swf" name="full" enable="Y" default="Y"/>
@@ -2898,6 +2999,18 @@
   <prop id="msp_ncc_bomb" name="Bomb" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_ncc_bomb_ncc_bomb_on.swf" enable="Y" is_premium="N" aid="10925" money="0" sharing="0">
     <state id="msp_ncc_bomb_ncc_bomb_on.swf" name="Ignited" enable="Y" default="Y"/>
     <state id="msp_ncc_bomb_ncc_bomb_off.swf" name="Still" enable="Y"/>
+  </prop>
+  <prop id="msp_blkboard01" name="Blackboard" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_blkboard01_ncc_blackboard_front.swf" enable="Y" is_premium="N" aid="11338" money="0" sharing="0">
+    <state id="msp_blkboard01_ncc_blackboard_front.swf" name="front" enable="Y" default="Y"/>
+    <state id="msp_blkboard01_ncc_blackboard_side.swf" name="side" enable="Y"/>
+    <colorset enable="Y" aid="9705">
+  <color r="ccColorA">0x334530</color>
+  <color r="ccColorB">0x7B6455</color>
+</colorset>
+    <c_parts enable="Y">
+  <c_area oc="">ccColorA</c_area>
+  <c_area oc="">ccColorB</c_area>
+</c_parts>
   </prop>
   <prop id="cc_rose.swf" name="Bouquet" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9024" money="0" sharing="0"/>
   <prop id="cc_briefcase.swf" name="Briefcase" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9007" money="0" sharing="0"/>
@@ -2939,6 +3052,10 @@
 		<state id="msp_cat_cat_eating.swf" name="Eating" enable="Y"/>
 		<state id="msp_cat_cat_playing.swf" name="Playing" enable="Y"/>
   </prop>
+    <prop id="msp_crmchair" name="Chair" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_crmchair_ncc_crmchair_side.swf" enable="Y" is_premium="Y" aid="11360" money="0" sharing="0">
+    <state id="msp_crmchair_ncc_crmchair_back.swf" name="back" enable="Y"/>
+    <state id="msp_crmchair_ncc_crmchair_side.swf" name="side" enable="Y" default="Y"/>
+  </prop>
   <prop id="cc_tick2.swf" name="Check Mark" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9159" money="0" sharing="0">
     <colorset enable="Y" aid="9160">
   <color r="ccColorA">0x6EAF43</color>
@@ -2966,8 +3083,13 @@
   <c_area oc="">ccColorA</c_area>
 </c_parts>
   </prop>
+  <prop id="ncc_crmtable01.swf" name="Desk" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="Y" aid="11363" money="0" sharing="0"/>
   <prop id="cc_diamond_ring.swf" name="Diamond Ring" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9013" money="0" sharing="0"/>
   <prop id="dirt.swf" name="Dirt" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9013" money="0" sharing="0"/>
+  <prop id="msp_sldoor" name="Door" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_sldoor_ncc_sldoor01.swf" enable="Y" is_premium="N" aid="11334" money="0" sharing="0">
+    <state id="msp_sldoor_ncc_sldoor01.swf" name="Closed" enable="Y" default="Y"/>
+    <state id="msp_sldoor_ncc_sldoor02.swf" name="Open" enable="Y"/>
+  </prop>
   <prop id="ncc_03donut.swf" name="Doughnut" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="11858" money="0" sharing="0"/>
   <prop id="cc_secretfolder.swf" name="File" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9027" money="0" sharing="0"/>
   <prop id="lamp_floor.swf" name="Floor Lamp" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="11858" money="0" sharing="0"/>
@@ -3032,6 +3154,7 @@
   <prop id="office_plant.swf" name="Potted Plant" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="8946" money="0" sharing="0"/>
   <prop id="prohibition_sign.swf" name="Prohibition Sign" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9797" money="0" sharing="0"/>
   <prop id="cc_saw.swf" name="Saw" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9025" money="0" sharing="0"/>
+  <prop id="ncc_crmtable02.swf" name="School Desk" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="Y" aid="11364" money="0" sharing="0"/>
   <prop id="cc_screwdriver.swf" name="Screwdriver" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9026" money="0" sharing="0"/>
   <prop id="cc_arrow2.swf" name="Shapes - Arrow" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9167" money="0" sharing="0"/>
   <prop id="circle01.swf" name="Shapes - Circle" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="10887" money="0" sharing="0"/>
