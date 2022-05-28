@@ -4222,6 +4222,18 @@
 	<char id="324728075" name="Pajamas" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
 		<tags>family,_free,_cat:Casual</tags>
 	</char>
+	<char id="324728141" name="Party Suit" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+		<tags>family,_free,_cat:Special Occasions</tags>
+	</char>
+	<char id="324728142" name="Party Suit" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+		<tags>family,_free,_cat:Special Occasions</tags>
+	</char>
+	<char id="324728143" name="Party Suit" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+		<tags>family,_free,_cat:Special Occasions</tags>
+	</char>
+	<char id="324728144" name="Party Suit" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+		<tags>family,_free,_cat:Special Occasions</tags>
+	</char>
 	<char id="324728073" name="Pirate" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
 		<tags>family,_free,_cat:Holidays and Costumes</tags>
 	</char>
