@@ -327,7 +327,7 @@ if !ADMINREQUIRED!==y (
 			echo To do this, it must be started with Admin rights.
 			echo:
 			echo Close this window and re-open Cartoons as an Admin.
-			echo ^(right-click start_vyond.bat and click "Run as Administrator"^)
+			echo ^(right-click start_cartoons.bat and click "Run as Administrator"^)
 			echo:
 			if !DRYRUN!==y (
 				echo ...yep, dry run is going great so far, let's skip the exit
@@ -475,7 +475,7 @@ if !NODEJS_DETECTED!==n (
 			goto after_nodejs_install
 		)
 		echo Proper Node.js installation doesn't seem possible to do automatically.
-		echo You can just keep clicking next until it finishes, and Vyond : Remastered will continue once it closes.
+		echo You can just keep clicking next until it finishes, and Cartoons will continue once it closes.
 		if !DRYRUN!==n ( msiexec /i "utilities\installers\node_windows_x32.msi" !INSTALL_FLAGS! )
 		goto nodejs_installed
 	)
@@ -591,8 +591,8 @@ if !HTTPSCERT_DETECTED!==n (
 		if /i not !ERRORLEVEL!==0 (
 			if !VERBOSEWRAPPER!==n ( cls )
 			echo For Cartoons to work, it needs an HTTPS certificate to be installed.
-			echo If you have administrator privileges, you should reopen start_vyond.bat as Admin.
-			echo ^(do this by right-clicking start_vyond.bat and click "Run as Administrator"^)
+			echo If you have administrator privileges, you should reopen start_cartoons.bat as Admin.
+			echo ^(do this by right-clicking start_cartoons and click "Run as Administrator"^)
 			echo:
 			echo If you can't do that, there's another method, but it's less reliable and is done per-browser.
 			echo: 
@@ -674,7 +674,7 @@ echo:
 :skip_dependency_install
 
 ::::::::::::::::::::::
-:: Starting Vyond ::
+:: Starting Cartoons ::
 ::::::::::::::::::::::
 
 title Cartoons [Loading...]
@@ -829,8 +829,8 @@ goto wrapperidle
 
 :open_files
 pushd ..
-echo Opening the vyond-remastered folder...
-start explorer.exe vyond-remastered
+echo Opening the Cartoons folder...
+start explorer.exe Cartoons
 popd
 goto wrapperidle
 
