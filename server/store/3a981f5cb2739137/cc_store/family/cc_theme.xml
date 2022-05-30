@@ -3405,17 +3405,6 @@
       <state id="sit" filename="sit.swf" />
       <state id="walk" filename="walk.swf" />
     </component>
-    <component type="lower_body" id="adam_a007" path="adam_a007" name="adam_a007" thumb="thumbnail.swf" display_order="160" money="0" sharing="0" enable="Y">
-      <state id="dance" filename="dance.swf" />
-      <state id="default" filename="default.swf" />
-      <state id="excited" filename="excited.swf" />
-      <state id="fearful" filename="fearful.swf" />
-      <state id="kneel_down" filename="kneel_down.swf" />
-      <state id="laugh" filename="laugh.swf" />
-      <state id="run" filename="run.swf" />
-      <state id="sit" filename="sit.swf" />
-      <state id="walk" filename="walk.swf" />
-    </component>
     <component type="lower_body" id="adam_a009" path="adam_a009" name="adam_a009" thumb="thumbnail.swf" display_order="170" money="0" sharing="0" enable="Y">
       <state id="dance" filename="dance.swf" />
       <state id="default" filename="default.swf" />
@@ -5167,17 +5156,6 @@
       <state id="walk" filename="walk.swf" />
     </component>
     <component type="lower_body" id="adam_a006" path="adam_a006" name="adam_a006" thumb="thumbnail.swf" display_order="150" money="0" sharing="0" enable="Y">
-      <state id="dance" filename="dance.swf" />
-      <state id="default" filename="default.swf" />
-      <state id="excited" filename="excited.swf" />
-      <state id="fearful" filename="fearful.swf" />
-      <state id="kneel_down" filename="kneel_down.swf" />
-      <state id="laugh" filename="laugh.swf" />
-      <state id="run" filename="run.swf" />
-      <state id="sit" filename="sit.swf" />
-      <state id="walk" filename="walk.swf" />
-    </component>
-    <component type="lower_body" id="adam_a007" path="adam_a007" name="adam_a007" thumb="thumbnail.swf" display_order="160" money="0" sharing="0" enable="Y">
       <state id="dance" filename="dance.swf" />
       <state id="default" filename="default.swf" />
       <state id="excited" filename="excited.swf" />
