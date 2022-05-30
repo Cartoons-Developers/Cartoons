@@ -26,12 +26,15 @@
   <color r="ccEyeLib" component_type="eye" parent_color_r="ccSkinColor" parent_component_type="bodyshape" enable="Y">
     <choice>0xEED8C9</choice>
     <choice>0xEBC9AF</choice>
-    <choice>0xE2C294</choice>
-    <choice>0xCE9D7D</choice>
-    <choice>0x8D6850</choice>
-    <choice>0xFFF9EC</choice>
     <choice>0xEAD2B0</choice>
+    <choice>0xEBC79E</choice>
+    <choice>0xD1AE7B</choice>
+    <choice>0xCE9D7D</choice>
+    <choice>0xAE7B5A</choice>
     <choice>0xAC8151</choice>
+    <choice>0x8D6850</choice>
+    <choice>0x715643</choice>
+    <choice>0x48342A</choice>
   </color>
   <color r="ccEyeIris" component_type="eye" enable="Y">
     <choice>0x988986</choice>
@@ -2135,7 +2138,7 @@
     <library type="GoUpper" id="2014" path="2014" name="2014" thumb="2014_thumbnail.swf" display_order="10" money="0" sharing="0" enable="N"></library>
     <!--PAGE 1-->
     <library type="GoUpper" id="animal_body" path="animal_body" name="animal_body" thumb="animal_body_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y" />
-    <library type="GoUpper" id="tiger" path="tiger" name="tiger" thumb="tiger_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y" />
+    <library type="GoUpper" id="tiger" path="tiger" name="tiger" thumb="tiger_thumbnail.swf" display_order="10" money="0" sharing="0" enable="N" />
     <library type="GoUpper" id="282" path="282" name="282" thumb="282_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"></library>
     <library type="GoUpper" id="263" path="263" name="263" thumb="263_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y" />
     <library type="GoUpper" id="264" path="264" name="264" thumb="264_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y" />
@@ -3812,7 +3815,7 @@
   <component type="faceshape" id="mouth_marking" path="mouth_marking" name="mouth_marking" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
     <state id="default" filename="default.swf" />
   </component>
-  <component type="faceshape" id="tiger" path="tiger" name="tiger" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+  <component type="faceshape" id="tiger" path="tiger" name="tiger" thumb="thumbnail.swf" money="0" sharing="0" enable="N">
     <state id="default" filename="default.swf" />
   </component>
   <component type="faceshape" id="001" path="001" name="001" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
