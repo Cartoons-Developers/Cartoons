@@ -1356,7 +1356,7 @@
       <state id="sit" filename="sit.swf" />
       <state id="walk" filename="walk.swf" />
     </component>
-    <component type="lower_body" id="adam_a007" path="adam_a007" name="adam_a007" thumb="thumbnail.swf" display_order="160" money="0" sharing="0" enable="Y">
+    <component type="lower_body" id="adam_a007" path="adam_a007" name="adam_a007" thumb="thumbnail.swf" display_order="160" money="0" sharing="0" enable="N">
       <state id="dance" filename="dance.swf" />
       <state id="default" filename="default.swf" />
       <state id="excited" filename="excited.swf" />
