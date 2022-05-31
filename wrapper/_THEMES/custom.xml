@@ -3012,6 +3012,11 @@
   </prop>
   <prop id="ncc_03hamburger.swf" name="Burger" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="11858" money="0" sharing="0"/>
   <prop id="ncc_03chickenroll.swf" name="Burrito" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="11858" money="0" sharing="0"/>
+  <prop id="msp_cake01" name="Cake" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_cake01_ncc_cake01_full.swf" enable="Y" is_premium="N" aid="11355" money="0" sharing="0">
+    <state id="msp_cake01_ncc_cake01_cut.swf" name="Sliced" enable="Y"/>
+    <state id="msp_cake01_ncc_cake01_full.swf" name="Full" enable="Y" default="Y"/>
+    <state id="msp_cake01_ncc_cake01_piece.swf" name="Piece" enable="Y"/>
+  </prop>
   <prop id="cc_calendar.swf" name="Calendar" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9156" money="0" sharing="0"/>
   <prop id="cc_camera.swf" name="Camera" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9009" money="0" sharing="0"/>
   <prop id="cc_camera_with_flash.swf" name="Camera" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9010" money="0" sharing="0"/>
@@ -4365,6 +4370,12 @@
 		<tags>family,_free,_cat:Government</tags>
 	</char>
 	<char id="324728077" name="Rocker" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+		<tags>family,_free,_cat:Casual</tags>
+	</char>
+	<char id="324728147" name="Rocker" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+		<tags>family,_free,_cat:Casual</tags>
+	</char>
+	<char id="324728148" name="Rocker" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
 		<tags>family,_free,_cat:Casual</tags>
 	</char>
 	<char id="324728017" name="Santa Claus" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
