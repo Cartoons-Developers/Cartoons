@@ -2138,6 +2138,7 @@
     <library type="GoUpper" id="2014" path="2014" name="2014" thumb="2014_thumbnail.swf" display_order="10" money="0" sharing="0" enable="N"></library>
     <!--PAGE 1-->
     <library type="GoUpper" id="animal_body" path="animal_body" name="animal_body" thumb="animal_body_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y" />
+    <library type="GoUpper" id="longhair_cat" path="longhair_cat" name="longhair_cat" thumb="longhair_cat_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y" />
     <library type="GoUpper" id="tiger" path="tiger" name="tiger" thumb="tiger_thumbnail.swf" display_order="10" money="0" sharing="0" enable="N" />
     <library type="GoUpper" id="282" path="282" name="282" thumb="282_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"></library>
     <library type="GoUpper" id="263" path="263" name="263" thumb="263_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y" />
@@ -2553,10 +2554,12 @@
     <library type="GoBehindBody" id="beaver_tail" path="beaver_tail" name="beaver_tail" thumb="beaver_tail_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y" />
     <library type="GoBehindBody" id="bunny_tail" path="bunny_tail" name="bunny_tail" thumb="bunny_tail_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y" />
     <library type="GoBehindBody" id="custom_cat_tail" path="custom_cat_tail" name="custom_cat_tail" thumb="custom_cat_tail_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y" />
+	<library type="GoBehindBody" id="longhair_cat_tail" path="longhair_cat_tail" name="longhair_cat_tail" thumb="longhair_cat_tail_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y" />
     <library type="GoBehindBody" id="custom_cat_tail_striped" path="custom_cat_tail_striped" name="custom_cat_tail_striped" thumb="custom_cat_tail_striped_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y" />
     <library type="GoBehindBody" id="fox_tail" path="fox_tail" name="fox_tail" thumb="fox_tail_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y" />
     <library type="GoBehindBody" id="gerbil_tail" path="gerbil_tail" name="gerbil_tail" thumb="gerbil_tail_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y" />
     <library type="GoBehindBody" id="lion_tail" path="lion_tail" name="lion_tail" thumb="lion_tail_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y" />
+	<library type="GoBehindBody" id="monster_tail" path="monster_tail" name="monster_tail" thumb="monster_tail_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y" />
     <library type="GoBehindBody" id="raccoon_tail" path="raccoon_tail" name="raccoon_tail" thumb="raccoon_tail_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y" />
     <library type="GoBehindBody" id="skunk_tail" path="skunk_tail" name="skunk_tail" thumb="skunk_tail_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y" />
     <library type="GoBehindBody" id="squirrel_tail" path="squirrel_tail" name="squirrel_tail" thumb="squirrel_tail_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y" />
@@ -3813,6 +3816,9 @@
     <state id="default" filename="default.swf" />
   </component>
   <component type="faceshape" id="mouth_marking" path="mouth_marking" name="mouth_marking" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+    <state id="default" filename="default.swf" />
+  </component>
+  <component type="faceshape" id="longhair_cat" path="longhair_cat" name="longhair_cat" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
     <state id="default" filename="default.swf" />
   </component>
   <component type="faceshape" id="tiger" path="tiger" name="tiger" thumb="thumbnail.swf" money="0" sharing="0" enable="N">
