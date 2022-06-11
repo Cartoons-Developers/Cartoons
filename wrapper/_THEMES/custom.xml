@@ -4371,6 +4371,9 @@
 	<char id="324728008" name="Police" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
 		<tags>family,_free,_cat:Government,_tag:badge cap cop cops elder elderlies elderly government hat hero heroes heroic law legal man male officer police</tags>
 	</char>
+	<char id="324728149" name="Robot" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+		<tags>family,_free,_cat:Holidays and Costumes,_tag:computer robot</tags>
+	</char>
 	<char id="324728077" name="Rocker" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
 		<tags>family,_free,_cat:Casual,_tag:boot boots earring earrings jacket man male punk rock rocker</tags>
 	</char>
