@@ -756,4 +756,16 @@
 	<effect id="ncc_sci003fx.swf" type="ANIME" resize="false" move="false" name="Screenviewer" enable="N" is_premium="N" aid="14970" money="0" sharing="0" display_order="0"/>
 	<effect id="ncc_sci004fx.swf" type="ANIME" resize="false" move="false" name="Red alert" enable="N" is_premium="N" aid="14971" money="0" sharing="0" display_order="0"/>
 	<effect id="ncc_sci005fx.swf" type="ANIME" resize="false" move="false" name="Ceiling Crumbling" enable="N" is_premium="N" aid="14972" money="0" sharing="0" display_order="0"/>
+	<char id="832014" name="Alien" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
+		<tags>cc2,_free</tags>
+	</char>
+	<char id="832015" name="Alien" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
+		<tags>cc2,_free</tags>
+	</char>
+	<char id="832016" name="Alien - Human Disguise" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
+		<tags>cc2,_free</tags>
+	</char>
+	<char id="832017" name="Alien - Human Disguise" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
+		<tags>cc2,_free</tags>
+	</char>
 </theme>
