@@ -2582,7 +2582,8 @@
     <library type="GoBehindBody" id="012" path="012" name="012" thumb="012_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y" />
     <library type="GoBehindBody" id="013" path="013" name="013" thumb="013_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y" />
     <library type="GoBehindBody" id="014" path="014" name="014" thumb="014_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y" />
-    <library type="GoBehindBody" id="003" path="003" name="003" thumb="003_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y" />
+	<library type="GoBehindBody" id="demon_tail" path="demon_tail" name="demon_tail" thumb="demon_tail_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y" />
+    <library type="GoBehindBody" id="003" path="003" name="003" thumb="003_thumbnail.swf" display_order="10" money="0" sharing="0" enable="N" />
     <library type="GoBehindBody" id="004" path="004" name="004" thumb="004_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y" />
     <library type="GoBehindBody" id="005" path="005" name="005" thumb="005_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y" />
     <library type="GoBehindBody" id="006" path="006" name="006" thumb="006_thumbnail.swf" display_order="10" money="0" sharing="0" enable="N" />
