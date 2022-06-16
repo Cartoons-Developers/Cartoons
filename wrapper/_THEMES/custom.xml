@@ -4116,6 +4116,12 @@
 	<char id="324728135" name="Casual" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
 		<tags>family,_free,_cat:Casual,_tag:casual dreadlock dreadlocks dreads earring earrings female lady woman</tags>
 	</char>
+	<char id="324728151" name="Casual" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+		<tags>family,_free,_cat:Casual,_tag:casual female lady woman</tags>
+	</char>
+	<char id="324728152" name="Casual" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+		<tags>family,_free,_cat:Casual,_tag:casual man male</tags>
+	</char>
 	<char id="324728128" name="Casual Sports" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
 		<tags>family,_free,_cat:Casual,_tag:casual dreadlock dreadlocks dreads exercise female fitness gym jog jogging jogger lady woman</tags>
 	</char>
@@ -4400,6 +4406,9 @@
 	</char>
 	<char id="324728136" name="Senior" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
 		<tags>family,_free,_cat:Casual,_tag:casual dreadlock dreadlocks dreads earring earrings elder elderlies elderly female lady woman</tags>
+	</char>
+	<char id="324728150" name="Senior" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+		<tags>family,_free,_cat:Casual,_tag:casual elder elderlies elderly man male</tags>
 	</char>
 	<char id="324728009" name="Soldier" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
 		<tags>family,_free,_cat:Government,_tag:army armies boot boots camouflage cap fatigues government hat man male soldier</tags>
