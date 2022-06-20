@@ -3152,11 +3152,11 @@
   <prop id="ncc_03soda.swf" name="Soda" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="11858" money="0" sharing="0"/>
   <prop id="msp_sofa" name="Sofa" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_sofa_sofa_front.swf" enable="Y" is_premium="N" aid="9802" money="0" sharing="0">
 		<state id="msp_sofa_sofa_front.swf" name="Front" enable="Y" default="Y"/>
-		<state id="msp_sofa_sofa_side.swf" name="Standing" enable="Y"/>
+		<state id="msp_sofa_sofa_side.swf" name="Side" enable="Y"/>
   </prop>
   <prop id="msp_sofa02" name="Sofa" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_sofa02_sofa02_front.swf" enable="Y" is_premium="N" aid="9802" money="0" sharing="0">
 		<state id="msp_sofa02_sofa02_front.swf" name="Front" enable="Y" default="Y"/>
-		<state id="msp_sofa02_sofa02_side.swf" name="Standing" enable="Y"/>
+		<state id="msp_sofa02_sofa02_side.swf" name="Side" enable="Y"/>
   </prop>
   <prop id="msp_cafesofa" name="Sofa" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_cafesofa_ncc_cafesofa_front.swf" enable="Y" is_premium="N" aid="11716" money="0" sharing="0">
     <state id="msp_cafesofa_ncc_cafesofa_front.swf" name="front" enable="Y" default="Y"/>
