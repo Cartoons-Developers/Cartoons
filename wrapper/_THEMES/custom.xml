@@ -4008,6 +4008,18 @@
 
 
   
+	<char id="324728154" name="Baseball Fielder" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+		<tags>family,_free,_cat:Sports,_tag:athlete baseball cap fielder hat jersey man male</tags>
+	</char>
+	<char id="324728155" name="Baseball Fielder" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+		<tags>family,_free,_cat:Sports,_tag:athlete baseball cap fielder hat jersey man male</tags>
+	</char>
+	<char id="324728156" name="Baseball Fielder" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+		<tags>family,_free,_cat:Sports,_tag:athlete baseball cap fielder hat jersey man male</tags>
+	</char>
+	<char id="324728157" name="Baseball Fielder" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+		<tags>family,_free,_cat:Sports,_tag:athlete baseball cap fielder hat jersey man male</tags>
+	</char>
 	<char id="324728097" name="Baseball Player" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
 		<tags>family,_free,_cat:Sports,_tag:athlete baseball helmet jersey man male player</tags>
 	</char>
@@ -4436,6 +4448,12 @@
 	</char>
 	<char id="324728153" name="Student" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
 		<tags>family,_free,_cat:Casual,_tag:academy academic big casual college education large man male ponytail university</tags>
+	</char>
+	<char id="324728128" name="Student" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+		<tags>family,_free,_cat:Casual,_tag:academy academic casual college education female lady ponytail university woman</tags>
+	</char>
+	<char id="324728159" name="Student" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+		<tags>family,_free,_cat:Casual,_tag:academy academic beard casual college education man male ponytail university</tags>
 	</char>
 	<char id="324728047" name="Superhero" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
 		<tags>family,_free,_cat:Holidays and Costumes,_tag:boot boots costume costumes glove gloves hero heroes heroic holiday holidays hols mask man male other professions superhero</tags>
