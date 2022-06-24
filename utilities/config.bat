@@ -1,17 +1,17 @@
-:: Wrapper: Offline Config
+:: Vyond: Remastered Config
 :: This file is modified by settings.bat. It is not organized, but comments for each setting have been added.
-:: You should be using settings.bat, and not touching this. Offline relies on this file remaining consistent, and it's easy to mess that up.
+:: You should be using settings.bat, and not touching this. Remastered relies on this file remaining consistent, and it's easy to mess that up.
 
 :: Opens this file in Notepad when run
 setlocal
-if "%SUBSCRIPT%"=="" ( start notepad.exe config.bat & exit )
+if "%SUBSCRIPT%"=="" ( pushd "C:\Users\david\Downloads\please work\vyond-remastered-public-main\" & start notepad.exe config.bat & exit )
 endlocal
 
-:: Shows exactly Offline is doing, and never clears the screen. Useful for development and troubleshooting. Default: n
+:: Shows exactly Remastered is doing, and never clears the screen. Useful for development and troubleshooting. Default: n
 set VERBOSEWRAPPER=n
 
 :: Won't check for dependencies (flash, node, etc) and goes straight to launching. Useful for speedy launching post-install. Default: n
-set SKIPCHECKDEPENDS=n
+set SKIPCHECKDEPENDS=y
 
 :: Won't install dependencies, regardless of check results. Overridden by SKIPCHECKDEPENDS. Mostly useless, why did I add this again? Default: n
 set SKIPDEPENDINSTALL=n
@@ -30,10 +30,4 @@ set BROWSER_TYPE=chrome
 
 :: Runs through all of the scripts code, while never launching or installing anything. Useful for development. Default: n
 set DRYRUN=n
-
-:: auto update (what do you think it does, obvious)
-set AUTOUPDATE=y
-
-:: discord rpc
-set RPC=y
 

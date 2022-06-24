@@ -1,4 +1,6 @@
-// modules
+/***
+ * database
+ */
 const fs = require("fs");
 
 module.exports = class {
