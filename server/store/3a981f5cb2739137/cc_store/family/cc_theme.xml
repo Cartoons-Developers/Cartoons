@@ -10516,7 +10516,7 @@
   <component type="hair" id="069" path="069" name="069" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
     <state id="default" filename="default.swf" />
   </component>
-  <component type="hair" id="087" path="087" name="087" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+  <component type="hair" id="087" path="087" name="087" thumb="thumbnail.swf" money="0" sharing="0" enable="N">
     <state id="default" filename="default.swf" />
   </component>
   <component type="hair" id="085" path="085" name="085" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
@@ -10564,7 +10564,7 @@
   <component type="hair" id="095" path="095" name="095" thumb="thumbnail.swf" money="0" sharing="0" enable="N">
     <state id="default" filename="default.swf" />
   </component>
-  <component type="hair" id="096" path="096" name="096" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+  <component type="hair" id="096" path="096" name="096" thumb="thumbnail.swf" money="0" sharing="0" enable="N">
     <state id="default" filename="default.swf" />
   </component>
   <component type="hair" id="097" path="097" name="097" thumb="thumbnail.swf" money="0" sharing="0" enable="N">
@@ -10579,7 +10579,7 @@
   <component type="hair" id="102" path="102" name="102" thumb="thumbnail.swf" money="0" sharing="0" enable="N">
     <state id="default" filename="default.swf" />
   </component>
-  <component type="hair" id="103" path="103" name="103" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+  <component type="hair" id="103" path="103" name="103" thumb="thumbnail.swf" money="0" sharing="0" enable="N">
     <state id="default" filename="default.swf" />
   </component>
   <component type="hair" id="106" path="106" name="106" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
@@ -10730,6 +10730,9 @@
     <state id="default" filename="default.swf" />
   </component>
   <component type="hair" id="new_hairstyle20" path="new_hairstyle20" name="new_hairstyle20" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+    <state id="default" filename="default.swf" />
+  </component>
+  <component type="hair" id="new_hairstyle21" path="new_hairstyle21" name="new_hairstyle21" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
     <state id="default" filename="default.swf" />
   </component>
   <component type="mustache" id="010" path="010" name="010" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
