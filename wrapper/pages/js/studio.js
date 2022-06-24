@@ -58,7 +58,7 @@ class AssetImporter {
 	constructor(importer) {
 		this.importer = importer;
 		this.queue = importer.find("#importer-queue");
-		this.config = { maxsize: false }
+		this.config = { maxsize: false };
 		this.initialize();
 	}
 	initialize() {
@@ -89,7 +89,7 @@ class AssetImporter {
 	addFiles(file) { //adds a file to the queue
 		//image importing
 		const ext = file.name.substring(file.name.lastIndexOf(".") + 1);
-		const maxsize = this.config.maxsize
+		const maxsize = this.config.maxsize;
 		if (maxsize && file.size > maxsize) return; // check if file is too large
 		var validFileType = false;
 		let el;
@@ -102,7 +102,7 @@ class AssetImporter {
 						<div class="asset_metadata">
 							<img class="asset_preview" src="/pages/img/importer/sound.png" />
 							<div>
-								<h4>${file.name}</h4>
+								<h4 contenteditable="true" class="asset_name">${file.name}</h4>
 								<p class="asset_subtype">${filesize(file.size)} | Import as...</p>
 							</div>
 						</div>
@@ -123,7 +123,7 @@ class AssetImporter {
 						<div class="asset_metadata">
 							<img class="asset_preview" src="/pages/img/importer/image.png" />
 							<div>
-								<h4>${file.name}</h4>
+								<h4 contenteditable="true" class="asset_name">${file.name}</h4>
 								<p class="asset_subtype">${filesize(file.size)} | Import as...</p>
 							</div>
 						</div>
@@ -135,14 +135,14 @@ class AssetImporter {
 				`).appendTo(this.queue);
 				const fr = new FileReader();
 				fr.addEventListener("load", e => {
-					el.find("img").attr("src", e.target.result)
+					el.find("img").attr("src", e.target.result);
 				})
-				fr.readAsDataURL(file)
+				fr.readAsDataURL(file);
 				break;
 			}
 		}
 		if (!validFileType) {
-			console.error("Invalid file type!")
+			console.error("Invalid file type!");
 			return;
 		}
 		const request = new ImporterFile(file, el, ext);
@@ -152,15 +152,17 @@ class ImporterFile {
 	constructor(file, element, ext) {
 		this.file = file;
 		this.el = element;
-		this.ext = ext
+		this.ext = ext;
 		this.initialize();
 	}
 	initialize() {
-		this.el.find("[type]").on("click", (event) => {
+		this.el.find("[type]").on("click", event => {
 			const el = $(event.target);
 			const type = el.attr("type");
 			const t = this.typeFickser(type);
-			const name = prompt("What do you want this asset to be called?", this.file.name);
+
+			// get file name
+			let name = el.parents(".importer_asset").find(".asset_name").text();			
 			this.upload(name, t);
 		});
 	}
@@ -169,16 +171,19 @@ class ImporterFile {
 			case "bgmusic":
 			case "soundeffect":
 			case "voiceover": {
-				return { type: "sound", subtype: type }
-			}
-			case "bg":
+				return { type: "sound", subtype: type };
+			} case "bg":
 			case "prop": {
-				return { type: type, subtype: 0 }
+				return { type: type, subtype: 0 };
 			}
 		}
 	}
-	async upload(name, type) {
-		var b = new FormData();
+	async upload(passedname, type) {
+		let name = passedname;
+		if (name == "")
+			name = "unnamed" + Math.random().toString().substring(2, 8); 
+
+		let b = new FormData();
 		b.append("import", this.file);
 		b.append("name", name)
 		b.append("type", type.type);

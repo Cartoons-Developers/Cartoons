@@ -28,8 +28,6 @@ function name2Font(font) {
 			return "FontFileTokyo";
 		case "Accidental Presidency":
 			return "FontFileAccidental";
-		case "BodoniXT":
-			return "FontFileBodoniXT";
 		case "Budmo Jiggler":
 			return "FontFileBJiggler";
 		case "Budmo Jigglish":
@@ -42,97 +40,23 @@ function name2Font(font) {
 			return "FontFileHoney";
 		case "I hate Comic Sans":
 			return "FontFileIHate";
-		case "Impact Label":
-			return "FontFileImpactLabel";
 		case "loco tv":
 			return "FontFileLocotv";
 		case "Mail Ray Stuff":
 			return "FontFileMailRay";
 		case "Mia\'s Scribblings ~":
 			return "FontFileMia";
-		case "Shanghai":
-			return "FontFileShanghai";
-		case "Comic Book":
-			return "FontFileComicBook";
-		case "Wood Stamp":
-			return "FontFileWoodStamp";
-		case "Brawler":
-			return "FontFileBrawler";
 		case "Coming Soon":
 			return "FontFileCSoon";
-		case "Glegoo":
-			return "FontFileGlegoo";
 		case "Lilita One":
 			return "FontFileLOne";
 		case "Telex Regular":
 			return "FontFileTelex";
-		case "Claire Hand":
-			return "FontFileClaireHand";
-		case "Oswald":
-			return "FontFileOswald";
-		case "Poiret One":
-			return "FontFilePoiretOne";
-		case "Raleway":
-			return "FontFileRaleway";
-		case "Bangers":
-			return "FontFileBangers";
-		case "Creepster":
-			return "FontFileCreepster";
-		case "BlackoutMidnight":
-			return "FontFileBlackoutMidnight";
-		case "BlackoutSunrise":
-			return "FontFileBlackoutSunrise";
-		case "Junction":
-			return "FontFileJunction";
-		case "LeagueGothic":
-			return "FontFileLeagueGothic";
-		case "LeagueSpartan":
-			return "FontFileLeagueSpartan";
-		case "OstrichSansMedium":
-			return "FontFileOstrichSansMedium";
-		case "Prociono":
-			return "FontFileProciono";
-		case "Lato":
-			return "FontFileLato";
-		case "Alegreya Sans SC":
-			return "FontFileAlegreyaSansSC";
-		case "Barrio":
-			return "FontFileBarrio";
-		case "Bungee Inline":
-			return "FontFileBungeeInline";
-		case "Bungee Shade":
-			return "FontFileBungeeShade";
-		case "Gochi Hand":
-			return "FontFileGochiHand";
-		case "IM Fell English SC":
-			return "FontFileIMFellEnglishSC";
-		case "Josefin":
-			return "FontFileJosefin";
-		case "Kaushan":
-			return "FontFileKaushan";
-		case "Lobster":
-			return "FontFileLobster";
-		case "Montserrat":
-			return "FontFileMontserrat";
-		case "Mouse Memoirs":
-			return "FontFileMouseMemoirs";
-		case "Patrick Hand":
-			return "FontFilePatrickHand";
-		case "Permanent Marker":
-			return "FontFilePermanentMarker";
-		case "Satisfy":
-			return "FontFileSatisfy";
-		case "Sriracha":
-			return "FontFileSriracha";
-		case "Teko":
-			return "FontFileTeko";
-		case "Vidaloka":
-			return "FontFileVidaloka";
 		case '':
 		case null:
 			return '';
 		default:
-			return `FontFile${font}`;
+			return `FontFile${font.replace(/\s/g, '')}`;
 	}
 }
 
@@ -140,11 +64,11 @@ function meta2Xml(v) {
 	var response;
 	switch (v.type) {
 		case "char": {
-			response = `<char id="${v.id}" enc_asset_id="${v.id}" name="Untitled" cc_theme_id="${v.themeId}" thumbnail_url="char_default.png" copyable="Y"><tags>${v.tags}</tags></char>`;
+			response = `<char id="${v.id}" enc_asset_id="${v.id}" name="Untitled" cc_theme_id="${v.themeId}" thumbnail_url="char_default.png" copyable="Y"><tags/></char>`;
 			break;
 		}
 		case "bg": {
-			response = `<background subtype="0" id="${v.file}" enc_asset_id="${v.id}" name="${v.title}" enable="Y" asset_url="/assets/${v.file}"/>`
+			response = `<background subtype="0" id="${v.id}" enc_asset_id="${v.id}" name="${v.title}" enable="Y" asset_url="/assets/${v.id}"/>`
 			break;
 		}
 		case "movie": {
@@ -153,14 +77,14 @@ function meta2Xml(v) {
 		}
 		case "prop": {
 			if (v.subtype == "video") {
-				response = `<prop subtype="video" id="${v.file}" enc_asset_id="${v.id}" name="${v.title}" enable="Y" holdable="0" headable="0" placeable="1" facing="left" width="0" height="0" asset_url="/api_v2/assets/${v.file}"/>`;
+				response = `<prop subtype="video" id="${v.id}" enc_asset_id="${v.id}" name="${v.title}" enable="Y" holdable="0" headable="0" placeable="1" facing="left" width="0" height="0" asset_url="/api_v2/assets/${v.file}"/>`;
 			} else {
-				response = `<prop subtype="0" id="${v.file}" enc_asset_id="${v.id}" name="${v.title}" enable="Y" holdable="0" headable="0" placeable="1" facing="left" width="0" height="0" asset_url="/api_v2/assets/${v.file}"/>`;
+				response = `<prop subtype="0" id="${v.id}" enc_asset_id="${v.id}" name="${v.title}" enable="Y" holdable="0" headable="0" placeable="1" facing="left" width="0" height="0" asset_url="/api_v2/assets/${v.file}"/>`;
 			}
 			break;
 		}
 		case "sound": {
-			response = `<sound subtype="${v.subtype}" id="${v.file}" enc_asset_id="${v.id}" name="${v.title}" enable="Y" duration="${v.duration}" downloadtype="progressive"/>`;
+			response = `<sound subtype="${v.subtype}" id="${v.id}" enc_asset_id="${v.id}" name="${v.title}" enable="Y" duration="${v.duration}" downloadtype="progressive"/>`;
 			break;
 		}
 	};
@@ -185,35 +109,22 @@ module.exports = {
 	 * @param {string} mId
 	 * @returns {Promise<Buffer>}
 	 */
-	async packXml(xmlBuffer, mId = null) {
+	async packXml(xmlBuffer) {
 		if (xmlBuffer.length == 0) throw null;
 
 		const zip = nodezip.create();
-		const themes = { common: true }, assetTypes = {};
-		var ugcString = `${header}<theme id="ugc" name="ugc">`;
+		const themes = { common: true };
+		var ugc = `${header}<theme id="ugc" name="ugc">`;
 		fUtil.addToZip(zip, 'movie.xml', xmlBuffer);
-		const xml = new xmldoc.XmlDocument(xmlBuffer);
-		const elements = xml.children;
-		for (const eK in elements) {
-			var element = elements[eK];
-			switch (element.name) {
-				case 'cc_char': {
-					const beg = element.startTagPosition - 1;
-					const end = xmlBuffer.indexOf('</cc_char>', beg) + 10;
-					const sub = xmlBuffer.subarray(beg, end);
 
-					const name = element.attr.file_name;
-					const id = name.substr(9, name.indexOf('.', 9) - 9);
-					const theme = await char.getTheme(await char.save(sub, id));
-					themes[theme] = true;
+		// begin parsing the movie xml
+		const film = new xmldoc.XmlDocument(xmlBuffer);
+		for (const eI in film.children) {
+			var elem = film.children[eI];
 
-					fUtil.addToZip(zip, element.attr.file_name, sub);
-					ugcString += `<char id="${id}" cc_theme_id="${theme}"><tags/></char>`;
-					break;
-				}
-
+			switch (elem.name) {
 				case 'sound': {
-					const val = element.childNamed('sfile').val;
+					const val = elem.childNamed('sfile').val;
 
 					var pieces = val.split(".");
 					if (val.endsWith('.swf')) {
@@ -226,15 +137,16 @@ module.exports = {
 					}
 					else if (val.startsWith('ugc.')) {
 						var ext = pieces.pop();
-						pieces.splice(1, 0, element.name)
+						pieces.splice(1, 0, elem.name)
+						pieces[pieces.length - 1] += `.${ext}`;
 
-						var fileName = pieces.join(".") + `.${ext}`;
+						var fileName = pieces.join(".");
 						console.log(pieces);
 						if (!zip[fileName]) {
 							var buff = asset.load(pieces[2]);
 							var meta = asset.meta(pieces[2]);
 							fUtil.addToZip(zip, fileName, buff);
-							ugcString += meta2Xml(meta);
+							ugc += meta2Xml(meta);
 							themes[pieces[0]] = true;
 						}
 					}
@@ -242,12 +154,12 @@ module.exports = {
 				}
 
 				case "scene": {
-					for (var pK in element.children) {
-						var piece = element.children[pK];
-						var tag = piece.name;
-						if (tag == "effectAsset") {
-							tag = "effect";
-						}
+					for (var e2I in elem.children) {
+						var elem2 = elem.children[e2I];
+
+						var tag = elem2.name;
+						// change the tag to the one in the store folder
+						if (tag == "effectAsset") tag = "effect";
 
 						switch (tag) {
 							case "durationSetting":
@@ -256,7 +168,7 @@ module.exports = {
 							case "bg":
 							case "effect":
 							case "prop": {
-								var file = piece.childNamed("file");
+								var file = elem2.childNamed("file");
 								if (!file) continue;
 								var val = file.val;
 								// fix the file name for the lvm
@@ -266,20 +178,23 @@ module.exports = {
 								pieces[pieces.length - 1] += `.${ext}`;
 
 								if (pieces[0] == "ugc") {
-									console.log(pieces)
-									var fileName = pieces.join(".") + `.${ext}`;
-									console.log(fileName)
-									if (!zip[fileName]) {
-										var buff = asset.load(pieces[2]);
-										var meta = asset.meta(pieces[2]);
-										fUtil.addToZip(zip, fileName, buff);
-										ugcString += meta2Xml(meta);
-										themes[pieces[0]] = true;
+									try {
+										console.log(pieces)
+										var fileName = pieces.join(".");
+										console.log(fileName)
+										if (!zip[fileName]) {
+											var buff = asset.load(pieces[2]);
+											var meta = asset.meta(pieces[2]);
+											fUtil.addToZip(zip, fileName, buff);
+											ugc += meta2Xml(meta);
+											themes[pieces[0]] = true;
+										}
+									} catch (err) {
+										if (process.env.NODE_ENV == "dev") throw err;
+										console.error("Error getting asset: " + err);
 									}
 								} else {
 									// add extension to filename
-									
-									console.log(pieces)
 
 									var fileName = pieces.join(".");
 									console.log(fileName)
@@ -291,74 +206,51 @@ module.exports = {
 								}
 								break;
 							}
-							case 'char': {
-								const val = piece.childNamed('action').val;
-								const pieces = val.split('.');
-
-								let theme, fileName, buffer;
-								switch (pieces[pieces.length - 1]) {
-									case 'xml': {
-										theme = pieces[0];
-										const id = pieces[1];
-
-										try {
-											buffer = await char.load(id);
-											const meta = asset.meta(id);
-											fileName = `${theme}.char.${id}.xml`;
-											if (theme == 'ugc')
-												ugcString += meta2Xml(meta);
-										} catch (e) {
-											console.log(e);
-										}
+							case "char": {
+								console.log("char pasre");
+								const file = elem2.childNamed("action")?.val;
+								if (!file) throw new Error("Invalid movie XML.");
+								const pieces = file.split(".");
+								const themeId = pieces[0];
+								const id = pieces[1];
+		
+								// fix the file name
+								// remove the action part (if it's a custom char)
+								if (themeId == "ugc") pieces.splice(2, 1);
+								// add the extension to the last key
+								const ext = pieces.pop();
+								pieces[pieces.length - 1] += "." + ext;
+								pieces.splice(1, 0, elem2.name);
+		
+								switch (themeId) {
+									case "ugc": {
+										const filename = pieces.join(".");
+										const buffer = await char.load(id);
+		
+										// add character meta
+										// i can't just select the character data because of stock chars
+										ugc += meta2Xml({
+											id: id,
+											type: "char",
+											themeId: char.getTheme(buffer)
+										});
+										// and add the character file
+										fUtil.addToZip(zip, filename, buffer);
 										break;
 									}
-									case 'swf': {
-										theme = pieces[0];
-										const char = pieces[1];
-										const model = pieces[2];
-										const url = `${store}/${theme}/char/${char}/${model}.swf`;
-										fileName = `${theme}.char.${char}.${model}.swf`;
-										buffer = await get(url);
+									default: {
+										const filename = pieces.join(".");
+		
+										
+										// and add the character file
+										fUtil.addToZip(zip, filename, char.load(id));
 										break;
 									}
-								}
-
-								for (const ptK in piece.children) {
-									const part = piece.children[ptK];
-									if (!part.children) continue;
-
-									var urlF, fileF;
-									switch (part.name) {
-										case 'head':
-											urlF = 'char';
-											fileF = 'prop';
-											break;
-										case 'prop':
-											urlF = 'prop';
-											fileF = 'prop';
-											break;
-										default:
-											continue;
-									}
-
-									const file = part.childNamed('file');
-									const slicesP = file.val.split('.');
-									slicesP.pop(), slicesP.splice(1, 0, urlF);
-									const urlP = `${store}/${slicesP.join('/')}.swf`;
-
-									slicesP.splice(1, 1, fileF);
-									const fileP = `${slicesP.join('.')}.swf`;
-									fUtil.addToZip(zip, fileP, await get(urlP));
-								}
-
-								if (buffer) {
-									themes[theme] = true;
-									fUtil.addToZip(zip, fileName, buffer);
 								}
 								break;
 							}
 							case 'bubbleAsset': {
-								const bubble = piece.childNamed('bubble');
+								const bubble = elem2.childNamed('bubble');
 								const text = bubble.childNamed('text');
 								const font = `${name2Font(text.attr.font)}.swf`;
 								const fontSrc = `${source}/go/font/${font}`;
@@ -391,7 +283,7 @@ module.exports = {
 
 		fUtil.addToZip(zip, 'themelist.xml', Buffer.from(`${header}<themes>${
 			themeKs.map(t => `<theme>${t}</theme>`).join('')}</themes>`));
-		fUtil.addToZip(zip, 'ugc.xml', Buffer.from(ugcString + `</theme>`));
+		fUtil.addToZip(zip, 'ugc.xml', Buffer.from(ugc + `</theme>`));
 		fs.writeFileSync("die.zip", await zip.zip());
 		return await zip.zip();
 	},
