@@ -22,7 +22,7 @@ if not exist wrapper ( goto error_location )
 if not exist server ( goto error_location )
 goto noerror_location
 :error_location
-echo Doesn't seem like this script is in a Cartppms folder.
+echo Doesn't seem like this script is in a Cartoons folder.
 pause && exit
 :noerror_location
 
