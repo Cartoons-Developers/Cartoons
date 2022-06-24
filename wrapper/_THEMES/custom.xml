@@ -3066,7 +3066,7 @@
 </c_parts>
   </prop>
   <prop id="crowd.swf" name="Crowd" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="Y" aid="11363" money="0" sharing="0"/>
-  <prop id="cupcake.swf" name="Cupcake" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9041" money="0" sharing="0"/>
+  <prop id="cupcake.swf" name="Cupcake" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="11363" money="0" sharing="0"/>
   <prop id="ncc_crmtable01.swf" name="Desk" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="Y" aid="11363" money="0" sharing="0"/>
   <prop id="cc_diamond_ring.swf" name="Diamond Ring" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9013" money="0" sharing="0"/>
   <prop id="dirt.swf" name="Dirt" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9013" money="0" sharing="0"/>
@@ -4134,6 +4134,9 @@
 	</char>
 	<char id="324728152" name="Casual" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
 		<tags>family,_free,_cat:Casual,_tag:casual man male</tags>
+	</char>
+	<char id="324728160" name="Casual" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+		<tags>family,_free,_cat:Casual,_tag:bun casual man manbun male</tags>
 	</char>
 	<char id="324728128" name="Casual Sports" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
 		<tags>family,_free,_cat:Casual,_tag:casual dreadlock dreadlocks dreads exercise female fitness gym jog jogging jogger lady woman</tags>
