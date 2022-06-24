@@ -22,7 +22,7 @@ pushd ..\wrapper
 
 :: set environment variables
 set DISCORD_RPC=%RPC%
-:: start vyond
+:: start wrapper
 npm start
 
 :: this only happens if node crashes
