@@ -10681,6 +10681,9 @@
   <component type="hair" id="long_undercut" path="long_undercut" name="long_undercut" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
     <state id="default" filename="default.swf" />
   </component>
+  <component type="hair" id="man_bun" path="man_bun" name="man_bun" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+    <state id="default" filename="default.swf" />
+  </component>
   <component type="hair" id="mohawk" path="mohawk" name="mohawk" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
     <state id="default" filename="default.swf" />
   </component>
