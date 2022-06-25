@@ -11051,6 +11051,9 @@
   <component type="facedecoration" id="baseball_player" path="baseball_player" name="baseball_player" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
     <state id="default" filename="default.swf" />
   </component>
+  <component type="facedecoration" id="bicycle_helmet" path="bicycle_helmet" name="bicycle_helmet" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+    <state id="default" filename="default.swf" />
+  </component>
   <component type="facedecoration" id="bowler_hat" path="bowler_hat" name="bowler_hat" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
     <state id="default" filename="default.swf" />
   </component>
