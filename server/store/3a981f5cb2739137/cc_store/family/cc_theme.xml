@@ -11096,6 +11096,9 @@
   <component type="facedecoration" id="pimple" path="pimple" name="pimple" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
     <state id="default" filename="default.swf" />
   </component>
+  <component type="facedecoration" id="pith" path="pith" name="pith" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+    <state id="default" filename="default.swf" />
+  </component>
   <component type="facedecoration" id="plain_headband" path="plain_headband" name="plain_headband" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
     <state id="default" filename="default.swf" />
   </component>

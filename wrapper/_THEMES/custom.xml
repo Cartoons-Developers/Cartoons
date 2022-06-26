@@ -4009,6 +4009,9 @@
 
 
   
+	<char id="324728162" name="Adventurer" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+		<tags>family,_free,_cat:Casual,_tag:adventure adventurer bob casual child children female hiker girl kid kids</tags>
+	</char>
 	<char id="324728154" name="Baseball Fielder" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
 		<tags>family,_free,_cat:Sports,_tag:athlete baseball cap fielder hat jersey man male</tags>
 	</char>
@@ -4137,6 +4140,9 @@
 	</char>
 	<char id="324728160" name="Casual" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
 		<tags>family,_free,_cat:Casual,_tag:bun casual man manbun male</tags>
+	</char>
+	<char id="324728161" name="Casual" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+		<tags>family,_free,_cat:Casual,_tag:casual female lady ponytail woman</tags>
 	</char>
 	<char id="324728128" name="Casual Sports" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
 		<tags>family,_free,_cat:Casual,_tag:casual dreadlock dreadlocks dreads exercise female fitness gym jog jogging jogger lady woman</tags>
