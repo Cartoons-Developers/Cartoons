@@ -4010,7 +4010,7 @@
 
   
 	<char id="324728162" name="Adventurer" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
-		<tags>family,_free,_cat:Casual,_tag:adventure adventurer bob casual child children female hiker girl kid kids</tags>
+		<tags>family,_free,_cat:Holidays and Costumes,_tag:adventure adventurer bob child children costumes female hiker holidays girl kid kids</tags>
 	</char>
 	<char id="324728154" name="Baseball Fielder" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
 		<tags>family,_free,_cat:Sports,_tag:athlete baseball cap fielder hat jersey man male</tags>
