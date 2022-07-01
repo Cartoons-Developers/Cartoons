@@ -10499,6 +10499,9 @@
   <component type="glasses" id="016" path="016" name="016" thumb="thumbnail.swf" money="0" sharing="0" enable="N">
     <state id="default" filename="default.swf" />
   </component>
+  <component type="glasses" id="020a" path="020a" name="020a" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+    <state id="default" filename="default.swf" />
+  </component>
   <component type="glasses" id="pixel" path="pixel" name="pixel" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
     <state id="default" filename="default.swf" />
   </component>
@@ -10773,6 +10776,9 @@
     <state id="default" filename="default.swf" />
   </component>
   <component type="hair" id="new_hairstyle21" path="new_hairstyle21" name="new_hairstyle21" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+    <state id="default" filename="default.swf" />
+  </component>
+  <component type="hair" id="new_hairstyle22" path="new_hairstyle22" name="new_hairstyle22" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
     <state id="default" filename="default.swf" />
   </component>
   <component type="mustache" id="010" path="010" name="010" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
