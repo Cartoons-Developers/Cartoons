@@ -1,54 +1,60 @@
 <html>
+	<head>
+		<meta charset="UTF-8" />
+		<link rel="icon" href="/favicon.ico" type="image/png" />
+		<title>Video Editor</title>
+		<link rel="stylesheet" type="text/css" href="/pages/css/modern-normalize.css">
+		<link rel="stylesheet" type="text/css" href="/pages/css/global.css">
+		<link rel="stylesheet" type="text/css" href="/pages/css/flash.css">
+		<style>
+			body {
+				background: #eee;
+			}
 
-<head>
-	<title><% it.title %></title>
-	<link rel="stylesheet" type="text/css" href="/pages/css/modern-normalize.css">
-	<link rel="stylesheet" type="text/css" href="/pages/css/global.css">
-	<link rel="stylesheet" type="text/css" href="/pages/css/flash.css">
-	<script src="/pages/js/jquery.js"></script>
-	<script src="/pages/js/filesize.js"></script>
-	<style>
-		body {
-			background: #eee;
-		}
-	</style>
-</head>
+		</style>
+		<script src="/pages/js/jquery.js"></script>
+		<script src="/pages/js/filesize.js"></script>
+		<script src="/pages/js/global.js"></script>
+		<script>
+			const STORE_URL = "<%= it.env.STORE_URL %>";
+			const CLIENT_URL = "<%= it.env.CLIENT_URL %>";
 
-<body style="margin:0px">
-	<main style="display:flex">
-		<nav id="importer">
-			<nav id="import_head">
-				<div>
-					<h3 id="import-media">Import Media</h3>
-					<h3 id="close-button" onclick="hideImporter()">✖</h3>
-				</div>
-				<form>
-					<label id="import-toggle" for="importer-files" class="button_big">UPLOAD FILES</label>
-					<input id="importer-files" type="file" name="file" title="Upload Files" style="display:none" />
-				</form>
+		</script>
+	</head>
+
+	<body style="margin:0px">
+		<main>
+			<nav id="importer">
+				<nav id="import_head">
+					<button id="import-toggle" onclick="document.getElementById('importer-files').click()" class="import-button">UPLOAD FILES</button>
+					<h3 class="close-button" onclick="hideImporter()">✖</h3>
+					<form>
+						<input id="importer-files" type="file" name="file" title="Upload Files" accept=".mp3,.wav,.swf,.gif,.png,.jpg,.mp4" style="display:none" />
+					</form>
+				</nav>
+				<div id="importer-queue"></div>
 			</nav>
-			<div id="importer-queue"></div>
-		</nav>
-		<%~ it.object %>
-	</main>
-	<div id="previewer" style="display:none">
-		<div id="preview_head">
-			<h2 id="preview-video">Preview Video</h2>
-			<h2 class="close-button" onclick="hidePreviewer()">✖</h2>
+			<%~ it.object(it.attrs, it.params) %>
+		</main>
+		<div id="previewer" style="display:none">
+			<div id="preview-inside">
+				<h2 id="preview-video">Preview Video</h2>
+			
+				<object id="preview_player" data="<%= it.env.SWF_URL %>/player.swf" type="application/x-shockwave-flash"
+					width="640" height="360">
+					<param name="flashvars" />
+					<param name="allowScriptAccess" value="always" />
+					<param name="allowFullScreen" value="true" />
+				</object>
+				<div class="buttons">
+					<button class="preview-button edit" type="button" onclick="hidePreviewer();">Back to editing</button>
+					<button class="preview-button save" type="button" onclick="publishStudio();">Save Now</button>
+				</div>
+
+				<a class="close-button" onclick="hidePreviewer()">×</a>
+			</div>
 		</div>
-		<object id="preview_player" data="https://localhost:4664/animation/414827163ad4eb60/player.swf" type="application/x-shockwave-flash" width="800" height="450">
-			<param name="flashvars" value="apiserver=/&amp;isEmbed=1&amp;tlang=en_US&amp;isInitFromExternal=1&amp;startFrame=previewStartFrame&amp;autostart=1&amp;storePath=https://localhost:4664/store/3a981f5cb2739137/&lt;store&gt;&amp;clientThemePath=https://localhost:4664/static/ad44370a650793d9/&lt;client_theme&gt;" />
-			<param name="allowScriptAccess" value="always" />
-			<param name="allowFullScreen" value="true" />
-		</object>
-	</div>
-</body>
-<script src="/pages/js/studio.js"></script>
+	</body>
 
-<iframe style='display:none' name='dummy'></iframe>
-
-<form style='display:none' id='uploadbanner' enctype='multipart/form-data' method='post' action='/upload_asset'
-	target='dummy' onchanged='(this.files[0]!=undefined)&&sub.click()'><input id='fileupload' name='import'
-		type='file' /><input type='submit' value='submit' id='submit' /></form>
-
+	<script src="/pages/js/studio.js"></script>
 </html>
