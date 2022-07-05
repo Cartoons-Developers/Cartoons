@@ -4411,6 +4411,9 @@
 	<char id="324728148" name="Rocker" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
 		<tags>family,_free,_cat:Casual,_tag:boot boots jacket man male rock rocker</tags>
 	</char>
+	<char id="324728163" name="Rocker" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+		<tags>family,_free,_cat:Casual,_tag:boot boots earring earrings female lady punk rock rocker woman</tags>
+	</char>
 	<char id="324728017" name="Santa Claus" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
 		<tags>family,_free,_cat:Holidays and Costumes,_tag:big boot boots christmas claus costume costumes hat holiday holidays hols large man male noel santa</tags>
 	</char>
