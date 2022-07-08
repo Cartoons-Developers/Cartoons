@@ -4360,6 +4360,9 @@
 	<char id="324728146" name="Office Worker" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
 		<tags>family,_free,_cat:Office,_tag:business female lady office ponytail woman worker</tags>
 	</char>
+	<char id="324728164" name="Office Worker" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+		<tags>family,_free,_cat:Office,_tag:business female lady office woman worker</tags>
+	</char>
 	<char id="324728075" name="Pajamas" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
 		<tags>family,_free,_cat:Casual,_tag:asleep bedroom home homeware household man male pajama pajamas pj pjs pyjama pyjamas sleep sleeping sleepy</tags>
 	</char>
