@@ -10556,6 +10556,9 @@
   <component type="hair" id="080" path="080" name="080" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
     <state id="default" filename="default.swf" />
   </component>
+  <component type="hair" id="080_two_tone" path="080_two_tone" name="080_two_tone" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+    <state id="default" filename="default.swf" />
+  </component>
   <component type="hair" id="064" path="064" name="064" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
     <state id="default" filename="default.swf" />
   </component>
