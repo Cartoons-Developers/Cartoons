@@ -4378,6 +4378,9 @@
 	<char id="324728144" name="Party Suit" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
 		<tags>family,_free,_cat:Special Occasions,_tag:bow bowing boy celebrate celebration child children congratulations costume costumes dressy fancy festival festive feta formal fun funky kid kids male occasions parties party special suit tux tuxedo wedding</tags>
 	</char>
+	<char id="324728165" name="Party Suit" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+		<tags>family,_free,_cat:Special Occasions,_tag:bow bowing boy celebrate celebration child children congratulations costume costumes dressy fancy festival festive feta formal fun funky kid kids male occasions parties party special suit tux tuxedo wedding</tags>
+	</char>
 	<char id="324728073" name="Pirate" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
 		<tags>family,_free,_cat:Holidays and Costumes,_tag:boot boots boy cap captain child children costume costumes eyepatch hat holiday holidays hols male other pirate professions</tags>
 	</char>
