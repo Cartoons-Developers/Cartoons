@@ -2960,6 +2960,14 @@
   <c_area oc="">ccColorA</c_area>
 </c_parts>
   </prop>
+  <prop id="msp_bed01" name="Bed" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_bed01_ncc_bed01_front.swf" enable="Y" is_premium="N" aid="10870" money="0" sharing="0">
+    <state id="msp_bed01_ncc_bed01_front.swf" name="front" enable="Y" default="Y"/>
+    <state id="msp_bed01_ncc_bed01_side.swf" name="side" enable="Y"/>
+  </prop>
+    <prop id="msp_double_bed" name="Bed" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_double_bed_ncc_double_bed_front.swf" enable="Y" is_premium="N" aid="10996" money="0" sharing="0">
+    <state id="msp_double_bed_ncc_double_bed_front.swf" name="front" enable="Y" default="Y"/>
+    <state id="msp_double_bed_ncc_double_bed_side.swf" name="side" enable="Y"/>
+  </prop>
   <prop id="msp_ncc_02cup" name="Beer" holdable="1" placeable="1" wearable="0" facing="left" thumb="msp_ncc_02cup_ncc_02cup01.swf" enable="Y" is_premium="Y" aid="12249" money="0" sharing="0" handstyle="stick">
     <state id="msp_ncc_02cup_ncc_02cup01.swf" name="full" enable="Y" default="Y"/>
     <state id="msp_ncc_02cup_ncc_02cup02.swf" name="empty" enable="Y"/>
@@ -2988,6 +2996,20 @@
   <c_area oc="">ccColorA</c_area>
   <c_area oc="">ccColorB</c_area>
 </c_parts>
+  </prop>
+  <prop id="msp_blanket01" name="Blanket" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_blanket01_ncc_blanket01_front.swf" enable="Y" is_premium="N" aid="10875" money="0" sharing="0">
+    <state id="msp_blanket01_ncc_blanket01_front.swf" name="front" enable="Y" default="Y"/>
+    <state id="msp_blanket01_ncc_blanket01_side.swf" name="side" enable="Y"/>
+    <state id="msp_blanket01_ncc_blanket01_front_empty.swf" name="front - empty" enable="Y"/>
+    <state id="msp_blanket01_ncc_blanket01_side_empty.swf" name="side - empty" enable="Y"/>
+  </prop>
+  <prop id="msp_blanklet01" name="Blanket" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_blanklet01_ncc_blanklet_side_single.swf" enable="Y" is_premium="N" aid="10999" money="0" sharing="0">
+    <state id="msp_blanklet01_ncc_blanklet_side_single.swf" name="side - one person" enable="Y" default="Y"/>
+    <state id="msp_blanklet01_ncc_blanklet_side_double.swf" name="side - two people" enable="Y"/>
+    <state id="msp_blanklet01_ncc_blanklet_side_empty.swf" name="side - empty" enable="Y"/>
+    <state id="msp_blanklet01_ncc_blanklet_front_single.swf" name="front - one person" enable="Y"/>
+    <state id="msp_blanklet01_ncc_blanklet_front_double.swf" name="front - two people" enable="Y"/>
+    <state id="msp_blanklet01_ncc_blanklet_front_empty.swf" name="front - empty" enable="Y"/>
   </prop>
   <prop id="cc_rose.swf" name="Bouquet" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9024" money="0" sharing="0"/>
   <prop id="cc_briefcase.swf" name="Briefcase" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9007" money="0" sharing="0"/>
@@ -3133,6 +3155,10 @@
   <prop id="ncc_03orange.swf" name="Orange" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="11858" money="0" sharing="0"/>
   <prop id="palm_tree01.swf" name="Palm Tree" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9587" money="0" sharing="0"/>
   <prop id="pencil.swf" name="Pencil" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9797" money="0" sharing="0"/>
+  <prop id="msp_pillow02" name="Pillow" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_pillow02_ncc_pillow02_front.swf" enable="Y" is_premium="N" aid="11006" money="0" sharing="0">
+    <state id="msp_pillow02_ncc_pillow02_front.swf" name="front" enable="Y" default="Y"/>
+    <state id="msp_pillow02_ncc_pillow02_side.swf" name="side" enable="Y"/>
+  </prop>
   <prop id="ncc_03pizza.swf" name="Pizza" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="11858" money="0" sharing="0"/>
   <prop id="ncc_03popcorn.swf" name="Popcorn" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="11858" money="0" sharing="0"/>
   <prop id="office_plant.swf" name="Potted Plant" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="8946" money="0" sharing="0"/>
