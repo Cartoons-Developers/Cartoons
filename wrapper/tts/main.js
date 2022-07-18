@@ -9,23 +9,42 @@ module.exports = function (voiceName, text) {
 	return new Promise((res, rej) => {
 		const voice = voices[voiceName];
 		switch (voice.source) {
-			case 'polly': {
-				https.get('https://nextup.com/ivona/index.html', (r) => {
-				var q = qs.encode({
-					voice: voice.arg,
-				    language: `${voice.language}-${voice.country}`,
-					text: text
-				});
-				var buffers = [];
-                var req = https.get(`https://nextup.com/ivona/php/nextup-polly/CreateSpeech/CreateSpeechGet3.php?${q}`, (r) => {
-                    r.on("data", (d) => buffers.push(d));
-                    r.on("end", () => {
-                        const loc = Buffer.concat(buffers).toString();
-                        get(loc).then(res).catch(rej);
-                    });
-                    r.on("error", rej);
-                    });
-				});
+			case "polly": { // working, stops working after some time
+				// make sure it's under the char limit
+				text = text.substring(0, 2999);
+
+				const body = new URLSearchParams({
+					msg: text,
+					lang: voice.arg,
+					source: "ttsmp3"
+				}).toString();
+				var req = https.request(
+					{
+						hostname: "ttsmp3.com",
+						port: "443",
+						path: "/makemp3_new.php",
+						method: "POST",
+						headers: {
+							"Content-Length": body.length,
+							"Content-type": "application/x-www-form-urlencoded"
+						}
+					},
+					(r) => {
+						let buffers = [];
+						r.on("data", (d) => buffers.push(d));
+						r.on("end", () => {
+							const json = JSON.parse(Buffer.concat(buffers).toString());
+							if (json.Error != 0) rej(json.Text);
+
+							get(json.URL)
+								.then(res)
+								.catch(rej);
+						});
+						r.on("error", rej);
+					}
+				);
+				req.write(body);
+				req.end();
 				break;
 			}
 			case 'cepstral':
