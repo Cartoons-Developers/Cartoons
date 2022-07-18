@@ -9,8 +9,7 @@ module.exports = function (voiceName, text) {
 	return new Promise((res, rej) => {
 		const voice = voices[voiceName];
 		switch (voice.source) {
-			case "polly": { // working, stops working after some time
-				// make sure it's under the char limit
+			case 'polly': {
 				text = text.substring(0, 2999);
 
 				const body = new URLSearchParams({
