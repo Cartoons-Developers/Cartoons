@@ -656,6 +656,19 @@
     <selection type="mustache" state_id="default" />
     <selection type="nose" state_id="default" />
   </facial>
+  <facial id="head_embarrassed" name="Embarrassed" enable="Y">
+    <selection type="beard" state_id="default" />
+    <selection type="ear" state_id="default" />
+    <selection type="eye" state_id="embarrassed" />
+    <selection type="eyebrow" state_id="sad" />
+    <selection type="facedecoration" state_id="default" />
+    <selection type="faceshape" state_id="default" />
+    <selection type="glasses" state_id="default" />
+    <selection type="hair" state_id="default" />
+    <selection type="mouth" state_id="happy" />
+    <selection type="mustache" state_id="default" />
+    <selection type="nose" state_id="default" />
+  </facial>
   <facial id="head_evil" name="Evil" enable="Y">
     <selection type="beard" state_id="default" />
     <selection type="ear" state_id="default" />
@@ -9332,6 +9345,7 @@
     <state id="asleep" filename="asleep.swf" />
     <state id="cry" filename="cry.swf" />
     <state id="default" filename="default.swf" />
+    <state id="embarrassed" filename="embarrassed.swf" />
     <state id="happy" filename="happy.swf" />
     <state id="sad" filename="sad.swf" />
     <state id="schemeing" filename="schemeing.swf" />
@@ -9339,13 +9353,13 @@
     <state id="sick" filename="sick.swf" />
     <state id="thinking" filename="thinking.swf" />
     <state id="yawn" filename="yawn.swf" />
-
   </component>
   <component type="eye" id="female" path="female" name="female" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
     <state id="angry" filename="angry.swf" />
     <state id="asleep" filename="asleep.swf" />
     <state id="cry" filename="cry.swf" />
     <state id="default" filename="default.swf" />
+    <state id="embarrassed" filename="embarrassed.swf" />
     <state id="happy" filename="happy.swf" />
     <state id="sad" filename="sad.swf" />
     <state id="schemeing" filename="schemeing.swf" />
@@ -9353,7 +9367,6 @@
     <state id="sick" filename="sick.swf" />
     <state id="thinking" filename="thinking.swf" />
     <state id="yawn" filename="yawn.swf" />
-
   </component>
   <component type="eye" id="201" path="201" name="201" thumb="thumbnail.swf" money="0" sharing="0" enable="N">
     <state id="angry" filename="angry.swf" />
@@ -9619,6 +9632,7 @@
     <state id="angry" filename="angry.swf" />
     <state id="asleep" filename="asleep.swf" />
     <state id="cry" filename="cry.swf" />
+    <state id="embarrassed" filename="embarrassed.swf" />
     <state id="default" filename="default.swf" />
     <state id="happy" filename="happy.swf" />
     <state id="sad" filename="sad.swf" />
