@@ -88,6 +88,9 @@
 	<char id="832011" name="Cat" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
 		<tags>cc2,_free</tags>
 	</char>
+	<char id="832018" name="Dog" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
+		<tags>cc2,_free</tags>
+	</char>
 	<char id="832007" name="Fox" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
 		<tags>cc2,_free</tags>
 	</char>
