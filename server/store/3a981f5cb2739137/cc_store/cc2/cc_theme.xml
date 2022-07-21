@@ -2555,6 +2555,7 @@
     <library type="GoBehindBody" id="bunny_tail" path="bunny_tail" name="bunny_tail" thumb="bunny_tail_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y" />
     <library type="GoBehindBody" id="custom_cat_tail" path="custom_cat_tail" name="custom_cat_tail" thumb="custom_cat_tail_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y" />
 	<library type="GoBehindBody" id="demon_tail" path="demon_tail" name="demon_tail" thumb="demon_tail_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y" />
+	<library type="GoBehindBody" id="dog_tail" path="dog_tail" name="dog_tail" thumb="dog_tail_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y" />
 	<library type="GoBehindBody" id="longhair_cat_tail" path="longhair_cat_tail" name="longhair_cat_tail" thumb="longhair_cat_tail_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y" />
     <library type="GoBehindBody" id="custom_cat_tail_striped" path="custom_cat_tail_striped" name="custom_cat_tail_striped" thumb="custom_cat_tail_striped_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y" />
     <library type="GoBehindBody" id="fox_tail" path="fox_tail" name="fox_tail" thumb="fox_tail_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y" />
@@ -3714,6 +3715,9 @@
     <state id="default" filename="default.swf" />
   </component>
   <component type="facedecoration" id="custom_rabbit_ears" path="custom_rabbit_ears" name="custom_rabbit_ears" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+    <state id="default" filename="default.swf" />
+  </component>
+  <component type="facedecoration" id="dog_ears" path="dog_ears" name="dog_ears" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
     <state id="default" filename="default.swf" />
   </component>
   <component type="facedecoration" id="017" path="017" name="017" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
