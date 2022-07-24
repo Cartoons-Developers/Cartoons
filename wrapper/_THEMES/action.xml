@@ -186,8 +186,38 @@
     <state id="msp_vending_drink_vending_drink.swf" name="front" enable="Y" default="Y"/>
     <state id="msp_vending_drink_ncc_vending_drink_side.swf" name="side" enable="Y"/>
   </prop>
+	<char id="834008" name="Bride" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
+		<tags>cc2,_free,_cat:Special Occasions</tags>
+	</char>
+	<char id="834009" name="Bride" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
+		<tags>cc2,_free,_cat:Special Occasions</tags>
+	</char>
 	<char id="834001" name="Casual" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
 		<tags>cc2,_free,_cat:Casual</tags>
+	</char>
+	<char id="834005" name="Casual" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
+		<tags>cc2,_free,_cat:Casual</tags>
+	</char>
+	<char id="834012" name="Casual" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
+		<tags>cc2,_free,_cat:Casual</tags>
+	</char>
+	<char id="834013" name="Casual" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
+		<tags>cc2,_free,_cat:Casual</tags>
+	</char>
+	<char id="834006" name="Police" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
+		<tags>cc2,_free,_cat:Government</tags>
+	</char>
+	<char id="834007" name="Police" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
+		<tags>cc2,_free,_cat:Government</tags>
+	</char>
+	<char id="834010" name="Prisoner" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
+		<tags>cc2,_free,_cat:Government</tags>
+	</char>
+	<char id="834011" name="Prisoner" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
+		<tags>cc2,_free,_cat:Government</tags>
+	</char>
+	<char id="834004" name="Santa" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
+		<tags>cc2,_free,_cat:Holidays and Costumes</tags>
 	</char>
 	<char id="834002" name="Skeleton" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
 		<tags>cc2,_free,_cat:Holidays and Costumes</tags>
