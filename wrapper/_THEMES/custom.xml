@@ -3046,6 +3046,13 @@
     <state id="msp_cape_cape_still.swf" name="Still" enable="Y" default="Y" />
     <state id="msp_cape_cape_windswept.swf" name="Windswept" enable="Y" />
   </prop>
+  <prop id="msp_car01" name="Car" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_car01_ncc_car01_full.swf" enable="Y" is_premium="N" aid="11038" money="0" sharing="0">
+    <state id="msp_car01_ncc_car01_full.swf" name="still" enable="Y" default="Y"/>
+    <state id="msp_car01_ncc_car01_on.swf" name="driving" enable="Y"/>
+    <state id="msp_car01_ncc_car01_cover.swf" name="front (transparent)" enable="Y"/>
+    <state id="msp_car01_ncc_car01_back.swf" name="back" enable="Y"/>
+    <state id="msp_car01_ncc_car01_ontran.swf" name="driving (transparent)" enable="Y"/>
+  </prop>
   <prop id="msp_cat" name="Cat" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_cat_cat_still.swf" enable="Y" is_premium="N" aid="9802" money="0" sharing="0">
     <state id="msp_cat_cat_still.swf" name="Still" enable="Y" default="Y" />
     <state id="msp_cat_cat_standing.swf" name="Standing" enable="Y" />
@@ -3159,6 +3166,12 @@
     <state id="msp_pillow02_ncc_pillow02_side.swf" name="side" enable="Y" />
   </prop>
   <prop id="ncc_03pizza.swf" name="Pizza" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="11858" money="0" sharing="0" />
+  <prop id="msp_police_car" name="Police car" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_police_car_ncc_police_car_full.swf" enable="Y" is_premium="Y" aid="11033" money="0" sharing="0">
+    <state id="msp_police_car_ncc_police_car_full.swf" name="still" enable="Y" default="Y"/>
+    <state id="msp_police_car_ncc_police_car_on.swf" name="driving" enable="Y"/>
+    <state id="msp_police_car_ncc_police_car_cover.swf" name="front (transparent)" enable="Y"/>
+    <state id="msp_police_car_ncc_police_car_back.swf" name="back" enable="Y"/>
+  </prop>
   <prop id="ncc_03popcorn.swf" name="Popcorn" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="11858" money="0" sharing="0" />
   <prop id="office_plant.swf" name="Potted Plant" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="8946" money="0" sharing="0" />
   <prop id="prohibition_sign.swf" name="Prohibition Sign" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9797" money="0" sharing="0" />
