@@ -2501,13 +2501,13 @@
     <library type="GoLower" id="1003" path="1003" name="1003" thumb="1003_thumbnail.swf" display_order="10" money="0" sharing="0" enable="N">
       <tag>_lilpetz</tag>
     </library>
-    <library type="GoLower" id="2003" path="2003" name="2003" thumb="2003_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"></library>
+    <library type="GoLower" id="2003" path="2003" name="2003" thumb="2003_thumbnail.swf" display_order="10" money="0" sharing="0" enable="N"></library>
     <library type="GoLower" id="2004" path="2004" name="2004" thumb="2004_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"></library>
     <library type="GoLower" id="2005" path="2005" name="2005" thumb="2005_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"></library>
     <library type="GoLower" id="2006" path="2006" name="2006" thumb="2006_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"></library>
     <library type="GoLower" id="2007" path="2007" name="2007" thumb="2007_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"></library>
     <library type="GoLower" id="2008" path="2008" name="2008" thumb="2008_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"></library>
-    <library type="GoLower" id="2009" path="2009" name="2009" thumb="2009_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"></library>
+    <library type="GoLower" id="2009" path="2009" name="2009" thumb="2009_thumbnail.swf" display_order="10" money="0" sharing="0" enable="N"></library>
     <library type="GoLower" id="2010" path="2010" name="2010" thumb="2010_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"></library>
     <library type="GoLower" id="023" path="023" name="023" thumb="023_thumbnail.swf" display_order="10" money="0" sharing="0" enable="N" />
     <library type="GoLower" id="013" path="013" name="013" thumb="013_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y" />
