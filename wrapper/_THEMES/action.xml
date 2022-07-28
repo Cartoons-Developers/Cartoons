@@ -204,6 +204,36 @@
 	<char id="834013" name="Casual" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
 		<tags>cc2,_free,_cat:Casual</tags>
 	</char>
+	<char id="834014" name="Kid" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
+		<tags>cc2,_free,_cat:Casual</tags>
+	</char>
+	<char id="834015" name="Kid" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
+		<tags>cc2,_free,_cat:Casual</tags>
+	</char>
+	<char id="834016" name="Kid" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
+		<tags>cc2,_free,_cat:Casual</tags>
+	</char>
+	<char id="834017" name="Kid" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
+		<tags>cc2,_free,_cat:Casual</tags>
+	</char>
+	<char id="834018" name="Kid" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
+		<tags>cc2,_free,_cat:Casual</tags>
+	</char>
+	<char id="834019" name="Kid" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
+		<tags>cc2,_free,_cat:Casual</tags>
+	</char>
+	<char id="834020" name="Kid" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
+		<tags>cc2,_free,_cat:Casual</tags>
+	</char>
+	<char id="834021" name="Kid" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
+		<tags>cc2,_free,_cat:Casual</tags>
+	</char>
+	<char id="834022" name="Kid" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
+		<tags>cc2,_free,_cat:Casual</tags>
+	</char>
+	<char id="834023" name="Kid" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
+		<tags>cc2,_free,_cat:Casual</tags>
+	</char>
 	<char id="834006" name="Police" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
 		<tags>cc2,_free,_cat:Government</tags>
 	</char>
