@@ -2554,7 +2554,7 @@
     <library type="GoBehindBody" id="beaver_tail" path="beaver_tail" name="beaver_tail" thumb="beaver_tail_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y" />
     <library type="GoBehindBody" id="bunny_tail" path="bunny_tail" name="bunny_tail" thumb="bunny_tail_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y" />
     <library type="GoBehindBody" id="custom_cat_tail" path="custom_cat_tail" name="custom_cat_tail" thumb="custom_cat_tail_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y" />
-	<library type="GoBehindBody" id="longhair_cat_tail" path="longhair_cat_tail" name="longhair_cat_tail" thumb="longhair_cat_tail_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y" />
+	<library type="GoBehindBody" id="longhair_cat_tail" path="longhair_cat_tail" name="longhair_cat_tail" thumb="longhair_cat_tail_thumbnail.swf" display_order="10" money="0" sharing="0" enable="N" />
     <library type="GoBehindBody" id="custom_cat_tail_striped" path="custom_cat_tail_striped" name="custom_cat_tail_striped" thumb="custom_cat_tail_striped_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y" />
 	<library type="GoBehindBody" id="demon_tail" path="demon_tail" name="demon_tail" thumb="demon_tail_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y" />
 	<library type="GoBehindBody" id="dog_tail" path="dog_tail" name="dog_tail" thumb="dog_tail_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y" />
@@ -3822,7 +3822,7 @@
   <component type="faceshape" id="mouth_marking" path="mouth_marking" name="mouth_marking" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
     <state id="default" filename="default.swf" />
   </component>
-  <component type="faceshape" id="longhair_cat" path="longhair_cat" name="longhair_cat" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+  <component type="faceshape" id="longhair_cat" path="longhair_cat" name="longhair_cat" thumb="thumbnail.swf" money="0" sharing="0" enable="N">
     <state id="default" filename="default.swf" />
   </component>
   <component type="faceshape" id="tiger" path="tiger" name="tiger" thumb="thumbnail.swf" money="0" sharing="0" enable="N">
