@@ -10799,7 +10799,13 @@
   <component type="hair" id="bowlcut" path="bowlcut" name="bowlcut" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
     <state id="default" filename="default.swf" />
   </component>
+  <component type="hair" id="bun" path="bun" name="bun" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+    <state id="default" filename="default.swf" />
+  </component>
   <component type="hair" id="curly_mohawk" path="curly_mohawk" name="curly_mohawk" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+    <state id="default" filename="default.swf" />
+  </component>
+  <component type="hair" id="double_bun" path="double_bun" name="double_bun" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
     <state id="default" filename="default.swf" />
   </component>
   <component type="hair" id="dreadlock_afro" path="dreadlock_afro" name="dreadlock_afro" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
@@ -10878,6 +10884,9 @@
     <state id="default" filename="default.swf" />
   </component>
   <component type="hair" id="new_hairstyle23" path="new_hairstyle23" name="new_hairstyle23" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+    <state id="default" filename="default.swf" />
+  </component>
+  <component type="hair" id="new_hairstyle24" path="new_hairstyle24" name="new_hairstyle24" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
     <state id="default" filename="default.swf" />
   </component>
   <component type="hair" id="spiky" path="spiky" name="spiky" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
