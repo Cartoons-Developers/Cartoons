@@ -4225,6 +4225,9 @@
   <char id="324728068" name="Firefighter" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
     <tags>family,_free,_cat:Government,_tag:fire firefighter fighter flame government hat hardhat hero heroes heroic man male</tags>
   </char>
+  <char id="324728170" name="Firefighter" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+    <tags>family,_free,_cat:Holidays and Costumes,_tag:boy child costume costumes fire firefighter fighter flame hat hardhat holidays male</tags>
+  </char>
   <char id="324728024" name="Graduate" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
     <tags>family,_free,_cat:Special Occasions,_tag:academy academic cap child children college education female girl graduate graduation hat kid kids occasions pigtails special student</tags>
   </char>
@@ -4335,6 +4338,9 @@
   </char>
   <char id="324728145" name="Kid" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
     <tags>family,_free,_cat:Casual,_tag:casual child children female girl kid kids pigtails student</tags>
+  </char>
+  <char id="324728171" name="Magician" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+    <tags>family,_free,_cat:Holidays and Costumes,_tag:child children costume costumes female girl kid kids pigtails</tags>
   </char>
   <char id="324728040" name="Monster" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
     <tags>family,_free,_cat:Holidays and Costumes,_tag:costume costumes festival festive frankenstein halloween holiday holidays hols male</tags>
