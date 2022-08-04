@@ -11196,6 +11196,9 @@
   <component type="facedecoration" id="092" path="092" name="092" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
     <state id="default" filename="default.swf" />
   </component>
+  <component type="facedecoration" id="068a" path="068a" name="068a" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+    <state id="default" filename="default.swf" />
+  </component>
   <component type="facedecoration" id="075a" path="075a" name="075a" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
     <state id="default" filename="default.swf" />
   </component>
