@@ -10805,6 +10805,9 @@
   <component type="hair" id="curly_mohawk" path="curly_mohawk" name="curly_mohawk" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
     <state id="default" filename="default.swf" />
   </component>
+  <component type="hair" id="dora1" path="dora1" name="dora1" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+    <state id="default" filename="default.swf" />
+  </component>
   <component type="hair" id="double_bun" path="double_bun" name="double_bun" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
     <state id="default" filename="default.swf" />
   </component>
