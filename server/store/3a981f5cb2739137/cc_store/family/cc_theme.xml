@@ -10925,6 +10925,9 @@
   <component type="nose" id="029" path="029" name="029" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
     <state id="default" filename="default.swf" />
   </component>
+  <component type="nose" id="2007" path="2007" name="2007" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+    <state id="default" filename="default.swf" />
+  </component>
   <component type="nose" id="030" path="030" name="030" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
     <state id="default" filename="default.swf" />
   </component>
