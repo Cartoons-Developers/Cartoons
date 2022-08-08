@@ -11295,6 +11295,9 @@
   <component type="mustache" id="012" path="012" name="012" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
     <state id="default" filename="default.swf" />
   </component>>
+  <component type="mustache" id="fu_manchu" path="fu_manchu" name="fu_manchu" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+    <state id="default" filename="default.swf" />
+  </component>
   <component type="mustache" id="pencil" path="pencil" name="pencil" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
     <state id="default" filename="default.swf" />
   </component>
