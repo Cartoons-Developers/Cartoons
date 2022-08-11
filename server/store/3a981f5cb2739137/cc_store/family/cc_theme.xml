@@ -879,6 +879,12 @@
       <selection type="skeleton" state_id="bend" />
       <selection type="upper_body" state_id="default" />
     </action>
+    <action id="crawl" name="Crawl" loop="Y" totalframe="1" enable="Y" category="Daily life" is_motion="Y">
+      <selection type="facial" facial_id="head_sad" />
+      <selection type="lower_body" state_id="walk" />
+      <selection type="skeleton" state_id="crawl" />
+      <selection type="upper_body" state_id="laugh" />
+    </action>
     <action id="dance2" name="Dance" loop="Y" totalframe="23" enable="Y" category="Art and music" is_motion="N">
       <selection type="facial" facial_id="head_happy" />
       <selection type="lower_body" state_id="laugh" />
@@ -890,6 +896,12 @@
       <selection type="lower_body" state_id="default" />
       <selection type="skeleton" state_id="faint" />
       <selection type="upper_body" state_id="walk" />
+    </action>
+    <action id="fly" name="Fly" loop="Y" totalframe="1" enable="Y" category="Poses" is_motion="Y">
+      <selection type="facial" facial_id="head_neutral" />
+      <selection type="lower_body" state_id="default" />
+      <selection type="skeleton" state_id="crawl" />
+      <selection type="upper_body" state_id="excited" />
     </action>
     <action id="furious" name="Furious" loop="Y" totalframe="80" enable="Y" category="Emotions" is_motion="N">
       <selection type="facial" facial_id="head_angry"/>
@@ -915,6 +927,12 @@
       <selection type="skeleton" state_id="agree" />
       <selection type="upper_body" state_id="default" />
     </action>
+    <action id="racewalking" name="Racewalking" loop="Y" totalframe="1" enable="Y" category="Sports" is_motion="Y">
+      <selection type="facial" facial_id="head_neutral" />
+      <selection type="lower_body" state_id="walk" />
+      <selection type="skeleton" state_id="run" />
+      <selection type="upper_body" state_id="run" />
+    </action>
     <action id="sit2" name="Sit" loop="Y" totalframe="1" enable="Y" category="Poses" is_motion="N">
       <selection type="facial" facial_id="head_neutral" />
       <selection type="lower_body" state_id="laugh" />
@@ -939,6 +957,12 @@
       <selection type="skeleton" state_id="sit" />
       <selection type="upper_body" state_id="talk" />
     </action>
+    <action id="swim" name="Swim" loop="Y" totalframe="1" enable="Y" category="Sports" is_motion="Y">
+      <selection type="facial" facial_id="head_neutral" />
+      <selection type="lower_body" state_id="walk" />
+      <selection type="skeleton" state_id="crawl" />
+      <selection type="upper_body" state_id="walk" />
+    </action>
     <action id="shiver" name="Too cold" loop="Y" totalframe="1" enable="Y" category="Daily life" is_motion="N">
       <selection type="facial" facial_id="head_desperate" />
       <selection type="lower_body" state_id="laugh" />
@@ -960,6 +984,7 @@
       <state id="agree" filename="agree.swf" />
       <state id="bend" filename="bend.swf" />
 	  <state id="chuckle" filename="chuckle.swf" />
+	  <state id="crawl" filename="crawl.swf" />
       <state id="crossed_arms" filename="crossed_arms.swf" />
       <state id="dance" filename="dance.swf" />
       <state id="excited" filename="excited.swf" />
@@ -2991,6 +3016,12 @@
       <selection type="skeleton" state_id="bend" />
       <selection type="upper_body" state_id="default" />
     </action>
+    <action id="crawl" name="Crawl" loop="Y" totalframe="1" enable="Y" category="Daily life" is_motion="Y">
+      <selection type="facial" facial_id="head_happy" />
+      <selection type="lower_body" state_id="walk" />
+      <selection type="skeleton" state_id="crawl" />
+      <selection type="upper_body" state_id="laugh" />
+    </action>
     <action id="dance2" name="Dance" loop="Y" totalframe="23" enable="Y" category="Art and music" is_motion="N">
       <selection type="facial" facial_id="head_happy" />
       <selection type="lower_body" state_id="laugh" />
@@ -3002,6 +3033,12 @@
       <selection type="lower_body" state_id="default" />
       <selection type="skeleton" state_id="faint" />
       <selection type="upper_body" state_id="walk" />
+    </action>
+    <action id="fly" name="Fly" loop="Y" totalframe="1" enable="Y" category="Poses" is_motion="Y">
+      <selection type="facial" facial_id="head_neutral" />
+      <selection type="lower_body" state_id="default" />
+      <selection type="skeleton" state_id="crawl" />
+      <selection type="upper_body" state_id="excited" />
     </action>
     <action id="kneel2" name="Kneel down - sad" loop="Y" totalframe="60" enable="Y" category="Emotions" is_motion="N">
       <selection type="facial" facial_id="head_sad" />
@@ -3020,6 +3057,12 @@
       <selection type="lower_body" state_id="default" />
       <selection type="skeleton" state_id="agree" />
       <selection type="upper_body" state_id="default" />
+    </action>
+    <action id="racewalking" name="Racewalking" loop="Y" totalframe="1" enable="Y" category="Sports" is_motion="Y">
+      <selection type="facial" facial_id="head_neutral" />
+      <selection type="lower_body" state_id="walk" />
+      <selection type="skeleton" state_id="run" />
+      <selection type="upper_body" state_id="run" />
     </action>
     <action id="sit2" name="Sit" loop="Y" totalframe="1" enable="Y" category="Poses" is_motion="N">
       <selection type="facial" facial_id="head_neutral" />
@@ -3044,6 +3087,12 @@
       <selection type="lower_body" state_id="sit" />
       <selection type="skeleton" state_id="sit" />
       <selection type="upper_body" state_id="talk" />
+    </action>
+    <action id="swim" name="Swim" loop="Y" totalframe="1" enable="Y" category="Sports" is_motion="Y">
+      <selection type="facial" facial_id="head_neutral" />
+      <selection type="lower_body" state_id="walk" />
+      <selection type="skeleton" state_id="crawl" />
+      <selection type="upper_body" state_id="walk" />
     </action>
     <action id="tantrum" name="Throw a tantrum" loop="Y" totalframe="60" enable="Y" category="Emotions" is_motion="N">
       <selection type="facial" facial_id="head_cry" />
@@ -3071,6 +3120,7 @@
     <component type="skeleton" id="adam_001" path="adam_001" name="adam_001" thumb="thumbnail.swf" display_order="0" money="0" sharing="0" enable="Y">
       <state id="agree" filename="agree.swf" />
       <state id="bend" filename="bend.swf" />
+	  <state id="crawl" filename="crawl.swf" />
 	  <state id="chuckle" filename="chuckle.swf" />
       <state id="crossed_arms" filename="crossed_arms.swf" />
       <state id="dance" filename="dance.swf" />
@@ -4711,6 +4761,12 @@
       <selection type="skeleton" state_id="bend" />
       <selection type="upper_body" state_id="default" />
     </action>
+    <action id="crawl" name="Crawl" loop="Y" totalframe="1" enable="Y" category="Daily life" is_motion="Y">
+      <selection type="facial" facial_id="head_happy" />
+      <selection type="lower_body" state_id="walk" />
+      <selection type="skeleton" state_id="crawl" />
+      <selection type="upper_body" state_id="laugh" />
+    </action>
     <action id="dance2" name="Dance" loop="Y" totalframe="23" enable="Y" category="Art and music" is_motion="N">
       <selection type="facial" facial_id="head_happy" />
       <selection type="lower_body" state_id="laugh" />
@@ -4722,6 +4778,12 @@
       <selection type="lower_body" state_id="default" />
       <selection type="skeleton" state_id="faint" />
       <selection type="upper_body" state_id="walk" />
+    </action>
+    <action id="fly" name="Fly" loop="Y" totalframe="1" enable="Y" category="Poses" is_motion="Y">
+      <selection type="facial" facial_id="head_neutral" />
+      <selection type="lower_body" state_id="default" />
+      <selection type="skeleton" state_id="crawl" />
+      <selection type="upper_body" state_id="excited" />
     </action>
     <action id="kneel2" name="Kneel down - sad" loop="Y" totalframe="60" enable="Y" category="Emotions" is_motion="N">
       <selection type="facial" facial_id="head_sad" />
@@ -4740,6 +4802,12 @@
       <selection type="lower_body" state_id="default" />
       <selection type="skeleton" state_id="agree" />
       <selection type="upper_body" state_id="default" />
+    </action>
+    <action id="racewalking" name="Racewalking" loop="Y" totalframe="1" enable="Y" category="Sports" is_motion="Y">
+      <selection type="facial" facial_id="head_neutral" />
+      <selection type="lower_body" state_id="walk" />
+      <selection type="skeleton" state_id="run" />
+      <selection type="upper_body" state_id="run" />
     </action>
     <action id="sit2" name="Sit" loop="Y" totalframe="1" enable="Y" category="Poses" is_motion="N">
       <selection type="facial" facial_id="head_neutral" />
@@ -4764,6 +4832,12 @@
       <selection type="lower_body" state_id="sit" />
       <selection type="skeleton" state_id="sit" />
       <selection type="upper_body" state_id="talk" />
+    </action>
+    <action id="swim" name="Swim" loop="Y" totalframe="1" enable="Y" category="Sports" is_motion="Y">
+      <selection type="facial" facial_id="head_neutral" />
+      <selection type="lower_body" state_id="walk" />
+      <selection type="skeleton" state_id="crawl" />
+      <selection type="upper_body" state_id="walk" />
     </action>
     <action id="tantrum" name="Throw a tantrum" loop="Y" totalframe="60" enable="Y" category="Emotions" is_motion="N">
       <selection type="facial" facial_id="head_cry" />
@@ -4791,6 +4865,7 @@
     <component type="skeleton" id="adam_001" path="adam_001" name="adam_001" thumb="thumbnail.swf" display_order="0" money="0" sharing="0" enable="Y">
  	  <state id="agree" filename="agree.swf" />
       <state id="bend" filename="bend.swf" />
+	  <state id="crawl" filename="crawl.swf" />
 	  <state id="chuckle" filename="chuckle.swf" />
       <state id="crossed_arms" filename="crossed_arms.swf" />
       <state id="dance" filename="dance.swf" />
@@ -6331,6 +6406,12 @@
       <selection type="lower_body" state_id="laugh"/>
       <selection type="skeleton" state_id="excited"/>
       <selection type="upper_body" state_id="excited"/>
+    </action>
+    <action id="racewalking" name="Racewalking" loop="Y" totalframe="1" enable="Y" category="Sports" is_motion="Y">
+      <selection type="facial" facial_id="head_neutral" />
+      <selection type="lower_body" state_id="walk" />
+      <selection type="skeleton" state_id="jog" />
+      <selection type="upper_body" state_id="run" />
     </action>
     <action id="sit_xarms" name="Sit - crossed arms" loop="Y" totalframe="1" enable="Y" category="Poses" is_motion="N">
       <selection type="facial" facial_id="head_neutral"/>
@@ -8796,7 +8877,7 @@
       <selection type="skeleton" state_id="sad" />
       <selection type="upper_body" state_id="sad" />
     </action>
-    <action id="phone" name="Talk on phone" loop="Y" totalframe="100" enable="Y" category="Mobile devices" is_motion="N">
+    <action id="talk_phone" name="Talk on phone" loop="Y" totalframe="100" enable="Y" category="Mobile devices" is_motion="N">
       <selection type="facial" facial_id="head_talk_a" />
       <selection type="lower_body" state_id="default" />
       <selection type="skeleton" state_id="talk_on_phone" />
@@ -8824,6 +8905,12 @@
       <selection type="facial" facial_id="head_happy" />
       <selection type="lower_body" state_id="laugh" />
       <selection type="skeleton" state_id="dance" />
+      <selection type="upper_body" state_id="run" />
+    </action>
+    <action id="racewalking" name="Racewalking" loop="Y" totalframe="1" enable="Y" category="Sports" is_motion="Y">
+      <selection type="facial" facial_id="head_neutral" />
+      <selection type="lower_body" state_id="walk" />
+      <selection type="skeleton" state_id="run" />
       <selection type="upper_body" state_id="run" />
     </action>
     <component type="lower_body" id="rocky_001" path="rocky_001" name="rocky_001" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
