@@ -103,6 +103,9 @@
 	<char id="832010" name="Gerbil" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
 		<tags>cc2,_free</tags>
 	</char>
+	<char id="832022" name="Jerboa" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
+		<tags>cc2,_free</tags>
+	</char>
 	<char id="832008" name="Lemur" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
 		<tags>cc2,_free</tags>
 	</char>
@@ -113,6 +116,9 @@
 		<tags>cc2,_free</tags>
 	</char>
 	<char id="832005" name="Raccoon" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
+		<tags>cc2,_free</tags>
+	</char>
+	<char id="832021" name="Rat" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
 		<tags>cc2,_free</tags>
 	</char>
 	<char id="832004" name="Skunk" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
