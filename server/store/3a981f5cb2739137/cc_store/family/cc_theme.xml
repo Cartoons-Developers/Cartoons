@@ -6450,6 +6450,7 @@
       <state id="dance" filename="dance.swf" />
       <state id="excited" filename="excited.swf" />
       <state id="fearful" filename="fearful.swf" />
+      <state id="jog" filename="jog.swf" />
       <state id="kneel_down" filename="kneel_down.swf" />
       <state id="laugh" filename="laugh.swf" />
       <state id="lie_down" filename="lie_down.swf" />
