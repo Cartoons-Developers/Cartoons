@@ -3066,6 +3066,14 @@
     <state id="msp_cat_cat_eating.swf" name="Eating" enable="Y" />
     <state id="msp_cat_cat_playing.swf" name="Playing" enable="Y" />
   </prop>
+  <prop id="msp_chair01" name="Chair" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_chair01_chair01_front.swf" enable="Y" is_premium="N" aid="10481" money="0" sharing="0">
+    <state id="msp_chair01_chair01_front.swf" name="front" enable="Y" default="Y"/>
+    <state id="msp_chair01_chair01_side.swf" name="side" enable="Y"/>
+  </prop>
+  <prop id="msp_dining_chair" name="Chair" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_dining_chair_dining_chair_front.swf" enable="Y" is_premium="N" aid="10505" money="0" sharing="0">
+    <state id="msp_dining_chair_dining_chair_front.swf" name="front" enable="Y" default="Y"/>
+    <state id="msp_dining_chair_dining_chair_side.swf" name="side" enable="Y"/>
+  </prop>
   <prop id="msp_crmchair" name="Chair" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_crmchair_ncc_crmchair_side.swf" enable="Y" is_premium="Y" aid="11360" money="0" sharing="0">
     <state id="msp_crmchair_ncc_crmchair_back.swf" name="back" enable="Y" />
     <state id="msp_crmchair_ncc_crmchair_side.swf" name="side" enable="Y" default="Y" />
@@ -3132,6 +3140,14 @@
   </prop>
   <prop id="cc_microphone.swf" name="Microphone" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9019" money="0" sharing="0" />
   <prop id="cc_micstand.swf" name="Microphone" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9020" money="0" sharing="0" />
+  <prop id="msp_micro01" name="Microwave" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_micro01_ncc_microwave01.swf" enable="Y" is_premium="Y" aid="11811" money="0" sharing="0">
+    <state id="msp_micro01_ncc_microwave01.swf" name="off" enable="Y" default="Y"/>
+    <state id="msp_micro01_ncc_microwave02.swf" name="on" enable="Y"/>
+    <state id="msp_micro01_ncc_microwave03.swf" name="opened" enable="Y"/>
+    <state id="msp_micro01_ncc_microwave01_side.swf" name="side - off" enable="Y"/>
+    <state id="msp_micro01_ncc_microwave02_side.swf" name="side - on" enable="Y"/>
+    <state id="msp_micro01_ncc_microwave03_side.swf" name="side - opened" enable="Y"/>
+  </prop>
   <prop id="cc_milk.swf" name="Milk" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9021" money="0" sharing="0" />
   <prop id="money.swf" name="Money" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9797" money="0" sharing="0" />
   <prop id="msp_moon01" name="Moon" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_moon01_ncc_moon_full.swf" enable="Y" is_premium="N" aid="11043" money="0" sharing="0">
