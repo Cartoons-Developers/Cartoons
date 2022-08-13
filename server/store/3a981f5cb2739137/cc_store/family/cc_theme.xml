@@ -895,7 +895,7 @@
       <selection type="facial" facial_id="head_asleep" />
       <selection type="lower_body" state_id="default" />
       <selection type="skeleton" state_id="faint" />
-      <selection type="upper_body" state_id="walk" />
+      <selection type="upper_body" state_id="lie_down" />
     </action>
     <action id="fly" name="Fly" loop="Y" totalframe="1" enable="Y" category="Poses" is_motion="Y">
       <selection type="facial" facial_id="head_neutral" />
@@ -3032,7 +3032,7 @@
       <selection type="facial" facial_id="head_asleep" />
       <selection type="lower_body" state_id="default" />
       <selection type="skeleton" state_id="faint" />
-      <selection type="upper_body" state_id="walk" />
+      <selection type="upper_body" state_id="lie_down" />
     </action>
     <action id="fly" name="Fly" loop="Y" totalframe="1" enable="Y" category="Poses" is_motion="Y">
       <selection type="facial" facial_id="head_neutral" />
@@ -4777,7 +4777,7 @@
       <selection type="facial" facial_id="head_asleep" />
       <selection type="lower_body" state_id="default" />
       <selection type="skeleton" state_id="faint" />
-      <selection type="upper_body" state_id="walk" />
+      <selection type="upper_body" state_id="lie_down" />
     </action>
     <action id="fly" name="Fly" loop="Y" totalframe="1" enable="Y" category="Poses" is_motion="Y">
       <selection type="facial" facial_id="head_neutral" />
