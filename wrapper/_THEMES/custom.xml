@@ -2951,6 +2951,10 @@
     <state id="msp_armchair_armchair_front.swf" name="Front" enable="Y" default="Y" />
     <state id="msp_armchair_armchair_side.swf" name="Side" enable="Y" />
   </prop>
+  <prop id="msp_nccha_balloon02" name="Balloon" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_nccha_balloon02_nccha_balloon03.swf" enable="Y" is_premium="Y" aid="11151" money="0" sharing="0">
+    <state id="msp_nccha_balloon02_nccha_balloon03.swf" name="hovering" enable="Y" default="Y"/>
+    <state id="msp_nccha_balloon02_nccha_balloon04.swf" name="still" enable="Y"/>
+  </prop>
   <prop id="cc_basketball.swf" name="Basketball" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9628" money="0" sharing="0">
     <colorset enable="Y" aid="9629">
       <color r="ccColorA">0xFA722F</color>
