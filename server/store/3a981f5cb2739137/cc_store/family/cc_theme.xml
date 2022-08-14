@@ -10842,12 +10842,6 @@
   <component type="hair" id="124new" path="124new" name="124new" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
     <state id="default" filename="default.swf" />
   </component>
-  <component type="hair" id="134new" path="134new" name="134new" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
-    <state id="default" filename="default.swf" />
-  </component>
-  <component type="hair" id="136new" path="136new" name="136new" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
-    <state id="default" filename="default.swf" />
-  </component>
   <component type="hair" id="231" path="231" name="231" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
     <state id="default" filename="default.swf" />
   </component>
