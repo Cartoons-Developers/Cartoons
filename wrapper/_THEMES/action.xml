@@ -264,6 +264,36 @@
 	<char id="834032" name="Magician" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
 		<tags>cc2,_free,_cat:Holidays and Costumes</tags>
 	</char>
+	<char id="8340041" name="Office Worker" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
+		<tags>cc2,_free,_cat:Office</tags>
+	</char>
+	<char id="8340042" name="Office Worker" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
+		<tags>cc2,_free,_cat:Office</tags>
+	</char>
+	<char id="8340043" name="Office Worker" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
+		<tags>cc2,_free,_cat:Office</tags>
+	</char>
+	<char id="8340044" name="Office Worker" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
+		<tags>cc2,_free,_cat:Office</tags>
+	</char>
+	<char id="8340045" name="Office Worker" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
+		<tags>cc2,_free,_cat:Office</tags>
+	</char>
+	<char id="8340046" name="Office Worker" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
+		<tags>cc2,_free,_cat:Office</tags>
+	</char>
+	<char id="8340047" name="Office Worker" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
+		<tags>cc2,_free,_cat:Office</tags>
+	</char>
+	<char id="8340048" name="Office Worker" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
+		<tags>cc2,_free,_cat:Office</tags>
+	</char>
+	<char id="8340049" name="Office Worker" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
+		<tags>cc2,_free,_cat:Office</tags>
+	</char>
+	<char id="8340050" name="Office Worker" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
+		<tags>cc2,_free,_cat:Office</tags>
+	</char>
 	<char id="834006" name="Police" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
 		<tags>cc2,_free,_cat:Government</tags>
 	</char>
