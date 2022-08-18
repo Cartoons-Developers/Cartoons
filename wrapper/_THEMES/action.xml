@@ -306,7 +306,7 @@
 	<char id="834011" name="Prisoner" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
 		<tags>cc2,_free,_cat:Government</tags>
 	</char>
-	<char id="83404" name="Santa" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
+	<char id="834004" name="Santa" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
 		<tags>cc2,_free,_cat:Holidays and Costumes</tags>
 	</char>
 	<char id="834002" name="Skeleton" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
