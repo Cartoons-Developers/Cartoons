@@ -10905,6 +10905,9 @@
   <component type="hair" id="frankenstein" path="frankenstein" name="frankenstein" thumb="thumbnail.swf" money="0" sharing="0" enable="N">
     <state id="default" filename="default.swf" />
   </component>
+  <component type="hair" id="hijab" path="hijab" name="hijab" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+    <state id="default" filename="default.swf" />
+  </component>
   <component type="hair" id="long_undercut" path="long_undercut" name="long_undercut" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
     <state id="default" filename="default.swf" />
   </component>
@@ -11336,9 +11339,6 @@
     <state id="default" filename="default.swf" />
   </component>
   <component type="facedecoration" id="graduation_cap" path="graduation_cap" name="graduation_cap" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
-    <state id="default" filename="default.swf" />
-  </component>
-  <component type="facedecoration" id="hijab" path="hijab" name="hijab" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
     <state id="default" filename="default.swf" />
   </component>
   <component type="facedecoration" id="hotel_porter" path="hotel_porter" name="hotel_porter" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
