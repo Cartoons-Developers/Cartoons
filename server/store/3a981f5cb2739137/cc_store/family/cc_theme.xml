@@ -13677,6 +13677,18 @@
 	<tag>_sticky_filter_fatgirl</tag>
 	<tag>_sticky_filter_buff</tag>
   </component>
+  <component type="facedecoration" id="earrings1" path="earrings1" name="earrings1" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+    <state id="default" filename="default.swf" />
+	<tag>_sticky_filter_girl</tag>
+	<tag>_sticky_filter_littlegirl</tag>
+	<tag>_sticky_filter_fatgirl</tag>
+  </component>
+  <component type="facedecoration" id="earrings2" path="earrings2" name="earrings2" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+    <state id="default" filename="default.swf" />
+	<tag>_sticky_filter_girl</tag>
+	<tag>_sticky_filter_littlegirl</tag>
+	<tag>_sticky_filter_fatgirl</tag>
+  </component>
   <component type="facedecoration" id="facemask" path="facemask" name="facemask" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
     <state id="default" filename="default.swf" />
 	<tag>_sticky_filter_guy</tag>
