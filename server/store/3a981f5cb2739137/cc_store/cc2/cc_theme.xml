@@ -2554,7 +2554,8 @@
     <!-- BACK PROPS START HERE -->
     <library type="GoBehindBody" id="1001" path="1001" name="1001" thumb="1001_thumbnail.swf" display_order="10" money="0" sharing="0" enable="N"></library>
     <library type="GoBehindBody" id="beaver_tail" path="beaver_tail" name="beaver_tail" thumb="beaver_tail_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y" />
-    <library type="GoBehindBody" id="bunny_tail" path="bunny_tail" name="bunny_tail" thumb="bunny_tail_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y" />
+    <library type="GoBehindBody" id="bilby_tail" path="bilby_tail" name="bilby_tail" thumb="bilby_tail_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y" />
+    <library type="GoBehindBody" id="bunny_tail" path="bunny_tail" name="bunny_tail" thumb="bunny_tail_thumbnail.swf" display_order="10" money="0" sharing="0" enable="N" />
     <library type="GoBehindBody" id="custom_cat_tail" path="custom_cat_tail" name="custom_cat_tail" thumb="custom_cat_tail_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y" />
 	<library type="GoBehindBody" id="longhair_cat_tail" path="longhair_cat_tail" name="longhair_cat_tail" thumb="longhair_cat_tail_thumbnail.swf" display_order="10" money="0" sharing="0" enable="N" />
     <library type="GoBehindBody" id="custom_cat_tail_striped" path="custom_cat_tail_striped" name="custom_cat_tail_striped" thumb="custom_cat_tail_striped_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y" />
@@ -5527,10 +5528,6 @@
     <state id="run03" filename="run03.swf" />
   </component>
   <!-- NOSES START HERE -->
-  <component type="nose" id="1001" path="1001" name="1001" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
-    <state id="default" filename="default.swf" />
-    <tag>_userrole_admin</tag>
-  </component>
   <component type="nose" id="1002" path="1002" name="1002" thumb="thumbnail.swf" money="0" sharing="0" enable="N">
     <state id="default" filename="default.swf" />
     <tag>_userrole_admin</tag>
@@ -5550,6 +5547,12 @@
   <component type="nose" id="2007" path="2007" name="2007" thumb="thumbnail.swf" money="0" sharing="0" enable="N">
     <state id="default" filename="default.swf" />
     <tag>_userrole_admin</tag>
+  </component>
+  <component type="nose" id="bilby" path="bilby" name="bilby" thumb="thumbnail.swf" money="0" sharing="0" enable="N">
+    <state id="default" filename="default.swf" />
+  </component>
+  <component type="nose" id="1001" path="1001" name="1001" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+    <state id="default" filename="default.swf" />
   </component>
   <component type="nose" id="001" path="001" name="001" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
     <state id="default" filename="default.swf" />
