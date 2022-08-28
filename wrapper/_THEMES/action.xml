@@ -261,6 +261,18 @@
 	<char id="834023" name="Kid" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
 		<tags>cc2,_free,_cat:Casual</tags>
 	</char>
+	<char id="834051" name="Kid" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
+		<tags>cc2,_free,_cat:Casual</tags>
+	</char>
+	<char id="834052" name="Kid" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
+		<tags>cc2,_free,_cat:Casual</tags>
+	</char>
+	<char id="834053" name="Kid" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
+		<tags>cc2,_free,_cat:Casual</tags>
+	</char>
+	<char id="834054" name="Kid" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
+		<tags>cc2,_free,_cat:Casual</tags>
+	</char>
 	<char id="834032" name="Magician" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
 		<tags>cc2,_free,_cat:Holidays and Costumes</tags>
 	</char>
