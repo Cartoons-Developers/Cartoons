@@ -228,6 +228,18 @@
 	<char id="834031" name="Casual" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
 		<tags>cc2,_free,_cat:Casual</tags>
 	</char>
+	<char id="834058" name="Casual" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
+		<tags>cc2,_free,_cat:Casual</tags>
+	</char>
+	<char id="834059" name="Casual" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
+		<tags>cc2,_free,_cat:Casual</tags>
+	</char>
+	<char id="834060" name="Casual" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
+		<tags>cc2,_free,_cat:Casual</tags>
+	</char>
+	<char id="834061" name="Casual" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
+		<tags>cc2,_free,_cat:Casual</tags>
+	</char>
 	<char id="834033" name="Janitor" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
 		<tags>cc2,_free,_cat:Other Professions</tags>
 	</char>
@@ -306,6 +318,15 @@
 	<char id="834050" name="Office Worker" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
 		<tags>cc2,_free,_cat:Office</tags>
 	</char>
+	<char id="834055" name="Office Worker" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
+		<tags>cc2,_free,_cat:Office</tags>
+	</char>
+	<char id="834056" name="Office Worker" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
+		<tags>cc2,_free,_cat:Office</tags>
+	</char>
+	<char id="834057" name="Office Worker" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
+		<tags>cc2,_free,_cat:Office</tags>
+	</char>
 	<char id="834006" name="Police" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
 		<tags>cc2,_free,_cat:Government</tags>
 	</char>
@@ -339,10 +360,16 @@
 	<char id="834040" name="Student" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
 		<tags>cc2,_free,_cat:Casual</tags>
 	</char>
+	<char id="834062" name="Student" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
+		<tags>cc2,_free,_cat:Casual</tags>
+	</char>
 	<char id="834003" name="Superhero" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
 		<tags>cc2,_free,_cat:Holidays and Costumes</tags>
 	</char>
 	<char id="834035" name="Superhero" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
+		<tags>cc2,_free,_cat:Holidays and Costumes</tags>
+	</char>
+	<char id="834063" name="Superhero" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
 		<tags>cc2,_free,_cat:Holidays and Costumes</tags>
 	</char>
 	<char id="834034" name="Vampire" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
