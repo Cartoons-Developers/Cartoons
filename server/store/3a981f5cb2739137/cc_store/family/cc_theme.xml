@@ -8745,6 +8745,7 @@
       <state id="taunt" filename="taunt.swf" />
       <state id="walk" filename="walk.swf" />
 	  <tag>_sticky_filter_fatguy</tag>
+	  <tag>_sticky_filter_fatgirl</tag>
     </component>
     <component type="upper_body" id="bob_004" path="bob_004" name="bob_004" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
       <state id="chuckle" filename="chuckle.swf" />
