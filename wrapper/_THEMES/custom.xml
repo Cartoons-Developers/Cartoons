@@ -2963,6 +2963,7 @@
       <c_area oc="">ccColorA</c_area>
     </c_parts>
   </prop>
+  <prop id="ball01.swf" name="Beach Ball" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="10660" money="0" sharing="0"/>
   <prop id="msp_bed01" name="Bed" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_bed01_ncc_bed01_front.swf" enable="Y" is_premium="N" aid="10870" money="0" sharing="0">
     <state id="msp_bed01_ncc_bed01_front.swf" name="front" enable="Y" default="Y" />
     <state id="msp_bed01_ncc_bed01_side.swf" name="side" enable="Y" />
@@ -3110,12 +3111,17 @@
   <prop id="ncc_crmtable01.swf" name="Desk" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="Y" aid="11363" money="0" sharing="0" />
   <prop id="cc_diamond_ring.swf" name="Diamond Ring" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9013" money="0" sharing="0" />
   <prop id="dirt.swf" name="Dirt" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9013" money="0" sharing="0" />
+  <prop id="msp_disco_ball" name="Disco Ball" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_disco_ball_ncc_disco_ball_still.swf" enable="Y" is_premium="N" aid="10837" money="0" sharing="0">
+    <state id="msp_disco_ball_ncc_disco_ball_still.swf" name="off" enable="Y" default="Y"/>
+    <state id="msp_disco_ball_ncc_disco_ball_move.swf" name="on" enable="Y"/>
+  </prop>
   <prop id="msp_sldoor" name="Door" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_sldoor_ncc_sldoor01.swf" enable="Y" is_premium="N" aid="11334" money="0" sharing="0">
     <state id="msp_sldoor_ncc_sldoor01.swf" name="Closed" enable="Y" default="Y" />
     <state id="msp_sldoor_ncc_sldoor02.swf" name="Open" enable="Y" />
   </prop>
   <prop id="ncc_03donut.swf" name="Doughnut" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="11858" money="0" sharing="0" />
   <prop id="cc_secretfolder.swf" name="File" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9027" money="0" sharing="0" />
+  <prop id="ncc_football.swf" name="Football" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="10921" money="0" sharing="0"/>
   <prop id="kitchen_fork.swf" name="Fork" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9022" money="0" sharing="0" />
   <prop id="lamp_floor.swf" name="Floor Lamp" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="11858" money="0" sharing="0" />
   <prop id="ncc_03fries.swf" name="Fries" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="11858" money="0" sharing="0" />
@@ -3208,6 +3214,7 @@
   <prop id="ncc_trapeziform.swf" name="Shapes - Trapezoid" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="10887" money="0" sharing="0" />
   <prop id="ncc_triangle.swf" name="Shapes - Triangle" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="10887" money="0" sharing="0" />
   <prop id="triangle01.swf" name="Shapes - Triangle" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="10887" money="0" sharing="0" />
+  <prop id="ncc_soccer_ball.swf" name="Soccer Ball" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="10922" money="0" sharing="0"/>
   <prop id="ncc_03soda.swf" name="Soda" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="11858" money="0" sharing="0" />
   <prop id="msp_sofa" name="Sofa" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_sofa_sofa_front.swf" enable="Y" is_premium="N" aid="9802" money="0" sharing="0">
     <state id="msp_sofa_sofa_front.swf" name="Front" enable="Y" default="Y" />
