@@ -4215,6 +4215,9 @@
   <char id="324728172" name="Casual" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
     <tags>family,_free,_cat:Casual,_tag:casual man male</tags>
   </char>
+  <char id="324728177" name="Casual" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+    <tags>family,_free,_cat:Casual,_tag:casual dreadlock dreadlocks dreads female earring earrings woman</tags>
+  </char>
   <char id="324728128" name="Casual Sports" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
     <tags>family,_free,_cat:Casual,_tag:casual dreadlock dreadlocks dreads exercise female fitness gym jog jogging jogger lady woman</tags>
   </char>
@@ -4375,7 +4378,7 @@
     <tags>family,_free,_cat:Casual,_tag:boy casual child children kid kids male student</tags>
   </char>
   <char id="324728176" name="Kid" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
-    <tags>family,_free,_cat:Casual,_tag:casual child children dreadlock dreadlocks earring earrings female girl kid kids student</tags>
+    <tags>family,_free,_cat:Casual,_tag:casual child children dreadlock dreadlocks dreads earring earrings female girl kid kids student</tags>
   </char>
   <char id="324728171" name="Magician" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
     <tags>family,_free,_cat:Holidays and Costumes,_tag:child children costume costumes female girl hat kid kids magic magician pigtails</tags>
