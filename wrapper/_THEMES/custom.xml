@@ -4383,6 +4383,9 @@
   <char id="324728176" name="Kid" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
     <tags>family,_free,_cat:Casual,_tag:casual child children dreadlock dreadlocks dreads earring earrings female girl kid kids student</tags>
   </char>
+  <char id="324728180" name="Kid" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+    <tags>family,_free,_cat:Casual,_tag:casual child children child children female girl kid kids ponytail student</tags>
+  </char>
   <char id="324728171" name="Magician" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
     <tags>family,_free,_cat:Holidays and Costumes,_tag:child children costume costumes female girl hat kid kids magic magician pigtails</tags>
   </char>
