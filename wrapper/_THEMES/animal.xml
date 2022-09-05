@@ -79,12 +79,6 @@
 	<char id="832026" name="Bear" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
 		<tags>cc2,_free</tags>
 	</char>
-	<char id="832027" name="Bear" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
-		<tags>cc2,_free</tags>
-	</char>
-	<char id="832028" name="Bear" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
-		<tags>cc2,_free</tags>
-	</char>
 	<char id="832009" name="Beaver" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
 		<tags>cc2,_free</tags>
 	</char>
@@ -131,6 +125,12 @@
 		<tags>cc2,_free</tags>
 	</char>
 	<char id="832024" name="Monkey" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
+		<tags>cc2,_free</tags>
+	</char>
+	<char id="832028" name="Panda Bear" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
+		<tags>cc2,_free</tags>
+	</char>
+	<char id="832027" name="Polar Bear" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
 		<tags>cc2,_free</tags>
 	</char>
 	<char id="832005" name="Raccoon" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
