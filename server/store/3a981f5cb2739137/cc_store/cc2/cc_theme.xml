@@ -2136,6 +2136,7 @@
     <library type="GoUpper" id="longhair_cat" path="longhair_cat" name="longhair_cat" thumb="longhair_cat_thumbnail.swf" display_order="10" money="0" sharing="0" enable="N" />
     <library type="GoUpper" id="cheetah" path="cheetah" name="cheetah" thumb="cheetah_thumbnail.swf" display_order="10" money="0" sharing="0" enable="N" />
 	<library type="GoUpper" id="monkey" path="monkey" name="monkey" thumb="monkey_thumbnail.swf" display_order="10" money="0" sharing="0" enable="N" />
+    <library type="GoUpper" id="panda" path="panda" name="panda" thumb="panda_thumbnail.swf" display_order="10" money="0" sharing="0" enable="N" />
     <library type="GoUpper" id="tiger" path="tiger" name="tiger" thumb="tiger_thumbnail.swf" display_order="10" money="0" sharing="0" enable="N" />
     <library type="GoUpper" id="2010" path="2010" name="2010" thumb="2010_thumbnail.swf" display_order="10" money="0" sharing="0" enable="N"></library>
     <library type="GoUpper" id="2011" path="2011" name="2011" thumb="2011_thumbnail.swf" display_order="10" money="0" sharing="0" enable="N"></library>
