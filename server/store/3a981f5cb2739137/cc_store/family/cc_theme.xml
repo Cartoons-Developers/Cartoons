@@ -604,6 +604,19 @@
     <selection type="mustache" state_id="default" />
     <selection type="nose" state_id="default" />
   </facial>
+  <facial id="head_concern" name="Concerned" enable="Y">
+    <selection type="beard" state_id="default" />
+    <selection type="ear" state_id="default" />
+    <selection type="eye" state_id="default" />
+    <selection type="eyebrow" state_id="default" />
+    <selection type="facedecoration" state_id="default" />
+    <selection type="faceshape" state_id="default" />
+    <selection type="glasses" state_id="default" />
+    <selection type="hair" state_id="default" />
+    <selection type="mouth" state_id="sad" />
+    <selection type="mustache" state_id="default" />
+    <selection type="nose" state_id="default" />
+  </facial>
   <facial id="head_confused" name="Confused" enable="Y">
     <selection type="beard" state_id="default" />
     <selection type="ear" state_id="default" />
@@ -968,6 +981,18 @@
       <selection type="lower_body" state_id="laugh" />
       <selection type="skeleton" state_id="chuckle" />
       <selection type="upper_body" state_id="crossed_arms" />
+    </action>
+    <action id="victory" name="Victory pose" loop="Y" totalframe="80" enable="Y" category="Poses" is_motion="N">
+      <selection type="facial" facial_id="head_happy"/>
+      <selection type="lower_body" state_id="laugh"/>
+      <selection type="skeleton" state_id="stand"/>
+      <selection type="upper_body" state_id="chuckle"/>
+    </action>
+    <action id="yell" name="Yelling" loop="Y" totalframe="80" enable="Y" category="Emotions" is_motion="N">
+      <selection type="facial" facial_id="head_talk_angry"/>
+      <selection type="lower_body" state_id="laugh"/>
+      <selection type="skeleton" state_id="bend"/>
+      <selection type="upper_body" state_id="excited"/>
     </action>
     <component type="lower_body" id="adam_001" path="adam_001" name="adam_001" thumb="thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y">
       <state id="dance" filename="dance.swf" />
@@ -3221,6 +3246,18 @@
       <selection type="skeleton" state_id="chuckle" />
       <selection type="upper_body" state_id="crossed_arms" />
     </action>
+    <action id="victory" name="Victory pose" loop="Y" totalframe="80" enable="Y" category="Poses" is_motion="N">
+      <selection type="facial" facial_id="head_happy"/>
+      <selection type="lower_body" state_id="laugh"/>
+      <selection type="skeleton" state_id="stand"/>
+      <selection type="upper_body" state_id="chuckle"/>
+    </action>
+    <action id="yell" name="Yelling" loop="Y" totalframe="80" enable="Y" category="Emotions" is_motion="N">
+      <selection type="facial" facial_id="head_talk_angry"/>
+      <selection type="lower_body" state_id="laugh"/>
+      <selection type="skeleton" state_id="bend"/>
+      <selection type="upper_body" state_id="excited"/>
+    </action>
     <component type="lower_body" id="adam_001" path="adam_001" name="adam_001" thumb="thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y">
       <state id="dance" filename="dance.swf" />
       <state id="default" filename="default.swf" />
@@ -5056,6 +5093,18 @@
       <selection type="lower_body" state_id="laugh" />
       <selection type="skeleton" state_id="chuckle" />
       <selection type="upper_body" state_id="crossed_arms" />
+    </action>
+    <action id="victory" name="Victory pose" loop="Y" totalframe="80" enable="Y" category="Poses" is_motion="N">
+      <selection type="facial" facial_id="head_happy"/>
+      <selection type="lower_body" state_id="laugh"/>
+      <selection type="skeleton" state_id="stand"/>
+      <selection type="upper_body" state_id="chuckle"/>
+    </action>
+    <action id="yell" name="Yelling" loop="Y" totalframe="80" enable="Y" category="Emotions" is_motion="N">
+      <selection type="facial" facial_id="head_talk_angry"/>
+      <selection type="lower_body" state_id="laugh"/>
+      <selection type="skeleton" state_id="bend"/>
+      <selection type="upper_body" state_id="excited"/>
     </action>
     <component type="lower_body" id="adam_001" path="adam_001" name="adam_001" thumb="thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y">
       <state id="dance" filename="dance.swf" />
