@@ -4603,7 +4603,10 @@
     <tags>family,_free,_cat:Holidays and Costumes,_tag:burglar cap convict costume costumes crime criminal female hat holiday holidays hols mask man male other ponytail professions rob robber robbery thief thieves</tags>
   </char>
   <char id="41" name="Tourist" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
-    <tags>family,_free,_cat:Travel,_tag:beach casual glasses man male pool tourist travel</tags>
+    <tags>family,_free,_cat:Travel,_tag:beach casual glasses man male pool swim tourist travel</tags>
+  </char>
+  <char id="183" name="Tourist" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+    <tags>family,_free,_cat:Travel,_tag:beach casual female glasses lady pool swim tourist travel woman</tags>
   </char>
   <char id="38" name="Werewolf" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
     <tags>family,_free,_cat:Holidays and Costumes,_tag:claw claws costume costumes ear ears fur furry halloween holiday holidays hols howl male paw werewolf wolf</tags>
