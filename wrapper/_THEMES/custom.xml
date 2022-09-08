@@ -4621,9 +4621,12 @@
     <tags>family,_free,_cat:Casual,_tag:casual cap glove gloves hat jacket man male snow snowing winter</tags>
   </char>
   <char id="123" name="Winter - Casual" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
-    <tags>family,_free,_cat:Casual,_tag:casual child children female glove gloves jacket kid kids ponytail snow snowing winter</tags>
+    <tags>family,_free,_cat:Casual,_tag:casual child children female girl glove gloves jacket kid kids ponytail snow snowing winter</tags>
   </char>
   <char id="124" name="Winter - Casual" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
     <tags>family,_free,_cat:Casual,_tag:casual cap female glove gloves hat jacket lady snow snowing winter woman</tags>
+  </char>
+  <char id="186" name="Winter - Casual" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+    <tags>family,_free,_cat:Casual,_tag:boy casual child children glove gloves jacket kid kids male snow snowing winter</tags>
   </char>
 </theme>
