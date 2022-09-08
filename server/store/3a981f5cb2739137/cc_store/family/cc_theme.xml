@@ -13759,6 +13759,16 @@
 	<tag>_sticky_filter_fatgirl</tag>
 	<tag>_sticky_filter_buff</tag>
   </component>
+  <component type="facedecoration" id="bobin" path="bobin" name="bobin" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+    <state id="default" filename="default.swf" />
+	<tag>_sticky_filter_guy</tag>
+	<tag>_sticky_filter_girl</tag>
+	<tag>_sticky_filter_littleguy</tag>
+	<tag>_sticky_filter_littlegirl</tag>
+	<tag>_sticky_filter_fatguy</tag>
+	<tag>_sticky_filter_fatgirl</tag>
+	<tag>_sticky_filter_buff</tag>
+  </component>
   <component type="facedecoration" id="bowler_hat" path="bowler_hat" name="bowler_hat" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
     <state id="default" filename="default.swf" />
 	<tag>_sticky_filter_guy</tag>
@@ -13794,6 +13804,12 @@
 	<tag>_sticky_filter_fatguy</tag>
 	<tag>_sticky_filter_fatgirl</tag>
 	<tag>_sticky_filter_buff</tag>
+  </component>
+  <component type="facedecoration" id="double_bobble" path="double_bobble" name="double_bobble" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+    <state id="default" filename="default.swf" />
+	<tag>_sticky_filter_girl</tag>
+	<tag>_sticky_filter_littlegirl</tag>
+	<tag>_sticky_filter_fatgirl</tag>
   </component>
   <component type="facedecoration" id="earplugs" path="earplugs" name="earplugs" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
     <state id="default" filename="default.swf" />
