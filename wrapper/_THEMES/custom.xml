@@ -1243,29 +1243,421 @@
       <color r="ccColorA" oc="x0">5783370</color>
     </prop>
   </compositebg>
-  <compositebg id="cbg_school_locker" name="School locker area" enable="Y" default="N" thumb="school_locker.jpg" display_order="25" is_premium="N" money="" sharing="" aid="9543">
-    <bg id="BG2" index="">
-      <file>custom.school_locker_bg.swf</file>
-      <dcsn>9536</dcsn>
-      <color r="ccColorA" oc="x0">8623449</color>
+  <compositebg id="cbg_school_hallway" name="School hallway" enable="Y" default="N" thumb="school_hallway.png" display_order="25" is_premium="N" money="" sharing="" aid="9543">
+    <bg id="BG10" index="0">
+      <file>custom.wall10.swf</file>
+      <color r="ccColorA">16381164</color>
+      <color r="ccColorB">14078665</color>
     </bg>
-    <prop id="PROP0" index="2">
-      <file>custom.school_locker.swf</file>
-      <x>460</x>
-      <y>197</y>
-      <xscale>1</xscale>
-      <yscale>1</yscale>
+    <prop id="PROP0" index="1">
+      <file>custom.msp_sllocker.msp_sllocker_ncc_sllocker01.swf</file>
+      <x>-177.9590923</x>
+      <y>237.579264</y>
+      <xscale>0.3685098</xscale>
+      <yscale>0.3343272</yscale>
       <face>1</face>
       <rotation>0</rotation>
+      <color r="ccColorA">14575955</color>
     </prop>
-    <prop id="PROP1" index="3">
-      <file>custom.school_locker_open.swf</file>
-      <x>493</x>
-      <y>196</y>
-      <xscale>1</xscale>
-      <yscale>1</yscale>
+    <prop id="PROP1" index="2">
+      <file>custom.msp_sllocker.msp_sllocker_ncc_sllocker01.swf</file>
+      <x>-149.3824402</x>
+      <y>237.6075058</y>
+      <xscale>0.3685098</xscale>
+      <yscale>0.3343272</yscale>
       <face>1</face>
       <rotation>0</rotation>
+      <color r="ccColorA">14575955</color>
+    </prop>
+    <prop id="PROP2" index="3">
+      <file>custom.msp_sllocker.msp_sllocker_ncc_sllocker01.swf</file>
+      <x>-120.9614343</x>
+      <y>237.6075058</y>
+      <xscale>0.3685098</xscale>
+      <yscale>0.3343272</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+      <color r="ccColorA">14575955</color>
+    </prop>
+    <prop id="PROP3" index="4">
+      <file>custom.msp_sllocker.msp_sllocker_ncc_sllocker01.swf</file>
+      <x>-92.3847822</x>
+      <y>237.6357475</y>
+      <xscale>0.3685098</xscale>
+      <yscale>0.3343272</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+      <color r="ccColorA">14575955</color>
+    </prop>
+    <prop id="PROP4" index="5">
+      <file>custom.msp_sllocker.msp_sllocker_ncc_sllocker01.swf</file>
+      <x>-63.3411914</x>
+      <y>237.6639892</y>
+      <xscale>0.3685098</xscale>
+      <yscale>0.3343272</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+      <color r="ccColorA">14575955</color>
+    </prop>
+    <prop id="PROP5" index="6">
+      <file>custom.msp_sllocker.msp_sllocker_ncc_sllocker01.swf</file>
+      <x>-34.1263897</x>
+      <y>237.480418</y>
+      <xscale>0.3685098</xscale>
+      <yscale>0.3343272</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+      <color r="ccColorA">14575955</color>
+    </prop>
+    <prop id="PROP6" index="7">
+      <file>custom.msp_sllocker.msp_sllocker_ncc_sllocker01.swf</file>
+      <x>-5.5497376</x>
+      <y>237.5086597</y>
+      <xscale>0.3685098</xscale>
+      <yscale>0.3343272</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+      <color r="ccColorA">14575955</color>
+    </prop>
+    <prop id="PROP7" index="8">
+      <file>custom.msp_sllocker.msp_sllocker_ncc_sllocker01.swf</file>
+      <x>22.8712683</x>
+      <y>237.5086597</y>
+      <xscale>0.3685098</xscale>
+      <yscale>0.3343272</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+      <color r="ccColorA">14575955</color>
+    </prop>
+    <prop id="PROP8" index="9">
+      <file>custom.msp_sllocker.msp_sllocker_ncc_sllocker01.swf</file>
+      <x>51.4479204</x>
+      <y>237.5369014</y>
+      <xscale>0.3685098</xscale>
+      <yscale>0.3343272</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+      <color r="ccColorA">14575955</color>
+    </prop>
+    <prop id="PROP9" index="10">
+      <file>custom.msp_sllocker.msp_sllocker_ncc_sllocker01.swf</file>
+      <x>80.4915112</x>
+      <y>237.5651432</y>
+      <xscale>0.3685098</xscale>
+      <yscale>0.3343272</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+      <color r="ccColorA">14575955</color>
+    </prop>
+    <prop id="PROP10" index="11">
+      <file>custom.msp_sllocker.msp_sllocker_ncc_sllocker01.swf</file>
+      <x>-177.9395125</x>
+      <y>163.8989777</y>
+      <xscale>0.3685098</xscale>
+      <yscale>0.3343273</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+      <color r="ccColorA">14575955</color>
+    </prop>
+    <prop id="PROP11" index="12">
+      <file>custom.msp_sllocker.msp_sllocker_ncc_sllocker01.swf</file>
+      <x>-149.3628604</x>
+      <y>163.9272195</y>
+      <xscale>0.3685098</xscale>
+      <yscale>0.3343272</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+      <color r="ccColorA">14575955</color>
+    </prop>
+    <prop id="PROP12" index="13">
+      <file>custom.msp_sllocker.msp_sllocker_ncc_sllocker01.swf</file>
+      <x>-120.9418546</x>
+      <y>163.9272195</y>
+      <xscale>0.3685098</xscale>
+      <yscale>0.3343272</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+      <color r="ccColorA">14575955</color>
+    </prop>
+    <prop id="PROP13" index="14">
+      <file>custom.msp_sllocker.msp_sllocker_ncc_sllocker01.swf</file>
+      <x>-92.3652025</x>
+      <y>163.9554612</y>
+      <xscale>0.3685098</xscale>
+      <yscale>0.3343272</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+      <color r="ccColorA">14575955</color>
+    </prop>
+    <prop id="PROP14" index="15">
+      <file>custom.msp_sllocker.msp_sllocker_ncc_sllocker01.swf</file>
+      <x>-63.3216116</x>
+      <y>163.9837029</y>
+      <xscale>0.3685098</xscale>
+      <yscale>0.3343272</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+      <color r="ccColorA">14575955</color>
+    </prop>
+    <prop id="PROP15" index="16">
+      <file>custom.msp_sllocker.msp_sllocker_ncc_sllocker01.swf</file>
+      <x>-34.1068099</x>
+      <y>163.8001316</y>
+      <xscale>0.3685098</xscale>
+      <yscale>0.3343272</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+      <color r="ccColorA">14575955</color>
+    </prop>
+    <prop id="PROP16" index="17">
+      <file>custom.msp_sllocker.msp_sllocker_ncc_sllocker01.swf</file>
+      <x>-5.5301578</x>
+      <y>163.8283734</y>
+      <xscale>0.3685098</xscale>
+      <yscale>0.3343272</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+      <color r="ccColorA">14575955</color>
+    </prop>
+    <prop id="PROP17" index="18">
+      <file>custom.msp_sllocker.msp_sllocker_ncc_sllocker01.swf</file>
+      <x>22.890848</x>
+      <y>163.8283734</y>
+      <xscale>0.3685098</xscale>
+      <yscale>0.3343272</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+      <color r="ccColorA">14575955</color>
+    </prop>
+    <prop id="PROP18" index="19">
+      <file>custom.msp_sllocker.msp_sllocker_ncc_sllocker01.swf</file>
+      <x>51.4675001</x>
+      <y>163.8566151</y>
+      <xscale>0.3685098</xscale>
+      <yscale>0.3343272</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+      <color r="ccColorA">14575955</color>
+    </prop>
+    <prop id="PROP19" index="20">
+      <file>custom.msp_sllocker.msp_sllocker_ncc_sllocker01.swf</file>
+      <x>80.511091</x>
+      <y>163.8848568</y>
+      <xscale>0.3685098</xscale>
+      <yscale>0.3343272</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+      <color r="ccColorA">14575955</color>
+    </prop>
+    <prop id="PROP20" index="21">
+      <file>custom.msp_sllocker.msp_sllocker_ncc_sllocker01.swf</file>
+      <x>140.9159077</x>
+      <y>237.779264</y>
+      <xscale>0.3685098</xscale>
+      <yscale>0.3343272</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+      <color r="ccColorA">14575955</color>
+    </prop>
+    <prop id="PROP21" index="22">
+      <file>custom.msp_sllocker.msp_sllocker_ncc_sllocker01.swf</file>
+      <x>169.4925598</x>
+      <y>237.8075058</y>
+      <xscale>0.3685098</xscale>
+      <yscale>0.3343272</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+      <color r="ccColorA">14575955</color>
+    </prop>
+    <prop id="PROP22" index="23">
+      <file>custom.msp_sllocker.msp_sllocker_ncc_sllocker01.swf</file>
+      <x>197.9135657</x>
+      <y>237.8075058</y>
+      <xscale>0.3685098</xscale>
+      <yscale>0.3343272</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+      <color r="ccColorA">14575955</color>
+    </prop>
+    <prop id="PROP23" index="24">
+      <file>custom.msp_sllocker.msp_sllocker_ncc_sllocker01.swf</file>
+      <x>226.4902178</x>
+      <y>237.8357475</y>
+      <xscale>0.3685098</xscale>
+      <yscale>0.3343272</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+      <color r="ccColorA">14575955</color>
+    </prop>
+    <prop id="PROP24" index="25">
+      <file>custom.msp_sllocker.msp_sllocker_ncc_sllocker01.swf</file>
+      <x>255.5338086</x>
+      <y>237.8639892</y>
+      <xscale>0.3685098</xscale>
+      <yscale>0.3343272</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+      <color r="ccColorA">14575955</color>
+    </prop>
+    <prop id="PROP25" index="26">
+      <file>custom.msp_sllocker.msp_sllocker_ncc_sllocker01.swf</file>
+      <x>284.7486103</x>
+      <y>237.680418</y>
+      <xscale>0.3685098</xscale>
+      <yscale>0.3343272</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+      <color r="ccColorA">14575955</color>
+    </prop>
+    <prop id="PROP26" index="27">
+      <file>custom.msp_sllocker.msp_sllocker_ncc_sllocker01.swf</file>
+      <x>313.3252624</x>
+      <y>237.7086597</y>
+      <xscale>0.3685098</xscale>
+      <yscale>0.3343272</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+      <color r="ccColorA">14575955</color>
+    </prop>
+    <prop id="PROP27" index="28">
+      <file>custom.msp_sllocker.msp_sllocker_ncc_sllocker01.swf</file>
+      <x>341.7462683</x>
+      <y>237.7086597</y>
+      <xscale>0.3685098</xscale>
+      <yscale>0.3343272</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+      <color r="ccColorA">14575955</color>
+    </prop>
+    <prop id="PROP28" index="29">
+      <file>custom.msp_sllocker.msp_sllocker_ncc_sllocker01.swf</file>
+      <x>370.3229204</x>
+      <y>237.7369014</y>
+      <xscale>0.3685098</xscale>
+      <yscale>0.3343272</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+      <color r="ccColorA">14575955</color>
+    </prop>
+    <prop id="PROP29" index="30">
+      <file>custom.msp_sllocker.msp_sllocker_ncc_sllocker01.swf</file>
+      <x>399.3665112</x>
+      <y>237.7651432</y>
+      <xscale>0.3685098</xscale>
+      <yscale>0.3343272</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+      <color r="ccColorA">14575955</color>
+    </prop>
+    <prop id="PROP30" index="31">
+      <file>custom.msp_sllocker.msp_sllocker_ncc_sllocker01.swf</file>
+      <x>140.9354875</x>
+      <y>164.0989777</y>
+      <xscale>0.3685098</xscale>
+      <yscale>0.3343273</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+      <color r="ccColorA">14575955</color>
+    </prop>
+    <prop id="PROP31" index="32">
+      <file>custom.msp_sllocker.msp_sllocker_ncc_sllocker01.swf</file>
+      <x>169.5121396</x>
+      <y>164.1272195</y>
+      <xscale>0.3685098</xscale>
+      <yscale>0.3343272</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+      <color r="ccColorA">14575955</color>
+    </prop>
+    <prop id="PROP32" index="33">
+      <file>custom.msp_sllocker.msp_sllocker_ncc_sllocker01.swf</file>
+      <x>197.9331454</x>
+      <y>164.1272195</y>
+      <xscale>0.3685098</xscale>
+      <yscale>0.3343272</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+      <color r="ccColorA">14575955</color>
+    </prop>
+    <prop id="PROP33" index="34">
+      <file>custom.msp_sllocker.msp_sllocker_ncc_sllocker01.swf</file>
+      <x>226.5097975</x>
+      <y>164.1554612</y>
+      <xscale>0.3685098</xscale>
+      <yscale>0.3343272</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+      <color r="ccColorA">14575955</color>
+    </prop>
+    <prop id="PROP34" index="35">
+      <file>custom.msp_sllocker.msp_sllocker_ncc_sllocker01.swf</file>
+      <x>255.5533884</x>
+      <y>164.1837029</y>
+      <xscale>0.3685098</xscale>
+      <yscale>0.3343272</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+      <color r="ccColorA">14575955</color>
+    </prop>
+    <prop id="PROP35" index="36">
+      <file>custom.msp_sllocker.msp_sllocker_ncc_sllocker01.swf</file>
+      <x>284.7681901</x>
+      <y>164.0001316</y>
+      <xscale>0.3685098</xscale>
+      <yscale>0.3343272</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+      <color r="ccColorA">14575955</color>
+    </prop>
+    <prop id="PROP36" index="37">
+      <file>custom.msp_sllocker.msp_sllocker_ncc_sllocker01.swf</file>
+      <x>313.3448422</x>
+      <y>164.0283734</y>
+      <xscale>0.3685098</xscale>
+      <yscale>0.3343272</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+      <color r="ccColorA">14575955</color>
+    </prop>
+    <prop id="PROP37" index="38">
+      <file>custom.msp_sllocker.msp_sllocker_ncc_sllocker01.swf</file>
+      <x>341.765848</x>
+      <y>164.0283734</y>
+      <xscale>0.3685098</xscale>
+      <yscale>0.3343272</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+      <color r="ccColorA">14575955</color>
+    </prop>
+    <prop id="PROP38" index="39">
+      <file>custom.msp_sllocker.msp_sllocker_ncc_sllocker01.swf</file>
+      <x>370.3425001</x>
+      <y>164.0566151</y>
+      <xscale>0.3685098</xscale>
+      <yscale>0.3343272</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+      <color r="ccColorA">14575955</color>
+    </prop>
+    <prop id="PROP39" index="40">
+      <file>custom.msp_sllocker.msp_sllocker_ncc_sllocker01.swf</file>
+      <x>399.386091</x>
+      <y>164.0848568</y>
+      <xscale>0.3685098</xscale>
+      <yscale>0.3343272</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+      <color r="ccColorA">14575955</color>
+    </prop>
+    <prop id="PROP40" index="41">
+      <file>custom.msp_sldoor.msp_sldoor_ncc_sldoor01.swf</file>
+      <x>516.05</x>
+      <y>184.5696662</y>
+      <xscale>0.7866473</xscale>
+      <yscale>0.7866473</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+      <color r="ccColorA">9399115</color>
     </prop>
   </compositebg>
   <compositebg id="cbg_classroom" name="Classroom" enable="Y" default="N" thumb="classroom.png" display_order="26" is_premium="N" money="" sharing="" aid="9544">
@@ -3143,6 +3535,10 @@
   <prop id="msp_dish" name="Meal" holdable="" placeable="1" wearable="" facing="left" thumb="msp_dish_msp_computer_cc_dish_02.swf" enable="Y" is_premium="N" aid="9189" money="" sharing="">
     <state id="msp_dish_msp_computer_cc_dish_01.swf" name="Empty" enable="Y" />
     <state id="msp_dish_msp_computer_cc_dish_02.swf" name="Food" enable="Y" default="Y" />
+  </prop>
+  <prop id="msp_sllocker" name="Locker" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_sllocker_ncc_sllocker01.swf" enable="Y" is_premium="Y" aid="11331" money="0" sharing="0">
+    <state id="msp_sllocker_ncc_sllocker01.swf" name="closed" enable="Y" default="Y"/>
+    <state id="msp_sllocker_ncc_sllocker02.swf" name="open" enable="Y"/>
   </prop>
   <prop id="cc_microphone.swf" name="Microphone" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9019" money="" sharing="" />
   <prop id="cc_micstand.swf" name="Microphone" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9020" money="" sharing="" />
