@@ -4603,10 +4603,10 @@
     <tags>family,_free,_cat:Holidays and Costumes,_tag:boot boots costume costumes female glove gloves glasses hero heroes heroic holiday holidays hols lady other professions superhero woman</tags>
   </char>
   <char id="39" name="Thief" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
-    <tags>family,_free,_cat:Holidays and Costumes,_tag:burglar cap convict costume costumes crime criminal hat holiday holidays hols mask man male other professions rob robber robbery thief thieves</tags>
+    <tags>family,_free,_cat:Holidays and Costumes,_tag:burglar convict costume costumes crime criminal holiday holidays hols mask man male other professions rob robber robbery thief thieves</tags>
   </char>
   <char id="139" name="Thief" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
-    <tags>family,_free,_cat:Holidays and Costumes,_tag:burglar cap convict costume costumes crime criminal female hat holiday holidays hols mask man male other ponytail professions rob robber robbery thief thieves</tags>
+    <tags>family,_free,_cat:Holidays and Costumes,_tag:burglar convict costume costumes crime criminal female holiday holidays hols mask man male other ponytail professions rob robber robbery thief thieves</tags>
   </char>
   <char id="41" name="Tourist" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
     <tags>family,_free,_cat:Travel,_tag:beach casual glasses man male pool swim tourist travel</tags>
