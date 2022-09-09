@@ -13759,7 +13759,7 @@
 	<tag>_sticky_filter_fatgirl</tag>
 	<tag>_sticky_filter_buff</tag>
   </component>
-  <component type="facedecoration" id="bobin" path="bobin" name="bobin" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+  <component type="facedecoration" id="bobble_slouch" path="bobble_slouch" name="bobble_slouch" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
     <state id="default" filename="default.swf" />
 	<tag>_sticky_filter_guy</tag>
 	<tag>_sticky_filter_girl</tag>
