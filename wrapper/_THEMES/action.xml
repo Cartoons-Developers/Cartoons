@@ -240,6 +240,12 @@
 	<char id="834061" name="Casual" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
 		<tags>cc2,_free,_cat:Casual</tags>
 	</char>
+	<char id="834064" name="Casual" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
+		<tags>cc2,_free,_cat:Casual</tags>
+	</char>
+	<char id="834065" name="Casual" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
+		<tags>cc2,_free,_cat:Casual</tags>
+	</char>
 	<char id="834033" name="Janitor" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
 		<tags>cc2,_free,_cat:Other Professions</tags>
 	</char>
