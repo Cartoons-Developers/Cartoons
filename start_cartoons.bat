@@ -1,5 +1,6 @@
 :: Cartoons Launcher
 :: License: MIT
+
 title Cartoons [Initializing...]
 
 ::::::::::::::::::::
@@ -44,7 +45,6 @@ if not exist server ( goto error_location )
 :: Welcome, Director Ford!
 echo Cartoons
 echo A project from VisualPlugin adapted by the Cartoons team
-echo Version !WRAPPER_VER!
 echo:
 
 :: Confirm measurements to proceed.
@@ -157,7 +157,7 @@ cls
 
 echo:
 echo Cartoons running
-echo A project from VisualPlugin adapted by GoTest334 and the Cartoons team
+echo A project from VisualPlugin adapted by the Cartoons team
 echo:
 if !VERBOSEWRAPPER!==n ( echo DON'T CLOSE THIS WINDOW^^! Use the quit option ^(0^) when you're done. )
 if !VERBOSEWRAPPER!==y ( echo Verbose mode is on, see the two extra CMD windows for extra output. )
@@ -166,7 +166,7 @@ if !JUSTIMPORTED!==y ( echo Note: You'll need to reload the editor for your file
 :: Hello, code wanderer. Enjoy seeing all the secret options easily instead of finding them yourself.
 echo:
 echo Enter 1 to reopen the video list
-echo Enter ? to open the FAQ
+echo Enter 3 to import a file
 echo Enter clr to clean up the screen
 echo Enter 0 to close Cartoons
 set /a _rand=(!RANDOM!*67/32768)+1
@@ -181,10 +181,7 @@ if "!choice!"=="3" goto start_importer
 if /i "!choice!"=="clr" goto wrapperstartedcls
 if /i "!choice!"=="cls" goto wrapperstartedcls
 if /i "!choice!"=="clear" goto wrapperstartedcls
-:: dev options
-if /i "!choice!"=="amnesia" goto wipe_save
-if /i "!choice!"=="restart" goto restart
-if /i "!choice!"=="folder" goto open_files
+:: funni options
 echo Time to choose. && goto wrapperidle
 
 :reopen_webpage
@@ -208,42 +205,11 @@ if !INCLUDEDCHROMIUM!==n (
 )
 goto wrapperidle
 
-:open_server
-if !INCLUDEDCHROMIUM!==n (
-	if !CUSTOMBROWSER!==n (
-		echo Opening the server page in your default browser...
-		start https://localhost:4664
-	) else (
-		echo Opening the server page in your set browser...
-		start !CUSTOMBROWSER! https://localhost:4664 >nul
-	)
-) else (
-	echo Opening the server page using included Chromium...
-	pushd utilities\ungoogled-chromium
-	if !APPCHROMIUM!==y (
-		start chrome.exe --allow-outdated-plugins --user-data-dir=the_profile --app=https://localhost:4664 >nul
-	) else (
-		start chrome.exe --allow-outdated-plugins --user-data-dir=the_profile https://localhost:4664 >nul
-	)
-	popd
-)
-
-:start_importer
-echo Opening the importer...
-start "" "utilities\import.bat"
-goto wrapperidle
-goto wrapperidle
-
 :open_files
 pushd ..
-echo Opening the Cartoons folder...
-start explorer.exe Cartoons
+echo Opening the wrapper-offline folder...
+start explorer.exe wrapper-offline
 popd
-goto wrapperidle
-
-:open_faq
-echo Opening the FAQ...
-start notepad.exe FAQ.txt
 goto wrapperidle
 
 :wipe_save
@@ -252,24 +218,9 @@ if !errorlevel! equ 1 goto wrapperidle
 :: flows straight to restart below
 
 :restart
-TASKKILL /IM node.exe /F >nul 2>&1
-if !CEPSTRAL!==n ( TASKKILL /IM php.exe /F >nul 2>&1 )
-if !VERBOSEWRAPPER!==y (
-	for %%i in (npm start,npm,http-server,HTTP-SERVER HASN'T STARTED,NODE.JS HASN'T STARTED YET, Server for imported voice clips TTS voice) do (
-		TASKKILL /FI "WINDOWTITLE eq %%i" >nul 2>&1
-	)
-)
+TASKKILL /IM node.exe /F
 start "" /wait /B "%~F0" point_insertion
 exit
-
-:w_a_t_c_h
-echo watch benson on youtube
-echo watch benson on youtube
-echo watch benson on youtube
-echo watch benson on youtube
-echo watch benson on youtube
-echo wa
-goto wrapperidle
 
 :patchtime
 echo:
@@ -283,91 +234,12 @@ if /i "!patchchoice!"=="y" echo too bad B^) & goto wrapperidle
 if /i "!patchchoice!"=="n" echo good & goto wrapperidle
 echo yes or no question here && goto patchtimeretry
 
-:sayarandom
-:: welcome to "inside jokes with no context" land
-set /a _rand=!RANDOM!*15/32767
-if !_rand!==0 echo stress level ^>0
-if !_rand!==1 echo Something random.
-if !_rand!==2 echo oisjdoiajfgmafvdsdg
-if !_rand!==3 echo my head is unscrewed & echo what do i need it for
-if !_rand!==4 echo when you're eating popcorn you're eating busted nuts
-if !_rand!==5 echo chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
-if !_rand!==6 echo when u nut so hard that ur roblox crashes
-if !_rand!==7 echo seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven
-if !_rand!==8 echo DONT ASK HOW I GOT IT OR YOU WILL BE BANNED FROM MY CHANNEL WITH NO SECOND CHANCES
-if !_rand!==9 echo everything you know is wrong & echo black is white up is down and short is long
-if !_rand!==10 echo It's a chekcpoint.
-if !_rand!==11 echo Another monday... & echo Another mind-numbing, run-of-the-mill monday... & echo ANOTHER MUNDANE, MORIBUND, HUMDRUM MONDAY!
-if !_rand!==12 echo try typing "with style" when exiting
-if !_rand!==13 echo elmo
-if !_rand!==14 echo gnorm gnat says: trans rights are human rights
-if !_rand!==15 echo wrapper inline
-goto wrapperidle
-
-:slayerstestaments
-echo:
-echo In the first age,
-PING -n 3 127.0.0.1>nul
-echo In the first battle,
-PING -n 3 127.0.0.1>nul
-echo When the shadows first lengthened,
-PING -n 4 127.0.0.1>nul
-echo One stood.
-PING -n 3 127.0.0.1>nul
-echo Slowed by the waste of unoptimized websites,
-PING -n 4 127.0.0.1>nul
-echo His soul harvested by the trackers of Google
-PING -n 5 127.0.0.1>nul
-echo And exposed beyond anonymity, 
-PING -n 4 127.0.0.1>nul
-echo He chose the path of perpetual torment.
-PING -n 6 127.0.0.1>nul
-echo In his ravenous hatred,
-PING -n 3 127.0.0.1>nul
-echo He found no peace,
-PING -n 3 127.0.0.1>nul
-echo And with boiling blood,
-PING -n 3 127.0.0.1>nul
-echo He scoured the search results,
-PING -n 4 127.0.0.1>nul
-echo Seeking vengeance against the companies who had wronged him.
-PING -n 6 127.0.0.1>nul
-echo He wore the crown of the Taskkillers,
-PING -n 4 127.0.0.1>nul
-echo and those that tasted the bite of his sword
-PING -n 5 127.0.0.1>nul
-echo named him...
-PING -n 3 127.0.0.1>nul
-echo the Browser Slayer.
-PING -n 3 127.0.0.1>nul
-:: here comes something that looks awesome normaly but is disgusting when escaped for batch
-:: credit to http://www.gamers.org/~fpv/doomlogo.html
-echo ^=^=^=^=^=^=^=^=^=^=^=^=^=^=^=^=^=     ^=^=^=^=^=^=^=^=^=^=^=^=^=^=^=     ^=^=^=^=^=^=^=^=^=^=^=^=^=^=^=   ^=^=^=^=^=^=^=^=  ^=^=^=^=^=^=^=^=
-echo ^\^\ ^. ^. ^. ^. ^. ^. ^.^\^\   //^. ^. ^. ^. ^. ^. ^.^\^\   //^. ^. ^. ^. ^. ^. ^.^\^\  ^\^\^. ^. ^.^\^\// ^. ^. //
-echo ^|^|^. ^. ^._____^. ^. ^.^|^| ^|^|^. ^. ^._____^. ^. ^.^|^| ^|^|^. ^. ^._____^. ^. ^.^|^| ^|^| ^. ^. ^.^\/ ^. ^. ^.^|^|
-echo ^|^| ^. ^.^|^|   ^|^|^. ^. ^|^| ^|^| ^. ^.^|^|   ^|^|^. ^. ^|^| ^|^| ^. ^.^|^|   ^|^|^. ^. ^|^| ^|^|^. ^. ^. ^. ^. ^. ^. ^|^|
-echo ^|^|^. ^. ^|^|   ^|^| ^. ^.^|^| ^|^|^. ^. ^|^|   ^|^| ^. ^.^|^| ^|^|^. ^. ^|^|   ^|^| ^. ^.^|^| ^|^| ^. ^| ^. ^. ^. ^. ^.^|^|
-echo ^|^| ^. ^.^|^|   ^|^|^. _-^|^| ^|^|-_ ^.^|^|   ^|^|^. ^. ^|^| ^|^| ^. ^.^|^|   ^|^|^. _-^|^| ^|^|-_^.^|^\ ^. ^. ^. ^. ^|^|
-echo ^|^|^. ^. ^|^|   ^|^|-^'  ^|^| ^|^|  ^`-^|^|   ^|^| ^. ^.^|^| ^|^|^. ^. ^|^|   ^|^|-^'  ^|^| ^|^|  ^`^|^\_ ^. ^.^|^. ^.^|^|
-echo ^|^| ^. _^|^|   ^|^|    ^|^| ^|^|    ^|^|   ^|^|_ ^. ^|^| ^|^| ^. _^|^|   ^|^|    ^|^| ^|^|   ^|^\ ^`-_/^| ^. ^|^|
-echo ^|^|_-^' ^|^|  ^.^|/    ^|^| ^|^|    ^\^|^.  ^|^| ^`-_^|^| ^|^|_-^' ^|^|  ^.^|/    ^|^| ^|^|   ^| ^\  / ^|-_^.^|^|
-echo ^|^|    ^|^|_-^'      ^|^| ^|^|      ^`-_^|^|    ^|^| ^|^|    ^|^|_-^'      ^|^| ^|^|   ^| ^\  / ^|  ^`^|^|
-echo ^|^|    ^`^'         ^|^| ^|^|         ^`^'    ^|^| ^|^|    ^`^'         ^|^| ^|^|   ^| ^\  / ^|   ^|^|
-echo ^|^|            ^.^=^=^=^' ^`^=^=^=^.         ^.^=^=^=^'^.^`^=^=^=^.         ^.^=^=^=^' /^=^=^. ^|  ^\/  ^|   ^|^|
-echo ^|^|         ^.^=^=^'   ^\_^|-_ ^`^=^=^=^. ^.^=^=^=^'   _^|_   ^`^=^=^=^. ^.^=^=^=^' _-^|/   ^`^=^=  ^\/  ^|   ^|^|
-echo ^|^|      ^.^=^=^'    _-^'    ^`-_  ^`^=^'    _-^'   ^`-_    ^`^=^'  _-^'   ^`-_  /^|  ^\/  ^|   ^|^|
-echo ^|^|   ^.^=^=^'    _-^'          ^`-__^\^._-^'         ^`-_^./__-^'         ^`^' ^|^. /^|  ^|   ^|^|
-echo ^|^|^.^=^=^'    _-^'                                                     ^`^' ^|  /^=^=^.^|^|
-echo ^=^=^'    _-^'                                                            ^\/   ^`^=^=
-echo ^\   _-^'                                                                ^`-_   /
-echo  ^`^'^'                                                                      ^`^`^'
-goto wrapperidle
-
 ::::::::::::::
 :: Shutdown ::
 ::::::::::::::
 
 :: Confirmation before shutting down
+:exitwrapperconfirm
 echo:
 echo Are you sure you want to quit Cartoons?
 echo Be sure to save all your work.
@@ -386,7 +258,7 @@ echo You must answer Yes or No. && goto exitwrapperretry
 
 title Cartoons [Shutting down...]
 
-:: Shut down Node.js and http-server
+:: Shut down Node.js
 if !VERBOSEWRAPPER!==y (
 	if !DRYRUN!==n ( TASKKILL /IM node.exe /F )
 	echo:
@@ -396,19 +268,27 @@ if !VERBOSEWRAPPER!==y (
 
 :: This is where I get off.
 echo Cartoons has been shut down.
+if !FUCKOFF!==y ( echo You're a good listener. )
+echo This window will now close.
 if !INCLUDEDCHROMIUM!==y (
 	echo You can close the web browser now.
 )
-echo Open start_cartoons.bat again to start V:R again.
+echo Open start_cartoons.bat again to start Cartoons again.
 if !DRYRUN!==y ( echo Go wet your run next time. ) 
 pause & exit
 
-:exitwithstyle
-title Cartoons [Shutting down... WITH STYLE]
-echo SHUTTING DOWN CARTOONS
-PING -n 3 127.0.0.1>nul
-exit
 
+:patched
+title candypaper nointernet PATCHED edition
+color 43
+echo OH MY GODDDDD
+PING -n 3 127.0.0.1>nul
+echo SWEETSSHEET LACKOFINTERNS PATCHED DETECTED^^!^^!^^!^^!^^!^^!^^!^^!^^!^^!^^!^^!
+PING -n 3 127.0.0.1>nul
+echo can never be use again...
+PING -n 4 127.0.0.1>nul
+echo whoever put patch.jpeg back, you are grounded grounded gorrudjnmed for 6000
+PING -n 3 127.0.0.1>nul
 :grr
 echo g r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r 
 goto grr
@@ -417,14 +297,14 @@ goto grr
 if not exist utilities ( md utilities )
 echo :: Cartoons Config>> utilities\config.bat
 echo :: This file is modified by settings.bat. It is not organized, but comments for each setting have been added.>> utilities\config.bat
-echo :: You should be using settings.bat, and not touching this. Remastered relies on this file remaining consistent, and it's easy to mess that up.>> utilities\config.bat
+echo :: You should be using settings.bat, and not touching this. Offline relies on this file remaining consistent, and it's easy to mess that up.>> utilities\config.bat
 echo:>> utilities\config.bat
 echo :: Opens this file in Notepad when run>> utilities\config.bat
 echo setlocal>> utilities\config.bat
 echo if "%%SUBSCRIPT%%"=="" ( pushd "%~dp0" ^& start notepad.exe config.bat ^& exit )>> utilities\config.bat
 echo endlocal>> utilities\config.bat
 echo:>> utilities\config.bat
-echo :: Shows exactly Remastered is doing, and never clears the screen. Useful for development and troubleshooting. Default: n>> utilities\config.bat
+echo :: Shows exactly Offline is doing, and never clears the screen. Useful for development and troubleshooting. Default: n>> utilities\config.bat
 echo set VERBOSEWRAPPER=n>> utilities\config.bat
 echo:>> utilities\config.bat
 echo :: Won't check for dependencies (flash, node, etc) and goes straight to launching. Useful for speedy launching post-install. Default: n>> utilities\config.bat
@@ -447,5 +327,11 @@ echo set BROWSER_TYPE=chrome>> utilities\config.bat
 echo:>> utilities\config.bat
 echo :: Runs through all of the scripts code, while never launching or installing anything. Useful for development. Default: n>> utilities\config.bat
 echo set DRYRUN=n>> utilities\config.bat
+echo:>> utilities\config.bat
+echo :: auto update (what do you think it does, obvious)>> utilities\config.bat
+echo set AUTOUPDATE=y>> utilities\config.bat
+echo:>> utilities\config.bat
+echo :: discord rpc>> utilities\config.bat
+echo set RPC=n>> utilities\config.bat
 echo:>> utilities\config.bat
 goto returnfromconfigcopy
