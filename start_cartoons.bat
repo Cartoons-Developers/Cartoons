@@ -92,7 +92,7 @@ if !AUTOUPDATE!==y (
 :: Starting Wrapper ::
 ::::::::::::::::::::::
 
-title Cartoons v!WRAPPER_VER! [Loading...]
+title Cartoons [Loading...]
 
 :: Close existing node apps
 :: Hopefully fixes EADDRINUSE errors??
@@ -156,7 +156,7 @@ cls
 :wrapperstarted
 
 echo:
-echo Cartoons v!WRAPPER_VER! running
+echo Cartoons running
 echo A project from VisualPlugin adapted by GoTest334 and the Cartoons team
 echo:
 if !VERBOSEWRAPPER!==n ( echo DON'T CLOSE THIS WINDOW^^! Use the quit option ^(0^) when you're done. )
@@ -404,7 +404,7 @@ if !DRYRUN!==y ( echo Go wet your run next time. )
 pause & exit
 
 :exitwithstyle
-title Cartoons v!WRAPPER_VER! [Shutting down... WITH STYLE]
+title Cartoons [Shutting down... WITH STYLE]
 echo SHUTTING DOWN CARTOONS
 PING -n 3 127.0.0.1>nul
 exit
