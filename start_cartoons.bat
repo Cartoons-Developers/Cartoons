@@ -1,6 +1,7 @@
 :: Cartoons Launcher
 :: License: MIT
 title Cartoons [Initializing...]
+
 ::::::::::::::::::::
 :: Initialization ::
 ::::::::::::::::::::
@@ -40,46 +41,9 @@ if not exist utilities ( goto error_location )
 if not exist wrapper ( goto error_location )
 if not exist server ( goto error_location )
 
-:: Create checks folder if nonexistent
-if not exist "utilities\checks" md utilities\checks
-
-:: Operator, attention!
-if not exist "utilities\checks\disclaimer.txt" (
-	echo DISCLAIMER
-  echo:
-	echo Cartoons is a project made by Joey to give people the ability to use the LVM freely with the business themes and no charge whatsoever.
-	echo By using this product, you agree to the terms and conditions, which you must read before using the software.
-	echo all of the devs think that use of this software is justified.
-	echo:
-	echo I Joey do not promote piracy whatsoever, I just want people to feel free to use business friendly and the non business themes without having to pay.
-	echo:
-	echo Excluding Adobe Flash and GoAnimate Inc's assets, Cartoons is free/libre software.
-	echo You are free to redistribute and/or modify it under the terms of the MIT ^(aka Expat^) license,
-	echo except for some dependencies which have different licenses with slightly different rights.
-	echo Read the LICENSE file in Cartoons's base folder and the licenses in utilities/sourcecode for more info.
-	echo:
-	echo By continuing to use Cartoons, you acknowledge the nature of this project, and your right to use it.
-	echo If you object to any of this, feel free to close Cartoons now.
-	echo You will be allowed to accept 20 seconds after this message has appeared.
-	echo: 
-	PING -n 21 127.0.0.1>nul
-	echo If you still want to use Cartoons, press Y. If you no longer want to, press N.
-	:disclaimacceptretry
-	set /p ACCEPTCHOICE= Response:
-	echo:
-	if not '!acceptchoice!'=='' set acceptchoice=%acceptchoice:~0,1%
-	if /i "!acceptchoice!"=="y" goto disclaimaccepted
-	if /i "!acceptchoice!"=="n" exit
-	goto disclaimacceptretry
-	:disclaimaccepted
-	echo: 
-	echo Sorry for all the legalese, let's get back on track.
-	echo You've accepted the disclaimer. To reread it, remove this file. > utilities\checks\disclaimer.txt
-)
-
 :: Welcome, Director Ford!
 echo Cartoons
-echo A project from PurpleCreation adapted by The Cartoons Team
+echo A project from VisualPlugin adapted by the Cartoons team
 echo Version !WRAPPER_VER!
 echo:
 
@@ -102,590 +66,37 @@ if not exist utilities\config.bat ( echo Something is horribly wrong. You may be
 call utilities\config.bat
 :configavailable
 
-::::::::::::::::::::::
-:: Dependency Check ::
-::::::::::::::::::::::
-
-if !SKIPCHECKDEPENDS!==y (
-	echo Checking dependencies has been skipped.
-	echo:
-	goto skip_dependency_install
-)
-
-if !VERBOSEWRAPPER!==n (
-	echo Checking for dependencies...
-	echo:
-)
-
-title Cartoons v!WRAPPER_VER! [Checking dependencies...]
-
-:: Preload variables
-set NEEDTHEDEPENDERS=n
-set ADMINREQUIRED=n
-set FLASH_DETECTED=n
-set FLASH_CHROMIUM_DETECTED=n
-set FLASH_FIREFOX_DETECTED=n
-set NODEJS_DETECTED=n
-set HTTPSERVER_DETECTED=n
-set HTTPSCERT_DETECTED=n
-if !INCLUDEDCHROMIUM!==y set BROWSER_TYPE=chrome
-
-:: Flash Player
-if !VERBOSEWRAPPER!==y ( echo Checking for Flash installation... )
-if exist "!windir!\SysWOW64\Macromed\Flash\*pepper.exe" set FLASH_CHROMIUM_DETECTED=y
-if exist "!windir!\System32\Macromed\Flash\*pepper.exe" set FLASH_CHROMIUM_DETECTED=y
-if exist "!windir!\SysWOW64\Macromed\Flash\*plugin.exe" set FLASH_FIREFOX_DETECTED=y
-if exist "!windir!\System32\Macromed\Flash\*plugin.exe" set FLASH_FIREFOX_DETECTED=y
-if !BROWSER_TYPE!==chrome (
-	if !FLASH_CHROMIUM_DETECTED!==n (
-		echo Flash for Chrome could not be found.
-		echo:
-		set NEEDTHEDEPENDERS=y
-		set ADMINREQUIRED=y
-		goto flash_checked
+:: check for updates
+pushd "%~dp0"
+if !AUTOUPDATE!==y ( 
+	pushd "%~dp0"
+	if exist .git (
+		echo Updating...
+		call utilities\PortableGit\bin\git.exe checkout main
+		call utilities\PortableGit\bin\git.exe fetch --all
+		call utilities\PortableGit\bin\git.exe reset --hard origin/main
+		PING -n 3 127.0.0.1>nul
+		cls
 	) else (
-		echo Flash is installed.
-		echo:
-		set FLASH_DETECTED=y
-		goto flash_checked
-	)
-)
-if !BROWSER_TYPE!==firefox (
-	if !FLASH_FIREFOX_DETECTED!==n (
-		echo Flash for Firefox could not be found.
-		echo:
-		set NEEDTHEDEPENDERS=y
-		set ADMINREQUIRED=y
-		goto flash_checked
-	) else (
-		echo Flash is installed.
-		echo:
-		set FLASH_DETECTED=y
-		goto flash_checked
-	)
-)
-:: just assume chrome it's what everyone uses
-if !BROWSER_TYPE!==n (
-	if !FLASH_CHROMIUM_DETECTED!==n (
-		echo Flash for Chrome could not be found.
-		echo:
-		set NEEDTHEDEPENDERS=y
-		set ADMINREQUIRED=y
-		goto flash_checked
-	) else (
-		echo Flash is installed.
-		echo:
-		set FLASH_DETECTED=y
-		goto flash_checked
-	)
-)
-:flash_checked
-
-:: Node.js
-if !VERBOSEWRAPPER!==y ( echo Checking for Node.js installation... )
-for /f "delims=" %%i in ('npm -v 2^>nul') do set output=%%i
-IF "!output!" EQU "" (
-	echo Node.js could not be found.
-	echo:
-	set NEEDTHEDEPENDERS=y
-	set ADMINREQUIRED=y
-	goto httpserver_checked
-) else (
-	echo Node.js is installed.
-	echo:
-	set NODEJS_DETECTED=y
-)
-:nodejs_checked
-
-:: http-server
-if !VERBOSEWRAPPER!==y ( echo Checking for http-server installation... )
-npm list -g | findstr "http-server" >nul
-if !errorlevel! == 0 (
-	echo http-server is installed.
-	echo:
-	set HTTPSERVER_DETECTED=y
-) else (
-	echo http-server could not be found.
-	echo:
-	set NEEDTHEDEPENDERS=y
-)
-:httpserver_checked
-
-:: HTTPS cert
-if !VERBOSEWRAPPER!==y ( echo Checking for HTTPS certificate... )
-certutil -store -enterprise root | findstr "WOCRTV3" >nul
-if !errorlevel! == 0 (
-	echo HTTPS cert installed.
-	echo:
-	set HTTPSCERT_DETECTED=y
-) else (
-	:: backup check in case non-admin method used
-	if exist "utilities\checks\httpscert.txt" (
-		echo HTTPS cert probably installed.
-		echo:
-		set HTTPSCERT_DETECTED=y
-	) else (
-		echo HTTPS cert could not be found.
-		echo:
-		set NEEDTHEDEPENDERS=y
-	)
-)
-popd
-
-:: Assumes nothing is installed during a dry run
-if !DRYRUN!==y (
-	echo Let's just ignore anything we just saw above.
-	echo Nothing was found. Nothing exists. It's all fake.
-	set NEEDTHEDEPENDERS=y
-	set ADMINREQUIRED=y
-	set FLASH_DETECTED=n
-	set FLASH_CHROMIUM_DETECTED=n
-	set FLASH_FIREFOX_DETECTED=n
-	set NODEJS_DETECTED=n
-	set HTTPSERVER_DETECTED=n
-	set HTTPSCERT_DETECTED=n
-	set BROWSER_TYPE=n
-)
-
-::::::::::::::::::::::::
-:: Dependency Install ::
-::::::::::::::::::::::::
-
-if !NEEDTHEDEPENDERS!==y (
-	if !SKIPDEPENDINSTALL!==n (
-		echo:
-		echo Installing missing dependencies...
-		echo:
-	) else (
-	echo Skipping dependency install.
-	goto skip_dependency_install
+		echo Git not found. Skipping update.
+		PING -n 3 127.0.0.1>nul
+		cls
 	)
 ) else (
-	echo All dependencies are available.
-	echo Turning off checking dependencies...
-	echo:
-	:: Initialize vars
-	set CFG=utilities\config.bat
-	set TMPCFG=utilities\tempconfig.bat
-	:: Loop through every line until one to edit
-	if exist !tmpcfg! del !tmpcfg!
-	set /a count=1
-	for /f "tokens=1,* delims=0123456789" %%a in ('find /n /v "" ^< !cfg!') do (
-		set "line=%%b"
-		>>!tmpcfg! echo(!line:~1!
-		set /a count+=1
-		if !count! GEQ 14 goto linereached
-	)
-	:linereached
-	:: Overwrite the original setting
-	echo set SKIPCHECKDEPENDS=y>> !tmpcfg!
-	echo:>> !tmpcfg!
-	:: Print the last of the config to our temp file
-	more +15 !cfg!>> !tmpcfg!
-	:: Make our temp file the normal file
-	copy /y !tmpcfg! !cfg! >nul
-	del !tmpcfg!
-	:: Set in this script
-	set SKIPCHECKDEPENDS=y
-	goto skip_dependency_install
+	echo Auto-updating is off. Skipping update.
+	PING -n 3 127.0.0.1>nul
+	cls
 )
-
-title Cartoons [Installing dependencies...]
-
-:: Preload variables
-set INSTALL_FLAGS=ALLUSERS=1 /norestart
-set SAFE_MODE=n
-if /i "!SAFEBOOT_OPTION!"=="MINIMAL" set SAFE_MODE=y
-if /i "!SAFEBOOT_OPTION!"=="NETWORK" set SAFE_MODE=y
-set CPU_ARCHITECTURE=what
-if /i "!processor_architecture!"=="x86" set CPU_ARCHITECTURE=32
-if /i "!processor_architecture!"=="AMD64" set CPU_ARCHITECTURE=64
-if /i "!PROCESSOR_ARCHITEW6432!"=="AMD64" set CPU_ARCHITECTURE=64
-
-:: Check for admin if installing Flash or Node.js
-:: Skipped in Safe Mode, just in case anyone is running Cartoons in safe mode... for some reason
-:: and also because that was just there in the code i used for this and i was like "eh screw it why remove it"
-if !ADMINREQUIRED!==y (
-	if !VERBOSEWRAPPER!==y ( echo Checking for Administrator rights... && echo:)
-	if /i not "!SAFE_MODE!"=="y" (
-		fsutil dirty query !systemdrive! >NUL 2>&1
-		if /i not !ERRORLEVEL!==0 (
-			color cf
-			if !VERBOSEWRAPPER!==n ( cls )
-			echo:
-			echo ERROR
-			echo:
-			if !FLASH_DETECTED!==n (
-				if !NODEJS_DETECTED!==n (
-					echo Cartoons needs to install Flash and Node.js.
-				) else (
-					echo Cartoons needs to install Flash.
-				)
-			) else (
-				echo Cartoons needs to install Node.js.
-			)
-			echo To do this, it must be started with Admin rights.
-			echo:
-			echo Close this window and re-open Cartoons as an Admin.
-			echo ^(right-click start_cartoons.bat and click "Run as Administrator"^)
-			echo:
-			if !DRYRUN!==y (
-				echo ...yep, dry run is going great so far, let's skip the exit
-				pause
-				goto postadmincheck
-			)
-			pause
-			exit
-		)
-	)
-	if !VERBOSEWRAPPER!==y ( echo Admin rights detected. && echo:)
-)
-:postadmincheck
-
-:: Flash Player
-if !FLASH_DETECTED!==n (
-	:start_flash_install
-	echo Installing Flash Player...
-	echo:
-	if !BROWSER_TYPE!==n (
-		:: Ask what type of browser is being used.
-		echo What web browser do you use? If it isn't here,
-		echo look up whether it's based on Chromium or Firefox.
-		echo If it's not based on either, then
-		echo Wrapper: Offline will not be able to install Flash.
-		echo Unless you know what you're doing and have a
-		echo version of Flash made for your browser, please
-		echo install a Chrome or Firefox based browser.
-		echo:
-		echo Enter 1 for Chrome
-		echo Enter 2 for Firefox
-		echo Enter 3 for Edge
-		echo Enter 4 for Opera
-		echo Enter 5 for Brave
-		echo Enter 6 for Chrome-based browser
-		echo Enter 7 for Firefox-based browser
-		echo Enter 0 for a non-standard browser ^(skips install^)
-		:browser_ask
-		set /p FLASHCHOICE=Response:
-		echo:
-		if "!flashchoice!"=="1" goto chromium_chosen
-		if "!flashchoice!"=="2" goto firefox_chosen
-		if "!flashchoice!"=="3" goto chromium_chosen
-		if "!flashchoice!"=="4" goto chromium_chosen
-		if "!flashchoice!"=="5" goto chromium_chosen
-		if "!flashchoice!"=="6" goto chromium_chosen
-		if "!flashchoice!"=="7" goto firefox_chosen
-		if "!flashchoice!"=="0" echo Flash will not be installed.&& goto after_flash_install
-		echo You must pick a browser.&& goto browser_ask
-
-		:chromium_chosen
-		set BROWSER_TYPE=chrome && if !VERBOSEWRAPPER!==y ( echo Chromium-based browser picked. && echo:) && goto escape_browser_ask
-
-		:firefox_chosen
-		set BROWSER_TYPE=firefox && if !VERBOSEWRAPPER!==y ( echo Firefox-based browser picked. ) && goto escape_browser_ask
-	)
-
-	:escape_browser_ask
-	echo To install Flash Player, Cartoons must kill any currently running web browsers.
-	echo Please make sure any work in your browser is saved before proceeding.
-	echo Cartoons will not continue installation until you press a key.
-	echo:
-	pause
-	echo:
-
-	:: Summon the Browser Slayer
-	if !DRYRUN!==y (
-		echo The users brought down the batch script upon the Browser Slayer, and in his defeat entombed him in the unactivated code.
-		goto lurebrowserslayer
-	)
-	echo Rip and tear, until it is done.
-	for %%i in (firefox,palemoon,iexplore,microsoftedge,chrome,chrome64,opera,brave) do (
-		if !VERBOSEWRAPPER!==y (
-			 taskkill /f /im %%i.exe /t
-			 wmic process where name="%%i.exe" call terminate
-		) else (
-			 taskkill /f /im %%i.exe /t >nul
-			 wmic process where name="%%i.exe" call terminate >nul
-		)
-	)
-	:lurebrowserslayer
-	echo:
-
-	if !BROWSER_TYPE!==chrome (
-		echo Starting Flash for Chrome installer...
-		if not exist "utilities\installers\flash_windows_chromium.msi" (
-			echo ...erm. Bit of an issue there actually. The installer doesn't exist.
-			echo A normal copy of Cartoons should come with one.
-			echo You may be able to find a copy on this website:
-			echo https://helpx.adobe.com/flash-player/kb/archived-flash-player-versions.html
-			echo Although Flash is needed, Offline will continue launching.
-			pause
-		)
-		if !DRYRUN!==n ( msiexec /i "utilities\installers\flash_windows_chromium.msi" !INSTALL_FLAGS! /quiet )
-	)
-	if !BROWSER_TYPE!==firefox (
-		echo Starting Flash for Firefox installer...
-		if not exist "utilities\installers\flash_windows_firefox.msi" (
-			echo ...erm. Bit of an issue there actually. The installer doesn't exist.
-			echo A normal copy of Cartoons should come with one.
-			echo You may be able to find a copy on this website:
-			echo https://helpx.adobe.com/flash-player/kb/archived-flash-player-versions.html
-			echo Although Flash is needed, Cartoons will try to install anything else it can.
-			pause
-			goto after_flash_install
-		)
-		if !DRYRUN!==n ( msiexec /i "utilities\installers\flash_windows_firefox.msi" !INSTALL_FLAGS! /quiet )
-	)
-
-	echo Flash has been installed.
-	echo:
-)
-:after_flash_install
-
-:: Node.js
-if !NODEJS_DETECTED!==n (
-	echo Installing Node.js...
-	echo:
-	:: Install Node.js
-	if !CPU_ARCHITECTURE!==64 (
-		if !VERBOSEWRAPPER!==y ( echo 64-bit system detected, installing 64-bit Node.js. )
-		if not exist "utilities\installers\node_windows_x64.msi" (
-			echo We have a problem. The 64-bit Node.js installer doesn't exist.
-			echo A normal copy of Cartoons should come with one.
-			echo You should be able to find a copy on this website:
-			echo https://nodejs.org/en/download/
-			echo Although Node.js is needed, Cartoons will try to install anything else it can.
-			pause
-			goto after_nodejs_install
-		)
-		echo Proper Node.js installation doesn't seem possible to do automatically.
-		echo You can just keep clicking next until it finishes, and Cartoons will continue once it closes.
-		if !DRYRUN!==n ( msiexec /i "utilities\installers\node_windows_x64.msi" !INSTALL_FLAGS! )
-		goto nodejs_installed
-	)
-	if !CPU_ARCHITECTURE!==32 (
-		if !VERBOSEWRAPPER!==y ( echo 32-bit system detected, installing 32-bit Node.js. )
-		if not exist "utilities\installers\node_windows_x32.msi" (
-			echo We have a problem. The 32-bit Node.js installer doesn't exist.
-			echo A normal copy of Cartoons should come with one.
-			echo You should be able to find a copy on this website:
-			echo https://nodejs.org/en/download/
-			echo Although Node.js is needed, Offline will try to install anything else it can.
-			pause
-			goto after_nodejs_install
-		)
-		echo Proper Node.js installation doesn't seem possible to do automatically.
-		echo You can just keep clicking next until it finishes, and Cartoons will continue once it closes.
-		if !DRYRUN!==n ( msiexec /i "utilities\installers\node_windows_x32.msi" !INSTALL_FLAGS! )
-		goto nodejs_installed
-	)
-	if !CPU_ARCHITECTURE!==what (
-		echo:
-		echo Well, this is a little embarassing.
-		echo Cartoons can't tell if you're on a 32-bit or 64-bit system.
-		echo Which means it doesn't know which version of Node.js to install...
-		echo:
-		echo If you have no idea what that means, press 1 to just try anyway.
-		echo If you're in the future with newer architectures or something
-		echo and you know what you're doing, then press 3 to keep going.
-		echo:
-		:architecture_ask
-		set /p CPUCHOICE= Response:
-		echo:
-		if "!cpuchoice!"=="1" if !DRYRUN!==n ( msiexec /i "utilities\installers\node_windows_x32.msi" !INSTALL_FLAGS! ) && if !VERBOSEWRAPPER!==y ( echo Attempting 32-bit Node.js installation. ) && goto nodejs_installed
-		if "!cpuchoice!"=="3" echo Node.js will not be installed. && goto after_nodejs_install
-		echo You must pick one or the other.&& goto architecture_ask
-	)
-	:nodejs_installed
-	echo Node.js has been installed.
-	set NODEJS_DETECTED=y
-	echo:
-	goto install_cert
-)
-:after_nodejs_install
-
-:: http-server
-if !HTTPSERVER_DETECTED!==n (
-	if !NODEJS_DETECTED!==y (
-		echo Installing http-server...
-		echo:
-
-		:: Skip in dry run, not much use to run it
-		if !DRYRUN!==y (
-			echo ...actually, nah, let's skip this part.
-			goto httpserverinstalled
-		) 
-
-		:: Attempt to install through NPM normally
-		call npm install http-server -g
-
-		:: Double check for installation
-		echo Checking for http-server installation again...
-		npm list -g | find "http-server" > nul
-		if !errorlevel! == 0 (
-			goto httpserverinstalled
-		) else (
-			echo:
-			echo Online installation attempt failed. Trying again from local files...
-			echo:
-			if not exist "utilities\installers\http-server-master" (
-				echo Well, we'd try that if the files existed.
-				echo A normal copy of Cartoons should come with them.
-				echo You should be able to find a copy on this website:
-				echo https://www.npmjs.com/package/http-server
-				echo Although http-server is needed, Cartoons will try to install anything else it can.
-				pause
-				goto after_nodejs_install
-			)
-			call npm install utilities\installers\http-server-master -g
-			goto triplecheckhttpserver
-		)
-
-		:: Triple check for installation
-		echo Checking for http-server installation AGAIN...
-		:triplecheckhttpserver
-		npm list -g | find "http-server" > nul
-		if !errorlevel! == 0 (
-			goto httpserverinstalled
-		) else (
-			echo:
-			echo Local file installation failed. Something's not right.
-			echo Unless this was intentional, ask for support or install http-server manually.
-			echo Enter "npm install http-server -g" into a command prompt.
-			echo:
-			pause
-			exit
-		)
-	) else (
-		color cf
-		echo:
-		echo http-server is missing, but somehow Node.js has not been installed yet.
-		echo Seems either the install failed, or Cartoons managed to skip it.
-		echo If installing directly from nodejs.org does not work, something is horribly wrong.
-		echo Please ask for help in the #support channel on Discord, or email me.
-		pause
-		exit
-	)
-	:httpserverinstalled
-	echo http-server has been installed.
-	echo:
-	goto install_cert
-)
-
-:: Install HTTPS certificate
-:install_cert
-if !HTTPSCERT_DETECTED!==n (
-	echo Installing HTTPS certificate...
-	echo:
-	if not exist "server\the.crt" (
-		echo ...except it doesn't exist for some reason.
-		echo Cartoons requires this to run.
-		echo You should get a "the.crt" file from someone else, or redownload Cartoons.
-		echo Offline has nothing left to do since it can't launch without the.crt, so it will close.
-		pause
-		exit
-	)
-	:: Check for admin
-	if /i not "!SAFE_MODE!"=="y" (
-		fsutil dirty query !systemdrive! >NUL 2>&1
-		if /i not !ERRORLEVEL!==0 (
-			if !VERBOSEWRAPPER!==n ( cls )
-			echo For Cartoons to work, it needs an HTTPS certificate to be installed.
-			echo If you have administrator privileges, you should reopen start_cartoons.bat as Admin.
-			echo ^(do this by right-clicking start_cartoons and click "Run as Administrator"^)
-			echo:
-			echo If you can't do that, there's another method, but it's less reliable and is done per-browser.
-			echo: 
-			echo Press Y if you have admin access, and press N if you don't.
-			:certaskretry
-			set /p CERTCHOICE= Response:
-			echo:
-			if not '!certchoice!'=='' set certchoice=%certchoice:~0,1%
-			if /i "!certchoice!"=="y" echo This window will now close so you can restart it with admin. & pause & exit
-			if /i "!certchoice!"=="n" goto certnonadmin
-			echo You must answer Yes or No. && goto certaskretry
-
-			:: Non-admin cert install
-			pushd utilities
-			start SilentCMD open_http-server.bat
-			popd
-			echo: 
-			echo A web browser window will open.
-			echo When you see a security notice, go past it.
-			echo This is completely harmless in a local setting like this.
-			echo If you see a message like this on the real internet, you should stay away.
-			:: Pause to allow startup
-			PING -n 8 127.0.0.1>nul
-			if !INCLUDEDCHROMIUM!==n (
-				if !CUSTOMBROWSER!==n (
-					start https://localhost:4664/certbypass.html
-				) else (
-					start !CUSTOMBROWSER! https://localhost:4664/certbypass.html >nul
-				)
-			) else (
-				pushd utilities\ungoogled-chromium
-				start chrome.exe --allow-outdated-plugins --user-data-dir=the_profile https://localhost:4664/certbypass.html >nul
-				popd
-			)
-			pause
-			echo:
-			echo If you intend on using another browser, you'll have to do this again by going to the server page and passing the security message.
-			echo You've used a non-admin method of installing the HTTPS certificate. To redo the process, delete this file. > utilities\checks\httpscert.txt
-			goto after_cert_install
-		)
-	)
-	pushd server
-	if !VERBOSEWRAPPER!==y (
-		if !DRYRUN!==n ( certutil -addstore -f -enterprise -user root the.crt )
-	) else (
-		if !DRYRUN!==n ( certutil -addstore -f -enterprise -user root the.crt >nul )
-	)
-	set ADMINREQUIRED=y
-	popd
-)
-:after_cert_install
-
-:: Alert user to restart Cartoons without running as Admin
-if !ADMINREQUIRED!==y (
-	color 20
-	if !VERBOSEWRAPPER!==n ( cls )
-	echo:
-	echo Dependencies needing Admin now installed^^!
-	echo:
-	echo Cartoons no longer needs Admin rights,
-	echo please restart normally by double-clicking.
-	echo:
-	echo If you saw this from running normally,
-	echo Cartoons should continue normally after a restart.
-	echo:
-	if !DRYRUN!==y (
-		echo ...you enjoying the dry run experience? Skipping closing.
-		pause
-		color 0f
-		goto skip_dependency_install
-	)
-	pause
-	exit
-)
-color 0f
-echo All dependencies now installed^^! Continuing with Cartoons boot.
-echo:
-
-:skip_dependency_install
 
 ::::::::::::::::::::::
-:: Starting Cartoons ::
+:: Starting Wrapper ::
 ::::::::::::::::::::::
 
-title Cartoons [Loading...]
+title Cartoons v!WRAPPER_VER! [Loading...]
 
 :: Close existing node apps
 :: Hopefully fixes EADDRINUSE errors??
 if !VERBOSEWRAPPER!==y (
-        echo Closing any existing node and/or PHP apps and batch processes...
-	for %%i in (npm start,npm,http-server,HTTP-SERVER HASN'T STARTED,NODE.JS HASN'T STARTED YET) do (
-		if !DRYRUN!==n ( TASKKILL /FI "WINDOWTITLE eq %%i" >nul 2>&1 )
-	)
 	echo Closing any existing node apps...
 	if !DRYRUN!==n ( TASKKILL /IM node.exe /F )
 	echo:
@@ -693,19 +104,16 @@ if !VERBOSEWRAPPER!==y (
 	if !DRYRUN!==n ( TASKKILL /IM node.exe /F 2>nul )
 )
 
-:: Start Node.js and http-server 
-if !CEPSTRAL!==n (
-	echo Loading Node.js and http-server...
-) else (
-	echo Loading Node.js and http-server...
-)
+:: Start Node.js
+echo Loading Node.js...
 pushd utilities
 if !VERBOSEWRAPPER!==y (
-	if !DRYRUN!==n ( start /MIN open_http-server.bat )
-	if !DRYRUN!==n ( start /MIN open_nodejs.bat )
+	if !DRYRUN!==n (
+		start /MIN open_nodejs.bat
+	)
 ) else (
-	if !DRYRUN!==n ( start SilentCMD open_http-server.bat )
-	if !DRYRUN!==n ( start SilentCMD open_nodejs.bat )
+	if !DRYRUN!==n (
+		start SilentCMD open_nodejs.bat
 	)
 )
 popd
@@ -714,7 +122,7 @@ popd
 :: Prevents the video list opening too fast
 PING -n 6 127.0.0.1>nul
 
-:: Open Cartoons in preferred browser
+:: Open Wrapper in preferred browser
 if !INCLUDEDCHROMIUM!==n (
 	if !CUSTOMBROWSER!==n (
 		echo Opening Cartoons in your default browser...
@@ -730,7 +138,7 @@ if !INCLUDEDCHROMIUM!==n (
 	if !APPCHROMIUM!==y (
 		if !DRYRUN!==n ( start chrome.exe --allow-outdated-plugins --user-data-dir=the_profile --app=http://localhost:4343 )
 	) else (
-		if !DRYRUN!==n (  start chrome.exe --allow-outdated-plugins --user-data-dir=the_profile http://localhost:4343 )
+		if !DRYRUN!==n ( start chrome.exe --allow-outdated-plugins --user-data-dir=the_profile http://localhost:4343 )
 	)
 	popd
 )
@@ -741,15 +149,15 @@ echo Cartoons has been started^^! The video list should now be open.
 :: Post-Start ::
 ::::::::::::::::
 
-title Cartoons 
+title Cartoons v!WRAPPER_VER!
 if !VERBOSEWRAPPER!==y ( goto wrapperstarted )
 :wrapperstartedcls
 cls
 :wrapperstarted
 
 echo:
-echo Cartoons running
-echo A project from PurpleCreation adapted by Benson
+echo Cartoons v!WRAPPER_VER! running
+echo A project from VisualPlugin adapted by GoTest334 and the Cartoons team
 echo:
 if !VERBOSEWRAPPER!==n ( echo DON'T CLOSE THIS WINDOW^^! Use the quit option ^(0^) when you're done. )
 if !VERBOSEWRAPPER!==y ( echo Verbose mode is on, see the two extra CMD windows for extra output. )
@@ -758,8 +166,7 @@ if !JUSTIMPORTED!==y ( echo Note: You'll need to reload the editor for your file
 :: Hello, code wanderer. Enjoy seeing all the secret options easily instead of finding them yourself.
 echo:
 echo Enter 1 to reopen the video list
-echo Enter 2 to open the server page
-echo Enter 3 to import a file
+echo Enter ? to open the FAQ
 echo Enter clr to clean up the screen
 echo Enter 0 to close Cartoons
 set /a _rand=(!RANDOM!*67/32768)+1
@@ -962,7 +369,7 @@ goto wrapperidle
 
 :: Confirmation before shutting down
 echo:
-echo Are you sure you want to quit Wrapper: Offline?
+echo Are you sure you want to quit Cartoons?
 echo Be sure to save all your work.
 echo Type Y to quit, and N to go back.
 :exitwrapperretry
@@ -977,7 +384,7 @@ echo You must answer Yes or No. && goto exitwrapperretry
 
 :point_extraction
 
-title Cartoons v!WRAPPER_VER! [Shutting down...]
+title Cartoons [Shutting down...]
 
 :: Shut down Node.js and http-server
 if !VERBOSEWRAPPER!==y (
@@ -1002,17 +409,6 @@ echo SHUTTING DOWN CARTOONS
 PING -n 3 127.0.0.1>nul
 exit
 
-:patched
-title candypaper nointernet PATCHED edition
-color 43
-echo OH MY GODDDDD
-PING -n 3 127.0.0.1>nul
-echo SWEETSSHEET LACKOFINTERNS PATCHED DETECTED^^!^^!^^!^^!^^!^^!^^!^^!^^!^^!^^!^^!
-PING -n 3 127.0.0.1>nul
-echo can never be use again...
-PING -n 4 127.0.0.1>nul
-echo whoever put patch.jpeg back, you are grounded grounded gorrudjnmed for 6000
-PING -n 3 127.0.0.1>nul
 :grr
 echo g r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r 
 goto grr
