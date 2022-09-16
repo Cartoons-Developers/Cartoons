@@ -112,6 +112,9 @@
 	<char id="832007" name="Fox" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
 		<tags>cc2,_free</tags>
 	</char>
+	<char id="832030" name="Hamster" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
+		<tags>cc2,_free</tags>
+	</char>
 	<char id="832010" name="Gerbil" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
 		<tags>cc2,_free</tags>
 	</char>
