@@ -3513,7 +3513,7 @@
   </prop>
   <prop id="ncc_03donut.swf" name="Doughnut" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="11858" money="" sharing="" />
   <prop id="cc_secretfolder.swf" name="File" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9027" money="" sharing="" />
-  <prop id="fire.swf" name="Fife" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9027" money="" sharing="" />
+  <prop id="fire.swf" name="Fire" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9027" money="" sharing="" />
   <prop id="ncc_football.swf" name="Football" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="10921" money="" sharing=""/>
   <prop id="kitchen_fork.swf" name="Fork" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9022" money="" sharing="" />
   <prop id="lamp_floor.swf" name="Floor Lamp" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="11858" money="" sharing="" />
