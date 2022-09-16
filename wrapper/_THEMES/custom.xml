@@ -3600,6 +3600,10 @@
   <prop id="office_plant.swf" name="Potted Plant" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="8946" money="" sharing="" />
   <prop id="prohibition_sign.swf" name="Prohibition Sign" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9797" money="" sharing="" />
   <prop id="cc_saw.swf" name="Saw" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9025" money="" sharing="" />
+  <prop id="msp_school_bus" name="School Bus" holdable="" placeable="1" wearable="" facing="left" thumb="msp_car01_ncc_car01_full.swf" enable="Y" is_premium="N" aid="11038" money="" sharing="">
+    <state id="msp_school_bus_school_bus_full.swf" name="still" enable="Y" default="Y"/>
+    <state id="msp_school_bus_school_bus_on.swf" name="driving" enable="Y"/>
+  </prop>
   <prop id="ncc_crmtable02.swf" name="School Desk" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="Y" aid="11364" money="" sharing="" />
   <prop id="cc_screwdriver.swf" name="Screwdriver" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9026" money="" sharing="" />
   <prop id="cc_arrow2.swf" name="Shapes - Arrow" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9167" money="" sharing="" />
