@@ -3516,6 +3516,7 @@
     <state id="msp_dragon_dragon_still.swf" name="Still" enable="Y" default="Y" />
     <state id="msp_dragon_dragon_standing.swf" name="Standing" enable="Y" />
     <state id="msp_dragon_dragon_sitting.swf" name="Sitting" enable="Y" />
+    <state id="msp_dragon_dragon_sleeping.swf" name="Sleeping" enable="Y" />
     <state id="msp_dragon_dragon_walking.swf" name="Walking" enable="Y" />
     <state id="msp_dragon_dragon_flying.swf" name="Flying" enable="Y" />
     <state id="msp_dragon_dragon_breathing_fire.swf" name="Breathing Fire" enable="Y" />
