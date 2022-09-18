@@ -3512,6 +3512,14 @@
     <state id="msp_sldoor_ncc_sldoor02.swf" name="Open" enable="Y" />
   </prop>
   <prop id="ncc_03donut.swf" name="Doughnut" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="11858" money="" sharing="" />
+  <prop id="msp_dragon" name="Dragon" holdable="" placeable="1" wearable="" facing="left" thumb="msp_dragon_dragon_still.swf" enable="Y" is_premium="N" aid="9802" money="" sharing="">
+    <state id="msp_dragon_dragon_still.swf" name="Still" enable="Y" default="Y" />
+    <state id="msp_dragon_dragon_standing.swf" name="Standing" enable="Y" />
+    <state id="msp_dragon_dragon_sitting.swf" name="Sitting" enable="Y" />
+    <state id="msp_dragon_dragon_walking.swf" name="Walking" enable="Y" />
+    <state id="msp_dragon_dragon_flying.swf" name="Flying" enable="Y" />
+    <state id="msp_dragon_dragon_breathing_fire.swf" name="Breathing Fire" enable="Y" />
+  </prop>
   <prop id="cc_secretfolder.swf" name="File" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9027" money="" sharing="" />
   <prop id="fire.swf" name="Fire" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9027" money="" sharing="" />
   <prop id="ncc_football.swf" name="Football" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="10921" money="" sharing=""/>
