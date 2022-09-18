@@ -2569,7 +2569,8 @@
     <library type="GoBehindBody" id="gerbil_tail" path="gerbil_tail" name="gerbil_tail" thumb="gerbil_tail_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y" />
 	<library type="GoBehindBody" id="jerboa_tail" path="jerboa_tail" name="jerboa_tail" thumb="jerboa_tail_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y" />
     <library type="GoBehindBody" id="lion_tail" path="lion_tail" name="lion_tail" thumb="lion_tail_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y" />
-	<library type="GoBehindBody" id="monkey_tail" path="monkey_tail" name="monkey_tail" thumb="monkey_tail_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y" />
+	<library type="GoBehindBody" id="monkey_tail" path="monkey_tail" name="monkey_tail" thumb="monkey_tail_thumbnail.swf" display_order="10" money="0" sharing="0" enable="N" />
+	<library type="GoBehindBody" id="mouse_tail" path="mouse_tail" name="mouse_tail" thumb="mouse_tail_thumbnail.swf" display_order="10" money="0" sharing="0" enable="N" />
     <library type="GoBehindBody" id="raccoon_tail" path="raccoon_tail" name="raccoon_tail" thumb="raccoon_tail_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y" />
 	<library type="GoBehindBody" id="rat_tail" path="rat_tail" name="raccoon_tail" thumb="rat_tail_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y" />
     <library type="GoBehindBody" id="skunk_tail" path="skunk_tail" name="skunk_tail" thumb="skunk_tail_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y" />
