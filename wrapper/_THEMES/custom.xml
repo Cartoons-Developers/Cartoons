@@ -3430,6 +3430,7 @@
   </prop>
   <prop id="ncc_03hamburger.swf" name="Burger" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="11858" money="" sharing="" />
   <prop id="ncc_03chickenroll.swf" name="Burrito" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="11858" money="" sharing="" />
+  <prop id="ncc_cactus01.swf" name="Cactus" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9156" money="" sharing="" />
   <prop id="msp_cake01" name="Cake" holdable="" placeable="1" wearable="" facing="left" thumb="msp_cake01_ncc_cake01_full.swf" enable="Y" is_premium="N" aid="11355" money="" sharing="">
     <state id="msp_cake01_ncc_cake01_cut.swf" name="Sliced" enable="Y" />
     <state id="msp_cake01_ncc_cake01_full.swf" name="Full" enable="Y" default="Y" />
@@ -3591,6 +3592,7 @@
   <prop id="battlefield_oil_drum03.swf" name="Oil Drums" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9676" money="" sharing="" />
   <prop id="ncc_03onionring.swf" name="Onion Rings" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="11858" money="" sharing="" />
   <prop id="cc_paint_roller.swf" name="Paint Roller" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9023" money="" sharing="" />
+  <prop id="ncc_pumpkin.swf" name="Pumpkin" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9023" money="" sharing="" />
   <prop id="ncc_03orange.swf" name="Orange" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="11858" money="" sharing="" />
   <prop id="palm_tree01.swf" name="Palm Tree" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9587" money="" sharing="" />
   <prop id="pencil.swf" name="Pencil" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9797" money="" sharing="" />
