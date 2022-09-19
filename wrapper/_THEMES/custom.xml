@@ -3713,7 +3713,7 @@
     <state id="msp_phone_ncc_phone_front2.swf" name="front" enable="Y" default="Y"/>
   </prop>
   <prop id="ncc_paint01.swf" name="Picture" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="10731" money="0" sharing="0"/>
-  <prop id="ncc_paint02.swf" name="Picture" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="10732" money="0" sharing="0"/>
+  <prop id="ncc_paint01.swf" name="Picture" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="10732" money="0" sharing="0"/>
   <prop id="ncc_pic02_front.swf" name="Picture Frame" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="10752" money="0" sharing="0"/>
   <prop id="msp_pie" name="Pie" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_pie_ncc_pie01_full.swf" enable="Y" is_premium="N" aid="11374" money="0" sharing="0">
     <state id="msp_pie_ncc_pie01_cut.swf" name="sliced" enable="Y"/>
