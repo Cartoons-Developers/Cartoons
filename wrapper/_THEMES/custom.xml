@@ -3557,7 +3557,7 @@
     </c_parts>
   </prop>
   <prop id="crowd.swf" name="Crowd" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="Y" aid="11363" money="" sharing="" />
-  <prop id="ncc_03hpr_cup01.swf" name="Cup" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="11250" money="0" sharing="0" handstyle="flat"/>
+  <prop id="cup01.swf" name="Cup" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="11250" money="0" sharing="0" handstyle="flat"/>
   <prop id="cupcake.swf" name="Cupcake" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="11363" money="" sharing="" />
   <prop id="msp_stage_dec02" name="Decoration" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_stage_dec02_ncc_stage_dec02_off.swf" enable="Y" is_premium="N" aid="10852" money="0" sharing="0">
     <state id="msp_stage_dec02_ncc_stage_dec02_off.swf" name="off" enable="Y" default="Y"/>
