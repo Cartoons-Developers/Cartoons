@@ -3955,7 +3955,7 @@
     <state id="msp_trash_bin_ncc_trash_bin_full.swf" name="full" enable="Y" default="Y"/>
     <state id="msp_trash_bin_ncc_trash_bin_empty.swf" name="empty" enable="Y"/>
   </prop>
-  <prop id="glasses_03.swf" name="Whiskey" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="10636" money="0" sharing="0"/>
+  <prop id="glasses_03.swf" name="Whiskey" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="10636" money="0" sharing="0"/>
   <prop id="ncc_whhouse.swf" name="White House" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="11944" money="0" sharing="0"/>
   <prop id="white_board01.swf" name="Whiteboard" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="10567" money="0" sharing="0"/>
   <prop id="white_board02.swf" name="Whiteboard" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="10568" money="0" sharing="0"/>
