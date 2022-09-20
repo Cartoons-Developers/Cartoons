@@ -3556,6 +3556,7 @@
     </c_parts>
   </prop>
   <prop id="crowd.swf" name="Crowd" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="Y" aid="11363" money="" sharing="" />
+  <prop id="ncc_03hpr_cup01.swf" name="Cup" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="11250" money="0" sharing="0" handstyle="flat"/>
   <prop id="cupcake.swf" name="Cupcake" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="11363" money="" sharing="" />
   <prop id="msp_stage_dec02" name="Decoration" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_stage_dec02_ncc_stage_dec02_off.swf" enable="Y" is_premium="N" aid="10852" money="0" sharing="0">
     <state id="msp_stage_dec02_ncc_stage_dec02_off.swf" name="off" enable="Y" default="Y"/>
@@ -3596,7 +3597,9 @@
     <state id="msp_capboard01_ncc_capboard01_front.swf" name="front" enable="Y"/>
   </prop>
   <prop id="electric_drill.swf" name="Drill" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="3333" money="0" sharing="0" handstyle="stick"/>
+  <prop id="ncc_03drinks.swf" name="Drink" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="10924" money="0" sharing="0" handstyle="flat"/>
   <prop id="ncc_revodrum.swf" name="Drum" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="11926" money="0" sharing="0"/>
+  <prop id="ncc_drum_set01.swf" name="Drumset" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="10886" money="0" sharing="0"/>
   <prop id="cc_secretfolder.swf" name="File" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9027" money="" sharing="" />
   <prop id="fire.swf" name="Fire" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9027" money="" sharing="" />
   <prop id="ncc_football.swf" name="Football" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="10921" money="" sharing=""/>
@@ -3606,6 +3609,8 @@
   <prop id="ncc_03fries.swf" name="Fries" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="11858" money="" sharing="" />
   <prop id="ncc_rubbish_bin.swf" name="Garbage Can" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="10923" money="0" sharing="0"/>
   <prop id="nccxmas_present01.swf" name="Gift" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="11487" money="0" sharing="0"/>
+  <prop id="nccxmas_gingerman.swf" name="Gingerbread cookie" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="Y" aid="11477" money="0" sharing="0"/>
+  <prop id="nccxmas_gingerman_dish.swf" name="Gingerbread cookies" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="Y" aid="11478" money="0" sharing="0"/>
   <prop id="ncc_guitar01.swf" name="Guitar" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="10766" money="0" sharing="0"/>
   <prop id="ncc_guitar02.swf" name="Guitar" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="10767" money="0" sharing="0"/>
   <prop id="ncc_guitar03.swf" name="Guitar" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="10767" money="0" sharing="0"/>
@@ -3747,6 +3752,7 @@
   <prop id="ncc_03popcorn.swf" name="Popcorn" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="11858" money="" sharing="" />
   <prop id="office_plant.swf" name="Potted Plant" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="8946" money="" sharing="" />
   <prop id="prohibition_sign.swf" name="Prohibition Sign" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9797" money="" sharing="" />
+  <prop id="ncc_rainbow.swf" name="Rainbow" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="11379" money="0" sharing="0"/>
   <prop id="msp_fridge" name="Refrigerator" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_fridge_fridge_front_close.swf" enable="Y" is_premium="N" aid="10602" money="0" sharing="0">
     <state id="msp_fridge_fridge_front_close.swf" name="front closed" enable="Y" default="Y"/>
     <state id="msp_fridge_fridge_front_open.swf" name="front opened" enable="Y"/>
@@ -3766,6 +3772,16 @@
   <prop id="ncc_stone02.swf" name="Rock" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="10906" money="0" sharing="0"/>
   <prop id="ncc_stone03.swf" name="Rock" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="10907" money="0" sharing="0"/>
   <prop id="cc_saw.swf" name="Saw" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9025" money="" sharing="" />
+  <prop id="msp_dish02" name="Serving Platter" holdable="1" placeable="1" wearable="" facing="left" thumb="msp_dish02_cc_tray_closed.swf" enable="Y" is_premium="N" aid="9634" money="" sharing="">
+    <state id="msp_dish02_cc_tray_closed.swf" name="Covered" enable="Y" default="Y" />
+    <state id="msp_dish02_cc_tray_open.swf" name="Uncovered" enable="Y" />
+    <colorset enable="Y" aid="9637">
+      <color r="ccColorA">0xE1E1E1</color>
+    </colorset>
+    <c_parts enable="Y">
+      <c_area oc="">ccColorA</c_area>
+    </c_parts>
+  </prop>
   <prop id="msp_school_bus" name="School Bus" holdable="" placeable="1" wearable="" facing="left" thumb="msp_school_bus_school_bus_full.swf" enable="Y" is_premium="N" aid="11038" money="" sharing="">
     <state id="msp_school_bus_school_bus_full.swf" name="still" enable="Y" default="Y"/>
     <state id="msp_school_bus_school_bus_on.swf" name="driving" enable="Y"/>
@@ -4568,16 +4584,6 @@
       <c_area oc="">ccColorA</c_area>
       <c_area oc="">ccColorB</c_area>
       <c_area oc="">ccColorC</c_area>
-    </c_parts>
-  </prop>
-  <prop id="msp_dish02" name="Dish" holdable="1" placeable="1" wearable="" facing="left" thumb="msp_dish02_cc_tray_closed.swf" enable="N" is_premium="N" aid="9634" money="" sharing="">
-    <state id="msp_dish02_cc_tray_closed.swf" name="Covered" enable="Y" default="Y" />
-    <state id="msp_dish02_cc_tray_open.swf" name="Uncovered" enable="Y" />
-    <colorset enable="Y" aid="9637">
-      <color r="ccColorA">0xE1E1E1</color>
-    </colorset>
-    <c_parts enable="Y">
-      <c_area oc="">ccColorA</c_area>
     </c_parts>
   </prop>
   <prop id="cc_eyemask.swf" name="Party mask" holdable="" placeable="1" wearable="1" facing="left" thumb="" enable="N" is_premium="N" aid="9638" money="" sharing="">
