@@ -3347,7 +3347,8 @@
     <state id="msp_nccha_balloon02_nccha_balloon03.swf" name="hovering" enable="Y" default="Y"/>
     <state id="msp_nccha_balloon02_nccha_balloon04.swf" name="still" enable="Y"/>
   </prop>
-    <prop id="ncc_02baton01.swf" name="Baton" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="11048" money="0" sharing="0" handstyle="stick"/>
+  <prop id="ncc_wordbam01.swf" name="Bam!" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="12309" money="0" sharing="0"/>
+  <prop id="ncc_02baton01.swf" name="Baton" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="11048" money="0" sharing="0" handstyle="stick"/>
   <prop id="cc_basketball.swf" name="Basketball" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9628" money="" sharing="">
     <colorset enable="Y" aid="9629">
       <color r="ccColorA">0xFA722F</color>
@@ -3894,6 +3895,10 @@
   <prop id="msp_totoilet" name="Toilet" holdable="" placeable="1" wearable="" facing="left" thumb="msp_totoilet_ncc_totoilet01.swf" enable="Y" is_premium="Y" aid="11758" money="" sharing="">
     <state id="msp_totoilet_ncc_totoilet01.swf" name="Closed" enable="Y" default="Y" />
     <state id="msp_totoilet_ncc_totoilet02.swf" name="Open" enable="Y" />
+  </prop>
+  <prop id="msp_totower" name="Towel" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_totower_ncc_totower_front.swf" enable="Y" is_premium="N" aid="11761" money="0" sharing="0">
+    <state id="msp_totower_ncc_totower_front.swf" name="front" enable="Y" default="Y"/>
+    <state id="msp_totower_ncc_totower_side.swf" name="side" enable="Y"/>
   </prop>
   <prop id="ncc_03mexicoroll.swf" name="Taco" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="11858" money="" sharing="" />
   <prop id="msp_teepee02" name="Teepee" holdable="" placeable="1" wearable="0" facing="left" thumb="msp_teepee02_ncc_teepee02_front.swf" enable="Y" is_premium="N" aid="11397" money="0" sharing="0">
