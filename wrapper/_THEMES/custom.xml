@@ -3548,6 +3548,7 @@
     <state id="msp_confer_table_confer_table_front.swf" name="front" enable="Y" default="Y"/>
     <state id="msp_confer_table_confer_table_side.swf" name="side" enable="Y"/>
   </prop>
+  <prop id="creepy_tree.swf" name="Creepy Tree" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="12198" money="0" sharing="0"/>
   <prop id="cc_cross2.swf" name="Cross Mark" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9163" money="" sharing="">
     <colorset enable="Y" aid="9164">
       <color r="ccColorA">0xCC0000</color>
@@ -3772,6 +3773,8 @@
   <prop id="ncc_stone01.swf" name="Rock" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="10905" money="0" sharing="0"/>
   <prop id="ncc_stone02.swf" name="Rock" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="10906" money="0" sharing="0"/>
   <prop id="ncc_stone03.swf" name="Rock" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="10907" money="0" sharing="0"/>
+  <prop id="ncc_tocarpet.swf" name="Rug" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="11752" money="0" sharing="0"/>
+  <prop id="ncc_carpet01_front.swf" name="Rug" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="12075" money="0" sharing="0"/>
   <prop id="cc_saw.swf" name="Saw" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9025" money="" sharing="" />
   <prop id="msp_dish02" name="Serving Platter" holdable="1" placeable="1" wearable="" facing="left" thumb="msp_dish02_cc_tray_closed.swf" enable="Y" is_premium="N" aid="9634" money="" sharing="">
     <state id="msp_dish02_cc_tray_closed.swf" name="Covered" enable="Y" default="Y" />
