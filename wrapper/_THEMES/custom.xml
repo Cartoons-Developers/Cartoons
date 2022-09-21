@@ -139,7 +139,7 @@
   <background id="classroom.swf" name="Potion room" enable="N" default="N" is_premium="N" aid="9047" money="" sharing="" />
   <background id="snowynight.swf" name="Snowy Night" enable="N" default="N" is_premium="N" aid="9064" money="" sharing="" />
   <background id="subway_train_bg.swf" name="Subway train" enable="N" default="N" is_premium="N" aid="9059" money="" sharing="" />
-  <compositebg id="cbg_bedroom" name="Bedroom" enable="Y" default="Y" thumb="bedroom.png" display_order="1" is_premium="N" money="" sharing="" aid="9065">
+  <compositebg id="cbg_bedroom" name="Bedroom" enable="Y" default="N" thumb="bedroom.png" display_order="1" is_premium="N" money="" sharing="" aid="9065">
     <bg id="cbg_bedroom_BG65" index="">
       <file>custom.bedroom_bg.swf</file>
     </bg>
