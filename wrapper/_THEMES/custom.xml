@@ -3561,6 +3561,7 @@
     <tag>flower</tag>
     <tag>flowers</tag>
     <tag>nature</tag>
+	<tag>plant</tag>
   </prop>
   <prop id="msp_carton01" name="Box" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_carton01_ncc_carton_front.swf" enable="Y" is_premium="N" aid="11890" money="0" sharing="0">
     <state id="msp_carton01_ncc_carton_front.swf" name="front" enable="Y" default="Y" />
@@ -3618,6 +3619,7 @@
     <tag>lawn</tag>
     <tag>nature</tag>
     <tag>park</tag>
+	<tag>plant</tag>
     <tag>shrub</tag>
     <tag>woods</tag>
   </prop>
@@ -3634,7 +3636,9 @@
   </prop>
   <prop id="ncc_cactus01.swf" name="Cactus" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9156" money="" sharing="">
     <tag>cactus</tag>
+	<tag>desert</tag>
 	<tag>nature</tag>
+	<tag>plant</tag>
   </prop>
   <prop id="cafe_table.swf" name="Cafe Table" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="10537" money="0" sharing="0">
     <tag>cafe</tag>
@@ -3826,6 +3830,7 @@
     <state id="msp_htree_nccxmas_htree_snow.swf" name="with snow" enable="Y" />
     <tag>christmas</tag>
 	<tag>pine</tag>
+	<tag>plant</tag>
 	<tag>tree</tag>
   </prop>
   <prop id="nccxmas_church.swf" name="Church" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="11546" money="0" sharing="0">
@@ -3921,6 +3926,7 @@
     <tag>creepy</tag>
 	<tag>funeral</tag>
 	<tag>nature</tag>
+	<tag>plant</tag>
 	<tag>tree</tag>
   </prop>
   <prop id="cc_cross2.swf" name="Cross Mark" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9163" money="" sharing="">
@@ -4420,6 +4426,7 @@
   <prop id="palm_tree01.swf" name="Palm Tree" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9587" money="" sharing="">
 	<tag>beach</tag>
 	<tag>nature</tag>
+	<tag>plant</tag>
     <tag>tree</tag>
     <tag>woods</tag>
   </prop>
@@ -4564,6 +4571,7 @@
   <prop id="office_plant.swf" name="Potted Plant" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="8946" money="" sharing="">
     <tag>aloe</tag>
     <tag>nature</tag>
+	<tag>plant</tag>
   </prop>
   <prop id="prohibition_sign.swf" name="Prohibition Sign" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9797" money="" sharing="">
     <tag>ban</tag>
@@ -5024,6 +5032,7 @@
   <prop id="school_ext_tree01.swf" name="Tree" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9587" money="" sharing="">
     <tag>nature</tag>
     <tag>park</tag>
+	<tag>plant</tag>
     <tag>tree</tag>
     <tag>woods</tag>
   </prop>
@@ -5031,6 +5040,7 @@
     <tag>nature</tag>
     <tag>park</tag>
     <tag>pine</tag>
+	<tag>plant</tag>
     <tag>tree</tag>
     <tag>woods</tag>
   </prop>
