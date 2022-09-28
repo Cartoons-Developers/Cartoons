@@ -3683,7 +3683,8 @@
     <state id="msp_piratecan_ncc_pirate_cannon_still.swf" name="side - still" enable="Y" default="Y" />
     <state id="msp_piratecan_ncc_pirate_cannon2_loop.swf" name="back - keep shooting" enable="Y" />
     <state id="msp_piratecan_ncc_pirate_cannon2_still.swf" name="back - still" enable="Y" />
-    <tag>ship</tag>
+	<tag>pirate</tag>
+	<tag>ship</tag>
 	<tag>shipping</tag>
 	<tag>weapon</tag>
 	<tag>weapons</tag>
@@ -3727,7 +3728,8 @@
   <prop id="msp_cash_register01" name="Cash Register" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_cash_register01_msp_cash_register_cash_register01_back.swf" enable="Y" is_premium="N" aid="10626" money="0" sharing="0">
     <state id="msp_cash_register01_msp_cash_register_cash_register01_back.swf" name="front" enable="Y" default="Y" />
     <state id="msp_cash_register01_msp_cash_register_cash_register01_side.swf" name="side" enable="Y" />
-    <tag>checkout</tag>
+    <tag>cash</tag>
+	<tag>checkout</tag>
 	<tag>pay</tag>
 	<tag>paying</tag>
 	<tag>payment</tag>
@@ -3736,7 +3738,8 @@
   <prop id="msp_cash_register02" name="Cash Register" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_cash_register02_msp_cash_register_cash_register02_back.swf" enable="Y" is_premium="N" aid="10629" money="0" sharing="0">
     <state id="msp_cash_register02_msp_cash_register_cash_register02_back.swf" name="front" enable="Y" default="Y" />
     <state id="msp_cash_register02_msp_cash_register_cash_register02_side.swf" name="side" enable="Y" />
-    <tag>checkout</tag>
+    <tag>cash</tag>
+	<tag>checkout</tag>
 	<tag>pay</tag>
 	<tag>paying</tag>
 	<tag>payment</tag>
@@ -3866,6 +3869,9 @@
   <prop id="cc_coffin.swf" name="Coffin" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9039" money="" sharing="">
     <tag>bury</tag>
 	<tag>coffin</tag>
+	<tag>dead</tag>
+	<tag>death</tag>
+	<tag>died</tag>
     <tag>funeral</tag>
     <tag>grave</tag>
 	<tag>tomb</tag>
@@ -3924,7 +3930,10 @@
     <tag>woods</tag>
   </prop>
   <prop id="creepy_tree.swf" name="Creepy Tree" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="12198" money="0" sharing="0">
-    <tag>creepy</tag>
+    <tag>dead</tag>
+	<tag>death</tag>
+	<tag>died</tag>
+	<tag>creepy</tag>
 	<tag>funeral</tag>
 	<tag>nature</tag>
 	<tag>plant</tag>
@@ -4166,10 +4175,14 @@
   <prop id="ncc_guitar01.swf" name="Guitar" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="10766" money="0" sharing="0">
     <tag>band</tag>
 	<tag>music</tag>
+	<tag>rock</tag>
+	<tag>rocking</tag>
   </prop>
   <prop id="ncc_guitar02.swf" name="Guitar" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="10767" money="0" sharing="0">
 	<tag>band</tag>
 	<tag>music</tag>
+	<tag>rock</tag>
+	<tag>rocking</tag>
   </prop>
   <prop id="ncc_guitar03.swf" name="Guitar" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="10767" money="0" sharing="0">
     <tag>acoustic</tag>
@@ -4177,6 +4190,8 @@
     <tag>classic</tag>
     <tag>classical</tag>
     <tag>music</tag>
+	<tag>rock</tag>
+	<tag>rocking</tag>
   </prop>
   <prop id="cc_hammer.swf" name="Hammer" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9016" money="" sharing="">
     <tag>tool</tag>
@@ -4332,6 +4347,7 @@
 	<tag>banking</tag>
 	<tag>banknote</tag>
 	<tag>banknotes</tag>
+	<tag>cash</tag>
 	<tag>currencies</tag>
 	<tag>currency</tag>
     <tag>money</tag>
@@ -4518,7 +4534,8 @@
   <prop id="msp_pirateship" name="Pirate Ship" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_pirateship_ncc_pirateship_still.swf" enable="Y" is_premium="Y" aid="12415" money="0" sharing="0">
     <state id="msp_pirateship_ncc_pirateship_still.swf" name="still" enable="Y" default="Y" />
     <state id="msp_pirateship_ncc_pirateship_move.swf" name="floating" enable="Y" />
-    <tag>ship</tag>
+	<tag>pirate</tag>
+	<tag>ship</tag>
 	<tag>shipping</tag>
   </prop>
   <prop id="msp_ncc_gun_usp40b" name="Pistol" holdable="1" placeable="1" wearable="0" facing="left" thumb="msp_ncc_gun_usp40b_ncc_gun_still.swf" enable="Y" is_premium="Y" aid="11653" money="0" sharing="0" handstyle="gun">
@@ -4541,6 +4558,9 @@
     <state id="msp_ncc_bottle_ncc_hpbottle02.swf" name="opened" enable="Y" default="Y" />
 	<tag>bottle</tag>
 	<tag>bottles</tag>
+	<tag>dead</tag>
+	<tag>death</tag>
+	<tag>poison</tag>
   </prop>
   <prop id="msp_police_car" name="Police Car" holdable="" placeable="1" wearable="" facing="left" thumb="msp_police_car_ncc_police_car_full.swf" enable="Y" is_premium="Y" aid="11033" money="" sharing="">
     <state id="msp_police_car_ncc_police_car_full.swf" name="still" enable="Y" default="Y" />
@@ -4617,12 +4637,24 @@
   </prop>
   <prop id="ncc_stone01.swf" name="Rock" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="10905" money="0" sharing="0">
     <tag>nature</tag>
+	<tag>rock</tag>
+	<tag>rocks</tag>
+	<tag>stone</tag>
+	<tag>stones</tag>
   </prop>
   <prop id="ncc_stone02.swf" name="Rock" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="10906" money="0" sharing="0">
     <tag>nature</tag>
+	<tag>rock</tag>
+	<tag>rocks</tag>
+	<tag>stone</tag>
+	<tag>stones</tag>
   </prop>
   <prop id="ncc_stone03.swf" name="Rock" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="10907" money="0" sharing="0">
     <tag>nature</tag>
+	<tag>rock</tag>
+	<tag>rocks</tag>
+	<tag>stone</tag>
+	<tag>stones</tag>
   </prop>
   <prop id="ncc_tocarpet.swf" name="Rug" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="11752" money="0" sharing="0">
     <tag>carpet</tag>
@@ -4897,6 +4929,7 @@
   </prop>
   <prop id="ncc_02pirate_sword.swf" name="Sword" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="Y" aid="12393" money="0" sharing="0" handstyle="stick">
     <tag>battle</tag>
+	<tag>pirate</tag>
 	<tag>sharp</tag>
 	<tag>sword</tag>
     <tag>weapon</tag>
@@ -4994,8 +5027,13 @@
 	<tag>washroom</tag>
   </prop>
   <prop id="tombstone.swf" name="Tombstone" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="12199" money="0" sharing="0">
-    <tag>funeral</tag>
+	<tag>dead</tag>
+	<tag>death</tag>
+	<tag>died</tag>
+	<tag>funeral</tag>
 	<tag>grave</tag>
+	<tag>stone</tag>
+	<tag>stones</tag>
 	<tag>tomb</tag>
 	<tag>tombstone</tag>
   </prop>
@@ -5031,6 +5069,7 @@
     <tag>adventurer</tag>
     <tag>box</tag>
 	<tag>boxes</tag>
+	<tag>pirate</tag>
   </prop>
   <prop id="school_ext_tree01.swf" name="Tree" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9587" money="" sharing="">
     <tag>nature</tag>
