@@ -3659,6 +3659,7 @@
 	<tag>cake</tag>
 	<tag>candies</tag>
 	<tag>candy</tag>
+	<tag>dessert</tag>
 	<tag>food</tag>
   </prop>
   <prop id="cc_calendar.swf" name="Calendar" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9156" money="" sharing="">
@@ -3975,6 +3976,7 @@
 	<tag>cream</tag>
 	<tag>cup</tag>
 	<tag>cupcake</tag>
+	<tag>dessert</tag>
 	<tag>food</tag>
 	<tag>mug</tag>
   </prop>
@@ -4054,6 +4056,7 @@
 	<tag>baking</tag>
 	<tag>candies</tag>
 	<tag>candy</tag>
+	<tag>dessert</tag>
 	<tag>donut</tag>
 	<tag>doughnut</tag>
 	<tag>food</tag>
@@ -4162,7 +4165,11 @@
 	<tag>baker</tag>
 	<tag>bakery</tag>
 	<tag>baking</tag>
+	<tag>cookie</tag>
+	<tag>cookies</tag>
+	<tag>dessert</tag>
 	<tag>food</tag>
+	<tag>gingerbread</tag>
   </prop>
   <prop id="nccxmas_gingerman_dish.swf" name="Gingerbread cookies" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="Y" aid="11478" money="0" sharing="0">
     <tag>bake</tag>
@@ -4170,7 +4177,11 @@
 	<tag>baker</tag>
 	<tag>bakery</tag>
 	<tag>baking</tag>
+	<tag>cookie</tag>
+	<tag>cookies</tag>
+	<tag>dessert</tag>
 	<tag>food</tag>
+	<tag>gingerbread</tag>
   </prop>
   <prop id="ncc_guitar01.swf" name="Guitar" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="10766" money="0" sharing="0">
     <tag>band</tag>
@@ -4238,12 +4249,18 @@
     <tag>house</tag>
   </prop>
   <prop id="ncc_03icecream02.swf" name="Ice Cream" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="11858" money="" sharing="">
+	<tag>candies</tag>
+	<tag>candy</tag>
     <tag>cream</tag>
+	<tag>dessert</tag>
     <tag>food</tag>
 	<tag>ice</tag>
   </prop>
   <prop id="ncc_02icecream01.swf" name="Ice Cream Cone" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="12176" money="0" sharing="0" handstyle="stick">
-    <tag>cream</tag>
+	<tag>candies</tag>
+	<tag>candy</tag>
+	<tag>cream</tag>
+	<tag>dessert</tag>
 	<tag>food</tag>
 	<tag>ice</tag>
   </prop>
@@ -4512,6 +4529,7 @@
 	<tag>bakery</tag>
 	<tag>baking</tag>
 	<tag>food</tag>
+	<tag>dessert</tag>
   </prop>
   <prop id="ncc_pie02_full.swf" name="Pie" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="11377" money="0" sharing="0">
     <tag>bake</tag>
@@ -4520,6 +4538,7 @@
 	<tag>bakery</tag>
 	<tag>baking</tag>
 	<tag>food</tag>
+	<tag>dessert</tag>
 	<tag>thanksgiving</tag>
   </prop>
   <prop id="msp_pillow02" name="Pillow" holdable="" placeable="1" wearable="" facing="left" thumb="msp_pillow02_ncc_pillow02_front.swf" enable="Y" is_premium="N" aid="11006" money="" sharing="">
