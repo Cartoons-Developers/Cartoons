@@ -3618,6 +3618,8 @@
     <tag>lawn</tag>
     <tag>nature</tag>
     <tag>park</tag>
+    <tag>shrub</tag>
+    <tag>woods</tag>
   </prop>
   <prop id="ncc_03hamburger.swf" name="Burger" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="11858" money="" sharing="">
     <tag>bun</tag>
@@ -4419,6 +4421,7 @@
 	<tag>beach</tag>
 	<tag>nature</tag>
     <tag>tree</tag>
+    <tag>woods</tag>
   </prop>
   <prop id="ncc_03paper.swf" name="Paper" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="12111" money="0" sharing="0" handstyle="flat">
     <tag>paper</tag>
@@ -5022,12 +5025,14 @@
     <tag>nature</tag>
     <tag>park</tag>
     <tag>tree</tag>
+    <tag>woods</tag>
   </prop>
   <prop id="ncc_htree.swf" name="Tree" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="11296" money="0" sharing="0">
     <tag>nature</tag>
     <tag>park</tag>
     <tag>pine</tag>
     <tag>tree</tag>
+    <tag>woods</tag>
   </prop>
   <prop id="cc_trolleys.swf" name="Trolley" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9642" money="" sharing="">
     <colorset enable="Y" aid="9643">
