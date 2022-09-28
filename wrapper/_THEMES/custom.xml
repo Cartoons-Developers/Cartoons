@@ -4240,10 +4240,12 @@
   <prop id="ncc_03icecream02.swf" name="Ice Cream" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="11858" money="" sharing="">
     <tag>cream</tag>
     <tag>food</tag>
+	<tag>ice</tag>
   </prop>
   <prop id="ncc_02icecream01.swf" name="Ice Cream Cone" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="12176" money="0" sharing="0" handstyle="stick">
     <tag>cream</tag>
 	<tag>food</tag>
+	<tag>ice</tag>
   </prop>
   <prop id="glasses_juice.swf" name="Juice" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9041" money="" sharing="">
 	<tag>beverage</tag>
