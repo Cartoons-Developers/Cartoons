@@ -4023,6 +4023,7 @@
     <tag>club</tag>
     <tag>clubs</tag>
     <tag>clubbing</tag>
+    <tag>dance</tag>
     <tag>disco</tag>
   </prop>
   <prop id="msp_door01" name="Door" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_door01_door01_front_close.swf" enable="Y" is_premium="N" aid="10639" money="0" sharing="0">
