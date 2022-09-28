@@ -3866,6 +3866,7 @@
   <prop id="cc_coffin.swf" name="Coffin" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9039" money="" sharing="">
     <tag>bury</tag>
 	<tag>coffin</tag>
+    <tag>funeral</tag>
     <tag>grave</tag>
 	<tag>tomb</tag>
 	<tag>tombstone</tag>
@@ -4993,7 +4994,8 @@
 	<tag>washroom</tag>
   </prop>
   <prop id="tombstone.swf" name="Tombstone" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="12199" money="0" sharing="0">
-    <tag>grave</tag>
+    <tag>funeral</tag>
+	<tag>grave</tag>
 	<tag>tomb</tag>
 	<tag>tombstone</tag>
   </prop>
