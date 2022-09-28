@@ -3453,6 +3453,8 @@
 	<tag>baking</tag>
 	<tag>birthday</tag>
 	<tag>cake</tag>
+	<tag>candies</tag>
+	<tag>candy</tag>
     <tag>food</tag>
   </prop>
   <prop id="msp_blkboard01" name="Blackboard" holdable="" placeable="1" wearable="" facing="left" thumb="msp_blkboard01_ncc_blackboard_front.swf" enable="Y" is_premium="N" aid="11338" money="" sharing="">
@@ -3649,6 +3651,8 @@
 	<tag>bakery</tag>
 	<tag>baking</tag>
 	<tag>cake</tag>
+	<tag>candies</tag>
+	<tag>candy</tag>
 	<tag>food</tag>
   </prop>
   <prop id="cc_calendar.swf" name="Calendar" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9156" money="" sharing="">
@@ -3759,18 +3763,27 @@
     <state id="msp_chair01_chair01_side.swf" name="side" enable="Y" />
     <tag>chair</tag>
     <tag>furniture</tag>
+    <tag>wood</tag>
+    <tag>wooden</tag>
+    <tag>woods</tag>
   </prop>
   <prop id="msp_dining_chair" name="Chair" holdable="" placeable="1" wearable="" facing="left" thumb="msp_dining_chair_dining_chair_front.swf" enable="Y" is_premium="N" aid="10505" money="" sharing="">
     <state id="msp_dining_chair_dining_chair_front.swf" name="front" enable="Y" default="Y" />
     <state id="msp_dining_chair_dining_chair_side.swf" name="side" enable="Y" />
     <tag>chair</tag>
     <tag>furniture</tag>
+    <tag>wood</tag>
+    <tag>wooden</tag>
+    <tag>woods</tag>
   </prop>
   <prop id="msp_crmchair" name="Chair" holdable="" placeable="1" wearable="" facing="left" thumb="msp_crmchair_ncc_crmchair_side.swf" enable="Y" is_premium="Y" aid="11360" money="" sharing="">
     <state id="msp_crmchair_ncc_crmchair_back.swf" name="back" enable="Y" />
     <state id="msp_crmchair_ncc_crmchair_side.swf" name="side" enable="Y" default="Y" />
     <tag>chair</tag>
     <tag>furniture</tag>
+    <tag>wood</tag>
+    <tag>wooden</tag>
+    <tag>woods</tag>
   </prop>
   <prop id="cc_tick2.swf" name="Check Mark" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9159" money="" sharing="">
     <colorset enable="Y" aid="9160">
@@ -3796,6 +3809,9 @@
     <tag>bar</tag>
 	<tag>bars</tag>
 	<tag>black</tag>
+	<tag>candies</tag>
+	<tag>candy</tag>
+	<tag>chocolate</tag>
 	<tag>food</tag>
   </prop>
   <prop id="msp_htree" name="Christmas Tree" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_htree_nccxmas_htree_decoon.swf" enable="Y" is_premium="Y" aid="11479" money="0" sharing="0">
@@ -3895,6 +3911,9 @@
     <tag>furniture</tag>
 	<tag>table</tag>
 	<tag>tables</tag>
+    <tag>wood</tag>
+    <tag>wooden</tag>
+    <tag>woods</tag>
   </prop>
   <prop id="creepy_tree.swf" name="Creepy Tree" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="12198" money="0" sharing="0">
     <tag>creepy</tag>
@@ -3933,6 +3952,8 @@
 	<tag>bakery</tag>
 	<tag>baking</tag>
 	<tag>cake</tag>
+	<tag>candies</tag>
+	<tag>candy</tag>
 	<tag>cream</tag>
 	<tag>cup</tag>
 	<tag>cupcake</tag>
@@ -3963,6 +3984,9 @@
     <tag>schooling</tag>
     <tag>table</tag>
 	<tag>tables</tag>
+    <tag>wood</tag>
+    <tag>wooden</tag>
+    <tag>woods</tag>
   </prop>
   <prop id="cc_diamond_ring.swf" name="Diamond Ring" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9013" money="" sharing="">
     <tag>diamond</tag>
@@ -3975,6 +3999,9 @@
 	<tag>table</tag>
 	<tag>tablecloth</tag>
 	<tag>tables</tag>
+    <tag>wood</tag>
+    <tag>wooden</tag>
+    <tag>woods</tag>
   </prop>
   <prop id="dirt.swf" name="Dirt" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9013" money="" sharing="">
     <tag>dirt</tag>
@@ -4006,6 +4033,10 @@
 	<tag>baker</tag>
 	<tag>bakery</tag>
 	<tag>baking</tag>
+	<tag>candies</tag>
+	<tag>candy</tag>
+	<tag>donut</tag>
+	<tag>doughnut</tag>
 	<tag>food</tag>
   </prop>
   <prop id="msp_dragon" name="Dragon" holdable="" placeable="1" wearable="" facing="left" thumb="msp_dragon_dragon_still.swf" enable="Y" is_premium="N" aid="9802" money="" sharing="">
@@ -4625,6 +4656,9 @@
     <tag>desk</tag>
     <tag>school</tag>
     <tag>schooling</tag>
+    <tag>wood</tag>
+    <tag>wooden</tag>
+    <tag>woods</tag>
   </prop>
   <prop id="msp_offprojector" name="Screen" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_offprojector_ncc_offprojector_front.swf" enable="Y" is_premium="N" aid="11914" money="0" sharing="0">
     <state id="msp_offprojector_ncc_offprojector_front.swf" name="front" enable="Y" default="Y" />
@@ -4860,6 +4894,9 @@
     <state id="msp_dining_table_dining_table_side.swf" name="side" enable="Y" />
     <tag>table</tag>
 	<tag>tables</tag>
+    <tag>wood</tag>
+    <tag>wooden</tag>
+    <tag>woods</tag>
   </prop>
   <prop id="lamp_table.swf" name="Table Lamp" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="11858" money="" sharing="">
     <tag>lamp</tag>
@@ -5125,6 +5162,9 @@
 	<tag>courtyard</tag>
     <tag>fence</tag>
     <tag>lawn</tag>
+    <tag>wood</tag>
+    <tag>wooden</tag>
+    <tag>woods</tag>
     <tag>yard</tag>
   </prop>
   <prop id="ncc_03yogurt.swf" name="Yogurt" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="11858" money="" sharing="">
