@@ -3622,6 +3622,7 @@
 	<tag>burger</tag>
 	<tag>cheeseburger</tag>
 	<tag>food</tag>
+	<tag>meat</tag>
   </prop>
   <prop id="ncc_03chickenroll.swf" name="Burrito" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="11858" money="" sharing="">
     <tag>burrito</tag>
@@ -4154,9 +4155,11 @@
   </prop>
   <prop id="ncc_03hotdog.swf" name="Hot Dog" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="11858" money="" sharing="">
     <tag>food</tag>
+	<tag>meat</tag>
   </prop>
   <prop id="ncc_hotdog_stand.swf" name="Hot Dog Stand" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="12199" money="0" sharing="0">
-    <tag>food</tag>
+    <tag>cart</tag>
+	<tag>food</tag>
   </prop>
   <prop id="ncc_hhouse01.swf" name="House" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="11256" money="0" sharing="0">
     <tag>building</tag>
