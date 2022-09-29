@@ -4474,7 +4474,10 @@
     <tag>paper</tag>
   </prop>
   <prop id="ncc_penstand.swf" name="Pen Holder" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="Y" aid="11924" money="0" sharing="0">
-    <tag>pen</tag>
+    <tag>cup</tag>
+	<tag>holder</tag>
+	<tag>mug</tag>
+	<tag>pen</tag>
   </prop>
   <prop id="pencil.swf" name="Pencil" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9797" money="" sharing="">
     <tag>academy</tag>
@@ -4619,6 +4622,11 @@
   <prop id="prohibition_sign.swf" name="Prohibition Sign" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9797" money="" sharing="">
     <tag>ban</tag>
 	<tag>sign</tag>
+  </prop>
+  <prop id="puddle.swf" name="Puddle" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="Y" aid="11924" money="0" sharing="0">
+    <tag>nature</tag>
+	<tag>puddle</tag>
+	<tag>water</tag>
   </prop>
   <prop id="ncc_pumpkin.swf" name="Pumpkin" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9023" money="" sharing="">
     <tag>food</tag>
