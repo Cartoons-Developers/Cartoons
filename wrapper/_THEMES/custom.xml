@@ -6218,6 +6218,12 @@
   <char id="184" name="Casual" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
     <tags>family,_free,_cat:Casual,_tag:casual earring earrings female lady woman</tags>
   </char>
+  <char id="187" name="Casual" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+    <tags>family,_free,_cat:Casual,_tag:casual jacket man male</tags>
+  </char>
+  <char id="188" name="Casual" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+    <tags>family,_free,_cat:Casual,_tag:casual glasses man male</tags>
+  </char>
   <char id="128" name="Casual Sports" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
     <tags>family,_free,_cat:Casual,_tag:casual dreadlock dreadlocks dreads exercise female fitness gym jog jogging jogger lady woman</tags>
   </char>
@@ -6240,16 +6246,19 @@
     <tags>family,_free,_cat:Industrial,_tag:boot boots construction hat hardhat industrial industry laborer labourer man manufacture manufacturing manual male other professions safe ssfety vault worker</tags>
   </char>
   <char id="12" name="Chef" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
-    <tags>family,_free,_cat:Catering,_tag:catering cap chef cook cooking cooked hat jacket man male restaurant</tags>
+    <tags>family,_free,_cat:Catering,_tag:catering cap chef cook cooking cooked hat jacket kitchen man male restaurant</tags>
   </char>
   <char id="13" name="Chef" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
-    <tags>family,_free,_cat:Catering,_tag:catering cap chef cook cooking cooked hat jacket man male restaurant</tags>
+    <tags>family,_free,_cat:Catering,_tag:catering cap chef cook cooking cooked hat jacket kitchen man male restaurant</tags>
   </char>
   <char id="23" name="Cowboy" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
     <tags>family,_free,_cat:Holidays and Costumes,_tag:boot boots chaps cowboy hat man male neckerchief rancher west western</tags>
   </char>
   <char id="29" name="Farmer" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
     <tags>family,_free,_cat:Other Professions,_tag:boot boots cap dungarees farmer goatee hat man male other overalls professions rancher</tags>
+  </char>
+  <char id="189" name="Fast Food Worker" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+    <tags>family,_free,_cat:Catering,_tag:apron burger catering fast fastfood food kitchen man male restaurant worker</tags>
   </char>
   <char id="118" name="Fedora" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
     <tags>family,_free,_cat:Casual,_tag:casual cap fedora man male</tags>
