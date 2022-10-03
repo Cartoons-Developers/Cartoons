@@ -6255,13 +6255,13 @@
     <tags>family,_free,_cat:Holidays and Costumes,_tag:boot boots cowboy hat man male neckerchief rancher west western</tags>
   </char>
   <char id="192" name="Customer Service" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
-    <tags>family,_free,_cat:Catering,_tag:apron customer man male shop shopping service store stores</tags>
+    <tags>family,_free,_cat:Other Professions,_tag:apron customer man male shop shopping service store stores</tags>
   </char>
   <char id="193" name="Customer Service" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
-    <tags>family,_free,_cat:Catering,_tag:apron customer man male shop shopping service store stores</tags>
+    <tags>family,_free,_cat:Other Professions,_tag:apron customer man male shop shopping service store stores</tags>
   </char>
   <char id="194" name="Customer Service" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
-    <tags>family,_free,_cat:Catering,_tag:apron customer man male shop shopping service store stores</tags>
+    <tags>family,_free,_cat:Other Professions,_tag:apron customer man male shop shopping service store stores</tags>
   </char>
   <char id="29" name="Farmer" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
     <tags>family,_free,_cat:Other Professions,_tag:boot boots cap dungarees farmer goatee hat man male other overalls professions rancher</tags>
