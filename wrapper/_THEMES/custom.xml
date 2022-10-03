@@ -6252,12 +6252,24 @@
     <tags>family,_free,_cat:Catering,_tag:catering cap chef cook cooking cooked hat jacket kitchen man male restaurant</tags>
   </char>
   <char id="23" name="Cowboy" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
-    <tags>family,_free,_cat:Holidays and Costumes,_tag:boot boots chaps cowboy hat man male neckerchief rancher west western</tags>
+    <tags>family,_free,_cat:Holidays and Costumes,_tag:boot boots cowboy hat man male neckerchief rancher west western</tags>
+  </char>
+  <char id="192" name="Customer Service" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+    <tags>family,_free,_cat:Catering,_tag:apron customer man male shop shopping service store stores</tags>
+  </char>
+  <char id="193" name="Customer Service" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+    <tags>family,_free,_cat:Catering,_tag:apron customer man male shop shopping service store stores</tags>
+  </char>
+  <char id="194" name="Customer Service" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+    <tags>family,_free,_cat:Catering,_tag:apron customer man male shop shopping service store stores</tags>
   </char>
   <char id="29" name="Farmer" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
     <tags>family,_free,_cat:Other Professions,_tag:boot boots cap dungarees farmer goatee hat man male other overalls professions rancher</tags>
   </char>
   <char id="189" name="Fast Food Worker" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+    <tags>family,_free,_cat:Catering,_tag:apron burger catering fast fastfood food kitchen man male restaurant worker</tags>
+  </char>
+  <char id="191" name="Fast Food Worker" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
     <tags>family,_free,_cat:Catering,_tag:apron burger catering fast fastfood food kitchen man male restaurant worker</tags>
   </char>
   <char id="118" name="Fedora" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
@@ -6378,7 +6390,7 @@
     <tags>family,_free,_cat:Casual,_tag:boy casual cap child children hat kid kids male student</tags>
   </char>
   <char id="140" name="Kid" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
-    <tags>family,_free,_cat:Casual,_tag:barefoot boy casual child children home homeware kid kids male student</tags>
+    <tags>family,_free,_cat:Casual,_tag:barefoot boy casual child children domestic home homeware household kid kids male student</tags>
   </char>
   <char id="145" name="Kid" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
     <tags>family,_free,_cat:Casual,_tag:casual child children female girl kid kids pigtails student</tags>
@@ -6483,10 +6495,10 @@
     <tags>family,_free,_cat:Office,_tag:business earring earrings female lady office turban woman worker</tags>
   </char>
   <char id="75" name="Pajamas" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
-    <tags>family,_free,_cat:Casual,_tag:asleep bedroom home homeware household man male pajama pajamas pj pjs pyjama pyjamas sleep sleeping sleepy</tags>
+    <tags>family,_free,_cat:Casual,_tag:asleep bedroom domestic home homeware household man male pajama pajamas pj pjs pyjama pyjamas sleep sleeping sleepy</tags>
   </char>
   <char id="190" name="Pajamas" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
-    <tags>family,_free,_cat:Casual,_tag:asleep bedroom boy child children home homeware household kid kids male pajama pajamas pj pjs pyjama pyjamas sleep sleeping sleepy</tags>
+    <tags>family,_free,_cat:Casual,_tag:asleep bedroom boy child children domestic home homeware household kid kids male pajama pajamas pj pjs pyjama pyjamas sleep sleeping sleepy</tags>
   </char>
   <char id="141" name="Party Suit" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
     <tags>family,_free,_cat:Special Occasions,_tag:bow bowing celebrate celebration congratulations dressy eveningwear fancy festival festive feta formal groom grooming man male marriage marry occasions parties party special suit tux tuxedo wedding</tags>
