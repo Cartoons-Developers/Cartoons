@@ -6485,6 +6485,9 @@
   <char id="75" name="Pajamas" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
     <tags>family,_free,_cat:Casual,_tag:asleep bedroom home homeware household man male pajama pajamas pj pjs pyjama pyjamas sleep sleeping sleepy</tags>
   </char>
+  <char id="190" name="Pajamas" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+    <tags>family,_free,_cat:Casual,_tag:asleep bedroom boy child children home homeware household kid kids male pajama pajamas pj pjs pyjama pyjamas sleep sleeping sleepy</tags>
+  </char>
   <char id="141" name="Party Suit" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
     <tags>family,_free,_cat:Special Occasions,_tag:bow bowing celebrate celebration congratulations dressy eveningwear fancy festival festive feta formal groom grooming man male marriage marry occasions parties party special suit tux tuxedo wedding</tags>
   </char>
