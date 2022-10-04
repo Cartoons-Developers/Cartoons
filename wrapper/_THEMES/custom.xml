@@ -6231,19 +6231,19 @@
     <tags>family,_free,_cat:Casual,_tag:casual exercise fitness gym jog jogging jogger man male</tags>
   </char>
   <char id="111" name="Construction Worker" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
-    <tags>family,_free,_cat:Industrial,_tag:boot boots construction hat hardhat industrial industry laborer labourer man manufacture manufacturing manual male other professions safe ssfety vault worker</tags>
+    <tags>family,_free,_cat:Industrial,_tag:boot boots construction hat hardhat factories factory industrial industry laborer labourer man manufacture manufacturing manual male other professions safe ssfety vault worker</tags>
   </char>
   <char id="112" name="Construction Worker" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
-    <tags>family,_free,_cat:Industrial,_tag:boot boots construction hat hardhat industrial industry laborer labourer man manufacture manufacturing manual male other professions safe ssfety vault worker</tags>
+    <tags>family,_free,_cat:Industrial,_tag:boot boots construction hat hardhat factories factory industrial industry laborer labourer man manufacture manufacturing manual male other professions safe ssfety vault worker</tags>
   </char>
   <char id="113" name="Construction Worker" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
-    <tags>family,_free,_cat:Industrial,_tag:boot boots construction hat hardhat industrial industry laborer labourer man manufacture manufacturing manual male other professions safe ssfety vault worker</tags>
+    <tags>family,_free,_cat:Industrial,_tag:boot boots construction hat hardhat factories factory industrial industry laborer labourer man manufacture manufacturing manual male other professions safe ssfety vault worker</tags>
   </char>
   <char id="114" name="Construction Worker" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
-    <tags>family,_free,_cat:Industrial,_tag:boot boots construction hat hardhat industrial industry laborer labourer man manufacture manufacturing manual male other professions safe ssfety vault worker</tags>
+    <tags>family,_free,_cat:Industrial,_tag:boot boots construction hat hardhat factories factory industrial industry laborer labourer man manufacture manufacturing manual male other professions safe ssfety vault worker</tags>
   </char>
   <char id="115" name="Construction Worker" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
-    <tags>family,_free,_cat:Industrial,_tag:boot boots construction hat hardhat industrial industry laborer labourer man manufacture manufacturing manual male other professions safe ssfety vault worker</tags>
+    <tags>family,_free,_cat:Industrial,_tag:boot boots construction hat hardhat factories factory industrial industry laborer labourer man manufacture manufacturing manual male other professions safe ssfety vault worker</tags>
   </char>
   <char id="12" name="Chef" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
     <tags>family,_free,_cat:Catering,_tag:catering cap chef cook cooking cooked hat jacket kitchen man male restaurant</tags>
@@ -6280,6 +6280,9 @@
   </char>
   <char id="68" name="Firefighter" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
     <tags>family,_free,_cat:Government,_tag:fire firefighter fighter flame government hat hardhat hero heroes heroic man male</tags>
+  </char>
+  <char id="195" name="Food Factory Worker" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+    <tags>family,_free,_cat:Industrial,_tag:apron cap factories factory food haircap hat industrial industry man male restaurant worker</tags>
   </char>
   <char id="170" name="Firefighter" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
     <tags>family,_free,_cat:Holidays and Costumes,_tag:boy child costume costumes fire firefighter fighter flame hat hardhat holidays male</tags>
