@@ -3607,6 +3607,16 @@
 	<tag>beach</tag>
 	<tag>pail</tag>
   </prop>
+  <prop id="bushes.swf" name="Bush" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9575" money="" sharing="">
+	<tag>bush</tag>
+	<tag>courtyard</tag>
+    <tag>lawn</tag>
+    <tag>nature</tag>
+    <tag>park</tag>
+	<tag>plant</tag>
+    <tag>shrub</tag>
+    <tag>woods</tag>
+  </prop>
   <prop id="cc_bush.swf" name="Bush" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9575" money="" sharing="">
     <colorset enable="Y" aid="9576">
       <color r="ccColorA">0x47602E</color>
