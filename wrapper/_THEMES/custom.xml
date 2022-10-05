@@ -3835,13 +3835,16 @@
 	<tag>food</tag>
   </prop>
   <prop id="msp_htree" name="Christmas Tree" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_htree_nccxmas_htree_decoon.swf" enable="Y" is_premium="Y" aid="11479" money="0" sharing="0">
-    <state id="msp_htree_nccxmas_htree_bomb.swf" name="bombs" enable="Y" />
-    <state id="msp_htree_nccxmas_htree_decodry.swf" name="dead and decorated" enable="Y" />
-    <state id="msp_htree_nccxmas_htree_decooff.swf" name="decorated - off" enable="Y" />
-    <state id="msp_htree_nccxmas_htree_decoon.swf" name="decorated - on" enable="Y" default="Y" />
-    <state id="msp_htree_nccxmas_htree_dry.swf" name="dead" enable="Y" />
-    <state id="msp_htree_nccxmas_htree_drysnow.swf" name="dead with snow" enable="Y" />
-    <state id="msp_htree_nccxmas_htree_snow.swf" name="with snow" enable="Y" />
+    <state id="msp_htree_nccxmas_htree_decooff.swf" name="Off" enable="Y" />
+    <state id="msp_htree_nccxmas_htree_decoon.swf" name="On" enable="Y" default="Y" />
+	<colorset enable="Y" aid="9552">
+      <color r="ccColorA">0x5D753B</color>
+      <color r="ccColorB">0x40362F</color>
+    </colorset>
+    <c_parts enable="Y">
+      <c_area oc="">ccColorA</c_area>
+      <c_area oc="">ccColorB</c_area>
+    </c_parts>
     <tag>christmas</tag>
 	<tag>pine</tag>
 	<tag>plant</tag>
@@ -4822,6 +4825,20 @@
     <tag>ship</tag>
 	<tag>shipping</tag>
   </prop>
+  <prop id="nccxmas_htree_snow.swf" name="Snowy Tree" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_htree_nccxmas_htree_decoon.swf" enable="Y" is_premium="Y" aid="11479" money="0" sharing="0">
+	<colorset enable="Y" aid="9552">
+      <color r="ccColorA">0x667B2C</color>
+      <color r="ccColorB">0x645040</color>
+    </colorset>
+    <c_parts enable="Y">
+      <c_area oc="">ccColorA</c_area>
+      <c_area oc="">ccColorB</c_area>
+    </c_parts>
+	<tag>pine</tag>
+	<tag>plant</tag>
+	<tag>snow</tag>
+	<tag>tree</tag>
+  </prop>
   <prop id="ncc_02spatula.swf" name="Spatula" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="10948" money="0" sharing="0" handstyle="stick">
     <tag>kitchen</tag>
   </prop>
@@ -5118,7 +5135,15 @@
     <tag>woods</tag>
   </prop>
   <prop id="ncc_htree.swf" name="Tree" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="11296" money="0" sharing="0">
-    <tag>nature</tag>
+    <colorset enable="Y" aid="9552">
+      <color r="ccColorA">0x667B2C</color>
+      <color r="ccColorB">0x645040</color>
+    </colorset>
+    <c_parts enable="Y">
+      <c_area oc="">ccColorA</c_area>
+      <c_area oc="">ccColorB</c_area>
+    </c_parts>
+	<tag>nature</tag>
     <tag>park</tag>
     <tag>pine</tag>
 	<tag>plant</tag>
