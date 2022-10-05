@@ -4325,6 +4325,16 @@
     <state id="msp_dish_msp_computer_cc_dish_02.swf" name="Food" enable="Y" default="Y" />
     <tag>food</tag>
   </prop>
+  <prop id="msp_laptop" name="Laptop" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_laptop_laptop_front.swf" enable="Y" is_premium="N" aid="10543" money="0" sharing="0">
+    <state id="msp_laptop_laptop_front.swf" name="front" enable="Y" default="Y"/>
+    <state id="msp_laptop_laptop_front_empty.swf" name="front transparent" enable="Y"/>
+    <state id="msp_laptop_laptop_back.swf" name="back" enable="Y"/>
+    <state id="msp_laptop_ncc_laptop_side_empty.swf" name="side transparent" enable="Y"/>
+    <state id="msp_laptop_ncc_laptop_side.swf" name="side" enable="Y"/>
+    <state id="msp_laptop_ncc_laptop_sideback.swf" name="sideback" enable="Y"/>
+	<tag>computer</tag>
+	<tag>notebook</tag>
+  </prop>
   <prop id="msp_sllocker" name="Locker" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_sllocker_ncc_sllocker01.swf" enable="Y" is_premium="Y" aid="11331" money="0" sharing="0">
     <state id="msp_sllocker_ncc_sllocker01.swf" name="closed" enable="Y" default="Y" />
     <state id="msp_sllocker_ncc_sllocker02.swf" name="open" enable="Y" />
