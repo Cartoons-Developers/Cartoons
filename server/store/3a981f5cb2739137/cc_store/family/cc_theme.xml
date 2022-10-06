@@ -13975,6 +13975,12 @@
 	<tag>_sticky_filter_fatgirl</tag>
 	<tag>_sticky_filter_buff</tag>
   </component>
+  <component type="facedecoration" id="hair_net_beard" path="hair_net_beard" name="hair_net_beard" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+    <state id="default" filename="default.swf" />
+	<tag>_sticky_filter_guy</tag>
+	<tag>_sticky_filter_fatguy</tag>
+	<tag>_sticky_filter_buff</tag>
+  </component>
   <component type="facedecoration" id="hotel_porter" path="hotel_porter" name="hotel_porter" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
     <state id="default" filename="default.swf" />
 	<tag>_sticky_filter_guy</tag>
