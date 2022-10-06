@@ -6333,7 +6333,7 @@
     <tags>family,_free,_cat:Industrial,_tag:apron cap factories factory food haircap hat industrial industry man male mask restaurant worker</tags>
   </char>
   <char id="196" name="Food Factory Worker" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
-    <tags>family,_free,_cat:Industrial,_tag:apron beard cap factories factory food goatee haircap hat industrial industry man male restaurant worker</tags>
+    <tags>family,_free,_cat:Industrial,_tag:apron beard cap factories factory food goatee haircap hat industrial industry man male mask restaurant worker</tags>
   </char>
   <char id="24" name="Graduate" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
     <tags>family,_free,_cat:Special Occasions,_tag:academy academic cap child children college education female girl graduate graduation hat kid kids occasions pigtails special student</tags>
