@@ -3579,7 +3579,7 @@
     <tag>briefcase</tag>
 	<tag>suitcase</tag>
   </prop>
-  <prop id="broccoli.swf" name="Broccoli" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9041" money="" sharing="">
+  <prop id="broccoli.swf" name="Broccoli" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9041" money="" sharing="">
     <tag>broccoli</tag>
     <tag>food</tag>
 	<tag>veg</tag>
@@ -4165,6 +4165,15 @@
 	<tag>trash</tag>
 	<tag>waste</tag>
 	<tag>wasted</tag>
+  </prop>
+  <prop id="garlic.swf" name="Garlic" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9041" money="" sharing="">
+    <tag>food</tag>
+	<tag>veg</tag>
+	<tag>vege</tag>
+	<tag>vegetable</tag>
+	<tag>vegetables</tag>
+	<tag>veggie</tag>
+	<tag>veggies</tag>
   </prop>
   <prop id="nccxmas_present01.swf" name="Gift" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="11487" money="0" sharing="0">
 	<tag>birthday</tag>
