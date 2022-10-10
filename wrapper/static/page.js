@@ -212,14 +212,7 @@ module.exports = function (req, res, url) {
 			<h1 style="margin:0"><img id="logo" src="/pages/img/list_logo.svg" alt="Cartoons"/></h1>
 		</a>
 		<nav id="headbuttons">
-			<div class="dropdown_contain button_small">
-				<div class="dropdown_button upload_button">UPLOAD</div>
-				<nav class="dropdown_menu">
-					<a onclick="document.getElementById('file').click()">Movie</a>
-					<a onclick="document.getElementById('file2').click()">Character</a>
-				</nav>
-			</div>
-			<a href="/pages/html/create.html" class="button_big">CREATE</a>
+			<a href="/pages/html/create.html" class="button_big">CREATE A VIDEO</a>
 		</nav>
 	</header>
 	
