@@ -965,12 +965,6 @@
       <selection type="skeleton" state_id="run" />
       <selection type="upper_body" state_id="run" />
     </action>
-    <action id="sit2" name="Sit" loop="Y" totalframe="1" enable="Y" category="Poses" is_motion="N">
-      <selection type="facial" facial_id="head_neutral" />
-      <selection type="lower_body" state_id="laugh" />
-      <selection type="skeleton" state_id="sit_on_floor" />
-      <selection type="upper_body" state_id="sit" />
-    </action>
     <action id="sit_xarms" name="Sit - crossed arms" loop="Y" totalframe="1" enable="Y" category="Poses" is_motion="N">
       <selection type="facial" facial_id="head_neutral" />
       <selection type="lower_body" state_id="sit" />
@@ -1030,6 +1024,7 @@
       <state id="bend" filename="bend.swf" />
 	  <state id="chuckle" filename="chuckle.swf" />
 	  <state id="crawl" filename="crawl.swf" />
+	  <state id="cry" filename="cry.swf" />
       <state id="crossed_arms" filename="crossed_arms.swf" />
       <state id="dance" filename="dance.swf" />
       <state id="excited" filename="excited.swf" />
@@ -1043,7 +1038,6 @@
       <state id="run" filename="run.swf" />
       <state id="sad" filename="sad.swf" />
       <state id="sit" filename="sit.swf" />
-      <state id="sit_on_floor" filename="sit_on_floor.swf" />
       <state id="stand" filename="stand.swf" />
       <state id="talk" filename="talk.swf" />
       <state id="talk_on_phone" filename="talk_on_phone.swf" />
@@ -3207,6 +3201,12 @@
       <selection type="skeleton" state_id="crawl" />
       <selection type="upper_body" state_id="laugh" />
     </action>
+    <action id="cry" name="Cry" loop="Y" totalframe="1" enable="Y" category="Emotions" is_motion="Y">
+      <selection type="facial" facial_id="head_cry" />
+      <selection type="lower_body" state_id="default" />
+      <selection type="skeleton" state_id="cry" />
+      <selection type="upper_body" state_id="default" />
+    </action>
     <action id="dance2" name="Dance" loop="Y" totalframe="23" enable="Y" category="Art and music" is_motion="N">
       <selection type="facial" facial_id="head_happy" />
       <selection type="lower_body" state_id="laugh" />
@@ -3248,12 +3248,6 @@
       <selection type="lower_body" state_id="walk" />
       <selection type="skeleton" state_id="run" />
       <selection type="upper_body" state_id="run" />
-    </action>
-    <action id="sit2" name="Sit" loop="Y" totalframe="1" enable="Y" category="Poses" is_motion="N">
-      <selection type="facial" facial_id="head_neutral" />
-      <selection type="lower_body" state_id="laugh" />
-      <selection type="skeleton" state_id="sit_on_floor" />
-      <selection type="upper_body" state_id="sit" />
     </action>
     <action id="sit_xarms" name="Sit - crossed arms" loop="Y" totalframe="1" enable="Y" category="Poses" is_motion="N">
       <selection type="facial" facial_id="head_neutral" />
@@ -3319,6 +3313,7 @@
       <state id="agree" filename="agree.swf" />
       <state id="bend" filename="bend.swf" />
 	  <state id="crawl" filename="crawl.swf" />
+	  <state id="cry" filename="cry.swf" />
 	  <state id="chuckle" filename="chuckle.swf" />
       <state id="crossed_arms" filename="crossed_arms.swf" />
       <state id="dance" filename="dance.swf" />
@@ -3333,7 +3328,6 @@
       <state id="run" filename="run.swf" />
       <state id="sad" filename="sad.swf" />
       <state id="sit" filename="sit.swf" />
-      <state id="sit_on_floor" filename="sit_on_floor.swf" />
       <state id="stand" filename="stand.swf" />
       <state id="talk" filename="talk.swf" />
       <state id="talk_on_phone" filename="talk_on_phone.swf" />
@@ -5081,6 +5075,12 @@
       <selection type="skeleton" state_id="crawl" />
       <selection type="upper_body" state_id="laugh" />
     </action>
+    <action id="cry" name="Cry" loop="Y" totalframe="1" enable="Y" category="Emotions" is_motion="Y">
+      <selection type="facial" facial_id="head_cry" />
+      <selection type="lower_body" state_id="default" />
+      <selection type="skeleton" state_id="cry" />
+      <selection type="upper_body" state_id="default" />
+    </action>
     <action id="dance2" name="Dance" loop="Y" totalframe="23" enable="Y" category="Art and music" is_motion="N">
       <selection type="facial" facial_id="head_happy" />
       <selection type="lower_body" state_id="laugh" />
@@ -5122,12 +5122,6 @@
       <selection type="lower_body" state_id="walk" />
       <selection type="skeleton" state_id="run" />
       <selection type="upper_body" state_id="run" />
-    </action>
-    <action id="sit2" name="Sit" loop="Y" totalframe="1" enable="Y" category="Poses" is_motion="N">
-      <selection type="facial" facial_id="head_neutral" />
-      <selection type="lower_body" state_id="laugh" />
-      <selection type="skeleton" state_id="sit_on_floor" />
-      <selection type="upper_body" state_id="sit" />
     </action>
     <action id="sit_xarms" name="Sit - crossed arms" loop="Y" totalframe="1" enable="Y" category="Poses" is_motion="N">
       <selection type="facial" facial_id="head_neutral" />
@@ -5193,6 +5187,7 @@
  	  <state id="agree" filename="agree.swf" />
       <state id="bend" filename="bend.swf" />
 	  <state id="crawl" filename="crawl.swf" />
+	  <state id="cry" filename="cry.swf" />
 	  <state id="chuckle" filename="chuckle.swf" />
       <state id="crossed_arms" filename="crossed_arms.swf" />
       <state id="dance" filename="dance.swf" />
@@ -5207,7 +5202,6 @@
       <state id="run" filename="run.swf" />
       <state id="sad" filename="sad.swf" />
       <state id="sit" filename="sit.swf" />
-      <state id="sit_on_floor" filename="sit_on_floor.swf" />
       <state id="stand" filename="stand.swf" />
       <state id="talk" filename="talk.swf" />
       <state id="talk_on_phone" filename="talk_on_phone.swf" />
