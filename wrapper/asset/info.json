@@ -1,19 +1,20 @@
 {
-	"bg": {
-		"filetypes": [
-			"jpg"
-		]
-	},
-	"prop": {
-		"filetypes": [
-			"png",
-			"jpg"
-		]
-	},
-	"sound": {
-		"filetypes": [
-			"mp3",
-			"wav"
-		]
-	}
+	"bg": [
+		"swf",
+		"gif",
+		"png",
+		"jpg"
+	],
+	"prop": [
+		"swf",
+		"gif",
+		"png",
+		"jpg",
+		"mp4"
+	],
+	"sound": [
+		"mp3",
+		"ogg",
+		"wav"
+	]
 }
