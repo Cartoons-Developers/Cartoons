@@ -3201,13 +3201,13 @@
       <selection type="skeleton" state_id="crawl" />
       <selection type="upper_body" state_id="laugh" />
     </action>
-    <action id="cry" name="Cry" loop="Y" totalframe="1" enable="Y" category="Emotions" is_motion="Y">
+    <action id="cry" name="Cry" loop="Y" totalframe="1" enable="Y" category="Emotions" is_motion="N">
       <selection type="facial" facial_id="head_cry" />
       <selection type="lower_body" state_id="default" />
       <selection type="skeleton" state_id="cry" />
       <selection type="upper_body" state_id="default" />
     </action>
-    <action id="sit_cry" name="Cry" loop="Y" totalframe="1" enable="Y" category="Emotions" is_motion="Y">
+    <action id="sit_cry" name="Cry" loop="Y" totalframe="1" enable="Y" category="Emotions" is_motion="N">
       <selection type="facial" facial_id="head_cry" />
       <selection type="lower_body" state_id="sit" />
       <selection type="skeleton" state_id="cry" />
