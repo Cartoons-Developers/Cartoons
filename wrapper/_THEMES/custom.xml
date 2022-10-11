@@ -6622,7 +6622,7 @@
     <tags>family,_free,_cat:Holidays and Costumes,_tag:big boot boots christmas claus costume costumes hat holiday holidays hols large man male noel santa</tags>
   </char>
   <char id="22" name="Senior" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
-    <tags>family,_free,_cat:Casual,_tag:beard big casual elder elderlies elderly female glasses lady large woman</tags>
+    <tags>family,_free,_cat:Casual,_tag:casual elder elderlies elderly female glasses lady woman</tags>
   </char>
   <char id="35" name="Senior" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
     <tags>family,_free,_cat:Casual,_tag:big casual elder elderlies elderly large man male</tags>
