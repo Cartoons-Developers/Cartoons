@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <theme id="custom" name="Comedy World" cc_theme_id="family">
-  <background id="wall10.swf" name="Hallway" enable="Y" default="N" is_premium="N" aid="9811" money="" sharing="" category="Locations" />
-  <background id="wall12.swf" name="Room" enable="Y" default="N" is_premium="N" aid="11453" money="" sharing="" category="Locations" />
+  <background id="wall10.swf" name="Hallway" enable="Y" default="N" is_premium="N" aid="9811" money="" sharing="" category="locations" />
+  <background id="neighborhood.swf" name="Neighborhood" enable="Y" default="N" is_premium="N" aid="11453" money="" sharing="" category="Locations" />
+  <background id="wall12.swf" name="Room" enable="Y" default="N" is_premium="N" aid="11453" money="" sharing="" category="locations" />
   <background id="wall03.swf" name="Wallpaper" enable="Y" default="N" is_premium="N" aid="9811" money="" sharing="" category="patterns" />
   <background id="living_room_bg.swf" name="Living room" enable="N" default="N" is_premium="N" aid="9811" money="" sharing="" />
   <background id="barn_ext_bg.swf" name="Y" enable="N" default="N" is_premium="N" aid="9700" money="" sharing="">
