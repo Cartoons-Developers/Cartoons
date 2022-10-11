@@ -6625,13 +6625,13 @@
     <tags>family,_free,_cat:Casual,_tag:casual elder elderlies elderly female glasses lady woman</tags>
   </char>
   <char id="35" name="Senior" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
-    <tags>family,_free,_cat:Casual,_tag:big casual elder elderlies elderly large man male</tags>
+    <tags>family,_free,_cat:Casual,_tag:casual elder elderlies elderly man male</tags>
   </char>
   <char id="36" name="Senior" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
-    <tags>family,_free,_cat:Casual,_tag:beard casual elder elderlies elderly goatee man male</tags>
+    <tags>family,_free,_cat:Casual,_tag:beard big casual elder elderlies elderly goatee large man male</tags>
   </char>
   <char id="53" name="Senior" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
-    <tags>family,_free,_cat:Casual,_tag:casual elder elderlies elderly female glasses lady woman</tags>
+    <tags>family,_free,_cat:Casual,_tag:big casual elder elderlies elderly female glasses lady large woman</tags>
   </char>
   <char id="136" name="Senior" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
     <tags>family,_free,_cat:Casual,_tag:casual dreadlock dreadlocks dreads earring earrings elder elderlies elderly female lady woman</tags>
