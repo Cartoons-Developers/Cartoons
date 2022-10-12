@@ -8618,6 +8618,12 @@
       <selection type="skeleton" state_id="talk_on_phone" />
       <selection type="upper_body" state_id="talk_on_phone" />
     </action>
+    <action id="talk_phone_sit" name="Talk on phone" loop="Y" totalframe="115" enable="Y" category="Mobile devices" is_motion="N">
+      <selection type="facial" facial_id="head_talk_a" />
+      <selection type="lower_body" state_id="sit" />
+      <selection type="skeleton" state_id="talk_on_phone" />
+      <selection type="upper_body" state_id="talk_on_phone" />
+    </action>
     <action id="dance" name="Dance" loop="Y" totalframe="32" enable="Y" category="Art and music" is_motion="N">
       <selection type="facial" facial_id="head_happy" />
       <selection type="lower_body" state_id="dance" />
@@ -8635,6 +8641,12 @@
       <selection type="lower_body" state_id="default" />
       <selection type="skeleton" state_id="talk" />
       <selection type="upper_body" state_id="talk" />
+    </action>
+    <action id="racewalking" name="Racewalking" loop="Y" totalframe="1" enable="Y" category="Sports" is_motion="Y">
+      <selection type="facial" facial_id="head_neutral" />
+      <selection type="lower_body" state_id="walk" />
+      <selection type="skeleton" state_id="run" />
+      <selection type="upper_body" state_id="run" />
     </action>
     <component type="lower_body" id="bob_001" path="bob_001" name="bob_001" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
       <state id="dance" filename="dance.swf" />
