@@ -6597,6 +6597,12 @@
   <char id="93" name="Prisoner" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
     <tags>family,_free,_cat:Government,_tag:convict crime criminal female government jail jumpsuit lady prison prisoner woman</tags>
   </char>
+  <char id="198" name="Prisoner" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+    <tags>family,_free,_cat:Government,_tag:big convict crime criminal female government jail jumpsuit lady large prison prisoner woman</tags>
+  </char>
+  <char id="199" name="Prisoner" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+    <tags>family,_free,_cat:Government,_tag:bald big convict crime criminal government jail jumpsuit large man male prison prisoner</tags>
+  </char>
   <char id="6" name="Police" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
     <tags>family,_free,_cat:Government,_tag:badge cap cop cops government hat hero heroes heroic law legal man male officer police</tags>
   </char>
