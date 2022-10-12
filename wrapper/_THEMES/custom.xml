@@ -4393,6 +4393,11 @@
   <prop id="nccxmas_deco02.swf" name="Mistletoe" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="Y" aid="11476" money="0" sharing="0">
     <tag>christmas</tag>
   </prop>
+  <prop id="magic_wand.swf" name="Magic Wand" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9797" money="" sharing="">
+    <tag>magic</tag>
+	<tag>magician</tag>
+    <tag>wand</tag>
+  </prop>
   <prop id="money.swf" name="Money" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9797" money="" sharing="">
     <tag>affluence</tag>
 	<tag>bank</tag>
@@ -5912,7 +5917,6 @@
   <prop id="broomstick.swf" name="Broomstick" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="N" is_premium="N" aid="8915" money="" sharing="" />
   <prop id="snitch.swf" name="Golden snitch" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="N" is_premium="N" aid="8916" money="" sharing="" />
   <prop id="owl.swf" name="Owl" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="N" is_premium="N" aid="8917" money="" sharing="" />
-  <prop id="magic_wand.swf" name="Magic Wand" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="N" is_premium="N" aid="8918" money="" sharing="" />
   <prop id="magic_book.swf" name="Book" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="N" is_premium="N" aid="8919" money="" sharing="" />
   <prop id="feather_pen.swf" name="Feather" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="N" is_premium="N" aid="8920" money="" sharing="" />
   <prop id="owl_cage.swf" name="Cage" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="N" is_premium="N" aid="8921" money="" sharing="" />
