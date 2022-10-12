@@ -5274,6 +5274,9 @@
   <prop id="white_board02.swf" name="Whiteboard" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="10568" money="0" sharing="0">
     <tag>whiteboard</tag>
   </prop>
+  <prop id="window.swf" name="Window" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9797" money="" sharing="">
+	<tag>window</tag>
+  </prop>
   <prop id="wine.swf" name="Wine" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9797" money="" sharing="">
     <tag>alcohol</tag>
 	<tag>bar</tag>
