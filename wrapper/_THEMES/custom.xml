@@ -6652,6 +6652,9 @@
   <char id="150" name="Senior" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
     <tags>family,_free,_cat:Casual,_tag:casual elder elderlies elderly man male</tags>
   </char>
+  <char id="200" name="Senior" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+    <tags>family,_free,_cat:Casual,_tag:big casual elder elderlies elderly female glasses lady large woman</tags>
+  </char>
   <char id="9" name="Soldier" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
     <tags>family,_free,_cat:Government,_tag:army armies boot boots camouflage cap fatigues government hat man male soldier</tags>
   </char>
