@@ -13000,6 +13000,12 @@
 	<tag>_sticky_filter_fatguy</tag>
 	<tag>_sticky_filter_buff</tag>
   </component>
+  <component type="hair" id="two_tone1" path="two_tone1" name="two_tone1" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+    <state id="default" filename="default.swf" />
+	<tag>_sticky_filter_girl</tag>
+	<tag>_sticky_filter_littlegirl</tag>
+	<tag>_sticky_filter_fatgirl</tag>
+  </component>
   <component type="mustache" id="010" path="010" name="010" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
     <state id="default" filename="default.swf" />
 	<tag>_sticky_filter_guy</tag>
