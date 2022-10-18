@@ -2,6 +2,7 @@
 <theme id="custom" name="Comedy World" cc_theme_id="family">
   <background id="wall10.swf" name="Hallway" enable="Y" default="N" is_premium="N" aid="9811" money="" sharing="" category="locations" />
   <background id="neighborhood.swf" name="Neighborhood" enable="Y" default="N" is_premium="N" aid="11453" money="" sharing="" category="locations" />
+  <background id="neighborhood2.swf" name="Neighborhood" enable="Y" default="N" is_premium="N" aid="11453" money="" sharing="" category="locations" />
   <background id="wall12.swf" name="Room" enable="Y" default="N" is_premium="N" aid="11453" money="" sharing="" category="locations" />
   <background id="wall03.swf" name="Wallpaper" enable="Y" default="N" is_premium="N" aid="9811" money="" sharing="" category="patterns" />
   <background id="living_room_bg.swf" name="Living room" enable="N" default="N" is_premium="N" aid="9811" money="" sharing="" />
@@ -4205,6 +4206,9 @@
 	<tag>dessert</tag>
 	<tag>food</tag>
 	<tag>gingerbread</tag>
+  </prop>
+  <prop id="glass_door.swf" name="Glass Door" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="11487" money="0" sharing="0">
+	<tag>door</tag>
   </prop>
   <prop id="ncc_guitar01.swf" name="Guitar" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="10766" money="0" sharing="0">
     <tag>band</tag>
