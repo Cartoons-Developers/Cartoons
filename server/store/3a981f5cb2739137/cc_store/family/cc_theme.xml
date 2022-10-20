@@ -7740,46 +7740,6 @@
       <state id="walk" filename="walk.swf" />
 	<tag>_sticky_filter_girl</tag>
     </component>
-    <component type="upper_body" id="eve_096" path="eve_096" name="eve_096" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
-      <state id="chuckle" filename="chuckle.swf" />
-      <state id="crossed_arms" filename="crossed_arms.swf" />
-      <state id="dance" filename="dance.swf" />
-      <state id="default" filename="default.swf" />
-      <state id="excited" filename="excited.swf" />
-      <state id="fearful" filename="fearful.swf" />
-      <state id="kneel_down" filename="kneel_down.swf" />
-      <state id="laugh" filename="laugh.swf" />
-      <state id="lie_down" filename="lie_down.swf" />
-      <state id="point_at" filename="point_at.swf" />
-      <state id="run" filename="run.swf" />
-      <state id="sad" filename="sad.swf" />
-      <state id="sit" filename="sit.swf" />
-      <state id="talk" filename="talk.swf" />
-      <state id="talk_on_phone" filename="talk_on_phone.swf" />
-      <state id="taunt" filename="taunt.swf" />
-      <state id="walk" filename="walk.swf" />
-	<tag>_sticky_filter_girl</tag>
-    </component>
-    <component type="upper_body" id="eve_097" path="eve_097" name="eve_097" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
-      <state id="chuckle" filename="chuckle.swf" />
-      <state id="crossed_arms" filename="crossed_arms.swf" />
-      <state id="dance" filename="dance.swf" />
-      <state id="default" filename="default.swf" />
-      <state id="excited" filename="excited.swf" />
-      <state id="fearful" filename="fearful.swf" />
-      <state id="kneel_down" filename="kneel_down.swf" />
-      <state id="laugh" filename="laugh.swf" />
-      <state id="lie_down" filename="lie_down.swf" />
-      <state id="point_at" filename="point_at.swf" />
-      <state id="run" filename="run.swf" />
-      <state id="sad" filename="sad.swf" />
-      <state id="sit" filename="sit.swf" />
-      <state id="talk" filename="talk.swf" />
-      <state id="talk_on_phone" filename="talk_on_phone.swf" />
-      <state id="taunt" filename="taunt.swf" />
-      <state id="walk" filename="walk.swf" />
-	<tag>_sticky_filter_girl</tag>
-    </component>
     <component type="upper_body" id="eve_101" path="eve_101" name="eve_101" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
       <state id="chuckle" filename="chuckle.swf" />
       <state id="crossed_arms" filename="crossed_arms.swf" />
@@ -7941,6 +7901,26 @@
 	<tag>_sticky_filter_girl</tag>
     </component>
     <component type="upper_body" id="eve_113" path="eve_113" name="eve_113" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+      <state id="chuckle" filename="chuckle.swf" />
+      <state id="crossed_arms" filename="crossed_arms.swf" />
+      <state id="dance" filename="dance.swf" />
+      <state id="default" filename="default.swf" />
+      <state id="excited" filename="excited.swf" />
+      <state id="fearful" filename="fearful.swf" />
+      <state id="kneel_down" filename="kneel_down.swf" />
+      <state id="laugh" filename="laugh.swf" />
+      <state id="lie_down" filename="lie_down.swf" />
+      <state id="point_at" filename="point_at.swf" />
+      <state id="run" filename="run.swf" />
+      <state id="sad" filename="sad.swf" />
+      <state id="sit" filename="sit.swf" />
+      <state id="talk" filename="talk.swf" />
+      <state id="talk_on_phone" filename="talk_on_phone.swf" />
+      <state id="taunt" filename="taunt.swf" />
+      <state id="walk" filename="walk.swf" />
+	<tag>_sticky_filter_girl</tag>
+    </component>
+    <component type="upper_body" id="eve_114" path="eve_114" name="eve_114" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
       <state id="chuckle" filename="chuckle.swf" />
       <state id="crossed_arms" filename="crossed_arms.swf" />
       <state id="dance" filename="dance.swf" />
