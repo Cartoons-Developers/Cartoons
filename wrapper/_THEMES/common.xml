@@ -100,4 +100,7 @@
   <body taily="65" tailx="90" linergb="0" rgb="0xFFFFFF"/>
   <text rgb="0" font="Blambot Casual" size="20" align="center" bold="false" italic="false">Double-click to input text</text>
 </bubble>
+	<effect id="zoom" x="0" y="0" w="275" h="177" rotate="0" type="ZOOM" resize="true" move="true" name="Zoom" enable="Y" is_premium="N" aid="3432" money="0" sharing="0" display_order="1"/>
+	<effect id="cut" x="0" y="0" w="275" h="177" rotate="0" type="ZOOM" resize="true" move="true" name="Cut" enable="Y" isCut="true" is_premium="N" aid="3433" money="0" sharing="0" display_order="2"/>
+	<effect id="pan" x="0" y="0" w="275" h="177" rotate="0" type="ZOOM" resize="true" move="true" name="Pan" enable="Y" isPan="true" is_premium="N" aid="8233" money="0" sharing="0" display_order="4"/>
 </theme>
