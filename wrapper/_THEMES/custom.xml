@@ -6494,6 +6494,15 @@
   <char id="14" name="Nurse" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
     <tags>family,_free,_cat:Healthcare,_tag:cap clinic clinical female hat health healthcare hospital hospitality lady surgeon woman</tags>
   </char>
+  <char id="202" name="Nurse" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+    <tags>family,_free,_cat:Healthcare,_tag:cap clinic clinical female hat health healthcare hospital hospitality lady mask surgeon woman</tags>
+  </char>
+  <char id="203" name="Nurse" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+    <tags>family,_free,_cat:Healthcare,_tag:clinic clinical female health healthcare hospital hospitality lady surgeon woman</tags>
+  </char>
+  <char id="204" name="Nurse" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+    <tags>family,_free,_cat:Healthcare,_tag:clinic clinical female health healthcare hospital hospitality lady mask surgeon woman</tags>
+  </char>
   <char id="110" name="Office Professional" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
     <tags>family,_free,_cat:Office,_tag:beard business elder elderlies elderly man male office professional turban worker</tags>
   </char>
