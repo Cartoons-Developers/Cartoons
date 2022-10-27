@@ -4883,20 +4883,6 @@
     <tag>ship</tag>
 	<tag>shipping</tag>
   </prop>
-  <prop id="nccxmas_htree_snow.swf" name="Snowy Tree" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_htree_nccxmas_htree_decoon.swf" enable="Y" is_premium="Y" aid="11479" money="0" sharing="0">
-	<colorset enable="Y" aid="9552">
-      <color r="ccColorA">0x667B2C</color>
-      <color r="ccColorB">0x645040</color>
-    </colorset>
-    <c_parts enable="Y">
-      <c_area oc="">ccColorA</c_area>
-      <c_area oc="">ccColorB</c_area>
-    </c_parts>
-	<tag>pine</tag>
-	<tag>plant</tag>
-	<tag>snow</tag>
-	<tag>tree</tag>
-  </prop>
   <prop id="ncc_02spatula.swf" name="Spatula" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="10948" money="0" sharing="0" handstyle="stick">
     <tag>kitchen</tag>
   </prop>
@@ -4921,6 +4907,20 @@
     <tag>cellphone</tag>
 	<tag>phone</tag>
     <tag>telephone</tag>
+  </prop>
+  <prop id="nccxmas_htree_snow.swf" name="Snowy Tree" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_htree_nccxmas_htree_decoon.swf" enable="Y" is_premium="Y" aid="11479" money="0" sharing="0">
+	<colorset enable="Y" aid="9552">
+      <color r="ccColorA">0x667B2C</color>
+      <color r="ccColorB">0x645040</color>
+    </colorset>
+    <c_parts enable="Y">
+      <c_area oc="">ccColorA</c_area>
+      <c_area oc="">ccColorB</c_area>
+    </c_parts>
+	<tag>pine</tag>
+	<tag>plant</tag>
+	<tag>snow</tag>
+	<tag>tree</tag>
   </prop>
   <prop id="msp_snow" name="Snow" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_snow_nccxmas_snow01.swf" enable="Y" is_premium="N" aid="11494" money="0" sharing="0">
     <state id="msp_snow_nccxmas_snow01.swf" name="Big pile" enable="Y" default="Y" />
@@ -4958,6 +4958,10 @@
 	<tag>beverage</tag>
 	<tag>bottle</tag>
 	<tag>bottles</tag>
+	<tag>drink</tag>
+  </prop>
+  <prop id="coke1.swf" name="Soda Can" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="11858" money="" sharing="">
+	<tag>beverage</tag>
 	<tag>drink</tag>
   </prop>
   <prop id="msp_sofa" name="Sofa" holdable="" placeable="1" wearable="" facing="left" thumb="msp_sofa_sofa_front.swf" enable="Y" is_premium="N" aid="9802" money="" sharing="">
