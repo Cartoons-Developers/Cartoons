@@ -6749,6 +6749,9 @@
   <char id="49" name="Superhero" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
     <tags>family,_free,_cat:Holidays and Costumes,_tag:boot boots costume costumes female glove gloves glasses hero heroes heroic holiday holidays hols lady other professions superhero woman</tags>
   </char>
+  <char id="205" name="Superhero" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+    <tags>family,_free,_cat:Holidays and Costumes,_tag:boot boots costume costumes female glove gloves glasses hero heroes heroic holiday holidays hols lady other professions superhero woman</tags>
+  </char>
   <char id="39" name="Thief" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
     <tags>family,_free,_cat:Holidays and Costumes,_tag:burglar cap convict costume costumes crime criminal hat holiday holidays hols mask man male other professions rob robber robbery thief thieves</tags>
   </char>
