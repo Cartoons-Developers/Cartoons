@@ -6614,6 +6614,18 @@
   <char id="181" name="Office Worker" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
     <tags>family,_free,_cat:Office,_tag:business earring earrings female lady office turban woman worker</tags>
   </char>
+  <char id="206" name="Office Worker" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+    <tags>family,_free,_cat:Office,_tag:business glasses man male office worker</tags>
+  </char>
+  <char id="207" name="Office Worker" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+    <tags>family,_free,_cat:Office,_tag:business female lady office woman worker</tags>
+  </char>
+  <char id="208" name="Office Worker" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+    <tags>family,_free,_cat:Office,_tag:business man male office worker</tags>
+  </char>
+  <char id="209" name="Office Worker" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+    <tags>family,_free,_cat:Office,_tag:business man male office worker</tags>
+  </char>
   <char id="75" name="Pajamas" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
     <tags>family,_free,_cat:Casual,_tag:asleep bedroom domestic home homeware household man male pajama pajamas pj pjs pyjama pyjamas sleep sleeping sleepy</tags>
   </char>
