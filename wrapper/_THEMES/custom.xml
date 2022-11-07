@@ -6716,6 +6716,12 @@
   <char id="200" name="Senior" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
     <tags>family,_free,_cat:Casual,_tag:big casual elder elderlies elderly female glasses lady large woman</tags>
   </char>
+  <char id="210" name="Skeleton" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+    <tags>family,_free,_cat:Holidays and Costumes,_tag:halloween holiday holidays hols monster skeleton</tags>
+  </char>
+  <char id="211" name="Skeleton with Hair" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+    <tags>family,_free,_cat:Holidays and Costumes,_tag:halloween holiday holidays hols monster skeleton</tags>
+  </char>
   <char id="9" name="Soldier" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
     <tags>family,_free,_cat:Government,_tag:army armies boot boots camouflage cap fatigues government hat man male soldier</tags>
   </char>
