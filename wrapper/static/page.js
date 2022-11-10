@@ -212,7 +212,7 @@ module.exports = function (req, res, url) {
 			<h1 style="margin:0"><img id="logo" src="/pages/img/list_logo.svg" alt="Cartoons"/></h1>
 		</a>
 		<nav id="headbuttons">
-			<a href="/pages/html/create.html" class="button_big">CREATE A VIDEO</a>
+			<a href="/go_full?tray=custom" class="button_big">CREATE A VIDEO</a>
 		</nav>
 	</header>
 	
