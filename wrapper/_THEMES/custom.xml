@@ -4037,6 +4037,15 @@
     <tag>wooden</tag>
     <tag>woods</tag>
   </prop>
+  <prop id="barn_int_cow.swf" name="Cow" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="N" is_premium="N" aid="9670" money="" sharing="">
+    <tag>cat:Animals</tag>
+	<tag>agriculture</tag>
+	<tag>animal</tag>
+    <tag>animals</tag>
+	<tag>cow</tag>
+	<tag>barn</tag>
+	<tag>farm</tag>
+  </prop>
   <prop id="creepy_tree.swf" name="Creepy Tree" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="12198" money="0" sharing="0">
     <tag>cat:Nature</tag>
 	<tag>dead</tag>
@@ -6255,7 +6264,6 @@
   <prop id="barn_int_hay.swf" name="Hay" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="N" is_premium="N" aid="9663" money="" sharing="" />
   <prop id="barn_int_fence.swf" name="" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="N" is_premium="N" aid="9664" money="" sharing="" />
   <prop id="barn_int_stool.swf" name="Stool" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="N" is_premium="N" aid="9665" money="" sharing="" />
-  <prop id="barn_int_cow.swf" name="Cow" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="N" is_premium="N" aid="9670" money="" sharing="" />
   <prop id="barn_ext_house.swf" name="House" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="N" is_premium="N" aid="9671" money="" sharing="">
     <colorset enable="Y" aid="9672">
       <color r="ccColorA">0xC2493E</color>
