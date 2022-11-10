@@ -30,9 +30,9 @@
   </color>
   <color r="ccGlassesLens" component_type="glasses" enable="Y">
     <choice>0xFFBF00</choice>
-    <choice>0x2C835A</choice>
-    <choice>0xFF00B2</choice>
-    <choice>0x999999</choice>
+    <choice>0x364F23</choice>
+    <choice>0x582A5A</choice>
+    <choice>0x515151</choice>
     <choice>0x562A0C</choice>
   </color>
   <color r="ccMouthLip" component_type="mouth" enable="Y">
