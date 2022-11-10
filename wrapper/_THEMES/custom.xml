@@ -4037,7 +4037,7 @@
     <tag>wooden</tag>
     <tag>woods</tag>
   </prop>
-  <prop id="barn_int_cow.swf" name="Cow" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="N" is_premium="N" aid="9670" money="" sharing="">
+  <prop id="barn_int_cow.swf" name="Cow" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9670" money="" sharing="">
     <tag>cat:Animals</tag>
 	<tag>agriculture</tag>
 	<tag>animal</tag>
