@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <theme id="custom" name="Comedy World" cc_theme_id="family">
   <background id="wall10.swf" name="Hallway" enable="Y" default="N" is_premium="N" aid="9811" money="" sharing="" category="Locations" />
+  <background id="ncc_low.swf" name="Hallway" enable="Y" default="N" is_premium="N" aid="9811" money="" sharing="" category="Patterns" />
   <background id="neighborhood.swf" name="Neighborhood" enable="Y" default="N" is_premium="N" aid="11453" money="" sharing="" category="Locations" />
   <background id="neighborhood2.swf" name="Neighborhood" enable="Y" default="N" is_premium="N" aid="11453" money="" sharing="" category="Locations" />
   <background id="wall12.swf" name="Room" enable="Y" default="N" is_premium="N" aid="11453" money="" sharing="" category="Locations" />
@@ -3044,99 +3045,96 @@
       <rotation>0</rotation>
     </prop>
   </compositebg>
-  <compositebg id="cbg_bar" name="Bar" enable="Y" default="N" thumb="bar.jpg" display_order="53" is_premium="N" money="" sharing="" aid="9813">
-    <bg id="cbg_bar_BG2" index="">
-      <file>custom.bar_bg.swf</file>
+  <compositebg id="cbg_pub" name="Pub" enable="Y" default="N" thumb="pub.png" display_order="53" is_premium="N" money="" sharing="" aid="9813">
+    <bg id="BG2" index="0">
+      <file>custom.ncc_low.swf</file>
+      <color r="colorA">5775645</color>
+      <color r="colorB">6375742</color>
     </bg>
-    <prop id="cbg_bar_PROP63" index="2">
-      <file>custom.msp_bar_door.msp_bar_door_bar_door_close.swf</file>
-      <x>146</x>
-      <y>142</y>
+    <prop id="PROP2" index="6">
+      <file>custom.billiard_table.swf</file>
+      <x>472.6</x>
+      <y>269.6494887</y>
+      <xscale>1.0204539</xscale>
+      <yscale>1.0204539</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP4" index="2">
+      <file>custom.beer_tap.swf</file>
+      <x>128.45</x>
+      <y>200.9793853</y>
+      <xscale>0.4122933</xscale>
+      <yscale>0.4122933</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP3" index="3">
+      <file>custom.bar_counter.swf</file>
+      <x>76.25</x>
+      <y>270.175</y>
       <xscale>1</xscale>
       <yscale>1</yscale>
       <face>1</face>
       <rotation>0</rotation>
     </prop>
-    <prop id="cbg_bar_PROP64" index="3">
-      <file>custom.bar_table.swf</file>
-      <x>409</x>
-      <y>296</y>
-      <xscale>1</xscale>
-      <yscale>1</yscale>
+    <prop id="PROP5" index="4">
+      <file>custom.ceiling_lamp.swf</file>
+      <x>297.583697</x>
+      <y>74.35</y>
+      <xscale>1.3260607</xscale>
+      <yscale>1.3260607</yscale>
       <face>1</face>
       <rotation>0</rotation>
     </prop>
-    <prop id="cbg_bar_PROP65" index="4">
+    <prop id="PROP8" index="5">
+      <file>custom.ceiling_lamp.swf</file>
+      <x>577.933697</x>
+      <y>74.25</y>
+      <xscale>1.3260607</xscale>
+      <yscale>1.3260607</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP9" index="1">
+      <file>custom.bar_bg02.swf</file>
+      <x>76.3327582</x>
+      <y>137.9827582</y>
+      <xscale>0.6551649</xscale>
+      <yscale>0.6551649</yscale>
+      <face>-1</face>
+      <rotation>0</rotation>
+      <color r="ccColorA">9999508</color>
+    </prop>
+    <prop id="PROP10" index="7">
       <file>custom.bar_stool.swf</file>
-      <x>205</x>
-      <y>249</y>
-      <xscale>0.58</xscale>
-      <yscale>0.58</yscale>
+      <x>234.7117152</x>
+      <y>281.55</y>
+      <xscale>0.5313922</xscale>
+      <yscale>0.5313922</yscale>
       <face>1</face>
       <rotation>0</rotation>
+      <color r="ccColorA">9781312</color>
     </prop>
-    <prop id="cbg_bar_PROP66" index="5">
+    <prop id="PROP12" index="8">
       <file>custom.bar_stool.swf</file>
-      <x>256</x>
-      <y>269</y>
-      <xscale>0.66</xscale>
-      <yscale>0.66</yscale>
+      <x>164.7617152</x>
+      <y>292.25</y>
+      <xscale>0.5313922</xscale>
+      <yscale>0.5313922</yscale>
       <face>1</face>
       <rotation>0</rotation>
+      <color r="ccColorA">9781312</color>
     </prop>
-    <prop id="cbg_bar_PROP67" index="6">
+    <prop id="PROP30" index="9">
       <file>custom.bar_stool.swf</file>
-      <x>321</x>
-      <y>291</y>
-      <xscale>0.78</xscale>
-      <yscale>0.78</yscale>
+      <x>90.3617152</x>
+      <y>302.25</y>
+      <xscale>0.5313922</xscale>
+      <yscale>0.5313922</yscale>
       <face>1</face>
       <rotation>0</rotation>
-    </prop>
-    <prop id="cbg_bar_PROP68" index="7">
-      <file>custom.bar_stool.swf</file>
-      <x>420</x>
-      <y>325</y>
-      <xscale>1</xscale>
-      <yscale>1</yscale>
-      <face>1</face>
-      <rotation>0</rotation>
-    </prop>
-    <prop id="cbg_bar_PROP69" index="8">
-      <file>custom.bar_stool.swf</file>
-      <x>538</x>
-      <y>360</y>
-      <xscale>1.15</xscale>
-      <yscale>1.15</yscale>
-      <face>1</face>
-      <rotation>0</rotation>
-    </prop>
-    <prop id="cbg_bar_PROP14" index="9">
-      <file>custom.bar_light_01.swf</file>
-      <x>452</x>
-      <y>103</y>
-      <xscale>1.06</xscale>
-      <yscale>1.06</yscale>
-      <face>1</face>
-      <rotation>0</rotation>
-    </prop>
-    <prop id="cbg_bar_PROP15" index="10">
-      <file>custom.bar_light_01.swf</file>
-      <x>309</x>
-      <y>69</y>
-      <xscale>1.18</xscale>
-      <yscale>1.18</yscale>
-      <face>1</face>
-      <rotation>0</rotation>
-    </prop>
-    <prop id="cbg_bar_PROP16" index="11">
-      <file>custom.bar_light_02.swf</file>
-      <x>122</x>
-      <y>104</y>
-      <xscale>1</xscale>
-      <yscale>1</yscale>
-      <face>1</face>
-      <rotation>-41.9</rotation>
+      <color r="ccColorA">9781312</color>
     </prop>
   </compositebg>
   <compositebg id="cbg_disco_entrance" name="Disco entrance" enable="Y" default="N" thumb="disco.jpg" display_order="54" is_premium="N" money="" sharing="" aid="9814">
@@ -3413,6 +3411,9 @@
     <tag>weapon</tag>
 	<tag>weapons</tag>
   </prop>
+  <prop id="bar_counter.swf" name="Bar Table" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="11048" money="0" sharing="0" handstyle="stick">
+    <tag>cat:Furniture and Fixtures</tag>
+  </prop>
   <prop id="cc_basketball.swf" name="Basketball" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9628" money="" sharing="">
     <colorset enable="Y" aid="9629">
       <color r="ccColorA">0xFA722F</color>
@@ -3472,6 +3473,12 @@
 	<tag>booze</tag>
 	<tag>cup</tag>
     <tag>drink</tag>
+  </prop>
+  <prop id="beer_tap.swf" name="Beer Tap" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="11752" money="0" sharing="0">
+    <tag>cat:Kitchen</tag>
+  </prop>
+  <prop id="billiard_table.swf" name="Billiard Table" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="11752" money="0" sharing="0">
+    <tag>cat:Sports and Fitness</tag>
   </prop>
   <prop id="cc_binoculars.swf" name="Binoculars" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9555" money="" sharing="">
     <colorset enable="Y" aid="9556">
@@ -3853,6 +3860,9 @@
 	<tag>cave</tag>
 	<tag>nature</tag>
 	<tag>underground</tag>
+  </prop>
+  <prop id="ceiling_lamp.swf" name="Ceiling Lamp" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="11752" money="0" sharing="0">
+    <tag>cat:Furniture and Fixtures</tag>
   </prop>
   <prop id="msp_chair01" name="Chair" holdable="" placeable="1" wearable="" facing="left" thumb="msp_chair01_chair01_front.swf" enable="Y" is_premium="N" aid="10481" money="" sharing="">
     <state id="msp_chair01_chair01_front.swf" name="front" enable="Y" default="Y" />
@@ -5206,6 +5216,11 @@
 	<tag>cutlery</tag>
 	<tag>kitchen</tag>
 	<tag>tableware</tag>
+  </prop>
+  <prop id="msp_spotlight" name="Spotlight" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_spotlight_ncc_spotlight01_still.swf" enable="Y" is_premium="N" aid="10769" money="0" sharing="0">
+    <state id="msp_spotlight_ncc_spotlight01_still.swf" name="still" enable="Y" default="Y"/>
+    <state id="msp_spotlight_ncc_spotlight01_move.swf" name="moving" enable="Y"/>
+	<tag>cat:Furniture and Fixtures</tag>
   </prop>
   <prop id="street_lamp.swf" name="Street Light" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="10524" money="0" sharing="0">
     <tag>cat:Buildings and Structures</tag>
