@@ -3635,6 +3635,9 @@
 	<tag>packaging</tag>
 	<tag>warehouse</tag>
   </prop>
+  <prop id="organ_brain.swf" name="Brain" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="12108" money="0" sharing="0" handstyle="stick">
+    <tag>cat:Healthcare</tag>
+  </prop>
   <prop id="cc_briefcase.swf" name="Briefcase" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9007" money="" sharing="">
     <tag>cat:Office and School</tag>
 	<tag>briefcase</tag>
