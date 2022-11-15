@@ -4505,24 +4505,6 @@
 	<tag>balls</tag>
     <tag>yarn</tag>
   </prop>
-  <prop id="cc_foldchair.swf" name="Lawn Chair" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9041" money="" sharing="">
-    <tag>cat:Furniture and Fixtures</tag>
-	<tag>chair</tag>
-    <tag>furniture</tag>
-    <tag>lawn</tag>
-    <tag>yard</tag>
-  </prop>
-  <prop id="ncc_long_chair02.swf" name="Long Chair" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="10822" money="0" sharing="0">
-    <tag>cat:Furniture and Fixtures</tag>
-	<tag>chair</tag>
-    <tag>furniture</tag>
-  </prop>
-  <prop id="msp_dish" name="Meal" holdable="" placeable="1" wearable="" facing="left" thumb="msp_dish_msp_computer_cc_dish_02.swf" enable="Y" is_premium="N" aid="9189" money="" sharing="">
-    <state id="msp_dish_msp_computer_cc_dish_01.swf" name="Empty" enable="Y" />
-    <state id="msp_dish_msp_computer_cc_dish_02.swf" name="Food" enable="Y" default="Y" />
-    <tag>cat:Food and Drink</tag>
-	<tag>food</tag>
-  </prop>
   <prop id="msp_laptop" name="Laptop" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_laptop_laptop_front.swf" enable="Y" is_premium="N" aid="10543" money="0" sharing="0">
     <state id="msp_laptop_laptop_front.swf" name="front" enable="Y" default="Y"/>
     <state id="msp_laptop_laptop_front_empty.swf" name="front transparent" enable="Y"/>
@@ -4533,6 +4515,23 @@
 	<tag>cat:Technology</tag>
 	<tag>computer</tag>
 	<tag>notebook</tag>
+  </prop>
+  <prop id="cc_foldchair.swf" name="Lawn Chair" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9041" money="" sharing="">
+    <tag>cat:Furniture and Fixtures</tag>
+	<tag>chair</tag>
+    <tag>furniture</tag>
+    <tag>lawn</tag>
+    <tag>yard</tag>
+  </prop>
+  <prop id="msp_organ_liver" name="Liver" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_organ_liver_healthy.swf" enable="Y" is_premium="N" aid="10626" money="0" sharing="0">
+    <state id="msp_organ_liver_healthy.swf" name="Healthy" enable="Y" default="Y" />
+    <state id="msp_organ_liver_sick.swf" name="Sick" enable="Y" />
+    <tag>cat:Healthcare</tag>
+  </prop>
+  <prop id="ncc_long_chair02.swf" name="Long Chair" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="10822" money="0" sharing="0">
+    <tag>cat:Furniture and Fixtures</tag>
+	<tag>chair</tag>
+    <tag>furniture</tag>
   </prop>
   <prop id="msp_sllocker" name="Locker" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_sllocker_ncc_sllocker01.swf" enable="Y" is_premium="Y" aid="11331" money="0" sharing="0">
     <state id="msp_sllocker_ncc_sllocker01.swf" name="closed" enable="Y" default="Y" />
@@ -4553,6 +4552,12 @@
     <tag>cat:Decorations</tag>
 	<tag>doll</tag>
 	<tag>russia</tag>
+  </prop>
+  <prop id="msp_dish" name="Meal" holdable="" placeable="1" wearable="" facing="left" thumb="msp_dish_msp_computer_cc_dish_02.swf" enable="Y" is_premium="N" aid="9189" money="" sharing="">
+    <state id="msp_dish_msp_computer_cc_dish_01.swf" name="Empty" enable="Y" />
+    <state id="msp_dish_msp_computer_cc_dish_02.swf" name="Food" enable="Y" default="Y" />
+    <tag>cat:Food and Drink</tag>
+	<tag>food</tag>
   </prop>
   <prop id="msp_restmenu" name="Menu" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_restmenu_ncc_rest_menufront.swf" enable="Y" is_premium="N" aid="12209" money="0" sharing="0">
     <state id="msp_restmenu_ncc_rest_menufront.swf" name="front" enable="Y" default="Y" />
