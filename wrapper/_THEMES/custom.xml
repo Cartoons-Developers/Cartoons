@@ -3815,6 +3815,9 @@
 	<tag>veggie</tag>
 	<tag>veggies</tag>
   </prop>
+  <prop id="cancer.swf" name="Cancer" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="12108" money="0" sharing="0" handstyle="stick">
+    <tag>cat:Healthcare</tag>
+  </prop>
   <prop id="msp_cash_register01" name="Cash Register" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_cash_register01_msp_cash_register_cash_register01_back.swf" enable="Y" is_premium="N" aid="10626" money="0" sharing="0">
     <state id="msp_cash_register01_msp_cash_register_cash_register01_back.swf" name="front" enable="Y" default="Y" />
     <state id="msp_cash_register01_msp_cash_register_cash_register01_side.swf" name="side" enable="Y" />
