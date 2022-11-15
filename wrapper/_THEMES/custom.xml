@@ -6603,6 +6603,12 @@
   <char id="201" name="Casual" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
     <tags>family,_free,_cat:Casual,_tag:casual female lady woman,_sticky_filter_girl</tags>
   </char>
+  <char id="212" name="Casual" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+    <tags>family,_free,_cat:Casual,_tag:casual dreadlock dreadlocks dreads glasses female lady woman,_sticky_filter_girl</tags>
+  </char>
+  <char id="213" name="Casual" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+    <tags>family,_free,_cat:Casual,_tag:beard casual man male,_sticky_filter_guy</tags>
+  </char>
   <char id="128" name="Casual Sports" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
     <tags>family,_free,_cat:Casual,_tag:casual dreadlock dreadlocks dreads exercise female fitness gym jog jogging jogger lady woman,_sticky_filter_girl</tags>
   </char>
@@ -6898,6 +6904,9 @@
     <tags>family,_free,_cat:Office,_tag:business man male office worker,_sticky_filter_buff</tags>
   </char>
   <char id="209" name="Office Worker" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+    <tags>family,_free,_cat:Office,_tag:business man male office worker,_sticky_filter_guy</tags>
+  </char>
+  <char id="214" name="Office Worker" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
     <tags>family,_free,_cat:Office,_tag:business man male office worker,_sticky_filter_guy</tags>
   </char>
   <char id="75" name="Pajamas" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
