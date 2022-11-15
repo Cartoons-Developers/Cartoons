@@ -4494,7 +4494,7 @@
 	<tag>weapon</tag>
 	<tag>weapons</tag>
   </prop>
-  <prop id="msp_organ_kidneys" name="Kidneys" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_kidneys_intestines_healthy.swf" enable="Y" is_premium="N" aid="10626" money="0" sharing="0">
+  <prop id="msp_organ_kidneys" name="Kidneys" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_organ_kidneys_healthy.swf" enable="Y" is_premium="N" aid="10626" money="0" sharing="0">
     <state id="msp_organ_kidneys_healthy.swf" name="Healthy" enable="Y" default="Y" />
     <state id="msp_organ_kidneys_sick.swf" name="Sick" enable="Y" />
     <tag>cat:Healthcare</tag>
@@ -4544,7 +4544,7 @@
     <tag>school</tag>
     <tag>schooling</tag>
   </prop>
-  <prop id="msp_organ_lungs" name="Lungs" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_kidneys_lungs_healthy.swf" enable="Y" is_premium="N" aid="10626" money="0" sharing="0">
+  <prop id="msp_organ_lungs" name="Lungs" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_organ_lungs_healthy.swf" enable="Y" is_premium="N" aid="10626" money="0" sharing="0">
     <state id="msp_organ_lungs_healthy.swf" name="Healthy" enable="Y" default="Y" />
     <state id="msp_organ_lungs_sick.swf" name="Sick" enable="Y" />
     <tag>cat:Healthcare</tag>
