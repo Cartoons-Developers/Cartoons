@@ -4494,6 +4494,11 @@
 	<tag>weapon</tag>
 	<tag>weapons</tag>
   </prop>
+  <prop id="msp_organ_kidneys" name="Kidneys" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_kidneys_intestines_healthy.swf" enable="Y" is_premium="N" aid="10626" money="0" sharing="0">
+    <state id="msp_organ_kidneys_healthy.swf" name="Healthy" enable="Y" default="Y" />
+    <state id="msp_organ_kidneys_sick.swf" name="Sick" enable="Y" />
+    <tag>cat:Healthcare</tag>
+  </prop>
   <prop id="cc_wool_ball.swf" name="Knitting - Yarn Ball" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9034" money="" sharing="">
     <tag>cat:Others</tag>
 	<tag>ball</tag>
@@ -4538,6 +4543,11 @@
     <tag>corridor</tag>
     <tag>school</tag>
     <tag>schooling</tag>
+  </prop>
+  <prop id="msp_organ_lungs" name="Lungs" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_kidneys_lungs_healthy.swf" enable="Y" is_premium="N" aid="10626" money="0" sharing="0">
+    <state id="msp_organ_lungs_healthy.swf" name="Healthy" enable="Y" default="Y" />
+    <state id="msp_organ_lungs_sick.swf" name="Sick" enable="Y" />
+    <tag>cat:Healthcare</tag>
   </prop>
   <prop id="ncc_russian_toy01_still.swf" name="Matryoshka Doll" holdable="0" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9019" money="" sharing="">
     <tag>cat:Decorations</tag>
@@ -5107,6 +5117,11 @@
     <tag>cat:Kitchen</tag>
 	<tag>kitchen</tag>
   </prop>
+  <prop id="msp_organ_spleen" name="Spleen" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_organ_spleen_healthy.swf" enable="Y" is_premium="N" aid="10626" money="0" sharing="0">
+    <state id="msp_organ_spleen_healthy.swf" name="Healthy" enable="Y" default="Y" />
+    <state id="msp_organ_spleen_sick.swf" name="Sick" enable="Y" />
+    <tag>cat:Healthcare</tag>
+  </prop>
   <prop id="msp_apalarm" name="Siren" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_apalarm_ncc_apalarm_off.swf" enable="Y" is_premium="Y" aid="11675" money="0" sharing="0">
     <state id="msp_apalarm_ncc_apalarm_off.swf" name="off" enable="Y" default="Y" />
     <state id="msp_apalarm_ncc_apalarm_on.swf" name="on" enable="Y" />
@@ -5244,6 +5259,11 @@
 	<tag>lighting</tag>
 	<tag>lights</tag>
 	<tag>traffic</tag>
+  </prop>
+  <prop id="msp_organ_stomach" name="Stomach" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_organ_stomach_healthy.swf" enable="Y" is_premium="N" aid="10626" money="0" sharing="0">
+    <state id="msp_organ_stomach_healthy.swf" name="Healthy" enable="Y" default="Y" />
+    <state id="msp_organ_stomach_sick.swf" name="Sick" enable="Y" />
+    <tag>cat:Healthcare</tag>
   </prop>
   <prop id="cafe_chair.swf" name="Stool" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="10538" money="0" sharing="0">
     <tag>cat:Furniture and Fixtures</tag>
