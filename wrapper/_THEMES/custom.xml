@@ -4400,6 +4400,11 @@
 	<tag>barn</tag>
     <tag>farm</tag>
   </prop>
+  <prop id="msp_organ_heart" name="Heart" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_organ_heart_healthy.swf" enable="Y" is_premium="N" aid="10626" money="0" sharing="0">
+    <state id="msp_organ_heart_healthy.swf" name="Healthy" enable="Y" default="Y" />
+    <state id="msp_organ_heart_sick.swf" name="Sick" enable="Y" />
+    <tag>cat:Healthcare</tag>
+  </prop>
   <prop id="ncc_03hotdog.swf" name="Hot Dog" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="11858" money="" sharing="">
     <tag>cat:Food and Drink</tag>
 	<tag>food</tag>
@@ -4451,6 +4456,11 @@
 	<tag>dessert</tag>
 	<tag>food</tag>
 	<tag>ice</tag>
+  </prop>
+  <prop id="msp_organ_intestines" name="Intestines" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_organ_intestines_healthy.swf" enable="Y" is_premium="N" aid="10626" money="0" sharing="0">
+    <state id="msp_organ_intestines_healthy.swf" name="Healthy" enable="Y" default="Y" />
+    <state id="msp_organ_intestines_sick.swf" name="Sick" enable="Y" />
+    <tag>cat:Healthcare</tag>
   </prop>
   <prop id="glasses_juice.swf" name="Juice" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9041" money="" sharing="">
 	<tag>cat:Food and Drink</tag>
