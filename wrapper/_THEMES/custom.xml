@@ -4460,6 +4460,11 @@
 	<tag>food</tag>
 	<tag>ice</tag>
   </prop>
+  <prop id="msp_restroom_icon" name="Icon - Restroom" holdable="" placeable="1" wearable="" facing="left" thumb="msp_restroom_icon_male.swf" enable="Y" is_premium="N" aid="10925" money="" sharing="">
+    <state id="msp_restroom_icon_male.swf" name="Male" enable="Y" default="Y" />
+    <state id="msp_restroom_icon_female.swf" name="Female" enable="Y" />
+    <tag>cat:Shapes and Symbols</tag>
+  </prop>
   <prop id="msp_organ_intestines" name="Intestines" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_organ_intestines_healthy.swf" enable="Y" is_premium="N" aid="10626" money="0" sharing="0">
     <state id="msp_organ_intestines_healthy.swf" name="Healthy" enable="Y" default="Y" />
     <state id="msp_organ_intestines_sick.swf" name="Sick" enable="Y" />
