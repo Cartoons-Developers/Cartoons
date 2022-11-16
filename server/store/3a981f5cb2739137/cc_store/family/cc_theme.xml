@@ -6740,7 +6740,7 @@
     </component>
   </bodyshape>
   <bodyshape id="eve" name="Eve" default_action="stand" default_motion="walk" action_thumb="stand" facial_thumb="head_neutral" thumb_path="thumbnail.swf" enable="Y" tag="girl">
-    <default_char xscale="1" yscale="1" hxscale="0.9" hyscale="0.9" headdx="0" headdy="0">
+    <default_char xscale="1" yscale="1" hxscale="1" hyscale="1" headdx="0" headdy="0">
       <color r="ccSkinColor" oc="0xFFE1C4">0xFFCE95</color>
       <color r="ccEyeLib">0xFFCE95</color>
       <color r="ccEyeIris">0x0086D3</color>
