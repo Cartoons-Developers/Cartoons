@@ -6740,7 +6740,7 @@
     </component>
   </bodyshape>
   <bodyshape id="eve" name="Eve" default_action="stand" default_motion="walk" action_thumb="stand" facial_thumb="head_neutral" thumb_path="thumbnail.swf" enable="Y" tag="girl">
-    <default_char xscale="1" yscale="1" hxscale="1" hyscale="1" headdx="0" headdy="0">
+    <default_char xscale="1" yscale="1" hxscale="0.9" hyscale="0.9" headdx="0" headdy="0">
       <color r="ccSkinColor" oc="0xFFE1C4">0xFFCE95</color>
       <color r="ccEyeLib">0xFFCE95</color>
       <color r="ccEyeIris">0x0086D3</color>
@@ -6753,15 +6753,15 @@
       <color r="ccHairMajor">0x523112</color>
       <component type="bodyshape" component_id="eve" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" />
       <component type="skeleton" component_id="eve_001" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" />
-      <component type="nose" component_id="014" theme_id="family" x="0" y="0" xscale="0.9" yscale="0.9" offset="0" rotation="0" />
-      <component type="eyebrow" component_id="108" theme_id="family" x="1" y="6" xscale="0.9" yscale="0.9" offset="0" rotation="0" />
-      <component type="hair" component_id="056" theme_id="family" x="0" y="0" xscale="0.9" yscale="0.9" offset="0" rotation="0" />
-      <component type="mouth" component_id="201" theme_id="family" x="1" y="0" xscale="0.9" yscale="0.9" offset="0" rotation="0" />
-      <component type="ear" component_id="010" theme_id="family" x="0" y="0" xscale="0.9" yscale="0.9" offset="0" rotation="0" />
-      <component type="faceshape" component_id="025" theme_id="family" x="0" y="0" xscale="0.9" yscale="0.9" offset="0" rotation="0" />
-      <component type="lower_body" component_id="eve_002" theme_id="family" x="0" y="0" xscale="0.9" yscale="0.9" offset="0" rotation="0" />
-      <component type="upper_body" component_id="eve_008" theme_id="family" x="0" y="0" xscale="0.9" yscale="0.9" offset="0" rotation="0" />
-      <component type="eye" component_id="female" theme_id="family" x="1" y="4" xscale="0.9" yscale="0.9" offset="0" rotation="0" />
+      <component type="nose" component_id="014" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" />
+      <component type="eyebrow" component_id="108" theme_id="family" x="0" y="2" xscale="1" yscale="1" offset="2" rotation="0" />
+      <component type="hair" component_id="056" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" />
+      <component type="mouth" component_id="201" theme_id="family" x="1" y="0" xscale="1" yscale="1" offset="0" rotation="0" />
+      <component type="ear" component_id="010" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" />
+      <component type="faceshape" component_id="025" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" />
+      <component type="lower_body" component_id="eve_002" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" />
+      <component type="upper_body" component_id="eve_008" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" />
+      <component type="eye" component_id="female" theme_id="family" x="0" y="1" xscale="1" yscale="1" offset="2" rotation="0" />
     </default_char>
     <action id="stand" name="Stand" loop="Y" totalframe="1" enable="Y" category="Poses" is_motion="N">
       <selection type="facial" facial_id="head_neutral" />
