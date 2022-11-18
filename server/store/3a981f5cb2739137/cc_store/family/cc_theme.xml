@@ -12704,13 +12704,9 @@
   </component>
   <component type="hair" id="099a" path="099a" name="099a" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
     <state id="default" filename="default.swf" />
-	<tag>_sticky_filter_guy</tag>
 	<tag>_sticky_filter_girl</tag>
-	<tag>_sticky_filter_littleguy</tag>
 	<tag>_sticky_filter_littlegirl</tag>
-	<tag>_sticky_filter_fatguy</tag>
 	<tag>_sticky_filter_fatgirl</tag>
-	<tag>_sticky_filter_buff</tag>
   </component>
   <component type="hair" id="110a" path="110a" name="110a" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
     <state id="default" filename="default.swf" />
