@@ -4573,7 +4573,7 @@
     <tag>cat:Signs</tag>
 	<tag>restaurant</tag>
   </prop>
-  <prop id="mushroom_cloud.swf" name="Mushroom Cloud" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="3343" money="0" sharing="0" handstyle="stick">
+  <prop id="mushroom_cloud.swf" name="Mushroom Cloud" holdable="" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="3343" money="0" sharing="0" handstyle="stick">
     <tag>cat:Others</tag>
   </prop>
   <prop id="cc_microphone.swf" name="Microphone" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9019" money="" sharing="">
