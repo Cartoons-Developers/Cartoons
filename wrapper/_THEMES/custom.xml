@@ -6658,6 +6658,18 @@
   <char id="213" name="Casual" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
     <tags>family,_free,_cat:Casual,_tag:beard casual man male,_sticky_filter_guy</tags>
   </char>
+  <char id="216" name="Casual" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+    <tags>family,_free,_cat:Casual,_tag:casual female lady woman,_sticky_filter_girl</tags>
+  </char>
+  <char id="217" name="Casual" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+    <tags>family,_free,_cat:Casual,_tag:bald casual man male,_sticky_filter_guy</tags>
+  </char>
+  <char id="218" name="Casual" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+    <tags>family,_free,_cat:Casual,_tag:casual man male,_sticky_filter_guy</tags>
+  </char>
+  <char id="219" name="Casual" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+    <tags>family,_free,_cat:Casual,_tag:casual female jacket lady woman,_sticky_filter_girl</tags>
+  </char>
   <char id="128" name="Casual Sports" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
     <tags>family,_free,_cat:Casual,_tag:casual dreadlock dreadlocks dreads exercise female fitness gym jog jogging jogger lady woman,_sticky_filter_girl</tags>
   </char>
