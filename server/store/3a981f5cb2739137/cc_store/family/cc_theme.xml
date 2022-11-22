@@ -7,13 +7,6 @@
     <choice>0xCA9050</choice>
     <choice>0x723312</choice>
   </color>
-  <color r="ccEyeLib" component_type="eye" parent_color_r="ccSkinColor" parent_component_type="bodyshape" enable="Y">
-    <choice>0x775143</choice>
-    <choice>0x996666</choice>
-    <choice>0x9AE6F2</choice>
-    <choice>0xC8DD66</choice>
-    <choice>0x095A99</choice>
-  </color>
   <color r="ccEyeIris" component_type="eye" enable="Y">
     <choice>0x988986</choice>
     <choice>0x337A2C</choice>
