@@ -4993,6 +4993,14 @@
 	<tag>carpet</tag>
 	<tag>rug</tag>
   </prop>
+  <prop id="sake_bottle.swf" name="Sake" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9033" money="" sharing="">
+    <tag>cat:Food and Drink</tag>
+	<tag>alcohol</tag>
+	<tag>beverage</tag>
+	<tag>booze</tag>
+	<tag>bottle</tag>
+	<tag>bottles</tag>
+  </prop>
   <prop id="cc_saw.swf" name="Saw" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9025" money="" sharing="">
     <tag>cat:Industrial and Hardware</tag>
 	<tag>carpentry</tag>
@@ -5002,19 +5010,6 @@
 	<tag>cutter</tag>
 	<tag>cutting</tag>
 	<tag>tool</tag>
-  </prop>
-  <prop id="msp_dish02" name="Serving Platter" holdable="1" placeable="1" wearable="" facing="left" thumb="msp_dish02_cc_tray_closed.swf" enable="Y" is_premium="N" aid="9634" money="" sharing="">
-    <state id="msp_dish02_cc_tray_closed.swf" name="Covered" enable="Y" default="Y" />
-    <state id="msp_dish02_cc_tray_open.swf" name="Uncovered" enable="Y" />
-    <colorset enable="Y" aid="9637">
-      <color r="ccColorA">0xE1E1E1</color>
-    </colorset>
-    <c_parts enable="Y">
-      <c_area oc="">ccColorA</c_area>
-    </c_parts>
-	<tag>cat:Kitchen</tag>
-	<tag>banquet</tag>
-    <tag>plate</tag>
   </prop>
   <prop id="msp_school_bus" name="School Bus" holdable="" placeable="1" wearable="" facing="left" thumb="msp_school_bus_school_bus_full.swf" enable="Y" is_premium="N" aid="11038" money="" sharing="">
     <state id="msp_school_bus_school_bus_full.swf" name="still" enable="Y" default="Y" />
@@ -5047,6 +5042,19 @@
   <prop id="cc_screwdriver.swf" name="Screwdriver" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9026" money="" sharing="">
     <tag>cat:Industrial and Hardware</tag>
 	<tag>tool</tag>
+  </prop>
+  <prop id="msp_dish02" name="Serving Platter" holdable="1" placeable="1" wearable="" facing="left" thumb="msp_dish02_cc_tray_closed.swf" enable="Y" is_premium="N" aid="9634" money="" sharing="">
+    <state id="msp_dish02_cc_tray_closed.swf" name="Covered" enable="Y" default="Y" />
+    <state id="msp_dish02_cc_tray_open.swf" name="Uncovered" enable="Y" />
+    <colorset enable="Y" aid="9637">
+      <color r="ccColorA">0xE1E1E1</color>
+    </colorset>
+    <c_parts enable="Y">
+      <c_area oc="">ccColorA</c_area>
+    </c_parts>
+	<tag>cat:Kitchen</tag>
+	<tag>banquet</tag>
+    <tag>plate</tag>
   </prop>
   <prop id="cc_arrow2.swf" name="Shapes - Arrow" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9167" money="" sharing="">
     <tag>cat:Shapes and Symbols</tag>
