@@ -4287,10 +4287,10 @@
     <tag>cat:Office and School</tag>
 	<tag>pen</tag>
   </prop>
-  <prop id="fountain01.swf" name="Fountain" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="10826" money="0" sharing="0" handstyle="stick">
+  <prop id="fountain01.swf" name="Fountain" holdable="" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="10826" money="0" sharing="0" handstyle="stick">
     <tag>cat:Office and School</tag>
   </prop>
-  <prop id="fountain02.swf" name="Fountain" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="10826" money="0" sharing="0" handstyle="stick">
+  <prop id="fountain02.swf" name="Fountain" holdable="" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="10826" money="0" sharing="0" handstyle="stick">
     <tag>cat:Office and School</tag>
   </prop>
   <prop id="lamp_floor.swf" name="Floor Lamp" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="11858" money="" sharing="">
