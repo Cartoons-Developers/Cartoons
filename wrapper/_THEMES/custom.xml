@@ -4343,7 +4343,7 @@
     <state id="msp_forearmside_cc_hand_side_med.swf" name="Medium" enable="Y" default="Y" />
     <state id="msp_forearmside_cc_hand_side_thin.swf" name="Thin" enable="Y" />
     <colorset enable="Y" aid="9092">
-      <color r="ccSkin">0xFFE0C1</color>
+      <color r="ccSkin">0xFFCE95</color>
     </colorset>
     <c_parts enable="Y">
       <c_area oc="">ccSkin</c_area>
@@ -4355,7 +4355,7 @@
     <state id="msp_forearmup_cc_hand_up_med.swf" name="Medium" enable="Y" default="Y" />
     <state id="msp_forearmup_cc_hand_up_thin.swf" name="Thin" enable="Y" />
     <colorset enable="Y" aid="9087">
-      <color r="ccSkin">0xFFE0C1</color>
+      <color r="ccSkin">0xFFCE95</color>
     </colorset>
     <c_parts enable="Y">
       <c_area oc="">ccSkin</c_area>
