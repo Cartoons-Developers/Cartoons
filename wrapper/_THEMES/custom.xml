@@ -5514,7 +5514,7 @@
 	<tag>pirate</tag>
   </prop>
   <prop id="ncc_03treasuremap.swf" name="Treasure Map" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="10522" money="0" sharing="0">
-    <tag>cat:Others</tag>
+    <tag>cat:Maps</tag>
 	<tag>paper</tag>
 	<tag>pirate</tag>
   </prop>
