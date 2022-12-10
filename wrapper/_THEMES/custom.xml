@@ -3614,6 +3614,14 @@
 	<tag>bottle</tag>
 	<tag>bottles</tag>
   </prop>
+  <prop id="bottle.swf" name="Bottle" holdable="0" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9033" money="" sharing="">
+    <tag>cat:Food and Drink</tag>
+	<tag>alcohol</tag>
+	<tag>beverage</tag>
+	<tag>booze</tag>
+	<tag>bottle</tag>
+	<tag>bottles</tag>
+  </prop>
   <prop id="cc_rose.swf" name="Bouquet" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9024" money="" sharing="">
     <tag>cat:Nature</tag>
 	<tag>bouquet</tag>
@@ -5503,6 +5511,11 @@
 	<tag>adventurer</tag>
     <tag>box</tag>
 	<tag>boxes</tag>
+	<tag>pirate</tag>
+  </prop>
+  <prop id="ncc_03treasuremap.swf" name="Treasure Map" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="10522" money="0" sharing="0">
+    <tag>cat:Others</tag>
+	<tag>paper</tag>
 	<tag>pirate</tag>
   </prop>
   <prop id="school_ext_tree01.swf" name="Tree" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9587" money="" sharing="">
