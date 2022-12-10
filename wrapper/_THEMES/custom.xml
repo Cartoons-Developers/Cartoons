@@ -4338,6 +4338,30 @@
 	<tag>veggie</tag>
 	<tag>veggies</tag>
   </prop>
+  <prop id="msp_forearmside" name="Gesture - Point" holdable="" placeable="1" wearable="" facing="left" thumb="msp_forearmside_cc_hand_side_large.swf" enable="N" is_premium="N" aid="9088" money="" sharing="">
+    <state id="msp_forearmside_cc_hand_side_large.swf" name="Large" enable="Y" default="Y" />
+    <state id="msp_forearmside_cc_hand_side_med.swf" name="Medium" enable="Y" />
+    <state id="msp_forearmside_cc_hand_side_thin.swf" name="Thin" enable="Y" />
+    <colorset enable="Y" aid="9092">
+      <color r="ccSkin">0xFFE0C1</color>
+    </colorset>
+    <c_parts enable="Y">
+      <c_area oc="">ccSkin</c_area>
+    </c_parts>
+	<tag>cat:Hand Gestures</tag>
+  </prop>
+  <prop id="msp_forearmup" name="Gesture - Point Upwards" holdable="" placeable="1" wearable="" facing="left" thumb="msp_forearmup_cc_hand_up_large.swf" enable="N" is_premium="N" aid="9083" money="" sharing="">
+    <state id="msp_forearmup_cc_hand_up_large.swf" name="Large" enable="Y" default="Y" />
+    <state id="msp_forearmup_cc_hand_up_med.swf" name="Medium" enable="Y" />
+    <state id="msp_forearmup_cc_hand_up_thin.swf" name="Thin" enable="Y" />
+    <colorset enable="Y" aid="9087">
+      <color r="ccSkin">0xFFE0C1</color>
+    </colorset>
+    <c_parts enable="Y">
+      <c_area oc="">ccSkin</c_area>
+    </c_parts>
+	<tag>cat:Hand Gestures</tag>
+  </prop>
   <prop id="nccxmas_present01.swf" name="Gift" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="11487" money="0" sharing="0">
 	<tag>cat:Retail</tag>
 	<tag>birthday</tag>
@@ -5790,28 +5814,6 @@
   </prop>
   <prop id="cc_ushanka_hat.swf" name="Ushanka Hat" holdable="" placeable="1" wearable="1" facing="left" thumb="" enable="N" is_premium="N" aid="8999" money="" sharing="" />
   <prop id="cc_ushanka_hat_wool.swf" name="Ushanka Hat With Wool" holdable="" placeable="1" wearable="1" facing="left" thumb="" enable="N" is_premium="N" aid="9000" money="" sharing="" />
-  <prop id="msp_forearmup" name="Forearm" holdable="" placeable="1" wearable="" facing="left" thumb="msp_forearmup_cc_hand_up_large.swf" enable="N" is_premium="N" aid="9083" money="" sharing="">
-    <state id="msp_forearmup_cc_hand_up_large.swf" name="Large" enable="Y" default="Y" />
-    <state id="msp_forearmup_cc_hand_up_med.swf" name="Medium" enable="Y" />
-    <state id="msp_forearmup_cc_hand_up_thin.swf" name="Thin" enable="Y" />
-    <colorset enable="Y" aid="9087">
-      <color r="ccSkin">0xFFE0C1</color>
-    </colorset>
-    <c_parts enable="Y">
-      <c_area oc="">ccSkin</c_area>
-    </c_parts>
-  </prop>
-  <prop id="msp_forearmside" name="Forearm" holdable="" placeable="1" wearable="" facing="left" thumb="msp_forearmside_cc_hand_side_large.swf" enable="N" is_premium="N" aid="9088" money="" sharing="">
-    <state id="msp_forearmside_cc_hand_side_large.swf" name="Large" enable="Y" default="Y" />
-    <state id="msp_forearmside_cc_hand_side_med.swf" name="Medium" enable="Y" />
-    <state id="msp_forearmside_cc_hand_side_thin.swf" name="Thin" enable="Y" />
-    <colorset enable="Y" aid="9092">
-      <color r="ccSkin">0xFFE0C1</color>
-    </colorset>
-    <c_parts enable="Y">
-      <c_area oc="">ccSkin</c_area>
-    </c_parts>
-  </prop>
   <prop id="msp_gleg" name="Leg" holdable="" placeable="1" wearable="" facing="left" thumb="msp_gleg_cc_leg_girl_quarter.swf" enable="N" is_premium="N" aid="9093" money="" sharing="">
     <state id="msp_gleg_cc_leg_girl_quarter.swf" name="Three quarter" enable="Y" default="Y" />
     <state id="msp_gleg_cc_leg_girl_side.swf" name="Side view" enable="Y" />
