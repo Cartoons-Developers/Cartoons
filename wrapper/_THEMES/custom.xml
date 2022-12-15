@@ -4338,10 +4338,7 @@
 	<tag>veggie</tag>
 	<tag>veggies</tag>
   </prop>
-  <prop id="msp_forearmside" name="Gesture - Point" holdable="" placeable="1" wearable="" facing="left" thumb="msp_forearmside_cc_hand_side_med.swf" enable="Y" is_premium="N" aid="9088" money="" sharing="">
-    <state id="msp_forearmside_cc_hand_side_large.swf" name="Large" enable="Y"/>
-    <state id="msp_forearmside_cc_hand_side_med.swf" name="Medium" enable="Y" default="Y" />
-    <state id="msp_forearmside_cc_hand_side_thin.swf" name="Thin" enable="Y" />
+  <prop id="msp_forearmside_cc_hand_side_med.swf" name="Gesture - Point" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9088" money="" sharing="">
     <colorset enable="Y" aid="9092">
       <color r="ccSkin">0xFFCE95</color>
     </colorset>
@@ -4350,10 +4347,7 @@
     </c_parts>
 	<tag>cat:Hand Gestures</tag>
   </prop>
-  <prop id="msp_forearmup" name="Gesture - Point Upwards" holdable="" placeable="1" wearable="" facing="left" thumb="msp_forearmup_cc_hand_up_med.swf" enable="Y" is_premium="N" aid="9083" money="" sharing="">
-    <state id="msp_forearmup_cc_hand_up_large.swf" name="Large" enable="Y" />
-    <state id="msp_forearmup_cc_hand_up_med.swf" name="Medium" enable="Y" default="Y" />
-    <state id="msp_forearmup_cc_hand_up_thin.swf" name="Thin" enable="Y" />
+  <prop id="msp_forearmup_cc_hand_up_med.swf" name="Gesture - Point Upwards" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9083" money="" sharing="">
     <colorset enable="Y" aid="9087">
       <color r="ccSkin">0xFFCE95</color>
     </colorset>
