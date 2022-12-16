@@ -3398,6 +3398,14 @@
 	<tag>effect</tag>
 	<tag>effects</tag>
   </prop>
+  <prop id="bathroom_sink.swf" name="Bathroom Sink" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="12309" money="0" sharing="0">
+    <tag>cat:Furniture and Fixtures</tag>
+  </prop>
+  <prop id="msp_bathtub" name="Bathtub" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_bathtub.swf" enable="Y" is_premium="N" aid="10915" money="0" sharing="0">
+    <state id="msp_bathtub.swf" name="Default" enable="Y" default="Y" />
+	<state id="msp_bathtub_cover.swf" name="Front layer" enable="Y" />
+    <tag>cat:Furniture and Fixtures</tag>
+  </prop>
   <prop id="ncc_02baton01.swf" name="Baton" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="11048" money="0" sharing="0" handstyle="stick">
     <tag>cat:Others</tag>
     <tag>baton</tag>
