@@ -4673,7 +4673,7 @@
     <state id="msp_moon01_ncc_moon_full.swf" name="full" enable="Y" default="Y" />
     <state id="msp_moon01_ncc_moon_half.swf" name="half" enable="Y" />
     <state id="msp_moon01_ncc_moon_waning.swf" name="crescent" enable="Y" />
-    <tag>cat:Nature</tag>
+    <tag>cat:Space</tag>
 	<tag>nature</tag>
   </prop>
   <prop id="cc_necklace.swf" name="Necklace" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9022" money="" sharing="">
@@ -5358,7 +5358,7 @@
 	<tag>oven</tag>
   </prop>
   <prop id="ncc_sun.swf" name="Sun" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="11047" money="" sharing="">
-    <tag>cat:Nature</tag>
+    <tag>cat:Space</tag>
 	<tag>day</tag>
 	<tag>nature</tag>
 	<tag>warm</tag>
