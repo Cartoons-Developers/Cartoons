@@ -2,6 +2,7 @@
 <theme id="custom" name="Comedy World" cc_theme_id="family">
   <background id="wall10.swf" name="Hallway" enable="Y" default="N" is_premium="N" aid="9811" money="" sharing="" category="Locations" />
   <background id="ncc_low.swf" name="Hallway" enable="Y" default="N" is_premium="N" aid="9811" money="" sharing="" category="Patterns" />
+  <background id="jail.swf" name="Jail" enable="Y" default="N" is_premium="N" aid="9811" money="" sharing="" category="Locations" />
   <background id="neighborhood.swf" name="Neighborhood" enable="Y" default="N" is_premium="N" aid="11453" money="" sharing="" category="Locations" />
   <background id="neighborhood2.swf" name="Neighborhood" enable="Y" default="N" is_premium="N" aid="11453" money="" sharing="" category="Locations" />
   <background id="wall12.swf" name="Room" enable="Y" default="N" is_premium="N" aid="11453" money="" sharing="" category="Locations" />
@@ -3367,6 +3368,56 @@
       <rotation>0</rotation>
     </prop>
   </compositebg>
+  <compositebg id="cbg_jail" name="Jail" enable="Y" default="N" thumb="jail.png" display_order="39" is_premium="N" money="" sharing="" aid="9710">
+    <bg id="cbg_jail_BG2" index="">
+      <file>custom.jail.swf</file>
+    </bg>
+    <prop id="PROP0" index="3">
+      <file>custom.jail_gate2.swf</file>
+      <x>449.95</x>
+      <y>189.95</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP1" index="4">
+      <file>custom.jail_gate1.swf</file>
+      <x>158.9</x>
+      <y>189.95</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP2" index="5">
+      <file>custom.jail_gate_door.swf</file>
+      <x>278</x>
+      <y>190</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP3" index="2">
+      <file>custom.jail_toilet.swf</file>
+      <x>461.15</x>
+      <y>233.1</y>
+      <xscale>0.859005</xscale>
+      <yscale>0.859005</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP4" index="1">
+      <file>custom.jail_bed.swf</file>
+      <x>230.3090345</x>
+      <y>233.05</y>
+      <xscale>0.4859776</xscale>
+      <yscale>0.4233693</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+  </compositebg>
   <prop id="ncc_03apple.swf" name="Apple" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="11858" money="" sharing="">
     <tag>cat:Food and Drink</tag>
 	<tag>apple</tag>
@@ -3689,6 +3740,9 @@
 	<tag>bucket</tag>
 	<tag>beach</tag>
 	<tag>pail</tag>
+  </prop>
+  <prop id="jail_bed.swf" name="Bunk Beds" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9575" money="" sharing="">
+	<tag>cat:Furniture and Fixtures</tag>
   </prop>
   <prop id="bushes.swf" name="Bush" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9575" money="" sharing="">
 	<tag>cat:Nature</tag>
@@ -4186,6 +4240,9 @@
 	<tag>dirt</tag>
 	<tag>soil</tag>
   </prop>
+  <prop id="jail_toilet.swf" name="Dirty Toilet" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9575" money="" sharing="">
+	<tag>cat:Furniture and Fixtures</tag>
+  </prop>
   <prop id="msp_disco_ball" name="Disco Ball" holdable="" placeable="1" wearable="" facing="left" thumb="msp_disco_ball_ncc_disco_ball_still.swf" enable="Y" is_premium="N" aid="10837" money="" sharing="">
     <state id="msp_disco_ball_ncc_disco_ball_still.swf" name="off" enable="Y" default="Y" />
     <state id="msp_disco_ball_ncc_disco_ball_move.swf" name="on" enable="Y" />
@@ -4509,6 +4566,15 @@
     <state id="msp_organ_intestines_healthy.swf" name="Healthy" enable="Y" default="Y" />
     <state id="msp_organ_intestines_sick.swf" name="Sick" enable="Y" />
     <tag>cat:Healthcare</tag>
+  </prop>
+  <prop id="jail_gate1.swf" name="Jail Gate" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9041" money="" sharing="">
+	<tag>cat:Buildings and Structures</tag>
+  </prop>
+  <prop id="jail_gate2.swf" name="Jail Gate" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9041" money="" sharing="">
+	<tag>cat:Buildings and Structures</tag>
+  </prop>
+  <prop id="jail_gate_door.swf" name="Jail Gate" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9041" money="" sharing="">
+	<tag>cat:Buildings and Structures</tag>
   </prop>
   <prop id="glasses_juice.swf" name="Juice" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9041" money="" sharing="">
 	<tag>cat:Food and Drink</tag>
