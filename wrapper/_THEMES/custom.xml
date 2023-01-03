@@ -3992,6 +3992,9 @@
 	<tag>food</tag>
 	<tag>fried</tag>
   </prop>
+  <prop id="chili_pepper.swf" name="Chili Pepper" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="11858" money="" sharing="">
+    <tag>cat:Food and Drink</tag>
+  </prop>
   <prop id="ncc_03chocolate.swf" name="Chocolate Bar" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="11858" money="" sharing="">
     <tag>cat:Food and Drink</tag>
 	<tag>bar</tag>
