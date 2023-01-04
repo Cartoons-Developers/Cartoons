@@ -4331,6 +4331,11 @@
 	<tag>band</tag>
 	<tag>music</tag>
   </prop>
+  <prop id="msp_capboard02" name="End Table" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_capboard02_ncc_capboard02_side.swf" enable="Y" is_premium="N" aid="10991" money="0" sharing="0">
+    <state id="msp_capboard02_ncc_capboard02_side.swf" name="side" enable="Y" default="Y"/>
+    <state id="msp_capboard02_ncc_capboard02_front.swf" name="front" enable="Y"/>
+    <tag>cat:Furniture and Fixtures</tag>
+  </prop>
   <prop id="cc_secretfolder.swf" name="File" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9027" money="" sharing="">
     <tag>cat:Office and School</tag>
 	<tag>classified</tag>
