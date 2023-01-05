@@ -98,6 +98,7 @@ for %%a in (import_these\*) do (
 	if !cfext!==.png set CFTYPE="img"
 	if !cfext!==.jpg set CFTYPE="img"
 	if !cfext!==.jpeg set CFTYPE="img"
+	if !cfext!==.mp4 set CFSUBTYPE="prop"
 	if !cfext!==.gif set CFTYPE="img" & echo Note: GIFs won't be animated, it'll just show the first frame.
 	if !cfext!==.webp echo Sorry, WebPs don't work. & echo: & goto moveconflicts
 	:: Sounds
@@ -149,12 +150,14 @@ for %%a in (import_these\*) do (
 	if !cftype!=="sound" (
 		echo Press 1 to import !cfname! as music.
 		echo Press 2 to import !cfname! as a sound effect.
+		echo Press 3 to import !cfname! as a voice over.
 		:soundaskretry
 		set /p SOUNDCHOICE= Response:
 		echo:
 		if "!soundchoice!"=="0" goto end
 		if "!soundchoice!"=="1" set CFSUBTYPE="bgmusic"
 		if "!soundchoice!"=="2" set CFSUBTYPE="soundeffect"
+		if "!soundchoice!"=="3" set CFSUBTYPE="voiceover"
 		if "!CFSUBTYPE!"=="" echo You must answer what type of sound it is. && goto soundaskretry
 		echo:
 	)
