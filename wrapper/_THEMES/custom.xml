@@ -7301,7 +7301,7 @@
   <char id="11" name="Soldier" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
     <tags>family,_free,_cat:Government,_tag:army armies boot boots camouflage cap fatigues government hat man male soldier,_sticky_filter_buff</tags>
   </char>
-  <char id="128" name="Sports Player" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+  <char id="220" name="Sports Player" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
     <tags>family,_free,_cat:Casual,_tag:casual female jog jogging jogger lady woman,_sticky_filter_girl</tags>
   </char>
   <char id="37" name="Student" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
