@@ -2011,7 +2011,7 @@
       <rotation>0</rotation>
     </prop>
   </compositebg>
-  <compositebg id="cbg_army_wide" name="Army camp (wide)" enable="Y" default="N" thumb="army_camp.jpg" display_order="33" is_premium="N" money="" sharing="" aid="9617">
+  <compositebg id="cbg_army_wide" name="Army camp (wide)" enable="N" default="N" thumb="army_camp.jpg" display_order="33" is_premium="N" money="" sharing="" aid="9617">
     <bg id="cbg_army_wide_BG4" index="">
       <file>custom.army_camp_bg.swf</file>
     </bg>
@@ -2061,7 +2061,7 @@
       <rotation>0</rotation>
     </prop>
   </compositebg>
-  <compositebg id="cbg_camp_close" name="Army camp (close up)" enable="Y" default="N" thumb="army_camp_close.jpg" display_order="34" is_premium="N" money="" sharing="" aid="9660">
+  <compositebg id="cbg_camp_close" name="Army camp (close up)" enable="N" default="N" thumb="army_camp_close.jpg" display_order="34" is_premium="N" money="" sharing="" aid="9660">
     <bg id="cbg_camp_close_BG2" index="">
       <file>custom.army_camp_close_bg.swf</file>
     </bg>
@@ -2207,7 +2207,7 @@
       <color r="ccColorA" oc="x0">3355443</color>
     </prop>
   </compositebg>
-  <compositebg id="cbg_battlefield" name="Battlefield" enable="Y" default="N" thumb="battlefield.jpg" display_order="36" is_premium="N" money="" sharing="" aid="9707">
+  <compositebg id="cbg_battlefield" name="Battlefield" enable="N" default="N" thumb="battlefield.jpg" display_order="36" is_premium="N" money="" sharing="" aid="9707">
     <bg id="cbg_battlefield_BG2" index="">
       <file>custom.battlefield_bg.swf</file>
     </bg>
@@ -5125,6 +5125,9 @@
 	<tag>arch</tag>
     <tag>arches</tag>
     <tag>nature</tag>
+  </prop>
+  <prop id="razor.swf" name="Razor" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="11379" money="0" sharing="0">
+    <tag>cat:Others</tag>
   </prop>
   <prop id="msp_fridge" name="Refrigerator" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_fridge_fridge_front_close.swf" enable="Y" is_premium="N" aid="10602" money="0" sharing="0">
     <state id="msp_fridge_fridge_front_close.swf" name="front closed" enable="Y" default="Y" />
