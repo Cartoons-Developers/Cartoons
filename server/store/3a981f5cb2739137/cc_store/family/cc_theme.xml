@@ -10168,6 +10168,21 @@
 	<tag>_sticky_filter_fatgirl</tag>
 	<tag>_sticky_filter_buff</tag>
   </component>
+  <component type="eye" id="zombie" path="zombie" name="zombie" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+    <state id="angry" filename="angry.swf" />
+    <state id="asleep" filename="asleep.swf" />
+    <state id="cry" filename="cry.swf" />
+    <state id="default" filename="default.swf" />
+    <state id="happy" filename="happy.swf" />
+    <state id="sad" filename="sad.swf" />
+    <state id="schemeing" filename="schemeing.swf" />
+    <state id="shock" filename="shock.swf" />
+    <state id="sick" filename="sick.swf" />
+    <state id="thinking" filename="thinking.swf" />
+    <state id="yawn" filename="yawn.swf" />
+	<tag>_sticky_filter_guy</tag>
+	<tag>_sticky_filter_girl</tag>
+  </component>
   <component type="eye" id="robot" path="robot" name="robot" thumb="thumbnail.swf" money="0" sharing="0" enable="N">
     <state id="angry" filename="angry.swf" />
     <state id="asleep" filename="asleep.swf" />
@@ -11807,6 +11822,11 @@
 	<tag>_sticky_filter_fatgirl</tag>
 	<tag>_sticky_filter_buff</tag>
   </component>
+  <component type="faceshape" id="zombie" path="zombie" name="zombie" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+    <state id="default" filename="default.swf" />
+	<tag>_sticky_filter_guy</tag>
+	<tag>_sticky_filter_girl</tag>
+  </component>
   <component type="glasses" id="013" path="013" name="013" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
     <state id="default" filename="default.swf" />
 	<tag>_sticky_filter_guy</tag>
@@ -12880,6 +12900,16 @@
     <state id="default" filename="default.swf" />
 	<tag>_sticky_filter_guy</tag>
 	<tag>_sticky_filter_girl</tag>
+	<tag>_sticky_filter_fatguy</tag>
+	<tag>_sticky_filter_fatgirl</tag>
+	<tag>_sticky_filter_buff</tag>
+  </component>
+  <component type="nose" id="zombie" path="zombie" name="zombie" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+    <state id="default" filename="default.swf" />
+	<tag>_sticky_filter_guy</tag>
+	<tag>_sticky_filter_girl</tag>
+	<tag>_sticky_filter_littleguy</tag>
+	<tag>_sticky_filter_littlegirl</tag>
 	<tag>_sticky_filter_fatguy</tag>
 	<tag>_sticky_filter_fatgirl</tag>
 	<tag>_sticky_filter_buff</tag>
