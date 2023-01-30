@@ -7090,7 +7090,7 @@
     <tags>family,_free,_cat:Holidays and Costumes,_tag:child children costume costumes female girl hat kid kids magic magician pigtails,_sticky_filter_littlegirl</tags>
   </char>
   <char id="40" name="Monster" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
-    <tags>family,_free,_cat:Holidays and Costumes,_tag:costume costumes festival festive frankenstein halloween holiday holidays hols male,_sticky_filter_littleguy</tags>
+    <tags>family,_free,_cat:Holidays and Costumes,_tag:costume costumes festival festive frankenstein halloween holiday holidays hols male zombie,_sticky_filter_guy</tags>
   </char>
   <char id="116" name="Ninja" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
     <tags>family,_free,_cat:Holidays and Costumes,_tag:costume costumes holiday holidays hols man male ninja,_sticky_filter_guy</tags>
@@ -7291,10 +7291,10 @@
     <tags>family,_free,_cat:Casual,_tag:big casual elder elderlies elderly female glasses lady large woman,_sticky_filter_fatgirl</tags>
   </char>
   <char id="210" name="Skeleton" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
-    <tags>family,_free,_cat:Holidays and Costumes,_tag:halloween holiday holidays hols monster skeleton,_sticky_filter_guy</tags>
+    <tags>family,_free,_cat:Holidays and Costumes,_tag:halloween holiday holidays hols monster skeleton zombie,_sticky_filter_guy</tags>
   </char>
   <char id="211" name="Skeleton with Hair" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
-    <tags>family,_free,_cat:Holidays and Costumes,_tag:halloween holiday holidays hols monster skeleton,_sticky_filter_guy</tags>
+    <tags>family,_free,_cat:Holidays and Costumes,_tag:halloween holiday holidays hols monster skeleton zombie,_sticky_filter_guy</tags>
   </char>
   <char id="9" name="Soldier" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
     <tags>family,_free,_cat:Government,_tag:army armies boot boots camouflage cap fatigues government hat man male soldier,_sticky_filter_guy</tags>
@@ -7304,6 +7304,9 @@
   </char>
   <char id="11" name="Soldier" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
     <tags>family,_free,_cat:Government,_tag:army armies boot boots camouflage cap fatigues government hat man male soldier,_sticky_filter_buff</tags>
+  </char>
+  <char id="221" name="Soldier" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+    <tags>family,_free,_cat:Government,_tag:army armies boot boots camouflage cap fatigues government hat man male soldier,_sticky_filter_guy</tags>
   </char>
   <char id="220" name="Sports Player" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
     <tags>family,_free,_cat:Casual,_tag:casual female jog jogging jogger lady woman,_sticky_filter_girl</tags>
@@ -7376,6 +7379,12 @@
   </char>
   <char id="186" name="Winter - Casual" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
     <tags>family,_free,_cat:Casual,_tag:boy casual child children glove gloves jacket kid kids male snow snowing winter,_sticky_filter_littleguy</tags>
+  </char>
+  <char id="222" name="Zombie" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+    <tags>family,_free,_cat:Holidays and Costumes,_tag:costume costumes festival festive halloween holiday holidays hols male zombie,_sticky_filter_guy</tags>
+  </char>
+  <char id="223" name="Zombie" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+    <tags>family,_free,_cat:Holidays and Costumes,_tag:costume costumes female festival festive halloween holiday holidays hols zombie,_sticky_filter_girl</tags>
   </char>
   <sound id="72_Minute_Summer_full.mp3" name="72 Minute Summer" downloadtype="progressive" subtype="bgmusic" duration="142864" enable="Y" is_premium="N" aid="26260" money="0" sharing="0"/>
   <sound id="a_bright_future_full.mp3" name="A Bright Future" downloadtype="progressive" subtype="bgmusic" duration="142864" enable="Y" is_premium="N" aid="26260" money="0" sharing="0"/>
