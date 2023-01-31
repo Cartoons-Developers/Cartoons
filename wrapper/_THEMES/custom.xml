@@ -3905,6 +3905,28 @@
     <tag>vehicle</tag>
     <tag>vehicles</tag>
   </prop>
+  <prop id="car_interior.swf" name="Car - Interior" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="12108" money="0" sharing="0" handstyle="stick">
+    <tag>cat:Transport</tag>
+	<tag>automobile</tag>
+    <tag>car</tag>
+    <tag>cars</tag>
+    <tag>cities</tag>
+    <tag>city</tag>
+    <tag>civic</tag>
+    <tag>vehicle</tag>
+    <tag>vehicles</tag>
+  </prop>
+  <prop id="car_seat.swf" name="Car Seat" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="12108" money="0" sharing="0" handstyle="stick">
+    <tag>cat:Transport</tag>
+	<tag>automobile</tag>
+    <tag>car</tag>
+    <tag>cars</tag>
+    <tag>cities</tag>
+    <tag>city</tag>
+    <tag>civic</tag>
+    <tag>vehicle</tag>
+    <tag>vehicles</tag>
+  </prop>
   <prop id="ncc_02carrot.swf" name="Carrot" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="12108" money="0" sharing="0" handstyle="stick">
     <tag>cat:Food and Drink</tag>
 	<tag>carrot</tag>
