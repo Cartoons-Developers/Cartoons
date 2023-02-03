@@ -3419,6 +3419,9 @@
 	<tag>couch</tag>
     <tag>furniture</tag>
   </prop>
+  <prop id="amputee_leg.swf" name="Artificial Leg" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="12108" money="" sharing="" handstyle="stick">
+    <tag>cat:Healthcare</tag>
+  </prop>
   <prop id="msp_nccha_balloon02" name="Balloon" holdable="" placeable="1" wearable="" facing="left" thumb="msp_nccha_balloon02_nccha_balloon03.swf" enable="Y" is_premium="Y" aid="11151" money="" sharing="">
     <state id="msp_nccha_balloon02_nccha_balloon03.swf" name="hovering" enable="Y" default="Y" />
     <state id="msp_nccha_balloon02_nccha_balloon04.swf" name="still" enable="Y" />
