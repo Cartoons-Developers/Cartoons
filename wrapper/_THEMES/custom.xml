@@ -6,6 +6,7 @@
   <background id="jail.swf" name="Jail" enable="Y" default="N" is_premium="N" aid="9811" money="" sharing="" category="Locations" />
   <background id="neighborhood.swf" name="Neighborhood" enable="Y" default="N" is_premium="N" aid="11453" money="" sharing="" category="Locations" />
   <background id="neighborhood2.swf" name="Neighborhood" enable="Y" default="N" is_premium="N" aid="11453" money="" sharing="" category="Locations" />
+  <background id="office.swf" name="Office" enable="Y" default="N" is_premium="N" aid="9811" money="" sharing="" category="Locations" />
   <background id="wall12.swf" name="Room" enable="Y" default="N" is_premium="N" aid="11453" money="" sharing="" category="Locations" />
   <background id="space_sky.swf" name="Sky" enable="Y" default="N" is_premium="N" aid="9811" money="" sharing="" category="Locations" />
   <background id="wall03.swf" name="Wallpaper" enable="Y" default="N" is_premium="N" aid="9811" money="" sharing="" category="Patterns" />
@@ -334,61 +335,206 @@
     </prop>
   </compositebg>
   <compositebg id="cbg_office" name="Office" enable="Y" default="N" thumb="office.png" display_order="5" is_premium="N" money="" sharing="" aid="9067">
-    <bg id="cbg_office_BG86" index="">
-      <file>custom.office_bg.swf</file>
+    <bg id="BG2" index="0">
+      <file>custom.office.swf</file>
     </bg>
-    <prop id="cbg_office_PROP62" index="2">
-      <file>custom.office_chair02.swf</file>
-      <x>307</x>
-      <y>254</y>
-      <xscale>1</xscale>
-      <yscale>1</yscale>
+    <prop id="PROP21" index="1">
+      <file>custom.cubicle_wall_back.swf</file>
+      <x>61.5493324</x>
+      <y>225.6811216</y>
+      <xscale>0.6807624</xscale>
+      <yscale>0.6807624</yscale>
       <face>1</face>
       <rotation>0</rotation>
     </prop>
-    <prop id="cbg_office_PROP61" index="3">
-      <file>custom.office_chair01.swf</file>
-      <x>270</x>
-      <y>267</y>
-      <xscale>1</xscale>
-      <yscale>1</yscale>
+    <prop id="PROP25" index="2">
+      <file>custom.office_desk2.swf</file>
+      <x>73.1279884</x>
+      <y>265.6123722</y>
+      <xscale>0.6513932</xscale>
+      <yscale>0.6513932</yscale>
       <face>1</face>
       <rotation>0</rotation>
     </prop>
-    <prop id="cbg_office_PROP60" index="4">
-      <file>custom.office_flag.swf</file>
-      <x>511</x>
-      <y>173</y>
-      <xscale>1</xscale>
-      <yscale>1</yscale>
+    <prop id="PROP22" index="3">
+      <file>custom.cubicle_wall_side.swf</file>
+      <x>142.72149</x>
+      <y>226.5865952</y>
+      <xscale>0.6513932</xscale>
+      <yscale>0.6513932</yscale>
+      <face>-1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP26" index="4">
+      <file>custom.office_keyboard.swf</file>
+      <x>100.9220133</x>
+      <y>242.6241427</y>
+      <xscale>0.5390154</xscale>
+      <yscale>0.5390154</yscale>
+      <face>-1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP65" index="5">
+      <file>custom.cubicle_wall_back.swf</file>
+      <x>552.100025</x>
+      <y>225.7452733</y>
+      <xscale>0.6513932</xscale>
+      <yscale>0.6513932</yscale>
       <face>1</face>
       <rotation>0</rotation>
     </prop>
-    <prop id="cbg_office_PROP58" index="5">
-      <file>custom.office_chair.swf</file>
-      <x>462</x>
-      <y>266</y>
-      <xscale>1</xscale>
-      <yscale>1</yscale>
+    <prop id="PROP66" index="7">
+      <file>custom.cubicle_wall_side.swf</file>
+      <x>493.4550652</x>
+      <y>226.5576366</y>
+      <xscale>0.6513932</xscale>
+      <yscale>0.6513932</yscale>
       <face>1</face>
       <rotation>0</rotation>
     </prop>
-    <prop id="cbg_office_PROP57" index="8">
-      <file>custom.office_table.swf</file>
-      <x>377</x>
-      <y>283</y>
-      <xscale>1</xscale>
-      <yscale>1</yscale>
+    <prop id="PROP67" index="6">
+      <file>custom.office_desk2.swf</file>
+      <x>568.4719306</x>
+      <y>264.733114</y>
+      <xscale>0.6513932</xscale>
+      <yscale>0.6513932</yscale>
       <face>1</face>
       <rotation>0</rotation>
     </prop>
-    <prop id="cbg_office_PROP59" index="9">
-      <file>custom.office_plant.swf</file>
-      <x>580</x>
-      <y>213</y>
-      <xscale>1</xscale>
-      <yscale>1</yscale>
+    <prop id="PROP71" index="8">
+      <file>custom.msp_monitor.msp_monitor_monitor_back.swf</file>
+      <x>532.7952238</x>
+      <y>225.6682437</y>
+      <xscale>0.6513932</xscale>
+      <yscale>0.6513932</yscale>
+      <face>-1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP104" index="9">
+      <file>custom.cubicle_wall_back.swf</file>
+      <x>318.7121958</x>
+      <y>228.8900273</y>
+      <xscale>0.9194488</xscale>
+      <yscale>0.9194488</yscale>
       <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP105" index="10">
+      <file>custom.cubicle_wall_side.swf</file>
+      <x>433.8911658</x>
+      <y>228.8775732</y>
+      <xscale>0.9194488</xscale>
+      <yscale>0.9194488</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP106" index="11">
+      <file>custom.cubicle_wall_side.swf</file>
+      <x>204.1975354</x>
+      <y>228.854587</y>
+      <xscale>0.9194488</xscale>
+      <yscale>0.9194488</yscale>
+      <face>-1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP107" index="12">
+      <file>custom.msp_office_chair.msp_office_chair_office_chair_front.swf</file>
+      <x>334.5906971</x>
+      <y>269.9232994</y>
+      <xscale>0.6085602</xscale>
+      <yscale>0.6085602</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+      <color r="ccColorA">3950425</color>
+    </prop>
+    <prop id="PROP108" index="13">
+      <file>custom.office_desk2.swf</file>
+      <x>318.7072194</x>
+      <y>285.1708251</y>
+      <xscale>0.9194488</xscale>
+      <yscale>0.9194488</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP109" index="14">
+      <file>custom.office_keyboard.swf</file>
+      <x>309.9724559</x>
+      <y>253.771649</y>
+      <xscale>0.7608263</xscale>
+      <yscale>0.7608263</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP110" index="15">
+      <file>custom.msp_monitor.msp_monitor_monitor_back.swf</file>
+      <x>263.0575817</x>
+      <y>230.6934845</y>
+      <xscale>0.9194488</xscale>
+      <yscale>0.9194488</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP111" index="16">
+      <file>custom.cubicle_wall_back.swf</file>
+      <x>5.9779662</x>
+      <y>229.5232675</y>
+      <xscale>0.9194488</xscale>
+      <yscale>0.9194488</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP113" index="17">
+      <file>custom.office_desk2.swf</file>
+      <x>-10.9337747</x>
+      <y>285.8015232</y>
+      <xscale>0.9194488</xscale>
+      <yscale>0.9194488</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP114" index="18">
+      <file>custom.cubicle_wall_side.swf</file>
+      <x>87.2982347</x>
+      <y>230.7162003</y>
+      <xscale>0.9194488</xscale>
+      <yscale>0.9194488</yscale>
+      <face>-1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP116" index="19">
+      <file>custom.cubicle_wall_back.swf</file>
+      <x>628.4438422</x>
+      <y>229.6183773</y>
+      <xscale>0.9194488</xscale>
+      <yscale>0.9194488</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP117" index="20">
+      <file>custom.office_desk2.swf</file>
+      <x>651.5529707</x>
+      <y>284.6501525</y>
+      <xscale>0.9194488</xscale>
+      <yscale>0.9194488</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP118" index="21">
+      <file>custom.cubicle_wall_side.swf</file>
+      <x>545.6658225</x>
+      <y>230.7650372</y>
+      <xscale>0.9194488</xscale>
+      <yscale>0.9194488</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP119" index="22">
+      <file>custom.msp_monitor.msp_monitor_monitor_back.swf</file>
+      <x>601.1948983</x>
+      <y>229.5096491</y>
+      <xscale>0.9194488</xscale>
+      <yscale>0.9194488</yscale>
+      <face>-1</face>
       <rotation>0</rotation>
     </prop>
   </compositebg>
@@ -925,208 +1071,6 @@
     <bg id="cbg_house_ext_BG2" index="">
       <file>custom.house_ext_bg.swf</file>
     </bg>
-  </compositebg>
-  <compositebg id="cbg_office_02" name="Office" enable="Y" default="N" thumb="office02.jpg" display_order="20" is_premium="N" money="" sharing="" aid="9539">
-    <bg id="cbg_office_02_BG15" index="">
-      <file>custom.office_bg02.swf</file>
-      <color r="ccColorA" oc="x0">8424073</color>
-    </bg>
-    <prop id="cbg_office_02_PROP8" index="2">
-      <file>custom.office_table03.swf</file>
-      <x>409.5</x>
-      <y>232.6</y>
-      <xscale>1</xscale>
-      <yscale>1</yscale>
-      <face>-1</face>
-      <rotation>0</rotation>
-    </prop>
-    <prop id="cbg_office_02_PROP0" index="3">
-      <file>custom.office_table03.swf</file>
-      <x>194.5</x>
-      <y>231.6</y>
-      <xscale>1</xscale>
-      <yscale>1</yscale>
-      <face>1</face>
-      <rotation>0</rotation>
-    </prop>
-    <prop id="cbg_office_02_PROP3" index="4">
-      <file>custom.office_table02.swf</file>
-      <x>54.5</x>
-      <y>231.6</y>
-      <xscale>1</xscale>
-      <yscale>1</yscale>
-      <face>1</face>
-      <rotation>0</rotation>
-    </prop>
-    <prop id="cbg_office_02_PROP47" index="5">
-      <file>custom.office_chair.swf</file>
-      <x>69.5</x>
-      <y>272.6</y>
-      <xscale>0.67</xscale>
-      <yscale>0.67</yscale>
-      <face>-1</face>
-      <rotation>0</rotation>
-    </prop>
-    <prop id="cbg_office_02_PROP26" index="6">
-      <file>custom.office_table02.swf</file>
-      <x>551.5</x>
-      <y>231.6</y>
-      <xscale>1</xscale>
-      <yscale>1</yscale>
-      <face>-1</face>
-      <rotation>0</rotation>
-    </prop>
-    <prop id="cbg_office_02_PROP43" index="7">
-      <file>custom.office_chair.swf</file>
-      <x>530.5</x>
-      <y>273.6</y>
-      <xscale>0.67</xscale>
-      <yscale>0.67</yscale>
-      <face>1</face>
-      <rotation>0</rotation>
-    </prop>
-    <prop id="cbg_office_02_PROP2" index="8">
-      <file>custom.office_board.swf</file>
-      <x>160.5</x>
-      <y>232.6</y>
-      <xscale>1</xscale>
-      <yscale>1</yscale>
-      <face>1</face>
-      <rotation>0</rotation>
-    </prop>
-    <prop id="cbg_office_02_PROP10" index="9">
-      <file>custom.office_board.swf</file>
-      <x>442.5</x>
-      <y>233.6</y>
-      <xscale>1</xscale>
-      <yscale>1</yscale>
-      <face>-1</face>
-      <rotation>0</rotation>
-    </prop>
-    <prop id="cbg_office_02_PROP41" index="10">
-      <file>custom.office_table01.swf</file>
-      <x>306.5</x>
-      <y>248.6</y>
-      <xscale>1.02</xscale>
-      <yscale>1</yscale>
-      <face>1</face>
-      <rotation>0</rotation>
-    </prop>
-    <prop id="cbg_office_02_PROP49" index="11">
-      <file>custom.cc_calendar.swf</file>
-      <x>318.5</x>
-      <y>215.6</y>
-      <xscale>0.54</xscale>
-      <yscale>0.54</yscale>
-      <face>1</face>
-      <rotation>0</rotation>
-    </prop>
-    <prop id="cbg_office_02_PROP46" index="12">
-      <file>custom.office_chair.swf</file>
-      <x>309.5</x>
-      <y>277.6</y>
-      <xscale>0.67</xscale>
-      <yscale>0.67</yscale>
-      <face>-1</face>
-      <rotation>0</rotation>
-    </prop>
-    <prop id="PROP52" index="13">
-      <file>custom.office_plant.swf</file>
-      <x>162.5</x>
-      <y>266.6</y>
-      <xscale>0.49</xscale>
-      <yscale>0.49</yscale>
-      <face>1</face>
-      <rotation>0</rotation>
-    </prop>
-    <prop id="PROP53" index="14">
-      <file>custom.msp_computer.msp_computer_cc_computer02.swf</file>
-      <x>362.5</x>
-      <y>241.6</y>
-      <xscale>0.81</xscale>
-      <yscale>0.81</yscale>
-      <face>-1</face>
-      <rotation>0</rotation>
-      <color r="ccColorA" oc="x0">13421772</color>
-    </prop>
-  </compositebg>
-  <compositebg id="cbg_office_02_non" name="Office" enable="Y" default="N" thumb="office02b.jpg" display_order="21" is_premium="N" money="" sharing="" aid="9659">
-    <bg id="cbg_office_02_non_cbg_office_02_BG15" index="">
-      <file>custom.office_bg02.swf</file>
-      <color r="ccColorA" oc="x0">8424073</color>
-    </bg>
-    <prop id="cbg_office_02_non_cbg_office_02_PROP8" index="2">
-      <file>custom.office_table03.swf</file>
-      <x>409.5</x>
-      <y>232.6</y>
-      <xscale>1</xscale>
-      <yscale>1</yscale>
-      <face>-1</face>
-      <rotation>0</rotation>
-    </prop>
-    <prop id="cbg_office_02_non_cbg_office_02_PROP0" index="3">
-      <file>custom.office_table03.swf</file>
-      <x>194.5</x>
-      <y>231.6</y>
-      <xscale>1</xscale>
-      <yscale>1</yscale>
-      <face>1</face>
-      <rotation>0</rotation>
-    </prop>
-    <prop id="cbg_office_02_non_cbg_office_02_PROP3" index="4">
-      <file>custom.office_table02.swf</file>
-      <x>54.5</x>
-      <y>231.6</y>
-      <xscale>1</xscale>
-      <yscale>1</yscale>
-      <face>1</face>
-      <rotation>0</rotation>
-    </prop>
-    <prop id="cbg_office_02_non_cbg_office_02_PROP47" index="5">
-      <file>custom.office_chair.swf</file>
-      <x>69.5</x>
-      <y>272.6</y>
-      <xscale>0.67</xscale>
-      <yscale>0.67</yscale>
-      <face>-1</face>
-      <rotation>0</rotation>
-    </prop>
-    <prop id="cbg_office_02_non_cbg_office_02_PROP26" index="6">
-      <file>custom.office_table02.swf</file>
-      <x>551.5</x>
-      <y>231.6</y>
-      <xscale>1</xscale>
-      <yscale>1</yscale>
-      <face>-1</face>
-      <rotation>0</rotation>
-    </prop>
-    <prop id="cbg_office_02_non_cbg_office_02_PROP43" index="7">
-      <file>custom.office_chair.swf</file>
-      <x>530.5</x>
-      <y>273.6</y>
-      <xscale>0.67</xscale>
-      <yscale>0.67</yscale>
-      <face>1</face>
-      <rotation>0</rotation>
-    </prop>
-    <prop id="cbg_office_02_non_cbg_office_02_PROP2" index="8">
-      <file>custom.office_board.swf</file>
-      <x>160.5</x>
-      <y>232.6</y>
-      <xscale>1</xscale>
-      <yscale>1</yscale>
-      <face>1</face>
-      <rotation>0</rotation>
-    </prop>
-    <prop id="cbg_office_02_non_cbg_office_02_PROP10" index="9">
-      <file>custom.office_board.swf</file>
-      <x>442.5</x>
-      <y>233.6</y>
-      <xscale>1</xscale>
-      <yscale>1</yscale>
-      <face>-1</face>
-      <rotation>0</rotation>
-    </prop>
   </compositebg>
   <compositebg id="cbg_rest_int" name="Restaurant interior" enable="Y" default="N" thumb="restautrant_inside.jpg" display_order="22" is_premium="N" money="" sharing="" aid="9540">
     <bg id="BG2" index="">
@@ -4174,6 +4118,9 @@
 	<tag>currency</tag>
     <tag>money</tag>
   </prop>
+  <prop id="office_keyboard.swf" name="Computer Keyboard" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="10663" money="" sharing="">
+    <tag>cat:Technology</tag>
+  </prop>
   <prop id="msp_compcase01" name="Computer Server Tower" holdable="" placeable="1" wearable="" facing="left" thumb="msp_compcase01_ncc_compcase_front.swf" enable="Y" is_premium="N" aid="11894" money="" sharing="">
     <state id="msp_compcase01_ncc_compcase_back.swf" name="back" enable="Y" />
     <state id="msp_compcase01_ncc_compcase_front.swf" name="front" enable="Y" default="Y" />
@@ -4236,6 +4183,12 @@
 	<tag>audience</tag>
     <tag>crowd</tag>
     <tag>people</tag>
+  </prop>
+  <prop id="cubicle_wall_back.swf" name="Cubicle Wall" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="11363" money="" sharing="">
+    <tag>cat:Office and School</tag>
+  </prop>
+  <prop id="cubicle_wall_side.swf" name="Cubicle Wall" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="11363" money="" sharing="">
+    <tag>cat:Office and School</tag>
   </prop>
   <prop id="cup01.swf" name="Cup" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="11250" money="" sharing="" handstyle="flat">
 	<tag>cat:Kitchen</tag>
@@ -4778,6 +4731,12 @@
     <tag>organ</tag>
     <tag>organs</tag>
   </prop>
+  <prop id="magic_wand.swf" name="Magic Wand" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9797" money="" sharing="">
+    <tag>cat:Others</tag>
+	<tag>magic</tag>
+	<tag>magician</tag>
+    <tag>wand</tag>
+  </prop>
   <prop id="planets_mars.swf" name="Mars" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="10886" money="" sharing="">
     <tag>cat:Space</tag>
   </prop>
@@ -4800,9 +4759,6 @@
   </prop>
   <prop id="planets_mercury.swf" name="Mercury" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="10886" money="" sharing="">
     <tag>cat:Space</tag>
-  </prop>
-  <prop id="mushroom_cloud.swf" name="Mushroom Cloud" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="3343" money="" sharing="" handstyle="stick">
-    <tag>cat:Others</tag>
   </prop>
   <prop id="cc_microphone.swf" name="Microphone" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9019" money="" sharing="">
     <tag>cat:Technology</tag>
@@ -4835,16 +4791,16 @@
 	<tag>beverage</tag>
 	<tag>drink</tag>
   </prop>
+  <prop id="msp_monitor" name="Monitor" holdable="" placeable="1" wearable="" facing="left" thumb="msp_monitor_monitor_front.swf" enable="Y" is_premium="N" aid="10543" money="" sharing="">
+    <state id="msp_monitor_monitor_front.swf" name="front" enable="Y" default="Y"/>
+    <state id="msp_monitor_monitor_front_empty.swf" name="front transparent" enable="Y"/>
+    <state id="msp_monitor_monitor_back.swf" name="back" enable="Y"/>
+	<tag>cat:Technology</tag>
+  </prop>
   <prop id="nccxmas_deco02.swf" name="Mistletoe" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="Y" aid="11476" money="" sharing="">
     <tag>cat:Decorations</tag>
 	<tag>christmas</tag>
 	<tag>xmas</tag>
-  </prop>
-  <prop id="magic_wand.swf" name="Magic Wand" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9797" money="" sharing="">
-    <tag>cat:Others</tag>
-	<tag>magic</tag>
-	<tag>magician</tag>
-    <tag>wand</tag>
   </prop>
   <prop id="money.swf" name="Money" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9797" money="" sharing="">
     <tag>cat:Money and Finance</tag>
@@ -4864,6 +4820,9 @@
     <state id="msp_moon01_ncc_moon_waning.swf" name="crescent" enable="Y" />
     <tag>cat:Space</tag>
 	<tag>nature</tag>
+  </prop>
+  <prop id="mushroom_cloud.swf" name="Mushroom Cloud" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="3343" money="" sharing="" handstyle="stick">
+    <tag>cat:Others</tag>
   </prop>
   <prop id="cc_necklace.swf" name="Necklace" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9022" money="" sharing="">
     <tag>cat:Retail</tag>
@@ -4909,6 +4868,12 @@
     <state id="msp_office_desk_ncc_officedesk_side.swf" name="side" enable="Y" />
     <state id="msp_office_desk_ncc_officedesk_side_open01.swf" name="side - top drawer opening" enable="Y" />
     <state id="msp_office_desk_ncc_officedesk_side_open02.swf" name="side - bottom drawer opening" enable="Y" />
+    <tag>cat:Furniture and Fixtures</tag>
+	<tag>business</tag>
+	<tag>desk</tag>
+	<tag>office</tag>
+  </prop>
+  <prop id="office_desk2.swf" name="Office Desk" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="10547" money="" sharing="">
     <tag>cat:Furniture and Fixtures</tag>
 	<tag>business</tag>
 	<tag>desk</tag>
@@ -5295,6 +5260,9 @@
 	<tag>cat:Kitchen</tag>
 	<tag>banquet</tag>
     <tag>plate</tag>
+  </prop>
+  <prop id="skyline.swf" name="Skyline" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="11498" money="" sharing="">
+    <tag>cat:Buildings and Structures</tag>
   </prop>
   <prop id="cc_arrow2.swf" name="Shapes - Arrow" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9167" money="" sharing="">
     <tag>cat:Shapes and Symbols</tag>
