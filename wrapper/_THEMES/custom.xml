@@ -7412,6 +7412,9 @@
   <char id="215" name="Tourist" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
     <tags>family,_free,_cat:Travel,_tag:casual man male tourist travel,_sticky_filter_guy</tags>
   </char>
+  <char id="224" name="Warehouse Worker" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+    <tags>family,_free,_cat:Industrial,_tag:boot boots construction hat hardhat factories factory industrial industry laborer labourer man manufacture manufacturing manual male other professions safe ssfety vault warehouse worker,_sticky_filter_guy</tags>
+  </char>
   <char id="38" name="Werewolf" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
     <tags>family,_free,_cat:Holidays and Costumes,_tag:claw claws costume costumes ear ears fur furry halloween holiday holidays hols howl male paw werewolf wolf,_sticky_filter_guy</tags>
   </char>

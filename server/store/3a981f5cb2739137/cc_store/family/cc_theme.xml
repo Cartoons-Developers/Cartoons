@@ -1510,6 +1510,18 @@
       <state id="walk" filename="walk.swf" />
 	<tag>_sticky_filter_guy</tag>
     </component>
+    <component type="lower_body" id="adam_amputee" path="adam_amputee" name="adam_amputee" thumb="thumbnail.swf" display_order="190" money="0" sharing="0" enable="Y">
+        <state id="dance" filename="dance.swf"/>
+        <state id="default" filename="default.swf"/>
+        <state id="excited" filename="excited.swf"/>
+        <state id="fearful" filename="fearful.swf"/>
+        <state id="kneel_down" filename="kneel_down.swf"/>
+        <state id="laugh" filename="laugh.swf"/>
+        <state id="run" filename="run.swf"/>
+        <state id="sit" filename="sit.swf"/>
+        <state id="walk" filename="walk.swf"/>
+	<tag>_sticky_filter_guy</tag>
+    </component>
     <component type="lower_body" id="adam_firefighter" path="adam_firefighter" name="adam_firefighter" thumb="thumbnail.swf" display_order="190" money="0" sharing="0" enable="Y">
         <state id="dance" filename="dance.swf"/>
         <state id="default" filename="default.swf"/>
