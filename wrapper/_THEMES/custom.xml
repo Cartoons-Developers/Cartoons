@@ -589,7 +589,7 @@
       <rotation>0</rotation>
     </prop>
   </compositebg>
-  <compositebg id="cbg_white_house" name="White house" enable="Y" default="N" thumb="white_house_ext.png" display_order="7" is_premium="N" money="" sharing="" aid="9075">
+  <compositebg id="cbg_white_house" name="White House" enable="Y" default="N" thumb="white_house_ext.png" display_order="7" is_premium="N" money="" sharing="" aid="9075">
     <bg id="BG2" index="0">
       <file>custom.greenfield.swf</file>
     </bg>
