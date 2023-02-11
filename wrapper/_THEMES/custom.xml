@@ -148,7 +148,7 @@
   <background id="classroom.swf" name="Potion room" enable="N" default="N" is_premium="N" aid="9047" money="" sharing="" />
   <background id="snowynight.swf" name="Snowy Night" enable="N" default="N" is_premium="N" aid="9064" money="" sharing="" />
   <background id="subway_train_bg.swf" name="Subway train" enable="N" default="N" is_premium="N" aid="9059" money="" sharing="" />
-  <compositebg id="cbg_bedroom" name="Bedroom" enable="Y" default="N" thumb="bedroom.png" display_order="1" is_premium="N" money="" sharing="" aid="9065"><bg id="BG3" index="">
+  <compositebg id="cbg_bedroom" name="Bedroom" enable="Y" default="N" thumb="bedroom.png" display_order="1" is_premium="N" money="" sharing="" aid="9065"><bg id="BG3" index="0">
       <file>custom.wall10.swf</file>
       <color r="ccColorA">13615277</color>
       <color r="ccColorB">10196373</color>
@@ -237,7 +237,7 @@
     </prop>
   </compositebg>
   <compositebg id="cbg_kitchen" name="Kitchen" enable="Y" default="N" thumb="kitchen.png" display_order="2" is_premium="N" money="" sharing="" aid="9066">
-    <bg id="cbg_kitchen_BG76" index="">
+    <bg id="cbg_kitchen_BG76" index="0">
       <file>custom.kitchen_bg.swf</file>
     </bg>
     <prop id="cbg_kitchen_PROP49" index="4">
@@ -269,7 +269,7 @@
     </prop>
   </compositebg>
   <compositebg id="cbg_living_room" name="Living Room" enable="Y" default="N" thumb="living_room.png" display_order="3" is_premium="N" money="" sharing="" aid="9074">
-    <bg id="cbg_living_room_BG130" index="">
+    <bg id="cbg_living_room_BG130" index="0">
       <file>custom.wall10.swf</file>
       <color r="ccColorB">11243634</color>
       <color r="ccColorA">9746637</color>
@@ -314,7 +314,7 @@
     </prop>
   </compositebg>
   <compositebg id="cbg_office_pentry" name="Office Pentry" enable="Y" default="N" thumb="office_pentry.png" display_order="4" is_premium="N" money="" sharing="" aid="9068">
-    <bg id="cbg_office_pentry_BG102" index="">
+    <bg id="cbg_office_pentry_BG102" index="0">
       <file>custom.office_pentry_bg.swf</file>
     </bg>
     <prop id="cbg_office_pentry_PROP71" index="4">
@@ -541,7 +541,7 @@
     </prop>
   </compositebg>
   <compositebg id="cbg_oval_office" name="Oval office" enable="Y" default="N" thumb="white_house.png" display_order="6" is_premium="N" money="" sharing="" aid="9070">
-    <bg id="cbg_oval_office_BG146" index="">
+    <bg id="cbg_oval_office_BG146" index="0">
       <file>custom.white_house_bg.swf</file>
     </bg>
     <prop id="cbg_oval_office_PROP32" index="6">
@@ -656,7 +656,7 @@
     </prop>
   </compositebg>
   <compositebg id="cbg_subway_train" name="Subway train" enable="Y" default="N" thumb="subway_train.png" display_order="7" is_premium="N" money="" sharing="" aid="9069">
-    <bg id="cbg_subway_train_BG137" index="">
+    <bg id="cbg_subway_train_BG137" index="0">
       <file>custom.subway_train_bg.swf</file>
     </bg>
     <prop id="cbg_subway_train_PROP100" index="4">
@@ -697,7 +697,7 @@
     </prop>
   </compositebg>
   <compositebg id="cbg_subwaystaton" name="Subway station" enable="Y" default="N" thumb="subway_station.png" display_order="8" is_premium="N" money="" sharing="" aid="9073">
-    <bg id="cbg_subwaystaton_BG246" index="">
+    <bg id="cbg_subwaystaton_BG246" index="0">
       <file>custom.subway_station_bg.swf</file>
     </bg>
     <prop id="PROP42" index="3">
@@ -774,7 +774,7 @@
     </prop>
   </compositebg>
   <compositebg id="cbg_restaurant" name="Restaurant" enable="Y" default="N" thumb="restaurant.png" display_order="9" is_premium="N" money="" sharing="" aid="9072">
-    <bg id="cbg_restaurant_BG220" index="">
+    <bg id="cbg_restaurant_BG220" index="0">
       <file>custom.restaurant_bg.swf</file>
     </bg>
     <prop id="PROP68" index="4">
@@ -815,7 +815,7 @@
     </prop>
   </compositebg>
   <compositebg id="cbg_convinient_store" name="Convenient store" enable="Y" default="N" thumb="convinient_store.jpg" display_order="10" is_premium="N" money="" sharing="" aid="9142">
-    <bg id="cbg_convinient_store_BG2" index="">
+    <bg id="cbg_convinient_store_BG2" index="0">
       <file>custom.convinient_store_bg.swf</file>
     </bg>
     <prop id="cbg_convinient_store_PROP0" index="2">
@@ -829,7 +829,7 @@
     </prop>
   </compositebg>
   <compositebg id="cbg_convinient_store_cashier" name="Counter" enable="Y" default="N" thumb="convinient_store_cashier.jpg" display_order="11" is_premium="N" money="" sharing="" aid="9143">
-    <bg id="cbg_convinient_store_cashier_BG58" index="">
+    <bg id="cbg_convinient_store_cashier_BG58" index="0">
       <file>custom.convinient_store_cashier_bg.swf</file>
     </bg>
     <prop id="cbg_convinient_store_cashier_PROP38" index="2">
@@ -843,7 +843,7 @@
     </prop>
   </compositebg>
   <compositebg id="cbg_court_ext" name="Courthouse" enable="Y" default="N" thumb="court_room_ext.jpg" display_order="12" is_premium="N" money="" sharing="" aid="9144">
-    <bg id="cbg_court_ext_BG37" index="">
+    <bg id="cbg_court_ext_BG37" index="0">
       <file>custom.court_room_ext_bg.swf</file>
     </bg>
     <prop id="cbg_court_ext_PROP21" index="2">
@@ -875,7 +875,7 @@
     </prop>
   </compositebg>
   <compositebg id="cbg_court_interior" name="Courtroom" enable="Y" default="N" thumb="court_room_interior.jpg" display_order="13" is_premium="N" money="" sharing="" aid="9145">
-    <bg id="cbg_court_interior_BG45" index="">
+    <bg id="cbg_court_interior_BG45" index="0">
       <file>custom.court_room_interior_bg.swf</file>
     </bg>
     <prop id="cbg_court_interior_PROP28" index="2">
@@ -934,7 +934,7 @@
     </prop>
   </compositebg>
   <compositebg id="cbg_frontyard" name="Front yard" enable="Y" default="N" thumb="front_yard.jpg" display_order="14" is_premium="N" money="" sharing="" aid="9146">
-    <bg id="cbg_frontyard_BG52" index="">
+    <bg id="cbg_frontyard_BG52" index="0">
       <file>custom.front_yard_bg.swf</file>
     </bg>
     <prop id="cbg_frontyard_PROP34" index="2">
@@ -975,7 +975,7 @@
     </prop>
   </compositebg>
   <compositebg id="cbg_hospital_lab" name="Hospital" enable="Y" default="N" thumb="hospital_lab.jpg" display_order="15" is_premium="N" money="" sharing="" aid="9147">
-    <bg id="cbg_hospital_lab_BG2" index="">
+    <bg id="cbg_hospital_lab_BG2" index="0">
       <file>custom.hospital_lab_bg.swf</file>
     </bg>
     <prop id="cbg_hospital_lab_PROP1" index="3">
@@ -998,7 +998,7 @@
     </prop>
   </compositebg>
   <compositebg id="cbg_hospital_rm" name="Hospital room" enable="Y" default="N" thumb="hospital_rm.jpg" display_order="16" is_premium="N" money="" sharing="" aid="9148">
-    <bg id="cbg_hospital_rm_BG2" index="">
+    <bg id="cbg_hospital_rm_BG2" index="0">
       <file>custom.hospital_rm_bg.swf</file>
     </bg>
     <prop id="cbg_hospital_rm_PROP0" index="2">
@@ -1030,7 +1030,7 @@
     </prop>
   </compositebg>
   <compositebg id="cbg_police_station" name="Interrogation room" enable="Y" default="N" thumb="police_station.jpg" display_order="17" is_premium="N" money="" sharing="" aid="9149">
-    <bg id="cbg_police_station_BG2" index="">
+    <bg id="cbg_police_station_BG2" index="0">
       <file>custom.police_station_bg.swf</file>
     </bg>
     <prop id="cbg_police_station_PROP3" index="2">
@@ -1062,7 +1062,7 @@
     </prop>
   </compositebg>
   <compositebg id="cbg_supermarket" name="Supermarket" enable="Y" default="N" thumb="supermarket.jpg" display_order="18" is_premium="N" money="" sharing="" aid="9150">
-    <bg id="cbg_supermarket_BG300" index="">
+    <bg id="cbg_supermarket_BG300" index="0">
       <file>custom.supermarket_bg.swf</file>
     </bg>
     <prop id="cbg_supermarket_PROP33" index="2">
@@ -1085,12 +1085,12 @@
     </prop>
   </compositebg>
   <compositebg id="cbg_house_ext" name="House" enable="Y" default="N" thumb="house_ext.jpg" display_order="19" is_premium="N" money="" sharing="" aid="9151">
-    <bg id="cbg_house_ext_BG2" index="">
+    <bg id="cbg_house_ext_BG2" index="0">
       <file>custom.house_ext_bg.swf</file>
     </bg>
   </compositebg>
   <compositebg id="cbg_rest_int" name="Restaurant interior" enable="Y" default="N" thumb="restautrant_inside.jpg" display_order="22" is_premium="N" money="" sharing="" aid="9540">
-    <bg id="BG2" index="">
+    <bg id="BG2" index="0">
       <file>custom.restaurant_int_bg.swf</file>
       <dcsn>9532</dcsn>
       <color r="ccColorA" oc="x0">5979730</color>
@@ -1217,7 +1217,7 @@
     </prop>
   </compositebg>
   <compositebg id="cbg_rest_night" name="Restaurant nighttime" enable="Y" default="N" thumb="restaurant_night.jpg" display_order="23" is_premium="N" money="" sharing="" aid="9541">
-    <bg id="BG2" index="">
+    <bg id="BG2" index="0">
       <file>custom.restaurant_ext_bg.swf</file>
     </bg>
     <prop id="PROP0" index="3">
@@ -1242,7 +1242,7 @@
     </prop>
   </compositebg>
   <compositebg id="cbg_rest_day" name="Restaurant daytime" enable="Y" default="N" thumb="restaurant_day.jpg" display_order="24" is_premium="N" money="" sharing="" aid="9542">
-    <bg id="BG5" index="">
+    <bg id="BG5" index="0">
       <file>custom.restaurnat_ext_day_bg.swf</file>
     </bg>
     <prop id="PROP0" index="3">
@@ -1267,7 +1267,7 @@
     </prop>
   </compositebg>
   <compositebg id="cbg_school_hallway" name="School hallway" enable="Y" default="N" thumb="school_hallway.png" display_order="25" is_premium="N" money="" sharing="" aid="9543">
-    <bg id="BG10" index="">
+    <bg id="BG10" index="0">
       <file>custom.wall10.swf</file>
       <color r="ccColorA">16381164</color>
       <color r="ccColorB">14078665</color>
@@ -1684,7 +1684,7 @@
     </prop>
   </compositebg>
   <compositebg id="cbg_classroom" name="Classroom" enable="Y" default="N" thumb="classroom.png" display_order="26" is_premium="N" money="" sharing="" aid="9544">
-    <bg id="BG130" index="">
+    <bg id="BG130" index="0">
       <file>custom.wall12.swf</file>
       <color r="ccColorA">16381164</color>
       <color r="ccColorB">4884128</color>
@@ -1854,7 +1854,7 @@
     </prop>
   </compositebg>
   <compositebg id="cbg_school_ext" name="School exterior" enable="Y" default="N" thumb="school_ext.jpg" display_order="28" is_premium="N" money="" sharing="" aid="9612">
-    <bg id="cbg_school_ext_BG2" index="">
+    <bg id="cbg_school_ext_BG2" index="0">
       <file>custom.school_ext_bg.swf</file>
     </bg>
     <prop id="cbg_school_ext_PROP3" index="2">
@@ -1895,14 +1895,14 @@
     </prop>
   </compositebg>
   <compositebg id="cbg_blackboard" name="Blackboard" enable="Y" default="N" thumb="blackboard.jpg" display_order="29" is_premium="N" money="" sharing="" aid="9613">
-    <bg id="cbg_blackboard_BG2" index="">
+    <bg id="cbg_blackboard_BG2" index="0">
       <file>custom.blackboard.swf</file>
       <dcsn>9605</dcsn>
       <color r="ccColorA" oc="x0">1777951</color>
     </bg>
   </compositebg>
   <compositebg id="cbg_basketball_int" name="Basketball court (interior)" enable="Y" default="N" thumb="basketball_court01.jpg" display_order="30" is_premium="N" money="" sharing="" aid="9614">
-    <bg id="cbg_basketball_int_BG2" index="">
+    <bg id="cbg_basketball_int_BG2" index="0">
       <file>custom.basketball_court01_bg.swf</file>
       <dcsn>9607</dcsn>
       <color r="ccColorA" oc="x0">15450736</color>
@@ -1927,7 +1927,7 @@
     </prop>
   </compositebg>
   <compositebg id="cbg_basketball_ext" name="Basketball court (exterior)" enable="Y" default="N" thumb="basketball_court02.jpg" display_order="31" is_premium="N" money="" sharing="" aid="9615">
-    <bg id="BG4" index="">
+    <bg id="BG4" index="0">
       <file>custom.basketball_court02_bg.swf</file>
     </bg>
     <prop id="PROP1" index="2">
@@ -1959,7 +1959,7 @@
     </prop>
   </compositebg>
   <compositebg id="cbg_toilet" name="Toilet" enable="Y" default="N" thumb="toilet.jpg" display_order="32" is_premium="N" money="" sharing="" aid="9616">
-    <bg id="cbg_toilet_BG2" index="">
+    <bg id="cbg_toilet_BG2" index="0">
       <file>custom.toilet_bg.swf</file>
       <dcsn>9610</dcsn>
       <color r="ccColorA" oc="x0">13538451</color>
@@ -1975,7 +1975,7 @@
     </prop>
   </compositebg>
   <compositebg id="cbg_army_wide" name="Army camp (wide)" enable="N" default="N" thumb="army_camp.jpg" display_order="33" is_premium="N" money="" sharing="" aid="9617">
-    <bg id="cbg_army_wide_BG4" index="">
+    <bg id="cbg_army_wide_BG4" index="0">
       <file>custom.army_camp_bg.swf</file>
     </bg>
     <prop id="cbg_army_wide_PROP1" index="2">
@@ -2025,7 +2025,7 @@
     </prop>
   </compositebg>
   <compositebg id="cbg_camp_close" name="Army camp (close up)" enable="N" default="N" thumb="army_camp_close.jpg" display_order="34" is_premium="N" money="" sharing="" aid="9660">
-    <bg id="cbg_camp_close_BG2" index="">
+    <bg id="cbg_camp_close_BG2" index="0">
       <file>custom.army_camp_close_bg.swf</file>
     </bg>
     <prop id="cbg_camp_close_PROP0" index="2">
@@ -2057,7 +2057,7 @@
     </prop>
   </compositebg>
   <compositebg id="cbg_camp_int" name="Military Camp interior" enable="Y" default="N" thumb="camp_interior.jpg" display_order="35" is_premium="N" money="" sharing="" aid="9706">
-    <bg id="cbg_camp_int_BG2" index="">
+    <bg id="cbg_camp_int_BG2" index="0">
       <file>custom.camp_int_bg.swf</file>
     </bg>
     <prop id="cbg_camp_int_PROP0" index="2">
@@ -2171,7 +2171,7 @@
     </prop>
   </compositebg>
   <compositebg id="cbg_battlefield" name="Battlefield" enable="N" default="N" thumb="battlefield.jpg" display_order="36" is_premium="N" money="" sharing="" aid="9707">
-    <bg id="cbg_battlefield_BG2" index="">
+    <bg id="cbg_battlefield_BG2" index="0">
       <file>custom.battlefield_bg.swf</file>
     </bg>
     <prop id="cbg_battlefield_PROP1" index="2">
@@ -2328,7 +2328,7 @@
     </prop>
   </compositebg>
   <compositebg id="cbg_changing_rm" name="Changing room" enable="Y" default="N" thumb="changing_room.jpg" display_order="37" is_premium="N" money="" sharing="" aid="9708">
-    <bg id="cbg_changing_rm_BG2" index="">
+    <bg id="cbg_changing_rm_BG2" index="0">
       <file>custom.changing_room_bg.swf</file>
     </bg>
     <prop id="cbg_changing_rm_PROP0" index="2">
@@ -2409,7 +2409,7 @@
     </prop>
   </compositebg>
   <compositebg id="cbg_barn_ext" name="Barn exterior" enable="Y" default="N" thumb="barn_ext.jpg" display_order="38" is_premium="N" money="" sharing="" aid="9709">
-    <bg id="cbg_barn_ext_BG2" index="">
+    <bg id="cbg_barn_ext_BG2" index="0">
       <file>custom.barn_ext_bg.swf</file>
       <dcsn>9701</dcsn>
       <color r="ccColorA" oc="x0">12732734</color>
@@ -2434,7 +2434,7 @@
     </prop>
   </compositebg>
   <compositebg id="cbg_barn_int" name="Barn interior" enable="Y" default="N" thumb="barn_int.jpg" display_order="39" is_premium="N" money="" sharing="" aid="9710">
-    <bg id="cbg_barn_int_BG2" index="">
+    <bg id="cbg_barn_int_BG2" index="0">
       <file>custom.barn_int_bg.swf</file>
     </bg>
     <prop id="cbg_barn_int_PROP0" index="2">
@@ -2497,7 +2497,7 @@
     </prop>
   </compositebg>
   <compositebg id="cbg_kitchen_02" name="Kitchen" enable="Y" default="N" thumb="kitchen02.jpg" display_order="40" is_premium="N" money="" sharing="" aid="9711">
-    <bg id="cbg_kitchen_02_BG2" index="">
+    <bg id="cbg_kitchen_02_BG2" index="0">
       <file>custom.kitchen02_bg.swf</file>
       <dcsn>9705</dcsn>
       <color r="ccColorA" oc="x0">16643006</color>
@@ -2556,7 +2556,7 @@
     </prop>
   </compositebg>
   <compositebg id="cbg_coffee_shop" name="Coffee shop" enable="Y" default="N" thumb="coffee_shop.jpg" display_order="43" is_premium="N" money="" sharing="" aid="9752">
-    <bg id="cbg_coffee_shop_BG9" index="">
+    <bg id="cbg_coffee_shop_BG9" index="0">
       <file>custom.coffee_shop_bg.swf</file>
     </bg>
     <prop id="cbg_coffee_shop_PROP0" index="6">
@@ -2633,7 +2633,7 @@
     </prop>
   </compositebg>
   <compositebg id="cbg_bus_stop" name="Bus Stop" enable="Y" default="N" thumb="bus_stop.jpg" display_order="44" is_premium="N" money="" sharing="" aid="9753">
-    <bg id="cbg_bus_stop_BG2" index="">
+    <bg id="cbg_bus_stop_BG2" index="0">
       <file>custom.bus_stop_bg.swf</file>
     </bg>
     <prop id="cbg_bus_stop_PROP0" index="2">
@@ -2665,7 +2665,7 @@
     </prop>
   </compositebg>
   <compositebg id="cbg_donut_shop" name="Donut Shop" enable="Y" default="N" thumb="donut_shop.jpg" display_order="45" is_premium="N" money="" sharing="" aid="9754">
-    <bg id="cbg_donut_shop_BG2" index="">
+    <bg id="cbg_donut_shop_BG2" index="0">
       <file>custom.donut_shop_bg.swf</file>
     </bg>
     <prop id="cbg_donut_shop_PROP0" index="2">
@@ -2715,7 +2715,7 @@
     </prop>
   </compositebg>
   <compositebg id="cbg_shower_room" name="Shower room" enable="Y" default="N" thumb="shower_room.jpg" display_order="46" is_premium="N" money="" sharing="" aid="9755">
-    <bg id="cbg_shower_room_BG2" index="">
+    <bg id="cbg_shower_room_BG2" index="0">
       <file>custom.shower_room_bg.swf</file>
     </bg>
     <prop id="cbg_shower_room_PROP0" index="2">
@@ -2729,7 +2729,7 @@
     </prop>
   </compositebg>
   <compositebg id="cbg_oscar_stage" name="Awards ceremony" enable="Y" default="N" thumb="oscar_stage.jpg" display_order="47" is_premium="N" money="" sharing="" aid="9779">
-    <bg id="cbg_oscar_stage_BG2" index="">
+    <bg id="cbg_oscar_stage_BG2" index="0">
       <file>custom.oscar_stage_bg.swf</file>
     </bg>
     <prop id="cbg_oscar_stage_PROP4" index="6">
@@ -2788,7 +2788,7 @@
     </prop>
   </compositebg>
   <compositebg id="cbg_oscar_sit" name="Movie theatre" enable="Y" default="N" thumb="oscar_sit.jpg" display_order="48" is_premium="N" money="" sharing="" aid="9780">
-    <bg id="cbg_oscar_sit_BG2" index="">
+    <bg id="cbg_oscar_sit_BG2" index="0">
       <file>custom.oscar_sit_bg.swf</file>
     </bg>
     <prop id="cbg_oscar_sit_PROP1" index="2">
@@ -2847,7 +2847,7 @@
     </prop>
   </compositebg>
   <compositebg id="cbg_airport_lobby" name="Airport check in" enable="Y" default="N" thumb="airport_lobby.jpg" display_order="49" is_premium="N" money="" sharing="" aid="9781">
-    <bg id="cbg_airport_lobby_BG8" index="">
+    <bg id="cbg_airport_lobby_BG8" index="0">
       <file>custom.airport_lobby_bg.swf</file>
     </bg>
     <prop id="cbg_airport_lobby_PROP4" index="2">
@@ -2897,7 +2897,7 @@
     </prop>
   </compositebg>
   <compositebg id="cbg_airport_waiting" name="Airport boarding gate" enable="Y" default="N" thumb="airport_waiting.jpg" display_order="50" is_premium="N" money="" sharing="" aid="9782">
-    <bg id="cbg_airport_waiting_BG2" index="">
+    <bg id="cbg_airport_waiting_BG2" index="0">
       <file>custom.airport_waiting_bg.swf</file>
     </bg>
     <prop id="cbg_airport_waiting_PROP1" index="2">
@@ -2920,7 +2920,7 @@
     </prop>
   </compositebg>
   <compositebg id="cbg_airport_security" name="Airport security check" enable="Y" default="N" thumb="airport_security.jpg" display_order="51" is_premium="N" money="" sharing="" aid="9783">
-    <bg id="cbg_airport_security_BG2" index="">
+    <bg id="cbg_airport_security_BG2" index="0">
       <file>custom.airport_security_bg.swf</file>
     </bg>
     <prop id="cbg_airport_security_PROP0" index="2">
@@ -2961,7 +2961,7 @@
     </prop>
   </compositebg>
   <compositebg id="cbg_plane_cockpit" name="Plane cockpit" enable="Y" default="N" thumb="cockpit.jpg" display_order="52" is_premium="N" money="" sharing="" aid="9812">
-    <bg id="cbg_plane_cockpit_BG348" index="">
+    <bg id="cbg_plane_cockpit_BG348" index="0">
       <file>custom.cockpit_bg.swf</file>
     </bg>
     <prop id="cbg_plane_cockpit_PROP123" index="2">
@@ -2993,7 +2993,7 @@
     </prop>
   </compositebg>
   <compositebg id="cbg_pub" name="Pub" enable="Y" default="N" thumb="pub.png" display_order="53" is_premium="N" money="" sharing="" aid="9813">
-    <bg id="BG2" index="">
+    <bg id="BG2" index="0">
       <file>custom.ncc_low.swf</file>
       <color r="colorA">5775645</color>
       <color r="colorB">6375742</color>
@@ -3085,7 +3085,7 @@
     </prop>
   </compositebg>
   <compositebg id="cbg_disco_entrance" name="Disco entrance" enable="Y" default="N" thumb="disco.jpg" display_order="54" is_premium="N" money="" sharing="" aid="9814">
-    <bg id="cbg_disco_entrance_BG2" index="">
+    <bg id="cbg_disco_entrance_BG2" index="0">
       <file>custom.disco_bg.swf</file>
     </bg>
     <prop id="cbg_disco_entrance_PROP0" index="3">
@@ -3117,7 +3117,7 @@
     </prop>
   </compositebg>
   <compositebg id="cbg_forest" name="Forest" enable="Y" default="N" thumb="outside.png" display_order="301" is_premium="N" money="" sharing="" aid="9076">
-    <bg id="cbg_forest_BG2" index="">
+    <bg id="cbg_forest_BG2" index="0">
       <file>custom.outside.swf</file>
     </bg>
     <prop id="cbg_forest_PROP0" index="2">
@@ -3140,7 +3140,7 @@
     </prop>
   </compositebg>
   <compositebg id="cbg_library" name="Library" enable="Y" default="N" thumb="library.png" display_order="303" is_premium="N" money="" sharing="" aid="9078">
-    <bg id="cbg_library_BG3" index="">
+    <bg id="cbg_library_BG3" index="0">
       <file>custom.library.swf</file>
     </bg>
     <prop id="cbg_library_PROP0" index="2">
@@ -3172,7 +3172,7 @@
     </prop>
   </compositebg>
   <compositebg id="cbg_corridor" name="Corridor" enable="Y" default="N" thumb="corridor.png" display_order="304" is_premium="N" money="" sharing="" aid="9079">
-    <bg id="cbg_corridor_BG2" index="">
+    <bg id="cbg_corridor_BG2" index="0">
       <file>custom.corridor.swf</file>
     </bg>
     <prop id="cbg_corridor_PROP0" index="2">
@@ -3186,7 +3186,7 @@
     </prop>
   </compositebg>
   <compositebg id="cbg_toyworkshop" name="Toy workshop" enable="Y" default="N" thumb="toy_workshop.png" display_order="400" is_premium="N" money="" sharing="" aid="9071">
-    <bg id="cbg_toyworkshop_BG219" index="">
+    <bg id="cbg_toyworkshop_BG219" index="0">
       <file>custom.toy_workshop_bg.swf</file>
     </bg>
     <prop id="cbg_toyworkshop_PROP51" index="8">
@@ -3263,7 +3263,7 @@
     </prop>
   </compositebg>
   <compositebg id="cbg_dining_room" name="Dining Room" enable="Y" default="N" thumb="dining_room.png" display_order="2" is_premium="N" money="" sharing="" aid="9066">
-    <bg id="BG3" index="">
+    <bg id="BG3" index="0">
       <file>custom.wall10.swf</file>
       <color r="ccColorA">11054434</color>
       <color r="ccColorB">11243634</color>
@@ -3315,7 +3315,7 @@
     </prop>
   </compositebg>
   <compositebg id="cbg_jail" name="Jail" enable="Y" default="N" thumb="jail.png" display_order="39" is_premium="N" money="" sharing="" aid="9710">
-    <bg id="cbg_jail_BG2" index="">
+    <bg id="cbg_jail_BG2" index="0">
       <file>custom.jail.swf</file>
     </bg>
     <prop id="PROP0" index="3">
@@ -4377,7 +4377,7 @@
   <prop id="planets_earth.swf" name="Earth" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="10886" money="" sharing="">
     <tag>cat:Space</tag>
   </prop>
-  <prop id="egg_small.swf" name="Egg" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="5011" money="0" sharing="0" handstyle="flat">
+  <prop id="egg_small.swf" name="Egg" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="5011" money="" sharing="" handstyle="flat">
     <tag>cat:Food and Drink</tag>
   </prop>
   <prop id="msp_capboard02" name="End Table" holdable="" placeable="1" wearable="" facing="left" thumb="msp_capboard02_ncc_capboard02_side.swf" enable="Y" is_premium="N" aid="10991" money="" sharing="">
@@ -4399,6 +4399,9 @@
     <tag>burning</tag>
     <tag>burnt</tag>
     <tag>nature</tag>
+  </prop>
+  <prop id="torch.swf" name="Fire Torch" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9027" money="" sharing="">
+    <tag>cat:Others</tag>
   </prop>
   <prop id="ncc_football.swf" name="Football" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="10921" money="" sharing="">
     <tag>cat:Sports and Fitness</tag>
