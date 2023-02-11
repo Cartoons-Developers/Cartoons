@@ -4377,6 +4377,9 @@
   <prop id="planets_earth.swf" name="Earth" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="10886" money="" sharing="">
     <tag>cat:Space</tag>
   </prop>
+  <prop id="egg_small.swf" name="Egg" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="5011" money="0" sharing="0" handstyle="flat">
+    <tag>cat:Food and Drink</tag>
+  </prop>
   <prop id="msp_capboard02" name="End Table" holdable="" placeable="1" wearable="" facing="left" thumb="msp_capboard02_ncc_capboard02_side.swf" enable="Y" is_premium="N" aid="10991" money="" sharing="">
     <state id="msp_capboard02_ncc_capboard02_side.swf" name="side" enable="Y" default="Y"/>
     <state id="msp_capboard02_ncc_capboard02_front.swf" name="front" enable="Y"/>
