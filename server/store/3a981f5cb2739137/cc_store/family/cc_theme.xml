@@ -8498,7 +8498,7 @@
       <component type="hair" component_id="027" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" />
       <component type="nose" component_id="026" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" />
       <component type="eyebrow" component_id="106" theme_id="family" x="0" y="2" xscale="1" yscale="1" offset="-1" rotation="0" />
-      <component type="upper_body" component_id="bob_003" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" />
+      <component type="upper_body" component_id="bob_033" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" />
       <component type="lower_body" component_id="bob_001" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" />
       <component type="eye" component_id="male" theme_id="family" x="0" y="0" xscale="0.89" yscale="0.75" offset="0" rotation="0" />
     </default_char>
@@ -9306,6 +9306,26 @@
 	  <tag>_sticky_filter_fatguy</tag>
     </component>
     <component type="upper_body" id="bob_032" path="bob_032" name="bob_032" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+      <state id="chuckle" filename="chuckle.swf" />
+      <state id="crossed_arms" filename="crossed_arms.swf" />
+      <state id="dance" filename="dance.swf" />
+      <state id="default" filename="default.swf" />
+      <state id="excited" filename="excited.swf" />
+      <state id="fearful" filename="fearful.swf" />
+      <state id="laugh" filename="laugh.swf" />
+      <state id="lie_down" filename="lie_down.swf" />
+      <state id="point_at" filename="point_at.swf" />
+      <state id="run" filename="run.swf" />
+      <state id="sad" filename="sad.swf" />
+      <state id="sit" filename="sit.swf" />
+      <state id="talk" filename="talk.swf" />
+      <state id="talk_on_phone" filename="talk_on_phone.swf" />
+      <state id="taunt" filename="taunt.swf" />
+      <state id="walk" filename="walk.swf" />
+	  <tag>_sticky_filter_fatguy</tag>
+	  <tag>_sticky_filter_fatgirl</tag>
+    </component>
+    <component type="upper_body" id="bob_033" path="bob_033" name="bob_033" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
       <state id="chuckle" filename="chuckle.swf" />
       <state id="crossed_arms" filename="crossed_arms.swf" />
       <state id="dance" filename="dance.swf" />
