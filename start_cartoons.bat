@@ -93,57 +93,6 @@ set HTTPSERVER_DETECTED=n
 set HTTPSCERT_DETECTED=n
 if !INCLUDEDCHROMIUM!==y set BROWSER_TYPE=chrome
 
-:: Flash Player
-if !VERBOSEWRAPPER!==y ( echo Checking for Flash installation... )
-if exist "!windir!\SysWOW64\Macromed\Flash\*pepper.exe" set FLASH_CHROMIUM_DETECTED=y
-if exist "!windir!\System32\Macromed\Flash\*pepper.exe" set FLASH_CHROMIUM_DETECTED=y
-if exist "!windir!\SysWOW64\Macromed\Flash\*plugin.exe" set FLASH_FIREFOX_DETECTED=y
-if exist "!windir!\System32\Macromed\Flash\*plugin.exe" set FLASH_FIREFOX_DETECTED=y
-if !BROWSER_TYPE!==chrome (
-	if !FLASH_CHROMIUM_DETECTED!==n (
-		echo Flash for Chrome could not be found.
-		echo:
-		set NEEDTHEDEPENDERS=y
-		set ADMINREQUIRED=y
-		goto flash_checked
-	) else (
-		echo Flash is installed.
-		echo:
-		set FLASH_DETECTED=y
-		goto flash_checked
-	)
-)
-if !BROWSER_TYPE!==firefox (
-	if !FLASH_FIREFOX_DETECTED!==n (
-		echo Flash for Firefox could not be found.
-		echo:
-		set NEEDTHEDEPENDERS=y
-		set ADMINREQUIRED=y
-		goto flash_checked
-	) else (
-		echo Flash is installed.
-		echo:
-		set FLASH_DETECTED=y
-		goto flash_checked
-	)
-)
-:: just assume chrome it's what everyone uses
-if !BROWSER_TYPE!==n (
-	if !FLASH_CHROMIUM_DETECTED!==n (
-		echo Flash for Chrome could not be found.
-		echo:
-		set NEEDTHEDEPENDERS=y
-		set ADMINREQUIRED=y
-		goto flash_checked
-	) else (
-		echo Flash is installed.
-		echo:
-		set FLASH_DETECTED=y
-		goto flash_checked
-	)
-)
-:flash_checked
-
 :: Node.js
 if !VERBOSEWRAPPER!==y ( echo Checking for Node.js installation... )
 for /f "delims=" %%i in ('npm -v 2^>nul') do set output=%%i
@@ -376,28 +325,12 @@ if !FLASH_DETECTED!==n (
 
 	if !BROWSER_TYPE!==chrome (
 		echo Starting Flash for Chrome installer...
-		if not exist "utilities\installers\flash_windows_chromium.msi" (
-			echo ...erm. Bit of an issue there actually. The installer doesn't exist.
-			echo A normal copy of Cartoons should come with one.
-			echo You may be able to find a copy on this website:
-			echo https://helpx.adobe.com/flash-player/kb/archived-flash-player-versions.html
-			echo Although Flash is needed, Offline will continue launching.
-			pause
-		)
-		if !DRYRUN!==n ( msiexec /i "utilities\installers\flash_windows_chromium.msi" !INSTALL_FLAGS! /quiet )
-	)
-	if !BROWSER_TYPE!==firefox (
-		echo Starting Flash for Firefox installer...
-		if not exist "utilities\installers\flash_windows_firefox.msi" (
-			echo ...erm. Bit of an issue there actually. The installer doesn't exist.
-			echo A normal copy of Cartoons should come with one.
-			echo You may be able to find a copy on this website:
-			echo https://helpx.adobe.com/flash-player/kb/archived-flash-player-versions.html
-			echo Although Flash is needed, Cartoons will try to install anything else it can.
+		if not exist "CleanFlash_34.0.0.175_Installer.exe" (
+			echo The installer doesn't exist.
 			pause
 			goto after_flash_install
 		)
-		if !DRYRUN!==n ( msiexec /i "utilities\installers\flash_windows_firefox.msi" !INSTALL_FLAGS! /quiet )
+		if !DRYRUN!==n ( exec "utilities\installers\CleanFlash_34.0.0.175_Installer.exe" !INSTALL_FLAGS! /quiet )
 	)
 
 	echo Flash has been installed.
