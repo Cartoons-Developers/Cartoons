@@ -6968,6 +6968,12 @@
   <char id="219" name="Casual" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
     <tags>family,_free,_cat:Casual,_tag:casual female jacket lady woman,_sticky_filter_girl</tags>
   </char>
+  <char id="226" name="Casual" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+    <tags>family,_free,_cat:Casual,_tag:boot boots cap casual female hat lady woman,_sticky_filter_girl</tags>
+  </char>
+  <char id="227" name="Casual" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+    <tags>family,_free,_cat:Casual,_tag:casual man male scarf,_sticky_filter_guy</tags>
+  </char>
   <char id="128" name="Casual Sports" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
     <tags>family,_free,_cat:Casual,_tag:casual dreadlock dreadlocks dreads exercise female fitness gym jog jogging jogger lady run runner running woman,_sticky_filter_girl</tags>
   </char>
@@ -7405,6 +7411,9 @@
   </char>
   <char id="185" name="Student" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
     <tags>family,_free,_cat:Casual,_tag:academy academic casual college education female lady ponytail university woman,_sticky_filter_girl</tags>
+  </char>
+  <char id="228" name="Student" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+    <tags>family,_free,_cat:Casual,_tag:academy academic casual college education man male university,_sticky_filter_guy</tags>
   </char>
   <char id="47" name="Superhero" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
     <tags>family,_free,_cat:Holidays and Costumes,_tag:boot boots costume costumes glove gloves hero heroes heroic holiday holidays hols mask man male other professions superhero,_sticky_filter_buff</tags>
