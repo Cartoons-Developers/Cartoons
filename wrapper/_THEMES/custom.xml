@@ -7199,6 +7199,9 @@
   <char id="182" name="Office Professional" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
     <tags>family,_free,_cat:Office,_tag:beard business elder elderlies elderly goatee man male office professional worker,_sticky_filter_fatguy</tags>
   </char>
+  <char id="229" name="Office Professional" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+    <tags>family,_free,_cat:Office,_tag:business man male office professional worker,_sticky_filter_guy</tags>
+  </char>
   <char id="67" name="Office Worker" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
     <tags>family,_free,_cat:Office,_tag:business man male office worker,_sticky_filter_guy</tags>
   </char>
@@ -7273,6 +7276,15 @@
   </char>
   <char id="214" name="Office Worker" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
     <tags>family,_free,_cat:Office,_tag:business man male office worker,_sticky_filter_guy</tags>
+  </char>
+  <char id="230" name="Office Worker" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+    <tags>family,_free,_cat:Office,_tag:business man male mustache office worker,_sticky_filter_guy</tags>
+  </char>
+  <char id="231" name="Office Worker" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+    <tags>family,_free,_cat:Office,_tag:business man male office worker,_sticky_filter_guy</tags>
+  </char>
+  <char id="232" name="Office Worker" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+    <tags>family,_free,_cat:Office,_tag:big business female lady large office woman worker,_sticky_filter_fatgirl</tags>
   </char>
   <char id="75" name="Pajamas" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
     <tags>family,_free,_cat:Casual,_tag:asleep bedroom domestic home homeware household man male pajama pajamas pj pjs pyjama pyjamas sleep sleeping sleepy,_sticky_filter_guy</tags>
