@@ -5342,6 +5342,13 @@
     <tag>shapes</tag>
     <tag>square</tag>
   </prop>
+  <prop id="ncc_square_outline.swf" name="Shapes - Square Outline" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="10887" money="" sharing="">
+    <tag>cat:Shapes and Symbols</tag>
+	<tag>shape</tag>
+    <tag>shaped</tag>
+    <tag>shapes</tag>
+    <tag>square</tag>
+  </prop>
   <prop id="ncc_trapeziform.swf" name="Shapes - Trapezoid" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="10887" money="" sharing="">
     <tag>cat:Shapes and Symbols</tag>
 	<tag>shape</tag>
