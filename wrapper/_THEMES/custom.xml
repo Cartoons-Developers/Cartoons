@@ -2772,20 +2772,6 @@
       <rotation>0</rotation>
     </prop>
   </compositebg>
-  <compositebg id="cbg_shower_room" name="Shower room" enable="Y" default="N" thumb="shower_room.jpg" display_order="46" is_premium="N" money="" sharing="" aid="9755">
-    <bg id="cbg_shower_room_BG2" index="0">
-      <file>custom.shower_room_bg.swf</file>
-    </bg>
-    <prop id="cbg_shower_room_PROP0" index="2">
-      <file>custom.msp_curtain.msp_curtain_shower_room_curtain01.swf</file>
-      <x>428.6</x>
-      <y>179.4</y>
-      <xscale>1</xscale>
-      <yscale>1</yscale>
-      <face>1</face>
-      <rotation>0</rotation>
-    </prop>
-  </compositebg>
   <compositebg id="cbg_oscar_stage" name="Awards ceremony" enable="Y" default="N" thumb="oscar_stage.jpg" display_order="47" is_premium="N" money="" sharing="" aid="9779">
     <bg id="cbg_oscar_stage_BG2" index="0">
       <file>custom.oscar_stage_bg.swf</file>
