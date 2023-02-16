@@ -1853,7 +1853,7 @@
       <color r="ccColorA">9399115</color>
     </prop>
   </compositebg>
-  <compositebg id="cbg_school_ext" name="School" enable="Y" default="N" thumb="school_ext.jpg" display_order="28" is_premium="N" money="" sharing="" aid="9612">
+  <compositebg id="cbg_school_ext" name="School" enable="Y" default="N" thumb="school.png" display_order="28" is_premium="N" money="" sharing="" aid="9612">
     <bg id="BG2" index="0">
       <file>custom.neighborhood2.swf</file>
     </bg>
