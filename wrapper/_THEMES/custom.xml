@@ -12,6 +12,7 @@
   <background id="white_house_bg.swf" name="President Office" enable="Y" default="N" is_premium="N" aid="9060" money="" sharing="" category="Locations" />
   <background id="wall12.swf" name="Room" enable="Y" default="N" is_premium="N" aid="11453" money="" sharing="" category="Locations" />
   <background id="space_sky.swf" name="Sky" enable="Y" default="N" is_premium="N" aid="9811" money="" sharing="" category="Locations" />
+  <background id="sports_center.swf" name="Sports Center" enable="Y" default="N" is_premium="N" aid="9811" money="" sharing="" category="Locations" />
   <background id="wall03.swf" name="Wallpaper" enable="Y" default="N" is_premium="N" aid="9811" money="" sharing="" category="Patterns" />
   <background id="living_room_bg.swf" name="Living room" enable="N" default="N" is_premium="N" aid="9811" money="" sharing="" />
   <background id="barn_ext_bg.swf" name="Y" enable="N" default="N" is_premium="N" aid="9700" money="" sharing="">
@@ -23,18 +24,6 @@
     </c_parts>
   </background>
   <background id="changing_room_bg.swf" name="Y" enable="N" default="N" is_premium="N" aid="9699" money="" sharing="" />
-  <background id="battlefield_bg.swf" name="Y" enable="N" default="N" is_premium="N" aid="9698" money="" sharing="" />
-  <background id="camp_int_bg.swf" name="Y" enable="N" default="N" is_premium="N" aid="9697" money="" sharing="" />
-  <background id="army_camp_close_bg.swf" name="Army camp (close up)" enable="N" default="N" is_premium="N" aid="9658" money="" sharing="" />
-  <background id="army_camp_bg.swf" name="Army camp (wide)" enable="N" default="N" is_premium="N" aid="9611" money="" sharing="" />
-  <background id="toilet_bg.swf" name="Toilet" enable="N" default="N" is_premium="N" aid="9609" money="" sharing="">
-    <colorset enable="Y" aid="9610">
-      <color r="ccColorA">0xCE9493</color>
-    </colorset>
-    <c_parts enable="Y">
-      <c_area oc="">ccColorA</c_area>
-    </c_parts>
-  </background>
   <background id="basketball_court02_bg.swf" name="Basketball court (exterior)" enable="N" default="N" is_premium="N" aid="9608" money="" sharing="" />
   <background id="basketball_court01_bg.swf" name="Basketball court (interior)" enable="N" default="N" is_premium="N" aid="9606" money="" sharing="">
     <colorset enable="Y" aid="9607">
@@ -47,23 +36,6 @@
   <background id="blackboard.swf" name="Blackboard" enable="N" default="N" is_premium="N" aid="9604" money="" sharing="">
     <colorset enable="Y" aid="9605">
       <color r="ccColorA">0x1B211F</color>
-    </colorset>
-    <c_parts enable="Y">
-      <c_area oc="">ccColorA</c_area>
-    </c_parts>
-  </background>
-  <background id="school_ext_bg.swf" name="School exterior" enable="N" default="N" is_premium="N" aid="9603" money="" sharing="" />
-  <background id="classroom_bg.swf" name="Classroom" enable="N" default="N" is_premium="N" aid="9537" money="" sharing="">
-    <colorset enable="Y" aid="9538">
-      <color r="ccColorA">0x859459</color>
-    </colorset>
-    <c_parts enable="Y">
-      <c_area oc="">ccColorA</c_area>
-    </c_parts>
-  </background>
-  <background id="school_locker_bg.swf" name="School Locker Area" enable="N" default="N" is_premium="N" aid="9535" money="" sharing="">
-    <colorset enable="Y" aid="9536">
-      <color r="ccColorA">0x839559</color>
     </colorset>
     <c_parts enable="Y">
       <c_area oc="">ccColorA</c_area>
@@ -89,9 +61,7 @@
       <c_area oc="">ccColorB</c_area>
     </c_parts>
   </background>
-  <background id="boy_rm_bg.swf" name="" enable="N" default="N" is_premium="N" aid="9733" money="" sharing="" />
   <background id="disco_bg.swf" name="Disco entrance" enable="N" default="N" is_premium="N" aid="9810" money="" sharing="" />
-  <background id="bar_bg.swf" name="Bar" enable="N" default="N" is_premium="N" aid="9809" money="" sharing="" />
   <background id="cockpit_bg.swf" name="Plane cockpit" enable="N" default="N" is_premium="N" aid="9808" money="" sharing="" />
   <background id="airport_security_bg.swf" name="Airport security check" enable="N" default="N" is_premium="N" aid="9778" money="" sharing="" />
   <background id="airport_waiting_bg.swf" name="Airport boarding gate" enable="N" default="N" is_premium="N" aid="9777" money="" sharing="" />
@@ -110,26 +80,13 @@
   <background id="sitting_room_bg.swf" name="Sitting room" enable="N" default="N" is_premium="N" aid="9057" money="" sharing="" />
   <background id="restaurant_bg.swf" name="Restaurant" enable="N" default="N" is_premium="N" aid="9056" money="" sharing="" />
   <background id="office_pentry_bg.swf" name="Office pantry" enable="N" default="N" is_premium="N" aid="9055" money="" sharing="" />
-  <background id="office_bg.swf" name="Office" enable="N" default="N" is_premium="N" aid="9054" money="" sharing="" />
   <background id="kitchen_bg.swf" name="Kitchen" enable="N" default="N" is_premium="N" aid="9053" money="" sharing="" />
-  <background id="bedroom_bg.swf" name="Bedroom" enable="N" default="N" is_premium="N" aid="9052" money="" sharing="" />
   <background id="outside.swf" name="Outside" enable="N" default="N" is_premium="N" aid="9051" money="" sharing="" />
   <background id="library.swf" name="Library" enable="N" default="N" is_premium="N" aid="9050" money="" sharing="" />
-  <background id="dining_room.swf" name="Reception hall" enable="N" default="N" is_premium="N" aid="9049" money="" sharing="" />
-  <background id="corridor.swf" name="Corridor" enable="N" default="N" is_premium="N" aid="9048" money="" sharing="" />
   <background id="toy_workshop_bg.swf" name="Toy workshop" enable="N" default="N" is_premium="N" aid="9062" money="" sharing="" />
-  <background id="santacastle.swf" name="Santa Castle" enable="N" default="N" is_premium="N" aid="9063" money="" sharing="" />
   <background id="restaurant_int_bg.swf" name="French restaurant Interior" enable="N" default="N" is_premium="N" aid="9531" money="" sharing="">
     <colorset enable="Y" aid="9532">
       <color r="ccColorA">0x5B3E52</color>
-    </colorset>
-    <c_parts enable="Y">
-      <c_area oc="">ccColorA</c_area>
-    </c_parts>
-  </background>
-  <background id="office_bg02.swf" name="Office" enable="N" default="N" is_premium="N" aid="9529" money="" sharing="">
-    <colorset enable="Y" aid="9530">
-      <color r="ccColorA">0x808A89</color>
     </colorset>
     <c_parts enable="Y">
       <c_area oc="">ccColorA</c_area>
@@ -145,7 +102,6 @@
   <background id="court_room_ext_bg.swf" name="Court room" enable="N" default="N" is_premium="N" aid="9134" money="" sharing="" />
   <background id="convinient_store_cashier_bg.swf" name="Convinient store cashier" enable="N" default="N" is_premium="N" aid="9133" money="" sharing="" />
   <background id="convinient_store_bg.swf" name="Convinient store" enable="N" default="N" is_premium="N" aid="9132" money="" sharing="" />
-  <background id="classroom.swf" name="Potion room" enable="N" default="N" is_premium="N" aid="9047" money="" sharing="" />
   <background id="snowynight.swf" name="Snowy Night" enable="N" default="N" is_premium="N" aid="9064" money="" sharing="" />
   <background id="subway_train_bg.swf" name="Subway train" enable="N" default="N" is_premium="N" aid="9059" money="" sharing="" />
   <compositebg id="cbg_bedroom" name="Bedroom" enable="Y" default="N" thumb="bedroom.png" display_order="1" is_premium="N" money="" sharing="" aid="9065"><bg id="BG3" index="0">
@@ -1901,60 +1857,26 @@
       <color r="ccColorA" oc="x0">1777951</color>
     </bg>
   </compositebg>
-  <compositebg id="cbg_basketball_int" name="Basketball court (interior)" enable="Y" default="N" thumb="basketball_court01.jpg" display_order="30" is_premium="N" money="" sharing="" aid="9614">
-    <bg id="cbg_basketball_int_BG2" index="0">
-      <file>custom.basketball_court01_bg.swf</file>
-      <dcsn>9607</dcsn>
-      <color r="ccColorA" oc="x0">15450736</color>
+  <compositebg id="cbg_sports_center" name="Sports Center" enable="Y" default="N" thumb="sports_center.png" display_order="30" is_premium="N" money="" sharing="" aid="9614">
+    <bg id="BG2" index="0">
+      <file>custom.sports_center.swf</file>
     </bg>
-    <prop id="cbg_basketball_int_PROP0" index="3">
+    <prop id="PROP0" index="1">
       <file>custom.basketball_court01_goal.swf</file>
-      <x>102</x>
-      <y>203</y>
-      <xscale>1</xscale>
-      <yscale>1</yscale>
+      <x>81.275</x>
+      <y>243.726425</y>
+      <xscale>0.5284998</xscale>
+      <yscale>0.5284998</yscale>
       <face>1</face>
       <rotation>0</rotation>
     </prop>
-    <prop id="cbg_basketball_int_PROP1" index="2">
-      <file>custom.basketball_court01_people.swf</file>
-      <x>445</x>
-      <y>159</y>
-      <xscale>1</xscale>
-      <yscale>1</yscale>
-      <face>1</face>
-      <rotation>0</rotation>
-    </prop>
-  </compositebg>
-  <compositebg id="cbg_basketball_ext" name="Basketball court (exterior)" enable="Y" default="N" thumb="basketball_court02.jpg" display_order="31" is_premium="N" money="" sharing="" aid="9615">
-    <bg id="BG4" index="0">
-      <file>custom.basketball_court02_bg.swf</file>
-    </bg>
-    <prop id="PROP1" index="2">
-      <file>custom.basketball_court02_web.swf</file>
-      <x>314</x>
-      <y>155</y>
-      <xscale>1</xscale>
-      <yscale>1</yscale>
-      <face>1</face>
-      <rotation>0</rotation>
-    </prop>
-    <prop id="PROP2" index="3">
-      <file>custom.basketball_court02_people.swf</file>
-      <x>458.9</x>
-      <y>210.1</y>
-      <xscale>1</xscale>
-      <yscale>1</yscale>
-      <face>1</face>
-      <rotation>0</rotation>
-    </prop>
-    <prop id="PROP0" index="4">
-      <file>custom.basketball_court02_goal.swf</file>
-      <x>119</x>
-      <y>205</y>
-      <xscale>1</xscale>
-      <yscale>1</yscale>
-      <face>1</face>
+    <prop id="PROP2" index="2">
+      <file>custom.basketball_court01_goal.swf</file>
+      <x>563.675</x>
+      <y>243.726425</y>
+      <xscale>0.5284998</xscale>
+      <yscale>0.5284998</yscale>
+      <face>-1</face>
       <rotation>0</rotation>
     </prop>
   </compositebg>
@@ -2030,359 +1952,6 @@
       <rotation>0</rotation>
       <color r="ccColorA">26265</color>
       <color r="ccColorB">26265</color>
-    </prop>
-  </compositebg>
-  <compositebg id="cbg_army_wide" name="Army camp (wide)" enable="N" default="N" thumb="army_camp.jpg" display_order="33" is_premium="N" money="" sharing="" aid="9617">
-    <bg id="cbg_army_wide_BG4" index="0">
-      <file>custom.army_camp_bg.swf</file>
-    </bg>
-    <prop id="cbg_army_wide_PROP1" index="2">
-      <file>custom.army_camp_tower01.swf</file>
-      <x>378.9</x>
-      <y>128.1</y>
-      <xscale>0.5</xscale>
-      <yscale>0.5</yscale>
-      <face>1</face>
-      <rotation>0</rotation>
-    </prop>
-    <prop id="cbg_army_wide_PROP2" index="3">
-      <file>custom.army_camp_tower01.swf</file>
-      <x>523.9</x>
-      <y>129.1</y>
-      <xscale>0.5</xscale>
-      <yscale>0.5</yscale>
-      <face>1</face>
-      <rotation>0</rotation>
-    </prop>
-    <prop id="cbg_army_wide_PROP3" index="4">
-      <file>custom.army_camp_camp01.swf</file>
-      <x>434</x>
-      <y>176.1</y>
-      <xscale>0.51</xscale>
-      <yscale>0.51</yscale>
-      <face>1</face>
-      <rotation>0</rotation>
-    </prop>
-    <prop id="cbg_army_wide_PROP5" index="5">
-      <file>custom.army_camp_camp02.swf</file>
-      <x>267.7</x>
-      <y>203.7</y>
-      <xscale>0.82</xscale>
-      <yscale>0.82</yscale>
-      <face>1</face>
-      <rotation>0</rotation>
-    </prop>
-    <prop id="cbg_army_wide_PROP6" index="6">
-      <file>custom.army_camp_camp01.swf</file>
-      <x>495</x>
-      <y>226.1</y>
-      <xscale>1.02</xscale>
-      <yscale>1.02</yscale>
-      <face>1</face>
-      <rotation>0</rotation>
-    </prop>
-  </compositebg>
-  <compositebg id="cbg_camp_close" name="Army camp (close up)" enable="N" default="N" thumb="army_camp_close.jpg" display_order="34" is_premium="N" money="" sharing="" aid="9660">
-    <bg id="cbg_camp_close_BG2" index="0">
-      <file>custom.army_camp_close_bg.swf</file>
-    </bg>
-    <prop id="cbg_camp_close_PROP0" index="2">
-      <file>custom.army_camp_tower01.swf</file>
-      <x>278</x>
-      <y>93.1</y>
-      <xscale>1.13</xscale>
-      <yscale>1.13</yscale>
-      <face>1</face>
-      <rotation>0</rotation>
-    </prop>
-    <prop id="cbg_camp_close_PROP1" index="3">
-      <file>custom.army_camp_camp02.swf</file>
-      <x>-62.8</x>
-      <y>104.1</y>
-      <xscale>2.41</xscale>
-      <yscale>2.41</yscale>
-      <face>1</face>
-      <rotation>0</rotation>
-    </prop>
-    <prop id="cbg_camp_close_PROP2" index="4">
-      <file>custom.army_camp_camp01.swf</file>
-      <x>746</x>
-      <y>73.1</y>
-      <xscale>3.95</xscale>
-      <yscale>3.95</yscale>
-      <face>1</face>
-      <rotation>0</rotation>
-    </prop>
-  </compositebg>
-  <compositebg id="cbg_camp_int" name="Military Camp interior" enable="Y" default="N" thumb="camp_interior.jpg" display_order="35" is_premium="N" money="" sharing="" aid="9706">
-    <bg id="cbg_camp_int_BG2" index="0">
-      <file>custom.camp_int_bg.swf</file>
-    </bg>
-    <prop id="cbg_camp_int_PROP0" index="2">
-      <file>custom.camp_int_gun_rack.swf</file>
-      <x>486</x>
-      <y>260</y>
-      <xscale>1</xscale>
-      <yscale>1</yscale>
-      <face>1</face>
-      <rotation>0</rotation>
-    </prop>
-    <prop id="cbg_camp_int_PROP1" index="3">
-      <file>custom.camp_int_screen.swf</file>
-      <x>191</x>
-      <y>205</y>
-      <xscale>1</xscale>
-      <yscale>1</yscale>
-      <face>1</face>
-      <rotation>0</rotation>
-    </prop>
-    <prop id="cbg_camp_int_PROP2" index="4">
-      <file>custom.camp_int_board.swf</file>
-      <x>115</x>
-      <y>243</y>
-      <xscale>1</xscale>
-      <yscale>1</yscale>
-      <face>1</face>
-      <rotation>0</rotation>
-    </prop>
-    <prop id="cbg_camp_int_PROP3" index="5">
-      <file>custom.camp_int_table.swf</file>
-      <x>306</x>
-      <y>313</y>
-      <xscale>1</xscale>
-      <yscale>1</yscale>
-      <face>1</face>
-      <rotation>0</rotation>
-    </prop>
-    <prop id="cbg_camp_int_PROP6" index="6">
-      <file>custom.camp_int_globe.swf</file>
-      <x>307.3</x>
-      <y>220.2</y>
-      <xscale>1</xscale>
-      <yscale>1</yscale>
-      <face>1</face>
-      <rotation>0</rotation>
-    </prop>
-    <prop id="cbg_camp_int_PROP5" index="7">
-      <file>custom.cc_binoculars.swf</file>
-      <x>261.8</x>
-      <y>258.2</y>
-      <xscale>0.74</xscale>
-      <yscale>0.74</yscale>
-      <face>1</face>
-      <rotation>0</rotation>
-      <dcsn>9556</dcsn>
-      <color r="ccColorA" oc="x0">6776931</color>
-    </prop>
-    <prop id="cbg_camp_int_PROP4" index="8">
-      <file>custom.cc_water_bottle.swf</file>
-      <x>225</x>
-      <y>252</y>
-      <xscale>0.76</xscale>
-      <yscale>0.76</yscale>
-      <face>1</face>
-      <rotation>0</rotation>
-      <dcsn>9558</dcsn>
-      <color r="ccColorA" oc="x0">7627576</color>
-    </prop>
-    <prop id="cbg_camp_int_PROP7" index="9">
-      <file>custom.camp_int_map.swf</file>
-      <x>316</x>
-      <y>265</y>
-      <xscale>1</xscale>
-      <yscale>1</yscale>
-      <face>1</face>
-      <rotation>0</rotation>
-    </prop>
-    <prop id="cbg_camp_int_PROP8" index="10">
-      <file>custom.camp_int_chair02.swf</file>
-      <x>469</x>
-      <y>347</y>
-      <xscale>1</xscale>
-      <yscale>1</yscale>
-      <face>1</face>
-      <rotation>0</rotation>
-      <dcsn>9693</dcsn>
-      <color r="ccColorA" oc="x0">4144671</color>
-    </prop>
-    <prop id="cbg_camp_int_PROP9" index="11">
-      <file>custom.camp_int_chair02.swf</file>
-      <x>537</x>
-      <y>323</y>
-      <xscale>0.85</xscale>
-      <yscale>0.85</yscale>
-      <face>1</face>
-      <rotation>0</rotation>
-      <dcsn>9693</dcsn>
-      <color r="ccColorA" oc="x0">4144671</color>
-    </prop>
-    <prop id="cbg_camp_int_PROP10" index="12">
-      <file>custom.camp_int_chair01.swf</file>
-      <x>96</x>
-      <y>320</y>
-      <xscale>1</xscale>
-      <yscale>1</yscale>
-      <face>1</face>
-      <rotation>0</rotation>
-      <dcsn>9691</dcsn>
-      <color r="ccColorA" oc="x0">3355443</color>
-    </prop>
-  </compositebg>
-  <compositebg id="cbg_battlefield" name="Battlefield" enable="N" default="N" thumb="battlefield.jpg" display_order="36" is_premium="N" money="" sharing="" aid="9707">
-    <bg id="cbg_battlefield_BG2" index="0">
-      <file>custom.battlefield_bg.swf</file>
-    </bg>
-    <prop id="cbg_battlefield_PROP1" index="2">
-      <file>custom.battlefield_boxes.swf</file>
-      <x>134</x>
-      <y>185</y>
-      <xscale>0.79</xscale>
-      <yscale>0.79</yscale>
-      <face>1</face>
-      <rotation>0</rotation>
-    </prop>
-    <prop id="cbg_battlefield_PROP0" index="3">
-      <file>custom.battlefield_boxes.swf</file>
-      <x>73</x>
-      <y>183</y>
-      <xscale>1</xscale>
-      <yscale>1</yscale>
-      <face>1</face>
-      <rotation>0</rotation>
-    </prop>
-    <prop id="cbg_battlefield_PROP2" index="4">
-      <file>custom.battlefield_sandbag.swf</file>
-      <x>222</x>
-      <y>223</y>
-      <xscale>0.57</xscale>
-      <yscale>0.57</yscale>
-      <face>1</face>
-      <rotation>0</rotation>
-    </prop>
-    <prop id="cbg_battlefield_PROP4" index="5">
-      <file>custom.cc_m16_rifle.swf</file>
-      <x>201</x>
-      <y>218</y>
-      <xscale>0.33</xscale>
-      <yscale>0.33</yscale>
-      <face>-1</face>
-      <rotation>-13.8</rotation>
-      <dcsn>9548</dcsn>
-      <color r="ccColorA" oc="x0">3355443</color>
-    </prop>
-    <prop id="cbg_battlefield_PROP5" index="6">
-      <file>custom.cc_m16_rifle.swf</file>
-      <x>208</x>
-      <y>241</y>
-      <xscale>0.33</xscale>
-      <yscale>0.33</yscale>
-      <face>-1</face>
-      <rotation>-6.5</rotation>
-      <dcsn>9548</dcsn>
-      <color r="ccColorA" oc="x0">3355443</color>
-    </prop>
-    <prop id="cbg_battlefield_PROP6" index="7">
-      <file>custom.battlefield_sandbag.swf</file>
-      <x>144</x>
-      <y>232</y>
-      <xscale>0.55</xscale>
-      <yscale>0.55</yscale>
-      <face>-1</face>
-      <rotation>0</rotation>
-    </prop>
-    <prop id="cbg_battlefield_PROP7" index="8">
-      <file>custom.cc_sniper_rifle.swf</file>
-      <x>122</x>
-      <y>223</y>
-      <xscale>0.37</xscale>
-      <yscale>0.37</yscale>
-      <face>1</face>
-      <rotation>103</rotation>
-      <dcsn>9552</dcsn>
-      <color r="ccColorA" oc="x0">4210752</color>
-      <color r="ccColorB" oc="x0">8343606</color>
-    </prop>
-    <prop id="cbg_battlefield_PROP9" index="9">
-      <file>custom.battlefield_oil_drum03.swf</file>
-      <x>496</x>
-      <y>274</y>
-      <xscale>1</xscale>
-      <yscale>1</yscale>
-      <face>1</face>
-      <rotation>0</rotation>
-    </prop>
-    <prop id="cbg_battlefield_PROP8" index="10">
-      <file>custom.battlefield_oil_drum01.swf</file>
-      <x>499</x>
-      <y>191</y>
-      <xscale>1</xscale>
-      <yscale>1</yscale>
-      <face>1</face>
-      <rotation>0</rotation>
-    </prop>
-    <prop id="cbg_battlefield_PROP10" index="11">
-      <file>custom.battlefield_oil_drum02.swf</file>
-      <x>436</x>
-      <y>190</y>
-      <xscale>1</xscale>
-      <yscale>1</yscale>
-      <face>1</face>
-      <rotation>0</rotation>
-    </prop>
-    <prop id="cbg_battlefield_PROP11" index="12">
-      <file>custom.battlefield_sandbag.swf</file>
-      <x>347</x>
-      <y>320</y>
-      <xscale>1</xscale>
-      <yscale>1</yscale>
-      <face>1</face>
-      <rotation>0</rotation>
-    </prop>
-    <prop id="cbg_battlefield_PROP12" index="13">
-      <file>custom.cc_sniper_rifle.swf</file>
-      <x>391.4</x>
-      <y>321.4</y>
-      <xscale>0.6</xscale>
-      <yscale>0.6</yscale>
-      <face>-1</face>
-      <rotation>-103.2</rotation>
-      <dcsn>9552</dcsn>
-      <color r="ccColorA" oc="x0">4210752</color>
-      <color r="ccColorB" oc="x0">8343606</color>
-    </prop>
-    <prop id="cbg_battlefield_PROP14" index="14">
-      <file>custom.cc_ammunition_box.swf</file>
-      <x>504</x>
-      <y>315</y>
-      <xscale>0.61</xscale>
-      <yscale>0.61</yscale>
-      <face>1</face>
-      <rotation>0</rotation>
-      <dcsn>9574</dcsn>
-      <color r="ccColorA" oc="x0">7817011</color>
-    </prop>
-    <prop id="cbg_battlefield_PROP13" index="15">
-      <file>custom.cc_gasoline_can.swf</file>
-      <x>442</x>
-      <y>325</y>
-      <xscale>0.58</xscale>
-      <yscale>0.58</yscale>
-      <face>1</face>
-      <rotation>0</rotation>
-      <dcsn>9578</dcsn>
-      <color r="ccColorA" oc="x0">7301171</color>
-    </prop>
-    <prop id="cbg_battlefield_PROP15" index="16">
-      <file>custom.cc_sniper_rifle.swf</file>
-      <x>569</x>
-      <y>283</y>
-      <xscale>0.5</xscale>
-      <yscale>0.5</yscale>
-      <face>-1</face>
-      <rotation>-100.9</rotation>
-      <dcsn>9552</dcsn>
-      <color r="ccColorA" oc="x0">4210752</color>
-      <color r="ccColorB" oc="x0">8343606</color>
     </prop>
   </compositebg>
   <compositebg id="cbg_changing_rm" name="Changing room" enable="Y" default="N" thumb="changing_room.jpg" display_order="37" is_premium="N" money="" sharing="" aid="9708">
@@ -3505,6 +3074,9 @@
     <tag>basketball</tag>
     <tag>sport</tag>
     <tag>sports</tag>
+  </prop>
+  <prop id="basketball_court01_goal.swf" name="Basketball Backboard" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9594" money="" sharing="">
+    <tag>cat:Sports and Fitness</tag>
   </prop>
   <prop id="ball01.swf" name="Beach Ball" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="10660" money="" sharing="">
 	<tag>cat:Sports and Fitness</tag>
@@ -6573,7 +6145,6 @@
   <prop id="army_camp_camp01.swf" name="Army tent" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="N" is_premium="N" aid="9591" money="" sharing="" />
   <prop id="army_camp_camp02.swf" name="Army tent" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="N" is_premium="N" aid="9592" money="" sharing="" />
   <prop id="army_camp_tower01.swf" name="Lookout tower" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="N" is_premium="N" aid="9593" money="" sharing="" />
-  <prop id="basketball_court01_goal.swf" name="" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="N" is_premium="N" aid="9594" money="" sharing="" />
   <prop id="basketball_court01_people.swf" name="" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="N" is_premium="N" aid="9595" money="" sharing="" />
   <prop id="basketball_court02_goal.swf" name="" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="N" is_premium="N" aid="9596" money="" sharing="" />
   <prop id="basketball_court02_people.swf" name="" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="N" is_premium="N" aid="9597" money="" sharing="" />
