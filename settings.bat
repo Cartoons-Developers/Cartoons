@@ -91,28 +91,17 @@ if !SKIPCHECKDEPENDS!==n (
 ) else ( 
 	echo ^(4^) Checking dependencies is[91m OFF [0m
 )
-:: Skip updating
-if !AUTOUPDATE!==y (
-	echo ^(6^) Auto updating is[92m ON [0m
-) else ( 
-	echo ^(6^) Auto updating is[91m OFF [0m
-)
 :: Waveforms
 if exist "wrapper\static\info-nowave.json" (
 	echo ^(5^) Waveforms are[92m ON [0m
 ) else ( 
 	echo ^(5^) Waveforms are[91m OFF [0m
 )
-:: Auto Update
-if "!choice!"=="6" (
-	set TOTOGGLE=AUTOUPDATE
-	if !AUTOUPDATE!==y (
-		set TOGGLETO=n
-	) else (
-		set TOGGLETO=y
-	)
-	set CFGLINE=38
-	goto toggleoption
+:: Skip updating
+if !AUTOUPDATE!==y (
+	echo ^(6^) Auto updating is[92m ON [0m
+) else ( 
+	echo ^(6^) Auto updating is[91m OFF [0m
 )
 :: Discord RPC
 if exist "wrapper\main-norpc.js" (
@@ -224,6 +213,17 @@ if "!choice!"=="?5" (
 	echo While useful, the editor freezes while it generates, which could be too annoying or slow for some.
 	echo Turning this off will simply add a repeating pre-made pattern in place of true waveforms.
 	goto reaskoptionscreen
+)
+:: Auto Update
+if "!choice!"=="6" (
+	set TOTOGGLE=AUTOUPDATE
+	if !AUTOUPDATE!==y (
+		set TOGGLETO=n
+	) else (
+		set TOGGLETO=y
+	)
+	set CFGLINE=38
+	goto toggleoption
 )
 :: Dev options
 if /i "!choice!"=="masterkey" (
