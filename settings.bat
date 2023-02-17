@@ -114,10 +114,6 @@ if "!choice!"=="6" (
 	set CFGLINE=38
 	goto toggleoption
 )
-:: Character solid archive
-if exist "server\characters\characters.zip" (
-	echo ^(6^) Original LVM Character IDs are[91m OFF [0m
-)
 :: Discord RPC
 if exist "wrapper\main-norpc.js" (
 	echo ^(7^) Discord rich prescence is[92m ON [0m
@@ -228,17 +224,6 @@ if "!choice!"=="?5" (
 	echo While useful, the editor freezes while it generates, which could be too annoying or slow for some.
 	echo Turning this off will simply add a repeating pre-made pattern in place of true waveforms.
 	goto reaskoptionscreen
-)
-:: Character solid archive
-if exist "server\characters\characters.zip" (
-	if "!choice!"=="6" goto extractchars
-	if "!choice!"=="?6" (
-		echo When first getting Cartoons, all non-stock characters are put into a single zip file.
-		echo This is because if they're all separate, extracting takes forever and is incredibly annoying.
-		echo If you wish to import characters made on the LVM when it was still up and hosted by Cartoons,
-		echo you can extract them here. They will still be compressed, just in separate files to be usable.
-		goto reaskoptionscreen
-	)
 )
 :: Dev options
 if /i "!choice!"=="masterkey" (
