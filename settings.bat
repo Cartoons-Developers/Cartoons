@@ -97,11 +97,9 @@ if exist "wrapper\static\info-nowave.json" (
 ) else ( 
 	echo ^(5^) Waveforms are[91m OFF [0m
 )
-:: Skip updating
-if !AUTOUPDATE!==y (
-	echo ^(6^) Auto updating is[92m ON [0m
-) else ( 
-	echo ^(6^) Auto updating is[91m OFF [0m
+:: Character solid archive
+if exist "server\characters\characters.zip" (
+	echo ^(6^) Original LVM Character IDs are[91m OFF [0m
 )
 :: Discord RPC
 if exist "wrapper\main-norpc.js" (
@@ -214,16 +212,16 @@ if "!choice!"=="?5" (
 	echo Turning this off will simply add a repeating pre-made pattern in place of true waveforms.
 	goto reaskoptionscreen
 )
-:: Auto Update
-if "!choice!"=="6" (
-	set TOTOGGLE=AUTOUPDATE
-	if !AUTOUPDATE!==y (
-		set TOGGLETO=n
-	) else (
-		set TOGGLETO=y
+:: Character solid archive
+if exist "server\characters\characters.zip" (
+	if "!choice!"=="6" goto extractchars
+	if "!choice!"=="?6" (
+		echo When first getting Cartoons, all non-stock characters are put into a single zip file.
+		echo This is because if they're all separate, extracting takes forever and is incredibly annoying.
+		echo If you wish to import characters made on the LVM when it was still up and hosted by Cartoons,
+		echo you can extract them here. They will still be compressed, just in separate files to be usable.
+		goto reaskoptionscreen
 	)
-	set CFGLINE=38
-	goto toggleoption
 )
 :: Dev options
 if /i "!choice!"=="masterkey" (
