@@ -101,6 +101,10 @@ if exist "wrapper\static\info-nowave.json" (
 if exist "server\characters\characters.zip" (
 	echo ^(6^) Original LVM Character IDs are[91m OFF [0m
 )
+:: Character solid archive
+if exist "server\characters\characters.zip" (
+	echo ^(6^) Original LVM Character IDs are[91m OFF [0m
+)
 :: Discord RPC
 if exist "wrapper\main-norpc.js" (
 	echo ^(7^) Discord rich prescence is[92m ON [0m
