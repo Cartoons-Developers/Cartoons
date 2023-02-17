@@ -8,29 +8,6 @@ title Cartoons [Initializing...]
 :: Stop commands from spamming stuff, cleans up the screen
 @echo off && cls
 
-:: check for updates
-
-pushd "%~dp0"
-if !AUTOUPDATE!==y ( 
-	pushd "%~dp0"
-	if exist .git (
-		echo Updating...
-		call utilities\PortableGit\bin\git.exe checkout main
-		call utilities\PortableGit\bin\git.exe fetch --all
-		call utilities\PortableGit\bin\git.exe reset --hard origin/main
-		PING -n 3 127.0.0.1>nul
-		cls
-	) else (
-		echo Git not found. Skipping update.
-		PING -n 3 127.0.0.1>nul
-		cls
-	)
-) else (
-	echo Auto-updating is off. Skipping update.
-	PING -n 3 127.0.0.1>nul
-	cls
-)
-
 :: Lets variables work or something idk im not a nerd
 SETLOCAL ENABLEDELAYEDEXPANSION
 
@@ -563,6 +540,7 @@ if !HTTPSCERT_DETECTED!==n (
 	popd
 )
 :after_cert_install
+
 :: Alert user to restart Cartoons without running as Admin
 if !ADMINREQUIRED!==y (
 	color 20
@@ -621,18 +599,9 @@ pushd utilities
 if !VERBOSEWRAPPER!==y (
 	if !DRYRUN!==n ( start /MIN open_http-server.bat )
 	if !DRYRUN!==n ( start /MIN open_nodejs.bat )
-	if !DRYRUN!==n ( 
-		if !CEPSTRAL!==n ( 
-			start /MIN open_vfproxy_php.bat
-		)
-	)
 ) else (
 	if !DRYRUN!==n ( start SilentCMD open_http-server.bat )
 	if !DRYRUN!==n ( start SilentCMD open_nodejs.bat )
-	if !DRYRUN!==n ( 
-		if !CEPSTRAL!==n (
-			start SilentCMD open_vfproxy_php.bat
-		)
 	)
 )
 popd
