@@ -540,7 +540,6 @@ if !HTTPSCERT_DETECTED!==n (
 	popd
 )
 :after_cert_install
-
 :: Alert user to restart Cartoons without running as Admin
 if !ADMINREQUIRED!==y (
 	color 20
@@ -599,9 +598,18 @@ pushd utilities
 if !VERBOSEWRAPPER!==y (
 	if !DRYRUN!==n ( start /MIN open_http-server.bat )
 	if !DRYRUN!==n ( start /MIN open_nodejs.bat )
+	if !DRYRUN!==n ( 
+		if !CEPSTRAL!==n ( 
+			start /MIN open_vfproxy_php.bat
+		)
+	)
 ) else (
 	if !DRYRUN!==n ( start SilentCMD open_http-server.bat )
 	if !DRYRUN!==n ( start SilentCMD open_nodejs.bat )
+	if !DRYRUN!==n ( 
+		if !CEPSTRAL!==n (
+			start SilentCMD open_vfproxy_php.bat
+		)
 	)
 )
 popd
