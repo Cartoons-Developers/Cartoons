@@ -1,53 +1,49 @@
-/***
- * starter api
- */
-const fs = require("fs");
-const database = require("../data/database"), DB = new database();
-const nodezip = require("node-zip");
-const folder = `${__dirname}/../${process.env.ASSET_FOLDER}`;
-const fUtil = require("../fileUtil");
-const parse = require("../data/parse");
+const caché = require('../data/caché');
+const parse = require('../data/parse');
+const fUtil = require('../fileUtil');
+const nodezip = require('node-zip');
+const fs = require('fs');
+const { timeLog } = require('console');
 
 module.exports = {
-	load(mId) {
+	/**
+	 *
+	 * @param {Buffer} movieZip
+	 * @param {string} nëwId
+	 * @param {string} oldId
+	 * @returns {Promise<string>}
+	 */
+	save(starterZip, thumb) {
 		return new Promise((res, rej) => {
-			let filePath = `${folder}/${mId}.xml`;
-			console.log(filePath);
-			if (!fs.existsSync(filePath)) rej("Starter doesn't exist.");
-
-			const buffer = fs.readFileSync(filePath);
-			parse.packXml(buffer, mId).then(v => res(v));
-		});
-	},
-	save(movieZip, thumb, id) {
-		return new Promise((res, rej) => {
-			// save starter info
-			id ||= fUtil.generateId();
-			const db = DB.get();
-			db.assets.push({
-				id: id,
-				enc_asset_id: id,
-				type: "movie",
-				title: "Untitled",
-				published: "",
-				share: {
-					type: "none"
-				},
-				tags: "",
-				file: `${id}.xml`
-			});
-			DB.save(db);
-			// save the thumbnail
-			fs.writeFileSync(`${folder}/${id}.png`, thumb);
-			// extract the movie xml and save it
-			const zip = nodezip.unzip(movieZip);
-			let writeStream = fs.createWriteStream(`${folder}/${id}.xml`);
-			parse.unpackZip(zip, thumb, id).then(data => {
+			const zip = nodezip.unzip(starterZip);
+			var sId = fUtil.getNextFileId('starter-', '.xml');
+			let path = fUtil.getFileIndex('starter-', '.xml', sId);
+			const thumbFile = fUtil.getFileIndex('starter-', '.png', sId);
+			fs.writeFileSync(thumbFile, thumb);
+			let writeStream = fs.createWriteStream(path);
+			parse.unpackZip(zip, thumb).then(data => {
 				writeStream.write(data, () => {
 					writeStream.close();
-					res(id);
+					res('s-' + sId);
 				});
 			});
+                });
+	},
+	thumb(movieId) {
+		return new Promise((res, rej) => {
+			if (!movieId.startsWith('s-')) return;
+			const n = Number.parseInt(movieId.substr(2));
+			const fn = fUtil.getFileIndex('starter-', '.png', n);
+			isNaN(n) ? rej() : res(fs.readFileSync(fn));
 		});
 	},
-};
+	list() {
+		const table = [];
+		const last = fUtil.getValidFileIndicies('starter-', '.xml');
+		for (const i in last) {
+			var id = `s-${last[i]}`;
+			table.unshift({ id: id })
+		}
+		return table;
+	},
+}
