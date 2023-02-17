@@ -8,6 +8,29 @@ title Cartoons [Initializing...]
 :: Stop commands from spamming stuff, cleans up the screen
 @echo off && cls
 
+:: check for updates
+
+pushd "%~dp0"
+if !AUTOUPDATE!==y ( 
+	pushd "%~dp0"
+	if exist .git (
+		echo Updating...
+		call utilities\PortableGit\bin\git.exe checkout main
+		call utilities\PortableGit\bin\git.exe fetch --all
+		call utilities\PortableGit\bin\git.exe reset --hard origin/main
+		PING -n 3 127.0.0.1>nul
+		cls
+	) else (
+		echo Git not found. Skipping update.
+		PING -n 3 127.0.0.1>nul
+		cls
+	)
+) else (
+	echo Auto-updating is off. Skipping update.
+	PING -n 3 127.0.0.1>nul
+	cls
+)
+
 :: Lets variables work or something idk im not a nerd
 SETLOCAL ENABLEDELAYEDEXPANSION
 
