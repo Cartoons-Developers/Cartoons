@@ -4592,6 +4592,9 @@
     <tag>cat:Office and School</tag>
 	<tag>paper</tag>
   </prop>
+  <prop id="pen.swf" name="Pen" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9797" money="" sharing="">
+    <tag>cat:Office and School</tag>
+  </prop>
   <prop id="ncc_penstand.swf" name="Pen Holder" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="Y" aid="11924" money="" sharing="">
     <tag>cat:Office and School</tag>
 	<tag>cup</tag>
