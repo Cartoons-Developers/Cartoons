@@ -4757,6 +4757,11 @@
     <tag>nature</tag>
 	<tag>plant</tag>
   </prop>
+  <prop id="potted_plant.swf" name="Potted Plant" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="8946" money="" sharing="">
+    <tag>cat:Nature</tag>
+    <tag>nature</tag>
+	<tag>plant</tag>
+  </prop>
   <prop id="white_house_chair.swf" name="President's Chair" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="8966" money="" sharing="" >
     <tag>cat:Furniture and Fixtures</tag>
   </prop>
