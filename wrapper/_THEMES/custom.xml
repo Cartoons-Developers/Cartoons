@@ -2617,6 +2617,7 @@
       <face>1</face>
       <rotation>-95.1056863</rotation>
     </prop>
+  </compositebg>
   <compositebg id="cbg_dining_room" name="Dining Room" enable="Y" default="N" thumb="dining_room.png" display_order="2" is_premium="N" money="" sharing="" aid="9066">
     <bg id="BG3" index="0">
       <file>custom.wall10.swf</file>
