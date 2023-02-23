@@ -195,33 +195,118 @@
     </prop>
   </compositebg>
   <compositebg id="cbg_kitchen" name="Kitchen" enable="Y" default="N" thumb="kitchen.png" display_order="2" is_premium="N" money="" sharing="" aid="9066">
-    <bg id="cbg_kitchen_BG76" index="0">
-      <file>custom.kitchen_bg.swf</file>
+    <bg id="BG2" index="0">
+      <file>custom.wall12.swf</file>
+      <color r="ccColorA">13487554</color>
+      <color r="ccColorC">13487554</color>
+      <color r="ccColorB">11243634</color>
     </bg>
-    <prop id="cbg_kitchen_PROP49" index="4">
-      <file>custom.kitchen_microwave01.swf</file>
-      <x>345</x>
-      <y>194</y>
-      <xscale>1</xscale>
-      <yscale>1</yscale>
+    <prop id="PROP0" index="1">
+      <file>custom.msp_fridge.msp_fridge_fridge_front_close.swf</file>
+      <x>215.9244715</x>
+      <y>171.9955925</y>
+      <xscale>0.9262146</xscale>
+      <yscale>0.9262146</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+      <color r="ccColorA">12440015</color>
+    </prop>
+    <prop id="PROP1" index="2">
+      <file>custom.kitchen_counter.swf</file>
+      <x>306.3797152</x>
+      <y>213.4750135</y>
+      <xscale>0.9262146</xscale>
+      <yscale>0.9262146</yscale>
       <face>1</face>
       <rotation>0</rotation>
     </prop>
-    <prop id="cbg_kitchen_PROP50" index="5">
-      <file>custom.kitchen_refig.swf</file>
-      <x>528</x>
-      <y>201</y>
-      <xscale>1</xscale>
-      <yscale>1</yscale>
+    <prop id="PROP2" index="5">
+      <file>custom.msp_oven.msp_oven_oven.swf</file>
+      <x>396.2601705</x>
+      <y>213.5045612</y>
+      <xscale>0.872378</xscale>
+      <yscale>0.872378</yscale>
       <face>1</face>
       <rotation>0</rotation>
     </prop>
-    <prop id="cbg_kitchen_PROP51" index="6">
-      <file>custom.kitchen_cup.swf</file>
-      <x>423</x>
-      <y>211</y>
-      <xscale>1</xscale>
-      <yscale>1</yscale>
+    <prop id="PROP3" index="6">
+      <file>custom.kitchen_counter.swf</file>
+      <x>489.0862201</x>
+      <y>213.4548346</y>
+      <xscale>0.9262146</xscale>
+      <yscale>0.9262146</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP4" index="9">
+      <file>custom.dishwasher.swf</file>
+      <x>580.2804653</x>
+      <y>210.8608948</y>
+      <xscale>0.8735421</xscale>
+      <yscale>0.8735421</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP5" index="10">
+      <file>custom.kitchen_cabinet.swf</file>
+      <x>500.442965</x>
+      <y>62.3458249</y>
+      <xscale>0.8597507</xscale>
+      <yscale>0.8597507</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP7" index="11">
+      <file>custom.kitchen_cabinet.swf</file>
+      <x>610.3810089</x>
+      <y>62.3358741</y>
+      <xscale>0.8597507</xscale>
+      <yscale>0.8597507</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP8" index="8">
+      <file>custom.extractor_fan.swf</file>
+      <x>394.9059983</x>
+      <y>55.6728065</y>
+      <xscale>0.8597507</xscale>
+      <yscale>0.8597507</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP9" index="12">
+      <file>custom.kitchen_counter2.swf</file>
+      <x>301.027134</x>
+      <y>299.783222</y>
+      <xscale>1.0452732</xscale>
+      <yscale>1.0452732</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP10" index="4">
+      <file>custom.knife_stand.swf</file>
+      <x>289.0587555</x>
+      <y>151.0931043</y>
+      <xscale>1.0452732</xscale>
+      <yscale>1.0452732</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP12" index="3">
+      <file>custom.cutting_board.swf</file>
+      <x>329.2233795</x>
+      <y>143.3842142</y>
+      <xscale>1.0452732</xscale>
+      <yscale>1.0452732</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP13" index="7">
+      <file>custom.dish_strainer.swf</file>
+      <x>506.4988682</x>
+      <y>150.9977363</y>
+      <xscale>1.0452732</xscale>
+      <yscale>1.0452732</yscale>
       <face>1</face>
       <rotation>0</rotation>
     </prop>
@@ -3194,6 +3279,9 @@
 	<tag>tree</tag>
 	<tag>xmas</tag>
   </prop>
+  <prop id="cutting_board.swf" name="Chopping Board" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9034" money="" sharing="">
+    <tag>cat:Kitchen</tag>
+  </prop>
   <prop id="nccxmas_church.swf" name="Church" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="11546" money="" sharing="">
     <tag>cat:Buildings and Structures</tag>
 	<tag>building</tag>
@@ -3438,6 +3526,12 @@
     <tag>clubbing</tag>
     <tag>dance</tag>
     <tag>disco</tag>
+  </prop>
+  <prop id="dish_strainer.swf" name="Dishes" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9022" money="" sharing="">
+	<tag>cat:Kitchen</tag>
+  </prop>
+  <prop id="dishwasher.swf" name="Dishwasher" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9022" money="" sharing="">
+	<tag>cat:Kitchen</tag>
   </prop>
   <prop id="msp_door01" name="Door" holdable="" placeable="1" wearable="" facing="left" thumb="msp_door01_door01_front_close.swf" enable="Y" is_premium="N" aid="10639" money="" sharing="">
     <state id="msp_door01_door01_front_close.swf" name="front closed" enable="Y" default="Y" />
@@ -3795,19 +3889,6 @@
   <prop id="planets_jupiter.swf" name="Jupiter" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="10886" money="" sharing="">
     <tag>cat:Space</tag>
   </prop>
-  <prop id="kitchen_knife.swf" name="Knife" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9022" money="" sharing="">
-	<tag>cat:Kitchen</tag>
-	<tag>cook</tag>
-	<tag>cooked</tag>
-	<tag>cooking</tag>
-	<tag>cut</tag>
-	<tag>cutler</tag>
-	<tag>cutlery</tag>
-	<tag>cutter</tag>
-	<tag>cutting</tag>
-	<tag>weapon</tag>
-	<tag>weapons</tag>
-  </prop>
   <prop id="katana.swf" name="Katana" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="3342" money="" sharing="" handstyle="stick">
     <tag>cat:Others</tag>
 	<tag>sharp</tag>
@@ -3832,6 +3913,34 @@
     <tag>kidneys</tag>
     <tag>organ</tag>
     <tag>organs</tag>
+  </prop>
+  <prop id="kitchen_cabinet.swf" name="Kitchen Cabinet" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9034" money="" sharing="">
+    <tag>cat:Kitchen</tag>
+  </prop>
+  <prop id="kitchen_counter.swf" name="Kitchen Counter" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9034" money="" sharing="">
+    <tag>cat:Kitchen</tag>
+  </prop>
+  <prop id="kitchen_counter2.swf" name="Kitchen Counter" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9034" money="" sharing="">
+    <tag>cat:Kitchen</tag>
+  </prop>
+  <prop id="extractor_fan.swf" name="Kitchen Extractor Fan" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9034" money="" sharing="">
+    <tag>cat:Kitchen</tag>
+  </prop>
+  <prop id="kitchen_knife.swf" name="Knife" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9022" money="" sharing="">
+	<tag>cat:Kitchen</tag>
+	<tag>cook</tag>
+	<tag>cooked</tag>
+	<tag>cooking</tag>
+	<tag>cut</tag>
+	<tag>cutler</tag>
+	<tag>cutlery</tag>
+	<tag>cutter</tag>
+	<tag>cutting</tag>
+	<tag>weapon</tag>
+	<tag>weapons</tag>
+  </prop>
+  <prop id="knife_stand.swf" name="Knives Stand" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9022" money="" sharing="">
+	<tag>cat:Kitchen</tag>
   </prop>
   <prop id="cc_wool_ball.swf" name="Knitting - Yarn Ball" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9034" money="" sharing="">
     <tag>cat:Others</tag>
