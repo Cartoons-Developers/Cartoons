@@ -3814,7 +3814,7 @@
     <state id="msp_capboard02_ncc_capboard02_front.swf" name="front" enable="Y"/>
     <tag>cat:Furniture and Fixtures</tag>
   </prop>
-  <prop id="hospital_end_table.swf" name="End Table" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9027" money="" sharing="">
+  <prop id="hospital_end_table.swf" name="End Table" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9027" money="" sharing="">
     <tag>cat:Healthcare</tag>
   </prop>
   <prop id="cc_secretfolder.swf" name="File" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9027" money="" sharing="">
