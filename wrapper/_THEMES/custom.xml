@@ -1911,12 +1911,24 @@
       <rotation>0</rotation>
     </prop>
   </compositebg>
-  <compositebg id="cbg_blackboard" name="Blackboard" enable="Y" default="N" thumb="blackboard.jpg" display_order="29" is_premium="N" money="" sharing="" aid="9613">
-    <bg id="cbg_blackboard_BG2" index="0">
-      <file>custom.blackboard.swf</file>
-      <dcsn>9605</dcsn>
-      <color r="ccColorA" oc="x0">1777951</color>
+  <compositebg id="cbg_blackboard" name="Class" enable="Y" default="N" thumb="blackboard.png" display_order="29" is_premium="N" money="" sharing="" aid="9613">
+    <bg id="BG149" index="0">
+      <file>custom.wall10.swf</file>
+      <color r="ccColorB">4884128</color>
+      <color r="ccColorA">16381164</color>
     </bg>
+    <prop id="PROP13" index="1">
+      <file>custom.msp_blkboard01.msp_blkboard01_ncc_blackboard_front.swf</file>
+      <x>307.425</x>
+      <y>139.125</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+      <dcsn>9705</dcsn>
+      <color r="ccColorA">3360048</color>
+      <color r="ccColorB">8086613</color>
+    </prop>
   </compositebg>
   <compositebg id="cbg_sports_center" name="Sports Center" enable="Y" default="N" thumb="sports_center.png" display_order="30" is_premium="N" money="" sharing="" aid="9614">
     <bg id="BG2" index="0">
