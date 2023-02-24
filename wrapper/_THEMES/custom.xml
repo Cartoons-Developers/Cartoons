@@ -5,6 +5,7 @@
   <background id="greenfield.swf" name="Greenfield" enable="Y" default="N" is_premium="N" aid="9811" money="" sharing="" category="Locations" />
   <background id="wall10.swf" name="Hallway" enable="Y" default="N" is_premium="N" aid="9811" money="" sharing="" category="Locations" />
   <background id="ncc_low.swf" name="Hallway" enable="Y" default="N" is_premium="N" aid="9811" money="" sharing="" category="Patterns" />
+  <background id="hotel_room.swf" name="Hotel Room" enable="Y" default="N" is_premium="N" aid="9811" money="" sharing="" category="Locations" />
   <background id="jail.swf" name="Jail" enable="Y" default="N" is_premium="N" aid="9811" money="" sharing="" category="Locations" />
   <background id="neighborhood.swf" name="Neighborhood" enable="Y" default="N" is_premium="N" aid="11453" money="" sharing="" category="Locations" />
   <background id="neighborhood2.swf" name="Neighborhood" enable="Y" default="N" is_premium="N" aid="11453" money="" sharing="" category="Locations" />
@@ -976,55 +977,100 @@
       <rotation>0</rotation>
     </prop>
   </compositebg>
-  <compositebg id="cbg_hospital_lab" name="Hospital" enable="Y" default="N" thumb="hospital_lab.jpg" display_order="15" is_premium="N" money="" sharing="" aid="9147">
-    <bg id="cbg_hospital_lab_BG2" index="0">
-      <file>custom.hospital_lab_bg.swf</file>
+  <compositebg id="cbg_hospital_rm" name="Patient Room" enable="Y" default="N" thumb="hospital_rm.png" display_order="16" is_premium="N" money="" sharing="" aid="9148">
+    <bg id="BG2" index="0">
+      <file>custom.hotel_room.swf</file>
+      <color r="Curtain">6783099</color>
+      <color r="Ground">8034446</color>
     </bg>
-    <prop id="cbg_hospital_lab_PROP1" index="3">
-      <file>custom.hospital_rm_hanger.swf</file>
-      <x>104</x>
-      <y>244</y>
+    <prop id="PROP2" index="1">
+      <file>custom.diagnostic_machine.swf</file>
+      <x>140.525</x>
+      <y>219.8</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>-1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP3" index="2">
+      <file>custom.ncc_hpsalt.swf</file>
+      <x>110.8943481</x>
+      <y>205.4</y>
+      <xscale>0.7739234</xscale>
+      <yscale>0.7739234</yscale>
+      <face>-1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP0" index="3">
+      <file>custom.msp_hospital_bed.msp_hospital_bed_hospital_bed_lower.swf</file>
+      <x>193.35</x>
+      <y>256.95</y>
+      <xscale>1.1163111</xscale>
+      <yscale>1.1163111</yscale>
+      <face>-1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP7" index="4">
+      <file>custom.msp_pillow02.msp_pillow02_ncc_pillow02_side.swf</file>
+      <x>136.3164594</x>
+      <y>230.6606048</y>
+      <xscale>0.6583767</xscale>
+      <yscale>0.5758077</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+      <color r="ccColorA">12637408</color>
+    </prop>
+    <prop id="PROP1" index="5">
+      <file>custom.msp_capboard02.msp_capboard02_ncc_capboard02_side.swf</file>
+      <x>76.2</x>
+      <y>292.25</y>
+      <xscale>0.7629086</xscale>
+      <yscale>0.7629086</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP4" index="6">
+      <file>custom.oxygen_unit.swf</file>
+      <x>74.15</x>
+      <y>224.25</y>
       <xscale>1</xscale>
       <yscale>1</yscale>
       <face>1</face>
       <rotation>0</rotation>
     </prop>
-    <prop id="PROP17" index="2">
-      <file>custom.hospital_lab_bed2.swf</file>
-      <x>261</x>
-      <y>297</y>
-      <xscale>1</xscale>
-      <yscale>1</yscale>
+    <prop id="PROP5" index="7">
+      <file>custom.msp_armchair.msp_armchair_armchair_front.swf</file>
+      <x>496.25</x>
+      <y>235.9116208</y>
+      <xscale>0.7675834</xscale>
+      <yscale>0.7675834</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+      <color r="ccColorA">12240853</color>
+    </prop>
+    <prop id="PROP6" index="8">
+      <file>custom.msp_blanket01.msp_blanket01_ncc_blanket01_side_empty.swf</file>
+      <x>240.825</x>
+      <y>235.825</y>
+      <xscale>0.7255576</xscale>
+      <yscale>0.5796005</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+      <color r="ccColorA">12637408</color>
+    </prop>
+    <prop id="PROP8" index="9">
+      <file>custom.table_round.swf</file>
+      <x>576.45</x>
+      <y>256.9</y>
+      <xscale>0.5060094</xscale>
+      <yscale>0.5060094</yscale>
       <face>1</face>
       <rotation>0</rotation>
     </prop>
-  </compositebg>
-  <compositebg id="cbg_hospital_rm" name="Hospital room" enable="Y" default="N" thumb="hospital_rm.jpg" display_order="16" is_premium="N" money="" sharing="" aid="9148">
-    <bg id="cbg_hospital_rm_BG2" index="0">
-      <file>custom.hospital_rm_bg.swf</file>
-    </bg>
-    <prop id="cbg_hospital_rm_PROP0" index="2">
-      <file>custom.hospital_rm_bed.swf</file>
-      <x>256</x>
-      <y>283</y>
-      <xscale>1</xscale>
-      <yscale>1</yscale>
-      <face>1</face>
-      <rotation>0</rotation>
-    </prop>
-    <prop id="cbg_hospital_rm_PROP1" index="3">
-      <file>custom.msp_hosiptal_blanket.msp_hosiptal_blanket_hospital_rm_blanket_full.swf</file>
-      <x>254.5</x>
-      <y>278.3</y>
-      <xscale>1</xscale>
-      <yscale>1</yscale>
-      <face>1</face>
-      <rotation>0</rotation>
-    </prop>
-    <prop id="cbg_hospital_rm_PROP2" index="4">
-      <file>custom.hospital_rm_hanger.swf</file>
-      <x>123.5</x>
-      <y>223.3</y>
+    <prop id="PROP9" index="10">
+      <file>custom.hospital_end_table.swf</file>
+      <x>357.25</x>
+      <y>256.85</y>
       <xscale>1</xscale>
       <yscale>1</yscale>
       <face>1</face>
@@ -3632,6 +3678,9 @@
     <tag>wooden</tag>
     <tag>woods</tag>
   </prop>
+  <prop id="diagnostic_machine.swf" name="Diagnostic Machine" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9041" money="" sharing="">
+	<tag>cat:Healthcare</tag>
+  </prop>
   <prop id="cc_diamond_ring.swf" name="Diamond Ring" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9013" money="" sharing="">
     <tag>cat:Retail</tag>
 	<tag>diamond</tag>
@@ -3764,6 +3813,9 @@
     <state id="msp_capboard02_ncc_capboard02_side.swf" name="side" enable="Y" default="Y"/>
     <state id="msp_capboard02_ncc_capboard02_front.swf" name="front" enable="Y"/>
     <tag>cat:Furniture and Fixtures</tag>
+  </prop>
+  <prop id="hospital_end_table.swf" name="End Table" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9027" money="" sharing="">
+    <tag>cat:Healthcare</tag>
   </prop>
   <prop id="cc_secretfolder.swf" name="File" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9027" money="" sharing="">
     <tag>cat:Office and School</tag>
@@ -3952,6 +4004,13 @@
     <tag>organ</tag>
     <tag>organs</tag>
   </prop>
+  <prop id="msp_hospital_bed" name="Hospital Bed" holdable="" placeable="1" wearable="" facing="left" thumb="msp_hospital_bed_hospital_bed_lower.swf" enable="Y" is_premium="N" aid="10626" money="" sharing="">
+    <state id="msp_hospital_bed_hospital_bed_lower.swf" name="Default" enable="Y" default="Y" />
+    <state id="msp_hospital_bed_hospital_bed_raise.swf" name="Raised" enable="Y" />
+    <tag>cat:Healthcare</tag>
+    <tag>health</tag>
+    <tag>healthcare</tag>
+  </prop>
   <prop id="ncc_03hotdog.swf" name="Hot Dog" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="11858" money="" sharing="">
     <tag>cat:Food and Drink</tag>
 	<tag>food</tag>
@@ -4019,6 +4078,9 @@
 	<tag>intestines</tag>
     <tag>organ</tag>
     <tag>organs</tag>
+  </prop>
+  <prop id="ncc_hpsalt.swf" name="Interavenous Drip" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9041" money="" sharing="">
+	<tag>cat:Healthcare</tag>
   </prop>
   <prop id="jail_gate1.swf" name="Jail Gate" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9041" money="" sharing="">
 	<tag>cat:Buildings and Structures</tag>
@@ -4339,6 +4401,9 @@
     <tag>fruit</tag>
 	<tag>orange</tag>
   </prop>
+  <prop id="oxygen_unit.swf" name="Oxygen Unit" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="12111" money="" sharing="" handstyle="flat">
+    <tag>cat:Healthcare</tag>
+  </prop>
   <prop id="ncc_gbseat.swf" name="Ottoman" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="11743" money="" sharing="">
     <tag>cat:Furniture and Fixtures</tag>
 	<tag>chair</tag>
@@ -4622,6 +4687,9 @@
 	<tag>rocks</tag>
 	<tag>stone</tag>
 	<tag>stones</tag>
+  </prop>
+  <prop id="table_round.swf" name="Round Table" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="10502" money="" sharing="">
+    <tag>cat:Furniture and Fixtures</tag>
   </prop>
   <prop id="ncc_tocarpet.swf" name="Rug" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="11752" money="" sharing="">
     <tag>cat:Furniture and Fixtures</tag>
@@ -5551,7 +5619,6 @@
     <state id="msp_hosiptal_blanket_hospital_rm_blanket_empty.swf" name="Empty" enable="Y" />
     <state id="msp_hosiptal_blanket_hospital_rm_blanket_full.swf" name="Occupied" enable="Y" default="Y" />
   </prop>
-  <prop id="hospital_rm_hanger.swf" name="" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="N" is_premium="N" aid="9130" money="" sharing="" />
   <prop id="hospital_lab_bed.swf" name="" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="N" is_premium="N" aid="9131" money="" sharing="" />
   <prop id="cc_tick1.swf" name="check" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="N" is_premium="N" aid="9157" money="" sharing="">
     <colorset enable="Y" aid="9158">
