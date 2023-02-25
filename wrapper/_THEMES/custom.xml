@@ -2136,56 +2136,6 @@
       <rotation>0</rotation>
     </prop>
   </compositebg>
-  <compositebg id="cbg_donut_shop" name="Donut Shop" enable="Y" default="N" thumb="donut_shop.jpg" display_order="45" is_premium="N" money="" sharing="" aid="9754">
-    <bg id="cbg_donut_shop_BG2" index="0">
-      <file>custom.donut_shop_bg.swf</file>
-    </bg>
-    <prop id="cbg_donut_shop_PROP0" index="2">
-      <file>custom.donut_shop_wall.swf</file>
-      <x>340.2</x>
-      <y>151.9</y>
-      <xscale>1</xscale>
-      <yscale>1</yscale>
-      <face>1</face>
-      <rotation>0</rotation>
-    </prop>
-    <prop id="cbg_donut_shop_PROP3" index="3">
-      <file>custom.coffee_shop_chair.swf</file>
-      <x>224.5</x>
-      <y>210.6</y>
-      <xscale>0.89</xscale>
-      <yscale>0.89</yscale>
-      <face>1</face>
-      <rotation>0</rotation>
-    </prop>
-    <prop id="cbg_donut_shop_PROP4" index="4">
-      <file>custom.coffee_shop_chair.swf</file>
-      <x>86.5</x>
-      <y>210.6</y>
-      <xscale>0.89</xscale>
-      <yscale>0.89</yscale>
-      <face>-1</face>
-      <rotation>0</rotation>
-    </prop>
-    <prop id="cbg_donut_shop_PROP8" index="5">
-      <file>custom.coffee_shop_table.swf</file>
-      <x>156.6</x>
-      <y>213.6</y>
-      <xscale>0.94</xscale>
-      <yscale>0.94</yscale>
-      <face>1</face>
-      <rotation>0</rotation>
-    </prop>
-    <prop id="cbg_donut_shop_PROP9" index="6">
-      <file>custom.donut_shop_counter.swf</file>
-      <x>519.6</x>
-      <y>327.2</y>
-      <xscale>1</xscale>
-      <yscale>1</yscale>
-      <face>1</face>
-      <rotation>0</rotation>
-    </prop>
-  </compositebg>
   <compositebg id="cbg_oscar_sit" name="Movie theatre" enable="Y" default="N" thumb="oscar_sit.jpg" display_order="48" is_premium="N" money="" sharing="" aid="9780">
     <bg id="cbg_oscar_sit_BG2" index="0">
       <file>custom.oscar_sit_bg.swf</file>
@@ -3456,6 +3406,12 @@
 	<tag>booze</tag>
 	<tag>cocktail</tag>
     <tag>drink</tag>
+  </prop>
+  <prop id="coffee.swf" name="Coffee" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="8948" money="" sharing="">
+	<tag>cat:Food and Drink</tag>
+	<tag>beverage</tag>
+	<tag>coffee</tag>
+	<tag>drink</tag>
   </prop>
   <prop id="office_pentry_coffee.swf" name="Coffee" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="8948" money="" sharing="">
 	<tag>cat:Food and Drink</tag>
