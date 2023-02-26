@@ -4707,7 +4707,7 @@
   </prop>
   <prop id="table_round.swf" name="Round Table" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="10502" money="" sharing="">
     <tag>cat:Furniture and Fixtures</tag>
-	<tag>furniture</tags>
+	<tag>furniture</tag>
 	<tag>round</tag>
 	<tag>table</tag>
 	<tag>tables</tag>
@@ -5181,7 +5181,7 @@
     <state id="msp_dining_table_dining_table_front.swf" name="front" enable="Y" default="Y" />
     <state id="msp_dining_table_dining_table_side.swf" name="side" enable="Y" />
     <tag>cat:Furniture and Fixtures</tag>
-	<tag>furniture</tags>
+	<tag>furniture</tag>
 	<tag>table</tag>
 	<tag>tables</tag>
     <tag>wood</tag>
