@@ -2685,11 +2685,19 @@
     <tag>cat:Animals</tag>
 	<tag>animal</tag>
     <tag>animals</tag>
+	<tag>bunny</tag>
+	<tag>forest</tag>
     <tag>pet</tag>
     <tag>pets</tag>
+	<tag>rabbit</tag>
   </prop>
   <prop id="white_house_flag.swf" name="American Flag" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="8966" money="" sharing="" >
     <tag>cat:Others</tag>
+	<tag>america</tag>
+	<tag>american</tag>
+	<tag>flag</tag>
+	<tag>states</tag>
+	<tag>united</tag>
   </prop>
   <prop id="ncc_03apple.swf" name="Apple" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="11858" money="" sharing="">
     <tag>cat:Food and Drink</tag>
@@ -2836,6 +2844,8 @@
 	<tag>booze</tag>
 	<tag>cup</tag>
     <tag>drink</tag>
+	<tag>glass</tag>
+	<tag>glasses</tag>
   </prop>
   <prop id="beer_tap.swf" name="Beer Tap" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="11752" money="" sharing="">
     <tag>cat:Kitchen</tag>
@@ -2960,6 +2970,9 @@
 	<tag>blast</tag>
 	<tag>blasting</tag>
 	<tag>bomb</tag>
+	<tag>explode</tag>
+	<tag>exploding</tag>
+	<tag>explosion</tag>
   </prop>
   <prop id="msp_bookshelf" name="Bookshelf" holdable="" placeable="1" wearable="" facing="left" thumb="msp_bookshelf_bookshelf_full.swf" enable="Y" is_premium="N" aid="10590" money="" sharing="">
     <state id="msp_bookshelf_bookshelf_empty.swf" name="empty" enable="Y" />
@@ -2985,11 +2998,15 @@
 	<tag>cat:Healthcare</tag>
 	<tag>bottle</tag>
 	<tag>bottles</tag>
+	<tag>glass</tag>
+	<tag>glasses</tag>
   </prop>
   <prop id="ncc_hpbottle04.swf" name="Bottle" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="11265" money="" sharing="">
 	<tag>cat:Healthcare</tag>
 	<tag>bottle</tag>
 	<tag>bottles</tag>
+	<tag>glass</tag>
+	<tag>glasses</tag>
   </prop>
   <prop id="bottle.swf" name="Bottle" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9033" money="" sharing="">
     <tag>cat:Food and Drink</tag>
@@ -2998,6 +3015,9 @@
 	<tag>booze</tag>
 	<tag>bottle</tag>
 	<tag>bottles</tag>
+	<tag>drink</tag>
+	<tag>glass</tag>
+	<tag>glasses</tag>
   </prop>
   <prop id="cc_rose.swf" name="Bouquet" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9024" money="" sharing="">
     <tag>cat:Nature</tag>
@@ -3420,6 +3440,8 @@
 	<tag>booze</tag>
 	<tag>cocktail</tag>
     <tag>drink</tag>
+	<tag>glass</tag>
+	<tag>glasses</tag>
   </prop>
   <prop id="coffee.swf" name="Coffee" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="8948" money="" sharing="">
 	<tag>cat:Food and Drink</tag>
@@ -3482,6 +3504,10 @@
   </prop>
   <prop id="office_keyboard.swf" name="Computer Keyboard" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="10663" money="" sharing="">
     <tag>cat:Technology</tag>
+	<tag>business</tag>
+	<tag>computer</tag>
+	<tag>keyboard</tag>
+	<tag>office</tag>
   </prop>
   <prop id="msp_compcase01" name="Computer Server Tower" holdable="" placeable="1" wearable="" facing="left" thumb="msp_compcase01_ncc_compcase_front.swf" enable="Y" is_premium="N" aid="11894" money="" sharing="">
     <state id="msp_compcase01_ncc_compcase_back.swf" name="back" enable="Y" />
@@ -3727,6 +3753,13 @@
   </prop>
   <prop id="planets_earth.swf" name="Earth" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="10886" money="" sharing="">
     <tag>cat:Space</tag>
+	<tag>astronomy</tag>
+	<tag>earth</tag>
+	<tag>globe</tag>
+	<tag>planet</tag>
+	<tag>planets</tag>
+	<tag>space</tag>
+	<tag>world</tag>
   </prop>
   <prop id="egg_small.swf" name="Egg" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="5011" money="" sharing="" handstyle="flat">
     <tag>cat:Food and Drink</tag>
@@ -3878,6 +3911,8 @@
   <prop id="glass_door.swf" name="Glass Door" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="11487" money="" sharing="">
 	<tag>cat:Buildings and Structures</tag>
 	<tag>door</tag>
+	<tag>glass</tag>
+	<tag>glasses</tag>
   </prop>
   <prop id="ncc_guitar01.swf" name="Guitar" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="10766" money="" sharing="">
     <tag>cat:Others</tag>
@@ -4023,9 +4058,15 @@
 	<tag>cat:Food and Drink</tag>
 	<tag>beverage</tag>
 	<tag>drink</tag>
+	<tag>glass</tag>
+	<tag>glasses</tag>
   </prop>
   <prop id="planets_jupiter.swf" name="Jupiter" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="10886" money="" sharing="">
     <tag>cat:Space</tag>
+	<tag>astronomy</tag>
+	<tag>planet</tag>
+	<tag>planets</tag>
+	<tag>space</tag>
   </prop>
   <prop id="katana.swf" name="Katana" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="3342" money="" sharing="" handstyle="stick">
     <tag>cat:Others</tag>
@@ -4098,6 +4139,7 @@
 	<tag>computer</tag>
 	<tag>office</tag>
 	<tag>notebook</tag>
+	<tag>technology</tag>
   </prop>
   <prop id="cc_foldchair.swf" name="Lawn Chair" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9041" money="" sharing="">
     <tag>cat:Furniture and Fixtures</tag>
@@ -4150,6 +4192,10 @@
   </prop>
   <prop id="planets_mars.swf" name="Mars" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="10886" money="" sharing="">
     <tag>cat:Space</tag>
+	<tag>astronomy</tag>
+	<tag>planet</tag>
+	<tag>planets</tag>
+	<tag>space</tag>
   </prop>
   <prop id="ncc_russian_toy01_still.swf" name="Matryoshka Doll" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9019" money="" sharing="">
     <tag>cat:Decorations</tag>
@@ -4170,6 +4216,10 @@
   </prop>
   <prop id="planets_mercury.swf" name="Mercury" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="10886" money="" sharing="">
     <tag>cat:Space</tag>
+	<tag>astronomy</tag>
+	<tag>planet</tag>
+	<tag>planets</tag>
+	<tag>space</tag>
   </prop>
   <prop id="cc_microphone.swf" name="Microphone" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9019" money="" sharing="">
     <tag>cat:Technology</tag>
@@ -4200,6 +4250,8 @@
   <prop id="cc_milk.swf" name="Milk" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9021" money="" sharing="">
 	<tag>cat:Food and Drink</tag>
 	<tag>beverage</tag>
+	<tag>glass</tag>
+	<tag>glasses</tag>
 	<tag>drink</tag>
   </prop>
   <prop id="msp_monitor" name="Monitor" holdable="" placeable="1" wearable="" facing="left" thumb="msp_monitor_monitor_front.swf" enable="Y" is_premium="N" aid="10543" money="" sharing="">
@@ -4207,13 +4259,25 @@
     <state id="msp_monitor_monitor_front_empty.swf" name="front transparent" enable="Y"/>
     <state id="msp_monitor_monitor_back.swf" name="back" enable="Y"/>
 	<tag>cat:Technology</tag>
+	<tag>business</tag>
+	<tag>computer</tag>
+	<tag>office</tag>
   </prop>
   <prop id="mirror.swf" name="Mirror" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="12075" money="" sharing="">
     <tag>cat:Furniture and Fixtures</tag>
+	<tag>bathroom</tag>
+	<tag>glass</tag>
+	<tag>glasses</tag>
+	<tag>mirror</tag>
+	<tag>restroom</tag>
+	<tag>washroom</tag>
   </prop>
   <prop id="nccxmas_deco02.swf" name="Mistletoe" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="Y" aid="11476" money="" sharing="">
     <tag>cat:Decorations</tag>
 	<tag>christmas</tag>
+	<tag>decoration</tag>
+	<tag>decorations</tag>
+	<tag>mistletoe</tag>
 	<tag>xmas</tag>
   </prop>
   <prop id="money.swf" name="Money" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9797" money="" sharing="">
@@ -4233,18 +4297,33 @@
     <state id="msp_moon01_ncc_moon_half.swf" name="half" enable="Y" />
     <state id="msp_moon01_ncc_moon_waning.swf" name="crescent" enable="Y" />
     <tag>cat:Space</tag>
-	<tag>nature</tag>
+	<tag>astronomy</tag>
+	<tag>moon</tag>
+	<tag>space</tag>
   </prop>
   <prop id="mushroom_cloud.swf" name="Mushroom Cloud" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="3343" money="" sharing="" handstyle="stick">
     <tag>cat:Others</tag>
+	<tag>blast</tag>
+	<tag>blasting</tag>
+	<tag>bomb</tag>
+	<tag>explode</tag>
+	<tag>exploding</tag>
+	<tag>explosion</tag>
   </prop>
   <prop id="cc_necklace.swf" name="Necklace" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9022" money="" sharing="">
     <tag>cat:Retail</tag>
 	<tag>accessories</tag>
     <tag>accessory</tag>
+    <tag>bracelet</tag>
+    <tag>necklace</tag>
   </prop>
   <prop id="planets_neptune.swf" name="Neptune" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="10886" money="" sharing="">
     <tag>cat:Space</tag>
+	<tag>astronomy</tag>
+	<tag>neptune</tag>
+	<tag>planet</tag>
+	<tag>planets</tag>
+	<tag>space</tag>
   </prop>
   <prop id="cc_memo.swf" name="Note" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9196" money="" sharing="">
     <colorset enable="Y" aid="9197">
@@ -4255,6 +4334,7 @@
     </c_parts>
     <tag>cat:Office and School</tag>
 	<tag>memo</tag>
+	<tag>note</tag>
   </prop>
   <prop id="msp_note" name="Notepad" holdable="" placeable="1" wearable="" facing="left" thumb="msp_note_msp_computer_cc_notebook.swf" enable="Y" is_premium="N" aid="9198" money="" sharing="">
     <state id="msp_note_msp_computer_cc_notebook.swf" name="With line" enable="Y" default="Y" />
@@ -4270,6 +4350,10 @@
     <tag>academic</tag>
     <tag>learn</tag>
     <tag>learning</tag>
+	<tag>memo</tag>
+	<tag>note</tag>
+	<tag>notebook</tag>
+	<tag>notepad</tag>
     <tag>school</tag>
     <tag>schooling</tag>
   </prop>
@@ -4573,13 +4657,18 @@
     <state id="msp_fridge_fridge_side_close.swf" name="side closed" enable="Y" />
     <state id="msp_fridge_ncc_fridgeside_open.swf" name="side opened" enable="Y" />
     <tag>cat:Kitchen</tag>
+	<tag>freezer</tag>
+	<tag>fridge</tag>
 	<tag>kitchen</tag>
+	<tag>refrigerator</tag>
   </prop>
   <prop id="msp_sign" name="Restroom Sign" holdable="" placeable="1" wearable="" facing="left" thumb="msp_sign_ncc_sign01.swf" enable="Y" is_premium="Y" aid="11932" money="" sharing="">
     <state id="msp_sign_ncc_sign01.swf" name="gents" enable="Y" default="Y" />
     <state id="msp_sign_ncc_sign02.swf" name="ladies" enable="Y" />
     <tag>cat:Signs</tag>
 	<tag>bathroom</tag>
+	<tag>restroom</tag>
+	<tag>sign</tag>
 	<tag>washroom</tag>
   </prop>
   <prop id="msp_road01" name="Road" holdable="" placeable="1" wearable="" facing="left" thumb="msp_road01_road01.swf" enable="Y" is_premium="N" aid="10516" money="" sharing="">
@@ -4618,6 +4707,10 @@
   </prop>
   <prop id="table_round.swf" name="Round Table" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="10502" money="" sharing="">
     <tag>cat:Furniture and Fixtures</tag>
+	<tag>furniture</tags>
+	<tag>round</tag>
+	<tag>table</tag>
+	<tag>tables</tag>
   </prop>
   <prop id="ncc_tocarpet.swf" name="Rug" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="11752" money="" sharing="">
     <tag>cat:Furniture and Fixtures</tag>
@@ -4639,6 +4732,10 @@
   </prop>
   <prop id="planets_saturn.swf" name="Saturn" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="10886" money="" sharing="">
     <tag>cat:Space</tag>
+	<tag>astronomy</tag>
+	<tag>planet</tag>
+	<tag>planets</tag>
+	<tag>space</tag>
   </prop>
   <prop id="cc_saw.swf" name="Saw" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9025" money="" sharing="">
     <tag>cat:Industrial and Hardware</tag>
@@ -4652,6 +4749,12 @@
   </prop>
   <prop id="school_building.swf" name="School" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9007" money="" sharing="">
     <tag>cat:Office and School</tag>
+	<tag>academy</tag>
+    <tag>academic</tag>
+    <tag>building</tag>
+    <tag>buildings</tag>
+    <tag>school</tag>
+    <tag>schooling</tag>
   </prop>
   <prop id="msp_school_bus" name="School Bus" holdable="" placeable="1" wearable="" facing="left" thumb="msp_school_bus_school_bus_full.swf" enable="Y" is_premium="N" aid="11038" money="" sharing="">
     <state id="msp_school_bus_school_bus_full.swf" name="still" enable="Y" default="Y" />
@@ -4680,10 +4783,13 @@
     <state id="msp_offprojector_ncc_offprojector_side.swf" name="side" enable="Y" />
     <tag>cat:Office and School</tag>
 	<tag>projector</tag>
+	<tag>screen</tag>
   </prop>
   <prop id="cc_screwdriver.swf" name="Screwdriver" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9026" money="" sharing="">
     <tag>cat:Industrial and Hardware</tag>
 	<tag>tool</tag>
+	<tag>tools</tag>
+	<tag>screwdriver</tag>
   </prop>
   <prop id="msp_dish02" name="Serving Platter" holdable="1" placeable="1" wearable="" facing="left" thumb="msp_dish02_cc_tray_closed.swf" enable="Y" is_premium="N" aid="9634" money="" sharing="">
     <state id="msp_dish02_cc_tray_closed.swf" name="Covered" enable="Y" default="Y" />
@@ -4697,9 +4803,16 @@
 	<tag>cat:Kitchen</tag>
 	<tag>banquet</tag>
     <tag>plate</tag>
+    <tag>platter</tag>
+    <tag>serving</tag>
   </prop>
   <prop id="skyline.swf" name="Skyline" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="11498" money="" sharing="">
     <tag>cat:Buildings and Structures</tag>
+    <tag>building</tag>
+    <tag>buildings</tag>
+    <tag>silhouette</tag>
+    <tag>silhouettes</tag>
+    <tag>skyline</tag>
   </prop>
   <prop id="cc_arrow2.swf" name="Shapes - Arrow" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9167" money="" sharing="">
     <tag>cat:Shapes and Symbols</tag>
@@ -4736,6 +4849,7 @@
   <prop id="ncc_heart.swf" name="Shapes - Heart" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="10887" money="" sharing="">
     <tag>cat:Shapes and Symbols</tag>
 	<tag>care</tag>
+    <tag>heart</tag>
 	<tag>shape</tag>
     <tag>shaped</tag>
     <tag>shapes</tag>
@@ -4749,6 +4863,7 @@
   </prop>
   <prop id="ncc_square_outline.swf" name="Shapes - Square Outline" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="10887" money="" sharing="">
     <tag>cat:Shapes and Symbols</tag>
+    <tag>outline</tag>
 	<tag>shape</tag>
     <tag>shaped</tag>
     <tag>shapes</tag>
@@ -4813,12 +4928,18 @@
     <tag>cat:Others</tag>
 	<tag>alarm</tag>
 	<tag>alert</tag>
+	<tag>light</tag>
+	<tag>lighting</tag>
+	<tag>lights</tag>
+	<tag>siren</tag>
   </prop>
   <prop id="msp_sledge" name="Sleigh" holdable="" placeable="1" wearable="" facing="left" thumb="msp_sledge_nccxmas_sledge_full.swf" enable="Y" is_premium="Y" aid="11491" money="" sharing="">
     <state id="msp_sledge_nccxmas_sledge_cover.swf" name="front layer" enable="Y" />
     <state id="msp_sledge_nccxmas_sledge_full.swf" name="default" enable="Y" default="Y" />
     <tag>cat:Decorations</tag>
 	<tag>christmas</tag>
+	<tag>sledge</tag>
+	<tag>sleigh</tag>
 	<tag>xmas</tag>
   </prop>
   <prop id="msp_iphone" name="Smartphone" holdable="1" placeable="1" wearable="" facing="left" thumb="msp_iphone_ncc_03iphone.swf" enable="Y" is_premium="N" aid="12188" money="" sharing="" handstyle="flat">
@@ -4844,6 +4965,7 @@
       <c_area oc="">ccColorB</c_area>
     </c_parts>
 	<tag>cat:Nature</tag>
+	<tag>nature</tag>
 	<tag>pine</tag>
 	<tag>plant</tag>
 	<tag>snow</tag>
@@ -4855,11 +4977,15 @@
     <state id="msp_snow_nccxmas_snow03.swf" name="Stalactites" enable="Y" />
 	<tag>cat:Nature</tag>
 	<tag>christmas</tag>
+	<tag>nature</tag>
+	<tag>snow</tag>
 	<tag>xmas</tag>
   </prop>
   <prop id="nccxmas_snowflake.swf" name="Snowflake" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="11498" money="" sharing="">
     <tag>cat:Nature</tag>
 	<tag>christmas</tag>
+	<tag>nature</tag>
+	<tag>snow</tag>
 	<tag>unique</tag>
 	<tag>xmas</tag>
   </prop>
@@ -4869,6 +4995,7 @@
     <tag>cat:Decorations</tag>
 	<tag>christmas</tag>
 	<tag>snowglobe</tag>
+	<tag>snowman</tag>
 	<tag>xmas</tag>
   </prop>
   <prop id="msp_snowglobe02" name="Snowglobe" holdable="" placeable="1" wearable="" facing="left" thumb="msp_snowglobe02_nccxmas_snowglobe02_off.swf" enable="Y" is_premium="Y" aid="11502" money="" sharing="">
@@ -4900,12 +5027,18 @@
 	<tag>beverage</tag>
 	<tag>bottle</tag>
 	<tag>bottles</tag>
+	<tag>coke</tag>
 	<tag>drink</tag>
+	<tag>pop</tag>
+	<tag>soda</tag>
   </prop>
   <prop id="coke1.swf" name="Soda Can" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="11858" money="" sharing="">
 	<tag>cat:Food and Drink</tag>
 	<tag>beverage</tag>
+	<tag>coke</tag>
 	<tag>drink</tag>
+	<tag>pop</tag>
+	<tag>soda</tag>
   </prop>
   <prop id="msp_sofa" name="Sofa" holdable="" placeable="1" wearable="" facing="left" thumb="msp_sofa_sofa_front.swf" enable="Y" is_premium="N" aid="9802" money="" sharing="">
     <state id="msp_sofa_sofa_front.swf" name="Front" enable="Y" default="Y" />
@@ -4936,11 +5069,16 @@
   </prop>
   <prop id="white_house_sofa.swf" name="Sofa" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="8966" money="" sharing="" >
     <tag>cat:Furniture and Fixtures</tag>
+	<tag>chair</tag>
+	<tag>couch</tag>
+    <tag>furniture</tag>
+	<tag>sofa</tag>
   </prop>
   <prop id="kitchen_spoon.swf" name="Spoon" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9022" money="" sharing="">
     <tag>cat:Kitchen</tag>
 	<tag>cutlery</tag>
 	<tag>kitchen</tag>
+	<tag>spoon</tag>
 	<tag>tableware</tag>
   </prop>
   <prop id="msp_spotlight" name="Spotlight" holdable="" placeable="1" wearable="" facing="left" thumb="msp_spotlight_ncc_spotlight01_still.swf" enable="Y" is_premium="N" aid="10769" money="" sharing="">
@@ -4982,6 +5120,8 @@
   </prop>
   <prop id="bar_stool.swf" name="Stool" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="10633" money="" sharing="">
     <tag>cat:Furniture and Fixtures</tag>
+    <tag>bar</tag>
+    <tag>bars</tag>
 	<tag>chair</tag>
     <tag>furniture</tag>
     <tag>stool</tag>
@@ -5014,6 +5154,7 @@
   <prop id="ncc_supreme_court.swf" name="Supreme Court" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="11939" money="" sharing="">
     <tag>cat:Buildings and Structures</tag>
 	<tag>building</tag>
+	<tag>buildings</tag>
 	<tag>court</tag>
 	<tag>courthouse</tag>
 	<tag>supreme</tag>
@@ -5040,6 +5181,7 @@
     <state id="msp_dining_table_dining_table_front.swf" name="front" enable="Y" default="Y" />
     <state id="msp_dining_table_dining_table_side.swf" name="side" enable="Y" />
     <tag>cat:Furniture and Fixtures</tag>
+	<tag>furniture</tags>
 	<tag>table</tag>
 	<tag>tables</tag>
     <tag>wood</tag>
@@ -5138,6 +5280,7 @@
     <tag>cat:Furniture and Fixtures</tag>
 	<tag>bathroom</tag>
     <tag>toilet</tag>
+	<tag>restroom</tag>
 	<tag>washroom</tag>
   </prop>
   <prop id="tombstone.swf" name="Tombstone" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="12199" money="" sharing="">
@@ -5171,6 +5314,8 @@
   <prop id="cc_road_block.swf" name="Traffic Barrier" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9045" money="" sharing="">
 	<tag>cat:Transport</tag>
 	<tag>barrier</tag>
+	<tag>road</tag>
+	<tag>roadblock</tag>
 	<tag>traffic</tag>
   </prop>
   <prop id="traffic_light.swf" name="Traffic Light" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="10522" money="" sharing="">
@@ -5178,6 +5323,7 @@
 	<tag>cities</tag>
     <tag>city</tag>
     <tag>civic</tag>
+	<tag>road</tag>
 	<tag>traffic</tag>
   </prop>
   <prop id="msp_piratetre2" name="Treasure Chest" holdable="" placeable="1" wearable="" facing="left" thumb="msp_piratetre2_ncc_pirate_treasure06.swf" enable="Y" is_premium="Y" aid="12408" money="" sharing="">
@@ -5193,6 +5339,8 @@
   </prop>
   <prop id="ncc_03treasuremap.swf" name="Treasure Map" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="10522" money="" sharing="">
     <tag>cat:Maps</tag>
+	<tag>map</tag>
+	<tag>maps</tag>
 	<tag>paper</tag>
 	<tag>pirate</tag>
   </prop>
@@ -5251,6 +5399,7 @@
   <prop id="xm_turkey.swf" name="Turkey" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="8992" money="" sharing="">
     <tag>cat:Food and Drink</tag>
 	<tag>food</tag>
+	<tag>meal</tag>
 	<tag>meat</tag>
 	<tag>thanksgiving</tag>
   </prop>
@@ -5258,14 +5407,22 @@
     <tag>cat:Space</tag>
 	<tag>alien</tag>
 	<tag>ufo</tag>
+	<tag>space</tag>
   </prop>
   <prop id="planets_uranus.swf" name="Uranus" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="10886" money="" sharing="">
     <tag>cat:Space</tag>
+	<tag>astronomy</tag>
+	<tag>planet</tag>
+	<tag>planets</tag>
+	<tag>space</tag>
+	<tag>uranus</tag>
   </prop>
   <prop id="urinal.swf" name="Urinal" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9587" money="" sharing="">
     <tag>cat:Furniture and Fixtures</tag>
 	<tag>bathroom</tag>
     <tag>toilet</tag>
+	<tag>urinal</tag>
+	<tag>restroom</tag>
 	<tag>washroom</tag>
   </prop>
   <prop id="msp_vending_drink" name="Vending Machine" holdable="" placeable="1" wearable="" facing="left" thumb="msp_vending_drink_vending_drink.swf" enable="Y" is_premium="N" aid="12143" money="" sharing="">
@@ -5276,12 +5433,18 @@
 	<tag>drink</tag>
 	<tag>machine</tag>
 	<tag>machinery</tag>
+	<tag>pop</tag>
 	<tag>soda</tag>
 	<tag>vend</tag>
 	<tag>vending</tag>
   </prop>
   <prop id="planets_venus.swf" name="Venus" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="10886" money="" sharing="">
     <tag>cat:Space</tag>
+	<tag>astronomy</tag>
+	<tag>planet</tag>
+	<tag>planets</tag>
+	<tag>space</tag>
+	<tag>venus</tag>
   </prop>
   <prop id="msp_ncc_vision" name="Vision Chart" holdable="" placeable="1" wearable="" facing="left" thumb="msp_ncc_vision_ncc_vision_chart01.swf" enable="Y" is_premium="N" aid="11310" money="" sharing="">
     <state id="msp_ncc_vision_ncc_vision_chart01.swf" name="clear" enable="Y" default="Y" />
@@ -5339,6 +5502,8 @@
 	<tag>booze</tag>
 	<tag>bourbon</tag>
     <tag>drink</tag>
+	<tag>glass</tag>
+	<tag>glasses</tag>
 	<tag>rye</tag>
 	<tag>whiskey</tag>
 	<tag>whisky</tag>
@@ -5348,6 +5513,9 @@
 	<tag>america</tag>
 	<tag>american</tag>
     <tag>building</tag>
+	<tag>buildings</tag>
+	<tag>states</tag>
+	<tag>united</tag>
 	<tag>washington</tag>
 	<tag>white</tag>
 	<tag>whitehouse</tag>
@@ -6760,7 +6928,7 @@
     <tags>family,_free,_cat:Government,_tag:badge cap cop cops elder elderlies elderly government hat hero heroes heroic law legal man male officer police,_sticky_filter_guy</tags>
   </char>
   <char id="149" name="Robot" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
-    <tags>family,_free,_cat:Holidays and Costumes,_tag:computer robot,_sticky_filter_guy</tags>
+    <tags>family,_free,_cat:Holidays and Costumes,_tag:computer robot technology,_sticky_filter_guy</tags>
   </char>
   <char id="77" name="Rocker" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
     <tags>family,_free,_cat:Casual,_tag:boot boots earring earrings jacket man male punk rock rocker,_sticky_filter_guy</tags>
