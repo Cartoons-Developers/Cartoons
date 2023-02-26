@@ -2674,6 +2674,20 @@
       <rotation>0</rotation>
     </prop>
   </compositebg>
+  <prop id="msp_bunny" name="Bunny" holdable="" placeable="1" wearable="" facing="left" thumb="msp_bunny_bunny_still.swf" enable="Y" is_premium="N" aid="9802" money="" sharing="">
+    <state id="msp_bunny_bunny_still.swf" name="Still" enable="Y" default="Y" />
+	<state id="msp_bunny_bunny_eating.swf" name="Eating" enable="Y" />
+	<state id="msp_bunny_bunny_fast_hop.swf" name="Fast Hop" enable="Y" />
+    <state id="msp_bunny_bunny_high_jump.swf" name="High Jump" enable="Y" />
+	<state id="msp_bunny_bunny_twitch_nose.swf" name="Nose Twitch" enable="Y" />
+	<state id="msp_bunny_bunny_sleeping.swf" name="Sleeping" enable="Y" />
+    <state id="msp_bunny_bunny_slow_hop.swf" name="Slow Hop" enable="Y" />
+    <tag>cat:Animals</tag>
+	<tag>animal</tag>
+    <tag>animals</tag>
+    <tag>pet</tag>
+    <tag>pets</tag>
+  </prop>
   <prop id="white_house_flag.swf" name="American Flag" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="8966" money="" sharing="" >
     <tag>cat:Others</tag>
   </prop>
