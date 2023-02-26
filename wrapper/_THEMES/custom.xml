@@ -2717,6 +2717,11 @@
   </prop>
   <prop id="amputee_leg.swf" name="Artificial Leg" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="12108" money="" sharing="" handstyle="stick">
     <tag>cat:Healthcare</tag>
+	<tag>arificial</tag>
+	<tag>healthcare</tag>
+	<tag>leg</tag>
+	<tag>legs</tag>
+	<tag>medical</tag>
   </prop>
   <prop id="msp_nccha_balloon02" name="Balloon" holdable="" placeable="1" wearable="" facing="left" thumb="msp_nccha_balloon02_nccha_balloon03.swf" enable="Y" is_premium="Y" aid="11151" money="" sharing="">
     <state id="msp_nccha_balloon02_nccha_balloon03.swf" name="hovering" enable="Y" default="Y" />
@@ -2739,6 +2744,7 @@
 	<tag>clean</tag>
 	<tag>cleaner</tag>
 	<tag>cleaning</tag>
+	<tag>sink</tag>
     <tag>tap</tag>
     <tag>taps</tag>
 	<tag>washroom</tag>
@@ -2774,6 +2780,7 @@
     <tag>cat:Furniture and Fixtures</tag>
 	<tag>bar</tag>
 	<tag>bars</tag>
+	<tag>counter</tag>
 	<tag>furniture</tag>
 	<tag>pub</tag>
 	<tag>table</tag>
@@ -2781,6 +2788,7 @@
   </prop>
   <prop id="easter_basket.swf" name="Basket" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="8966" money="" sharing="" >
     <tag>cat:Others</tag>
+	<tag>basket</tag>
   </prop>
   <prop id="cc_basketball.swf" name="Basketball" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9628" money="" sharing="">
     <colorset enable="Y" aid="9629">
@@ -2799,6 +2807,11 @@
   </prop>
   <prop id="basketball_court01_goal.swf" name="Basketball Backboard" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9594" money="" sharing="">
     <tag>cat:Sports and Fitness</tag>
+	<tag>backboard</tag>
+	<tag>basketball</tag>
+	<tag>net</tag>
+    <tag>sport</tag>
+    <tag>sports</tag>
   </prop>
   <prop id="ball01.swf" name="Beach Ball" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="10660" money="" sharing="">
 	<tag>cat:Sports and Fitness</tag>
@@ -3045,6 +3058,7 @@
     <tag>brain</tag>
     <tag>health</tag>
     <tag>healthcare</tag>
+	<tag>medical</tag>
     <tag>organ</tag>
     <tag>organs</tag>
   </prop>
@@ -3088,6 +3102,14 @@
   </prop>
   <prop id="jail_bed.swf" name="Bunk Beds" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9575" money="" sharing="">
 	<tag>cat:Furniture and Fixtures</tag>
+	<tag>asleep</tag>
+    <tag>bed</tag>
+    <tag>bedroom</tag>
+    <tag>beds</tag>
+    <tag>jail</tag>
+    <tag>sleep</tag>
+    <tag>sleeping</tag>
+    <tag>sleepy</tag>
   </prop>
   <prop id="bushes.swf" name="Bush" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9575" money="" sharing="">
 	<tag>cat:Nature</tag>
@@ -3132,6 +3154,8 @@
   </prop>
   <prop id="cabinet.swf" name="Cabinet" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="12075" money="" sharing="">
     <tag>cat:Furniture and Fixtures</tag>
+	<tag>cabinet</tag>
+	<tag>furniture</tag>
   </prop>
   <prop id="ncc_cactus01.swf" name="Cactus" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9156" money="" sharing="">
     <tag>cat:Nature</tag>
@@ -3186,6 +3210,7 @@
     <tag>cat:Others</tag>
 	<tag>cane</tag>
 	<tag>senior</tag>
+	<tag>stick</tag>
   </prop>
   <prop id="msp_piratecan" name="Cannon" holdable="" placeable="1" wearable="" facing="left" thumb="msp_piratecan_ncc_pirate_cannon_still.swf" enable="Y" is_premium="Y" aid="12398" money="" sharing="">
     <state id="msp_piratecan_ncc_pirate_cannon_loop.swf" name="side - keep shooting" enable="Y" />
@@ -3223,6 +3248,8 @@
     <tag>cities</tag>
     <tag>city</tag>
     <tag>civic</tag>
+	<tag>transport</tag>
+	<tag>transportation</tag>
     <tag>vehicle</tag>
     <tag>vehicles</tag>
   </prop>
@@ -3245,6 +3272,8 @@
     <tag>cities</tag>
     <tag>city</tag>
     <tag>civic</tag>
+	<tag>transport</tag>
+	<tag>transportation</tag>
     <tag>vehicle</tag>
     <tag>vehicles</tag>
   </prop>
@@ -3262,6 +3291,10 @@
   </prop>
   <prop id="cancer.swf" name="Cancer" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="12108" money="" sharing="" handstyle="stick">
     <tag>cat:Healthcare</tag>
+    <tag>cancer</tag>
+    <tag>disease</tag>
+	<tag>healthcare</tag>
+	<tag>medical</tag>
   </prop>
   <prop id="msp_cash_register01" name="Cash Register" holdable="" placeable="1" wearable="" facing="left" thumb="msp_cash_register01_msp_cash_register_cash_register01_back.swf" enable="Y" is_premium="N" aid="10626" money="" sharing="">
     <state id="msp_cash_register01_msp_cash_register_cash_register01_back.swf" name="front" enable="Y" default="Y" />
@@ -3366,6 +3399,8 @@
   </prop>
   <prop id="ncc_chickenbowl.swf" name="Chicken Bucket" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="12198" money="" sharing="">
     <tag>cat:Food and Drink</tag>
+    <tag>bucket</tag>
+    <tag>chicken</tag>
 	<tag>food</tag>
 	<tag>fried</tag>
   </prop>
@@ -3634,6 +3669,8 @@
   </prop>
   <prop id="diagnostic_machine.swf" name="Diagnostic Machine" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9041" money="" sharing="">
 	<tag>cat:Healthcare</tag>
+	<tag>healthcare</tag>
+	<tag>medical</tag>
   </prop>
   <prop id="cc_diamond_ring.swf" name="Diamond Ring" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9013" money="" sharing="">
     <tag>cat:Retail</tag>
@@ -3777,6 +3814,8 @@
   </prop>
   <prop id="hospital_end_table.swf" name="End Table" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9027" money="" sharing="">
     <tag>cat:Healthcare</tag>
+	<tag>healthcare</tag>
+	<tag>medical</tag>
   </prop>
   <prop id="cc_secretfolder.swf" name="File" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9027" money="" sharing="">
     <tag>cat:Office and School</tag>
@@ -3964,6 +4003,7 @@
     <tag>healthcare</tag>
     <tag>heart</tag>
     <tag>hearts</tag>
+	<tag>medical</tag>
     <tag>organ</tag>
     <tag>organs</tag>
   </prop>
@@ -3973,6 +4013,7 @@
     <tag>cat:Healthcare</tag>
     <tag>health</tag>
     <tag>healthcare</tag>
+	<tag>medical</tag>
   </prop>
   <prop id="ncc_03hotdog.swf" name="Hot Dog" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="11858" money="" sharing="">
     <tag>cat:Food and Drink</tag>
@@ -4039,20 +4080,38 @@
     <tag>healthcare</tag>
     <tag>intestine</tag>
 	<tag>intestines</tag>
+	<tag>medical</tag>
     <tag>organ</tag>
     <tag>organs</tag>
   </prop>
-  <prop id="ncc_hpsalt.swf" name="Interavenous Drip" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9041" money="" sharing="">
+  <prop id="ncc_hpsalt.swf" name="Intravenous Drip" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9041" money="" sharing="">
 	<tag>cat:Healthcare</tag>
+	<tag>drip</tag>
+	<tag>healthcare</tag>
+	<tag>intravenous</tag>
+	<tag>iv</tag>
+	<tag>medical</tag>
   </prop>
   <prop id="jail_gate1.swf" name="Jail Gate" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9041" money="" sharing="">
 	<tag>cat:Buildings and Structures</tag>
+	<tag>bars</tag>
+	<tag>gate</tag>
+	<tag>jail</tag>
+	<tag>prison</tag>
   </prop>
   <prop id="jail_gate2.swf" name="Jail Gate" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9041" money="" sharing="">
 	<tag>cat:Buildings and Structures</tag>
+	<tag>bars</tag>
+	<tag>gate</tag>
+	<tag>jail</tag>
+	<tag>prison</tag>
   </prop>
   <prop id="jail_gate_door.swf" name="Jail Gate" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9041" money="" sharing="">
 	<tag>cat:Buildings and Structures</tag>
+	<tag>bars</tag>
+	<tag>gate</tag>
+	<tag>jail</tag>
+	<tag>prison</tag>
   </prop>
   <prop id="glasses_juice.swf" name="Juice" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9041" money="" sharing="">
 	<tag>cat:Food and Drink</tag>
@@ -4090,20 +4149,32 @@
     <tag>healthcare</tag>
     <tag>kidney</tag>
     <tag>kidneys</tag>
+	<tag>medical</tag>
     <tag>organ</tag>
     <tag>organs</tag>
   </prop>
   <prop id="kitchen_cabinet.swf" name="Kitchen Cabinet" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9034" money="" sharing="">
     <tag>cat:Kitchen</tag>
+	<tag>cabinet</tag>
+	<tag>furniture</tag>
+	<tag>kitchen</tag>
   </prop>
   <prop id="kitchen_counter.swf" name="Kitchen Counter" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9034" money="" sharing="">
     <tag>cat:Kitchen</tag>
+	<tag>counter</tag>
+	<tag>furniture</tag>
+	<tag>kitchen</tag>
   </prop>
   <prop id="kitchen_counter2.swf" name="Kitchen Counter" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9034" money="" sharing="">
     <tag>cat:Kitchen</tag>
+	<tag>counter</tag>
+	<tag>furniture</tag>
+	<tag>kitchen</tag>
   </prop>
   <prop id="extractor_fan.swf" name="Kitchen Extractor Fan" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9034" money="" sharing="">
     <tag>cat:Kitchen</tag>
+	<tag>kitchen</tag>
+	<tag>kitchenware</tag>
   </prop>
   <prop id="kitchen_knife.swf" name="Knife" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9022" money="" sharing="">
 	<tag>cat:Kitchen</tag>
@@ -4115,16 +4186,30 @@
 	<tag>cutlery</tag>
 	<tag>cutter</tag>
 	<tag>cutting</tag>
+	<tag>kitchen</tag>
+	<tag>kitchenware</tag>
 	<tag>weapon</tag>
 	<tag>weapons</tag>
   </prop>
   <prop id="knife_stand.swf" name="Knives Stand" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9022" money="" sharing="">
 	<tag>cat:Kitchen</tag>
+	<tag>cook</tag>
+	<tag>cooked</tag>
+	<tag>cooking</tag>
+	<tag>cut</tag>
+	<tag>cutler</tag>
+	<tag>cutlery</tag>
+	<tag>cutter</tag>
+	<tag>cutting</tag>
+	<tag>kitchen</tag>
+	<tag>kitchenware</tag>
   </prop>
   <prop id="cc_wool_ball.swf" name="Knitting - Yarn Ball" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9034" money="" sharing="">
     <tag>cat:Others</tag>
 	<tag>ball</tag>
 	<tag>balls</tag>
+	<tag>knitting</tag>
+	<tag>wool</tag>
     <tag>yarn</tag>
   </prop>
   <prop id="msp_laptop" name="Laptop" holdable="" placeable="1" wearable="" facing="left" thumb="msp_laptop_laptop_front.swf" enable="Y" is_premium="N" aid="10543" money="" sharing="">
@@ -4155,6 +4240,7 @@
     <tag>health</tag>
     <tag>healthcare</tag>
 	<tag>liver</tag>
+	<tag>medical</tag>
     <tag>organ</tag>
     <tag>organs</tag>
   </prop>
@@ -4181,6 +4267,7 @@
     <tag>healthcare</tag>
 	<tag>lung</tag>
 	<tag>lungs</tag>
+	<tag>medical</tag>
     <tag>organ</tag>
     <tag>organs</tag>
   </prop>
@@ -4544,6 +4631,8 @@
     <state id="msp_pirateship_ncc_pirateship_move.swf" name="floating" enable="Y" />
 	<tag>cat:Transport</tag>
 	<tag>pirate</tag>
+	<tag>transport</tag>
+	<tag>transportation</tag>
 	<tag>ship</tag>
 	<tag>shipping</tag>
   </prop>
@@ -4596,6 +4685,9 @@
     <tag>patrol</tag>
     <tag>police</tag>
     <tag>security</tag>
+    <tag>states</tag>
+	<tag>transport</tag>
+	<tag>transportation</tag>
     <tag>united</tag>
     <tag>vehicle</tag>
     <tag>vehicles</tag>
@@ -4603,23 +4695,42 @@
   <prop id="ncc_03popcorn.swf" name="Popcorn" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="11858" money="" sharing="">
     <tag>cat:Food and Drink</tag>
 	<tag>food</tag>
+	<tag>popcorn</tag>
   </prop>
   <prop id="office_plant.swf" name="Potted Plant" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="8946" money="" sharing="">
     <tag>cat:Nature</tag>
 	<tag>aloe</tag>
     <tag>nature</tag>
 	<tag>plant</tag>
+	<tag>pot</tag>
+	<tag>potted</tag>
+	<tag>pots</tag>
   </prop>
   <prop id="potted_plant.swf" name="Potted Plant" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="8946" money="" sharing="">
     <tag>cat:Nature</tag>
     <tag>nature</tag>
 	<tag>plant</tag>
+	<tag>pot</tag>
+	<tag>potted</tag>
+	<tag>pots</tag>
+	<tag>tree</tag>
+	<tag>trees</tag>
   </prop>
   <prop id="white_house_chair.swf" name="President's Chair" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="8966" money="" sharing="" >
     <tag>cat:Furniture and Fixtures</tag>
+	<tag>chair</tag>
+	<tag>furniture</tag>
+	<tag>president's</tag>
+	<tag>office</tag>
   </prop>
   <prop id="white_house_table.swf" name="President's Desk" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="8966" money="" sharing="" >
     <tag>cat:Furniture and Fixtures</tag>
+	<tag>desk</tag>
+	<tag>furniture</tag>
+	<tag>president's</tag>
+	<tag>office</tag>
+	<tag>table</tag>
+	<tag>wood</tag>
   </prop>
   <prop id="prohibition_sign.swf" name="Prohibition Sign" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9797" money="" sharing="">
     <tag>cat:Shapes and Symbols</tag>
@@ -4650,6 +4761,9 @@
   </prop>
   <prop id="razor.swf" name="Razor" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="11379" money="" sharing="">
     <tag>cat:Others</tag>
+	<tag>razor</tag>
+	<tag>shave</tag>
+	<tag>shaver</tag>
   </prop>
   <prop id="msp_fridge" name="Refrigerator" holdable="" placeable="1" wearable="" facing="left" thumb="msp_fridge_fridge_front_close.swf" enable="Y" is_premium="N" aid="10602" money="" sharing="">
     <state id="msp_fridge_fridge_front_close.swf" name="front closed" enable="Y" default="Y" />
@@ -4903,6 +5017,8 @@
     <tag>cat:Transport</tag>
 	<tag>ship</tag>
 	<tag>shipping</tag>
+	<tag>transport</tag>
+	<tag>transportation</tag>
   </prop>
   <prop id="ncc_02spatula.swf" name="Spatula" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="10948" money="" sharing="" handstyle="stick">
     <tag>cat:Kitchen</tag>
@@ -4918,6 +5034,7 @@
     <tag>cat:Healthcare</tag>
     <tag>health</tag>
     <tag>healthcare</tag>
+	<tag>medical</tag>
     <tag>organ</tag>
     <tag>organs</tag>
     <tag>spleen</tag>
@@ -4970,6 +5087,7 @@
 	<tag>plant</tag>
 	<tag>snow</tag>
 	<tag>tree</tag>
+	<tag>trees</tag>
   </prop>
   <prop id="msp_snow" name="Snow" holdable="" placeable="1" wearable="" facing="left" thumb="msp_snow_nccxmas_snow01.swf" enable="Y" is_premium="N" aid="11494" money="" sharing="">
     <state id="msp_snow_nccxmas_snow01.swf" name="Big pile" enable="Y" default="Y" />
@@ -5097,6 +5215,7 @@
     <tag>city</tag>
     <tag>civic</tag>
 	<tag>lamp</tag>
+	<tag>lampshade</tag>
 	<tag>light</tag>
 	<tag>lighting</tag>
 	<tag>lights</tag>
@@ -5108,6 +5227,7 @@
     <tag>cat:Healthcare</tag>
     <tag>health</tag>
     <tag>healthcare</tag>
+	<tag>medical</tag>
     <tag>organ</tag>
     <tag>organs</tag>
     <tag>stomach</tag>
@@ -5167,6 +5287,7 @@
 	<tag>chair</tag>
     <tag>furniture</tag>
 	<tag>office</tag>
+	<tag>swivel</tag>
   </prop>
   <prop id="ncc_02pirate_sword.swf" name="Sword" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="Y" aid="12393" money="" sharing="" handstyle="stick">
     <tag>cat:Others</tag>
@@ -5323,6 +5444,11 @@
 	<tag>cities</tag>
     <tag>city</tag>
     <tag>civic</tag>
+	<tag>lamp</tag>
+	<tag>lampshade</tag>
+	<tag>light</tag>
+	<tag>lighting</tag>
+	<tag>lights</tag>
 	<tag>road</tag>
 	<tag>traffic</tag>
   </prop>
@@ -5333,9 +5459,12 @@
     <state id="msp_piratetre2_ncc_pirate_treasure08.swf" name="front only" enable="Y" />
     <tag>cat:Others</tag>
 	<tag>adventurer</tag>
+	<tag>chest</tag>
     <tag>box</tag>
 	<tag>boxes</tag>
 	<tag>pirate</tag>
+	<tag>treasure</tag>
+	<tag>trunk</tag>
   </prop>
   <prop id="ncc_03treasuremap.swf" name="Treasure Map" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="10522" money="" sharing="">
     <tag>cat:Maps</tag>
@@ -5343,13 +5472,16 @@
 	<tag>maps</tag>
 	<tag>paper</tag>
 	<tag>pirate</tag>
+	<tag>treasure</tag>
   </prop>
   <prop id="school_ext_tree01.swf" name="Tree" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9587" money="" sharing="">
     <tag>cat:Nature</tag>
+	<tag>forest</tag>
 	<tag>nature</tag>
     <tag>park</tag>
 	<tag>plant</tag>
     <tag>tree</tag>
+    <tag>trees</tag>
     <tag>woods</tag>
   </prop>
   <prop id="ncc_htree.swf" name="Tree" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="11296" money="" sharing="">
@@ -5362,27 +5494,33 @@
       <c_area oc="">ccColorB</c_area>
     </c_parts>
 	<tag>cat:Nature</tag>
+	<tag>forest</tag>
 	<tag>nature</tag>
     <tag>park</tag>
     <tag>pine</tag>
 	<tag>plant</tag>
     <tag>tree</tag>
+    <tag>trees</tag>
     <tag>woods</tag>
   </prop>
   <prop id="trees.swf" name="Trees" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9587" money="" sharing="">
     <tag>cat:Nature</tag>
+	<tag>forest</tag>
 	<tag>nature</tag>
     <tag>park</tag>
 	<tag>plant</tag>
     <tag>tree</tag>
+    <tag>trees</tag>
     <tag>woods</tag>
   </prop>
   <prop id="trees2.swf" name="Trees" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9587" money="" sharing="">
     <tag>cat:Nature</tag>
+	<tag>forest</tag>
 	<tag>nature</tag>
     <tag>park</tag>
 	<tag>plant</tag>
     <tag>tree</tag>
+    <tag>trees</tag>
     <tag>woods</tag>
   </prop>
   <prop id="cc_trolleys.swf" name="Trolley" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9642" money="" sharing="">
@@ -5406,8 +5544,10 @@
   <prop id="cc_flying_ufo.swf" name="UFO" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9040" money="" sharing="">
     <tag>cat:Space</tag>
 	<tag>alien</tag>
+	<tag>aliens</tag>
 	<tag>ufo</tag>
 	<tag>space</tag>
+	<tag>spaceship</tag>
   </prop>
   <prop id="planets_uranus.swf" name="Uranus" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="10886" money="" sharing="">
     <tag>cat:Space</tag>
@@ -5453,6 +5593,7 @@
 	<tag>clinic</tag>
 	<tag>clinical</tag>
     <tag>healthcare</tag>
+	<tag>medical</tag>
     <tag>optometrist</tag>
     <tag>optometry</tag>
     <tag>quiz</tag>
@@ -5514,6 +5655,8 @@
 	<tag>american</tag>
     <tag>building</tag>
 	<tag>buildings</tag>
+	<tag>house</tag>
+	<tag>president</tag>
 	<tag>states</tag>
 	<tag>united</tag>
 	<tag>washington</tag>
