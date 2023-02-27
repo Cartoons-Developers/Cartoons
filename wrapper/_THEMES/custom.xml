@@ -561,6 +561,47 @@
       <rotation>-95.1056863</rotation>
     </prop>
   </compositebg>
+  <compositebg id="cbg_frontyard" name="Frontyard" enable="Y" default="N" thumb="frontyard.png" display_order="39" is_premium="N" money="" sharing="" aid="9710">
+    <bg id="BG3" index="0">
+      <file>custom.neighborhood.swf</file>
+    </bg>
+    <prop id="PROP1" index="1">
+      <file>custom.driveway.swf</file>
+      <x>227.702905</x>
+      <y>326.427905</y>
+      <xscale>1.8837999</xscale>
+      <yscale>1.8837999</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP2" index="2">
+      <file>custom.house.swf</file>
+      <x>311.9538832</x>
+      <y>165.2265127</y>
+      <xscale>1.7651059</xscale>
+      <yscale>1.7651059</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP3" index="4">
+      <file>custom.mailbox.swf</file>
+      <x>391.25</x>
+      <y>296.075</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP4" index="3">
+      <file>custom.bushes.swf</file>
+      <x>452.3</x>
+      <y>284.075</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+  </compositebg>
   <compositebg id="cbg_jail" name="Jail" enable="Y" default="N" thumb="jail.png" display_order="39" is_premium="N" money="" sharing="" aid="9710">
     <bg id="cbg_jail_BG2" index="0">
       <file>custom.jail.swf</file>
@@ -1261,7 +1302,7 @@
       <rotation>0</rotation>
     </prop>
   </compositebg>
-  <compositebg id="cbg_school_hallway" name="School hallway" enable="Y" default="N" thumb="school_hallway.png" display_order="25" is_premium="N" money="" sharing="" aid="9543">
+  <compositebg id="cbg_school_hallway" name="School Hallway" enable="Y" default="N" thumb="school_hallway.png" display_order="25" is_premium="N" money="" sharing="" aid="9543">
     <bg id="BG10" index="0">
       <file>custom.wall10.swf</file>
       <color r="ccColorA">16381164</color>
@@ -2871,6 +2912,9 @@
 	<tag>drink</tag>
 	<tag>soda</tag>
   </prop>
+  <prop id="driveway.swf" name="Driveway" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9019" money="" sharing="">
+    <tag>cat:Transport</tag>
+  </prop>
   <prop id="ncc_revodrum.swf" name="Drum" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="11926" money="" sharing="">
     <tag>cat:Others</tag>
 	<tag>music</tag>
@@ -3141,6 +3185,12 @@
     <tag>buildings</tag>
     <tag>house</tag>
   </prop>
+  <prop id="house.swf" name="House" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="11257" money="" sharing="">
+    <tag>cat:Buildings and Structures</tag>
+	<tag>building</tag>
+    <tag>buildings</tag>
+    <tag>house</tag>
+  </prop>
   <prop id="ncc_03icecream02.swf" name="Ice Cream" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="11858" money="" sharing="">
 	<tag>cat:Food and Drink</tag>
 	<tag>candies</tag>
@@ -3368,6 +3418,9 @@
 	<tag>magic</tag>
 	<tag>magician</tag>
     <tag>wand</tag>
+  </prop>
+  <prop id="mailbox.swf" name="Mailbox" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9019" money="" sharing="">
+    <tag>cat:Others</tag>
   </prop>
   <prop id="planets_mars.swf" name="Mars" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="10886" money="" sharing="">
     <tag>cat:Space</tag>
