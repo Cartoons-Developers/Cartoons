@@ -180,7 +180,6 @@
       <color r="ccColorA">8476482</color>
     </prop>
   </compositebg>
-
   <compositebg id="cbg_blackboard" name="Classroom" enable="Y" default="N" thumb="blackboard.png" display_order="29" is_premium="N" money="" sharing="" aid="9613">
     <bg id="BG149" index="0">
       <file>custom.wall10.swf</file>
@@ -1866,6 +1865,11 @@
       <face>1</face>
       <rotation>0</rotation>
     </prop>
+  </compositebg>
+  <compositebg id="cbg_subway_interior" name="Subway - Interior" enable="Y" default="N" thumb="subway_interior.png" display_order="29" is_premium="N" money="" sharing="" aid="9613">
+    <bg id="BG149" index="0">
+      <file>custom.train_interior.swf</file>
+    </bg>
   </compositebg>
   <prop id="msp_bunny" name="Bunny" holdable="" placeable="1" wearable="" facing="left" thumb="msp_bunny_bunny_still.swf" enable="Y" is_premium="N" aid="9802" money="" sharing="">
     <state id="msp_bunny_bunny_still.swf" name="Still" enable="Y" default="Y" />
@@ -5143,6 +5147,12 @@
   <char id="227" name="Casual" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
     <tags>family,_free,_cat:Casual,_tag:casual man male scarf,_sticky_filter_guy</tags>
   </char>
+  <char id="239" name="Casual" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+    <tags>family,_free,_cat:Casual,_tag:casual female jacket lady woman,_sticky_filter_girl</tags>
+  </char>
+  <char id="240" name="Casual" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+    <tags>family,_free,_cat:Casual,_tag:casual man male,_sticky_filter_guy</tags>
+  </char>
   <char id="128" name="Casual Sports" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
     <tags>family,_free,_cat:Casual,_tag:casual dreadlock dreadlocks dreads exercise female fitness gym jog jogging jogger lady run runner running woman,_sticky_filter_girl</tags>
   </char>
@@ -5327,7 +5337,10 @@
     <tags>family,_free,_cat:Casual,_tag:casual child children dreadlock dreadlocks dreads earring earrings female girl kid kids student,_sticky_filter_littlegirl</tags>
   </char>
   <char id="180" name="Kid" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
-    <tags>family,_free,_cat:Casual,_tag:casual child children child children female girl kid kids ponytail student,_sticky_filter_littlegirl</tags>
+    <tags>family,_free,_cat:Casual,_tag:casual child children female girl kid kids ponytail student,_sticky_filter_littlegirl</tags>
+  </char>
+  <char id="238" name="Kid" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+    <tags>family,_free,_cat:Casual,_tag:casual child children female girl kid kids pigtails student,_sticky_filter_littlegirl</tags>
   </char>
   <char id="233" name="Kid - Bunny Ears" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
     <tags>family,_free,_cat:Holidays and Costumes,_tag:bunny boy easter child children kid kids male,_sticky_filter_littleguy</tags>
