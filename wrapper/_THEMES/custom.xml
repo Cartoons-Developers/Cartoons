@@ -4019,7 +4019,7 @@
 	<tag>cutting</tag>
 	<tag>tool</tag>
   </prop>
-  <prop id="shamrock.swf" name="Shamrock" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9025" money="" sharing="">
+  <prop id="shamrock.swf" name="Shamrock" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9025" money="" sharing="">
     <tag>cat:Nature</tag>
   </prop>
   <prop id="school_building.swf" name="School" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9007" money="" sharing="">
