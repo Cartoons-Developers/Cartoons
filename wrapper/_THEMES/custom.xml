@@ -1019,6 +1019,66 @@
       <rotation>0</rotation>
     </prop>
   </compositebg>
+  <compositebg id="cbg_conference" name="Office - Conference" enable="Y" default="N" thumb="conference.png" display_order="5" is_premium="N" money="" sharing="" aid="9067">
+    <bg id="BG2" index="0">
+      <file>custom.office.swf</file>
+    </bg>
+    <prop id="PROP0" index="4">
+      <file>custom.msp_confer_table.msp_confer_table_confer_table_side.swf</file>
+      <x>339.7227511</x>
+      <y>277.7557721</y>
+      <xscale>0.7908149</xscale>
+      <yscale>0.6270753</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+      <color r="ccColorA">13342567</color>
+    </prop>
+    <prop id="PROP1" index="3">
+      <file>custom.white_house_chair.swf</file>
+      <x>179.575</x>
+      <y>259.5916667</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP3" index="5">
+      <file>custom.white_house_chair.swf</file>
+      <x>486</x>
+      <y>259.55</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>-1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP4" index="2">
+      <file>custom.white_house_chair.swf</file>
+      <x>394.775</x>
+      <y>238</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>-1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP6" index="6">
+      <file>custom.white_house_chair.swf</file>
+      <x>287.225</x>
+      <y>279.7</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>-1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP7" index="1">
+      <file>custom.white_board01.swf</file>
+      <x>149.85</x>
+      <y>187.7</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+  </compositebg>
   <compositebg id="cbg_oval_office" name="Oval office" enable="Y" default="N" thumb="white_house.png" display_order="6" is_premium="N" money="" sharing="" aid="9070">
     <bg id="cbg_oval_office_BG146" index="0">
       <file>custom.white_house_bg.swf</file>
