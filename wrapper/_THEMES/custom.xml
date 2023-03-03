@@ -3089,6 +3089,19 @@
 	<tag>glass</tag>
 	<tag>glasses</tag>
   </prop>
+  <prop id="green_beer.swf" name="Green Beer" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="Y" aid="12249" money="" sharing="" handstyle="stick">
+    <tag>cat:Food and Drink</tag>
+	<tag>alcohol</tag>
+    <tag>bar</tag>
+	<tag>bars</tag>
+	<tag>beer</tag>
+	<tag>beverage</tag>
+	<tag>booze</tag>
+	<tag>cup</tag>
+    <tag>drink</tag>
+	<tag>glass</tag>
+	<tag>glasses</tag>
+  </prop>
   <prop id="ncc_guitar01.swf" name="Guitar" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="10766" money="" sharing="">
     <tag>cat:Others</tag>
 	<tag>band</tag>
@@ -4006,7 +4019,10 @@
 	<tag>cutting</tag>
 	<tag>tool</tag>
   </prop>
-  <prop id="school_building.swf" name="School" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9007" money="" sharing="">
+  <prop id="shamrock.swf" name="Shamrock" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9025" money="" sharing="">
+    <tag>cat:Nature</tag>
+  </prop>
+  <prop id="school_building.swf" name="School" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9007" money="" sharing="">
     <tag>cat:Office and School</tag>
 	<tag>academy</tag>
     <tag>academic</tag>
@@ -5412,6 +5428,9 @@
   <char id="165" name="Party Suit" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
     <tags>family,_free,_cat:Special Occasions,_tag:bow bowing boy celebrate celebration child children congratulations costume costumes dressy fancy festival festive feta formal fun funky kid kids male occasions parties party special suit tux tuxedo wedding,_sticky_filter_littleguy</tags>
   </char>
+  <char id="237" name="Partygoer" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+    <tags>family,_free,_cat:Holidays and Costumes,_tag:bow bowing celebrate celebration costume costumes hat holiday holidays hols leprechaun man male parties party partygoer patty pattys patty's patrick patricks patrick's st,_sticky_filter_guy</tags>
+  </char>
   <char id="73" name="Pirate" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
     <tags>family,_free,_cat:Holidays and Costumes,_tag:boot boots boy cap captain child children costume costumes eyepatch hat holiday holidays hols male other pirate professions,_sticky_filter_littleguy</tags>
   </char>
@@ -5442,9 +5461,11 @@
   <char id="8" name="Police" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
     <tags>family,_free,_cat:Government,_tag:badge cap cop cops elder elderlies elderly government hat hero heroes heroic law legal man male officer police,_sticky_filter_guy</tags>
   </char>
+  <!-- 
   <char id="149" name="Robot" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
     <tags>family,_free,_cat:Holidays and Costumes,_tag:computer robot technology,_sticky_filter_guy</tags>
   </char>
+  -->
   <char id="77" name="Rocker" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
     <tags>family,_free,_cat:Casual,_tag:boot boots earring earrings jacket man male punk rock rocker,_sticky_filter_guy</tags>
   </char>
