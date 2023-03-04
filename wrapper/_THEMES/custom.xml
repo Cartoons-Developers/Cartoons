@@ -1228,6 +1228,165 @@
       <rotation>0</rotation>
     </prop>
   </compositebg>
+  <compositebg id="cbg_hospital_rm2" name="Patient Room - Kids" enable="Y" default="N" thumb="hospital_rm2.png" display_order="16" is_premium="N" money="" sharing="" aid="9148">
+    <bg id="BG339" index="0">
+      <file>custom.kids_bedroom.swf</file>
+      <color r="Ground">10141620</color>
+      <color r="Curtain">9681120</color>
+    </bg>
+    <prop id="PROP87" index="1" attached="Y">
+      <file>custom.ncc_hpsalt.swf</file>
+      <x>75.3443481</x>
+      <y>204.1</y>
+      <xscale>0.7739234</xscale>
+      <yscale>0.7739234</yscale>
+      <face>-1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP88" index="2" attached="Y">
+      <file>custom.msp_hospital_bed.msp_hospital_bed_hospital_bed_lower.swf</file>
+      <x>135.1</x>
+      <y>255.65</y>
+      <xscale>1.1163111</xscale>
+      <yscale>1.1163111</yscale>
+      <face>-1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP89" index="3" attached="Y">
+      <file>custom.msp_pillow02.msp_pillow02_ncc_pillow02_side.swf</file>
+      <x>71.7164594</x>
+      <y>229.3106048</y>
+      <xscale>0.6583767</xscale>
+      <yscale>0.5758077</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+      <color r="ccColorA">15329250</color>
+    </prop>
+    <prop id="PROP90" index="4" attached="Y">
+      <file>custom.msp_blanket01.msp_blanket01_ncc_blanket01_side_empty.swf</file>
+      <x>170.025</x>
+      <y>234.45</y>
+      <xscale>0.7255576</xscale>
+      <yscale>0.5796005</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+      <color r="ccColorA">12180468</color>
+    </prop>
+    <prop id="PROP91" index="5" attached="Y">
+      <file>custom.hospital_end_table.swf</file>
+      <x>269.375</x>
+      <y>255.75</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>-1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP92" index="6" attached="Y">
+      <file>custom.msp_capboard02.msp_capboard02_ncc_capboard02_side.swf</file>
+      <x>67.975</x>
+      <y>284.65</y>
+      <xscale>0.7629086</xscale>
+      <yscale>0.7629086</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+      <color r="ccColorA">15064528</color>
+    </prop>
+    <prop id="PROP93" index="7" attached="Y">
+      <file>custom.ncc_hpsalt.swf</file>
+      <x>570.4306519</x>
+      <y>204.075</y>
+      <xscale>0.7739234</xscale>
+      <yscale>0.7739234</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP94" index="8" attached="Y">
+      <file>custom.msp_hospital_bed.msp_hospital_bed_hospital_bed_lower.swf</file>
+      <x>461.35</x>
+      <y>255.65</y>
+      <xscale>1.1163111</xscale>
+      <yscale>1.1163111</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP95" index="9" attached="Y">
+      <file>custom.msp_pillow02.msp_pillow02_ncc_pillow02_side.swf</file>
+      <x>523.3664594</x>
+      <y>229.2606048</y>
+      <xscale>0.6583767</xscale>
+      <yscale>0.5758077</yscale>
+      <face>-1</face>
+      <rotation>0</rotation>
+      <color r="ccColorA">15329250</color>
+    </prop>
+    <prop id="PROP96" index="10" attached="Y">
+      <file>custom.msp_blanket01.msp_blanket01_ncc_blanket01_side_empty.swf</file>
+      <x>425.725</x>
+      <y>234.4</y>
+      <xscale>0.7255576</xscale>
+      <yscale>0.5796005</yscale>
+      <face>-1</face>
+      <rotation>0</rotation>
+      <color r="ccColorA">16633852</color>
+    </prop>
+    <prop id="PROP97" index="11" attached="Y">
+      <file>custom.hospital_end_table.swf</file>
+      <x>385.725</x>
+      <y>255.775</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP98" index="12" attached="Y">
+      <file>custom.msp_capboard02.msp_capboard02_ncc_capboard02_side.swf</file>
+      <x>565</x>
+      <y>284.6631454</y>
+      <xscale>0.7629086</xscale>
+      <yscale>0.7629086</yscale>
+      <face>-1</face>
+      <rotation>0</rotation>
+      <color r="ccColorA">15064528</color>
+    </prop>
+    <prop id="PROP103" index="13" attached="Y">
+      <file>custom.msp_hospital_bed.msp_hospital_bed_hospital_bed_lower.swf</file>
+      <x>654.65</x>
+      <y>310.05</y>
+      <xscale>1.1163111</xscale>
+      <yscale>1.1163111</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP104" index="14" attached="Y">
+      <file>custom.msp_pillow02.msp_pillow02_ncc_pillow02_side.swf</file>
+      <x>716.6664594</x>
+      <y>283.6606048</y>
+      <xscale>0.6583767</xscale>
+      <yscale>0.5758077</yscale>
+      <face>-1</face>
+      <rotation>0</rotation>
+      <color r="ccColorA">15329250</color>
+    </prop>
+    <prop id="PROP105" index="15" attached="Y">
+      <file>custom.msp_blanket01.msp_blanket01_ncc_blanket01_side_empty.swf</file>
+      <x>619.025</x>
+      <y>288.8</y>
+      <xscale>0.7255576</xscale>
+      <yscale>0.5796005</yscale>
+      <face>-1</face>
+      <rotation>0</rotation>
+      <color r="ccColorA">12180468</color>
+    </prop>
+    <prop id="PROP106" index="16" attached="Y">
+      <file>custom.hospital_end_table.swf</file>
+      <x>653.375</x>
+      <y>310.15</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+  </compositebg>
   <compositebg id="cbg_pub" name="Pub" enable="Y" default="N" thumb="pub.png" display_order="53" is_premium="N" money="" sharing="" aid="9813">
     <bg id="BG2" index="0">
       <file>custom.ncc_low.swf</file>
