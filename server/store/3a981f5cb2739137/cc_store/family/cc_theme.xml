@@ -768,6 +768,7 @@
   </facial>
   <bodyshape id="adam" name="Adam" default_action="stand" default_motion="walk" action_thumb="stand" facial_thumb="head_neutral" thumb_path="thumbnail.swf" enable="Y" tag="guy">
     <default_char xscale="1" yscale="1" hxscale="1" hyscale="1" headdx="0" headdy="0">
+	  <tag>_sticky_filter_guy</tag>
       <color r="ccSkinColor" oc="0xFFE1C4">0xFFCE95</color>
       <color r="ccEyeIris">0x0086D3</color>
       <color r="ccMouthLip">0xFFB0AB</color>
@@ -3083,6 +3084,7 @@
   </bodyshape>
   <bodyshape id="boy" name="Boy" default_action="stand" default_motion="walk" action_thumb="stand" facial_thumb="head_neutral" thumb_path="thumbnail.swf" enable="Y" tag="littleboy">
     <default_char xscale="0.7" yscale="0.7" hxscale="1.3" hyscale="1.3" headdx="0" headdy="0">
+	  <tag>_sticky_filter_littleguy</tag>
       <color r="ccSkinColor" oc="0xFFE1C4">0xFFCE95</color>
       <color r="ccEyeIris">0x0086D3</color>
       <color r="ccMouthLip">0xFFB0AB</color>
@@ -4942,6 +4944,7 @@
   </bodyshape>
   <bodyshape id="girl" name="Girl" default_action="stand" default_motion="walk" action_thumb="stand" facial_thumb="head_neutral" thumb_path="thumbnail.swf" enable="Y" tag="littlegirl">
     <default_char xscale="0.7" yscale="0.7" hxscale="1.3" hyscale="1.3" headdx="0" headdy="0">
+	  <tag>_sticky_filter_littlegirl</tag>
       <color r="ccSkinColor" oc="0xFFE1C4">0xFFCE95</color>
       <color r="ccEyeIris">0x0086D3</color>
       <color r="ccMouthLip">0xFFB0AB</color>
@@ -6725,6 +6728,7 @@
   </bodyshape>
   <bodyshape id="eve" name="Eve" default_action="stand" default_motion="walk" action_thumb="stand" facial_thumb="head_neutral" thumb_path="thumbnail.swf" enable="Y" tag="girl">
     <default_char xscale="1" yscale="1" hxscale="1" hyscale="1" headdx="0" headdy="0">
+	  <tag>_sticky_filter_girl</tag>
       <color r="ccSkinColor" oc="0xFFE1C4">0xFFCE95</color>
       <color r="ccEyeIris">0x0086D3</color>
       <color r="ccMouthLip">0xFFB0AB</color>
@@ -9447,6 +9451,7 @@
   </bodyshape>
   <bodyshape id="rocky" name="Rocky" default_action="stand" default_motion="walk" action_thumb="stand" facial_thumb="head_neutral" thumb_path="thumbnail.swf" enable="Y" tag="buff">
     <default_char xscale="1" yscale="1" hxscale="1" hyscale="1" headdx="0" headdy="0">
+	  <tag>_sticky_filter_buff</tag>
       <color r="ccSkinColor" oc="0xFFE1C4">0xFFCE95</color>
       <color r="ccEyeIris">0x0086D3</color>
       <color r="ccMouthLip">0xFFB0AB</color>
