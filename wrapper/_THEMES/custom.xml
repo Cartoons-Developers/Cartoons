@@ -4816,6 +4816,9 @@
     <tag>towel</tag>
 	<tag>washroom</tag>
   </prop>
+  <prop id="toy_train.swf" name="Toy Train" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9031" money="" sharing="">
+	<tag>cat:Others</tag>
+  </prop>
   <prop id="cc_road_block.swf" name="Traffic Barrier" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9045" money="" sharing="">
 	<tag>cat:Transport</tag>
 	<tag>barrier</tag>
