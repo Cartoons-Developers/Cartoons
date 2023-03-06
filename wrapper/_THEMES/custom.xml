@@ -2175,6 +2175,9 @@
 	<tag>balls</tag>
 	<tag>beach</tag>
   </prop>
+  <prop id="bear.swf" name="Bear" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="8966" money="" sharing="" >
+    <tag>cat:Animals</tag>
+  </prop>
   <prop id="msp_bed01" name="Bed" holdable="" placeable="1" wearable="" facing="left" thumb="msp_bed01_ncc_bed01_front.swf" enable="Y" is_premium="N" aid="10870" money="" sharing="">
     <state id="msp_bed01_ncc_bed01_front.swf" name="front" enable="Y" default="Y" />
     <state id="msp_bed01_ncc_bed01_side.swf" name="side" enable="Y" />
