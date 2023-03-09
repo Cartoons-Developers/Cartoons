@@ -2896,6 +2896,16 @@
 	<tag>currency</tag>
     <tag>money</tag>
   </prop>
+  <prop id="cola_bottle.swf" name="Cola Bottle" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="11858" money="" sharing="">
+	<tag>cat:Food and Drink</tag>
+	<tag>beverage</tag>
+	<tag>bottle</tag>
+	<tag>bottles</tag>
+	<tag>coke</tag>
+	<tag>drink</tag>
+	<tag>pop</tag>
+	<tag>soda</tag>
+  </prop>
   <prop id="office_keyboard.swf" name="Computer Keyboard" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="10663" money="" sharing="">
     <tag>cat:Technology</tag>
 	<tag>business</tag>
@@ -5023,6 +5033,13 @@
 	<tag>trash</tag>
 	<tag>waste</tag>
 	<tag>wasted</tag>
+  </prop>
+  <prop id="water_bottle.swf" name="Water Bottle" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="11858" money="" sharing="">
+	<tag>cat:Food and Drink</tag>
+	<tag>beverage</tag>
+	<tag>bottle</tag>
+	<tag>bottles</tag>
+	<tag>drink</tag>
   </prop>
   <prop id="glasses_03.swf" name="Whiskey" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="10636" money="" sharing="">
     <tag>cat:Food and Drink</tag>
