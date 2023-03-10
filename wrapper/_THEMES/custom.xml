@@ -2,6 +2,7 @@
 <theme id="custom" name="Comedy World" cc_theme_id="family">
   <background id="kids_bedroom.swf" name="Bedroom - Kids" enable="Y" default="N" is_premium="N" aid="9811" money="" sharing="" category="Locations" />
   <background id="car_backseat.swf" name="Car Backseat" enable="Y" default="N" is_premium="N" aid="9811" money="" sharing="" category="Locations" />
+  <background id="fast_food.swf" name="Fast Food" enable="Y" default="N" is_premium="N" aid="9811" money="" sharing="" category="Locations" />
   <background id="forest.swf" name="Forest" enable="Y" default="N" is_premium="N" aid="9811" money="" sharing="" category="Locations" />
   <background id="greenfield.swf" name="Greenfield" enable="Y" default="N" is_premium="N" aid="9811" money="" sharing="" category="Locations" />
   <background id="grass.swf" name="Greenfield" enable="Y" default="N" is_premium="N" aid="9811" money="" sharing="" category="Locations" />
@@ -558,6 +559,56 @@
       <yscale>0.5991542</yscale>
       <face>1</face>
       <rotation>-95.1056863</rotation>
+    </prop>
+  </compositebg>
+  <compositebg id="cbg_fast_food" name="Fast Food Restaurant" enable="Y" default="N" thumb="fast_food.png" display_order="39" is_premium="N" money="" sharing="" aid="9710">
+    <bg id="BG2" index="0">
+      <file>custom.fast_food.swf</file>
+    </bg>
+    <prop id="PROP0" index="3">
+      <file>custom.fast_food_sofa.swf</file>
+      <x>388.75</x>
+      <y>233.7</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP2" index="4">
+      <file>custom.fast_food_sofa.swf</file>
+      <x>554.4</x>
+      <y>233.675</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>-1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP3" index="5">
+      <file>custom.table.swf</file>
+      <x>471.3804124</x>
+      <y>241.975</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP4" index="2">
+      <file>custom.fast_food_counter.swf</file>
+      <x>230.3333333</x>
+      <y>216.7397159</y>
+      <xscale>0.4113625</xscale>
+      <yscale>0.4113625</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP6" index="1">
+      <file>custom.fast_food_counter.swf</file>
+      <x>47.5333333</x>
+      <y>216.8897159</y>
+      <xscale>0.4113625</xscale>
+      <yscale>0.4113625</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
     </prop>
   </compositebg>
   <compositebg id="cbg_frontyard" name="Frontyard" enable="Y" default="N" thumb="frontyard.png" display_order="39" is_premium="N" money="" sharing="" aid="9710">
@@ -2677,6 +2728,15 @@
 	<tag>payment</tag>
 	<tag>register</tag>
   </prop>
+  <prop id="fast_food_counter.swf" name="Cash Register" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="10626" money="" sharing="">
+    <tag>cat:Retail</tag>
+	<tag>cash</tag>
+	<tag>checkout</tag>
+	<tag>pay</tag>
+	<tag>paying</tag>
+	<tag>payment</tag>
+	<tag>register</tag>
+  </prop>
   <prop id="msp_cat" name="Cat" holdable="" placeable="1" wearable="" facing="left" thumb="msp_cat_cat_still.swf" enable="Y" is_premium="N" aid="9802" money="" sharing="">
     <state id="msp_cat_cat_still.swf" name="Still" enable="Y" default="Y" />
     <state id="msp_cat_cat_standing.swf" name="Standing" enable="Y" />
@@ -4555,6 +4615,14 @@
 	<tag>pop</tag>
 	<tag>soda</tag>
   </prop>
+  <prop id="soda_machine.swf" name="Soda Machine" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="11858" money="" sharing="">
+	<tag>cat:Food and Drink</tag>
+	<tag>beverage</tag>
+	<tag>coke</tag>
+	<tag>drink</tag>
+	<tag>pop</tag>
+	<tag>soda</tag>
+  </prop>
   <prop id="msp_sofa" name="Sofa" holdable="" placeable="1" wearable="" facing="left" thumb="msp_sofa_sofa_front.swf" enable="Y" is_premium="N" aid="9802" money="" sharing="">
     <state id="msp_sofa_sofa_front.swf" name="Front" enable="Y" default="Y" />
     <state id="msp_sofa_sofa_side.swf" name="Side" enable="Y" />
@@ -4583,6 +4651,13 @@
 	<tag>sofa</tag>
   </prop>
   <prop id="white_house_sofa.swf" name="Sofa" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="8966" money="" sharing="" >
+    <tag>cat:Furniture and Fixtures</tag>
+	<tag>chair</tag>
+	<tag>couch</tag>
+    <tag>furniture</tag>
+	<tag>sofa</tag>
+  </prop>
+  <prop id="fast_food_sofa.swf" name="Sofa" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="8966" money="" sharing="" >
     <tag>cat:Furniture and Fixtures</tag>
 	<tag>chair</tag>
 	<tag>couch</tag>
@@ -4705,6 +4780,12 @@
     <tag>wood</tag>
     <tag>wooden</tag>
     <tag>woods</tag>
+  </prop>
+  <prop id="table.swf" name="Table" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="11858" money="" sharing="">
+    <tag>cat:Furniture and Fixtures</tag>
+	<tag>furniture</tag>
+	<tag>table</tag>
+	<tag>tables</tag>
   </prop>
   <prop id="lamp_table.swf" name="Table Lamp" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="11858" money="" sharing="">
     <tag>cat:Furniture and Fixtures</tag>
