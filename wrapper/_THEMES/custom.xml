@@ -5462,7 +5462,7 @@
     <tags>family,_free,_cat:Other Professions,_tag:boot boots cap dungarees farmer goatee hat man male other overalls professions rancher,_sticky_filter_guy</tags>
   </char>
   <char id="242" name="Farmer" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
-    <tags>family,_free,_cat:Other Professions,_tag:boot boots dungarees farmer goatee man male other overalls professions rancher,_sticky_filter_guy</tags>
+    <tags>family,_free,_cat:Other Professions,_tag:boot boots dungarees farmer man male other overalls professions rancher,_sticky_filter_guy</tags>
   </char>
   <char id="189" name="Fast Food Worker" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
     <tags>family,_free,_cat:Catering,_tag:apron burger catering fast fastfood food kitchen man male restaurant worker,_sticky_filter_guy</tags>
