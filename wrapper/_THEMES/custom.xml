@@ -2139,6 +2139,13 @@
 	<tag>birthday</tag>
     <tag>decoration</tag>
   </prop>
+  <prop id="balloons.swf" name="Balloons" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="Y" aid="11151" money="" sharing="">
+    <tag>cat:Decorations</tag>
+	<tag>balloon</tag>
+	<tag>balloons</tag>
+	<tag>birthday</tag>
+    <tag>decoration</tag>
+  </prop>
   <prop id="ncc_wordbam01.swf" name="Bam!" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="12309" money="" sharing="">
     <tag>cat:Signs</tag>
 	<tag>bam</tag>
