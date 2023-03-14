@@ -2,6 +2,7 @@
 <theme id="custom" name="Comedy World" cc_theme_id="family">
   <background id="kids_bedroom.swf" name="Bedroom - Kids" enable="Y" default="N" is_premium="N" aid="9811" money="" sharing="" category="Locations" />
   <background id="car_backseat.swf" name="Car Backseat" enable="Y" default="N" is_premium="N" aid="9811" money="" sharing="" category="Locations" />
+  <background id="cemetery.swf" name="Cemetery" enable="Y" default="N" is_premium="N" aid="9811" money="" sharing="" category="Locations" />
   <background id="fast_food.swf" name="Fast Food" enable="Y" default="N" is_premium="N" aid="9811" money="" sharing="" category="Locations" />
   <background id="forest.swf" name="Forest" enable="Y" default="N" is_premium="N" aid="9811" money="" sharing="" category="Locations" />
   <background id="greenfield.swf" name="Greenfield" enable="Y" default="N" is_premium="N" aid="9811" money="" sharing="" category="Locations" />
