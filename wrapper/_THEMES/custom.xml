@@ -5532,6 +5532,15 @@
   <char id="121" name="Hiker" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
     <tags>family,_free,_cat:Casual,_tag:adventure boot boots casual hiker man male,_sticky_filter_guy</tags>
   </char>
+  <char id="243" name="Home Casual" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+    <tags>family,_free,_cat:Casual,_tag:casual domestic home homeware household male man,_sticky_filter_guy</tags>
+  </char>
+  <char id="244" name="Home Casual" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+    <tags>family,_free,_cat:Casual,_tag:casual domestic female home homeware household lady woman,_sticky_filter_girl</tags>
+  </char>
+  <char id="245" name="Home Casual" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+    <tags>family,_free,_cat:Casual,_tag:casual domestic female home homeware household lady woman,_sticky_filter_girl</tags>
+  </char>
   <char id="18" name="Hotel Porter" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
     <tags>family,_free,_cat:Travel,_tag:bellboy bellhop cap hat hotel inn man male porter travel,_sticky_filter_guy</tags>
   </char>
