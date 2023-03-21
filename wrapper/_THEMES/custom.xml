@@ -14,6 +14,7 @@
   <background id="neighborhood.swf" name="Neighborhood" enable="Y" default="N" is_premium="N" aid="11453" money="" sharing="" category="Locations" />
   <background id="neighborhood2.swf" name="Neighborhood" enable="Y" default="N" is_premium="N" aid="11453" money="" sharing="" category="Locations" />
   <background id="office.swf" name="Office" enable="Y" default="N" is_premium="N" aid="9811" money="" sharing="" category="Locations" />
+  <background id="parking_lot.swf" name="Parking Lot" enable="Y" default="N" is_premium="N" aid="9811" money="" sharing="" category="Locations" />
   <background id="white_house_bg.swf" name="President Office" enable="Y" default="N" is_premium="N" aid="9060" money="" sharing="" category="Locations" />
   <background id="wall12.swf" name="Room" enable="Y" default="N" is_premium="N" aid="11453" money="" sharing="" category="Locations" />
   <background id="space_sky.swf" name="Sky" enable="Y" default="N" is_premium="N" aid="9811" money="" sharing="" category="Locations" />
