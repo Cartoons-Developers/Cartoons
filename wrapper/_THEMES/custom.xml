@@ -2708,7 +2708,7 @@
 	<tag>veggie</tag>
 	<tag>veggies</tag>
   </prop>
-  <prop id="cancer.swf" name="Cancer" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="12108" money="" sharing="" handstyle="stick">
+  <prop id="cancer.swf" name="Cancer" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="12108" money="" sharing="" handstyle="stick">
     <tag>cat:Healthcare</tag>
     <tag>cancer</tag>
     <tag>disease</tag>
@@ -3045,10 +3045,10 @@
     <tag>crowd</tag>
     <tag>people</tag>
   </prop>
-  <prop id="cubicle_wall_back.swf" name="Cubicle Wall" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="11363" money="" sharing="">
+  <prop id="cubicle_wall_back.swf" name="Cubicle Wall" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="11363" money="" sharing="">
     <tag>cat:Office and School</tag>
   </prop>
-  <prop id="cubicle_wall_side.swf" name="Cubicle Wall" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="11363" money="" sharing="">
+  <prop id="cubicle_wall_side.swf" name="Cubicle Wall" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="11363" money="" sharing="">
     <tag>cat:Office and School</tag>
   </prop>
   <prop id="cup01.swf" name="Cup" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="11250" money="" sharing="" handstyle="flat">
@@ -4624,7 +4624,7 @@
 	<tag>pop</tag>
 	<tag>soda</tag>
   </prop>
-  <prop id="soda_machine.swf" name="Soda Machine" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="11858" money="" sharing="">
+  <prop id="soda_machine.swf" name="Soda Machine" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="11858" money="" sharing="">
 	<tag>cat:Food and Drink</tag>
 	<tag>beverage</tag>
 	<tag>coke</tag>
