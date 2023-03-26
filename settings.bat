@@ -13,7 +13,7 @@ SETLOCAL ENABLEDELAYEDEXPANSION
 pushd "%~dp0"
 if !errorlevel! NEQ 0 goto error_location
 if not exist utilities\config.bat ( goto error_location )
-if not exist start_Cartoons.bat ( goto error_location )
+if not exist start_cartoons.bat ( goto error_location )
 goto noerror_location
 :error_location
 echo Doesn't seem like this script is in the Cartoons folder.
@@ -226,6 +226,20 @@ if exist "server\characters\characters.zip" (
 		echo you can extract them here. They will still be compressed, just in separate files to be usable.
 		goto reaskoptionscreen
 	)
+)
+:: Rich presence
+if "!choice!"=="7" goto rpcchange
+if "!choice!"=="?7" (
+	echo By default, Discord rich presence is enabled.
+        echo:
+	echo It's used to show when you're using Wrapper: Offline
+        echo in your "Playing A Game" status on Discord, much like
+        echo how lots of modern computer games will show on your
+        echo Discord status when you're playing them.
+        echo:
+	echo Turning this off will make Offline stop saying
+        echo when you're using it on Discord.
+	goto reaskoptionscreen
 )
 :: Dev options
 if /i "!choice!"=="masterkey" (
