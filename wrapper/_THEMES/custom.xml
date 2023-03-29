@@ -2154,6 +2154,13 @@
 	<tag>effect</tag>
 	<tag>effects</tag>
   </prop>
+  <prop id="banana.swf" name="Banana" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="11858" money="" sharing="">
+    <tag>cat:Food and Drink</tag>
+	<tag>banana</tag>
+    <tag>food</tag>
+    <tag>fruit</tag>
+    <tag>fruits</tag>
+  </prop>
   <prop id="bathroom_sink.swf" name="Bathroom Sink" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="12309" money="" sharing="">
     <tag>cat:Furniture and Fixtures</tag>
 	<tag>bathroom</tag>
