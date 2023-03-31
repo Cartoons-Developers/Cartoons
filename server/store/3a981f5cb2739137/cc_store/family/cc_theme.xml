@@ -14006,6 +14006,12 @@
 	<tag>_sticky_filter_fatguy</tag>
 	<tag>_sticky_filter_buff</tag>
   </component>
+  <component type="mustache" id="horseshoe" path="horseshoe" name="horseshoe" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+    <state id="default" filename="default.swf" />
+	<tag>_sticky_filter_guy</tag>
+	<tag>_sticky_filter_fatguy</tag>
+	<tag>_sticky_filter_buff</tag>
+  </component>
   <component type="mustache" id="pencil" path="pencil" name="pencil" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
     <state id="default" filename="default.swf" />
 	<tag>_sticky_filter_guy</tag>
