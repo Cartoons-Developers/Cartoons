@@ -4123,7 +4123,7 @@
 	<tag>food</tag>
 	<tag>pizza</tag>
   </prop>
-  <prop id="plate.swf" name="Plate" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="11858" money="" sharing="">
+  <prop id="plate.swf" name="Plate" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="11858" money="" sharing="">
     <tag>cat:Kitchen</tag>
   </prop>
   <prop id="msp_ncc_bottle" name="Poison Bottle" holdable="" placeable="1" wearable="" facing="left" thumb="msp_ncc_bottle_ncc_hpbottle01.swf" enable="Y" is_premium="Y" aid="11261" money="" sharing="">
