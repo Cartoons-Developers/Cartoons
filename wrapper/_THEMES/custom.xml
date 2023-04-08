@@ -14,6 +14,7 @@
   <background id="neighborhood.swf" name="Neighborhood" enable="Y" default="N" is_premium="N" aid="11453" money="" sharing="" category="Locations" />
   <background id="neighborhood2.swf" name="Neighborhood" enable="Y" default="N" is_premium="N" aid="11453" money="" sharing="" category="Locations" />
   <background id="office.swf" name="Office" enable="Y" default="N" is_premium="N" aid="9811" money="" sharing="" category="Locations" />
+  <background id="office2.swf" name="Office" enable="Y" default="N" is_premium="N" aid="9811" money="" sharing="" category="Locations" />
   <background id="parking_lot.swf" name="Parking Lot" enable="Y" default="N" is_premium="N" aid="9811" money="" sharing="" category="Locations" />
   <background id="white_house_bg.swf" name="President Office" enable="Y" default="N" is_premium="N" aid="9060" money="" sharing="" category="Locations" />
   <background id="wall12.swf" name="Room" enable="Y" default="N" is_premium="N" aid="11453" money="" sharing="" category="Locations" />
@@ -1532,6 +1533,113 @@
       <color r="ccColorA">9781312</color>
     </prop>
   </compositebg>
+  <compositebg id="cbg_restaurant" name="Restaurant" enable="Y" default="N" thumb="restaurant.png" display_order="53" is_premium="N" money="" sharing="" aid="9813">
+    <bg id="BG2" index="0">
+      <file>custom.office2.swf</file>
+      <color r="Sky">3621967</color>
+      <color r="Wall">3355443</color>
+      <color r="Floor">6762296</color>
+    </bg>
+    <prop id="PROP0" index="1">
+      <file>custom.msp_curtain.msp_curtain_curtain_open.swf</file>
+      <x>389.3030864</x>
+      <y>174.3386213</y>
+      <xscale>0.5786529</xscale>
+      <yscale>0.4551497</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+      <color r="ccColorA">15194566</color>
+    </prop>
+    <prop id="PROP1" index="2">
+      <file>custom.ceiling_lamp2.swf</file>
+      <x>328.85</x>
+      <y>103.9093306</y>
+      <xscale>0.6267773</xscale>
+      <yscale>0.6267773</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP2" index="5">
+      <file>custom.ncc_table02.swf</file>
+      <x>225.7860421</x>
+      <y>265.5904059</y>
+      <xscale>0.6158125</xscale>
+      <yscale>0.6158125</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+      <color r="ccColorA">16514043</color>
+    </prop>
+    <prop id="PROP3" index="3">
+      <file>custom.msp_dining_chair.msp_dining_chair_dining_chair_side.swf</file>
+      <x>177.2824705</x>
+      <y>253.111356</y>
+      <xscale>0.5901953</xscale>
+      <yscale>0.5901953</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+      <color r="ccColorA">4271392</color>
+    </prop>
+    <prop id="PROP5" index="4">
+      <file>custom.msp_dining_chair.msp_dining_chair_dining_chair_side.swf</file>
+      <x>272.4140606</x>
+      <y>253.1323704</y>
+      <xscale>0.5901952</xscale>
+      <yscale>0.5901952</yscale>
+      <face>-1</face>
+      <rotation>0</rotation>
+      <color r="ccColorA">4271392</color>
+    </prop>
+    <prop id="PROP9" index="6">
+      <file>custom.msp_dining_chair.msp_dining_chair_dining_chair_side.swf</file>
+      <x>385.1841639</x>
+      <y>259.8950317</y>
+      <xscale>0.7850749</xscale>
+      <yscale>0.7850749</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+      <color r="ccColorA">4271392</color>
+    </prop>
+    <prop id="PROP10" index="7">
+      <file>custom.msp_dining_chair.msp_dining_chair_dining_chair_side.swf</file>
+      <x>511.7277316</x>
+      <y>259.922985</y>
+      <xscale>0.7850747</xscale>
+      <yscale>0.7850747</yscale>
+      <face>-1</face>
+      <rotation>0</rotation>
+      <color r="ccColorA">4271392</color>
+    </prop>
+    <prop id="PROP11" index="8">
+      <file>custom.ncc_table02.swf</file>
+      <x>449.7033734</x>
+      <y>276.4946018</y>
+      <xscale>0.8191507</xscale>
+      <yscale>0.8191507</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+      <color r="ccColorA">16514043</color>
+    </prop>
+    <prop id="PROP13" index="9">
+      <file>custom.msp_dining_chair.msp_dining_chair_dining_chair_side.swf</file>
+      <x>146.7566979</x>
+      <y>338.7629958</y>
+      <xscale>0.9131736</xscale>
+      <yscale>0.9131736</yscale>
+      <face>-1</face>
+      <rotation>0</rotation>
+      <color r="ccColorA">4271392</color>
+    </prop>
+    <prop id="PROP14" index="10">
+      <file>custom.ncc_table02.swf</file>
+      <x>74.6119628</x>
+      <y>358.0385666</y>
+      <xscale>0.9528097</xscale>
+      <yscale>0.9528097</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+      <color r="ccColorA">16514043</color>
+    </prop>
+  </compositebg>
   <compositebg id="cbg_school_ext" name="School" enable="Y" default="N" thumb="school.png" display_order="28" is_premium="N" money="" sharing="" aid="9612">
     <bg id="BG2" index="0">
       <file>custom.neighborhood2.swf</file>
@@ -2785,6 +2893,14 @@
 	<tag>lighting</tag>
 	<tag>lights</tag>
   </prop>
+  <prop id="ceiling_lamp2.swf" name="Ceiling Lamp" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="11752" money="" sharing="">
+    <tag>cat:Furniture and Fixtures</tag>
+	<tag>lamp</tag>
+	<tag>lampshade</tag>
+	<tag>light</tag>
+	<tag>lighting</tag>
+	<tag>lights</tag>
+  </prop>
   <prop id="msp_chair01" name="Chair" holdable="" placeable="1" wearable="" facing="left" thumb="msp_chair01_chair01_front.swf" enable="Y" is_premium="N" aid="10481" money="" sharing="">
     <state id="msp_chair01_chair01_front.swf" name="front" enable="Y" default="Y" />
     <state id="msp_chair01_chair01_side.swf" name="side" enable="Y" />
@@ -3080,6 +3196,11 @@
 	<tag>dessert</tag>
 	<tag>food</tag>
 	<tag>mug</tag>
+  </prop>
+  <prop id="msp_curtain" name="Curtain" holdable="" placeable="1" wearable="" facing="left" thumb="msp_curtain_curtain_open.swf" enable="Y" is_premium="N" aid="10852" money="" sharing="">
+    <state id="msp_curtain_curtain_open.swf" name="open" enable="Y" default="Y" />
+    <state id="msp_curtain_curtain_closed.swf" name="closed" enable="Y" />
+	<tag>cat:Furniture and Fixtures</tag>
   </prop>
   <prop id="msp_stage_dec02" name="Decoration" holdable="" placeable="1" wearable="" facing="left" thumb="msp_stage_dec02_ncc_stage_dec02_off.swf" enable="Y" is_premium="N" aid="10852" money="" sharing="">
     <state id="msp_stage_dec02_ncc_stage_dec02_off.swf" name="off" enable="Y" default="Y" />
