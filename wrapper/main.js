@@ -23,9 +23,9 @@ rpc.on("ready", () => {
 		details: "Version " + version +", build " + build,
 		startTimestamp: new Date(),
 		largeImageKey: "icon",
-		largeImageText: "Wrapper: Offline",
-		smallImageKey: "Wrapper: Offline",
-		smallImagetext: "Wrapper: Offline",
+		largeImageText: "Cartoons",
+		smallImageKey: "Cartoons",
+		smallImagetext: "Cartoons",
 	});
 	// Logs "Rich presence is on!" in the console
 	console.log("Rich presence is on!")
