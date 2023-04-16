@@ -4097,7 +4097,7 @@
     <tag>fruit</tag>
 	<tag>orange</tag>
   </prop>
-  <prop id="orange_slice.swf" name="Orange" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="11858" money="" sharing="">
+  <prop id="orange_slice.swf" name="Orange" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="11858" money="" sharing="">
     <tag>cat:Food and Drink</tag>
 	<tag>food</tag>
     <tag>fruit</tag>
