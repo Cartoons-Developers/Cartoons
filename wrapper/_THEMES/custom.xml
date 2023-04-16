@@ -3932,14 +3932,11 @@
 	<tag>glasses</tag>
 	<tag>drink</tag>
   </prop>
-  <prop id="msp_monitor" name="Monitor" holdable="" placeable="1" wearable="" facing="left" thumb="msp_monitor_monitor_front.swf" enable="Y" is_premium="N" aid="10543" money="" sharing="">
-    <state id="msp_monitor_monitor_front.swf" name="front" enable="Y" default="Y"/>
-    <state id="msp_monitor_monitor_front_empty.swf" name="front transparent" enable="Y"/>
-    <state id="msp_monitor_monitor_back.swf" name="back" enable="Y"/>
-	<tag>cat:Technology</tag>
-	<tag>business</tag>
-	<tag>computer</tag>
-	<tag>office</tag>
+  <prop id="mint_leaves.swf" name="Mint Leaves" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9021" money="" sharing="">
+	<tag>cat:Food and Drink</tag>
+  </prop>
+  <prop id="mint_lemonade.swf" name="Mint Lemonade" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9021" money="" sharing="">
+	<tag>cat:Food and Drink</tag>
   </prop>
   <prop id="mirror.swf" name="Mirror" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="12075" money="" sharing="">
     <tag>cat:Furniture and Fixtures</tag>
@@ -3969,6 +3966,15 @@
 	<tag>currencies</tag>
 	<tag>currency</tag>
     <tag>money</tag>
+  </prop>
+  <prop id="msp_monitor" name="Monitor" holdable="" placeable="1" wearable="" facing="left" thumb="msp_monitor_monitor_front.swf" enable="Y" is_premium="N" aid="10543" money="" sharing="">
+    <state id="msp_monitor_monitor_front.swf" name="front" enable="Y" default="Y"/>
+    <state id="msp_monitor_monitor_front_empty.swf" name="front transparent" enable="Y"/>
+    <state id="msp_monitor_monitor_back.swf" name="back" enable="Y"/>
+	<tag>cat:Technology</tag>
+	<tag>business</tag>
+	<tag>computer</tag>
+	<tag>office</tag>
   </prop>
   <prop id="msp_moon01" name="Moon" holdable="" placeable="1" wearable="" facing="left" thumb="msp_moon01_ncc_moon_full.swf" enable="Y" is_premium="N" aid="11043" money="" sharing="">
     <state id="msp_moon01_ncc_moon_full.swf" name="full" enable="Y" default="Y" />
@@ -4086,6 +4092,12 @@
 	<tag>rings</tag>
   </prop>
   <prop id="ncc_03orange.swf" name="Orange" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="11858" money="" sharing="">
+    <tag>cat:Food and Drink</tag>
+	<tag>food</tag>
+    <tag>fruit</tag>
+	<tag>orange</tag>
+  </prop>
+  <prop id="orange_slice.swf" name="Orange" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="11858" money="" sharing="">
     <tag>cat:Food and Drink</tag>
 	<tag>food</tag>
     <tag>fruit</tag>
