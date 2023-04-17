@@ -3661,6 +3661,11 @@
 	<tag>food</tag>
 	<tag>ice</tag>
   </prop>
+  <prop id="iced_chocolate.swf" name="Iced Chocolate" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9021" money="" sharing="">
+	<tag>cat:Food and Drink</tag>
+	<tag>beverage</tag>
+	<tag>drink</tag>
+  </prop>
   <prop id="msp_restroom_icon" name="Icon - Restroom" holdable="" placeable="1" wearable="" facing="left" thumb="msp_restroom_icon_male.swf" enable="Y" is_premium="N" aid="10925" money="" sharing="">
     <state id="msp_restroom_icon_male.swf" name="Male" enable="Y" default="Y" />
     <state id="msp_restroom_icon_female.swf" name="Female" enable="Y" />
@@ -3885,6 +3890,9 @@
 	<tag>planet</tag>
 	<tag>planets</tag>
 	<tag>space</tag>
+  </prop>
+  <prop id="mashed_potato.swf" name="Mashed Potato" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9021" money="" sharing="">
+	<tag>cat:Food and Drink</tag>
   </prop>
   <prop id="ncc_russian_toy01_still.swf" name="Matryoshka Doll" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9019" money="" sharing="">
     <tag>cat:Decorations</tag>
