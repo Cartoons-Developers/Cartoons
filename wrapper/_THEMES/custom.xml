@@ -3824,6 +3824,11 @@
     <tag>lawn</tag>
     <tag>yard</tag>
   </prop>
+  <prop id="msp_lemon" name="Lemon" holdable="" placeable="1" wearable="" facing="left" thumb="msp_lemon_lemon_whole.swf" enable="Y" is_premium="N" aid="10626" money="" sharing="">
+    <state id="msp_lemon_lemon_whole.swf" name="Whole" enable="Y" default="Y" />
+    <state id="msp_lemon_lemon_piece.swf" name="Slice" enable="Y" />
+    <tag>cat:Food and Drink</tag>
+  </prop>
   <prop id="msp_organ_liver" name="Liver" holdable="" placeable="1" wearable="" facing="left" thumb="msp_organ_liver_healthy.swf" enable="Y" is_premium="N" aid="10626" money="" sharing="">
     <state id="msp_organ_liver_healthy.swf" name="Healthy" enable="Y" default="Y" />
     <state id="msp_organ_liver_sick.swf" name="Sick" enable="Y" />
