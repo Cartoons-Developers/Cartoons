@@ -3136,6 +3136,9 @@
 	<tag>barn</tag>
 	<tag>farm</tag>
   </prop>
+  <prop id="whipped_cream.swf" name="Cream" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="10636" money="" sharing="">
+    <tag>cat:Food and Drink</tag>
+  </prop>
   <prop id="creepy_tree.swf" name="Creepy Tree" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="12198" money="" sharing="">
     <tag>cat:Nature</tag>
 	<tag>dead</tag>
@@ -3938,6 +3941,11 @@
 	<tag>beverage</tag>
 	<tag>glass</tag>
 	<tag>glasses</tag>
+	<tag>drink</tag>
+  </prop>
+  <prop id="milkshake.swf" name="Milkshake" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9021" money="" sharing="">
+	<tag>cat:Food and Drink</tag>
+	<tag>beverage</tag>
 	<tag>drink</tag>
   </prop>
   <prop id="mint_leaves.swf" name="Mint Leaves" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9021" money="" sharing="">
