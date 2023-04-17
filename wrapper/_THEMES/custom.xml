@@ -3345,6 +3345,9 @@
 	<tag>drink</tag>
 	<tag>soda</tag>
   </prop>
+  <prop id="drinking_straw.swf" name="Drinking Straw" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="10924" money="" sharing="" handstyle="flat">
+	<tag>cat:Food and Drink</tag>
+  </prop>
   <prop id="driveway.swf" name="Driveway" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9019" money="" sharing="">
     <tag>cat:Transport</tag>
   </prop>
