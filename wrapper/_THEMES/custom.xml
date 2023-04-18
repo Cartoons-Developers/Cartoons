@@ -5811,6 +5811,9 @@
   <char id="236" name="Kid - Bunny Ears" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
     <tags>family,_free,_cat:Holidays and Costumes,_tag:bunny easter child children child children female girl kid kids,_sticky_filter_littlegirl</tags>
   </char>
+  <char id="246" name="Knight" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+    <tags>family,_free,_cat:Holidays and Costumes,_tag:armor costume costumes helmet holiday holidays hols knight man male,_sticky_filter_guy</tags>
+  </char>
   <char id="171" name="Magician" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
     <tags>family,_free,_cat:Holidays and Costumes,_tag:child children costume costumes female girl hat kid kids magic magician pigtails,_sticky_filter_littlegirl</tags>
   </char>

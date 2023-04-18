@@ -1537,6 +1537,18 @@
         <state id="walk" filename="walk.swf"/>
 	<tag>_sticky_filter_guy</tag>
     </component>
+    <component type="lower_body" id="adam_knight" path="adam_knight" name="adam_knight" thumb="thumbnail.swf" display_order="190" money="0" sharing="0" enable="Y">
+        <state id="dance" filename="dance.swf"/>
+        <state id="default" filename="default.swf"/>
+        <state id="excited" filename="excited.swf"/>
+        <state id="fearful" filename="fearful.swf"/>
+        <state id="kneel_down" filename="kneel_down.swf"/>
+        <state id="laugh" filename="laugh.swf"/>
+        <state id="run" filename="run.swf"/>
+        <state id="sit" filename="sit.swf"/>
+        <state id="walk" filename="walk.swf"/>
+	<tag>_sticky_filter_guy</tag>
+    </component>
     <component type="lower_body" id="adam_skeleton" path="adam_skeleton" name="adam_skeleton" thumb="thumbnail.swf" display_order="190" money="0" sharing="0" enable="N">
         <state id="dance" filename="dance.swf"/>
         <state id="default" filename="default.swf"/>
@@ -3781,6 +3793,18 @@
         <state id="walk" filename="walk.swf"/>
 	<tag>_sticky_filter_littleguy</tag>
     </component>
+    <component type="lower_body" id="adam_knight" path="adam_knight" name="adam_knight" thumb="thumbnail.swf" display_order="190" money="0" sharing="0" enable="Y">
+        <state id="dance" filename="dance.swf"/>
+        <state id="default" filename="default.swf"/>
+        <state id="excited" filename="excited.swf"/>
+        <state id="fearful" filename="fearful.swf"/>
+        <state id="kneel_down" filename="kneel_down.swf"/>
+        <state id="laugh" filename="laugh.swf"/>
+        <state id="run" filename="run.swf"/>
+        <state id="sit" filename="sit.swf"/>
+        <state id="walk" filename="walk.swf"/>
+	<tag>_sticky_filter_littleguy</tag>
+    </component>
     <component type="upper_body" id="adam_005" path="adam_005" name="adam_005" thumb="thumbnail.swf" display_order="40" money="0" sharing="0" enable="Y">
       <state id="chuckle" filename="chuckle.swf" />
       <state id="crossed_arms" filename="crossed_arms.swf" />
@@ -5674,6 +5698,18 @@
 	<tag>_sticky_filter_littlegirl</tag>
     </component>
     <component type="lower_body" id="adam_firefighter" path="adam_firefighter" name="adam_firefighter" thumb="thumbnail.swf" display_order="190" money="0" sharing="0" enable="Y">
+        <state id="dance" filename="dance.swf"/>
+        <state id="default" filename="default.swf"/>
+        <state id="excited" filename="excited.swf"/>
+        <state id="fearful" filename="fearful.swf"/>
+        <state id="kneel_down" filename="kneel_down.swf"/>
+        <state id="laugh" filename="laugh.swf"/>
+        <state id="run" filename="run.swf"/>
+        <state id="sit" filename="sit.swf"/>
+        <state id="walk" filename="walk.swf"/>
+	<tag>_sticky_filter_littlegirl</tag>
+    </component>
+    <component type="lower_body" id="adam_knight" path="adam_knight" name="adam_knight" thumb="thumbnail.swf" display_order="190" money="0" sharing="0" enable="Y">
         <state id="dance" filename="dance.swf"/>
         <state id="default" filename="default.swf"/>
         <state id="excited" filename="excited.swf"/>
