@@ -5598,6 +5598,21 @@
   <char id="241" name="Casual" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
     <tags>family,_free,_cat:Casual,_tag:casual man male overalls,_sticky_filter_guy</tags>
   </char>
+  <char id="247" name="Casual" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+    <tags>family,_free,_cat:Casual,_tag:big casual female lady large woman,_sticky_filter_fatgirl</tags>
+  </char>
+  <char id="248" name="Casual" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+    <tags>family,_free,_cat:Casual,_tag:casual man male,_sticky_filter_guy</tags>
+  </char>
+  <char id="249" name="Casual" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+    <tags>family,_free,_cat:Casual,_tag:casual female lady woman,_sticky_filter_girl</tags>
+  </char>
+  <char id="250" name="Casual" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+    <tags>family,_free,_cat:Casual,_tag:casual female lady woman,_sticky_filter_girl</tags>
+  </char>
+  <char id="251" name="Casual" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+    <tags>family,_free,_cat:Casual,_tag:cap casual hat headset man male,_sticky_filter_guy</tags>
+  </char>
   <char id="128" name="Casual Sports" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
     <tags>family,_free,_cat:Casual,_tag:casual dreadlock dreadlocks dreads exercise female fitness gym jog jogging jogger lady run runner running woman,_sticky_filter_girl</tags>
   </char>
