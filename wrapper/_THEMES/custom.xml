@@ -5950,7 +5950,7 @@
     <tags>family,_free,_cat:Office,_tag:business earring earrings female lady office turban woman worker,_sticky_filter_girl</tags>
   </char>
   <char id="206" name="Office Worker" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
-    <tags>family,_free,_cat:Office,_tag:academy academic business college education glasses man male office student worker,_sticky_filter_guy</tags>
+    <tags>family,_free,_cat:Office,_tag:academy academic business casual college education glasses man male office student worker,_sticky_filter_guy</tags>
   </char>
   <char id="207" name="Office Worker" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
     <tags>family,_free,_cat:Office,_tag:business female lady office woman worker,_sticky_filter_girl</tags>
