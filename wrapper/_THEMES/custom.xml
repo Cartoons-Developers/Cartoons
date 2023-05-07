@@ -4949,6 +4949,9 @@
     <tag>weapon</tag>
 	<tag>weapons</tag>
   </prop>
+  <prop id="tshirt.swf" name="T-Shirt" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="11858" money="" sharing="">
+    <tag>cat:Retail</tag>
+  </prop>
   <prop id="msp_dining_table" name="Table" holdable="" placeable="1" wearable="" facing="left" thumb="msp_dining_table_dining_table_front.swf" enable="Y" is_premium="N" aid="10502" money="" sharing="">
     <state id="msp_dining_table_dining_table_front.swf" name="front" enable="Y" default="Y" />
     <state id="msp_dining_table_dining_table_side.swf" name="side" enable="Y" />
