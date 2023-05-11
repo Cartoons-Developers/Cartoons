@@ -3055,6 +3055,7 @@
   </prop>
   <prop id="coin_gold.swf" name="Coin" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="12248" money="" sharing="">
     <tag>cat:Money and Finance</tag>
+	<tag>affluence</tag>
 	<tag>bank</tag>
 	<tag>banking</tag>
 	<tag>coin</tag>
@@ -3365,11 +3366,15 @@
   </prop>
   <prop id="planets_earth.swf" name="Earth" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="10886" money="" sharing="">
     <tag>cat:Space</tag>
+	<tag>academy</tag>
+    <tag>academic</tag>
 	<tag>astronomy</tag>
 	<tag>earth</tag>
 	<tag>globe</tag>
 	<tag>planet</tag>
 	<tag>planets</tag>
+    <tag>school</tag>
+    <tag>schooling</tag>
 	<tag>space</tag>
 	<tag>world</tag>
   </prop>
@@ -3721,9 +3726,13 @@
   </prop>
   <prop id="planets_jupiter.swf" name="Jupiter" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="10886" money="" sharing="">
     <tag>cat:Space</tag>
+	<tag>academy</tag>
+    <tag>academic</tag>
 	<tag>astronomy</tag>
 	<tag>planet</tag>
 	<tag>planets</tag>
+    <tag>school</tag>
+    <tag>schooling</tag>
 	<tag>space</tag>
   </prop>
   <prop id="katana.swf" name="Katana" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="3342" money="" sharing="" handstyle="stick">
@@ -3886,9 +3895,13 @@
   </prop>
   <prop id="planets_mars.swf" name="Mars" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="10886" money="" sharing="">
     <tag>cat:Space</tag>
+	<tag>academy</tag>
+    <tag>academic</tag>
 	<tag>astronomy</tag>
 	<tag>planet</tag>
 	<tag>planets</tag>
+    <tag>school</tag>
+    <tag>schooling</tag>
 	<tag>space</tag>
   </prop>
   <prop id="mashed_potato.swf" name="Mashed Potato" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9021" money="" sharing="">
@@ -3913,9 +3926,13 @@
   </prop>
   <prop id="planets_mercury.swf" name="Mercury" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="10886" money="" sharing="">
     <tag>cat:Space</tag>
+	<tag>academy</tag>
+    <tag>academic</tag>
 	<tag>astronomy</tag>
 	<tag>planet</tag>
 	<tag>planets</tag>
+    <tag>school</tag>
+    <tag>schooling</tag>
 	<tag>space</tag>
   </prop>
   <prop id="cc_microphone.swf" name="Microphone" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9019" money="" sharing="">
@@ -4027,10 +4044,14 @@
   </prop>
   <prop id="planets_neptune.swf" name="Neptune" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="10886" money="" sharing="">
     <tag>cat:Space</tag>
+	<tag>academy</tag>
+    <tag>academic</tag>
 	<tag>astronomy</tag>
 	<tag>neptune</tag>
 	<tag>planet</tag>
 	<tag>planets</tag>
+    <tag>school</tag>
+    <tag>schooling</tag>
 	<tag>space</tag>
   </prop>
   <prop id="cc_memo.swf" name="Note" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9196" money="" sharing="">
@@ -4476,9 +4497,13 @@
   </prop>
   <prop id="planets_saturn.swf" name="Saturn" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="10886" money="" sharing="">
     <tag>cat:Space</tag>
+	<tag>academy</tag>
+    <tag>academic</tag>
 	<tag>astronomy</tag>
 	<tag>planet</tag>
 	<tag>planets</tag>
+    <tag>school</tag>
+    <tag>schooling</tag>
 	<tag>space</tag>
   </prop>
   <prop id="cc_saw.swf" name="Saw" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9025" money="" sharing="">
@@ -5214,9 +5239,13 @@
   </prop>
   <prop id="planets_uranus.swf" name="Uranus" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="10886" money="" sharing="">
     <tag>cat:Space</tag>
+	<tag>academy</tag>
+    <tag>academic</tag>
 	<tag>astronomy</tag>
 	<tag>planet</tag>
 	<tag>planets</tag>
+    <tag>school</tag>
+    <tag>schooling</tag>
 	<tag>space</tag>
 	<tag>uranus</tag>
   </prop>
@@ -5243,9 +5272,13 @@
   </prop>
   <prop id="planets_venus.swf" name="Venus" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="10886" money="" sharing="">
     <tag>cat:Space</tag>
+	<tag>academy</tag>
+    <tag>academic</tag>
 	<tag>astronomy</tag>
 	<tag>planet</tag>
 	<tag>planets</tag>
+    <tag>school</tag>
+    <tag>schooling</tag>
 	<tag>space</tag>
 	<tag>venus</tag>
   </prop>
@@ -5677,10 +5710,10 @@
     <tags>family,_free,_cat:Other Professions,_tag:boot boots dungarees farmer man male other overalls professions rancher,_sticky_filter_guy</tags>
   </char>
   <char id="189" name="Fast Food Worker" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
-    <tags>family,_free,_cat:Catering,_tag:apron burger catering fast fastfood food kitchen man male restaurant worker,_sticky_filter_guy</tags>
+    <tags>family,_free,_cat:Catering,_tag:abattoir apron burger catering fast fastfood food kitchen man male restaurant worker,_sticky_filter_guy</tags>
   </char>
   <char id="191" name="Fast Food Worker" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
-    <tags>family,_free,_cat:Catering,_tag:apron burger catering fast fastfood food kitchen man male restaurant worker,_sticky_filter_guy</tags>
+    <tags>family,_free,_cat:Catering,_tag:abattoir apron burger catering fast fastfood food kitchen man male restaurant worker,_sticky_filter_guy</tags>
   </char>
   <char id="118" name="Fedora" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
     <tags>family,_free,_cat:Casual,_tag:casual cap fedora man male,_sticky_filter_guy</tags>
