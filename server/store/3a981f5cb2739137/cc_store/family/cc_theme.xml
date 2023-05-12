@@ -2853,26 +2853,6 @@
       <state id="walk" filename="walk.swf" />
 	<tag>_sticky_filter_guy</tag>
     </component>
-    <component type="upper_body" id="adam_a008" path="adam_a008" name="adam_a008" thumb="thumbnail.swf" display_order="200" money="0" sharing="0" enable="Y">
-      <state id="chuckle" filename="chuckle.swf" />
-      <state id="crossed_arms" filename="crossed_arms.swf" />
-      <state id="dance" filename="dance.swf" />
-      <state id="default" filename="default.swf" />
-      <state id="excited" filename="excited.swf" />
-      <state id="fearful" filename="fearful.swf" />
-      <state id="kneel_down" filename="kneel_down.swf" />
-      <state id="laugh" filename="laugh.swf" />
-      <state id="lie_down" filename="lie_down.swf" />
-      <state id="point_at" filename="point_at.swf" />
-      <state id="run" filename="run.swf" />
-      <state id="sad" filename="sad.swf" />
-      <state id="sit" filename="sit.swf" />
-      <state id="talk" filename="talk.swf" />
-      <state id="talk_on_phone" filename="talk_on_phone.swf" />
-      <state id="taunt" filename="taunt.swf" />
-      <state id="walk" filename="walk.swf" />
-	<tag>_sticky_filter_guy</tag>
-    </component>
     <component type="upper_body" id="adam_a009" path="adam_a009" name="adam_a009" thumb="thumbnail.swf" display_order="210" money="0" sharing="0" enable="Y">
       <state id="chuckle" filename="chuckle.swf" />
       <state id="crossed_arms" filename="crossed_arms.swf" />
@@ -2914,26 +2894,6 @@
 	<tag>_sticky_filter_guy</tag>
     </component>
     <component type="upper_body" id="adam_a011" path="adam_a011" name="adam_a011" thumb="thumbnail.swf" display_order="220" money="0" sharing="0" enable="Y">
-      <state id="chuckle" filename="chuckle.swf" />
-      <state id="crossed_arms" filename="crossed_arms.swf" />
-      <state id="dance" filename="dance.swf" />
-      <state id="default" filename="default.swf" />
-      <state id="excited" filename="excited.swf" />
-      <state id="fearful" filename="fearful.swf" />
-      <state id="kneel_down" filename="kneel_down.swf" />
-      <state id="laugh" filename="laugh.swf" />
-      <state id="lie_down" filename="lie_down.swf" />
-      <state id="point_at" filename="point_at.swf" />
-      <state id="run" filename="run.swf" />
-      <state id="sad" filename="sad.swf" />
-      <state id="sit" filename="sit.swf" />
-      <state id="talk" filename="talk.swf" />
-      <state id="talk_on_phone" filename="talk_on_phone.swf" />
-      <state id="taunt" filename="taunt.swf" />
-      <state id="walk" filename="walk.swf" />
-	<tag>_sticky_filter_guy</tag>
-    </component>
-    <component type="upper_body" id="adam_a012" path="adam_a012" name="adam_a012" thumb="thumbnail.swf" display_order="230" money="0" sharing="0" enable="Y">
       <state id="chuckle" filename="chuckle.swf" />
       <state id="crossed_arms" filename="crossed_arms.swf" />
       <state id="dance" filename="dance.swf" />
@@ -13227,22 +13187,6 @@
 	<tag>_sticky_filter_fatgirl</tag>
 	<tag>_sticky_filter_buff</tag>
   </component>
-  <component type="facedecoration" id="002" path="002" name="002" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
-    <state id="default" filename="default.swf" />
-	<tag>_sticky_filter_guy</tag>
-	<tag>_sticky_filter_girl</tag>
-	<tag>_sticky_filter_fatguy</tag>
-	<tag>_sticky_filter_fatgirl</tag>
-	<tag>_sticky_filter_buff</tag>
-  </component>
-  <component type="facedecoration" id="010" path="010" name="010" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
-    <state id="default" filename="default.swf" />
-	<tag>_sticky_filter_guy</tag>
-	<tag>_sticky_filter_girl</tag>
-	<tag>_sticky_filter_fatguy</tag>
-	<tag>_sticky_filter_fatgirl</tag>
-	<tag>_sticky_filter_buff</tag>
-  </component>
   <component type="facedecoration" id="008" path="008" name="008" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
     <state id="default" filename="default.swf" />
 	<tag>_sticky_filter_guy</tag>
@@ -13409,26 +13353,6 @@
 	<tag>_sticky_filter_fatgirl</tag>
 	<tag>_sticky_filter_buff</tag>
   </component>
-  <component type="facedecoration" id="024" path="024" name="024" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
-    <state id="default" filename="default.swf" />
-	<tag>_sticky_filter_guy</tag>
-	<tag>_sticky_filter_girl</tag>
-	<tag>_sticky_filter_littleguy</tag>
-	<tag>_sticky_filter_littlegirl</tag>
-	<tag>_sticky_filter_fatguy</tag>
-	<tag>_sticky_filter_fatgirl</tag>
-	<tag>_sticky_filter_buff</tag>
-  </component>
-  <component type="facedecoration" id="025" path="025" name="025" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
-    <state id="default" filename="default.swf" />
-	<tag>_sticky_filter_guy</tag>
-	<tag>_sticky_filter_girl</tag>
-	<tag>_sticky_filter_littleguy</tag>
-	<tag>_sticky_filter_littlegirl</tag>
-	<tag>_sticky_filter_fatguy</tag>
-	<tag>_sticky_filter_fatgirl</tag>
-	<tag>_sticky_filter_buff</tag>
-  </component>
   <component type="facedecoration" id="026" path="026" name="026" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
     <state id="default" filename="default.swf" />
 	<tag>_sticky_filter_guy</tag>
@@ -13448,22 +13372,6 @@
 	<tag>_sticky_filter_buff</tag>
   </component>
   <component type="facedecoration" id="028" path="028" name="028" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
-    <state id="default" filename="default.swf" />
-	<tag>_sticky_filter_guy</tag>
-	<tag>_sticky_filter_girl</tag>
-	<tag>_sticky_filter_fatguy</tag>
-	<tag>_sticky_filter_fatgirl</tag>
-	<tag>_sticky_filter_buff</tag>
-  </component>
-  <component type="facedecoration" id="029" path="029" name="029" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
-    <state id="default" filename="default.swf" />
-	<tag>_sticky_filter_guy</tag>
-	<tag>_sticky_filter_girl</tag>
-	<tag>_sticky_filter_fatguy</tag>
-	<tag>_sticky_filter_fatgirl</tag>
-	<tag>_sticky_filter_buff</tag>
-  </component>
-  <component type="facedecoration" id="030" path="030" name="030" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
     <state id="default" filename="default.swf" />
 	<tag>_sticky_filter_guy</tag>
 	<tag>_sticky_filter_girl</tag>
