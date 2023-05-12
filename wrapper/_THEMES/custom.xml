@@ -5661,6 +5661,15 @@
   <char id="256" name="Casual" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
     <tags>family,_free,_cat:Casual,_tag:casual female lady woman,_sticky_filter_girl</tags>
   </char>
+  <char id="257" name="Casual" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+    <tags>family,_free,_cat:Casual,_tag:casual female lady woman,_sticky_filter_girl</tags>
+  </char>
+  <char id="258" name="Casual" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+    <tags>family,_free,_cat:Casual,_tag:casual female lady scarf woman,_sticky_filter_girl</tags>
+  </char>
+  <char id="259" name="Casual" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+    <tags>family,_free,_cat:Casual,_tag:casual man male ponytail,_sticky_filter_guy</tags>
+  </char>
   <char id="128" name="Casual Sports" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
     <tags>family,_free,_cat:Casual,_tag:casual dreadlock dreadlocks dreads exercise female fitness gym jog jogging jogger lady run runner running woman,_sticky_filter_girl</tags>
   </char>
@@ -6005,6 +6014,9 @@
   </char>
   <char id="232" name="Office Worker" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
     <tags>family,_free,_cat:Office,_tag:big business female lady large office woman worker,_sticky_filter_fatgirl</tags>
+  </char>
+  <char id="260" name="Office Worker" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+    <tags>family,_free,_cat:Office,_tag:business glasses man male office worker,_sticky_filter_guy</tags>
   </char>
   <char id="75" name="Pajamas" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
     <tags>family,_free,_cat:Casual,_tag:asleep bedroom domestic home homeware household man male pajama pajamas pj pjs pyjama pyjamas sleep sleeping sleepy,_sticky_filter_guy</tags>
