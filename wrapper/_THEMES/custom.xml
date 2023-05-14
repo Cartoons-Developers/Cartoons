@@ -5670,6 +5670,18 @@
   <char id="259" name="Casual" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
     <tags>family,_free,_cat:Casual,_tag:casual man male ponytail,_sticky_filter_guy</tags>
   </char>
+  <char id="261" name="Casual - Pride Month" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+    <tags>family,_free,_cat:Casual,_tag:casual glasses lgbt lgbtq man male month pride rainbow,_sticky_filter_guy</tags>
+  </char>
+  <char id="262" name="Casual - Pride Month" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+    <tags>family,_free,_cat:Casual,_tag:casual female glasses lgbt lgbtq lady month pride rainbow woman,_sticky_filter_girl</tags>
+  </char>
+  <char id="263" name="Casual - Pride Month" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+    <tags>family,_free,_cat:Casual,_tag:cap casual female hat lgbt lgbtq lady month pride rainbow woman,_sticky_filter_girl</tags>
+  </char>
+  <char id="264" name="Casual - Pride Month" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+    <tags>family,_free,_cat:Casual,_tag:casual lgbt lgbtq man male month ponytail pride rainbow,_sticky_filter_guy</tags>
+  </char>
   <char id="128" name="Casual Sports" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
     <tags>family,_free,_cat:Casual,_tag:casual dreadlock dreadlocks dreads exercise female fitness gym jog jogging jogger lady run runner running woman,_sticky_filter_girl</tags>
   </char>
