@@ -2,13 +2,14 @@
 var json;
 var tbody = document.getElementsByTagName('tbody')[0];
 var loadMore = document.getElementById('load_more');
+var searchBar = document.getElementById('search_bar');
 const listReq = new XMLHttpRequest();
 listReq.open('GET', '/movieList');
 listReq.send();
 
 var C = 0;
 function loadRows() {
-	let c = C; C += 69;
+	let c = C; C += 50;
 	for (; c < C; c++) {
 		if (c > json.length - 1) {
 			loadMore.remove();
@@ -28,6 +29,14 @@ listReq.onreadystatechange = function (e) {
 	json = JSON.parse(listReq.responseText);
 	loadRows();
 }
+
+		searchBar.on("input", () => {
+			searchTerm = searchBar.val();
+			tbody.html("");
+			C = 0;
+			loadMore.show();
+			loadRows();
+		});
 
 function popup(id) {
 	window.open('/player?movieId=' + id, 'MsgWindow', 'width=1280,height=723,left=' + (screen.width / 2 - 640) + ',top=' + (screen.height / 2 - 360));
