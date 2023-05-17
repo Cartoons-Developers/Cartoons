@@ -6,7 +6,7 @@
 check for updates
 */
 function checkForUpdates() {
-	$.get("/api/settings/get_updates")
+   $.get("/api/settings/get_updates")
 		.done((res) => {
 			if (res.updates_available) {
 				const go = confirm("Updates are available! Would you like to visit the release page?");
