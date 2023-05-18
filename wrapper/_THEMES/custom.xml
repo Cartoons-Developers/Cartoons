@@ -5436,9 +5436,6 @@
   <char id="162" name="Adventurer" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
     <tags>family,_free,_cat:Holidays and Costumes,_tag:adventure adventurer bob child children costumes female hiker holidays girl kid kids,_sticky_filter_littlegirl</tags>
   </char>
-  <char id="225" name="Amputee" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
-    <tags>family,_free,_cat:Healthcare,_tag:amputee casual healthcare jacket man male,_sticky_filter_guy</tags>
-  </char>
   <char id="154" name="Baseball Fielder" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
     <tags>family,_free,_cat:Sports,_tag:athlete baseball cap fielder hat jersey man male,_sticky_filter_guy</tags>
   </char>
@@ -5669,6 +5666,9 @@
   </char>
   <char id="259" name="Casual" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
     <tags>family,_free,_cat:Casual,_tag:casual man male ponytail,_sticky_filter_guy</tags>
+  </char>
+  <char id="225" name="Casual" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+    <tags>family,_free,_cat:Healthcare,_tag:amputee casual healthcare jacket man male,_sticky_filter_guy</tags>
   </char>
   <char id="261" name="Casual - Pride Month" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
     <tags>family,_free,_cat:Casual,_tag:casual glasses lgbt lgbtq man male month pride rainbow,_sticky_filter_guy</tags>
