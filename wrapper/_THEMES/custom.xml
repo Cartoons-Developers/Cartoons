@@ -2352,6 +2352,10 @@
   </prop>
   <prop id="bear.swf" name="Bear" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="8966" money="" sharing="" >
     <tag>cat:Animals</tag>
+	<tag>animal</tag>
+    <tag>animals</tag>
+    <tag>bear</tag>
+    <tag>bears</tag>
   </prop>
   <prop id="msp_bed01" name="Bed" holdable="" placeable="1" wearable="" facing="left" thumb="msp_bed01_ncc_bed01_front.swf" enable="Y" is_premium="N" aid="10870" money="" sharing="">
     <state id="msp_bed01_ncc_bed01_front.swf" name="front" enable="Y" default="Y" />
@@ -2359,6 +2363,7 @@
 	<tag>cat:Furniture and Fixtures</tag>
 	<tag>asleep</tag>
     <tag>bed</tag>
+    <tag>bedding</tag>
     <tag>bedroom</tag>
     <tag>beds</tag>
     <tag>furniture</tag>
@@ -2372,6 +2377,7 @@
 	<tag>cat:Furniture and Fixtures</tag>
 	<tag>asleep</tag>
     <tag>bed</tag>
+    <tag>bedding</tag>
     <tag>bedroom</tag>
     <tag>beds</tag>
     <tag>furniture</tag>
@@ -2423,6 +2429,7 @@
     </c_parts>
     <tag>cat:Travel and Tourism</tag>
 	<tag>adventure</tag>
+	<tag>adventures</tag>
     <tag>binoculars</tag>
     <tag>observation</tag>
     <tag>observe</tag>
@@ -2474,6 +2481,7 @@
 	<tag>cat:Others</tag>
 	<tag>asleep</tag>
     <tag>bed</tag>
+    <tag>bedding</tag>
     <tag>bedroom</tag>
     <tag>beds</tag>
     <tag>blanket</tag>
@@ -2493,6 +2501,7 @@
 	<tag>cat:Others</tag>
 	<tag>asleep</tag>
     <tag>bed</tag>
+    <tag>bedding</tag>
     <tag>bedroom</tag>
     <tag>beds</tag>
     <tag>blanket</tag>
@@ -2557,12 +2566,8 @@
   </prop>
   <prop id="bottle.swf" name="Bottle" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9033" money="" sharing="">
     <tag>cat:Food and Drink</tag>
-	<tag>alcohol</tag>
-	<tag>beverage</tag>
-	<tag>booze</tag>
 	<tag>bottle</tag>
 	<tag>bottles</tag>
-	<tag>drink</tag>
 	<tag>glass</tag>
 	<tag>glasses</tag>
   </prop>
@@ -2589,6 +2594,7 @@
   </prop>
   <prop id="organ_brain.swf" name="Brain" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="12108" money="" sharing="" handstyle="stick">
     <tag>cat:Healthcare</tag>
+    <tag>anatomy</tag>
     <tag>brain</tag>
     <tag>health</tag>
     <tag>healthcare</tag>
@@ -2638,6 +2644,7 @@
 	<tag>cat:Furniture and Fixtures</tag>
 	<tag>asleep</tag>
     <tag>bed</tag>
+    <tag>bedding</tag>
     <tag>bedroom</tag>
     <tag>beds</tag>
     <tag>jail</tag>
@@ -3334,6 +3341,7 @@
     <state id="msp_capboard01_ncc_capboard01_side.swf" name="side" enable="Y" default="Y" />
     <state id="msp_capboard01_ncc_capboard01_front.swf" name="front" enable="Y" />
     <tag>cat:Furniture and Fixtures</tag>
+    <tag>bedroom</tag>
 	<tag>dresser</tag>
     <tag>furniture</tag>
   </prop>
@@ -3351,9 +3359,11 @@
   </prop>
   <prop id="drinking_straw.swf" name="Drinking Straw" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="10924" money="" sharing="" handstyle="flat">
 	<tag>cat:Food and Drink</tag>
+	<tag>beverage</tag>
   </prop>
   <prop id="driveway.swf" name="Driveway" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9019" money="" sharing="">
     <tag>cat:Transport</tag>
+	<tag>asphalt</tag>
   </prop>
   <prop id="ncc_revodrum.swf" name="Drum" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="11926" money="" sharing="">
     <tag>cat:Others</tag>
@@ -3391,9 +3401,12 @@
     <state id="msp_capboard02_ncc_capboard02_side.swf" name="side" enable="Y" default="Y"/>
     <state id="msp_capboard02_ncc_capboard02_front.swf" name="front" enable="Y"/>
     <tag>cat:Furniture and Fixtures</tag>
+    <tag>bedroom</tag>
+    <tag>bedside</tag>
   </prop>
   <prop id="hospital_end_table.swf" name="End Table" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9027" money="" sharing="">
     <tag>cat:Healthcare</tag>
+    <tag>bedside</tag>
 	<tag>healthcare</tag>
 	<tag>medical</tag>
   </prop>
@@ -3592,6 +3605,7 @@
     <state id="msp_organ_heart_healthy.swf" name="Healthy" enable="Y" default="Y" />
     <state id="msp_organ_heart_sick.swf" name="Sick" enable="Y" />
     <tag>cat:Healthcare</tag>
+    <tag>anatomy</tag>
     <tag>health</tag>
     <tag>healthcare</tag>
     <tag>heart</tag>
@@ -3604,6 +3618,9 @@
     <state id="msp_hospital_bed_hospital_bed_lower.swf" name="Default" enable="Y" default="Y" />
     <state id="msp_hospital_bed_hospital_bed_raise.swf" name="Raised" enable="Y" />
     <tag>cat:Healthcare</tag>
+    <tag>bed</tag>
+    <tag>bedding</tag>
+    <tag>beds</tag>
     <tag>health</tag>
     <tag>healthcare</tag>
 	<tag>medical</tag>
@@ -3680,6 +3697,7 @@
     <state id="msp_organ_intestines_healthy.swf" name="Healthy" enable="Y" default="Y" />
     <state id="msp_organ_intestines_sick.swf" name="Sick" enable="Y" />
     <tag>cat:Healthcare</tag>
+    <tag>anatomy</tag>
     <tag>health</tag>
     <tag>healthcare</tag>
     <tag>intestine</tag>
@@ -3737,6 +3755,9 @@
   </prop>
   <prop id="katana.swf" name="Katana" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="3342" money="" sharing="" handstyle="stick">
     <tag>cat:Others</tag>
+	<tag>attack</tag>
+	<tag>attacked</tag>
+	<tag>attack</tag>
 	<tag>sharp</tag>
 	<tag>sword</tag>
 	<tag>weapon</tag>
@@ -3753,6 +3774,7 @@
     <state id="msp_organ_kidneys_healthy.swf" name="Healthy" enable="Y" default="Y" />
     <state id="msp_organ_kidneys_sick.swf" name="Sick" enable="Y" />
     <tag>cat:Healthcare</tag>
+    <tag>anatomy</tag>
     <tag>health</tag>
     <tag>healthcare</tag>
     <tag>kidney</tag>
@@ -3836,6 +3858,7 @@
   </prop>
   <prop id="cc_foldchair.swf" name="Lawn Chair" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9041" money="" sharing="">
     <tag>cat:Furniture and Fixtures</tag>
+	<tag>backyard</tag>
 	<tag>chair</tag>
     <tag>furniture</tag>
     <tag>lawn</tag>
@@ -3850,6 +3873,7 @@
     <state id="msp_organ_liver_healthy.swf" name="Healthy" enable="Y" default="Y" />
     <state id="msp_organ_liver_sick.swf" name="Sick" enable="Y" />
     <tag>cat:Healthcare</tag>
+    <tag>anatomy</tag>
     <tag>health</tag>
     <tag>healthcare</tag>
 	<tag>liver</tag>
@@ -3876,6 +3900,7 @@
     <state id="msp_organ_lungs_healthy.swf" name="Healthy" enable="Y" default="Y" />
     <state id="msp_organ_lungs_sick.swf" name="Sick" enable="Y" />
     <tag>cat:Healthcare</tag>
+    <tag>anatomy</tag>
     <tag>health</tag>
     <tag>healthcare</tag>
 	<tag>lung</tag>
@@ -3978,6 +4003,10 @@
   </prop>
   <prop id="mint_lemonade.swf" name="Mint Lemonade" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9021" money="" sharing="">
 	<tag>cat:Food and Drink</tag>
+	<tag>beverage</tag>
+	<tag>drink</tag>
+	<tag>glass</tag>
+	<tag>glasses</tag>
   </prop>
   <prop id="mirror.swf" name="Mirror" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="12075" money="" sharing="">
     <tag>cat:Furniture and Fixtures</tag>
@@ -4268,6 +4297,7 @@
 	<tag>cat:Others</tag>
 	<tag>asleep</tag>
     <tag>bed</tag>
+    <tag>bedding</tag>
     <tag>bedroom</tag>
     <tag>beds</tag>
     <tag>sleep</tag>
@@ -4412,6 +4442,7 @@
   </prop>
   <prop id="razor.swf" name="Razor" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="11379" money="" sharing="">
     <tag>cat:Others</tag>
+	<tag>beard</tag>
 	<tag>razor</tag>
 	<tag>shave</tag>
 	<tag>shaver</tag>
@@ -4441,6 +4472,7 @@
     <state id="msp_road01_road02.swf" name="Pedestrian crossing" enable="Y" />
     <state id="msp_road01_road03.swf" name="no lane" enable="Y" />
     <tag>cat:Transport</tag>
+	<tag>asphalt</tag>
 	<tag>cities</tag>
     <tag>city</tag>
     <tag>civic</tag>
@@ -4690,6 +4722,7 @@
     <state id="msp_organ_spleen_healthy.swf" name="Healthy" enable="Y" default="Y" />
     <state id="msp_organ_spleen_sick.swf" name="Sick" enable="Y" />
     <tag>cat:Healthcare</tag>
+    <tag>anatomy</tag>
     <tag>health</tag>
     <tag>healthcare</tag>
 	<tag>medical</tag>
@@ -4898,6 +4931,7 @@
     <state id="msp_organ_stomach_healthy.swf" name="Healthy" enable="Y" default="Y" />
     <state id="msp_organ_stomach_sick.swf" name="Sick" enable="Y" />
     <tag>cat:Healthcare</tag>
+    <tag>anatomy</tag>
     <tag>health</tag>
     <tag>healthcare</tag>
 	<tag>medical</tag>
@@ -4939,6 +4973,10 @@
   </prop>
   <prop id="teddy_bear.swf" name="Stuffed Bear" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="8966" money="" sharing="" >
     <tag>cat:Retail</tag>
+	<tag>animal</tag>
+    <tag>animals</tag>
+    <tag>bear</tag>
+    <tag>bears</tag>
   </prop>
   <prop id="ncc_sun.swf" name="Sun" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="11047" money="" sharing="">
     <tag>cat:Space</tag>
@@ -4967,6 +5005,9 @@
   </prop>
   <prop id="ncc_02pirate_sword.swf" name="Sword" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="Y" aid="12393" money="" sharing="" handstyle="stick">
     <tag>cat:Others</tag>
+	<tag>attack</tag>
+	<tag>attacked</tag>
+	<tag>attacking</tag>
 	<tag>battle</tag>
 	<tag>pirate</tag>
 	<tag>sharp</tag>
@@ -5017,6 +5058,7 @@
   </prop>
   <prop id="ncc_03mexicoroll.swf" name="Taco" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="11858" money="" sharing="">
     <tag>cat:Food and Drink</tag>
+	<tag>beef</tag>
 	<tag>food</tag>
 	<tag>veg</tag>
 	<tag>vege</tag>
@@ -5156,6 +5198,7 @@
   </prop>
   <prop id="ncc_03treasuremap.swf" name="Treasure Map" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="10522" money="" sharing="">
     <tag>cat:Maps</tag>
+	<tag>atlas</tag>
 	<tag>map</tag>
 	<tag>maps</tag>
 	<tag>paper</tag>
@@ -5414,6 +5457,7 @@
   <prop id="fences.swf" name="Wooden Fence" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="10534" money="" sharing="">
     <tag>cat:Buildings and Structures</tag>
 	<tag>agriculture</tag>
+	<tag>backyard</tag>
 	<tag>courtyard</tag>
     <tag>fence</tag>
     <tag>lawn</tag>
@@ -5434,7 +5478,7 @@
     <tag>yogurt</tag>
   </prop>
   <char id="162" name="Adventurer" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
-    <tags>family,_free,_cat:Holidays and Costumes,_tag:adventure adventurer bob child children costumes female hiker holidays girl kid kids,_sticky_filter_littlegirl</tags>
+    <tags>family,_free,_cat:Holidays and Costumes,_tag:adventure adventurer adventures bob child children costumes female hiker holidays girl kid kids,_sticky_filter_littlegirl</tags>
   </char>
   <char id="154" name="Baseball Fielder" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
     <tags>family,_free,_cat:Sports,_tag:athlete baseball cap fielder hat jersey man male,_sticky_filter_guy</tags>
@@ -5779,13 +5823,13 @@
     <tags>family,_free,_cat:Casual,_tag:casual female headscarf hijab lady woman,_sticky_filter_girl</tags>
   </char>
   <char id="119" name="Hiker" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
-    <tags>family,_free,_cat:Casual,_tag:adventure casual female hiker lady woman,_sticky_filter_girl</tags>
+    <tags>family,_free,_cat:Casual,_tag:adventure adventures casual female hiker lady woman,_sticky_filter_girl</tags>
   </char>
   <char id="120" name="Hiker" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
-    <tags>family,_free,_cat:Casual,_tag:adventure casual female headscarf hijab hiker lady woman,_sticky_filter_girl</tags>
+    <tags>family,_free,_cat:Casual,_tag:adventure adventures casual female headscarf hijab hiker lady woman,_sticky_filter_girl</tags>
   </char>
   <char id="121" name="Hiker" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
-    <tags>family,_free,_cat:Casual,_tag:adventure boot boots casual hiker man male,_sticky_filter_guy</tags>
+    <tags>family,_free,_cat:Casual,_tag:adventure adventures boot boots casual hiker man male,_sticky_filter_guy</tags>
   </char>
   <char id="243" name="Home Casual" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
     <tags>family,_free,_cat:Casual,_tag:casual domestic home homeware household male man,_sticky_filter_guy</tags>
