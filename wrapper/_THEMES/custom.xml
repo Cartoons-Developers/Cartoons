@@ -2228,7 +2228,8 @@
     <state id="msp_armchair_armchair_side.swf" name="Side" enable="Y" />
     <tag>cat:Furniture and Fixtures</tag>
 	<tag>armchair</tag>
-    <tag>chair</tag>
+	<tag>chair</tag>
+	<tag>chairs</tag>
 	<tag>couch</tag>
     <tag>furniture</tag>
   </prop>
@@ -2247,6 +2248,8 @@
 	<tag>balloon</tag>
 	<tag>balloons</tag>
 	<tag>birthday</tag>
+	<tag>centerpiece</tag>
+	<tag>centrepiece</tag>
     <tag>decoration</tag>
   </prop>
   <prop id="balloons.swf" name="Balloons" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="Y" aid="11151" money="" sharing="">
@@ -2254,6 +2257,8 @@
 	<tag>balloon</tag>
 	<tag>balloons</tag>
 	<tag>birthday</tag>
+	<tag>centerpiece</tag>
+	<tag>centrepiece</tag>
     <tag>decoration</tag>
   </prop>
   <prop id="ncc_wordbam01.swf" name="Bam!" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="12309" money="" sharing="">
@@ -2595,6 +2600,7 @@
   <prop id="organ_brain.swf" name="Brain" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="12108" money="" sharing="" handstyle="stick">
     <tag>cat:Healthcare</tag>
     <tag>anatomy</tag>
+    <tag>body</tag>
     <tag>brain</tag>
     <tag>health</tag>
     <tag>healthcare</tag>
@@ -2788,6 +2794,7 @@
     <tag>cars</tag>
     <tag>cities</tag>
     <tag>city</tag>
+    <tag>cityscape</tag>
     <tag>civic</tag>
 	<tag>transport</tag>
 	<tag>transportation</tag>
@@ -2799,9 +2806,8 @@
 	<tag>automobile</tag>
     <tag>car</tag>
     <tag>cars</tag>
-    <tag>cities</tag>
-    <tag>city</tag>
-    <tag>civic</tag>
+	<tag>chair</tag>
+	<tag>chairs</tag>
     <tag>vehicle</tag>
     <tag>vehicles</tag>
   </prop>
@@ -2810,9 +2816,8 @@
 	<tag>automobile</tag>
     <tag>car</tag>
     <tag>cars</tag>
-    <tag>cities</tag>
-    <tag>city</tag>
-    <tag>civic</tag>
+	<tag>chair</tag>
+	<tag>chairs</tag>
 	<tag>transport</tag>
 	<tag>transportation</tag>
     <tag>vehicle</tag>
@@ -2894,6 +2899,7 @@
   </prop>
   <prop id="ceiling_lamp.swf" name="Ceiling Lamp" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="11752" money="" sharing="">
     <tag>cat:Furniture and Fixtures</tag>
+	<tag>ceiling</tag>
 	<tag>lamp</tag>
 	<tag>lampshade</tag>
 	<tag>light</tag>
@@ -2902,6 +2908,7 @@
   </prop>
   <prop id="ceiling_lamp2.swf" name="Ceiling Lamp" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="11752" money="" sharing="">
     <tag>cat:Furniture and Fixtures</tag>
+	<tag>ceiling</tag>
 	<tag>lamp</tag>
 	<tag>lampshade</tag>
 	<tag>light</tag>
@@ -2913,6 +2920,7 @@
     <state id="msp_chair01_chair01_side.swf" name="side" enable="Y" />
     <tag>cat:Furniture and Fixtures</tag>
 	<tag>chair</tag>
+	<tag>chairs</tag>
     <tag>furniture</tag>
     <tag>wood</tag>
     <tag>wooden</tag>
@@ -2923,6 +2931,7 @@
     <state id="msp_dining_chair_dining_chair_side.swf" name="side" enable="Y" />
     <tag>cat:Furniture and Fixtures</tag>
 	<tag>chair</tag>
+	<tag>chairs</tag>
     <tag>furniture</tag>
     <tag>wood</tag>
     <tag>wooden</tag>
@@ -2933,6 +2942,7 @@
     <state id="msp_crmchair_ncc_crmchair_side.swf" name="side" enable="Y" default="Y" />
     <tag>cat:Furniture and Fixtures</tag>
 	<tag>chair</tag>
+	<tag>chairs</tag>
     <tag>furniture</tag>
     <tag>wood</tag>
     <tag>wooden</tag>
@@ -2949,6 +2959,7 @@
 	<tag>approve</tag>
     <tag>approved</tag>
     <tag>check</tag>
+    <tag>checking</tag>
     <tag>checkmark</tag>
     <tag>correct</tag>
 	<tag>score</tag>
@@ -2996,6 +3007,8 @@
       <c_area oc="">ccColorB</c_area>
     </c_parts>
     <tag>cat:Decorations</tag>
+	<tag>centerpiece</tag>
+	<tag>centrepiece</tag>
 	<tag>christmas</tag>
 	<tag>pine</tag>
 	<tag>plant</tag>
@@ -3004,10 +3017,14 @@
   </prop>
   <prop id="cutting_board.swf" name="Chopping Board" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9034" money="" sharing="">
     <tag>cat:Kitchen</tag>
+	<tag>board</tag>
+	<tag>boarding</tag>
+	<tag>chopping</tag>
   </prop>
   <prop id="nccxmas_church.swf" name="Church" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="11546" money="" sharing="">
     <tag>cat:Buildings and Structures</tag>
 	<tag>building</tag>
+	<tag>chapel</tag>
 	<tag>church</tag>
   </prop>
   <prop id="msp_clock" name="Clock" holdable="" placeable="1" wearable="" facing="left" thumb="msp_clock_cc_clock_move.swf" enable="Y" is_premium="N" aid="9153" money="" sharing="">
@@ -3051,6 +3068,7 @@
   <prop id="cc_coffin.swf" name="Coffin" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9039" money="" sharing="">
     <tag>cat:Others</tag>
 	<tag>bury</tag>
+	<tag>cemetery</tag>
 	<tag>coffin</tag>
 	<tag>dead</tag>
 	<tag>death</tag>
@@ -3089,7 +3107,6 @@
 	<tag>affluence</tag>
 	<tag>bank</tag>
 	<tag>banking</tag>
-    <tag>bronze</tag>
 	<tag>coin</tag>
 	<tag>coins</tag>
 	<tag>currencies</tag>
@@ -3152,6 +3169,7 @@
 	<tag>dead</tag>
 	<tag>death</tag>
 	<tag>died</tag>
+	<tag>cemetery</tag>
 	<tag>creepy</tag>
 	<tag>funeral</tag>
 	<tag>nature</tag>
@@ -3218,6 +3236,8 @@
     <state id="msp_stage_dec02_ncc_stage_dec02_on.swf" name="on" enable="Y" />
 	<tag>cat:Others</tag>
 	<tag>audio</tag>
+	<tag>centerpiece</tag>
+	<tag>centrepiece</tag>
     <tag>decoration</tag>
     <tag>sound</tag>
   </prop>
@@ -3226,6 +3246,8 @@
     <state id="msp_stage_dec03_ncc_stage_dec03_on.swf" name="on" enable="Y" />
  	<tag>cat:Others</tag>
 	<tag>audio</tag>
+	<tag>centerpiece</tag>
+	<tag>centrepiece</tag>
     <tag>decoration</tag>
     <tag>sound</tag>
   </prop>
@@ -3437,6 +3459,8 @@
   </prop>
   <prop id="kitchen_fork.swf" name="Fork" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9022" money="" sharing="">
 	<tag>cat:Kitchen</tag>
+	<tag>chew</tag>
+	<tag>chewing</tag>
 	<tag>cutlery</tag>
 	<tag>kitchen</tag>
 	<tag>tableware</tag>
@@ -3606,6 +3630,7 @@
     <state id="msp_organ_heart_sick.swf" name="Sick" enable="Y" />
     <tag>cat:Healthcare</tag>
     <tag>anatomy</tag>
+    <tag>body</tag>
     <tag>health</tag>
     <tag>healthcare</tag>
     <tag>heart</tag>
@@ -3698,6 +3723,7 @@
     <state id="msp_organ_intestines_sick.swf" name="Sick" enable="Y" />
     <tag>cat:Healthcare</tag>
     <tag>anatomy</tag>
+    <tag>body</tag>
     <tag>health</tag>
     <tag>healthcare</tag>
     <tag>intestine</tag>
@@ -3755,9 +3781,8 @@
   </prop>
   <prop id="katana.swf" name="Katana" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="3342" money="" sharing="" handstyle="stick">
     <tag>cat:Others</tag>
-	<tag>attack</tag>
-	<tag>attacked</tag>
-	<tag>attack</tag>
+	<tag>blade</tag>
+	<tag>blades</tag>
 	<tag>sharp</tag>
 	<tag>sword</tag>
 	<tag>weapon</tag>
@@ -3765,6 +3790,8 @@
   </prop>
   <prop id="katana_in_sheath.swf" name="Katana" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="3343" money="" sharing="" handstyle="stick">
     <tag>cat:Others</tag>
+	<tag>blade</tag>
+	<tag>blades</tag>
 	<tag>sharp</tag>
 	<tag>sword</tag>
 	<tag>weapon</tag>
@@ -3775,6 +3802,7 @@
     <state id="msp_organ_kidneys_sick.swf" name="Sick" enable="Y" />
     <tag>cat:Healthcare</tag>
     <tag>anatomy</tag>
+    <tag>body</tag>
     <tag>health</tag>
     <tag>healthcare</tag>
     <tag>kidney</tag>
@@ -3808,6 +3836,10 @@
   </prop>
   <prop id="kitchen_knife.swf" name="Knife" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9022" money="" sharing="">
 	<tag>cat:Kitchen</tag>
+	<tag>blade</tag>
+	<tag>blades</tag>
+	<tag>chop</tag>
+	<tag>chopping</tag>
 	<tag>cook</tag>
 	<tag>cooked</tag>
 	<tag>cooking</tag>
@@ -3823,6 +3855,8 @@
   </prop>
   <prop id="knife_stand.swf" name="Knives Stand" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9022" money="" sharing="">
 	<tag>cat:Kitchen</tag>
+	<tag>chop</tag>
+	<tag>chopping</tag>
 	<tag>cook</tag>
 	<tag>cooked</tag>
 	<tag>cooking</tag>
@@ -3860,6 +3894,7 @@
     <tag>cat:Furniture and Fixtures</tag>
 	<tag>backyard</tag>
 	<tag>chair</tag>
+	<tag>chairs</tag>
     <tag>furniture</tag>
     <tag>lawn</tag>
     <tag>yard</tag>
@@ -3874,6 +3909,7 @@
     <state id="msp_organ_liver_sick.swf" name="Sick" enable="Y" />
     <tag>cat:Healthcare</tag>
     <tag>anatomy</tag>
+    <tag>body</tag>
     <tag>health</tag>
     <tag>healthcare</tag>
 	<tag>liver</tag>
@@ -3884,6 +3920,7 @@
   <prop id="ncc_long_chair02.swf" name="Long Chair" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="10822" money="" sharing="">
     <tag>cat:Furniture and Fixtures</tag>
 	<tag>chair</tag>
+	<tag>chairs</tag>
     <tag>furniture</tag>
   </prop>
   <prop id="msp_sllocker" name="Locker" holdable="" placeable="1" wearable="" facing="left" thumb="msp_sllocker_ncc_sllocker01.swf" enable="Y" is_premium="Y" aid="11331" money="" sharing="">
@@ -3892,6 +3929,7 @@
     <tag>cat:Office and School</tag>
 	<tag>academy</tag>
     <tag>academic</tag>
+    <tag>changing</tag>
     <tag>corridor</tag>
     <tag>school</tag>
     <tag>schooling</tag>
@@ -3901,6 +3939,7 @@
     <state id="msp_organ_lungs_sick.swf" name="Sick" enable="Y" />
     <tag>cat:Healthcare</tag>
     <tag>anatomy</tag>
+    <tag>body</tag>
     <tag>health</tag>
     <tag>healthcare</tag>
 	<tag>lung</tag>
@@ -4060,6 +4099,7 @@
 	<tag>blast</tag>
 	<tag>blasting</tag>
 	<tag>bomb</tag>
+	<tag>boom</tag>
 	<tag>explode</tag>
 	<tag>exploding</tag>
 	<tag>explosion</tag>
@@ -4183,6 +4223,7 @@
   <prop id="ncc_gbseat.swf" name="Ottoman" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="11743" money="" sharing="">
     <tag>cat:Furniture and Fixtures</tag>
 	<tag>chair</tag>
+	<tag>chairs</tag>
     <tag>furniture</tag>
 	<tag>ottoman</tag>
     <tag>stool</tag>
@@ -4244,6 +4285,9 @@
 	<tag>art</tag>
 	<tag>arts</tag>
 	<tag>artwork</tag>
+	<tag>bubble</tag>
+	<tag>bubbles</tag>
+	<tag>bubbling</tag>
     <tag>paint</tag>
     <tag>painting</tag>
     <tag>picture</tag>
@@ -4400,6 +4444,7 @@
   <prop id="white_house_chair.swf" name="President's Chair" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="8966" money="" sharing="" >
     <tag>cat:Furniture and Fixtures</tag>
 	<tag>chair</tag>
+	<tag>chairs</tag>
 	<tag>furniture</tag>
 	<tag>president's</tag>
 	<tag>office</tag>
@@ -4504,6 +4549,7 @@
   </prop>
   <prop id="table_round.swf" name="Round Table" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="10502" money="" sharing="">
     <tag>cat:Furniture and Fixtures</tag>
+	<tag>circular</tag>
 	<tag>furniture</tag>
 	<tag>round</tag>
 	<tag>table</tag>
@@ -4614,6 +4660,7 @@
     <tag>cat:Buildings and Structures</tag>
     <tag>building</tag>
     <tag>buildings</tag>
+    <tag>city</tag>
     <tag>silhouette</tag>
     <tag>silhouettes</tag>
     <tag>skyline</tag>
@@ -4723,6 +4770,7 @@
     <state id="msp_organ_spleen_sick.swf" name="Sick" enable="Y" />
     <tag>cat:Healthcare</tag>
     <tag>anatomy</tag>
+    <tag>body</tag>
     <tag>health</tag>
     <tag>healthcare</tag>
 	<tag>medical</tag>
@@ -4758,7 +4806,9 @@
     <state id="msp_iphone_ncc_03iphone_onside.swf" name="side - on" enable="Y" />
     <state id="msp_iphone_ncc_03iphone_side.swf" name="side" enable="Y" />
     <tag>cat:Technology</tag>
+	<tag>cell</tag>
 	<tag>cellphone</tag>
+	<tag>cellular</tag>
 	<tag>iphone</tag>
 	<tag>phone</tag>
     <tag>telephone</tag>
@@ -4862,6 +4912,7 @@
     <state id="msp_sofa_sofa_side.swf" name="Side" enable="Y" />
     <tag>cat:Furniture and Fixtures</tag>
 	<tag>chair</tag>
+	<tag>chairs</tag>
 	<tag>couch</tag>
     <tag>furniture</tag>
 	<tag>sofa</tag>
@@ -4871,6 +4922,7 @@
     <state id="msp_sofa02_sofa02_side.swf" name="Side" enable="Y" />
     <tag>cat:Furniture and Fixtures</tag>
 	<tag>chair</tag>
+	<tag>chairs</tag>
 	<tag>couch</tag>
     <tag>furniture</tag>
 	<tag>sofa</tag>
@@ -4880,6 +4932,7 @@
     <state id="msp_cafesofa_ncc_cafesofa_side.swf" name="side" enable="Y" />
     <tag>cat:Furniture and Fixtures</tag>
 	<tag>chair</tag>
+	<tag>chairs</tag>
 	<tag>couch</tag>
     <tag>furniture</tag>
 	<tag>sofa</tag>
@@ -4887,6 +4940,7 @@
   <prop id="white_house_sofa.swf" name="Sofa" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="8966" money="" sharing="" >
     <tag>cat:Furniture and Fixtures</tag>
 	<tag>chair</tag>
+	<tag>chairs</tag>
 	<tag>couch</tag>
     <tag>furniture</tag>
 	<tag>sofa</tag>
@@ -4894,12 +4948,15 @@
   <prop id="fast_food_sofa.swf" name="Sofa" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="8966" money="" sharing="" >
     <tag>cat:Furniture and Fixtures</tag>
 	<tag>chair</tag>
+	<tag>chairs</tag>
 	<tag>couch</tag>
     <tag>furniture</tag>
 	<tag>sofa</tag>
   </prop>
   <prop id="kitchen_spoon.swf" name="Spoon" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9022" money="" sharing="">
     <tag>cat:Kitchen</tag>
+	<tag>chew</tag>
+	<tag>chewing</tag>
 	<tag>cutlery</tag>
 	<tag>kitchen</tag>
 	<tag>spoon</tag>
@@ -4932,6 +4989,7 @@
     <state id="msp_organ_stomach_sick.swf" name="Sick" enable="Y" />
     <tag>cat:Healthcare</tag>
     <tag>anatomy</tag>
+    <tag>body</tag>
     <tag>health</tag>
     <tag>healthcare</tag>
 	<tag>medical</tag>
@@ -4942,6 +5000,7 @@
   <prop id="cafe_chair.swf" name="Stool" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="10538" money="" sharing="">
     <tag>cat:Furniture and Fixtures</tag>
 	<tag>chair</tag>
+	<tag>chairs</tag>
     <tag>furniture</tag>
     <tag>stool</tag>
   </prop>
@@ -4950,6 +5009,7 @@
     <tag>bar</tag>
     <tag>bars</tag>
 	<tag>chair</tag>
+	<tag>chairs</tag>
     <tag>furniture</tag>
     <tag>stool</tag>
   </prop>
@@ -4999,6 +5059,7 @@
     <tag>cat:Furniture and Fixtures</tag>
 	<tag>business</tag>
 	<tag>chair</tag>
+	<tag>chairs</tag>
     <tag>furniture</tag>
 	<tag>office</tag>
 	<tag>swivel</tag>
@@ -5009,6 +5070,9 @@
 	<tag>attacked</tag>
 	<tag>attacking</tag>
 	<tag>battle</tag>
+	<tag>blade</tag>
+	<tag>blades</tag>
+	<tag>broadsword</tag>
 	<tag>pirate</tag>
 	<tag>sharp</tag>
 	<tag>sword</tag>
@@ -5017,6 +5081,7 @@
   </prop>
   <prop id="tshirt.swf" name="T-Shirt" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="11858" money="" sharing="">
     <tag>cat:Retail</tag>
+	<tag>boutique</tag>
   </prop>
   <prop id="msp_dining_table" name="Table" holdable="" placeable="1" wearable="" facing="left" thumb="msp_dining_table_dining_table_front.swf" enable="Y" is_premium="N" aid="10502" money="" sharing="">
     <state id="msp_dining_table_dining_table_front.swf" name="front" enable="Y" default="Y" />
@@ -5133,6 +5198,7 @@
   </prop>
   <prop id="tombstone.swf" name="Tombstone" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="12199" money="" sharing="">
 	<tag>cat:Others</tag>
+	<tag>cemetery</tag>
 	<tag>dead</tag>
 	<tag>death</tag>
 	<tag>died</tag>
@@ -5173,6 +5239,7 @@
     <tag>cat:Transport</tag>
 	<tag>cities</tag>
     <tag>city</tag>
+    <tag>cityscape</tag>
     <tag>civic</tag>
 	<tag>lamp</tag>
 	<tag>lampshade</tag>
@@ -5199,6 +5266,7 @@
   <prop id="ncc_03treasuremap.swf" name="Treasure Map" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="10522" money="" sharing="">
     <tag>cat:Maps</tag>
 	<tag>atlas</tag>
+	<tag>booty</tag>
 	<tag>map</tag>
 	<tag>maps</tag>
 	<tag>paper</tag>
@@ -5775,10 +5843,10 @@
     <tags>family,_free,_cat:Other Professions,_tag:boot boots dungarees farmer man male other overalls professions rancher,_sticky_filter_guy</tags>
   </char>
   <char id="189" name="Fast Food Worker" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
-    <tags>family,_free,_cat:Catering,_tag:abattoir apron burger catering fast fastfood food kitchen man male restaurant worker,_sticky_filter_guy</tags>
+    <tags>family,_free,_cat:Catering,_tag:abattoir apron butcher butchery burger catering fast fastfood food kitchen man male restaurant worker,_sticky_filter_guy</tags>
   </char>
   <char id="191" name="Fast Food Worker" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
-    <tags>family,_free,_cat:Catering,_tag:abattoir apron burger catering fast fastfood food kitchen man male restaurant worker,_sticky_filter_guy</tags>
+    <tags>family,_free,_cat:Catering,_tag:abattoir apron butcher butchery burger catering fast fastfood food kitchen man male restaurant worker,_sticky_filter_guy</tags>
   </char>
   <char id="118" name="Fedora" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
     <tags>family,_free,_cat:Casual,_tag:casual cap fedora man male,_sticky_filter_guy</tags>
