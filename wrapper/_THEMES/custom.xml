@@ -5321,7 +5321,7 @@
   <prop id="msp_trash_bin" name="Waste Basket" holdable="" placeable="1" wearable="" facing="left" thumb="msp_trash_bin_ncc_trash_bin_full.swf" enable="Y" is_premium="N" aid="10748" money="" sharing="">
     <state id="msp_trash_bin_ncc_trash_bin_full.swf" name="full" enable="Y" default="Y" />
     <state id="msp_trash_bin_ncc_trash_bin_empty.swf" name="empty" enable="Y" />
-    <tag>cat:Others</tag>
+    <tag>cat:Office and School</tag>
 	<tag>bin</tag>
 	<tag>bins</tag>
 	<tag>rubbish</tag>
