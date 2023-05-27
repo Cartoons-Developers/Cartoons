@@ -3251,6 +3251,16 @@
     <tag>decoration</tag>
     <tag>sound</tag>
   </prop>
+  <prop id="deer_male.swf" name="Deer" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="8966" money="" sharing="" >
+    <tag>cat:Animals</tag>
+	<tag>animal</tag>
+    <tag>animals</tag>
+  </prop>
+  <prop id="deer_female.swf" name="Deer" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="8966" money="" sharing="" >
+    <tag>cat:Animals</tag>
+	<tag>animal</tag>
+    <tag>animals</tag>
+  </prop>
   <prop id="ncc_crmtable01.swf" name="Desk" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="Y" aid="11363" money="" sharing="">
     <tag>cat:Furniture and Fixtures</tag>
 	<tag>academy</tag>
@@ -3313,6 +3323,11 @@
   </prop>
   <prop id="dishwasher.swf" name="Dishwasher" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9022" money="" sharing="">
 	<tag>cat:Kitchen</tag>
+  </prop>
+  <prop id="dog.swf" name="Dog" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="8966" money="" sharing="" >
+    <tag>cat:Animals</tag>
+	<tag>animal</tag>
+    <tag>animals</tag>
   </prop>
   <prop id="msp_door01" name="Door" holdable="" placeable="1" wearable="" facing="left" thumb="msp_door01_door01_front_close.swf" enable="Y" is_premium="N" aid="10639" money="" sharing="">
     <state id="msp_door01_door01_front_close.swf" name="front closed" enable="Y" default="Y" />
@@ -3570,6 +3585,11 @@
 	<tag>glass</tag>
 	<tag>glasses</tag>
   </prop>
+  <prop id="goldfish.swf" name="Goldfish" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="8966" money="" sharing="" >
+    <tag>cat:Animals</tag>
+	<tag>animal</tag>
+    <tag>animals</tag>
+  </prop>
   <prop id="green_beer.swf" name="Green Beer" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="Y" aid="12249" money="" sharing="" handstyle="stick">
     <tag>cat:Food and Drink</tag>
 	<tag>alcohol</tag>
@@ -3638,6 +3658,11 @@
 	<tag>medical</tag>
     <tag>organ</tag>
     <tag>organs</tag>
+  </prop>
+  <prop id="horse.swf" name="Horse" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="8966" money="" sharing="" >
+    <tag>cat:Animals</tag>
+	<tag>animal</tag>
+    <tag>animals</tag>
   </prop>
   <prop id="msp_hospital_bed" name="Hospital Bed" holdable="" placeable="1" wearable="" facing="left" thumb="msp_hospital_bed_hospital_bed_lower.swf" enable="Y" is_premium="N" aid="10626" money="" sharing="">
     <state id="msp_hospital_bed_hospital_bed_lower.swf" name="Default" enable="Y" default="Y" />
@@ -4249,6 +4274,11 @@
   <prop id="ncc_plane01.swf" name="Paper Plane" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="11846" money="" sharing="">
     <tag>cat:Office and School</tag>
 	<tag>paper</tag>
+  </prop>
+  <prop id="parrot.swf" name="Parrot" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="8966" money="" sharing="" >
+    <tag>cat:Animals</tag>
+	<tag>animal</tag>
+    <tag>animals</tag>
   </prop>
   <prop id="pen.swf" name="Pen" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9797" money="" sharing="">
     <tag>cat:Office and School</tag>
@@ -5302,6 +5332,16 @@
     <tag>trees</tag>
     <tag>woods</tag>
   </prop>
+  <prop id="apple_tree.swf" name="Tree" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9587" money="" sharing="">
+    <tag>cat:Nature</tag>
+	<tag>forest</tag>
+	<tag>nature</tag>
+    <tag>park</tag>
+	<tag>plant</tag>
+    <tag>tree</tag>
+    <tag>trees</tag>
+    <tag>woods</tag>
+  </prop>
   <prop id="trees.swf" name="Trees" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9587" money="" sharing="">
     <tag>cat:Nature</tag>
 	<tag>forest</tag>
@@ -5533,6 +5573,9 @@
     <tag>wooden</tag>
     <tag>woods</tag>
     <tag>yard</tag>
+  </prop>
+  <prop id="wooden_sign.swf" name="Wooden Sign" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="10534" money="" sharing="">
+    <tag>cat:Signs</tag>
   </prop>
   <prop id="ncc_03yogurt.swf" name="Yogurt" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="11858" money="" sharing="">
     <tag>cat:Food and Drink</tag>
