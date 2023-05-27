@@ -211,7 +211,10 @@ module.exports = function (req, res, url) {
 		<a href="/">
 			<h1 style="margin:0"><img id="logo" src="/pages/img/list_logo.svg" alt="Cartoons"/></h1>
 		</a>
-		<nav id="headbuttons">
+	    <nav id="headbuttons">
+	    	<div class="dropdown_contain button_small">
+	    		<a class="upload_button" onclick="document.getElementById('file').click()">Upload a Template</a>
+	    	</div>
 			<a href="/go_full?tray=custom" class="button_big">CREATE A VIDEO</a>
 		</nav>
 	</header>
