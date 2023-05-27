@@ -196,7 +196,7 @@ module.exports = function (req, res, url) {
 			document.title='${title}',flashvars=${JSON.stringify(params.flashvars)}
 		</script>
 		<script>
-			if(window.location.pathname == '/player' || window.location.pathname == '/go_full' || window.location.pathname == '/recordWindow' || window.location.pathname == '/go_full/tutorial') {
+			if(window.location.pathname == '/player' || window.location.pathname == '/recordWindow') {
 				function hideHeader() {
 					document.getElementById("header").remove();
 				}
