@@ -105,8 +105,8 @@
 		<component type="mouth" component_id="001" theme_id="stick" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" gobucks="0" gopoints="0"/>
 		<component type="eye" component_id="001" theme_id="stick" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" gobucks="0" gopoints="0"/>
 		<component type="faceshape" component_id="001" theme_id="stick" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" gobucks="0" gopoints="0"/>
-		<library type="GoLower" component_id="002" theme_id="stick" gobucks="0" gopoints="0"/>
-		<library type="GoUpper" component_id="002" theme_id="stick" gobucks="0" gopoints="0"/>
+		<library type="GoLower" component_id="001" theme_id="stick" gobucks="0" gopoints="0"/>
+		<library type="GoUpper" component_id="008" theme_id="stick" gobucks="0" gopoints="0"/>
         </default_char>
 		
 		<actionpack id="action" name="Action Pack" money="0" sharing="0" enable="Y">
@@ -122,6 +122,10 @@
         <library type="GoUpper" id="002" path="002" name="002" thumb="002_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
         <library type="GoUpper" id="003" path="003" name="003" thumb="003_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
         <library type="GoUpper" id="004" path="004" name="004" thumb="004_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
+        <library type="GoUpper" id="005" path="005" name="005" thumb="005_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
+        <library type="GoUpper" id="006" path="006" name="006" thumb="006_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
+        <library type="GoUpper" id="007" path="007" name="007" thumb="007_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
+        <library type="GoUpper" id="008" path="008" name="008" thumb="008_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
         <library type="GoUpper" id="police" path="police" name="police" thumb="police_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
 
 		<library type="GoLower" id="001" path="001" name="001" thumb="001_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
