@@ -2405,6 +2405,17 @@
 	<tag>glass</tag>
 	<tag>glasses</tag>
   </prop>
+  <prop id="beer_bottle.swf" name="Beer Bottle" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9033" money="" sharing="">
+    <tag>cat:Food and Drink</tag>
+	<tag>alcohol</tag>
+    <tag>bar</tag>
+	<tag>bars</tag>
+	<tag>beer</tag>
+	<tag>beverage</tag>
+	<tag>booze</tag>
+	<tag>bottle</tag>
+	<tag>bottles</tag>
+  </prop>
   <prop id="beer_tap.swf" name="Beer Tap" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="11752" money="" sharing="">
     <tag>cat:Kitchen</tag>
     <tag>alcohol</tag>
