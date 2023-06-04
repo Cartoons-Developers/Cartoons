@@ -2587,6 +2587,19 @@
 	<tag>glass</tag>
 	<tag>glasses</tag>
   </prop>
+  <prop id="whiskey_bottle.swf" name="Bottle" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="10636" money="" sharing="">
+    <tag>cat:Food and Drink</tag>
+	<tag>alcohol</tag>
+	<tag>bar</tag>
+	<tag>bars</tag>
+	<tag>beverage</tag>
+	<tag>booze</tag>
+	<tag>bourbon</tag>
+    <tag>drink</tag>
+	<tag>rye</tag>
+	<tag>whiskey</tag>
+	<tag>whisky</tag>
+  </prop>
   <prop id="cc_rose.swf" name="Bouquet" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9024" money="" sharing="">
     <tag>cat:Nature</tag>
 	<tag>bouquet</tag>
