@@ -23,6 +23,65 @@
   <background id="train_interior.swf" name="Train Interior" enable="Y" default="N" is_premium="N" aid="9811" money="" sharing="" category="Locations" />
   <background id="sports_center.swf" name="Sports Center" enable="Y" default="N" is_premium="N" aid="9811" money="" sharing="" category="Locations" />
   <background id="wall03.swf" name="Wallpaper" enable="Y" default="N" is_premium="N" aid="9811" money="" sharing="" category="Patterns" />
+  <compositebg id="cbg_airplane" name="Airplane" enable="Y" default="N" thumb="bathroom.png" display_order="32" is_premium="N" money="" sharing="" aid="9616">
+    <bg id="BG2" index="0">
+      <file>custom.airplane_interior.swf</file>
+    </bg>
+    <prop id="PROP7" index="1">
+      <file>custom.airplane_seats.swf</file>
+      <x>521.8440708</x>
+      <y>212.7921044</y>
+      <xscale>1.1449354</xscale>
+      <yscale>1.1449354</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP8" index="2">
+      <file>custom.airplane_seats.swf</file>
+      <x>405.9699643</x>
+      <y>212.8378321</y>
+      <xscale>1.1449354</xscale>
+      <yscale>1.1449354</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP4" index="3">
+      <file>custom.airplane_seats.swf</file>
+      <x>289.684308</x>
+      <y>212.7692405</y>
+      <xscale>1.1449354</xscale>
+      <yscale>1.1449354</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP2" index="4">
+      <file>custom.airplane_seats.swf</file>
+      <x>173.8102014</x>
+      <y>212.8149682</y>
+      <xscale>1.1449354</xscale>
+      <yscale>1.1449354</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP10" index="5">
+      <file>custom.airplane_seats.swf</file>
+      <x>57.5427532</x>
+      <y>212.8213766</y>
+      <xscale>1.1449354</xscale>
+      <yscale>1.1449354</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP11" index="6">
+      <file>custom.airplane_storage.swf</file>
+      <x>321.9724799</x>
+      <y>75.8862399</y>
+      <xscale>0.550403</xscale>
+      <yscale>0.550403</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+  </compositebg>
   <compositebg id="cbg_bathroom" name="Bathroom" enable="Y" default="N" thumb="bathroom.png" display_order="32" is_premium="N" money="" sharing="" aid="9616">
     <bg id="BG2" index="0">
       <file>custom.wall10.swf</file>
