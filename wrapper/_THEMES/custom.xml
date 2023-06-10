@@ -5,6 +5,7 @@
   <background id="cemetery.swf" name="Cemetery" enable="Y" default="N" is_premium="N" aid="9811" money="" sharing="" category="Locations" />
   <background id="fast_food.swf" name="Fast Food" enable="Y" default="N" is_premium="N" aid="9811" money="" sharing="" category="Locations" />
   <background id="forest.swf" name="Forest" enable="Y" default="N" is_premium="N" aid="9811" money="" sharing="" category="Locations" />
+  <background id="airplane_interior.swf" name="Fuselage" enable="Y" default="N" is_premium="N" aid="9811" money="" sharing="" category="Locations" />
   <background id="greenfield.swf" name="Greenfield" enable="Y" default="N" is_premium="N" aid="9811" money="" sharing="" category="Locations" />
   <background id="grass.swf" name="Greenfield" enable="Y" default="N" is_premium="N" aid="9811" money="" sharing="" category="Locations" />
   <background id="wall10.swf" name="Hallway" enable="Y" default="N" is_premium="N" aid="9811" money="" sharing="" category="Locations" />
@@ -2208,6 +2209,9 @@
     <tag>pets</tag>
 	<tag>rabbit</tag>
   </prop>
+  <prop id="airplane_seats.swf" name="Airplane Seats" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="8966" money="" sharing="" >
+    <tag>cat:Travel and Tourism</tag>
+  </prop>
   <prop id="white_house_flag.swf" name="American Flag" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="8966" money="" sharing="" >
     <tag>cat:Others</tag>
 	<tag>america</tag>
@@ -4265,6 +4269,9 @@
 	<tag>food</tag>
     <tag>fruit</tag>
 	<tag>orange</tag>
+  </prop>
+  <prop id="airplane_storage.swf" name="Overhead Storage" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="8966" money="" sharing="" >
+    <tag>cat:Travel and Tourism</tag>
   </prop>
   <prop id="oxygen_unit.swf" name="Oxygen Unit" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="12111" money="" sharing="" handstyle="flat">
     <tag>cat:Healthcare</tag>
