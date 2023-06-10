@@ -23,7 +23,7 @@
   <background id="train_interior.swf" name="Train Interior" enable="Y" default="N" is_premium="N" aid="9811" money="" sharing="" category="Locations" />
   <background id="sports_center.swf" name="Sports Center" enable="Y" default="N" is_premium="N" aid="9811" money="" sharing="" category="Locations" />
   <background id="wall03.swf" name="Wallpaper" enable="Y" default="N" is_premium="N" aid="9811" money="" sharing="" category="Patterns" />
-  <compositebg id="cbg_airplane" name="Airplane" enable="Y" default="N" thumb="bathroom.png" display_order="32" is_premium="N" money="" sharing="" aid="9616">
+  <compositebg id="cbg_airplane" name="Airplane" enable="Y" default="N" thumb="airplane.png" display_order="32" is_premium="N" money="" sharing="" aid="9616">
     <bg id="BG2" index="0">
       <file>custom.airplane_interior.swf</file>
     </bg>
