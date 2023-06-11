@@ -5095,6 +5095,11 @@
 	<tag>lighting</tag>
 	<tag>lights</tag>
   </prop>
+  <prop id="msp_steak" name="Steak" holdable="1" placeable="1" wearable="" facing="left" thumb="msp_steak_steak_cooked.swf" enable="Y" is_premium="N" aid="11858" money="" sharing="">
+	<state id="msp_steak_steak_cooked.swf" name="Cooked" enable="Y" default="Y"/>
+    <state id="msp_steak_steak_raw.swf" name="Raw" enable="Y"/>
+	<tag>cat:Food and Drink</tag>
+  </prop>
   <prop id="street_lamp.swf" name="Street Light" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="10524" money="" sharing="">
     <tag>cat:Buildings and Structures</tag>
 	<tag>cities</tag>
