@@ -3690,6 +3690,9 @@
 	<tag>glass</tag>
 	<tag>glasses</tag>
   </prop>
+  <prop id="green_peas.swf" name="Green Peas" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="Y" aid="12249" money="" sharing="" handstyle="stick">
+    <tag>cat:Food and Drink</tag>
+  </prop>
   <prop id="ncc_guitar01.swf" name="Guitar" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="10766" money="" sharing="">
     <tag>cat:Others</tag>
 	<tag>band</tag>
@@ -5631,6 +5634,12 @@
 	<tag>whiteboard</tag>
   </prop>
   <prop id="window.swf" name="Window" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9797" money="" sharing="">
+    <tag>cat:Buildings and Structures</tag>
+	<tag>glass</tag>
+	<tag>window</tag>
+	<tag>windows</tag>
+  </prop>
+  <prop id="window2.swf" name="Window" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9797" money="" sharing="">
     <tag>cat:Buildings and Structures</tag>
 	<tag>glass</tag>
 	<tag>window</tag>
