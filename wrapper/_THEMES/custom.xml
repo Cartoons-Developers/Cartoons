@@ -436,10 +436,10 @@
   <compositebg id="cbg_dining_room" name="Dining Room" enable="Y" default="N" thumb="dining_room.png" display_order="2" is_premium="N" money="" sharing="" aid="9066">
     <bg id="BG3" index="0">
       <file>custom.wall10.swf</file>
-      <color r="ccColorA">11054434</color>
-      <color r="ccColorB">11243634</color>
+      <color r="ccColorA">14600323</color>
+      <color r="ccColorB">8615271</color>
     </bg>
-    <prop id="PROP2" index="1">
+    <prop id="PROP2" index="4" attached="Y">
       <file>custom.msp_dining_chair.msp_dining_chair_dining_chair_side.swf</file>
       <x>132.75</x>
       <y>248.875</y>
@@ -448,7 +448,7 @@
       <face>1</face>
       <rotation>0</rotation>
     </prop>
-    <prop id="PROP6" index="2">
+    <prop id="PROP6" index="5" attached="Y">
       <file>custom.msp_dining_chair.msp_dining_chair_dining_chair_front.swf</file>
       <x>290.15</x>
       <y>225.875</y>
@@ -457,7 +457,7 @@
       <face>1</face>
       <rotation>0</rotation>
     </prop>
-    <prop id="PROP8" index="3">
+    <prop id="PROP8" index="6" attached="Y">
       <file>custom.msp_dining_chair.msp_dining_chair_dining_chair_front.swf</file>
       <x>436.95</x>
       <y>225.95</y>
@@ -466,7 +466,7 @@
       <face>1</face>
       <rotation>0</rotation>
     </prop>
-    <prop id="PROP1" index="4">
+    <prop id="PROP1" index="7" attached="Y">
       <file>custom.msp_dining_table.msp_dining_table_dining_table_front.swf</file>
       <x>327.95</x>
       <y>267.6769961</y>
@@ -475,7 +475,7 @@
       <face>1</face>
       <rotation>0</rotation>
     </prop>
-    <prop id="PROP4" index="5">
+    <prop id="PROP4" index="8" attached="Y">
       <file>custom.msp_dining_chair.msp_dining_chair_dining_chair_side.swf</file>
       <x>516.35</x>
       <y>248.875</y>
@@ -483,6 +483,36 @@
       <yscale>1</yscale>
       <face>-1</face>
       <rotation>0</rotation>
+    </prop>
+    <prop id="PROP5" index="1">
+      <file>custom.window2.swf</file>
+      <x>305.1125035</x>
+      <y>124.6432885</y>
+      <xscale>0.984933</xscale>
+      <yscale>0.942007</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+      <color r="ccColorA">5470598</color>
+    </prop>
+    <prop id="PROP9" index="2">
+      <file>custom.window2.swf</file>
+      <x>398.336415</x>
+      <y>124.5961881</y>
+      <xscale>0.984933</xscale>
+      <yscale>0.942007</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+      <color r="ccColorA">5470598</color>
+    </prop>
+    <prop id="PROP10" index="3">
+      <file>custom.msp_curtain.msp_curtain_curtain_open.swf</file>
+      <x>351.4489033</x>
+      <y>135.6652038</y>
+      <xscale>0.4028068</xscale>
+      <yscale>0.4642156</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+      <color r="ccColorA">8953233</color>
     </prop>
   </compositebg>
   <compositebg id="cbg_easter" name="Egg Hunt" enable="Y" default="N" thumb="easter_egg_hunt.png" display_order="39" is_premium="N" money="" sharing="" aid="9710">
@@ -4397,7 +4427,7 @@
     <tag>schooling</tag>
   </prop>
   <prop id="msp_phone" name="Phone" holdable="" placeable="1" wearable="" facing="left" thumb="msp_phone_ncc_phone_front2.swf" enable="Y" is_premium="N" aid="12137" money="" sharing="">
-    <state id="msp_phone_ncc_phone_front.swf" name="front" enable="N" />
+    <state id="msp_phone_ncc_phone_front.swf" name="front" enable="Y" />
     <state id="msp_phone_ncc_phone_front_ring.swf" name="front - ringing" enable="Y" />
     <state id="msp_phone_ncc_phone_side.swf" name="side" enable="Y" />
     <state id="msp_phone_ncc_phone_side_ring.swf" name="side - ringing" enable="Y" />
@@ -5091,6 +5121,11 @@
 	<tag>spoon</tag>
 	<tag>tableware</tag>
   </prop>
+  <prop id="msp_steak" name="Steak" holdable="1" placeable="1" wearable="" facing="left" thumb="msp_steak_steak_cooked.swf" enable="Y" is_premium="N" aid="11858" money="" sharing="">
+	<state id="msp_steak_steak_cooked.swf" name="Cooked" enable="Y" default="Y"/>
+    <state id="msp_steak_steak_raw.swf" name="Raw" enable="Y"/>
+	<tag>cat:Food and Drink</tag>
+  </prop>
   <prop id="msp_spotlight" name="Spotlight" holdable="" placeable="1" wearable="" facing="left" thumb="msp_spotlight_ncc_spotlight01_still.swf" enable="Y" is_premium="N" aid="10769" money="" sharing="">
     <state id="msp_spotlight_ncc_spotlight01_still.swf" name="still" enable="Y" default="Y"/>
     <state id="msp_spotlight_ncc_spotlight01_move.swf" name="moving" enable="Y"/>
@@ -5100,11 +5135,6 @@
 	<tag>light</tag>
 	<tag>lighting</tag>
 	<tag>lights</tag>
-  </prop>
-  <prop id="msp_steak" name="Steak" holdable="1" placeable="1" wearable="" facing="left" thumb="msp_steak_steak_cooked.swf" enable="Y" is_premium="N" aid="11858" money="" sharing="">
-	<state id="msp_steak_steak_cooked.swf" name="Cooked" enable="Y" default="Y"/>
-    <state id="msp_steak_steak_raw.swf" name="Raw" enable="Y"/>
-	<tag>cat:Food and Drink</tag>
   </prop>
   <prop id="street_lamp.swf" name="Street Light" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="10524" money="" sharing="">
     <tag>cat:Buildings and Structures</tag>
@@ -5639,7 +5669,7 @@
 	<tag>window</tag>
 	<tag>windows</tag>
   </prop>
-  <prop id="window2.swf" name="Window" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9797" money="" sharing="">
+  <prop id="window2.swf" name="Window2" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9797" money="" sharing="">
     <tag>cat:Buildings and Structures</tag>
 	<tag>glass</tag>
 	<tag>window</tag>
@@ -6169,9 +6199,6 @@
   <char id="171" name="Magician" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
     <tags>family,_free,_cat:Holidays and Costumes,_tag:child children costume costumes female girl hat kid kids magic magician pigtails,_sticky_filter_littlegirl</tags>
   </char>
-  <char id="40" name="Monster" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
-    <tags>family,_free,_cat:Holidays and Costumes,_tag:costume costumes festival festive frankenstein halloween holiday holidays hols male zombie,_sticky_filter_guy</tags>
-  </char>
   <char id="116" name="Ninja" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
     <tags>family,_free,_cat:Holidays and Costumes,_tag:costume costumes holiday holidays hols man male ninja,_sticky_filter_guy</tags>
   </char>
@@ -6390,24 +6417,6 @@
   <char id="200" name="Senior" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
     <tags>family,_free,_cat:Casual,_tag:big casual elder elderlies elderly female glasses lady large woman,_sticky_filter_fatgirl</tags>
   </char>
-  <char id="210" name="Skeleton" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
-    <tags>family,_free,_cat:Holidays and Costumes,_tag:halloween holiday holidays hols monster skeleton zombie,_sticky_filter_guy</tags>
-  </char>
-  <char id="211" name="Skeleton with Hair" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
-    <tags>family,_free,_cat:Holidays and Costumes,_tag:halloween holiday holidays hols monster skeleton zombie,_sticky_filter_guy</tags>
-  </char>
-  <char id="9" name="Soldier" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
-    <tags>family,_free,_cat:Government,_tag:army armies boot boots camouflage cap fatigues government hat man male soldier,_sticky_filter_guy</tags>
-  </char>
-  <char id="10" name="Soldier" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
-    <tags>family,_free,_cat:Government,_tag:army armies big boot boots camouflage cap fatigues government hat large man male soldier,_sticky_filter_fatguy</tags>
-  </char>
-  <char id="11" name="Soldier" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
-    <tags>family,_free,_cat:Government,_tag:army armies boot boots camouflage cap fatigues government hat man male soldier,_sticky_filter_buff</tags>
-  </char>
-  <char id="221" name="Soldier" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
-    <tags>family,_free,_cat:Government,_tag:army armies boot boots camouflage cap fatigues government hat man male soldier,_sticky_filter_guy</tags>
-  </char>
   <char id="220" name="Sports Player" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
     <tags>family,_free,_cat:Casual,_tag:casual female jog jogging jogger lady woman,_sticky_filter_girl</tags>
   </char>
@@ -6471,9 +6480,6 @@
   <char id="224" name="Warehouse Worker" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
     <tags>family,_free,_cat:Industrial,_tag:boot boots construction hat hardhat factories factory industrial industry laborer labourer man manufacture manufacturing manual male other professions safe ssfety vault warehouse worker,_sticky_filter_guy</tags>
   </char>
-  <char id="38" name="Werewolf" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
-    <tags>family,_free,_cat:Holidays and Costumes,_tag:claw claws costume costumes ear ears fur furry halloween holiday holidays hols howl male paw werewolf wolf,_sticky_filter_guy</tags>
-  </char>
   <char id="122" name="Winter - Casual" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
     <tags>family,_free,_cat:Casual,_tag:casual cap glove gloves hat jacket man male snow snowing winter,_sticky_filter_guy</tags>
   </char>
@@ -6485,12 +6491,6 @@
   </char>
   <char id="186" name="Winter - Casual" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
     <tags>family,_free,_cat:Casual,_tag:boy casual child children glove gloves jacket kid kids male snow snowing winter,_sticky_filter_littleguy</tags>
-  </char>
-  <char id="222" name="Zombie" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
-    <tags>family,_free,_cat:Holidays and Costumes,_tag:costume costumes festival festive halloween holiday holidays hols male zombie,_sticky_filter_guy</tags>
-  </char>
-  <char id="223" name="Zombie" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
-    <tags>family,_free,_cat:Holidays and Costumes,_tag:costume costumes female festival festive halloween holiday holidays hols zombie,_sticky_filter_girl</tags>
   </char>
   <sound id="72_Minute_Summer_full.mp3" name="72 Minute Summer" downloadtype="progressive" subtype="bgmusic" duration="238838" enable="Y" is_premium="N" aid="26260" money="" sharing=""/>
   <sound id="a_bright_future_full.mp3" name="A Bright Future" downloadtype="progressive" subtype="bgmusic" duration="202979" enable="Y" is_premium="N" aid="26260" money="" sharing=""/>
