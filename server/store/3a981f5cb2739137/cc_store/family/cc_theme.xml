@@ -12862,6 +12862,14 @@
 	<tag>_sticky_filter_fatgirl</tag>
 	<tag>_sticky_filter_buff</tag>
   </component>
+  <component type="glasses" id="016" path="016" name="016" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+    <state id="default" filename="default.swf" />
+	<tag>_sticky_filter_guy</tag>
+	<tag>_sticky_filter_girl</tag>
+	<tag>_sticky_filter_fatguy</tag>
+	<tag>_sticky_filter_fatgirl</tag>
+	<tag>_sticky_filter_buff</tag>
+  </component>
   <component type="glasses" id="010" path="010" name="010" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
     <state id="default" filename="default.swf" />
 	<tag>_sticky_filter_guy</tag>
