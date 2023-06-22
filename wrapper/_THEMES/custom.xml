@@ -5669,7 +5669,7 @@
 	<tag>window</tag>
 	<tag>windows</tag>
   </prop>
-  <prop id="window2.swf" name="Window2" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9797" money="" sharing="">
+  <prop id="window2.swf" name="Window" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9797" money="" sharing="">
     <tag>cat:Buildings and Structures</tag>
 	<tag>glass</tag>
 	<tag>window</tag>
