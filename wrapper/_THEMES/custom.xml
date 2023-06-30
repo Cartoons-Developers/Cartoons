@@ -5965,6 +5965,15 @@
   <char id="225" name="Casual" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
     <tags>family,_free,_cat:Healthcare,_tag:amputee casual healthcare jacket man male,_sticky_filter_guy</tags>
   </char>
+  <char id="259" name="Casual" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+    <tags>family,_free,_cat:Casual,_tag:casual man male ponytail,_sticky_filter_guy</tags>
+  </char>
+  <char id="265" name="Casual" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+    <tags>family,_free,_cat:Casual,_tag:casual glasses man male,_sticky_filter_guy</tags>
+  </char>
+  <char id="266" name="Casual" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+    <tags>family,_free,_cat:Casual,_tag:casual man male,_sticky_filter_guy</tags>
+  </char>
   <char id="261" name="Casual - Pride Month" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
     <tags>family,_free,_cat:Casual,_tag:casual glasses lgbt lgbtq man male month pride rainbow,_sticky_filter_guy</tags>
   </char>
