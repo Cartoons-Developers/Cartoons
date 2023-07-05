@@ -814,7 +814,7 @@
       <selection type="skeleton" state_id="default" />
       <selection type="upper_body" state_id="default" />
     </action>
-    <action id="lie_down" name="Sleep" loop="Y" totalframe="1" enable="Y" category="Poses" is_motion="Y">
+    <action id="lie_down" name="Sleep" loop="Y" totalframe="1" enable="Y" category="Poses" is_motion="N">
       <selection type="facial" facial_id="head_asleep" />
       <selection type="lower_body" state_id="default" />
       <selection type="skeleton" state_id="sleep" />
