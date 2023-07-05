@@ -11643,7 +11643,6 @@
 	<tag>_sticky_filter_girl</tag>
 	<tag>_sticky_filter_littlegirl</tag>
 	<tag>_sticky_filter_fatgirl</tag>
-	<tag>_sticky_filter_baby</tag>
   </component>
   <component type="hair" id="110a" path="110a" name="110a" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
     <state id="default" filename="default.swf" />
