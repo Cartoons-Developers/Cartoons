@@ -10415,6 +10415,7 @@
 	<tag>_sticky_filter_fatguy</tag>
 	<tag>_sticky_filter_fatgirl</tag>
 	<tag>_sticky_filter_buff</tag>
+	<tag>_sticky_filter_baby</tag>
   </component>
   <component type="eyebrow" id="105" path="105" name="105" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
     <state id="angry" filename="angry.swf" />
@@ -10436,6 +10437,7 @@
 	<tag>_sticky_filter_fatguy</tag>
 	<tag>_sticky_filter_fatgirl</tag>
 	<tag>_sticky_filter_buff</tag>
+	<tag>_sticky_filter_baby</tag>
   </component>
   <component type="eyebrow" id="106" path="106" name="106" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
     <state id="angry" filename="angry.swf" />
@@ -10457,6 +10459,7 @@
 	<tag>_sticky_filter_fatguy</tag>
 	<tag>_sticky_filter_fatgirl</tag>
 	<tag>_sticky_filter_buff</tag>
+	<tag>_sticky_filter_baby</tag>
   </component>
   <component type="eyebrow" id="107" path="107" name="107" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
     <state id="angry" filename="angry.swf" />
@@ -10500,6 +10503,7 @@
 	<tag>_sticky_filter_fatguy</tag>
 	<tag>_sticky_filter_fatgirl</tag>
 	<tag>_sticky_filter_buff</tag>
+	<tag>_sticky_filter_baby</tag>
   </component>
   <component type="eyebrow" id="002" path="002" name="002" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
     <state id="angry" filename="angry.swf" />
@@ -10521,6 +10525,7 @@
 	<tag>_sticky_filter_fatguy</tag>
 	<tag>_sticky_filter_fatgirl</tag>
 	<tag>_sticky_filter_buff</tag>
+	<tag>_sticky_filter_baby</tag>
   </component>
   <component type="eyebrow" id="001" path="001" name="001" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
     <state id="angry" filename="angry.swf" />
@@ -10542,6 +10547,7 @@
 	<tag>_sticky_filter_fatguy</tag>
 	<tag>_sticky_filter_fatgirl</tag>
 	<tag>_sticky_filter_buff</tag>
+	<tag>_sticky_filter_baby</tag>
   </component>
   <component type="eyebrow" id="003" path="003" name="003" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
     <state id="angry" filename="angry.swf" />
@@ -10563,6 +10569,7 @@
 	<tag>_sticky_filter_fatguy</tag>
 	<tag>_sticky_filter_fatgirl</tag>
 	<tag>_sticky_filter_buff</tag>
+	<tag>_sticky_filter_baby</tag>
   </component>
   <component type="eyebrow" id="109" path="109" name="109" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
     <state id="angry" filename="angry.swf" />
@@ -10584,6 +10591,7 @@
 	<tag>_sticky_filter_fatguy</tag>
 	<tag>_sticky_filter_fatgirl</tag>
 	<tag>_sticky_filter_buff</tag>
+	<tag>_sticky_filter_baby</tag>
   </component>
   <component type="eyebrow" id="109_piercing" path="109_piercing" name="109_piercing" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
     <state id="angry" filename="angry.swf" />
