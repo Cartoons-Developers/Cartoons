@@ -766,6 +766,93 @@
     <selection type="mustache" state_id="default" />
     <selection type="nose" state_id="default" />
   </facial>
+  <bodyshape id="baby" name="Baby" default_action="stand" default_motion="walk" action_thumb="stand" facial_thumb="head_neutral" thumb_path="thumbnail.swf" enable="Y" tag="baby">
+    <default_char xscale="1" yscale="1" hxscale="1.5" hyscale="1.5" headdx="0" headdy="0">
+	  <tag>_sticky_filter_baby</tag>
+      <color r="ccSkinColor" oc="0xFFE1C4">0xFFCE95</color>
+      <color r="ccEyeIris">0x0086D3</color>
+      <color r="ccMouthLip">0xFFB0AB</color>
+      <color r="ccEyebrow">0x000000</color>
+      <color r="ccHairMajor">0x523112</color>
+      <color r="ccUpperMain" oc="0x336699">0x0B3573</color>
+      <color r="ccUpperMinor" oc="0xE5E5E5">0x960000</color>
+      <color r="ccLowerMain" oc="0xCCBC9A">0xFFFFFF</color>
+      <color r="ccLowerMinor" oc="0xEEEEEE">0x000000</color>
+      <component type="bodyshape" component_id="baby" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" />
+      <component type="skeleton" component_id="baby_001" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" />
+      <component type="upper_body" component_id="baby_003" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" />
+      <component type="lower_body" component_id="baby_001" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" />
+      <component type="faceshape" component_id="010" theme_id="family" x="0" y="0" xscale="1" yscale="0.9" offset="0" rotation="0" />
+      <component type="hair" component_id="baby" theme_id="family" x="0" y="5" xscale="1" yscale="1" offset="0" rotation="0" />
+      <component type="mouth" component_id="201" theme_id="family" x="0" y="-2" xscale="0.9" yscale="0.9" offset="0" rotation="0" />
+      <component type="ear" component_id="010" theme_id="family" x="0" y="5" xscale="1" yscale="1" offset="0" rotation="0" />
+      <component type="eye" component_id="male" theme_id="family" x="0" y="6" xscale="1" yscale="1" offset="2" rotation="0" />
+      <component type="eyebrow" component_id="107" theme_id="family" x="0" y="5" xscale="1" yscale="1" offset="2" rotation="0" />
+      <component type="nose" component_id="002" theme_id="family" x="-2" y="-2" xscale="0.8" yscale="0.8" offset="0" rotation="0" />
+    </default_char>
+    <action id="stand" name="Stand" loop="Y" totalframe="1" enable="Y" category="Poses" is_motion="N">
+      <selection type="facial" facial_id="head_neutral" />
+      <selection type="lower_body" state_id="default" />
+      <selection type="skeleton" state_id="default" />
+      <selection type="upper_body" state_id="default" />
+    </action>
+    <action id="walk" name="Walk" loop="Y" totalframe="24" enable="Y" category="Daily life" is_motion="Y">
+      <selection type="facial" facial_id="head_happy" />
+      <selection type="lower_body" state_id="walk" />
+      <selection type="skeleton" state_id="default" />
+      <selection type="upper_body" state_id="walk" />
+    </action>
+    <action id="cry" name="Cry" loop="Y" totalframe="1" enable="Y" category="Emotions" is_motion="N">
+      <selection type="facial" facial_id="head_neutral" />
+      <selection type="lower_body" state_id="sit" />
+      <selection type="skeleton" state_id="cry" />
+      <selection type="upper_body" state_id="default" />
+    </action>
+    <action id="sit" name="Sit" loop="Y" totalframe="1" enable="Y" category="Poses" is_motion="N">
+      <selection type="facial" facial_id="head_neutral" />
+      <selection type="lower_body" state_id="sit" />
+      <selection type="skeleton" state_id="default" />
+      <selection type="upper_body" state_id="default" />
+    </action>
+    <action id="lie_down" name="Sleep" loop="Y" totalframe="1" enable="Y" category="Poses" is_motion="Y">
+      <selection type="facial" facial_id="head_asleep" />
+      <selection type="lower_body" state_id="default" />
+      <selection type="skeleton" state_id="sleep" />
+      <selection type="upper_body" state_id="default" />
+    </action>
+    <component type="upper_body" id="baby_001" path="baby_001" name="baby_001" thumb="thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y">
+      <state id="default" filename="default.swf" />
+      <state id="walk" filename="walk.swf" />
+	<tag>_sticky_filter_baby</tag>
+    </component>
+    <component type="upper_body" id="baby_002" path="baby_002" name="baby_002" thumb="thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y">
+      <state id="default" filename="default.swf" />
+      <state id="walk" filename="walk.swf" />
+	<tag>_sticky_filter_baby</tag>
+    </component>
+    <component type="upper_body" id="baby_003" path="baby_003" name="baby_003" thumb="thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y">
+      <state id="default" filename="default.swf" />
+      <state id="walk" filename="walk.swf" />
+	<tag>_sticky_filter_baby</tag>
+    </component>
+    <component type="skeleton" id="baby_001" path="baby_001" name="baby_001" thumb="thumbnail.swf" display_order="0" money="0" sharing="0" enable="Y">
+      <state id="cry" filename="cry.swf" />
+	  <state id="default" filename="default.swf" />
+	  <state id="sleep" filename="sleep.swf" />
+    </component>
+    <component type="lower_body" id="baby_001" path="baby_001" name="baby_001" thumb="thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y">
+      <state id="default" filename="default.swf" />
+      <state id="sit" filename="sit.swf" />
+      <state id="walk" filename="walk.swf" />
+	<tag>_sticky_filter_baby</tag>
+    </component>
+    <component type="lower_body" id="baby_002" path="baby_002" name="baby_002" thumb="thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y">
+      <state id="default" filename="default.swf" />
+      <state id="sit" filename="sit.swf" />
+      <state id="walk" filename="walk.swf" />
+	<tag>_sticky_filter_baby</tag>
+    </component>
+  </bodyshape>
   <bodyshape id="adam" name="Adam" default_action="stand" default_motion="walk" action_thumb="stand" facial_thumb="head_neutral" thumb_path="thumbnail.swf" enable="Y" tag="guy">
     <default_char xscale="1" yscale="1" hxscale="1" hyscale="1" headdx="0" headdy="0">
 	  <tag>_sticky_filter_guy</tag>
@@ -10085,6 +10172,7 @@
 	<tag>_sticky_filter_fatguy</tag>
 	<tag>_sticky_filter_fatgirl</tag>
 	<tag>_sticky_filter_buff</tag>
+	<tag>_sticky_filter_baby</tag>
   </component>
   <component type="ear" id="001" path="001" name="001" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
     <state id="default" filename="default.swf" />
@@ -10095,6 +10183,7 @@
 	<tag>_sticky_filter_fatguy</tag>
 	<tag>_sticky_filter_fatgirl</tag>
 	<tag>_sticky_filter_buff</tag>
+	<tag>_sticky_filter_baby</tag>
   </component>
   <component type="ear" id="003" path="003" name="003" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
     <state id="default" filename="default.swf" />
@@ -10105,6 +10194,7 @@
 	<tag>_sticky_filter_fatguy</tag>
 	<tag>_sticky_filter_fatgirl</tag>
 	<tag>_sticky_filter_buff</tag>
+	<tag>_sticky_filter_baby</tag>
   </component>
   <component type="ear" id="005" path="005" name="005" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
     <state id="default" filename="default.swf" />
@@ -10115,6 +10205,7 @@
 	<tag>_sticky_filter_fatguy</tag>
 	<tag>_sticky_filter_fatgirl</tag>
 	<tag>_sticky_filter_buff</tag>
+	<tag>_sticky_filter_baby</tag>
   </component>
   <component type="ear" id="004" path="004" name="004" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
     <state id="default" filename="default.swf" />
@@ -10125,6 +10216,7 @@
 	<tag>_sticky_filter_fatguy</tag>
 	<tag>_sticky_filter_fatgirl</tag>
 	<tag>_sticky_filter_buff</tag>
+	<tag>_sticky_filter_baby</tag>
   </component>
   <component type="ear" id="009" path="009" name="009" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
     <state id="default" filename="default.swf" />
@@ -10135,6 +10227,7 @@
 	<tag>_sticky_filter_fatguy</tag>
 	<tag>_sticky_filter_fatgirl</tag>
 	<tag>_sticky_filter_buff</tag>
+	<tag>_sticky_filter_baby</tag>
   </component>
   <component type="ear" id="010" path="010" name="010" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
     <state id="default" filename="default.swf" />
@@ -10145,6 +10238,8 @@
 	<tag>_sticky_filter_fatguy</tag>
 	<tag>_sticky_filter_fatgirl</tag>
 	<tag>_sticky_filter_buff</tag>
+	<tag>_sticky_filter_baby</tag>
+	<tag>_sticky_filter_baby</tag>
   </component>
   <component type="ear" id="007" path="007" name="007" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
     <state id="default" filename="default.swf" />
@@ -10164,6 +10259,7 @@
 	<tag>_sticky_filter_fatguy</tag>
 	<tag>_sticky_filter_fatgirl</tag>
 	<tag>_sticky_filter_buff</tag>
+	<tag>_sticky_filter_baby</tag>
   </component>
   <component type="ear" id="gauged" path="gauged" name="gauged" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
     <state id="default" filename="default.swf" />
@@ -10190,6 +10286,7 @@
 	<tag>_sticky_filter_fatguy</tag>
 	<tag>_sticky_filter_fatgirl</tag>
 	<tag>_sticky_filter_buff</tag>
+	<tag>_sticky_filter_baby</tag>
   </component>
   <component type="ear" id="werewolf" path="werewolf" name="werewolf" thumb="thumbnail.swf" money="0" sharing="0" enable="N">
     <state id="default" filename="default.swf" />
@@ -10220,6 +10317,7 @@
 	<tag>_sticky_filter_fatguy</tag>
 	<tag>_sticky_filter_fatgirl</tag>
 	<tag>_sticky_filter_buff</tag>
+	<tag>_sticky_filter_baby</tag>
   </component>
   <component type="eye" id="female" path="female" name="female" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
     <state id="angry" filename="angry.swf" />
@@ -10240,6 +10338,7 @@
 	<tag>_sticky_filter_fatguy</tag>
 	<tag>_sticky_filter_fatgirl</tag>
 	<tag>_sticky_filter_buff</tag>
+	<tag>_sticky_filter_baby</tag>
   </component>
   <component type="eye" id="zombie" path="zombie" name="zombie" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
     <state id="angry" filename="angry.swf" />
@@ -10379,6 +10478,7 @@
 	<tag>_sticky_filter_fatguy</tag>
 	<tag>_sticky_filter_fatgirl</tag>
 	<tag>_sticky_filter_buff</tag>
+	<tag>_sticky_filter_baby</tag>
   </component>
   <component type="eyebrow" id="108" path="108" name="108" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
     <state id="angry" filename="angry.swf" />
@@ -10531,6 +10631,7 @@
 	<tag>_sticky_filter_fatguy</tag>
 	<tag>_sticky_filter_fatgirl</tag>
 	<tag>_sticky_filter_buff</tag>
+	<tag>_sticky_filter_baby</tag>
   </component>
   <component type="faceshape" id="008" path="008" name="008" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
     <state id="default" filename="default.swf" />
@@ -10547,6 +10648,7 @@
 	<tag>_sticky_filter_fatguy</tag>
 	<tag>_sticky_filter_fatgirl</tag>
 	<tag>_sticky_filter_buff</tag>
+	<tag>_sticky_filter_baby</tag>
   </component>
   <component type="faceshape" id="019" path="019" name="019" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
     <state id="default" filename="default.swf" />
@@ -10654,6 +10756,7 @@
 	<tag>_sticky_filter_littleguy</tag>
 	<tag>_sticky_filter_littlegirl</tag>
 	<tag>_sticky_filter_buff</tag>
+	<tag>_sticky_filter_baby</tag>
   </component>
   <component type="faceshape" id="034" path="034" name="034" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
     <state id="default" filename="default.swf" />
@@ -10704,6 +10807,7 @@
   <component type="faceshape" id="037" path="037" name="037" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
     <state id="default" filename="default.swf" />
 	<tag>_sticky_filter_girl</tag>
+	<tag>_sticky_filter_baby</tag>
   </component>
   <component type="faceshape" id="038" path="038" name="038" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
     <state id="default" filename="default.swf" />
@@ -10745,6 +10849,10 @@
 	<tag>_sticky_filter_fatguy</tag>
 	<tag>_sticky_filter_fatgirl</tag>
 	<tag>_sticky_filter_buff</tag>
+  </component>
+  <component type="hair" id="baby" path="baby" name="baby" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+    <state id="default" filename="default.swf" />
+	<tag>_sticky_filter_baby</tag>
   </component>
   <component type="hair" id="109" path="109" name="109" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
     <state id="default" filename="default.swf" />
@@ -10842,6 +10950,7 @@
 	<tag>_sticky_filter_fatguy</tag>
 	<tag>_sticky_filter_fatgirl</tag>
 	<tag>_sticky_filter_buff</tag>
+	<tag>_sticky_filter_baby</tag>
   </component>
   <component type="hair" id="008" path="008" name="008" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
     <state id="default" filename="default.swf" />
@@ -10878,6 +10987,7 @@
 	<tag>_sticky_filter_fatguy</tag>
 	<tag>_sticky_filter_fatgirl</tag>
 	<tag>_sticky_filter_buff</tag>
+	<tag>_sticky_filter_baby</tag>
   </component>
   <component type="hair" id="031" path="031" name="031" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
     <state id="default" filename="default.swf" />
@@ -10969,6 +11079,7 @@
 	<tag>_sticky_filter_girl</tag>
 	<tag>_sticky_filter_littlegirl</tag>
 	<tag>_sticky_filter_fatgirl</tag>
+	<tag>_sticky_filter_baby</tag>
   </component>
   <component type="hair" id="046" path="046" name="046" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
     <state id="default" filename="default.swf" />
@@ -11027,6 +11138,7 @@
 	<tag>_sticky_filter_fatguy</tag>
 	<tag>_sticky_filter_fatgirl</tag>
 	<tag>_sticky_filter_buff</tag>
+	<tag>_sticky_filter_baby</tag>
   </component>
   <component type="hair" id="009" path="009" name="009" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
     <state id="default" filename="default.swf" />
@@ -11077,6 +11189,7 @@
 	<tag>_sticky_filter_guy</tag>
 	<tag>_sticky_filter_fatguy</tag>
 	<tag>_sticky_filter_buff</tag>
+	<tag>_sticky_filter_baby</tag>
   </component>
   <component type="hair" id="058" path="058" name="058" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
     <state id="default" filename="default.swf" />
@@ -11108,6 +11221,7 @@
 	<tag>_sticky_filter_littleguy</tag>
 	<tag>_sticky_filter_fatguy</tag>
 	<tag>_sticky_filter_buff</tag>
+	<tag>_sticky_filter_baby</tag>
   </component>
   <component type="hair" id="054" path="054" name="054" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
     <state id="default" filename="default.swf" />
@@ -11130,6 +11244,7 @@
 	<tag>_sticky_filter_fatguy</tag>
 	<tag>_sticky_filter_fatgirl</tag>
 	<tag>_sticky_filter_buff</tag>
+	<tag>_sticky_filter_baby</tag>
   </component>
   <component type="hair" id="021" path="021" name="021" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
     <state id="default" filename="default.swf" />
@@ -11170,6 +11285,7 @@
 	<tag>_sticky_filter_fatguy</tag>
 	<tag>_sticky_filter_fatgirl</tag>
 	<tag>_sticky_filter_buff</tag>
+	<tag>_sticky_filter_baby</tag>
   </component>
   <component type="hair" id="049" path="049" name="049" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
     <state id="default" filename="default.swf" />
@@ -11180,6 +11296,7 @@
 	<tag>_sticky_filter_fatguy</tag>
 	<tag>_sticky_filter_fatgirl</tag>
 	<tag>_sticky_filter_buff</tag>
+	<tag>_sticky_filter_baby</tag>
   </component>
   <component type="hair" id="051" path="051" name="051" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
     <state id="default" filename="default.swf" />
@@ -11190,6 +11307,7 @@
 	<tag>_sticky_filter_fatguy</tag>
 	<tag>_sticky_filter_fatgirl</tag>
 	<tag>_sticky_filter_buff</tag>
+	<tag>_sticky_filter_baby</tag>
   </component>
   <component type="hair" id="028" path="028" name="028" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
     <state id="default" filename="default.swf" />
@@ -11200,6 +11318,7 @@
 	<tag>_sticky_filter_fatguy</tag>
 	<tag>_sticky_filter_fatgirl</tag>
 	<tag>_sticky_filter_buff</tag>
+	<tag>_sticky_filter_baby</tag>
   </component>
   <component type="hair" id="032" path="032" name="032" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
     <state id="default" filename="default.swf" />
@@ -11212,6 +11331,7 @@
 	<tag>_sticky_filter_girl</tag>
 	<tag>_sticky_filter_littlegirl</tag>
 	<tag>_sticky_filter_fatgirl</tag>
+	<tag>_sticky_filter_baby</tag>
   </component>
   <component type="hair" id="084" path="084" name="084" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
     <state id="default" filename="default.swf" />
@@ -11233,6 +11353,7 @@
 	<tag>_sticky_filter_fatguy</tag>
 	<tag>_sticky_filter_fatgirl</tag>
 	<tag>_sticky_filter_buff</tag>
+	<tag>_sticky_filter_baby</tag>
   </component>
   <component type="hair" id="080" path="080" name="080" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
     <state id="default" filename="default.swf" />
@@ -11274,6 +11395,7 @@
 	<tag>_sticky_filter_girl</tag>
 	<tag>_sticky_filter_littlegirl</tag>
 	<tag>_sticky_filter_fatgirl</tag>
+	<tag>_sticky_filter_baby</tag>
   </component>
   <component type="hair" id="078" path="078" name="078" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
     <state id="default" filename="default.swf" />
@@ -11302,12 +11424,14 @@
 	<tag>_sticky_filter_littleguy</tag>
 	<tag>_sticky_filter_fatguy</tag>
 	<tag>_sticky_filter_buff</tag>
+	<tag>_sticky_filter_baby</tag>
   </component>
   <component type="hair" id="086" path="086" name="086" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
     <state id="default" filename="default.swf" />
 	<tag>_sticky_filter_girl</tag>
 	<tag>_sticky_filter_littlegirl</tag>
 	<tag>_sticky_filter_fatgirl</tag>
+	<tag>_sticky_filter_baby</tag>
   </component>
   <component type="hair" id="065" path="065" name="065" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
     <state id="default" filename="default.swf" />
@@ -11440,6 +11564,7 @@
 	<tag>_sticky_filter_fatguy</tag>
 	<tag>_sticky_filter_fatgirl</tag>
 	<tag>_sticky_filter_buff</tag>
+	<tag>_sticky_filter_baby</tag>
   </component>
   <component type="hair" id="005b" path="005b" name="005b" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
     <state id="default" filename="default.swf" />
@@ -11447,6 +11572,7 @@
 	<tag>_sticky_filter_littleguy</tag>
 	<tag>_sticky_filter_fatguy</tag>
 	<tag>_sticky_filter_buff</tag>
+	<tag>_sticky_filter_baby</tag>
   </component>
   <component type="hair" id="007a" path="007a" name="007a" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
     <state id="default" filename="default.swf" />
@@ -11463,6 +11589,7 @@
 	<tag>_sticky_filter_fatguy</tag>
 	<tag>_sticky_filter_fatgirl</tag>
 	<tag>_sticky_filter_buff</tag>
+	<tag>_sticky_filter_baby</tag>
   </component>
   <component type="hair" id="042a" path="042a" name="042a" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
     <state id="default" filename="default.swf" />
@@ -11508,6 +11635,7 @@
 	<tag>_sticky_filter_girl</tag>
 	<tag>_sticky_filter_littlegirl</tag>
 	<tag>_sticky_filter_fatgirl</tag>
+	<tag>_sticky_filter_baby</tag>
   </component>
   <component type="hair" id="110a" path="110a" name="110a" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
     <state id="default" filename="default.swf" />
@@ -11522,6 +11650,7 @@
 	<tag>_sticky_filter_littleguy</tag>
 	<tag>_sticky_filter_fatguy</tag>
 	<tag>_sticky_filter_buff</tag>
+	<tag>_sticky_filter_baby</tag>
   </component>
   <component type="hair" id="231" path="231" name="231" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
     <state id="default" filename="default.swf" />
@@ -11545,6 +11674,7 @@
 	<tag>_sticky_filter_littleguy</tag>
 	<tag>_sticky_filter_fatguy</tag>
 	<tag>_sticky_filter_buff</tag>
+	<tag>_sticky_filter_baby</tag>
   </component>
   <component type="hair" id="237" path="237" name="237" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
     <state id="default" filename="default.swf" />
@@ -11595,12 +11725,14 @@
 	<tag>_sticky_filter_fatguy</tag>
 	<tag>_sticky_filter_fatgirl</tag>
 	<tag>_sticky_filter_buff</tag>
+	<tag>_sticky_filter_baby</tag>
   </component>
   <component type="hair" id="afropuffs" path="afropuffs" name="afropuffs" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
     <state id="default" filename="default.swf" />
 	<tag>_sticky_filter_girl</tag>
 	<tag>_sticky_filter_littlegirl</tag>
 	<tag>_sticky_filter_fatgirl</tag>
+	<tag>_sticky_filter_baby</tag>
   </component>
   <component type="hair" id="bantu_knots" path="bantu_knots" name="bantu_knots" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
     <state id="default" filename="default.swf" />
@@ -11617,6 +11749,7 @@
 	<tag>_sticky_filter_girl</tag>
 	<tag>_sticky_filter_littlegirl</tag>
 	<tag>_sticky_filter_fatgirl</tag>
+	<tag>_sticky_filter_baby</tag>
   </component>
   <component type="hair" id="braids" path="braids" name="braids" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
     <state id="default" filename="default.swf" />
@@ -11661,6 +11794,7 @@
 	<tag>_sticky_filter_girl</tag>
 	<tag>_sticky_filter_littlegirl</tag>
 	<tag>_sticky_filter_fatgirl</tag>
+	<tag>_sticky_filter_baby</tag>
   </component>
   <component type="hair" id="double_bun" path="double_bun" name="double_bun" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
     <state id="default" filename="default.swf" />
@@ -11715,6 +11849,7 @@
 	<tag>_sticky_filter_fatguy</tag>
 	<tag>_sticky_filter_fatgirl</tag>
 	<tag>_sticky_filter_buff</tag>
+	<tag>_sticky_filter_baby</tag>
   </component>
   <component type="hair" id="fade" path="fade" name="fade" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
     <state id="default" filename="default.swf" />
@@ -11788,6 +11923,7 @@
 	<tag>_sticky_filter_girl</tag>
 	<tag>_sticky_filter_littlegirl</tag>
 	<tag>_sticky_filter_fatgirl</tag>
+	<tag>_sticky_filter_baby</tag>
   </component>
   <component type="hair" id="new_hairstyle3" path="new_hairstyle3" name="new_hairstyle3" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
     <state id="default" filename="default.swf" />
@@ -11800,6 +11936,7 @@
 	<tag>_sticky_filter_girl</tag>
 	<tag>_sticky_filter_littlegirl</tag>
 	<tag>_sticky_filter_fatgirl</tag>
+	<tag>_sticky_filter_baby</tag>
   </component>
   <component type="hair" id="new_hairstyle5" path="new_hairstyle5" name="new_hairstyle5" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
     <state id="default" filename="default.swf" />
@@ -11837,6 +11974,7 @@
 	<tag>_sticky_filter_littleguy</tag>
 	<tag>_sticky_filter_fatguy</tag>
 	<tag>_sticky_filter_buff</tag>
+	<tag>_sticky_filter_baby</tag>
   </component>
   <component type="hair" id="new_hairstyle10" path="new_hairstyle10" name="new_hairstyle10" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
     <state id="default" filename="default.swf" />
@@ -11859,6 +11997,7 @@
 	<tag>_sticky_filter_girl</tag>
 	<tag>_sticky_filter_littlegirl</tag>
 	<tag>_sticky_filter_fatgirl</tag>
+	<tag>_sticky_filter_baby</tag>
   </component>
   <component type="hair" id="new_hairstyle13" path="new_hairstyle13" name="new_hairstyle13" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
     <state id="default" filename="default.swf" />
@@ -11869,6 +12008,7 @@
 	<tag>_sticky_filter_fatguy</tag>
 	<tag>_sticky_filter_fatgirl</tag>
 	<tag>_sticky_filter_buff</tag>
+	<tag>_sticky_filter_baby</tag>
   </component>
   <component type="hair" id="new_hairstyle14" path="new_hairstyle14" name="new_hairstyle14" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
     <state id="default" filename="default.swf" />
@@ -11995,6 +12135,7 @@
 	<tag>_sticky_filter_fatguy</tag>
 	<tag>_sticky_filter_fatgirl</tag>
 	<tag>_sticky_filter_buff</tag>
+	<tag>_sticky_filter_baby</tag>
   </component>
   <component type="hair" id="new_hairstyle31" path="new_hairstyle31" name="new_hairstyle31" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
     <state id="default" filename="default.swf" />
@@ -12005,6 +12146,7 @@
 	<tag>_sticky_filter_fatguy</tag>
 	<tag>_sticky_filter_fatgirl</tag>
 	<tag>_sticky_filter_buff</tag>
+	<tag>_sticky_filter_baby</tag>
   </component>
   <component type="hair" id="new_hairstyle32" path="new_hairstyle32" name="new_hairstyle32" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
     <state id="default" filename="default.swf" />
@@ -12017,6 +12159,7 @@
 	<tag>_sticky_filter_girl</tag>
 	<tag>_sticky_filter_littlegirl</tag>
 	<tag>_sticky_filter_fatgirl</tag>
+	<tag>_sticky_filter_baby</tag>
   </component>
   <component type="hair" id="shaggy" path="shaggy" name="shaggy" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
     <state id="default" filename="default.swf" />
@@ -12085,6 +12228,7 @@
 	<tag>_sticky_filter_fatguy</tag>
 	<tag>_sticky_filter_fatgirl</tag>
 	<tag>_sticky_filter_buff</tag>
+	<tag>_sticky_filter_baby</tag>
   </component>
   <component type="mouth" id="102" path="102" name="102" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
     <state id="angry" filename="angry.swf" />
@@ -12134,6 +12278,7 @@
 	<tag>_sticky_filter_fatguy</tag>
 	<tag>_sticky_filter_fatgirl</tag>
 	<tag>_sticky_filter_buff</tag>
+	<tag>_sticky_filter_baby</tag>
   </component>
   <component type="mouth" id="003" path="003" name="003" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
     <state id="angry" filename="angry.swf" />
@@ -12210,6 +12355,7 @@
 	<tag>_sticky_filter_fatguy</tag>
 	<tag>_sticky_filter_fatgirl</tag>
 	<tag>_sticky_filter_buff</tag>
+	<tag>_sticky_filter_baby</tag>
   </component>
   <component type="mouth" id="103" path="103" name="103" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
     <state id="angry" filename="angry.swf" />
@@ -12237,6 +12383,7 @@
 	<tag>_sticky_filter_fatguy</tag>
 	<tag>_sticky_filter_fatgirl</tag>
 	<tag>_sticky_filter_buff</tag>
+	<tag>_sticky_filter_baby</tag>
   </component>
   <component type="mouth" id="101_piercing" path="101_piercing" name="101_piercing" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
     <state id="angry" filename="angry.swf" />
@@ -12311,6 +12458,7 @@
 	<tag>_sticky_filter_fatguy</tag>
 	<tag>_sticky_filter_fatgirl</tag>
 	<tag>_sticky_filter_buff</tag>
+	<tag>_sticky_filter_baby</tag>
   </component>
   <component type="mouth" id="robot" path="robot" name="robot" thumb="thumbnail.swf" money="0" sharing="0" enable="N">
     <state id="angry" filename="angry.swf" />
@@ -12476,6 +12624,70 @@
 	<tag>_sticky_filter_fatguy</tag>
 	<tag>_sticky_filter_buff</tag>
   </component>
+  <component type="mustache" id="010" path="010" name="010" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+    <state id="default" filename="default.swf" />
+	<tag>_sticky_filter_guy</tag>
+	<tag>_sticky_filter_fatguy</tag>
+	<tag>_sticky_filter_buff</tag>
+  </component>
+  <component type="mustache" id="008" path="008" name="008" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+    <state id="default" filename="default.swf" />
+	<tag>_sticky_filter_guy</tag>
+	<tag>_sticky_filter_girl</tag>
+	<tag>_sticky_filter_fatguy</tag>
+	<tag>_sticky_filter_fatgirl</tag>
+	<tag>_sticky_filter_buff</tag>
+  </component>
+  <component type="mustache" id="009" path="009" name="009" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+    <state id="default" filename="default.swf" />
+	<tag>_sticky_filter_guy</tag>
+	<tag>_sticky_filter_girl</tag>
+	<tag>_sticky_filter_fatguy</tag>
+	<tag>_sticky_filter_fatgirl</tag>
+	<tag>_sticky_filter_buff</tag>
+  </component>
+  <component type="mustache" id="011" path="011" name="011" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+    <state id="default" filename="default.swf" />
+	<tag>_sticky_filter_guy</tag>
+	<tag>_sticky_filter_fatguy</tag>
+	<tag>_sticky_filter_buff</tag>
+  </component>
+  <component type="mustache" id="007" path="007" name="007" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+    <state id="default" filename="default.swf" />
+	<tag>_sticky_filter_guy</tag>
+	<tag>_sticky_filter_fatguy</tag>
+	<tag>_sticky_filter_buff</tag>
+  </component>
+  <component type="mustache" id="012" path="012" name="012" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+    <state id="default" filename="default.swf" />
+	<tag>_sticky_filter_guy</tag>
+	<tag>_sticky_filter_fatguy</tag>
+	<tag>_sticky_filter_buff</tag>
+  </component>>
+  <component type="mustache" id="fu_manchu" path="fu_manchu" name="fu_manchu" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+    <state id="default" filename="default.swf" />
+	<tag>_sticky_filter_guy</tag>
+	<tag>_sticky_filter_fatguy</tag>
+	<tag>_sticky_filter_buff</tag>
+  </component>
+  <component type="mustache" id="horseshoe" path="horseshoe" name="horseshoe" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+    <state id="default" filename="default.swf" />
+	<tag>_sticky_filter_guy</tag>
+	<tag>_sticky_filter_fatguy</tag>
+	<tag>_sticky_filter_buff</tag>
+  </component>
+  <component type="mustache" id="pencil" path="pencil" name="pencil" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+    <state id="default" filename="default.swf" />
+	<tag>_sticky_filter_guy</tag>
+	<tag>_sticky_filter_fatguy</tag>
+	<tag>_sticky_filter_buff</tag>
+  </component>
+  <component type="mustache" id="soulpatch" path="soulpatch" name="soulpatch" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+    <state id="default" filename="default.swf" />
+	<tag>_sticky_filter_guy</tag>
+	<tag>_sticky_filter_fatguy</tag>
+	<tag>_sticky_filter_buff</tag>
+  </component>
   <component type="nose" id="013" path="013" name="013" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
     <state id="default" filename="default.swf" />
 	<tag>_sticky_filter_guy</tag>
@@ -12493,6 +12705,7 @@
 	<tag>_sticky_filter_fatguy</tag>
 	<tag>_sticky_filter_fatgirl</tag>
 	<tag>_sticky_filter_buff</tag>
+	<tag>_sticky_filter_baby</tag>
   </component>
   <component type="nose" id="020" path="020" name="020" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
     <state id="default" filename="default.swf" />
@@ -12519,6 +12732,7 @@
 	<tag>_sticky_filter_fatguy</tag>
 	<tag>_sticky_filter_fatgirl</tag>
 	<tag>_sticky_filter_buff</tag>
+	<tag>_sticky_filter_baby</tag>
   </component>
   <component type="nose" id="001" path="001" name="001" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
     <state id="default" filename="default.swf" />
@@ -12546,6 +12760,7 @@
     <state id="default" filename="default.swf" />
 	<tag>_sticky_filter_littleguy</tag>
 	<tag>_sticky_filter_littlegirl</tag>
+	<tag>_sticky_filter_baby</tag>
   </component>
   <component type="nose" id="017" path="017" name="017" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
     <state id="default" filename="default.swf" />
@@ -12584,6 +12799,7 @@
 	<tag>_sticky_filter_fatguy</tag>
 	<tag>_sticky_filter_fatgirl</tag>
 	<tag>_sticky_filter_buff</tag>
+	<tag>_sticky_filter_baby</tag>
   </component>
   <component type="nose" id="005" path="005" name="005" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
     <state id="default" filename="default.swf" />
@@ -12686,6 +12902,7 @@
 	<tag>_sticky_filter_fatguy</tag>
 	<tag>_sticky_filter_fatgirl</tag>
 	<tag>_sticky_filter_buff</tag>
+	<tag>_sticky_filter_baby</tag>
   </component>
   <component type="nose" id="026" path="026" name="026" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
     <state id="default" filename="default.swf" />
@@ -12696,6 +12913,7 @@
 	<tag>_sticky_filter_fatguy</tag>
 	<tag>_sticky_filter_fatgirl</tag>
 	<tag>_sticky_filter_buff</tag>
+	<tag>_sticky_filter_baby</tag>
   </component>
   <component type="nose" id="028" path="028" name="028" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
     <state id="default" filename="default.swf" />
@@ -12706,6 +12924,7 @@
 	<tag>_sticky_filter_fatguy</tag>
 	<tag>_sticky_filter_fatgirl</tag>
 	<tag>_sticky_filter_buff</tag>
+	<tag>_sticky_filter_baby</tag>
   </component>
   <component type="nose" id="029" path="029" name="029" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
     <state id="default" filename="default.swf" />
@@ -12716,6 +12935,7 @@
 	<tag>_sticky_filter_fatguy</tag>
 	<tag>_sticky_filter_fatgirl</tag>
 	<tag>_sticky_filter_buff</tag>
+	<tag>_sticky_filter_baby</tag>
   </component>
   <component type="nose" id="2007" path="2007" name="2007" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
     <state id="default" filename="default.swf" />
@@ -12726,6 +12946,7 @@
 	<tag>_sticky_filter_fatguy</tag>
 	<tag>_sticky_filter_fatgirl</tag>
 	<tag>_sticky_filter_buff</tag>
+	<tag>_sticky_filter_baby</tag>
   </component>
   <component type="nose" id="030" path="030" name="030" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
     <state id="default" filename="default.swf" />
@@ -13064,70 +13285,6 @@
 	<tag>_sticky_filter_fatgirl</tag>
 	<tag>_sticky_filter_buff</tag>
   </component>
-  <component type="mustache" id="010" path="010" name="010" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
-    <state id="default" filename="default.swf" />
-	<tag>_sticky_filter_guy</tag>
-	<tag>_sticky_filter_fatguy</tag>
-	<tag>_sticky_filter_buff</tag>
-  </component>
-  <component type="mustache" id="008" path="008" name="008" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
-    <state id="default" filename="default.swf" />
-	<tag>_sticky_filter_guy</tag>
-	<tag>_sticky_filter_girl</tag>
-	<tag>_sticky_filter_fatguy</tag>
-	<tag>_sticky_filter_fatgirl</tag>
-	<tag>_sticky_filter_buff</tag>
-  </component>
-  <component type="mustache" id="009" path="009" name="009" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
-    <state id="default" filename="default.swf" />
-	<tag>_sticky_filter_guy</tag>
-	<tag>_sticky_filter_girl</tag>
-	<tag>_sticky_filter_fatguy</tag>
-	<tag>_sticky_filter_fatgirl</tag>
-	<tag>_sticky_filter_buff</tag>
-  </component>
-  <component type="mustache" id="011" path="011" name="011" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
-    <state id="default" filename="default.swf" />
-	<tag>_sticky_filter_guy</tag>
-	<tag>_sticky_filter_fatguy</tag>
-	<tag>_sticky_filter_buff</tag>
-  </component>
-  <component type="mustache" id="007" path="007" name="007" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
-    <state id="default" filename="default.swf" />
-	<tag>_sticky_filter_guy</tag>
-	<tag>_sticky_filter_fatguy</tag>
-	<tag>_sticky_filter_buff</tag>
-  </component>
-  <component type="mustache" id="012" path="012" name="012" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
-    <state id="default" filename="default.swf" />
-	<tag>_sticky_filter_guy</tag>
-	<tag>_sticky_filter_fatguy</tag>
-	<tag>_sticky_filter_buff</tag>
-  </component>>
-  <component type="mustache" id="fu_manchu" path="fu_manchu" name="fu_manchu" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
-    <state id="default" filename="default.swf" />
-	<tag>_sticky_filter_guy</tag>
-	<tag>_sticky_filter_fatguy</tag>
-	<tag>_sticky_filter_buff</tag>
-  </component>
-  <component type="mustache" id="horseshoe" path="horseshoe" name="horseshoe" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
-    <state id="default" filename="default.swf" />
-	<tag>_sticky_filter_guy</tag>
-	<tag>_sticky_filter_fatguy</tag>
-	<tag>_sticky_filter_buff</tag>
-  </component>
-  <component type="mustache" id="pencil" path="pencil" name="pencil" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
-    <state id="default" filename="default.swf" />
-	<tag>_sticky_filter_guy</tag>
-	<tag>_sticky_filter_fatguy</tag>
-	<tag>_sticky_filter_buff</tag>
-  </component>
-  <component type="mustache" id="soulpatch" path="soulpatch" name="soulpatch" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
-    <state id="default" filename="default.swf" />
-	<tag>_sticky_filter_guy</tag>
-	<tag>_sticky_filter_fatguy</tag>
-	<tag>_sticky_filter_buff</tag>
-  </component>
   <component type="facedecoration" id="013" path="013" name="013" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
     <state id="default" filename="default.swf" />
 	<tag>_sticky_filter_guy</tag>
@@ -13175,6 +13332,7 @@
 	<tag>_sticky_filter_fatguy</tag>
 	<tag>_sticky_filter_fatgirl</tag>
 	<tag>_sticky_filter_buff</tag>
+	<tag>_sticky_filter_baby</tag>
   </component>
   <component type="facedecoration" id="005" path="005" name="005" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
     <state id="default" filename="default.swf" />
@@ -13231,6 +13389,7 @@
 	<tag>_sticky_filter_fatguy</tag>
 	<tag>_sticky_filter_fatgirl</tag>
 	<tag>_sticky_filter_buff</tag>
+	<tag>_sticky_filter_baby</tag>
   </component>
   <component type="facedecoration" id="017" path="017" name="017" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
     <state id="default" filename="default.swf" />
@@ -13281,6 +13440,7 @@
 	<tag>_sticky_filter_fatguy</tag>
 	<tag>_sticky_filter_fatgirl</tag>
 	<tag>_sticky_filter_buff</tag>
+	<tag>_sticky_filter_baby</tag>
   </component>
   <component type="facedecoration" id="022" path="022" name="022" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
     <state id="default" filename="default.swf" />
@@ -13311,6 +13471,7 @@
 	<tag>_sticky_filter_fatguy</tag>
 	<tag>_sticky_filter_fatgirl</tag>
 	<tag>_sticky_filter_buff</tag>
+	<tag>_sticky_filter_baby</tag>
   </component>
   <component type="facedecoration" id="027" path="027" name="027" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
     <state id="default" filename="default.swf" />
@@ -13389,6 +13550,7 @@
 	<tag>_sticky_filter_girl</tag>
 	<tag>_sticky_filter_littlegirl</tag>
 	<tag>_sticky_filter_fatgirl</tag>
+	<tag>_sticky_filter_baby</tag>
   </component>
   <component type="facedecoration" id="042" path="042" name="042" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
     <state id="default" filename="default.swf" />
@@ -13582,6 +13744,7 @@
 	<tag>_sticky_filter_fatguy</tag>
 	<tag>_sticky_filter_fatgirl</tag>
 	<tag>_sticky_filter_buff</tag>
+	<tag>_sticky_filter_baby</tag>
   </component>
   <component type="facedecoration" id="067" path="067" name="067" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
     <state id="default" filename="default.swf" />
@@ -13691,6 +13854,7 @@
 	<tag>_sticky_filter_girl</tag>
 	<tag>_sticky_filter_littlegirl</tag>
 	<tag>_sticky_filter_fatgirl</tag>
+	<tag>_sticky_filter_baby</tag>
   </component>
   <component type="facedecoration" id="096" path="096" name="096" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
     <state id="default" filename="default.swf" />

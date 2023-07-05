@@ -5731,6 +5731,9 @@
   <char id="162" name="Adventurer" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
     <tags>family,_free,_cat:Holidays and Costumes,_tag:adventure adventurer adventures bob child children costumes female hiker holidays girl kid kids,_sticky_filter_littlegirl</tags>
   </char>
+  <char id="267" name="Baby" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+    <tags>family,_free,_cat:Casual,_tag:baby,_sticky_filter_baby</tags>
+  </char>
   <char id="154" name="Baseball Fielder" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
     <tags>family,_free,_cat:Sports,_tag:athlete baseball cap fielder hat jersey man male,_sticky_filter_guy</tags>
   </char>
