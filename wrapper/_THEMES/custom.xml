@@ -5121,7 +5121,7 @@
 	<tag>spoon</tag>
 	<tag>tableware</tag>
   </prop>
-  <prop id="msp_steak" name="Steak" holdable="1" placeable="1" wearable="" facing="left" thumb="msp_steak_steak_cooked.swf" enable="Y" is_premium="N" aid="11858" money="" sharing="">
+  <prop id="msp_steak" name="Steak" holdable="" placeable="1" wearable="" facing="left" thumb="msp_steak_steak_cooked.swf" enable="Y" is_premium="N" aid="11858" money="" sharing="">
 	<state id="msp_steak_steak_cooked.swf" name="Cooked" enable="Y" default="Y"/>
     <state id="msp_steak_steak_raw.swf" name="Raw" enable="Y"/>
 	<tag>cat:Food and Drink</tag>
