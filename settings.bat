@@ -449,6 +449,23 @@ if exist "info-nowave.json" (
 popd
 goto optionscreen
 
+::::::::::::::::::
+:: Discord RPC  ::
+::::::::::::::::::
+:rpcchange
+echo Toggling setting...
+pushd wrapper
+if exist "main-norpc.js" (
+	:: disable
+	ren main.js main-rpc.js
+	ren main-norpc.js main.js
+) else ( 
+	:: enable
+	ren main.js main-norpc.js
+	ren main-rpc.js main.js
+)
+popd
+
 ::::::::::::::::::::::::
 :: Extract Characters ::
 ::::::::::::::::::::::::
