@@ -1,5 +1,5 @@
 {
-	"XML_HEADER": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n",
+	"XML_HEADER": "<?xml version=\"1.0\" encoding=\"utf-8\"?>",
 
 	"SWF_URL": "https://localhost:4664/animation/414827163ad4eb60",
 	"STORE_URL": "https://localhost:4664/store/3a981f5cb2739137",
@@ -7,6 +7,10 @@
 	
 	"CHAR_BASE_URL": "./server/characters",
 	"THUMB_BASE_URL": "./server/thumbnails",
+	
+	"ASSET_FOLDER": "./_ASSETS",
+	"CACHÉ_FOLDER": "./_CACHÉ",
+	"SAVED_FOLDER": "./_SAVED",
 	
 	"SERVER_PORT": 4343
 }
