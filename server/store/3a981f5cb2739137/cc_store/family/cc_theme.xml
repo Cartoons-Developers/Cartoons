@@ -13877,6 +13877,12 @@
 	<tag>_sticky_filter_littlegirl</tag>
 	<tag>_sticky_filter_fatgirl</tag>
   </component>
+  <component type="facedecoration" id="171" path="171" name="171" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+    <state id="default" filename="default.swf" />
+	<tag>_sticky_filter_girl</tag>
+	<tag>_sticky_filter_littlegirl</tag>
+	<tag>_sticky_filter_fatgirl</tag>
+  </component>
   <component type="facedecoration" id="100" path="100" name="100" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
     <state id="default" filename="default.swf" />
 	<tag>_sticky_filter_guy</tag>
