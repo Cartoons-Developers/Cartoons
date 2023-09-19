@@ -1,0 +1,8 @@
+<footer>
+	<nav id="foot-left">
+		<a href="javascript:;" onclick="checkForUpdates()">v<%= it.env.WRAPPER_VER %></a>
+		<a href="/settings">Settings</a>
+	</nav>
+
+	<nav id="foot-right"></nav>
+</footer>
