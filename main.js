@@ -70,7 +70,7 @@ const createWindow = () => {
 	mainWindow = new BrowserWindow({
 		width: 1200,
 		height: 700,
-		title: "Wrapper: Offline",
+		title: "Cartoons",
 		icon: path.join(__dirname, "./server/favicon.ico"),
 		webPreferences: {
 			plugins: true,
@@ -107,25 +107,6 @@ const createWindow = () => {
 				] : [
 					{ role: "close" }
 				]),
-			]
-		},
-		{
-			role: "Help",
-			submenu: [
-				{
-					label: "Discord Server",
-					click: async () => {
-						const { shell } = require("electron");
-						await shell.openExternal("https://discord.gg/Kf7BzSw");
-					}
-				},
-				{
-					label: "GitHub",
-					click: async () => {
-						const { shell } = require("electron");
-						await shell.openExternal("https://github.com/Wrapper-Offline/Wrapper-Offline");
-					}
-				}
 			]
 		}
 	]));
