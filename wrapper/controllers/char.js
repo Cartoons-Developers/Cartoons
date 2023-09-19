@@ -48,7 +48,7 @@ group.route("GET", /\/go\/character_creator\/(\w+)(\/\w+)?(\/.+)?$/, (req, res) 
 			break;
 		} default: {
 			const type = theme == "family" ?
-				bfTypes[req.query.type || ""] || "":
+				defaultTypes[req.query.type || ""] || "":
 				req.query.type || defaultTypes[theme] || "";
 			redirect = `/cc?themeId=${theme}&bs=${type}${external}`;
 			break;
