@@ -3,17 +3,13 @@ const httpz = require("@octanuary/httpz");
 const { exists } = require("../models/asset");
 const base = Buffer.alloc(1, "0");
 const defaultTypes = {
-	anime: "guy",
-	cctoonadventure: "default",
-	family: "adam",
-};
-const bfTypes = {
-	man: "default&ft=_sticky_filter_guy",
-	woman: "default&ft=_sticky_filter_girl",
-	boy: "kid&ft=_sticky_filter_littleboy",
-	girl: "kid&ft=_sticky_filter_littlegirl",
-	heavy_man: "heavy&ft=_sticky_filter_heavyguy",
-	heavy_woman: "heavy&ft=_sticky_filter_heavygirl"
+	adam: "adam&ft=_sticky_filter_guy",
+	eve: "eve&ft=_sticky_filter_girl",
+	heavy_man: "bob&ft=_sticky_filter_fatguy",
+	heavy_woman: "bob&ft=_sticky_filter_fatgirl",
+	rocky: "rocky&ft=_sticky_filter_buff",
+	boy: "boy&ft=_sticky_filter_littleguy",
+	girl: "girl&ft=_sticky_filter_littlegirl",
 };
 const group = new httpz.Group();
 
@@ -51,7 +47,7 @@ group.route("GET", /\/go\/character_creator\/(\w+)(\/\w+)?(\/.+)?$/, (req, res) 
 			redirect = `/cc?themeId=${theme}&original_asset_id=${id.substring(1)}${external}`;
 			break;
 		} default: {
-			const type = theme == "business" ?
+			const type = theme == "family" ?
 				bfTypes[req.query.type || ""] || "":
 				req.query.type || defaultTypes[theme] || "";
 			redirect = `/cc?themeId=${theme}&bs=${type}${external}`;
