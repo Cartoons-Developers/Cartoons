@@ -1,5 +1,5 @@
 /*
-Wrapper: Offline
+Cartoons
 License: MIT
 */
 // assign config and env.json stuff to process.env
