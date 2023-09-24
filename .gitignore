@@ -2,7 +2,6 @@
 _ASSETS/*
 _CACHÉ/*
 _LOGS/*
-_SAVED/*
 _EXPORTS/*
 _SAVED/database.json
 !_*/_NO_REMÖVE
