@@ -2282,7 +2282,7 @@
       <file>custom.train_interior.swf</file>
     </bg>
   </compositebg>
-  <compositebg id="cbg_theater_audience" name="Theater - Audience" enable="Y" default="N" thumb="subway_interior.png" display_order="29" is_premium="N" money="" sharing="" aid="9613">
+  <compositebg id="cbg_theater_audience" name="Theater - Audience" enable="Y" default="N" thumb="theater_audience.png" display_order="29" is_premium="N" money="" sharing="" aid="9613">
     <bg id="BG2" index="0">
       <file>custom.theater_audience.swf</file>
     </bg>
