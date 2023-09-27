@@ -52,6 +52,9 @@ switch (process.platform) {
 	case "win32": {
 		pluginName = "./extensions/pepflashplayer.dll";
 		break;
+	} case "win64": {
+		pluginName = "./extensions/pepflashplayer.dll";
+		break;
 	} case "darwin": {
 		pluginName = "./extensions/PepperFlashPlayer.plugin";
 		break;
