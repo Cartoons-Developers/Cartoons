@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?> 
-<theme id="import" name="Imported Assets"> 
-	<prop id="leftpanel_character.png" name="Left Panel - Character" holdable="0" wearable="0" placeable="1" facing="left" thumb="" aid="9004" enable="N" is_premium="N" money="0" sharing="0" />
-
-</theme> 
