@@ -11,7 +11,7 @@
 		"test": "mocha"
 	},
 	"main": "main.js",
-	"dependencies": {
+	"devDependencies": {
 		"@ffmpeg-installer/ffmpeg": "^1.1.0",
 		"@ffprobe-installer/ffprobe": "^1.4.1",
 		"@octanuary/httpz": "^1.0.3",
