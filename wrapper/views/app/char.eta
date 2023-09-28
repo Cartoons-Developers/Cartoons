@@ -13,7 +13,7 @@
 		</style>
 		<script>
 			function characterSaved() {
-				window.location = "/"
+				window.location = "/cc_browser"
 			}
 		</script>
 	</head>
