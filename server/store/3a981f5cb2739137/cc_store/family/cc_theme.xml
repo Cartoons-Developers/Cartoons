@@ -7315,6 +7315,19 @@
       <state id="walk" filename="walk.swf" />
 	<tag>_sticky_filter_girl</tag>
     </component>
+    <component type="lower_body" id="eve_066" path="eve_066" name="eve_066" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+      <state id="dance" filename="dance.swf" />
+      <state id="default" filename="default.swf" />
+      <state id="excited" filename="excited.swf" />
+      <state id="fearful" filename="fearful.swf" />
+      <state id="kneel_down" filename="kneel_down.swf" />
+      <state id="laugh" filename="laugh.swf" />
+      <state id="lie_down" filename="lie_down.swf" />
+      <state id="run" filename="run.swf" />
+      <state id="sit" filename="sit.swf" />
+      <state id="walk" filename="walk.swf" />
+	<tag>_sticky_filter_girl</tag>
+    </component>
     <component type="lower_body" id="eve_a002" path="eve_a002" name="eve_a002" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
       <state id="dance" filename="dance.swf" />
       <state id="default" filename="default.swf" />
@@ -9163,6 +9176,18 @@
 	<tag>_sticky_filter_littlegirl</tag>
     </component>
     <component type="lower_body" id="adam_094" path="adam_094" name="adam_094" thumb="thumbnail.swf" display_order="140" money="0" sharing="0" enable="Y">
+      <state id="dance" filename="dance.swf" />
+      <state id="default" filename="default.swf" />
+      <state id="excited" filename="excited.swf" />
+      <state id="fearful" filename="fearful.swf" />
+      <state id="kneel_down" filename="kneel_down.swf" />
+      <state id="laugh" filename="laugh.swf" />
+      <state id="run" filename="run.swf" />
+      <state id="sit" filename="sit.swf" />
+      <state id="walk" filename="walk.swf" />
+	<tag>_sticky_filter_littlegirl</tag>
+    </component>
+    <component type="lower_body" id="adam_097" path="adam_097" name="adam_097" thumb="thumbnail.swf" display_order="140" money="0" sharing="0" enable="Y">
       <state id="dance" filename="dance.swf" />
       <state id="default" filename="default.swf" />
       <state id="excited" filename="excited.swf" />
