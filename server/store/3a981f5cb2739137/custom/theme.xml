@@ -245,7 +245,7 @@
       <color r="ccColorA">8476482</color>
     </prop>
   </compositebg>
-  <compositebg id="cbg_bedroom_kid" name="Bedroom - Kid" enable="Y" default="N" thumb="subway_interior.png" display_order="29" is_premium="N" money="" sharing="" aid="9613">
+  <compositebg id="cbg_bedroom_kid" name="Bedroom - Kid" enable="Y" default="N" thumb="bedroom_kid.png" display_order="29" is_premium="N" money="" sharing="" aid="9613">
     <bg id="BG2" index="0">
       <file>custom.wall10.swf</file>
       <color r="ccColorA">12440015</color>
