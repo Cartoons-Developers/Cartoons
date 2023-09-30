@@ -245,6 +245,136 @@
       <color r="ccColorA">8476482</color>
     </prop>
   </compositebg>
+  <compositebg id="cbg_bedroom_kid" name="Bedroom - Kid" enable="Y" default="N" thumb="subway_interior.png" display_order="29" is_premium="N" money="" sharing="" aid="9613">
+    <bg id="BG2" index="0">
+      <file>custom.wall10.swf</file>
+      <color r="ccColorA">12440015</color>
+      <color r="ccColorB">12164737</color>
+      <color r="ccColorC">8544315</color>
+    </bg>
+    <prop id="PROP0" index="3">
+      <file>custom.msp_toy_trunk.msp_toy_trunk_full.swf</file>
+      <x>491.65</x>
+      <y>224.9</y>
+      <xscale>1.2931394</xscale>
+      <yscale>1.2931394</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+      <color r="ccColorA">13545044</color>
+    </prop>
+    <prop id="PROP3" index="1">
+      <file>custom.msp_shelves02.msp_shelves02_shelves02_front.swf</file>
+      <x>501.975</x>
+      <y>133.2278137</y>
+      <xscale>0.5562731</xscale>
+      <yscale>0.5562731</yscale>
+      <face>-1</face>
+      <rotation>0</rotation>
+      <color r="ccColorA">10257254</color>
+    </prop>
+    <prop id="PROP5" index="2">
+      <file>custom.msp_shelves02.msp_shelves02_shelves02_front.swf</file>
+      <x>501.875</x>
+      <y>84.7778137</y>
+      <xscale>0.5562731</xscale>
+      <yscale>0.5562731</yscale>
+      <face>-1</face>
+      <rotation>0</rotation>
+      <color r="ccColorA">10257254</color>
+    </prop>
+    <prop id="PROP8" index="4">
+      <file>custom.window2.swf</file>
+      <x>181.2366249</x>
+      <y>119.6518617</y>
+      <xscale>1.031619</xscale>
+      <yscale>0.9255308</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+      <color r="ccColorA">8703465</color>
+      <color r="ccColorB">15590884</color>
+    </prop>
+    <prop id="PROP10" index="5">
+      <file>custom.window2.swf</file>
+      <x>279.5499167</x>
+      <y>119.675</y>
+      <xscale>1.031619</xscale>
+      <yscale>0.9255308</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+      <color r="ccColorA">8703465</color>
+      <color r="ccColorB">15590884</color>
+    </prop>
+    <prop id="PROP11" index="6">
+      <file>custom.msp_curtain2.msp_curtain2_curtain_open.swf</file>
+      <x>333.325</x>
+      <y>149.3141016</y>
+      <xscale>1.6127238</xscale>
+      <yscale>0.7692711</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+      <color r="ccColorA">13477542</color>
+    </prop>
+    <prop id="PROP13" index="7">
+      <file>custom.msp_curtain2.msp_curtain2_curtain_open.swf</file>
+      <x>120.475</x>
+      <y>149.3057682</y>
+      <xscale>1.6127238</xscale>
+      <yscale>0.7692711</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+      <color r="ccColorA">13477542</color>
+    </prop>
+    <prop id="PROP14" index="8">
+      <file>custom.msp_bed01.msp_bed01_ncc_bed01_side.swf</file>
+      <x>167.75</x>
+      <y>240.675</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+      <color r="ccColorB">9531739</color>
+      <color r="ccColorA">9592716</color>
+    </prop>
+    <prop id="PROP15" index="10">
+      <file>custom.msp_blanket01.msp_blanket01_ncc_blanket01_side_empty.swf</file>
+      <x>213.425</x>
+      <y>261.875</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+      <color r="ccColorA">15328984</color>
+    </prop>
+    <prop id="PROP16" index="9">
+      <file>custom.msp_pillow02.msp_pillow02_ncc_pillow02_side.swf</file>
+      <x>96.8091697</x>
+      <y>240.6293718</y>
+      <xscale>0.8251263</xscale>
+      <yscale>0.8251263</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+      <color r="ccColorA">14074330</color>
+    </prop>
+    <prop id="PROP18" index="11">
+      <file>custom.msp_office_desk.msp_office_desk_ncc_officedesk_side.swf</file>
+      <x>598.3</x>
+      <y>334.075</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>-1</face>
+      <rotation>0</rotation>
+      <color r="ccColorA">13736088</color>
+    </prop>
+    <prop id="PROP19" index="12">
+      <file>custom.msp_crmchair.msp_crmchair_ncc_crmchair_side.swf</file>
+      <x>400.8</x>
+      <y>305.8</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+  </compositebg>
   <compositebg id="cbg_blackboard" name="Classroom" enable="Y" default="N" thumb="blackboard.png" display_order="29" is_premium="N" money="" sharing="" aid="9613">
     <bg id="BG149" index="0">
       <file>custom.wall10.swf</file>
@@ -3678,6 +3808,11 @@
     <state id="msp_curtain_curtain_closed.swf" name="closed" enable="Y" />
 	<tag>cat:Furniture and Fixtures</tag>
   </prop>
+  <prop id="msp_curtain2" name="Curtain" holdable="" placeable="1" wearable="" facing="left" thumb="msp_curtain2_curtain_open.swf" enable="Y" is_premium="N" aid="10852" money="" sharing="">
+    <state id="msp_curtain2_curtain_open.swf" name="open" enable="Y" default="Y" />
+    <state id="msp_curtain2_curtain_closed.swf" name="closed" enable="Y" />
+	<tag>cat:Furniture and Fixtures</tag>
+  </prop>
   <prop id="msp_stage_dec02" name="Decoration" holdable="" placeable="1" wearable="" facing="left" thumb="msp_stage_dec02_ncc_stage_dec02_off.swf" enable="Y" is_premium="N" aid="10852" money="" sharing="">
     <state id="msp_stage_dec02_ncc_stage_dec02_off.swf" name="off" enable="Y" default="Y" />
     <state id="msp_stage_dec02_ncc_stage_dec02_on.swf" name="on" enable="Y" />
@@ -5844,6 +5979,12 @@
     <tag>cat:Industrial and Hardware</tag>
 	<tag>cart</tag>
     <tag>trolley</tag>
+  </prop>
+  <prop id="msp_toy_trunk" name="Trunk of Toys" holdable="" placeable="1" wearable="" facing="left" thumb="msp_toy_trunk_full.swf" enable="Y" is_premium="Y" aid="12408" money="" sharing="">
+    <state id="msp_toy_trunk_empty.swf" name="empty" enable="Y" />
+    <state id="msp_toy_trunk_closed.swf" name="closed" enable="Y" />
+    <state id="msp_toy_trunk_full.swf" name="full" enable="Y" default="Y" />
+    <tag>cat:Others</tag>
   </prop>
   <prop id="xm_turkey.swf" name="Turkey" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="8992" money="" sharing="">
     <tag>cat:Food and Drink</tag>
