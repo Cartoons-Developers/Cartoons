@@ -3,6 +3,7 @@
   <background id="kids_bedroom.swf" name="Bedroom - Kids" enable="Y" default="N" is_premium="N" aid="9811" money="" sharing="" category="Locations" />
   <background id="car_backseat.swf" name="Car Backseat" enable="Y" default="N" is_premium="N" aid="9811" money="" sharing="" category="Locations" />
   <background id="cemetery.swf" name="Cemetery" enable="Y" default="N" is_premium="N" aid="9811" money="" sharing="" category="Locations" />
+  <background id="countdown.swf" name="Countdown Screen" enable="Y" default="N" is_premium="N" aid="9811" money="" sharing="" category="Patterns" />
   <background id="fast_food.swf" name="Fast Food" enable="Y" default="N" is_premium="N" aid="9811" money="" sharing="" category="Locations" />
   <background id="forest.swf" name="Forest" enable="Y" default="N" is_premium="N" aid="9811" money="" sharing="" category="Locations" />
   <background id="airplane_interior.swf" name="Fuselage" enable="Y" default="N" is_premium="N" aid="9811" money="" sharing="" category="Locations" />
@@ -19,6 +20,7 @@
   <background id="parking_lot.swf" name="Parking Lot" enable="Y" default="N" is_premium="N" aid="9811" money="" sharing="" category="Locations" />
   <background id="white_house_bg.swf" name="President Office" enable="Y" default="N" is_premium="N" aid="9060" money="" sharing="" category="Locations" />
   <background id="wall12.swf" name="Room" enable="Y" default="N" is_premium="N" aid="11453" money="" sharing="" category="Locations" />
+  <background id="wall13.swf" name="Room" enable="Y" default="N" is_premium="N" aid="11453" money="" sharing="" category="Locations" />
   <background id="space_sky.swf" name="Sky" enable="Y" default="N" is_premium="N" aid="9811" money="" sharing="" category="Locations" />
   <background id="theater_audience.swf" name="Theater - Audience" enable="Y" default="N" is_premium="N" aid="9811" money="" sharing="" category="Locations" />
   <background id="train_interior.swf" name="Train Interior" enable="Y" default="N" is_premium="N" aid="9811" money="" sharing="" category="Locations" />
