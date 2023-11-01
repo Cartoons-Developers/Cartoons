@@ -4341,6 +4341,13 @@
 	<tag>iv</tag>
 	<tag>medical</tag>
   </prop>
+  <prop id="msp_jackolantern" name="Jack-o-lantern" holdable="1" placeable="1" wearable="0" facing="left" thumb="msp_jackolantern_jackolantern1.swf" enable="Y" is_premium="Y" aid="12369" money="0" sharing="0" handstyle="flat">
+    <tag>cat:Decorations</tag>
+	<state id="msp_jackolantern_jackolantern1.swf" name="face 1" enable="Y" default="Y"/>
+    <state id="msp_jackolantern_jackolantern2.swf" name="face 2" enable="Y"/>
+    <state id="msp_jackolantern_jackolantern3.swf" name="face 3" enable="Y"/>
+    <state id="msp_jackolantern_jackolantern4.swf" name="face 4" enable="Y"/>
+  </prop>
   <prop id="jail_gate1.swf" name="Jail Gate" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9041" money="" sharing="">
 	<tag>cat:Buildings and Structures</tag>
 	<tag>bars</tag>
