@@ -1,0 +1,4 @@
+{
+    "invalidUrlType": "URL must have type 'string | string[] | RegExp'.",
+    "invalidMethod": "Method array must contain a valid method."
+}
