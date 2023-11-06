@@ -6325,7 +6325,7 @@
   <char id="102" name="Baseball Player" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
     <tags>family,_free,_cat:Sports,_tag:athlete baseball helmet jersey man male player,_category_guy</tags>
   </char>
-  <char id="96" name="Basketball Player" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+  <char id="096" name="Basketball Player" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
     <tags>family,_free,_cat:Sports,_tag:athlete basketball jersey man male player,_category_guy</tags>
   </char>
   <char id="103" name="Basketball Player" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
@@ -7062,7 +7062,7 @@
   <char id="205" name="Superhero" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
     <tags>family,_free,_cat:Holidays and Costumes,_tag:boot boots costume costumes female glove gloves glasses hero heroes heroic holiday holidays hols lady other professions superhero woman,_category_girl</tags>
   </char>
-  <char id="39" name="Thief" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+  <char id="039" name="Thief" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
     <tags>family,_free,_cat:Holidays and Costumes,_tag:burglar cap convict costume costumes crime criminal hat holiday holidays hols mask man male other professions rob robber robbery thief thieves,_category_guy</tags>
   </char>
   <char id="139" name="Thief" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
