@@ -7118,6 +7118,9 @@
   <char id="015" name="President" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
     <tags>family,_free,_cat:Office,_tag:apprentice business candidate election elections elder elderlies elderly office other politics politician presidential professions suit,_category_guy</tags>
   </char>
+  <char id="268" name="President" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+    <tags>family,_free,_cat:Office,_tag:apprentice business candidate election elections elder elderlies elderly office other politics politician presidential professions suit,_category_guy</tags>
+  </char>
   <char id="091" name="Prisoner" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
     <tags>family,_free,_cat:Government,_tag:convict crime criminal government jail jumpsuit man male prison prisoner,_category_guy</tags>
   </char>
