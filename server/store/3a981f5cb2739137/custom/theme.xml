@@ -7115,6 +7115,15 @@
   <char id="073" name="Pirate" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
     <tags>family,_free,_cat:Holidays and Costumes,_tag:boot boots boy cap captain child children costume costumes eyepatch hat holiday holidays hols male other pirate professions,_category_littleguy</tags>
   </char>
+  <char id="006" name="Police" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+    <tags>family,_free,_cat:Government,_tag:badge cap cop cops government hat hero heroes heroic law legal man male officer police,_category_guy</tags>
+  </char>
+  <char id="007" name="Police" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+    <tags>family,_free,_cat:Government,_tag:badge cap ccp cops government hat hero heroes heroic law legal man male officer police,_category_guy</tags>
+  </char>
+  <char id="008" name="Police" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+    <tags>family,_free,_cat:Government,_tag:badge cap cop cops elder elderlies elderly government hat hero heroes heroic law legal man male officer police,_category_guy</tags>
+  </char>
   <char id="015" name="President" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
     <tags>family,_free,_cat:Office,_tag:apprentice business candidate election elections elder elderlies elderly office other politics politician presidential professions suit,_category_guy</tags>
   </char>
@@ -7135,15 +7144,6 @@
   </char>
   <char id="199" name="Prisoner" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
     <tags>family,_free,_cat:Government,_tag:bald big convict crime criminal government jail jumpsuit large man male prison prisoner,_category_fatguy</tags>
-  </char>
-  <char id="006" name="Police" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
-    <tags>family,_free,_cat:Government,_tag:badge cap cop cops government hat hero heroes heroic law legal man male officer police,_category_guy</tags>
-  </char>
-  <char id="007" name="Police" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
-    <tags>family,_free,_cat:Government,_tag:badge cap ccp cops government hat hero heroes heroic law legal man male officer police,_category_guy</tags>
-  </char>
-  <char id="008" name="Police" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
-    <tags>family,_free,_cat:Government,_tag:badge cap cop cops elder elderlies elderly government hat hero heroes heroic law legal man male officer police,_category_guy</tags>
   </char>
   <!-- 
   <char id="149" name="Robot" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
