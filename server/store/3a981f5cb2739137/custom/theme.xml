@@ -6482,9 +6482,6 @@
   <char id="162" name="Adventurer" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
     <tags>family,_free,_cat:Holidays and Costumes,_tag:adventure adventurer adventures bob child children costumes female hiker holidays girl kid kids,_category_littlegirl</tags>
   </char>
-  <char id="267" name="Baby" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
-    <tags>family,_free,_cat:Casual,_tag:baby,_category_baby</tags>
-  </char>
   <char id="154" name="Baseball Fielder" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
     <tags>family,_free,_cat:Sports,_tag:athlete baseball cap fielder hat jersey man male,_category_guy</tags>
   </char>
@@ -7089,6 +7086,18 @@
     <tags>family,_free,_cat:Office,_tag:big business female lady large office woman worker,_category_fatgirl</tags>
   </char>
   <char id="260" name="Office Professional" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+    <tags>family,_free,_cat:Office,_tag:business glasses man male office worker,_category_guy</tags>
+  </char>
+  <char id="270" name="Office Professional" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+    <tags>family,_free,_cat:Office,_tag:business female lady office woman worker,_category_girl</tags>
+  </char>
+  <char id="271" name="Office Professional" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+    <tags>family,_free,_cat:Office,_tag:business female lady office woman worker,_category_girl</tags>
+  </char>
+  <char id="272" name="Office Professional" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+    <tags>family,_free,_cat:Office,_tag:big business glasses heavy man male office worker,_category_fatguy</tags>
+  </char>
+  <char id="273" name="Office Professional" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
     <tags>family,_free,_cat:Office,_tag:business glasses man male office worker,_category_guy</tags>
   </char>
   <char id="075" name="Pajamas" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
