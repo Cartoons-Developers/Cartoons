@@ -7374,7 +7374,7 @@
       <component type="bodyshape" component_id="girl" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" />
       <component type="skeleton" component_id="adam_001" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" />
       <component type="upper_body" component_id="adam_girl1" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" />
-      <component type="lower_body" component_id="adam_060" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" />
+      <component type="lower_body" component_id="adam_097" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" />
       <component type="faceshape" component_id="002" theme_id="family" x="0" y="0" xscale="1" yscale="0.96" offset="0" rotation="0" />
       <component type="hair" component_id="new_hairstyle30" theme_id="family" x="0" y="2" xscale="1" yscale="1" offset="0" rotation="0" />
       <component type="mouth" component_id="201" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" />
