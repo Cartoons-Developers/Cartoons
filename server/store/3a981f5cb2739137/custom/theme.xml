@@ -5929,6 +5929,11 @@
 	<tag>kitchen</tag>
 	<tag>oven</tag>
   </prop>
+  <prop id="msp_strawberry" name="Strawberry" holdable="" placeable="1" wearable="" facing="left" thumb="msp_strawberry_strawberry_whole.swf" enable="Y" is_premium="N" aid="10626" money="" sharing="">
+    <state id="msp_strawberry_strawberry_whole.swf" name="Whole" enable="Y" default="Y" />
+    <state id="msp_strawberry_strawberry_slice.swf" name="Slice" enable="Y" />
+    <tag>cat:Food and Drink</tag>
+  </prop>
   <prop id="teddy_bear.swf" name="Stuffed Bear" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="8966" money="" sharing="" >
     <tag>cat:Retail</tag>
 	<tag>animal</tag>
