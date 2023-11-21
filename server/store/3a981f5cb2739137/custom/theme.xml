@@ -5941,6 +5941,9 @@
     <tag>bear</tag>
     <tag>bears</tag>
   </prop>
+  <prop id="security_camera.swf" name="Surveillance Camera" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="11047" money="" sharing="">
+    <tag>cat:Technology</tag>
+  </prop>
   <prop id="ncc_sun.swf" name="Sun" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="11047" money="" sharing="">
     <tag>cat:Space</tag>
 	<tag>day</tag>
