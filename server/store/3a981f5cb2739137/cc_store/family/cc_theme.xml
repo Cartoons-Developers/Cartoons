@@ -571,7 +571,7 @@
     <selection type="mustache" state_id="default" />
     <selection type="nose" state_id="default" />
   </facial>
-  <facial id="head_taunt" name="Taunt" enable="Y">
+  <facial id="head_taunt" name="Blow raspberry" enable="Y">
     <selection type="beard" state_id="default" />
     <selection type="ear" state_id="default" />
     <selection type="eye" state_id="angry" />
