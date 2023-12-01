@@ -11646,6 +11646,12 @@
 	<tag>_sticky_filter_fatgirl</tag>
 	<tag>_sticky_filter_buff</tag>
   </component>
+  <component type="hair" id="276" path="276" name="276" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+    <state id="default" filename="default.swf" />
+	<tag>_sticky_filter_girl</tag>
+	<tag>_sticky_filter_littlegirl</tag>
+	<tag>_sticky_filter_fatgirl</tag>
+  </component>
   <component type="hair" id="6022" path="6022" name="6022" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
     <state id="default" filename="default.swf" />
 	<tag>_sticky_filter_guy</tag>
