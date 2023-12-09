@@ -6790,6 +6790,30 @@
   <char id="269" name="Customer Service" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
     <tags>family,_free,_cat:Office,_tag:business customer man male office professional service worker,_category_guy</tags>
   </char>
+  <char id="274" name="Doctor" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+    <tags>family,_free,_cat:Healthcare,_tag:afro clinic clinical doctor health healthcare hospital hospitality male man surgeon,_category_guy</tags>
+  </char>
+  <char id="275" name="Doctor" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+    <tags>family,_free,_cat:Healthcare,_tag:afro clinic clinical doctor health healthcare hospital hospitality male man mask surgeon,_category_guy</tags>
+  </char>
+  <char id="276" name="Doctor" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+    <tags>family,_free,_cat:Healthcare,_tag:bald clinic clinical doctor health healthcare hospital hospitality male man surgeon,_category_guy</tags>
+  </char>
+  <char id="277" name="Doctor" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+    <tags>family,_free,_cat:Healthcare,_tag:bald clinic clinical doctor health healthcare hospital hospitality male man mask surgeon,_category_guy</tags>
+  </char>
+  <char id="278" name="Doctor" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+    <tags>family,_free,_cat:Healthcare,_tag:clinic clinical doctor female health healthcare hospital hospitality lady surgeon woman,_category_girl</tags>
+  </char>
+  <char id="279" name="Doctor" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+    <tags>family,_free,_cat:Healthcare,_tag:clinic clinical doctor female health healthcare hospital hospitality lady mask surgeon woman,_category_girl</tags>
+  </char>
+  <char id="280" name="Doctor" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+    <tags>family,_free,_cat:Healthcare,_tag:clinic clinical doctor female health healthcare hospital hospitality lady surgeon woman,_category_girl</tags>
+  </char>
+  <char id="281" name="Doctor" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+    <tags>family,_free,_cat:Healthcare,_tag:clinic clinical doctor female health healthcare hospital hospitality lady mask surgeon woman,_category_girl</tags>
+  </char>
   <char id="029" name="Farmer" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
     <tags>family,_free,_cat:Other Professions,_tag:boot boots cap dungarees farmer goatee hat man male other overalls professions rancher,_category_guy</tags>
   </char>
