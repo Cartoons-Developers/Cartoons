@@ -6814,6 +6814,12 @@
   <char id="281" name="Doctor" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
     <tags>family,_free,_cat:Healthcare,_tag:clinic clinical doctor female health healthcare hospital hospitality lady mask surgeon woman,_category_girl</tags>
   </char>
+  <char id="282" name="Elf" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+    <tags>family,_free,_cat:Holidays and Costumes,_tag:christmas costume costumes elf hat holiday holidays hols man male noel,_category_guy</tags>
+  </char>
+  <char id="283" name="Elf" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+    <tags>family,_free,_cat:Holidays and Costumes,_tag:christmas costume costumes elf hat holiday holidays hols man male noel,_category_guy</tags>
+  </char>
   <char id="029" name="Farmer" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
     <tags>family,_free,_cat:Other Professions,_tag:boot boots cap dungarees farmer goatee hat man male other overalls professions rancher,_category_guy</tags>
   </char>
