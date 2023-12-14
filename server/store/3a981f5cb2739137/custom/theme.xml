@@ -3812,6 +3812,11 @@
 	<tag>chocolate</tag>
 	<tag>food</tag>
   </prop>
+  <prop id="msp_sock01" name="Christmas Stockings" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_sock01_nccxmas_sock01.swf" enable="Y" is_premium="Y" aid="11512" money="0" sharing="0">
+    <state id="msp_sock01_nccxmas_sock01.swf" name="empty" enable="Y" default="Y"/>
+    <state id="msp_sock01_nccxmas_sock01_full.swf" name="full" enable="Y"/>
+    <tag>cat:Decorations</tag>
+  </prop>
   <prop id="msp_htree" name="Christmas Tree" holdable="" placeable="1" wearable="" facing="left" thumb="msp_htree_nccxmas_htree_decoon.swf" enable="Y" is_premium="Y" aid="11479" money="" sharing="">
     <state id="msp_htree_nccxmas_htree_decooff.swf" name="Off" enable="Y" />
     <state id="msp_htree_nccxmas_htree_decoon.swf" name="On" enable="Y" default="Y" />
