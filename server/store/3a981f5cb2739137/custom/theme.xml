@@ -444,7 +444,7 @@
       <rotation>0</rotation>
     </prop>
   </compositebg>
-  <compositebg id="cbg_christmas" name="Christmas" enable="Y" default="N" thumb="subway_interior.png" display_order="29" is_premium="N" money="" sharing="" aid="9613">
+  <compositebg id="cbg_christmas" name="Christmas" enable="Y" default="N" thumb="christmas.png" display_order="29" is_premium="N" money="" sharing="" aid="9613">
     <bg id="BG4" index="0">
       <file>custom.wall10.swf</file>
       <color r="ccColorA">11382406</color>
