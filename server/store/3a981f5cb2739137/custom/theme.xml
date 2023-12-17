@@ -444,6 +444,135 @@
       <rotation>0</rotation>
     </prop>
   </compositebg>
+  <compositebg id="cbg_christmas" name="Christmas" enable="Y" default="N" thumb="subway_interior.png" display_order="29" is_premium="N" money="" sharing="" aid="9613">
+    <bg id="BG4" index="0">
+      <file>custom.wall10.swf</file>
+      <color r="ccColorA">11382406</color>
+      <color r="ccColorB">9005643</color>
+    </bg>
+    <prop id="PROP1" index="1">
+      <file>custom.fireplace.swf</file>
+      <x>354.4652586</x>
+      <y>185.6979274</y>
+      <xscale>0.9155152</xscale>
+      <yscale>0.9155152</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP2" index="2">
+      <file>custom.msp_sock01.msp_sock01_nccxmas_sock01.swf</file>
+      <x>283.6806751</x>
+      <y>138.3657916</y>
+      <xscale>0.7971127</xscale>
+      <yscale>0.7971127</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP4" index="3">
+      <file>custom.msp_sock01.msp_sock01_nccxmas_sock01.swf</file>
+      <x>330.3261745</x>
+      <y>138.3429037</y>
+      <xscale>0.7971127</xscale>
+      <yscale>0.7971127</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP7" index="4">
+      <file>custom.msp_sock01.msp_sock01_nccxmas_sock01.swf</file>
+      <x>376.9258981</x>
+      <y>138.3200158</y>
+      <xscale>0.7971127</xscale>
+      <yscale>0.7971127</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP8" index="5">
+      <file>custom.msp_sock01.msp_sock01_nccxmas_sock01.swf</file>
+      <x>423.5713976</x>
+      <y>138.2971279</y>
+      <xscale>0.7971127</xscale>
+      <yscale>0.7971127</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP9" index="6">
+      <file>custom.msp_armchair.msp_armchair_armchair_side.swf</file>
+      <x>555.1977806</x>
+      <y>255.8422086</y>
+      <xscale>0.9112223</xscale>
+      <yscale>0.9112223</yscale>
+      <face>-1</face>
+      <rotation>0</rotation>
+      <color r="ccColorA">4947375</color>
+    </prop>
+    <prop id="PROP10" index="7">
+      <file>custom.msp_htree.msp_htree_nccxmas_htree_decoon.swf</file>
+      <x>146.9</x>
+      <y>149.3333333</y>
+      <xscale>0.7708592</xscale>
+      <yscale>0.7708592</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+      <dcsn>9552</dcsn>
+      <color r="ccColorA">6124859</color>
+      <color r="ccColorB">4208175</color>
+    </prop>
+    <prop id="PROP11" index="9">
+      <file>custom.nccxmas_present01.swf</file>
+      <x>78.894586</x>
+      <y>271.3917197</y>
+      <xscale>0.7163654</xscale>
+      <yscale>0.7163654</yscale>
+      <face>-1</face>
+      <rotation>0</rotation>
+      <color r="ccColorA">12272917</color>
+      <color r="ccColorB">16625985</color>
+    </prop>
+    <prop id="PROP13" index="10">
+      <file>custom.nccxmas_present01.swf</file>
+      <x>113.8753565</x>
+      <y>281.3726592</y>
+      <xscale>0.7163655</xscale>
+      <yscale>0.7163655</yscale>
+      <face>-1</face>
+      <rotation>0</rotation>
+      <color r="ccColorA">3101836</color>
+      <color r="ccColorB">15264704</color>
+    </prop>
+    <prop id="PROP15" index="11">
+      <file>custom.nccxmas_present01.swf</file>
+      <x>188.6429091</x>
+      <y>281.3820909</y>
+      <xscale>0.7163655</xscale>
+      <yscale>0.7163655</yscale>
+      <face>-1</face>
+      <rotation>0</rotation>
+      <color r="ccColorA">13585264</color>
+      <color r="ccColorB">15264704</color>
+    </prop>
+    <prop id="PROP17" index="12">
+      <file>custom.nccxmas_present01.swf</file>
+      <x>156.0071791</x>
+      <y>284.7682986</y>
+      <xscale>0.7163655</xscale>
+      <yscale>0.7163655</yscale>
+      <face>-1</face>
+      <rotation>0</rotation>
+      <color r="ccColorA">13421670</color>
+      <color r="ccColorB">6469518</color>
+    </prop>
+    <prop id="PROP19" index="8">
+      <file>custom.nccxmas_present01.swf</file>
+      <x>218.7895407</x>
+      <y>271.3320909</y>
+      <xscale>0.7163655</xscale>
+      <yscale>0.7163655</yscale>
+      <face>-1</face>
+      <rotation>0</rotation>
+      <color r="ccColorA">7324842</color>
+      <color r="ccColorB">16737894</color>
+    </prop>
+  </compositebg>
   <compositebg id="cbg_blackboard" name="Classroom" enable="Y" default="N" thumb="blackboard.png" display_order="29" is_premium="N" money="" sharing="" aid="9613">
     <bg id="BG149" index="">
       <file>custom.wall10.swf</file>
@@ -4295,6 +4424,9 @@
   <prop id="torch.swf" name="Fire Torch" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9027" money="" sharing="">
     <tag>cat:Others</tag>
   </prop>
+  <prop id="fireplace.swf" name="Fireplace" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9027" money="" sharing="">
+    <tag>cat:Buildings and Structures</tag>
+  </prop>
   <prop id="ncc_football.swf" name="Football" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="10921" money="" sharing="">
     <tag>cat:Sports and Fitness</tag>
 	<tag>ball</tag>
@@ -4572,6 +4704,15 @@
 	<tag>food</tag>
 	<tag>ice</tag>
   </prop>
+  <prop id="icecream_cone.swf" name="Ice Cream Cone" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="12176" money="" sharing="" handstyle="stick">
+	<tag>cat:Food and Drink</tag>
+	<tag>candies</tag>
+	<tag>candy</tag>
+	<tag>cream</tag>
+	<tag>dessert</tag>
+	<tag>food</tag>
+	<tag>ice</tag>
+  </prop>
   <prop id="iced_chocolate.swf" name="Iced Chocolate" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9021" money="" sharing="">
 	<tag>cat:Food and Drink</tag>
 	<tag>beverage</tag>
@@ -4787,6 +4928,9 @@
 	<tag>medical</tag>
     <tag>organ</tag>
     <tag>organs</tag>
+  </prop>
+  <prop id="log.swf" name="Log" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="10822" money="" sharing="">
+    <tag>cat:Nature</tag>
   </prop>
   <prop id="ncc_long_chair02.swf" name="Long Chair" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="10822" money="" sharing="">
     <tag>cat:Furniture and Fixtures</tag>
