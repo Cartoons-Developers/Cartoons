@@ -3,8 +3,13 @@
  * character redirects
  */
 const defaultTypes = {
-	family: "adam",
-	anime: "guy"
+	adam: "adam&ft=_sticky_filter_guy",
+	eve: "eve&ft=_sticky_filter_girl",
+	heavy_man: "bob&ft=_sticky_filter_fatguy",
+	heavy_woman: "bob&ft=_sticky_filter_fatgirl",
+	rocky: "rocky&ft=_sticky_filter_buff",
+	boy: "boy&ft=_sticky_filter_littleguy",
+	girl: "girl&ft=_sticky_filter_littlegirl",
 };
 
 /**
