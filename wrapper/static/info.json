@@ -73,6 +73,30 @@
 		}
 	},
 	"POST": {
+		"/goapi/getUserWatermarks/": {
+			"headers": {
+				"Content-Type": "text/html; charset=UTF-8"
+			},
+			"content": "<?xml encoding=\"UTF-8\"?><watermarks><current/><preview/></watermarks>"
+		},
+		"/goapi/getUserFontList/": {
+			"headers": {
+				"Content-Type": "application/json"
+			},
+			"content": "{\"status\":\"ok\",\"data\":[]}"
+		},
+		"/goapi/getMovieInfo/": {
+			"headers": {
+				"Content-Type": "text/html; charset=UTF-8"
+			},
+			"content": "<?xml encoding=\"UTF-8\"?><watermarks><watermark style=\"visualplugin\"/></watermarks>"
+		},
+		"/api_v2/asset/get": {
+			"headers": {
+				"Content-Type": "application/json"
+			},
+			"content": "{\"status\":\"ok\",\"data\":[]}"
+		},
 		"/goapi/rebuildTTS/": {
 			"headers": {
 				"Content-Type": "text/html; charset=UTF-8"
