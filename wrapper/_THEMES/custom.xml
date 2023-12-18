@@ -7174,18 +7174,21 @@
     <tags>family,_free,_cat:Healthcare,_tag:clinic clinical female health healthcare hospital hospitality lady mask surgeon woman,_category_girl</tags>
   </char>
   <char id="288" name="Nurse" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
-    <tags>family,_free,_cat:Healthcare,_tag:clinic clinical health healthcare hospital hospitality male man mask surgeon,_category_guy</tags>
+    <tags>family,_free,_cat:Healthcare,_tag:clinic clinical health healthcare hospital hospitality male man surgeon,_category_guy</tags>
   </char>
   <char id="289" name="Nurse" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
     <tags>family,_free,_cat:Healthcare,_tag:clinic clinical health healthcare hospital hospitality male man mask surgeon,_category_guy</tags>
   </char>
   <char id="290" name="Nurse" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
-    <tags>family,_free,_cat:Healthcare,_tag:clinic clinical health healthcare hospital hospitality male man mask surgeon,_category_guy</tags>
+    <tags>family,_free,_cat:Healthcare,_tag:clinic clinical health healthcare hospital hospitality male man surgeon,_category_guy</tags>
   </char>
   <char id="291" name="Nurse" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
     <tags>family,_free,_cat:Healthcare,_tag:clinic clinical health healthcare hospital hospitality male man mask surgeon,_category_guy</tags>
   </char>
   <char id="292" name="Nurse" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+    <tags>family,_free,_cat:Healthcare,_tag:clinic clinical health healthcare hospital hospitality male man surgeon,_category_guy</tags>
+  </char>
+  <char id="293" name="Nurse" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
     <tags>family,_free,_cat:Healthcare,_tag:clinic clinical health healthcare hospital hospitality male man mask surgeon,_category_guy</tags>
   </char>
   <char id="110" name="Office Professional" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
