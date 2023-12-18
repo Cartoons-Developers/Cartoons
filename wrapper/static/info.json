@@ -73,6 +73,24 @@
 		}
 	},
 	"POST": {
+		"/goapi/rebuildTTS/": {
+			"headers": {
+				"Content-Type": "text/html; charset=UTF-8"
+			},
+			"content": "1"
+		},
+		"/goapi/getWaveform/": {
+			"headers": {
+				"Content-Type": "text/html; charset=UTF-8"
+			},
+			"content": "1"
+		},
+		"/goapi/saveWaveform/": {
+			"headers": {
+				"Content-Type": "text/html; charset=UTF-8"
+			},
+			"content": "1"
+		},
 		"/goapi/getMovieInfo/": {
 			"headers": {
 				"Content-Type": "text/html; charset=UTF-8"
