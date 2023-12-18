@@ -1,6 +1,6 @@
 title Cartoons Settings Script
 :: Interactive config.bat changer
-:: Author: BlueMystery#2007
+:: Author: benson#0411
 :: License: MIT
 
 :: DON'T EDIT THIS FILE! If you need a text version of the settings like it used to be, edit utilities\config.bat. This file is now just an interface for changing that file.
@@ -97,19 +97,27 @@ if exist "wrapper\static\info-nowave.json" (
 ) else ( 
 	echo ^(5^) Waveforms are[91m OFF [0m
 )
-:: Character solid archive
-if exist "server\characters\characters.zip" (
-	echo ^(6^) Original LVM Character IDs are[91m OFF [0m
+:: Skip updating
+if !AUTOUPDATE!==y (
+	echo ^(6^) Auto updating is[92m ON [0m
+) else ( 
+	echo ^(6^) Auto updating is[91m OFF [0m
 )
-:: Character solid archive
-if exist "server\characters\characters.zip" (
-	echo ^(6^) Original LVM Character IDs are[91m OFF [0m
+:: Truncated Themelist
+if exist "wrapper\_THEMES\themelist-allthemes.xml" (
+	echo ^(7^) Truncated themelist is[92m ON [0m
+) else ( 
+	echo ^(7^) Truncated themelist is[91m OFF [0m
 )
 :: Discord RPC
-if exist "wrapper\main-norpc.js" (
-	echo ^(7^) Discord rich prescence is[92m ON [0m
+if !RPC!==y (
+	echo ^(8^) Discord rich presence is[92m ON [0m
 ) else ( 
-	echo ^(7^) Discord rich prescence is[91m OFF [0m
+	echo ^(8^) Discord rich presence is[91m OFF [0m
+)
+:: Character solid archive
+if exist "server\characters\characters.zip" (
+	echo ^(9^) Original LVM Character IDs are[91m OFF [0m
 )
 :: Dev options
 :: These are really specific options that no casual user would ever really need
@@ -150,7 +158,7 @@ if "!choice!"=="1" (
 	goto toggleoption
 )
 if "!choice!"=="?1" (
-	echo When enabled, two extra windows with more info about what Cartoons is doing.
+	echo When enabled, an extra window opens with more info about what Offline is doing.
 	echo The launcher will also say more about what it's doing, and never clear itself.
 	echo Mostly meant for troubleshooting and development. Default setting is off.
 	goto reaskoptionscreen
@@ -158,7 +166,7 @@ if "!choice!"=="?1" (
 :: Browser settings
 if "!choice!"=="2" goto browsertype
 if "!choice!"=="?2" (
-	echo When set to included Chromium, it opens a browser that comes with Cartoons.
+	echo When set to included Chromium, it opens a browser that comes with Offline.
 	echo This older browser will keep running Flash after new browsers block it completely.
 	echo If you don't want to use it, you can use your default browser, or a specific executable.
 	echo Default setting is included Chromium. Most should probably keep that default.
@@ -203,8 +211,8 @@ if "!choice!"=="4" (
 	goto toggleoption
 )
 if "!choice!"=="?4" (
-	echo Turning this off skips checking for Flash, Node.js, http-server, and if the HTTPS cert is installed.
-	echo This is automatically disabled when Cartoons launches and finds all dependencies.
+	echo Turning this off skips checking for Flash and Node.js.
+	echo This is automatically disabled when Offline launches and finds all dependencies.
 	echo If you're on a new computer, or having issues with security messages, you may wanna turn this back on.
 	goto reaskoptionscreen
 )
@@ -216,30 +224,53 @@ if "!choice!"=="?5" (
 	echo Turning this off will simply add a repeating pre-made pattern in place of true waveforms.
 	goto reaskoptionscreen
 )
+:: Auto Update
+if "!choice!"=="6" (
+	set TOTOGGLE=AUTOUPDATE
+	if !AUTOUPDATE!==y (
+		set TOGGLETO=n
+	) else (
+		set TOGGLETO=y
+	)
+	set CFGLINE=35
+	goto toggleoption
+)
+if "!choice!"=="?6" (
+	echo By default, when you open start_cartoons.bat it 
+	echo will auto-update to the newest commit on Github.
+	echo This may be annoying to developers making modifications to the program, 
+	echo as when this is done it resets uncommitted work.
+	echo Turning this off will stop Cartoons from auto-updating.
+	goto reaskoptionscreen
+)
+:: Waveforms
+if "!choice!"=="7" goto allthemechange
+if "!choice!"=="?7" (
+	echo Cuts down the amount of themes that clog up the themelist in the videomaker.
+	echo Keeping this off is highly suggested.
+	echo However, if you want to see everything the program has to offer, turn this on.
+	goto reaskoptionscreen
+)
+:: Rich presence
+if "!choice!"=="8" goto rpcchange
+if "!choice!"=="?8" (
+	echo By default, Discord rich presence is enabled.
+    echo:
+	echo It's used to show when you're using Cartoons in your "Playing A Game" status on Discord,
+    echo much like how lots of modern computer games will show on your Discord status when you're playing
+    echo them. Turning this off will make Offline stop saying when you're using it on Discord.
+	goto reaskoptionscreen
+)
 :: Character solid archive
 if exist "server\characters\characters.zip" (
-	if "!choice!"=="6" goto extractchars
-	if "!choice!"=="?6" (
+	if "!choice!"=="9" goto extractchars
+	if "!choice!"=="?9" (
 		echo When first getting Cartoons, all non-stock characters are put into a single zip file.
 		echo This is because if they're all separate, extracting takes forever and is incredibly annoying.
-		echo If you wish to import characters made on the LVM when it was still up and hosted by Cartoons,
+		echo If you wish to import characters made on the LVM when it was still up and hosted by Vyond,
 		echo you can extract them here. They will still be compressed, just in separate files to be usable.
 		goto reaskoptionscreen
 	)
-)
-:: Rich presence
-if "!choice!"=="7" goto rpcchange
-if "!choice!"=="?7" (
-	echo By default, Discord rich presence is enabled.
-        echo:
-	echo It's used to show when you're using Wrapper: Offline
-        echo in your "Playing A Game" status on Discord, much like
-        echo how lots of modern computer games will show on your
-        echo Discord status when you're playing them.
-        echo:
-	echo Turning this off will make Offline stop saying
-        echo when you're using it on Discord.
-	goto reaskoptionscreen
 )
 :: Dev options
 if /i "!choice!"=="masterkey" (
@@ -327,7 +358,7 @@ goto optionscreen
 :browsertype
 echo:
 echo:
-echo Press 1 to use Cartoons's included Chromium (recommended)
+echo Press 1 to use Offline's included Chromium (recommended)
 echo Press 2 to use your default browser set in Windows
 echo Press 3 to use a specific browser of your choice
 echo Press 0 to cancel changing
@@ -448,6 +479,38 @@ if exist "info-nowave.json" (
 )
 popd
 goto optionscreen
+
+:::::::::::::::::::::::::
+:: Truncated Themelist ::
+:::::::::::::::::::::::::
+:allthemechange
+echo Toggling setting...
+pushd wrapper\_THEMES
+if exist "themelist-allthemes.xml" (
+	:: disable
+	ren themelist.xml themelist-lessthemes.xml
+	ren themelist-allthemes.xml themelist.xml
+) else ( 
+	:: enable
+	ren themelist.xml themelist-allthemes.xml
+	ren themelist-lessthemes.xml themelist.xml
+)
+popd
+goto optionscreen
+
+:::::::::::::::::
+:: Discord RPC ::
+:::::::::::::::::
+:rpcchange
+:: Set RPC
+set TOTOGGLE=RPC
+set CFGLINE=38
+if !RPC!==n (
+	set TOGGLETO=y
+) else (
+	set TOGGLETO=n
+)
+goto toggleoption
 
 ::::::::::::::::::::::::
 :: Extract Characters ::
