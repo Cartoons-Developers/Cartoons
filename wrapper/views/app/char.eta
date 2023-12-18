@@ -18,24 +18,12 @@
 		</script>
 	</head>
 
-	<body>
+	<body style="margin:0px">
 		<%~ includeFile("../includes/header", { env: it.env }) %>
 
-		<main><% } %>
-			<% if (it.isExternal) { %>
-				<style>
-					body {
-						margin: 0;
-					}
-				</style>
-				<script>
-					function characterSaved(id) {
-						parent.characterSaved(id);
-					}
-				</script>
-			<% } %>
-			<%~ it.object(it.attrs, it.params) %>
-		<% if (!it.isExternal) { %></main>
+	<main>
+		<%~ it.object %>
+	</main>
 
 		<%~ includeFile("../includes/footer", { env: it.env }) %>
 	</body>
