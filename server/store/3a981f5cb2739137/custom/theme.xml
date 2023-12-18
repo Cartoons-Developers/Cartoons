@@ -7487,6 +7487,12 @@
   <char id="186" name="Winter - Casual" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
     <tags>family,_free,_cat:Casual,_tag:boy casual child children glove gloves jacket kid kids male snow snowing winter,_category_littleguy</tags>
   </char>
+  <char id="286" name="Witch" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+    <tags>family,_free,_cat:Holidays and Costumes,_tag:costume costumes female festival festive halloween holiday holidays hols witch,_category_girl</tags>
+  </char>
+  <char id="287" name="Witch" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+    <tags>family,_free,_cat:Holidays and Costumes,_tag:costume costumes female festival festive halloween holiday holidays hols kid kids witch,_category_littlegirl</tags>
+  </char>
   <char id="222" name="Zombie" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
     <tags>family,_free,_cat:Holidays and Costumes,_tag:costume costumes festival festive halloween holiday holidays hols male zombie,_category_guy</tags>
   </char>
