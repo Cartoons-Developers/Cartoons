@@ -1,4 +1,4 @@
-<html>
+<html><% if (!it.isExternal) { %>
 	<head>
 		<meta charset="UTF-8"/>
 		<link rel="icon" href="/favicon.ico" type="image/png"/>
@@ -39,4 +39,4 @@
 
 		<%~ includeFile("../includes/footer", { env: it.env }) %>
 	</body>
-</html>
+<% } %></html>
