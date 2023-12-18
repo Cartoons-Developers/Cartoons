@@ -165,7 +165,27 @@ module.exports = async function (req, res, url) {
 				object: toObjectString
 			};
 			break;
-		} default: {
+		} case "/exporter": {
+			filename = "app/exporter";
+			extra = {
+				title: "Video Player",
+				attrs: {
+					data: SWF_URL + '/exporter.swf',
+					type: 'application/x-shockwave-flash', width: '100%', height: '100%',
+				},
+				params: {
+					flashvars: {
+						'apiserver': '/', 'storePath': STORE_URL + '/<store>', 'ut': 60,
+						'autostart': 0, 'clientThemePath': CLIENT_URL + '/<client_theme>',
+					},
+					allowScriptAccess: 'always',
+					allowFullScreen: 'true',
+				},
+				object: toObjectString
+			};
+			break;
+		}
+		default: {
 			filename = url.pathname + ".eta";
 			extra = {};
 			if (!filename.startsWith("/app/") &&
