@@ -2,6 +2,7 @@
  * route
  * character redirects
  */
+const http = require("http");
 const defaultTypes = {
 	adam: "adam&ft=_sticky_filter_guy",
 	eve: "eve&ft=_sticky_filter_girl",
