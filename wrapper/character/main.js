@@ -29,44 +29,49 @@ module.exports = {
 	 * @param {string} id
 	 * @returns {Promise<Buffer>}
 	 */
-	async load(cId) {
+	async load(aId) {
 		try {
 			try { // custom characters
-				return fs.readFileSync(path.join(folder, `${cId}.xml`));
+				return fs.readFileSync(`${folder}/${aId}.xml`);
 			} catch (err) { // stock characters
-				const nId = (cId.slice(0, -3) + "000").padStart(9, 0);
-				const chars = fs.readFileSync(`${baseUrl}/${nId}.txt`);
+				const nId = (aId.slice(0, -3) + "000").padStart(9, 0);
+				const chars = await get(`${baseUrl}/${nId}.txt`);
 
 				var line = chars
 					.toString("utf8")
 					.split("\n")
-					.find(v => v.substring(0, 3) == cId.slice(-3));
+					.find(v => v.substring(0, 3) == aId.slice(-3));
 				if (line) return Buffer.from(line.substring(3));
-				else throw new Error("Character not found.");
+				else throw "Character not found.";
 			}	
 		} catch (err) {
-			throw new Error("Character not found.");
+			throw "Character not found."
 		}
 	},
 
 	/**
-	 * saves the character and its metadata
-	 * @param {Buffer} buf a buffer of a character xml
-	 * @param {Buffer} thumb a thumbnail of the character in PNG format
-	 * @param {object} meta character metadata, must contain type, subtype, title, and themeId
-	 * @param {boolean} isV2 specifies if the 'version="2.0"' should be added to the xml
+	 * Saves the character and its metadata.
+	 * @param {Buffer} buf 
+	 * @param {Buffer} thumb 
+	 * @param {object} param1 
 	 * @returns {string}
 	 */
-	save(buf, meta, isV2 = false) {
+	save(buf, thumb, { type, subtype, title, tId }) {
 		// save asset info
 		const cId = fUtil.generateId();
 		const db = DB.get();
-		meta.id = cId;
-		meta.tags = "";
-		db.assets.unshift(meta);
+		db.assets.unshift({ // base info, can be modified by the user later
+			id: cId,
+			enc_asset_id: cId,
+			themeId: tId,
+			type: type,
+			subtype: subtype,
+			title: title,
+			tags: ""
+		});
 		DB.save(db);
 		// fix handheld props for freeaction themes
-		if (this.isFA(meta.themeId) && !isV2) {
+		if (this.isFA(tId)) {
 			const end = buf.indexOf(">", buf.indexOf("<cc_char"));
 			const newChar = Buffer.concat([
 				buf.slice(0, end),
@@ -77,18 +82,8 @@ module.exports = {
 		}
 		// save the file
 		fs.writeFileSync(path.join(folder, `${cId}.xml`), buf);
-		return cId;
-	},
-
-	/**
-	 * saves a character thumbnail
-	 * @param {string} cId the character id
-	 * @param {Buffer} thumb a thumbnail of the character in PNG format
-	 * @returns {void}
-	 */
-	saveThumb(cId, thumb) {
 		fs.writeFileSync(path.join(folder, `${cId}.png`), thumb);
-		return;
+		return cId;
 	},
 
 	isFA(themeId) {
