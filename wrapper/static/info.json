@@ -38,7 +38,7 @@
 		"cc.swf": {},
 		"go_full.swf": {},
 		"favicon.ico": {},
-		"char_default.png": {
+		"char-default.png": {
 			"content": ""
 		},
 		"pages/css/(.*)(css|CSS)$": {
@@ -118,6 +118,6 @@
 	},
 	"pages": {
 		"/go_full": "",
-		"/cc": "<script>function characterSaved(){window.location='pages/html/list.html'}</script>"
+		"/cc": "<script>function characterSaved(){window.location='cc_browser'}</script>"
 	}
 }
