@@ -39,4 +39,4 @@
 
 		<%~ includeFile("../includes/footer", { env: it.env }) %>
 	</body>
-<% } %></html>
+</html>
