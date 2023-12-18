@@ -1,0 +1,172 @@
+{
+	"ALL": {
+		"/index.html": {
+			"headers": {
+				"Location": "/pages/html/list.html"
+			},
+			"statusCode": 302,
+			"content": ""
+		},
+		"/$": {
+			"headers": {
+				"Location": "/pages/html/list.html"
+			},
+			"statusCode": 302,
+			"content": ""
+		}
+	},
+	"GET": {
+		"/go/character_creator/": {
+			"headers": {
+				"Location": "/cc?themeId="
+			},
+			"statusCode": 302,
+			"content": ""
+		},
+		"/goapi/getAssetTags": {
+			"headers": {
+				"Content-Type": "application/json"
+			},
+			"content": "[]"
+		},
+		"/crossdomain.xml": {
+			"headers": {
+				"Content-Type": "text/x-cross-domain-policy"
+			},
+			"content": "<cross-domain-policy><allow-access-from domain=\"*\"/></cross-domain-policy>"
+		},
+		"/cc.swf": {},
+		"/go_full.swf": {},
+		"/favicon.ico": {},
+		"/char-default\\.png": {
+			"headers": {
+				"Content-Type": "image/png"
+			},
+			"content": ""
+		},
+		"/html/([^?]+html).*": {
+			"contentReplace": true,
+			"regexLink": "/html/$1",
+			"headers": {
+				"Content-Type": "text/html; charset=UTF-8"
+			}
+		},
+		"/html/([^?]+).*": {
+			"regexLink": "/html/$1",
+			"headers": {
+				"Content-Type": "text/html; charset=UTF-8"
+			}
+		},
+		"/pages/html/([^?]+html).*": {
+			"contentReplace": true,
+			"regexLink": "pages/html/$1",
+			"headers": {
+				"Content-Type": "text/html; charset=UTF-8"
+			}
+		},
+		"/pages/html/([^?]+).*": {
+			"regexLink": "pages/html/$1",
+			"headers": {
+				"Content-Type": "text/html; charset=UTF-8"
+			}
+		},
+		"/pages/css/([^?]+css).*": {
+			"contentReplace": true,
+			"regexLink": "/pages/css/$1",
+			"headers": {
+				"Content-Type": "text/css; charset=UTF-8"
+			}
+		},
+		"/pages/css/([^?]+).*": {
+			"regexLink": "/pages/css/$1",
+			"headers": {
+				"Content-Type": "text/css; charset=UTF-8"
+			}
+		},
+		"/pages/fonts/([^?]+).*": {
+			"regexLink": "/pages/fonts/$1",
+			"headers": {
+				"Content-Type": "application/font-woff; charset=UTF-8"
+			}
+		},
+		"pages/img/(.*)(png|PNG)$": {
+			"headers": {
+				"Content-Type": "image/png"
+			}
+		},
+		"pages/img/(.*)(jpg|JPG|jpeg|JPEG)$": {
+			"headers": {
+				"Content-Type": "image/jpeg"
+			}
+		},
+		"pages/img/(.*)(svg|SVG)$": {
+			"headers": {
+				"Content-Type": "image/svg+xml; charset=UTF-8"
+			}
+		},
+		"pages/js/(.*)(js|JS)$": {
+            "headers": {
+                "Content-Type": "text/javascript; charset=UTF-8"
+            }
+        }
+	},
+	"POST": {
+		"/goapi/getUserWatermarks/": {
+			"headers": {
+				"Content-Type": "text/html; charset=UTF-8"
+			},
+			"content": "<?xml encoding=\"UTF-8\"?><watermarks><current/><preview/></watermarks>"
+		},
+		"/goapi/getUserFontList/": {
+			"headers": {
+				"Content-Type": "application/json"
+			},
+			"content": "{\"status\":\"ok\",\"data\":[]}"
+		},
+		"/goapi/getMovieInfo/": {
+			"headers": {
+				"Content-Type": "text/html; charset=UTF-8"
+			},
+			"content": "<?xml encoding=\"UTF-8\"?><watermarks><watermark style=\"visualplugin\"/></watermarks>"
+		},
+		"/api_v2/text_component/get_list": {
+			"headers": {
+				"Content-Type": "application/json"
+			},
+			"content": "{\"status\":\"ok\",\"data\":[]}"
+		},
+		"/api_v2/text_component/add": {
+			"headers": {
+				"Content-Type": "application/json"
+			},
+			"content": "{\"status\":\"ok\",\"data\":[]}"
+		},
+		"/goapi/getLatestAssetId/": {
+			"headers": {
+				"Content-Type": "text/html; charset=UTF-8"
+			},
+			"content": "0"
+		},
+		"/api_v2/team/members": {
+			"headers": {
+				"Content-Type": "application/json"
+			},
+			"content": "{\"status\":\"ok\",\"data\":[]}"
+		},
+		"/api_v2/studio_preference/get": {
+			"headers": {
+				"Content-Type": "application/json"
+			},
+			"content": "{\"status\":\"ok\",\"data\":[]}"
+		},
+		"/pages/html/list.html": {
+			"headers": {
+				"Location": "/pages/html/list.html"
+			}
+		}
+	},
+	"pages": {
+		"/go_full": "",
+		"/cc": "<script>function characterSaved(){window.location='cc_browser'}</script>"
+	}
+}
