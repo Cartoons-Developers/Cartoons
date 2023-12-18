@@ -1,6 +1,6 @@
 <footer>
 	<nav id="foot-left">
-		<a href="javascript:;" onclick="checkForUpdates()">v<%= it.env.CARTOONS_VER %></a>
+		<a href="javascript:;" onclick="checkForUpdates()">Cartoons</a>
 		<a href="/settings">Settings</a>
 	</nav>
 
