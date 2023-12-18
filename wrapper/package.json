@@ -16,7 +16,7 @@
 		"discord-rpc": "^4.0.1",
 		"eta": "^1.12.3",
 		"fluent-ffmpeg": "^2.1.2",
-		"formidable": "^2.0.1",
+		"formidable": "^2.1.2",
 		"fs": "0.0.1-security",
 		"js-base64": "^3.6.1",
 		"js-md5": "^0.7.3",
