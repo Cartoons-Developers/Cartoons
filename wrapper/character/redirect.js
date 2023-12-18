@@ -13,24 +13,26 @@ const defaultTypes = {
 };
 
 /**
- * @param {import("http").IncomingMessage} req
- * @param {import("http").ServerResponse} res
+ * @param {http.IncomingMessage} req
+ * @param {http.ServerResponse} res
  * @param {import("url").UrlWithParsedQuery} url
  * @returns {boolean}
  */
-module.exports = async function (req, res, url) {
-	if (req.method != "GET") return;
-	const match = req.url.match(/\/go\/character_creator\/(\w+)(\/\w+)?(\/.+)?$/);
+module.exports = function (req, res, url) {
+	if (req.method != "GET" || !url.pathname.startsWith("/go/character_creator")) return;
+	var match = /\/go\/character_creator\/(\w+)(\/\w+)?(\/.+)?$/.exec(url.pathname);
 	if (!match) return;
-	let [, theme, mode, id] = match;
+	[, theme, mode, id] = match;
 
-	let redirect;
+	var redirect;
 	switch (mode) {
 		case "/copy": {
-			redirect = `/cc?themeId=${theme}&original_asset_id=${id.substring(1)}`;
+			redirect = `/cc?themeId=${theme}&original_asset_id=${id.substr(1)}`;
 			break;
-		} default: {
-			const type = url.query.type || defaultTypes[theme] || "";
+		}
+		default: {
+			var type = "family" ?
+					defaultTypes[url.query.type || ""] || "":url.query.type || defaultTypes[theme] || "";
 			redirect = `/cc?themeId=${theme}&bs=${type}`;
 			break;
 		}
