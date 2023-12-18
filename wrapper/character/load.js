@@ -14,7 +14,7 @@ const { xmlFail } = require("../request/extend");
  * @param {import("url").UrlWithParsedQuery} url
  * @returns {boolean}
  */
-module.exports = async function (req, res, url) {
+module.exports = async function (req, res) {
 	let cId;
 	switch (req.method) {
 		case "GET": {
@@ -24,7 +24,7 @@ module.exports = async function (req, res, url) {
 
 			break;
 		} case "POST": {
-			if (url.pathname != "/goapi/getCcCharCompositionXml/") return;
+			if (req.url != "/goapi/getCcCharCompositionXml/") return;
 			cId = req.body.assetId || req.body.original_asset_id;
 
 			break;

@@ -9,8 +9,3 @@
 			<a href="/go_full?tray=custom" class="button_big">CREATE A VIDEO</a>
 		</nav>
 </header>
-
-<form id="movie-form" class="hide" enctype='multipart/form-data' action='#' method='post'>
-	<input id='file' type="file" name='import' accept=".zip" />
-	<input id="is-starter" type="checkbox" value="false" />
-</form>

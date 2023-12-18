@@ -15,7 +15,7 @@ const defaultTypes = {
  */
 module.exports = async function (req, res, url) {
 	if (req.method != "GET") return;
-	const match = url.pathname.match(/\/go\/character_creator\/(\w+)(\/\w+)?(\/.+)?$/);
+	const match = req.url.match(/\/go\/character_creator\/(\w+)(\/\w+)?(\/.+)?$/);
 	if (!match) return;
 	let [, theme, mode, id] = match;
 

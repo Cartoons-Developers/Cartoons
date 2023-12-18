@@ -62,6 +62,7 @@ module.exports = {
 		const db = DB.get();
 		db.assets.unshift({ // base info, can be modified by the user later
 			id: cId,
+			enc_asset_id: cId,
 			themeId: tId,
 			type: type,
 			subtype: subtype,
