@@ -50,9 +50,9 @@ function initPreviewPlayer(dataXmlStr, startFrame, containsChapter, themeList) {
 		isInitFromExternal: 1,
 		startFrame: startFrame,
 		autostart: 1,
+		isPreview: 1,
 		storePath: STORE_URL + "/<store>",
 		clientThemePath: CLIENT_URL + "/<client_theme>",
-		isPreview: 1
 	}).toString();
 	previewer.find("object param[name='flashvars']").attr("value", flashvars);
 	previewer.css("display", "block");
@@ -64,15 +64,6 @@ function hidePreviewer() {
 	previewer.css("display", "none");
 	studio.css("height", "");
 	body.css("background-color", "");
-}
-function publishStudio() {
-	try {
-	  ($("#previewer #preview_player").get(0) || {pause:function(){}}).pause();
-	} catch (err) {};
-
-	$("#previewer").hide();
-	hidePreviewer();
-	document.getElementById("obj").onExternalPreviewPlayerPublish();
 }
 
 /**
