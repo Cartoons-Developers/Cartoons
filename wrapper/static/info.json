@@ -121,12 +121,6 @@
 			},
 			"content": "<?xml encoding=\"UTF-8\"?><watermarks><watermark style=\"visualplugin\"/></watermarks>"
 		},
-		"/goapi/getUserFontList/": {
-			"headers": {
-				"Content-Type": "application/json"
-			},
-			"content": "{\"status\":\"ok\"}"
-		},
 		"/api_v2/team/members": {
 			"headers": {
 				"Content-Type": "application/json"
