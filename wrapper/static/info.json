@@ -20,7 +20,7 @@
 			"headers": {
 				"Content-Type": "application/json"
 			},
-			"content": "[]"
+			"content": "11"
 		},
 		"/account/logo": {
 			"headers": {
