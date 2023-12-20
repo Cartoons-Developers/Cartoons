@@ -73,7 +73,10 @@
 		}
 	},
 	"POST": {
-		"/goapi/getCCPreMadeCharacters": {
+		"/goapi/getCCPreMadeCharacters/": {
+			"headers": {
+				"Content-Type": "application/json"
+			},
 			"content": "111"
 		},
 		"/goapi/getUserWatermarks/": {
