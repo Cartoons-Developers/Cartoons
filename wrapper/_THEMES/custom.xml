@@ -5274,6 +5274,10 @@
     <tag>cat:Office and School</tag>
 	<tag>paper</tag>
   </prop>
+  <prop id="paper_flat.swf" name="Paper" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="12111" money="" sharing="" handstyle="flat">
+    <tag>cat:Office and School</tag>
+	<tag>paper</tag>
+  </prop>
   <prop id="ncc_plane01.swf" name="Paper Plane" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="11846" money="" sharing="">
     <tag>cat:Office and School</tag>
 	<tag>paper</tag>
