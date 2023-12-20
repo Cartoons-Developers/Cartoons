@@ -16,6 +16,12 @@
 		}
 	},
 	"GET": {
+		"/goapi/getTemplateCCs": {
+			"headers": {
+				"Content-Type": "application/json"
+			},
+			"content": "11"
+		},
 		"/goapi/getAssetTags": {
 			"headers": {
 				"Content-Type": "application/json"
