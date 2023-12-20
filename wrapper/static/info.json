@@ -16,17 +16,11 @@
 		}
 	},
 	"GET": {
-		"/goapi/getTemplateCCs": {
-			"headers": {
-				"Content-Type": "application/json"
-			},
-			"content": "11"
-		},
 		"/goapi/getAssetTags": {
 			"headers": {
 				"Content-Type": "application/json"
 			},
-			"content": "11"
+			"content": "111"
 		},
 		"/account/logo": {
 			"headers": {
@@ -79,6 +73,9 @@
 		}
 	},
 	"POST": {
+		"/goapi/getCCPreMadeCharacters": {
+			"content": ""
+		},
 		"/goapi/getUserWatermarks/": {
 			"headers": {
 				"Content-Type": "text/html; charset=UTF-8"
