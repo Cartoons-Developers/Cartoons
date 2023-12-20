@@ -4550,10 +4550,16 @@
 	<tag>glass</tag>
 	<tag>glasses</tag>
   </prop>
+  <prop id="school_glue.swf" name="Glue" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="12111" money="" sharing="" handstyle="flat">
+    <tag>cat:Office and School</tag>
+  </prop>
   <prop id="goldfish.swf" name="Goldfish" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="8966" money="" sharing="" >
     <tag>cat:Animals</tag>
 	<tag>animal</tag>
     <tag>animals</tag>
+  </prop>
+  <prop id="thanksgiving_gravy.swf" name="Gravy Boat" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9021" money="" sharing="">
+	<tag>cat:Food and Drink</tag>
   </prop>
   <prop id="green_beer.swf" name="Green Beer" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="Y" aid="12249" money="" sharing="" handstyle="stick">
     <tag>cat:Food and Drink</tag>
@@ -4567,9 +4573,6 @@
     <tag>drink</tag>
 	<tag>glass</tag>
 	<tag>glasses</tag>
-  </prop>
-  <prop id="thanksgiving_gravy.swf" name="Gravy Boat" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9021" money="" sharing="">
-	<tag>cat:Food and Drink</tag>
   </prop>
   <prop id="green_peas.swf" name="Green Peas" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="Y" aid="12249" money="" sharing="" handstyle="stick">
     <tag>cat:Food and Drink</tag>
@@ -4629,6 +4632,9 @@
 	<tag>medical</tag>
     <tag>organ</tag>
     <tag>organs</tag>
+  </prop>
+  <prop id="highlighter.swf" name="Highlighter" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9797" money="" sharing="">
+    <tag>cat:Office and School</tag>
   </prop>
   <prop id="horse.swf" name="Horse" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="8966" money="" sharing="" >
     <tag>cat:Animals</tag>
