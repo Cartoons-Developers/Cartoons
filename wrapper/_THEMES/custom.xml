@@ -4406,6 +4406,9 @@
 	<tag>healthcare</tag>
 	<tag>medical</tag>
   </prop>
+  <prop id="eraser.swf" name="Eraser" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9027" money="" sharing="">
+    <tag>cat:Office and School</tag>
+  </prop>
   <prop id="cc_secretfolder.swf" name="File" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9027" money="" sharing="">
     <tag>cat:Office and School</tag>
 	<tag>classified</tag>
@@ -5306,6 +5309,11 @@
 	<tag>mug</tag>
 	<tag>pen</tag>
   </prop>
+  <prop id="pen_holder.swf" name="Pen Holder" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="Y" aid="11924" money="" sharing="">
+    <tag>cat:Office and School</tag>
+	<tag>holder</tag>
+	<tag>pen</tag>
+  </prop>
   <prop id="pencil.swf" name="Pencil" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9797" money="" sharing="">
     <tag>cat:Office and School</tag>
 	<tag>academy</tag>
@@ -5648,6 +5656,11 @@
   </prop>
   <prop id="shamrock.swf" name="Shamrock" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9025" money="" sharing="">
     <tag>cat:Nature</tag>
+  </prop>
+  <prop id="msp_scissors" name="Scissors" holdable="" placeable="1" wearable="" facing="left" thumb="msp_scissors_scissors_open.swf" enable="Y" is_premium="Y" aid="11331" money="" sharing="">
+    <state id="msp_scissors_scissors_open.swf" name="open" enable="Y" default="Y" />
+    <state id="msp_scissors_scissors_closed.swf" name="closed" enable="Y" />
+    <tag>cat:Office and School</tag>
   </prop>
   <prop id="school_building.swf" name="School" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9007" money="" sharing="">
     <tag>cat:Office and School</tag>
