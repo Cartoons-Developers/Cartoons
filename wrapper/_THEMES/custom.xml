@@ -3560,6 +3560,9 @@
     <tag>organ</tag>
     <tag>organs</tag>
   </prop>
+  <prop id="sleigh_bell.swf" name="Brass Bell" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9007" money="" sharing="">
+    <tag>cat:Decorations</tag>
+  </prop>
   <prop id="cc_briefcase.swf" name="Briefcase" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9007" money="" sharing="">
     <tag>cat:Office and School</tag>
 	<tag>business</tag>
@@ -4573,6 +4576,9 @@
   <prop id="school_glue.swf" name="Glue" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="12111" money="" sharing="" handstyle="flat">
     <tag>cat:Office and School</tag>
   </prop>
+  <prop id="christmas_bell.swf" name="Gold Bell" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="12111" money="" sharing="" handstyle="flat">
+    <tag>cat:Decorations</tag>
+  </prop>
   <prop id="goldfish.swf" name="Goldfish" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="8966" money="" sharing="" >
     <tag>cat:Animals</tag>
 	<tag>animal</tag>
@@ -5582,6 +5588,7 @@
     <state id="msp_reindeer_reindeer_walking.swf" name="Walking" enable="Y" />
     <state id="msp_reindeer_reindeer_running.swf" name="Running" enable="Y" />
     <state id="msp_reindeer_reindeer_eating.swf" name="Eating" enable="Y" />
+    <state id="msp_reindeer_reindeer_sleigh.swf" name="Pulling Sleigh" enable="Y" />
     <tag>cat:Animals</tag>
 	<tag>animal</tag>
     <tag>animals</tag>
