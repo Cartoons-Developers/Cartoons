@@ -4409,6 +4409,9 @@
   <prop id="eraser.swf" name="Eraser" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9027" money="" sharing="">
     <tag>cat:Office and School</tag>
   </prop>
+  <prop id="falling_snow.swf" name="Falling Snow" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9027" money="" sharing="">
+    <tag>cat:Nature</tag>
+  </prop>
   <prop id="cc_secretfolder.swf" name="File" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9027" money="" sharing="">
     <tag>cat:Office and School</tag>
 	<tag>classified</tag>
