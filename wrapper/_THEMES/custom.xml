@@ -7379,6 +7379,30 @@
   <char id="008" name="Police" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
     <tags>family,_free,_cat:Government,_tag:badge cap cop cops elder elderlies elderly government hat hero heroes heroic law legal man male officer police,_category_guy</tags>
   </char>
+  <char id="295" name="Politician" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+    <tags>family,_free,_cat:Office,_tag:apprentice business candidate election elections office other politics politician presidential professions suit,_category_girl</tags>
+  </char>
+  <char id="296" name="Politician" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+    <tags>family,_free,_cat:Office,_tag:apprentice business candidate election elections office other politics politician presidential professions suit,_category_guy</tags>
+  </char>
+  <char id="297" name="Politician" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+    <tags>family,_free,_cat:Office,_tag:apprentice business candidate election elections office other politics politician presidential professions suit,_category_girl</tags>
+  </char>
+  <char id="298" name="Politician" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+    <tags>family,_free,_cat:Office,_tag:apprentice business candidate election elections office other politics politician presidential professions suit,_category_guy</tags>
+  </char>
+  <char id="299" name="Politician" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+    <tags>family,_free,_cat:Office,_tag:apprentice business candidate election elections elder elderlies elderly office other politics politician presidential professions suit,_category_guy</tags>
+  </char>
+  <char id="300" name="Politician" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+    <tags>family,_free,_cat:Office,_tag:apprentice business candidate election elections office other politics politician presidential professions suit,_category_guy</tags>
+  </char>
+  <char id="301" name="Politician" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+    <tags>family,_free,_cat:Office,_tag:apprentice business candidate election elections office other politics politician presidential professions suit,_category_guy</tags>
+  </char>
+  <char id="302" name="Politician" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+    <tags>family,_free,_cat:Office,_tag:apprentice business candidate election elections office other politics politician presidential professions suit,_category_guy</tags>
+  </char>
   <char id="015" name="President" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
     <tags>family,_free,_cat:Office,_tag:apprentice business candidate election elections elder elderlies elderly office other politics politician presidential professions suit,_category_guy</tags>
   </char>
