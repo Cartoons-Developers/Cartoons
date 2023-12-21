@@ -3998,6 +3998,9 @@
     <tag>clock</tag>
 	<tag>time</tag>
   </prop>
+  <prop id="close_button.swf" name="Close Button" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9013" money="" sharing="">
+    <tag>cat:Technology</tag>
+  </prop>
   <prop id="ncc_cloud.swf" name="Cloud" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9013" money="" sharing="">
     <tag>cat:Nature</tag>
 	<tag>cloud</tag>
@@ -4191,6 +4194,12 @@
 	<tag>dessert</tag>
 	<tag>food</tag>
 	<tag>mug</tag>
+  </prop>
+  <prop id="msp_cursor" name="Cursor" holdable="" placeable="1" wearable="" facing="left" thumb="msp_cursor_cursor_arrow.swf" enable="Y" is_premium="N" aid="10543" money="" sharing="">
+    <state id="msp_cursor_cursor_arrow.swf" name="Arrow" enable="Y" default="Y"/>
+    <state id="msp_cursor_cursor_hand.swf" name="Hand" enable="Y"/>
+    <state id="msp_cursor_cursor_typing.swf" name="Typing" enable="Y"/>
+	<tag>cat:Technology</tag>
   </prop>
   <prop id="msp_curtain" name="Curtain" holdable="" placeable="1" wearable="" facing="left" thumb="msp_curtain_curtain_open.swf" enable="Y" is_premium="N" aid="10852" money="" sharing="">
     <state id="msp_curtain_curtain_open.swf" name="open" enable="Y" default="Y" />
