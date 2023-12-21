@@ -5577,6 +5577,15 @@
 	<tag>kitchen</tag>
 	<tag>refrigerator</tag>
   </prop>
+  <prop id="msp_reindeer" name="Reindeer" holdable="" placeable="1" wearable="" facing="left" thumb="msp_reindeer_reindeer_still.swf" enable="Y" is_premium="N" aid="8966" money="" sharing="" >
+    <state id="msp_reindeer_reindeer_still.swf" name="Still" enable="Y" default="Y" />
+    <state id="msp_reindeer_reindeer_walking.swf" name="Walking" enable="Y" />
+    <state id="msp_reindeer_reindeer_running.swf" name="Running" enable="Y" />
+    <state id="msp_reindeer_reindeer_eating.swf" name="Eating" enable="Y" />
+    <tag>cat:Animals</tag>
+	<tag>animal</tag>
+    <tag>animals</tag>
+  </prop>
   <prop id="msp_sign" name="Restroom Sign" holdable="" placeable="1" wearable="" facing="left" thumb="msp_sign_ncc_sign01.swf" enable="Y" is_premium="Y" aid="11932" money="" sharing="">
     <state id="msp_sign_ncc_sign01.swf" name="gents" enable="Y" default="Y" />
     <state id="msp_sign_ncc_sign02.swf" name="ladies" enable="Y" />
