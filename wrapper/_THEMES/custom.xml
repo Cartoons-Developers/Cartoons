@@ -4216,12 +4216,20 @@
     <tag>decoration</tag>
     <tag>sound</tag>
   </prop>
-  <prop id="deer_male.swf" name="Deer" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="8966" money="" sharing="" >
-    <tag>cat:Animals</tag>
+  <prop id="msp_deer_male" name="Deer" holdable="" placeable="1" wearable="" facing="left" thumb="msp_deer_male_deer_still.swf" enable="Y" is_premium="N" aid="8966" money="" sharing="" >
+    <state id="msp_deer_male_deer_still.swf" name="Still" enable="Y" default="Y" />
+    <state id="msp_deer_male_deer_walking.swf" name="Walking" enable="Y" />
+    <state id="msp_deer_male_deer_running.swf" name="Running" enable="Y" />
+    <state id="msp_deer_male_deer_eating.swf" name="Eating" enable="Y" />
+	<tag>cat:Animals</tag>
 	<tag>animal</tag>
     <tag>animals</tag>
   </prop>
-  <prop id="deer_female.swf" name="Deer" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="8966" money="" sharing="" >
+  <prop id="msp_deer_female" name="Deer" holdable="" placeable="1" wearable="" facing="left" thumb="msp_deer_female_deer_still.swf" enable="Y" is_premium="N" aid="8966" money="" sharing="" >
+    <state id="msp_deer_female_deer_still.swf" name="Still" enable="Y" default="Y" />
+    <state id="msp_deer_female_deer_walking.swf" name="Walking" enable="Y" />
+    <state id="msp_deer_female_deer_running.swf" name="Running" enable="Y" />
+    <state id="msp_deer_female_deer_eating.swf" name="Eating" enable="Y" />
     <tag>cat:Animals</tag>
 	<tag>animal</tag>
     <tag>animals</tag>
