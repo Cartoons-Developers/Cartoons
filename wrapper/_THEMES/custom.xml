@@ -3283,6 +3283,7 @@
     <state id="msp_bear_bear_sleeping.swf" name="Sleeping" enable="Y" />
     <state id="msp_bear_bear_walking.swf" name="Walking" enable="Y" />
     <state id="msp_bear_bear_running.swf" name="Running" enable="Y" />
+    <state id="msp_bear_bear_eating.swf" name="Eating" enable="Y" />
 	<tag>cat:Animals</tag>
 	<tag>animal</tag>
     <tag>animals</tag>
