@@ -3277,8 +3277,13 @@
 	<tag>balls</tag>
 	<tag>beach</tag>
   </prop>
-  <prop id="bear.swf" name="Bear" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="8966" money="" sharing="" >
-    <tag>cat:Animals</tag>
+  <prop id="msp_bear" name="Bear" holdable="" placeable="1" wearable="" facing="left" thumb="msp_bear_bear_standing.swf" enable="Y" is_premium="N" aid="8966" money="" sharing="" >
+    <state id="msp_bear_bear_still.swf" name="Still" enable="Y" />
+    <state id="msp_bear_bear_standing.swf" name="Standing" enable="Y" default="Y" />
+    <state id="msp_bear_bear_sleeping.swf" name="Sleeping" enable="Y" />
+    <state id="msp_bear_bear_walking.swf" name="Walking" enable="Y" />
+    <state id="msp_bear_bear_running.swf" name="Running" enable="Y" />
+	<tag>cat:Animals</tag>
 	<tag>animal</tag>
     <tag>animals</tag>
     <tag>bear</tag>
