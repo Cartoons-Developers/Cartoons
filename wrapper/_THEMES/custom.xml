@@ -5163,6 +5163,9 @@
 	<tag>moon</tag>
 	<tag>space</tag>
   </prop>
+  <prop id="computer_mouse.swf" name="Mouse" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="3343" money="" sharing="" handstyle="stick">
+    <tag>cat:Technology</tag>
+  </prop>
   <prop id="mushroom_cloud.swf" name="Mushroom Cloud" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="3343" money="" sharing="" handstyle="stick">
     <tag>cat:Others</tag>
 	<tag>blast</tag>
