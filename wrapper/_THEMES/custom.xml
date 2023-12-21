@@ -3790,6 +3790,9 @@
 	<tag>veggie</tag>
 	<tag>veggies</tag>
   </prop>
+  <prop id="candy_cane.swf" name="Candy Cane" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="12108" money="" sharing="" handstyle="stick">
+    <tag>cat:Food and Drink</tag>
+  </prop>
   <prop id="cancer.swf" name="Cancer" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="12108" money="" sharing="" handstyle="stick">
     <tag>cat:Healthcare</tag>
     <tag>cancer</tag>
@@ -5666,6 +5669,13 @@
 	<tag>bottle</tag>
 	<tag>bottles</tag>
   </prop>
+  <prop id="nccxmas_santa_outline" name="Santa on Sleigh" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="Y" aid="11491" money="" sharing="">
+    <tag>cat:Decorations</tag>
+	<tag>christmas</tag>
+	<tag>sledge</tag>
+	<tag>sleigh</tag>
+	<tag>xmas</tag>
+  </prop>
   <prop id="planets_saturn.swf" name="Saturn" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="10886" money="" sharing="">
     <tag>cat:Space</tag>
 	<tag>academy</tag>
@@ -5686,9 +5696,6 @@
 	<tag>cutter</tag>
 	<tag>cutting</tag>
 	<tag>tool</tag>
-  </prop>
-  <prop id="shamrock.swf" name="Shamrock" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9025" money="" sharing="">
-    <tag>cat:Nature</tag>
   </prop>
   <prop id="msp_scissors" name="Scissors" holdable="" placeable="1" wearable="" facing="left" thumb="msp_scissors_scissors_open.swf" enable="Y" is_premium="Y" aid="11331" money="" sharing="">
     <state id="msp_scissors_scissors_open.swf" name="open" enable="Y" default="Y" />
@@ -5754,14 +5761,8 @@
     <tag>platter</tag>
     <tag>serving</tag>
   </prop>
-  <prop id="skyline.swf" name="Skyline" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="11498" money="" sharing="">
-    <tag>cat:Buildings and Structures</tag>
-    <tag>building</tag>
-    <tag>buildings</tag>
-    <tag>city</tag>
-    <tag>silhouette</tag>
-    <tag>silhouettes</tag>
-    <tag>skyline</tag>
+  <prop id="shamrock.swf" name="Shamrock" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9025" money="" sharing="">
+    <tag>cat:Nature</tag>
   </prop>
   <prop id="cc_arrow2.swf" name="Shapes - Arrow" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9167" money="" sharing="">
     <tag>cat:Shapes and Symbols</tag>
@@ -5854,6 +5855,15 @@
 	<tag>shipping</tag>
 	<tag>transport</tag>
 	<tag>transportation</tag>
+  </prop>
+  <prop id="skyline.swf" name="Skyline" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="11498" money="" sharing="">
+    <tag>cat:Buildings and Structures</tag>
+    <tag>building</tag>
+    <tag>buildings</tag>
+    <tag>city</tag>
+    <tag>silhouette</tag>
+    <tag>silhouettes</tag>
+    <tag>skyline</tag>
   </prop>
   <prop id="ncc_02spatula.swf" name="Spatula" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="10948" money="" sharing="" handstyle="stick">
     <tag>cat:Kitchen</tag>
