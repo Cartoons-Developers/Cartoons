@@ -5669,7 +5669,7 @@
 	<tag>bottle</tag>
 	<tag>bottles</tag>
   </prop>
-  <prop id="nccxmas_santa_outline" name="Santa on Sleigh" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="Y" aid="11491" money="" sharing="">
+  <prop id="nccxmas_santa_outline.swf" name="Santa on Sleigh" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="Y" aid="11491" money="" sharing="">
     <tag>cat:Decorations</tag>
 	<tag>christmas</tag>
 	<tag>sledge</tag>
