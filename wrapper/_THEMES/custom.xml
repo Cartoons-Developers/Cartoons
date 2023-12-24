@@ -4551,7 +4551,7 @@
     </c_parts>
 	<tag>cat:Hand Gestures</tag>
   </prop>
-  <prop id="hand_punch.swf" name="Gesture - Raise" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9088" money="" sharing="">
+  <prop id="hand_raise.swf" name="Gesture - Raise" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9088" money="" sharing="">
     <colorset enable="Y" aid="9092">
       <color r="ccSkin">0xFFCE95</color>
     </colorset>
