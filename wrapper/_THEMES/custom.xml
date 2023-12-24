@@ -4551,6 +4551,15 @@
     </c_parts>
 	<tag>cat:Hand Gestures</tag>
   </prop>
+  <prop id="hand_punch.swf" name="Gesture - Raise" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9088" money="" sharing="">
+    <colorset enable="Y" aid="9092">
+      <color r="ccSkin">0xFFCE95</color>
+    </colorset>
+    <c_parts enable="Y">
+      <c_area oc="">ccSkin</c_area>
+    </c_parts>
+	<tag>cat:Hand Gestures</tag>
+  </prop>
   <prop id="nccxmas_present01.swf" name="Gift" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="11487" money="" sharing="">
 	<tag>cat:Retail</tag>
 	<tag>birthday</tag>
