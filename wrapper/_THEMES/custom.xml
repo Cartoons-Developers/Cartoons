@@ -5886,6 +5886,9 @@
 	<tag>transport</tag>
 	<tag>transportation</tag>
   </prop>
+  <prop id="college_sign.swf" name="Signboard" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="Y" aid="11380" money="" sharing="">
+    <tag>cat:Signs</tag>
+  </prop>
   <prop id="skyline.swf" name="Skyline" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="11498" money="" sharing="">
     <tag>cat:Buildings and Structures</tag>
     <tag>building</tag>
