@@ -3560,7 +3560,7 @@
     <tag>organ</tag>
     <tag>organs</tag>
   </prop>
-  <prop id="sleigh_bell.swf" name="Brass Bell" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9007" money="" sharing="">
+  <prop id="sleigh_bell.swf" name="Brass Bell" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9007" money="" sharing="">
     <tag>cat:Decorations</tag>
   </prop>
   <prop id="cc_briefcase.swf" name="Briefcase" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9007" money="" sharing="">
@@ -3580,6 +3580,11 @@
 	<tag>vegetables</tag>
 	<tag>veggie</tag>
 	<tag>veggies</tag>
+  </prop>
+  <prop id="msp_browser_window" name="Browser Window" holdable="" placeable="1" wearable="" facing="left" thumb="msp_browser_window_small.swf" enable="Y" is_premium="N" aid="11890" money="" sharing="">
+    <state id="msp_browser_window_small.swf" name="Small" enable="Y" default="Y" />
+    <state id="msp_browser_window_large.swf" name="Large" enable="Y" />
+    <tag>cat:Technology</tag>
   </prop>
   <prop id="msp_milk_bucket" name="Bucket" holdable="" placeable="1" wearable="" facing="left" thumb="msp_milk_bucket_barn_int_milk_bucket02.swf" enable="Y" is_premium="N" aid="9666" money="" sharing="">
     <state id="msp_milk_bucket_barn_int_milk_bucket01.swf" name="full" enable="Y" />
@@ -3613,6 +3618,19 @@
     <tag>sleeping</tag>
     <tag>sleepy</tag>
   </prop>
+  <prop id="ncc_03hamburger.swf" name="Burger" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="11858" money="" sharing="">
+    <tag>cat:Food and Drink</tag>
+	<tag>bun</tag>
+	<tag>burger</tag>
+	<tag>cheeseburger</tag>
+	<tag>food</tag>
+	<tag>meat</tag>
+  </prop>
+  <prop id="ncc_03chickenroll.swf" name="Burrito" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="11858" money="" sharing="">
+    <tag>cat:Food and Drink</tag>
+	<tag>burrito</tag>
+	<tag>food</tag>
+  </prop>
   <prop id="bushes.swf" name="Bush" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9575" money="" sharing="">
 	<tag>cat:Nature</tag>
 	<tag>bush</tag>
@@ -3641,18 +3659,8 @@
     <tag>shrub</tag>
     <tag>woods</tag>
   </prop>
-  <prop id="ncc_03hamburger.swf" name="Burger" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="11858" money="" sharing="">
-    <tag>cat:Food and Drink</tag>
-	<tag>bun</tag>
-	<tag>burger</tag>
-	<tag>cheeseburger</tag>
-	<tag>food</tag>
-	<tag>meat</tag>
-  </prop>
-  <prop id="ncc_03chickenroll.swf" name="Burrito" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="11858" money="" sharing="">
-    <tag>cat:Food and Drink</tag>
-	<tag>burrito</tag>
-	<tag>food</tag>
+  <prop id="computer_button.swf" name="Button" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9041" money="" sharing="">
+    <tag>cat:Technology</tag>
   </prop>
   <prop id="cabinet.swf" name="Cabinet" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="12075" money="" sharing="">
     <tag>cat:Furniture and Fixtures</tag>
