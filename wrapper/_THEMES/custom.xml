@@ -3352,6 +3352,9 @@
     <tag>tap</tag>
     <tag>taps</tag>
   </prop>
+  <prop id="bench.swf" name="Bench" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9575" money="" sharing="">
+	<tag>cat:Furniture and Fixtures</tag>
+  </prop>
   <prop id="billiard_table.swf" name="Billiard Table" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="11752" money="" sharing="">
     <tag>cat:Sports and Fitness</tag>
     <tag>bar</tag>
