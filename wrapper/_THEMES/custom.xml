@@ -6631,6 +6631,9 @@
 	<tag>bottles</tag>
 	<tag>drink</tag>
   </prop>
+  <prop id="warning_sign.swf" name="Warning Sign" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="10534" money="" sharing="">
+    <tag>cat:Signs</tag>
+  </prop>
   <prop id="glasses_03.swf" name="Whiskey" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="10636" money="" sharing="">
     <tag>cat:Food and Drink</tag>
 	<tag>alcohol</tag>
