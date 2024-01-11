@@ -5909,6 +5909,9 @@
     <tag>silhouettes</tag>
     <tag>skyline</tag>
   </prop>
+  <prop id="smoke.swf" name="Smoke" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="10948" money="" sharing="" handstyle="stick">
+    <tag>cat:Others</tag>
+  </prop>
   <prop id="ncc_02spatula.swf" name="Spatula" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="10948" money="" sharing="" handstyle="stick">
     <tag>cat:Kitchen</tag>
 	<tag>cook</tag>
