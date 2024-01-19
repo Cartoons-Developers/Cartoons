@@ -6132,6 +6132,9 @@
 	<tag>lighting</tag>
 	<tag>lights</tag>
   </prop>
+  <prop id="stop.swf" name="Stop Sign" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="10524" money="" sharing="">
+    <tag>cat:Signs</tag>
+  </prop>
   <prop id="street_lamp.swf" name="Street Light" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="10524" money="" sharing="">
     <tag>cat:Buildings and Structures</tag>
 	<tag>cities</tag>
