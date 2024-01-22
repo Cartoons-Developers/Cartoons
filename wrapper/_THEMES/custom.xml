@@ -1074,6 +1074,49 @@
       <rotation>0</rotation>
     </prop>
   </compositebg>
+  <compositebg id="cbg_funeral" name="Funeral" enable="Y" default="N" thumb="funeral.png" display_order="29" is_premium="N" money="" sharing="" aid="9613">
+    <bg id="BG2" index="0">
+      <file>custom.cemetery.swf</file>
+    </bg>
+    <prop id="PROP0" index="3">
+      <file>custom.funeral_coffin.swf</file>
+      <x>387.5804124</x>
+      <y>282.382206</y>
+      <xscale>0.7117618</xscale>
+      <yscale>0.7117618</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP1" index="4">
+      <file>custom.creepy_tree.swf</file>
+      <x>8.25</x>
+      <y>179.025</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+      <color r="ccColorA">8284504</color>
+    </prop>
+    <prop id="PROP3" index="1">
+      <file>custom.creepy_tree.swf</file>
+      <x>652.65</x>
+      <y>175.275</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>-1</face>
+      <rotation>0</rotation>
+      <color r="ccColorA">8284504</color>
+    </prop>
+    <prop id="PROP4" index="2">
+      <file>custom.tombstone.swf</file>
+      <x>514.6374806</x>
+      <y>252.7072447</y>
+      <xscale>1.1204955</xscale>
+      <yscale>1.2897877</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+  </compositebg>
   <compositebg id="cbg_jail" name="Jail" enable="Y" default="N" thumb="jail.png" display_order="39" is_premium="N" money="" sharing="" aid="9710">
     <bg id="cbg_jail_BG2" index="">
       <file>custom.jail.swf</file>
@@ -4043,6 +4086,19 @@
 	<tag>drink</tag>
   </prop>
   <prop id="cc_coffin.swf" name="Coffin" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9039" money="" sharing="">
+    <tag>cat:Others</tag>
+	<tag>bury</tag>
+	<tag>cemetery</tag>
+	<tag>coffin</tag>
+	<tag>dead</tag>
+	<tag>death</tag>
+	<tag>died</tag>
+    <tag>funeral</tag>
+    <tag>grave</tag>
+	<tag>tomb</tag>
+	<tag>tombstone</tag>
+  </prop>
+  <prop id="funeral_coffin.swf" name="Coffin" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9039" money="" sharing="">
     <tag>cat:Others</tag>
 	<tag>bury</tag>
 	<tag>cemetery</tag>
