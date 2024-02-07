@@ -38,10 +38,7 @@
 		"cc.swf": {},
 		"go_full.swf": {},
 		"favicon.ico": {},
-		"/char-default\\.png": {
-			"headers": {
-				"Content-Type": "image/png"
-			},
+		"char_default.png": {
 			"content": ""
 		},
 		"pages/css/(.*)(css|CSS)$": {
