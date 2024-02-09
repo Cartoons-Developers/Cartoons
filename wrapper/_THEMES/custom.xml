@@ -3509,6 +3509,12 @@
 	<tag>cooking</tag>
 	<tag>kitchen</tag>
   </prop>
+  <prop id="blueberry.swf" name="Blueberry" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="11858" money="" sharing="">
+    <tag>cat:Food and Drink</tag>
+    <tag>food</tag>
+    <tag>fruit</tag>
+    <tag>fruits</tag>
+  </prop>
   <prop id="msp_ncc_bomb" name="Bomb" holdable="" placeable="1" wearable="" facing="left" thumb="msp_ncc_bomb_ncc_bomb_on.swf" enable="Y" is_premium="N" aid="10925" money="" sharing="">
     <state id="msp_ncc_bomb_ncc_bomb_on.swf" name="Ignited" enable="Y" default="Y" />
     <state id="msp_ncc_bomb_ncc_bomb_off.swf" name="Still" enable="Y" />
@@ -4685,6 +4691,12 @@
     <tag>cat:Animals</tag>
 	<tag>animal</tag>
     <tag>animals</tag>
+  </prop>
+  <prop id="grapes.swf" name="Grapes" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="11858" money="" sharing="">
+    <tag>cat:Food and Drink</tag>
+    <tag>food</tag>
+    <tag>fruit</tag>
+    <tag>fruits</tag>
   </prop>
   <prop id="thanksgiving_gravy.swf" name="Gravy Boat" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9021" money="" sharing="">
 	<tag>cat:Food and Drink</tag>
