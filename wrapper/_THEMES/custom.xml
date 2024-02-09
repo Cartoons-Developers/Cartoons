@@ -3232,7 +3232,7 @@
 	<tag>effect</tag>
 	<tag>effects</tag>
   </prop>
-  <prop id="banana.swf" name="Banana" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="11858" money="" sharing="">
+  <prop id="banana.swf" name="Banana" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="11858" money="" sharing="">
     <tag>cat:Food and Drink</tag>
 	<tag>banana</tag>
     <tag>food</tag>
@@ -3277,7 +3277,7 @@
     <tag>weapon</tag>
 	<tag>weapons</tag>
   </prop>
-  <prop id="bar_counter.swf" name="Bar Table" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="11048" money="" sharing="" handstyle="stick">
+  <prop id="bar_counter.swf" name="Bar Table" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="11048" money="" sharing="" handstyle="stick">
     <tag>cat:Furniture and Fixtures</tag>
 	<tag>bar</tag>
 	<tag>bars</tag>
@@ -3509,7 +3509,7 @@
 	<tag>cooking</tag>
 	<tag>kitchen</tag>
   </prop>
-  <prop id="blueberry.swf" name="Blueberry" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="11858" money="" sharing="">
+  <prop id="blueberry.swf" name="Blueberry" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="11858" money="" sharing="">
     <tag>cat:Food and Drink</tag>
     <tag>food</tag>
     <tag>fruit</tag>
@@ -3622,7 +3622,7 @@
 	<tag>office</tag>
 	<tag>suitcase</tag>
   </prop>
-  <prop id="broccoli.swf" name="Broccoli" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9041" money="" sharing="">
+  <prop id="broccoli.swf" name="Broccoli" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9041" money="" sharing="">
     <tag>cat:Food and Drink</tag>
 	<tag>broccoli</tag>
     <tag>food</tag>
@@ -4460,7 +4460,7 @@
 	<tag>drink</tag>
 	<tag>soda</tag>
   </prop>
-  <prop id="drinking_straw.swf" name="Drinking Straw" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="10924" money="" sharing="" handstyle="flat">
+  <prop id="drinking_straw.swf" name="Drinking Straw" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="10924" money="" sharing="" handstyle="flat">
 	<tag>cat:Food and Drink</tag>
 	<tag>beverage</tag>
   </prop>
@@ -4672,7 +4672,7 @@
 	<tag>food</tag>
 	<tag>gingerbread</tag>
   </prop>
-  <prop id="glass_cup.swf" name="Glass" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9022" money="" sharing="">
+  <prop id="glass_cup.swf" name="Glass" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9022" money="" sharing="">
 	<tag>cat:Kitchen</tag>
   </prop>
   <prop id="glass_door.swf" name="Glass Door" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="11487" money="" sharing="">
@@ -4692,7 +4692,7 @@
 	<tag>animal</tag>
     <tag>animals</tag>
   </prop>
-  <prop id="grapes.swf" name="Grapes" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="11858" money="" sharing="">
+  <prop id="grapes.swf" name="Grapes" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="11858" money="" sharing="">
     <tag>cat:Food and Drink</tag>
     <tag>food</tag>
     <tag>fruit</tag>
