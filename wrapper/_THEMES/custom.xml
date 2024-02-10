@@ -4037,7 +4037,7 @@
 	<tag>chocolate</tag>
 	<tag>food</tag>
   </prop>
-  <prop id="msp_chocolate_heart_box" name="Christmas Heart Box" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_chocolate_heart_box_open.swf" enable="Y" is_premium="Y" aid="11512" money="0" sharing="0">
+  <prop id="msp_chocolate_heart_box" name="Chocolate Heart Box" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_chocolate_heart_box_open.swf" enable="Y" is_premium="Y" aid="11512" money="0" sharing="0">
     <state id="msp_chocolate_heart_box_closed.swf" name="closed" enable="Y" default="Y"/>
     <state id="msp_chocolate_heart_box_open.swf" name="open" enable="Y"/>
     <tag>cat:Food and Drink</tag>
