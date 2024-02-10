@@ -3206,6 +3206,30 @@
 	<tag>legs</tag>
 	<tag>medical</tag>
   </prop>
+  <prop id="msp_baby" name="Baby" holdable="" placeable="1" wearable="" facing="left" thumb="msp_baby_baby_stand.swf" enable="Y" is_premium="N" aid="9802" money="" sharing="">
+    <state id="msp_baby_baby_crawl.swf" name="Crawling" enable="Y" />
+	<state id="msp_baby_baby_crawl_still.swf" name="Crawling" enable="Y" />
+	<state id="msp_baby_baby_cry.swf" name="Cry" enable="Y" />
+	<state id="msp_baby_baby_sit.swf" name="Sit" enable="Y" />
+    <state id="msp_baby_baby_sleep.swf" name="Sleep" enable="Y" default="Y" />
+    <state id="msp_baby_baby_stand.swf" name="Stand" enable="Y" default="Y" />
+	<state id="msp_baby_baby_walk.swf" name="Walk" enable="Y" />
+    <tag>cat:Others</tag>
+    <colorset enable="Y" aid="9092">
+      <color r="ccSkinColor">0xFFCE95</color>
+      <color r="ccHairMajor">0x523112</color>
+      <color r="ccEyeIris">0x0086D3</color>
+      <color r="ccUpperMain">0xB0C6A0</color>
+      <color r="ccLowerMain">0x96AD84</color>
+    </colorset>
+    <c_parts enable="Y">
+      <c_area oc="">ccSkinColor</c_area>
+      <c_area oc="">ccHairMajor</c_area>
+      <c_area oc="">ccEyeIris</c_area>
+      <c_area oc="">ccUpperMain</c_area>
+      <c_area oc="">ccLowerMain</c_area>
+    </c_parts>
+  </prop>
   <prop id="msp_nccha_balloon02" name="Balloon" holdable="" placeable="1" wearable="" facing="left" thumb="msp_nccha_balloon02_nccha_balloon03.swf" enable="Y" is_premium="Y" aid="11151" money="" sharing="">
     <state id="msp_nccha_balloon02_nccha_balloon03.swf" name="hovering" enable="Y" default="Y" />
     <state id="msp_nccha_balloon02_nccha_balloon04.swf" name="still" enable="Y" />
