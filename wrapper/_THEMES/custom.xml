@@ -7098,6 +7098,18 @@
   <char id="266" name="Casual" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
     <tags>family,_free,_cat:Casual,_tag:casual man male,_sticky_filter_guy</tags>
   </char>
+  <char id="305" name="Casual" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+    <tags>family,_free,_cat:Healthcare,_tag:casual mask man male,_sticky_filter_guy</tags>
+  </char>
+  <char id="306" name="Casual" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+    <tags>family,_free,_cat:Healthcare,_tag:casual jacket mask man male,_sticky_filter_guy</tags>
+  </char>
+  <char id="307" name="Casual" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+    <tags>family,_free,_cat:Healthcare,_tag:casual female lady mask ponytail woman,_sticky_filter_girl</tags>
+  </char>
+  <char id="308" name="Casual" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+    <tags>family,_free,_cat:Healthcare,_tag:casual female lady mask woman,_sticky_filter_girl</tags>
+  </char>
   <char id="261" name="Casual - Pride Month" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
     <tags>family,_free,_cat:Casual,_tag:casual glasses lgbt lgbtq man male month pride rainbow,_sticky_filter_guy</tags>
   </char>
@@ -7527,6 +7539,18 @@
   <char id="273" name="Office Professional" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
     <tags>family,_free,_cat:Office,_tag:business glasses man male office worker,_sticky_filter_guy</tags>
   </char>
+  <char id="310" name="Office Professional" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+    <tags>family,_free,_cat:Healthcare,_tag:business man male mask office worker,_sticky_filter_guy</tags>
+  </char>
+  <char id="311" name="Office Professional" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+    <tags>family,_free,_cat:Healthcare,_tag:business dreadlock dreadlocks dreads earring earrings female lady mask office woman worker,_sticky_filter_girl</tags>
+  </char>
+  <char id="312" name="Office Professional" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+    <tags>family,_free,_cat:Healthcare,_tag:business female lady office mask ponytail woman worker,_sticky_filter_girl</tags>
+  </char>
+  <char id="313" name="Office Professional" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+    <tags>family,_free,_cat:Healthcare,_tag:business elder elderlies elderly man male mask office professional worker,_sticky_filter_fatguy</tags>
+  </char>
   <char id="075" name="Pajamas" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
     <tags>family,_free,_cat:Casual,_tag:asleep bedroom domestic home homeware household man male pajama pajamas pj pjs pyjama pyjamas sleep sleeping sleepy,_sticky_filter_guy</tags>
   </char>
@@ -7654,6 +7678,9 @@
   </char>
   <char id="200" name="Senior" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
     <tags>family,_free,_cat:Casual,_tag:big casual elder elderlies elderly female glasses lady large woman,_sticky_filter_fatgirl</tags>
+  </char>
+  <char id="309" name="Senior" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+    <tags>family,_free,_cat:Healthcare,_tag:casual elder elderlies elderly female glasses mask lady woman,_sticky_filter_girl</tags>
   </char>
   <char id="210" name="Skeleton" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
     <tags>family,_free,_cat:Holidays and Costumes,_tag:halloween holiday holidays hols monster skeleton zombie,_sticky_filter_guy</tags>
