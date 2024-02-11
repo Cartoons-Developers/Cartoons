@@ -11,7 +11,7 @@
 <footer>
 	<nav id="foot-left">
 		<a href="javascript:;" onclick="checkForUpdates()">Cartoons</a>
-		<a href="/settings">Settings</a>
+		<a href="https://cartoons-github.blogspot.com/">Blog</a>
 	</nav>
 
 	<nav id="foot-right"></nav>
