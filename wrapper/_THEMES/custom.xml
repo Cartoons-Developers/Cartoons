@@ -4220,6 +4220,9 @@
     <tag>wooden</tag>
     <tag>woods</tag>
   </prop>
+  <prop id="cooking_pot.swf" name="Cooking Pot" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9670" money="" sharing="">
+    <tag>cat:Kitchen</tag>
+  </prop>
   <prop id="barn_int_cow.swf" name="Cow" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9670" money="" sharing="">
     <tag>cat:Animals</tag>
 	<tag>agriculture</tag>
