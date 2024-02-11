@@ -1,3 +1,13 @@
+<style>
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+</style>
+
+<div class="footer">
 <footer>
 	<nav id="foot-left">
 		<a href="javascript:;" onclick="checkForUpdates()">Cartoons</a>
@@ -6,3 +16,4 @@
 
 	<nav id="foot-right"></nav>
 </footer>
+</div>
