@@ -31,8 +31,6 @@
 				</tfoot>
 			</table>
 		</main>
-
-		<%~ includeFile("./includes/footer", { env: it.env }) %>
 	</body>
 
 	<script>
@@ -116,5 +114,9 @@
 		}
 
 	</script>
+
+    <footer>
+		<%~ includeFile("./includes/footer", { env: it.env }) %>
+	</footer>
 
 </html>
