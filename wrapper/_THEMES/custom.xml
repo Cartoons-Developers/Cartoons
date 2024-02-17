@@ -5599,6 +5599,11 @@
 	<tag>food</tag>
 	<tag>pizza</tag>
   </prop>
+  <prop id="msp_pizza" name="Pizza" holdable="" placeable="1" wearable="" facing="left" thumb="msp_pizza_pizza_whole.swf" enable="Y" is_premium="N" aid="10626" money="" sharing="">
+    <state id="msp_pizza_pizza_whole.swf" name="Whole" enable="Y" default="Y" />
+    <state id="msp_pizza_pizza_slice.swf" name="Slice" enable="Y" />
+    <tag>cat:Food and Drink</tag>
+  </prop>
   <prop id="plate.swf" name="Plate" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="11858" money="" sharing="">
     <tag>cat:Kitchen</tag>
   </prop>
