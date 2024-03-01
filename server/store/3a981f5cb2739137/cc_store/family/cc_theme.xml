@@ -10704,7 +10704,6 @@
   <component type="faceshape" id="041" path="041" name="041" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
     <state id="default" filename="default.swf" />
 	<tag>_sticky_filter_guy</tag>
-	<tag>_sticky_filter_littleguy</tag>
 	<tag>_sticky_filter_buff</tag>
   </component>
   <component type="faceshape" id="020" path="020" name="020" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
