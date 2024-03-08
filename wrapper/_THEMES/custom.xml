@@ -445,6 +445,67 @@
       <rotation>0</rotation>
     </prop>
   </compositebg>
+  <compositebg id="cbg_bus_stop" name="Bus Stop" enable="Y" default="N" thumb="bus_stop.png" display_order="29" is_premium="N" money="" sharing="" aid="9613">
+    <bg id="BG2" index="0">
+      <file>custom.city_street.swf</file>
+    </bg>
+    <prop id="PROP0" index="1">
+      <file>custom.school_ext_tree01.swf</file>
+      <x>434.7</x>
+      <y>175.8</y>
+      <xscale>0.6458074</xscale>
+      <yscale>0.6458074</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP2" index="2">
+      <file>custom.school_ext_tree01.swf</file>
+      <x>176.95</x>
+      <y>175.75</y>
+      <xscale>0.6458074</xscale>
+      <yscale>0.6458074</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP3" index="3">
+      <file>custom.sidewalk.swf</file>
+      <x>508.02378</x>
+      <y>364.2026955</y>
+      <xscale>0.892181</xscale>
+      <yscale>0.892181</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP5" index="4">
+      <file>custom.sidewalk.swf</file>
+      <x>103.2412686</x>
+      <y>364.2026955</y>
+      <xscale>0.892181</xscale>
+      <yscale>0.892181</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP6" index="5">
+      <file>custom.msp_bus.msp_bus_bus_still.swf</file>
+      <x>93.8233406</x>
+      <y>232.625</y>
+      <xscale>0.9336251</xscale>
+      <yscale>0.9336251</yscale>
+      <face>-1</face>
+      <rotation>0</rotation>
+      <color r="ccColorB">8164779</color>
+      <color r="ccColorA">14737375</color>
+    </prop>
+    <prop id="PROP7" index="6">
+      <file>custom.bus_stop.swf</file>
+      <x>557.6</x>
+      <y>245.05</y>
+      <xscale>1.5018051</xscale>
+      <yscale>1.5018051</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+  </compositebg>
   <compositebg id="cbg_christmas" name="Christmas" enable="Y" default="N" thumb="christmas.png" display_order="29" is_premium="N" money="" sharing="" aid="9613">
     <bg id="BG4" index="0">
       <file>custom.wall10.swf</file>
@@ -2583,71 +2644,6 @@
       <rotation>0</rotation>
     </prop>
   </compositebg>
-  <compositebg id="cbg_white_house" name="White House" enable="Y" default="N" thumb="white_house_ext.png" display_order="7" is_premium="N" money="" sharing="" aid="9075">
-    <bg id="BG2" index="">
-      <file>custom.greenfield.swf</file>
-    </bg>
-    <prop id="PROP0" index="1">
-      <file>custom.ncc_whhouse.swf</file>
-      <x>326.4</x>
-      <y>186.65</y>
-      <xscale>1.232883</xscale>
-      <yscale>1.232883</yscale>
-      <face>1</face>
-      <rotation>0</rotation>
-    </prop>
-    <prop id="PROP3" index="6">
-      <file>custom.trees2.swf</file>
-      <x>520.425</x>
-      <y>265</y>
-      <xscale>1</xscale>
-      <yscale>1</yscale>
-      <face>-1</face>
-      <rotation>0</rotation>
-    </prop>
-    <prop id="PROP4" index="2">
-      <file>custom.school_ext_tree01.swf</file>
-      <x>199.7838694</x>
-      <y>235.225</y>
-      <xscale>0.6452232</xscale>
-      <yscale>0.6452232</yscale>
-      <face>1</face>
-      <rotation>0</rotation>
-      <color r="ccColorA">5797182</color>
-      <color r="ccColorB">9270111</color>
-    </prop>
-    <prop id="PROP6" index="5">
-      <file>custom.school_ext_tree01.swf</file>
-      <x>504.0338694</x>
-      <y>235.25</y>
-      <xscale>0.6452232</xscale>
-      <yscale>0.6452232</yscale>
-      <face>1</face>
-      <rotation>0</rotation>
-      <color r="ccColorA">5797182</color>
-      <color r="ccColorB">9270111</color>
-    </prop>
-    <prop id="PROP8" index="3">
-      <file>custom.school_ext_tree01.swf</file>
-      <x>149.312128</x>
-      <y>252.1</y>
-      <xscale>0.5148789</xscale>
-      <yscale>0.5148789</yscale>
-      <face>1</face>
-      <rotation>0</rotation>
-      <color r="ccColorA">5797182</color>
-      <color r="ccColorB">9270111</color>
-    </prop>
-    <prop id="PROP1" index="4">
-      <file>custom.trees.swf</file>
-      <x>122.25</x>
-      <y>267.1</y>
-      <xscale>1</xscale>
-      <yscale>1</yscale>
-      <face>1</face>
-      <rotation>0</rotation>
-    </prop>
-  </compositebg>
   <compositebg id="cbg_subway_interior" name="Subway - Interior" enable="Y" default="N" thumb="subway_interior.png" display_order="29" is_premium="N" money="" sharing="" aid="9613">
     <bg id="BG149" index="">
       <file>custom.train_interior.swf</file>
@@ -3150,6 +3146,71 @@
       <y>298.6756169</y>
       <xscale>0.5794726</xscale>
       <yscale>0.5794726</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+  </compositebg>
+  <compositebg id="cbg_white_house" name="White House" enable="Y" default="N" thumb="white_house_ext.png" display_order="7" is_premium="N" money="" sharing="" aid="9075">
+    <bg id="BG2" index="">
+      <file>custom.greenfield.swf</file>
+    </bg>
+    <prop id="PROP0" index="1">
+      <file>custom.ncc_whhouse.swf</file>
+      <x>326.4</x>
+      <y>186.65</y>
+      <xscale>1.232883</xscale>
+      <yscale>1.232883</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP3" index="6">
+      <file>custom.trees2.swf</file>
+      <x>520.425</x>
+      <y>265</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>-1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP4" index="2">
+      <file>custom.school_ext_tree01.swf</file>
+      <x>199.7838694</x>
+      <y>235.225</y>
+      <xscale>0.6452232</xscale>
+      <yscale>0.6452232</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+      <color r="ccColorA">5797182</color>
+      <color r="ccColorB">9270111</color>
+    </prop>
+    <prop id="PROP6" index="5">
+      <file>custom.school_ext_tree01.swf</file>
+      <x>504.0338694</x>
+      <y>235.25</y>
+      <xscale>0.6452232</xscale>
+      <yscale>0.6452232</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+      <color r="ccColorA">5797182</color>
+      <color r="ccColorB">9270111</color>
+    </prop>
+    <prop id="PROP8" index="3">
+      <file>custom.school_ext_tree01.swf</file>
+      <x>149.312128</x>
+      <y>252.1</y>
+      <xscale>0.5148789</xscale>
+      <yscale>0.5148789</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+      <color r="ccColorA">5797182</color>
+      <color r="ccColorB">9270111</color>
+    </prop>
+    <prop id="PROP1" index="4">
+      <file>custom.trees.swf</file>
+      <x>122.25</x>
+      <y>267.1</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
       <face>1</face>
       <rotation>0</rotation>
     </prop>
@@ -3727,6 +3788,14 @@
     <tag>cat:Food and Drink</tag>
 	<tag>burrito</tag>
 	<tag>food</tag>
+  </prop>
+  <prop id="msp_bus" name="Bus" holdable="" placeable="1" wearable="" facing="left" thumb="msp_bus_bus_still.swf" enable="Y" is_premium="N" aid="11038" money="" sharing="">
+    <state id="msp_bus_bus_still.swf" name="still" enable="Y" default="Y" />
+    <state id="msp_bus_bus_driving.swf" name="driving" enable="Y" />
+    <tag>cat:Transport</tag>
+  </prop>
+  <prop id="bus_stop.swf" name="Bus Stop" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9575" money="" sharing="">
+	<tag>cat:Transport</tag>
   </prop>
   <prop id="bushes.swf" name="Bush" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9575" money="" sharing="">
 	<tag>cat:Nature</tag>
