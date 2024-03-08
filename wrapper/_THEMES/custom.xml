@@ -25,6 +25,7 @@
   <background id="theater_audience.swf" name="Theater - Audience" enable="Y" default="N" is_premium="N" aid="9811" money="" sharing="" category="Locations" />
   <background id="train_interior.swf" name="Train Interior" enable="Y" default="N" is_premium="N" aid="9811" money="" sharing="" category="Locations" />
   <background id="sports_center.swf" name="Sports Center" enable="Y" default="N" is_premium="N" aid="9811" money="" sharing="" category="Locations" />
+  <background id="city_street.swf" name="Street" enable="Y" default="N" is_premium="N" aid="9811" money="" sharing="" category="Locations" />
   <background id="wall03.swf" name="Wallpaper" enable="Y" default="N" is_premium="N" aid="9811" money="" sharing="" category="Patterns" />
   <compositebg id="cbg_airplane" name="Airplane" enable="Y" default="N" thumb="airplane.png" display_order="32" is_premium="N" money="" sharing="" aid="9616">
     <bg id="BG2" index="">
@@ -3181,6 +3182,26 @@
 	<tag>states</tag>
 	<tag>united</tag>
   </prop>
+  <prop id="apartment1.swf" name="Apartment Building" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="11546" money="" sharing="">
+    <tag>cat:Buildings and Structures</tag>
+	<tag>building</tag>
+  </prop>
+  <prop id="apartment2.swf" name="Apartment Building" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="11546" money="" sharing="">
+    <tag>cat:Buildings and Structures</tag>
+	<tag>building</tag>
+  </prop>
+  <prop id="apartment3.swf" name="Apartment Building" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="11546" money="" sharing="">
+    <tag>cat:Buildings and Structures</tag>
+	<tag>building</tag>
+  </prop>
+  <prop id="apartment4.swf" name="Apartment Building" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="11546" money="" sharing="">
+    <tag>cat:Buildings and Structures</tag>
+	<tag>building</tag>
+  </prop>
+  <prop id="apartment5.swf" name="Apartment Building" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="11546" money="" sharing="">
+    <tag>cat:Buildings and Structures</tag>
+	<tag>building</tag>
+  </prop>
   <prop id="ncc_03apple.swf" name="Apple" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="11858" money="" sharing="">
     <tag>cat:Food and Drink</tag>
 	<tag>apple</tag>
@@ -5463,6 +5484,9 @@
 	<tag>animal</tag>
     <tag>animals</tag>
   </prop>
+  <prop id="sidewalk.swf" name="Pavement" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="11498" money="" sharing="">
+    <tag>cat:Buildings and Structures</tag>
+  </prop>
   <prop id="peanut.swf" name="Peanut" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9023" money="" sharing="">
     <tag>cat:Food and Drink</tag>
   </prop>
@@ -6012,6 +6036,13 @@
     <tag>city</tag>
     <tag>silhouette</tag>
     <tag>silhouettes</tag>
+    <tag>skyline</tag>
+  </prop>
+  <prop id="skyline2.swf" name="Skyline" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="11498" money="" sharing="">
+    <tag>cat:Buildings and Structures</tag>
+    <tag>building</tag>
+    <tag>buildings</tag>
+    <tag>city</tag>
     <tag>skyline</tag>
   </prop>
   <prop id="smoke.swf" name="Smoke" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="10948" money="" sharing="" handstyle="stick">
