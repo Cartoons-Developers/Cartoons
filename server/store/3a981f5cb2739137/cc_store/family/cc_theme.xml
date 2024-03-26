@@ -792,6 +792,19 @@
     <selection type="mustache" state_id="default" />
     <selection type="nose" state_id="default" />
   </facial>
+  <facial id="head_wink" name="Wink" enable="Y">
+    <selection type="beard" state_id="default" />
+    <selection type="ear" state_id="default" />
+    <selection type="eye" state_id="wink" />
+    <selection type="eyebrow" state_id="default" />
+    <selection type="facedecoration" state_id="default" />
+    <selection type="faceshape" state_id="default" />
+    <selection type="glasses" state_id="default" />
+    <selection type="hair" state_id="default" />
+    <selection type="mouth" state_id="happy" />
+    <selection type="mustache" state_id="default" />
+    <selection type="nose" state_id="default" />
+  </facial>
   <bodyshape id="adam" name="Adam" default_action="stand" default_motion="walk" action_thumb="stand" facial_thumb="head_neutral" thumb_path="thumbnail.swf" enable="Y" tag="guy">
     <default_char xscale="1" yscale="1" hxscale="1" hyscale="1" headdx="0" headdy="0">
 	  <tag>_sticky_filter_guy</tag>
@@ -10396,6 +10409,7 @@
     <state id="shock" filename="shock.swf" />
     <state id="sick" filename="sick.swf" />
     <state id="thinking" filename="thinking.swf" />
+    <state id="wink" filename="wink.swf" />
     <state id="yawn" filename="yawn.swf" />
 	<tag>_sticky_filter_guy</tag>
 	<tag>_sticky_filter_girl</tag>
@@ -10416,6 +10430,7 @@
     <state id="shock" filename="shock.swf" />
     <state id="sick" filename="sick.swf" />
     <state id="thinking" filename="thinking.swf" />
+    <state id="wink" filename="wink.swf" />
     <state id="yawn" filename="yawn.swf" />
 	<tag>_sticky_filter_guy</tag>
 	<tag>_sticky_filter_girl</tag>
@@ -10436,29 +10451,10 @@
     <state id="shock" filename="shock.swf" />
     <state id="sick" filename="sick.swf" />
     <state id="thinking" filename="thinking.swf" />
+    <state id="wink" filename="wink.swf" />
     <state id="yawn" filename="yawn.swf" />
 	<tag>_sticky_filter_guy</tag>
 	<tag>_sticky_filter_girl</tag>
-  </component>
-  <component type="eye" id="robot" path="robot" name="robot" thumb="thumbnail.swf" money="0" sharing="0" enable="N">
-    <state id="angry" filename="angry.swf" />
-    <state id="asleep" filename="asleep.swf" />
-    <state id="cry" filename="cry.swf" />
-    <state id="default" filename="default.swf" />
-    <state id="happy" filename="happy.swf" />
-    <state id="sad" filename="sad.swf" />
-    <state id="schemeing" filename="schemeing.swf" />
-    <state id="shock" filename="shock.swf" />
-    <state id="sick" filename="sick.swf" />
-    <state id="thinking" filename="thinking.swf" />
-    <state id="yawn" filename="yawn.swf" />
-	<tag>_sticky_filter_guy</tag>
-	<tag>_sticky_filter_girl</tag>
-	<tag>_sticky_filter_littleguy</tag>
-	<tag>_sticky_filter_littlegirl</tag>
-	<tag>_sticky_filter_fatguy</tag>
-	<tag>_sticky_filter_fatgirl</tag>
-	<tag>_sticky_filter_buff</tag>
   </component>
   <component type="eye" id="skeleton" path="skeleton" name="skeleton" thumb="thumbnail.swf" money="0" sharing="0" enable="N">
     <state id="angry" filename="angry.swf" />
@@ -10471,6 +10467,7 @@
     <state id="shock" filename="shock.swf" />
     <state id="sick" filename="sick.swf" />
     <state id="thinking" filename="thinking.swf" />
+    <state id="wink" filename="wink.swf" />
     <state id="yawn" filename="yawn.swf" />
 	<tag>_sticky_filter_guy</tag>
 	<tag>_sticky_filter_girl</tag>
@@ -10914,16 +10911,6 @@
     <state id="default" filename="default.swf" />
 	<tag>_sticky_filter_guy</tag>
 	<tag>_sticky_filter_girl</tag>
-  </component>
-  <component type="faceshape" id="robot" path="robot" name="robot" thumb="thumbnail.swf" money="0" sharing="0" enable="N">
-    <state id="default" filename="default.swf" />
-	<tag>_sticky_filter_guy</tag>
-	<tag>_sticky_filter_girl</tag>
-	<tag>_sticky_filter_littleguy</tag>
-	<tag>_sticky_filter_littlegirl</tag>
-	<tag>_sticky_filter_fatguy</tag>
-	<tag>_sticky_filter_fatgirl</tag>
-	<tag>_sticky_filter_buff</tag>
   </component>
   <component type="faceshape" id="skeleton" path="skeleton" name="skeleton" thumb="thumbnail.swf" money="0" sharing="0" enable="N">
     <state id="default" filename="default.swf" />
@@ -12598,33 +12585,6 @@
 	<tag>_sticky_filter_fatgirl</tag>
 	<tag>_sticky_filter_buff</tag>
 	</component>
-  <component type="mouth" id="robot" path="robot" name="robot" thumb="thumbnail.swf" money="0" sharing="0" enable="N">
-    <state id="angry" filename="angry.swf" />
-    <state id="chewing" filename="chewing.swf" />
-    <state id="cry" filename="cry.swf" />
-    <state id="default" filename="default.swf" />
-    <state id="happy" filename="happy.swf" />
-    <state id="laugh" filename="laugh.swf" />
-    <state id="sad" filename="sad.swf" />
-    <state id="schemeing" filename="schemeing.swf" />
-    <state id="shock" filename="shock.swf" />
-    <state id="sick" filename="sick.swf" />
-    <state id="surprised" filename="surprised.swf" />
-    <state id="talk_a" filename="talk_a.swf" />
-    <state id="talk_angry" filename="talk_angry.swf" />
-    <state id="talk_b" filename="talk_b.swf" />
-    <state id="talk_happy" filename="talk_happy.swf" />
-    <state id="talk_sad" filename="talk_sad.swf" />
-    <state id="taunt" filename="taunt.swf" />
-    <state id="yawn" filename="yawn.swf" />
-	<tag>_sticky_filter_guy</tag>
-	<tag>_sticky_filter_girl</tag>
-	<tag>_sticky_filter_littleguy</tag>
-	<tag>_sticky_filter_littlegirl</tag>
-	<tag>_sticky_filter_fatguy</tag>
-	<tag>_sticky_filter_fatgirl</tag>
-	<tag>_sticky_filter_buff</tag>
-  </component>
   <component type="mouth" id="skeleton" path="skeleton" name="skeleton" thumb="thumbnail.swf" money="0" sharing="0" enable="N">
     <state id="angry" filename="angry.swf" />
     <state id="chewing" filename="chewing.swf" />
