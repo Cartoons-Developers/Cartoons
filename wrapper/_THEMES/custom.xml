@@ -3974,6 +3974,9 @@
 	<tag>healthcare</tag>
 	<tag>medical</tag>
   </prop>
+  <prop id="canned_meat.swf" name="Canned Meat" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="11858" money="" sharing="">
+    <tag>cat:Food and Drink</tag>
+  </prop>
   <prop id="msp_cash_register01" name="Cash Register" holdable="" placeable="1" wearable="" facing="left" thumb="msp_cash_register01_msp_cash_register_cash_register01_back.swf" enable="Y" is_premium="N" aid="10626" money="" sharing="">
     <state id="msp_cash_register01_msp_cash_register_cash_register01_back.swf" name="front" enable="Y" default="Y" />
     <state id="msp_cash_register01_msp_cash_register_cash_register01_side.swf" name="side" enable="Y" />
@@ -3997,6 +4000,24 @@
 	<tag>register</tag>
   </prop>
   <prop id="fast_food_counter.swf" name="Cash Register" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="10626" money="" sharing="">
+    <tag>cat:Retail</tag>
+	<tag>cash</tag>
+	<tag>checkout</tag>
+	<tag>pay</tag>
+	<tag>paying</tag>
+	<tag>payment</tag>
+	<tag>register</tag>
+  </prop>
+  <prop id="cash_register.swf" name="Cash Register" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="10626" money="" sharing="">
+    <tag>cat:Retail</tag>
+	<tag>cash</tag>
+	<tag>checkout</tag>
+	<tag>pay</tag>
+	<tag>paying</tag>
+	<tag>payment</tag>
+	<tag>register</tag>
+  </prop>
+  <prop id="supermarket_register.swf" name="Cash Register" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="10626" money="" sharing="">
     <tag>cat:Retail</tag>
 	<tag>cash</tag>
 	<tag>checkout</tag>
@@ -4116,6 +4137,9 @@
 	<tag>vegetables</tag>
 	<tag>veggie</tag>
 	<tag>veggies</tag>
+  </prop>
+  <prop id="chips.swf" name="Chips" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="11858" money="" sharing="">
+    <tag>cat:Food and Drink</tag>
   </prop>
   <prop id="ncc_03chocolate.swf" name="Chocolate Bar" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="11858" money="" sharing="">
     <tag>cat:Food and Drink</tag>
@@ -4310,6 +4334,9 @@
     <tag>wooden</tag>
     <tag>woods</tag>
   </prop>
+  <prop id="cookies.swf" name="Cookies" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="11858" money="" sharing="">
+    <tag>cat:Food and Drink</tag>
+  </prop>
   <prop id="cooking_pot.swf" name="Cooking Pot" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9670" money="" sharing="">
     <tag>cat:Kitchen</tag>
   </prop>
@@ -4321,6 +4348,9 @@
 	<tag>cow</tag>
 	<tag>barn</tag>
 	<tag>farm</tag>
+  </prop>
+  <prop id="crackers.swf" name="Crackers" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="11858" money="" sharing="">
+    <tag>cat:Food and Drink</tag>
   </prop>
   <prop id="thanksgiving_cranberry_sauce.swf" name="Cranberry Sauce" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9021" money="" sharing="">
 	<tag>cat:Food and Drink</tag>
@@ -4690,6 +4720,15 @@
 	<tag>lighting</tag>
 	<tag>lights</tag>
   </prop>
+  <prop id="frozen_dinner.swf" name="Frozen Dinner" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="11858" money="" sharing="">
+    <tag>cat:Food and Drink</tag>
+  </prop>
+  <prop id="frozen_pasta.swf" name="Frozen Pasta" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="11858" money="" sharing="">
+    <tag>cat:Food and Drink</tag>
+  </prop>
+  <prop id="frozen_pizza.swf" name="Frozen Pizza" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="11858" money="" sharing="">
+    <tag>cat:Food and Drink</tag>
+  </prop>
   <prop id="ncc_03fries.swf" name="Fries" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="11858" money="" sharing="">
     <tag>cat:Food and Drink</tag>
 	<tag>food</tag>
@@ -4957,6 +4996,9 @@
 	<tag>dessert</tag>
     <tag>food</tag>
 	<tag>ice</tag>
+  </prop>
+  <prop id="icecream_tub.swf" name="Ice Cream" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="11858" money="" sharing="">
+    <tag>cat:Food and Drink</tag>
   </prop>
   <prop id="ncc_02icecream01.swf" name="Ice Cream Cone" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="12176" money="" sharing="" handstyle="stick">
 	<tag>cat:Food and Drink</tag>
@@ -5319,6 +5361,9 @@
 	<tag>glass</tag>
 	<tag>glasses</tag>
 	<tag>drink</tag>
+  </prop>
+  <prop id="milk_carton.swf" name="Milk" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="11858" money="" sharing="">
+    <tag>cat:Food and Drink</tag>
   </prop>
   <prop id="milkshake.swf" name="Milkshake" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9021" money="" sharing="">
 	<tag>cat:Food and Drink</tag>
@@ -6315,6 +6360,9 @@
 	<tag>couch</tag>
     <tag>furniture</tag>
 	<tag>sofa</tag>
+  </prop>
+  <prop id="canned_soup.swf" name="Soup" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="11858" money="" sharing="">
+    <tag>cat:Food and Drink</tag>
   </prop>
   <prop id="kitchen_spoon.swf" name="Spoon" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9022" money="" sharing="">
     <tag>cat:Kitchen</tag>
