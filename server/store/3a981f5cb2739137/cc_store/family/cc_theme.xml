@@ -12224,6 +12224,16 @@
 	<tag>_sticky_filter_fatguy</tag>
 	<tag>_sticky_filter_buff</tag>
   </component>
+  <component type="hair" id="new_hairstyle43" path="new_hairstyle43" name="new_hairstyle43" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+    <state id="default" filename="default.swf" />
+	<tag>_sticky_filter_guy</tag>
+	<tag>_sticky_filter_girl</tag>
+	<tag>_sticky_filter_littleguy</tag>
+	<tag>_sticky_filter_littlegirl</tag>
+	<tag>_sticky_filter_fatguy</tag>
+	<tag>_sticky_filter_fatgirl</tag>
+	<tag>_sticky_filter_buff</tag>
+  </component>
   <component type="hair" id="pigtails" path="pigtails" name="pigtails" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
     <state id="default" filename="default.swf" />
 	<tag>_sticky_filter_girl</tag>
@@ -12277,13 +12287,6 @@
 	<tag>_sticky_filter_girl</tag>
 	<tag>_sticky_filter_littlegirl</tag>
 	<tag>_sticky_filter_fatgirl</tag>
-  </component>
-  <component type="hair" id="two_tone5" path="two_tone5" name="two_tone5" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
-    <state id="default" filename="default.swf" />
-	<tag>_sticky_filter_guy</tag>
-	<tag>_sticky_filter_littleguy</tag>
-	<tag>_sticky_filter_fatguy</tag>
-	<tag>_sticky_filter_buff</tag>
   </component>
   <component type="mouth" id="201" path="201" name="201" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
     <state id="angry" filename="angry.swf" />
