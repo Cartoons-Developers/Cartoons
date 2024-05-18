@@ -6475,6 +6475,11 @@
 	<tag>warm</tag>
 	<tag>warming</tag>
   </prop>
+  <prop id="msp_supermarket_shelf" name="Supermarket Shelf" holdable="" placeable="1" wearable="" facing="left" thumb="msp_supermarket_shelf_full.swf" enable="Y" is_premium="Y" aid="12408" money="" sharing="">
+    <state id="msp_supermarket_shelf_empty.swf" name="empty" enable="Y" />
+    <state id="msp_supermarket_shelf_full.swf" name="full" enable="Y" default="Y" />
+    <tag>cat:Retail</tag>
+  </prop>
   <prop id="ncc_supreme_court.swf" name="Supreme Court" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="11939" money="" sharing="">
     <tag>cat:Buildings and Structures</tag>
 	<tag>building</tag>
