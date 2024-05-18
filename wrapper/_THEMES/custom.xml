@@ -5395,6 +5395,9 @@
 	<tag>exploding</tag>
 	<tag>explosion</tag>
   </prop>
+  <prop id="ncc_nail_polish01.swf" name="Nail Polish" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9022" money="" sharing="">
+    <tag>cat:Retail</tag>
+  </prop>
   <prop id="cc_necklace.swf" name="Necklace" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9022" money="" sharing="">
     <tag>cat:Retail</tag>
 	<tag>accessories</tag>
