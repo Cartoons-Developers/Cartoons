@@ -4723,6 +4723,11 @@
 	<tag>lighting</tag>
 	<tag>lights</tag>
   </prop>
+  <prop id="msp_supermarket_freezer" name="Freezer" holdable="" placeable="1" wearable="" facing="left" thumb="msp_supermarket_freezer_full.swf" enable="Y" is_premium="Y" aid="12408" money="" sharing="">
+    <state id="msp_supermarket_freezer_empty.swf" name="empty" enable="Y" />
+    <state id="msp_supermarket_freezer_full.swf" name="full" enable="Y" default="Y" />
+    <tag>cat:Retail</tag>
+  </prop>
   <prop id="frozen_dinner.swf" name="Frozen Dinner" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="11858" money="" sharing="">
     <tag>cat:Food and Drink</tag>
   </prop>
