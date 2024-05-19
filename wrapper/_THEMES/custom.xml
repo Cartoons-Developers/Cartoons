@@ -2649,6 +2649,147 @@
       <file>custom.train_interior.swf</file>
     </bg>
   </compositebg>
+  <compositebg id="cbg_supermarket_checkout" name="Supermarket - Checkout" enable="Y" default="N" thumb="supermarket1.png" display_order="29" is_premium="N" money="" sharing="" aid="9613">
+    <bg id="BG2" index="0">
+      <file>custom.wall10.swf</file>
+      <color r="ccColorA">13220533</color>
+      <color r="ccColorB">13683905</color>
+      <color r="ccColorC">9865091</color>
+    </bg>
+    <prop id="PROP19" index="4">
+      <file>custom.supermarket_register.swf</file>
+      <x>321.9710429</x>
+      <y>177.875</y>
+      <xscale>1.0871732</xscale>
+      <yscale>1.0871732</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP20" index="3">
+      <file>custom.msp_supermarket_freezer.msp_supermarket_freezer_full.swf</file>
+      <x>200.35</x>
+      <y>188.4</y>
+      <xscale>0.770923</xscale>
+      <yscale>0.770923</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP22" index="2">
+      <file>custom.msp_supermarket_freezer.msp_supermarket_freezer_full.swf</file>
+      <x>128.45</x>
+      <y>188.425</y>
+      <xscale>0.770923</xscale>
+      <yscale>0.770923</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP24" index="1">
+      <file>custom.msp_supermarket_freezer.msp_supermarket_freezer_full.swf</file>
+      <x>57.25</x>
+      <y>188.375</y>
+      <xscale>0.770923</xscale>
+      <yscale>0.770923</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+  </compositebg>
+  <compositebg id="cbg_supermarket_frozen" name="Supermarket - Frozen Foods" enable="Y" default="N" thumb="supermarket3.png" display_order="29" is_premium="N" money="" sharing="" aid="9613">
+    <bg id="BG2" index="0">
+      <file>custom.wall10.swf</file>
+      <color r="ccColorA">13220533</color>
+      <color r="ccColorB">13683905</color>
+      <color r="ccColorC">9865091</color>
+    </bg>
+    <prop id="PROP8" index="1">
+      <file>custom.msp_supermarket_freezer.msp_supermarket_freezer_full.swf</file>
+      <x>41.6805269</x>
+      <y>201</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP10" index="2">
+      <file>custom.msp_supermarket_freezer.msp_supermarket_freezer_full.swf</file>
+      <x>134.1805269</x>
+      <y>201</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP13" index="3">
+      <file>custom.msp_supermarket_freezer.msp_supermarket_freezer_full.swf</file>
+      <x>226.8305269</x>
+      <y>201</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP14" index="4">
+      <file>custom.msp_supermarket_freezer.msp_supermarket_freezer_full.swf</file>
+      <x>319.3305269</x>
+      <y>201</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP15" index="5">
+      <file>custom.msp_supermarket_freezer.msp_supermarket_freezer_full.swf</file>
+      <x>411.9805269</x>
+      <y>201</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP16" index="6">
+      <file>custom.msp_supermarket_freezer.msp_supermarket_freezer_full.swf</file>
+      <x>504.4805269</x>
+      <y>201</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP18" index="7">
+      <file>custom.msp_supermarket_freezer.msp_supermarket_freezer_full.swf</file>
+      <x>596.975</x>
+      <y>201</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+  </compositebg>
+  <compositebg id="cbg_supermarket_snacks" name="Supermarket - Snacks and Drinks" enable="Y" default="N" thumb="supermarket2.png" display_order="29" is_premium="N" money="" sharing="" aid="9613">
+    <bg id="BG2" index="0">
+      <file>custom.wall10.swf</file>
+      <color r="ccColorA">13220533</color>
+      <color r="ccColorB">13683905</color>
+      <color r="ccColorC">9865091</color>
+    </bg>
+    <prop id="PROP4" index="2">
+      <file>custom.msp_supermarket_shelf.msp_supermarket_shelf_full.swf</file>
+      <x>-57.7236743</x>
+      <y>213.1276513</y>
+      <xscale>0.9469736</xscale>
+      <yscale>0.9469736</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP6" index="1">
+      <file>custom.msp_supermarket_shelf.msp_supermarket_shelf_full.swf</file>
+      <x>450.4230139</x>
+      <y>213.0796111</y>
+      <xscale>0.9469736</xscale>
+      <yscale>0.9469736</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+  </compositebg>
   <compositebg id="cbg_thanksgiving" name="Thanksgiving - Dinner" enable="Y" default="N" thumb="thanksgiving.png" display_order="29" is_premium="N" money="" sharing="" aid="9613">
     <bg id="BG3" index="0">
       <file>custom.wall10.swf</file>
