@@ -3905,6 +3905,9 @@
 	<tag>beach</tag>
 	<tag>pail</tag>
   </prop>
+  <prop id="courthouse_ext_bg_building.swf" name="Building" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="11047" money="" sharing="">
+    <tag>cat:Buildings and Structures</tag>
+  </prop>
   <prop id="jail_bed.swf" name="Bunk Beds" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9575" money="" sharing="">
 	<tag>cat:Furniture and Fixtures</tag>
 	<tag>asleep</tag>
@@ -5814,6 +5817,16 @@
     <tag>picture</tag>
     <tag>pictures</tag>
   </prop>
+  <prop id="restaurant_picture.swf" name="Picture" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="10732" money="" sharing="">
+    <tag>cat:Decorations</tag>
+	<tag>art</tag>
+	<tag>arts</tag>
+	<tag>artwork</tag>
+    <tag>paint</tag>
+    <tag>painting</tag>
+    <tag>picture</tag>
+    <tag>pictures</tag>
+  </prop>
   <prop id="ncc_pic02_front.swf" name="Picture Frame" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="10752" money="" sharing="">
     <tag>cat:Decorations</tag>
 	<tag>art</tag>
@@ -6621,6 +6634,9 @@
 	<tag>warm</tag>
 	<tag>warming</tag>
   </prop>
+  <prop id="supermarket.swf" name="Supermarket" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="11047" money="" sharing="">
+    <tag>cat:Buildings and Structures</tag>
+  </prop>
   <prop id="msp_supermarket_shelf" name="Supermarket Shelf" holdable="" placeable="1" wearable="" facing="left" thumb="msp_supermarket_shelf_full.swf" enable="Y" is_premium="Y" aid="12408" money="" sharing="">
     <state id="msp_supermarket_shelf_empty.swf" name="empty" enable="Y" />
     <state id="msp_supermarket_shelf_full.swf" name="full" enable="Y" default="Y" />
@@ -7140,6 +7156,18 @@
     <tag>wine</tag>
   </prop>
   <prop id="fences.swf" name="Wooden Fence" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="10534" money="" sharing="">
+    <tag>cat:Buildings and Structures</tag>
+	<tag>agriculture</tag>
+	<tag>backyard</tag>
+	<tag>courtyard</tag>
+    <tag>fence</tag>
+    <tag>lawn</tag>
+    <tag>wood</tag>
+    <tag>wooden</tag>
+    <tag>woods</tag>
+    <tag>yard</tag>
+  </prop>
+  <prop id="barn_int_fence2.swf" name="Wooden Fence" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="10534" money="" sharing="">
     <tag>cat:Buildings and Structures</tag>
 	<tag>agriculture</tag>
 	<tag>backyard</tag>
