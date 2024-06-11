@@ -5759,6 +5759,9 @@
   <prop id="peanut.swf" name="Peanut" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9023" money="" sharing="">
     <tag>cat:Food and Drink</tag>
   </prop>
+  <prop id="pear.swf" name="Pear" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9023" money="" sharing="">
+    <tag>cat:Food and Drink</tag>
+  </prop>
   <prop id="pen.swf" name="Pen" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9797" money="" sharing="">
     <tag>cat:Office and School</tag>
   </prop>
