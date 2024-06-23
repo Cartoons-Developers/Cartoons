@@ -5957,6 +5957,9 @@
 	<tag>food</tag>
 	<tag>popcorn</tag>
   </prop>
+  <prop id="popcorn_machine.swf" name="Popcorn" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="11858" money="" sharing="">
+    <tag>cat:Food and Drink</tag>
+  </prop>
   <prop id="office_plant.swf" name="Potted Plant" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="8946" money="" sharing="">
     <tag>cat:Nature</tag>
 	<tag>aloe</tag>
