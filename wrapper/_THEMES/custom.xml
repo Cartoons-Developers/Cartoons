@@ -1,5 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <theme id="custom" name="Comedy World" cc_theme_id="family">
+  <background id="attic.swf" name="Attic" enable="Y" default="N" is_premium="N" aid="9811" money="" sharing="" category="Locations" />
   <background id="kids_bedroom.swf" name="Bedroom - Kids" enable="Y" default="N" is_premium="N" aid="9811" money="" sharing="" category="Locations" />
   <background id="car_backseat.swf" name="Car Backseat" enable="Y" default="N" is_premium="N" aid="9811" money="" sharing="" category="Locations" />
   <background id="cemetery.swf" name="Cemetery" enable="Y" default="N" is_premium="N" aid="9811" money="" sharing="" category="Locations" />
