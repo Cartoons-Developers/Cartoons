@@ -4249,6 +4249,11 @@
     <tag>wooden</tag>
     <tag>woods</tag>
   </prop>
+  <prop id="msp_chemical_cabinet" name="Chemical Cabinet" holdable="" placeable="1" wearable="" facing="left" thumb="msp_chemical_cabinet_front.swf" enable="Y" is_premium="Y" aid="11360" money="" sharing="">
+    <state id="msp_chemical_cabinet_front.swf" name="front" enable="Y" default="Y" />
+    <state id="msp_chemical_cabinet_side.swf" name="side" enable="Y" />
+    <tag>cat:Industrial and Hardware</tag>
+  </prop>
   <prop id="cc_tick2.swf" name="Check Mark" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9159" money="" sharing="">
     <colorset enable="Y" aid="9160">
       <color r="ccColorA">0x6EAF43</color>
@@ -5055,6 +5060,9 @@
 	<tag>tool</tag>
 	<tag>tools</tag>
   </prop>
+  <prop id="hanging_plant.swf" name="Hanging Plant" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="10767" money="" sharing="">
+    <tag>cat:Nature</tag>
+  </prop>
   <prop id="cc_hay.swf" name="Hay" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9618" money="" sharing="">
     <colorset enable="Y" aid="9619">
       <color r="ccColorA">0xF1CC38</color>
@@ -5571,6 +5579,14 @@
 	<tag>computer</tag>
 	<tag>office</tag>
   </prop>
+  <prop id="msp_monitor2" name="Monitor" holdable="" placeable="1" wearable="" facing="left" thumb="msp_monitor2_monitor_full.swf" enable="Y" is_premium="N" aid="10543" money="" sharing="">
+    <state id="msp_monitor2_monitor_full.swf" name="default" enable="Y" default="Y"/>
+    <state id="msp_monitor2_monitor_empty.swf" name="transparent" enable="Y"/>
+	<tag>cat:Technology</tag>
+	<tag>business</tag>
+	<tag>computer</tag>
+	<tag>office</tag>
+  </prop>
   <prop id="msp_moon01" name="Moon" holdable="" placeable="1" wearable="" facing="left" thumb="msp_moon01_ncc_moon_full.swf" enable="Y" is_premium="N" aid="11043" money="" sharing="">
     <state id="msp_moon01_ncc_moon_full.swf" name="full" enable="Y" default="Y" />
     <state id="msp_moon01_ncc_moon_half.swf" name="half" enable="Y" />
@@ -6017,6 +6033,9 @@
 	<tag>vegetables</tag>
 	<tag>veggie</tag>
 	<tag>veggies</tag>
+  </prop>
+  <prop id="rabbit_pillow.swf" name="Rabbit Pillow" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="11379" money="" sharing="">
+    <tag>cat:Others</tag>
   </prop>
   <prop id="ncc_rainbow.swf" name="Rainbow" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="11379" money="" sharing="">
     <tag>cat:Nature</tag>
@@ -7065,6 +7084,9 @@
 	<tag>trash</tag>
 	<tag>waste</tag>
 	<tag>wasted</tag>
+  </prop>
+  <prop id="waste_basket.swf" name="Waste Basket" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="10748" money="" sharing="">
+    <tag>cat:Office and School</tag>
   </prop>
   <prop id="water_bottle.swf" name="Water Bottle" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="11858" money="" sharing="">
 	<tag>cat:Food and Drink</tag>
