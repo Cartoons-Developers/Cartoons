@@ -650,7 +650,7 @@
 			</action>
 			<action id="drum_06_hit_stick" name="Play Drum Set - Tapping Drumsticks" loop="Y" totalframe="32" enable="Y" is_motion="N" category="Arts and Music">
 				<selection type="facial" facial_id="head_neutral"/>
-			</action
+			</action>
 		</actionpack>
 		<actionpack id="guitar_c" name="Acoustic Guitar" money="0" sharing="0" enable="Y">
 			<action id="guitar_c_02_normal_strum" name="Play Acoustic Guitar" loop="Y" totalframe="47" enable="Y" is_motion="N" category="Arts and Music">
