@@ -905,19 +905,7 @@
 			<action id="point_at" name="Point at" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses">
 				<selection type="facial" facial_id="head_neutral"/>
 			</action>
-			<action id="prop_give" name="Give prop" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses">
-				<selection type="facial" facial_id="head_neutral"/>
-			</action>
-			<action id="prop_take" name="Take prop" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses">
-				<selection type="facial" facial_id="head_neutral"/>
-			</action>
-			<action id="prop_drop" name="Drop prop" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses">
-				<selection type="facial" facial_id="head_neutral"/>
-			</action>
-			<action id="prop_pick" name="Pick up prop" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses">
-				<selection type="facial" facial_id="head_neutral"/>
-			</action>
-			<action id="prop_inspect" name="Inspect prop" loop="Y" totalframe="50" enable="Y" is_motion="N" category="Poses">
+			<action id="prop_inspect" name="Presenting" loop="Y" totalframe="50" enable="Y" is_motion="N" category="Poses">
 				<selection type="facial" facial_id="head_neutral"/>
 			</action>
 			<action id="phone_talk" name="Talk on the phone" loop="Y" totalframe="50" enable="Y" is_motion="N" category="Mobile Devices">
