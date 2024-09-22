@@ -809,13 +809,13 @@
 			<action id="subtle_hush" name="Be Quiet" loop="Y" totalframe="1" enable="Y" is_motion="N" category="Poses">
 				<selection type="facial" facial_id="head_neutral"/>
 			</action>
-			<action id="subtle_point_01" name="Point at" loop="Y" totalframe="30" enable="Y" is_motion="N" category="Poses">
+			<action id="subtle_point_01" name="Presenting - Point at" loop="Y" totalframe="30" enable="Y" is_motion="N" category="Poses">
 				<selection type="facial" facial_id="head_neutral"/>
 			</action>
-			<action id="subtle_point_02" name="Point at" loop="Y" totalframe="30" enable="Y" is_motion="N" category="Poses">
+			<action id="subtle_point_02" name="Presenting - Point at" loop="Y" totalframe="30" enable="Y" is_motion="N" category="Poses">
 				<selection type="facial" facial_id="head_neutral"/>
 			</action>
-			<action id="subtle_point_03" name="Point at" loop="Y" totalframe="30" enable="Y" is_motion="N" category="Poses">
+			<action id="subtle_point_03" name="Presenting - Point at" loop="Y" totalframe="30" enable="Y" is_motion="N" category="Poses">
 				<selection type="facial" facial_id="head_neutral"/>
 			</action>
 			<action id="subtle_say_what" name="Listen" loop="Y" totalframe="1" enable="Y" is_motion="N" category="Management">
@@ -902,7 +902,7 @@
 			<action id="laugh" name="Laugh" loop="Y" totalframe="50" enable="Y" is_motion="N" category="Emotions">
 				<selection type="facial" facial_id="head_laugh"/>
 			</action>
-			<action id="point_at" name="Point at" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses">
+			<action id="point_at" name="Presenting - Point at" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses">
 				<selection type="facial" facial_id="head_neutral"/>
 			</action>
 			<action id="prop_inspect" name="Presenting" loop="Y" totalframe="50" enable="Y" is_motion="N" category="Poses">
