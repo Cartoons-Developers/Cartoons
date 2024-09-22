@@ -890,7 +890,7 @@
 			<action id="confused" name="Confused" loop="Y" totalframe="50" enable="Y" is_motion="N" category="Emotions">
 				<selection type="facial" facial_id="head_confused"/>
 			</action>
-			<action id="sad" name="Sad" loop="Y" totalframe="50" enable="Y" is_motion="N" category="Emotions">
+			<action id="sad" name="Depressed" loop="Y" totalframe="50" enable="Y" is_motion="N" category="Emotions">
 				<selection type="facial" facial_id="head_sad"/>
 			</action>
 			<action id="sick" name="Sick" loop="Y" totalframe="1" enable="Y" is_motion="N" category="Emotions">
