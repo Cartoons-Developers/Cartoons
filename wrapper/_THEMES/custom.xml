@@ -3405,7 +3405,7 @@
     <tag>cat:Buildings and Structures</tag>
 	<tag>building</tag>
   </prop>
-  <prop id="ncc_03apple.swf" name="Apple" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="11858" money="" sharing="">
+  <prop id="ncc_03apple.swf" name="Apple" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="11858" money="" sharing="" handstyle="flat">
     <tag>cat:Food and Drink</tag>
 	<tag>apple</tag>
     <tag>food</tag>
@@ -3539,7 +3539,7 @@
     <tag>cat:Others</tag>
 	<tag>basket</tag>
   </prop>
-  <prop id="cc_basketball.swf" name="Basketball" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9628" money="" sharing="">
+  <prop id="cc_basketball.swf" name="Basketball" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9628" money="" sharing="" handstyle="flat">
     <colorset enable="Y" aid="9629">
       <color r="ccColorA">0xFA722F</color>
     </colorset>
@@ -3624,7 +3624,7 @@
 	<tag>glass</tag>
 	<tag>glasses</tag>
   </prop>
-  <prop id="beer_bottle.swf" name="Beer Bottle" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9033" money="" sharing="">
+  <prop id="beer_bottle.swf" name="Beer Bottle" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9033" money="" sharing="" handstyle="flat">
     <tag>cat:Food and Drink</tag>
 	<tag>alcohol</tag>
     <tag>bar</tag>
@@ -3658,7 +3658,7 @@
     <tag>pool</tag>
     <tag>pub</tag>
   </prop>
-  <prop id="cc_binoculars.swf" name="Binoculars" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9555" money="" sharing="">
+  <prop id="cc_binoculars.swf" name="Binoculars" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9555" money="" sharing="" handstyle="flat">
     <colorset enable="Y" aid="9556">
       <color r="ccColorA">0x676863</color>
     </colorset>
@@ -3673,7 +3673,7 @@
     <tag>observe</tag>
     <tag>search</tag>
   </prop>
-  <prop id="cc_cake.swf" name="Birthday Cake" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9008" money="" sharing="">
+  <prop id="cc_cake.swf" name="Birthday Cake" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9008" money="" sharing="">
     <tag>cat:Food and Drink</tag>
 	<tag>bake</tag>
 	<tag>baked</tag>
@@ -3815,7 +3815,7 @@
 	<tag>glass</tag>
 	<tag>glasses</tag>
   </prop>
-  <prop id="whiskey_bottle.swf" name="Bottle" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="10636" money="" sharing="">
+  <prop id="whiskey_bottle.swf" name="Bottle" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="10636" money="" sharing="" handstyle="flat">
     <tag>cat:Food and Drink</tag>
 	<tag>alcohol</tag>
 	<tag>bar</tag>
@@ -3828,7 +3828,7 @@
 	<tag>whiskey</tag>
 	<tag>whisky</tag>
   </prop>
-  <prop id="cc_rose.swf" name="Bouquet" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9024" money="" sharing="">
+  <prop id="cc_rose.swf" name="Bouquet" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9024" money="" sharing="" handstyle="stick">
     <tag>cat:Nature</tag>
 	<tag>bouquet</tag>
     <tag>flower</tag>
@@ -3863,7 +3863,7 @@
   <prop id="sleigh_bell.swf" name="Brass Bell" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9007" money="" sharing="">
     <tag>cat:Decorations</tag>
   </prop>
-  <prop id="cc_briefcase.swf" name="Briefcase" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9007" money="" sharing="">
+  <prop id="cc_briefcase.swf" name="Briefcase" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9007" money="" sharing="" handstyle="stick">
     <tag>cat:Office and School</tag>
 	<tag>business</tag>
 	<tag>briefcase</tag>
@@ -3921,7 +3921,7 @@
     <tag>sleeping</tag>
     <tag>sleepy</tag>
   </prop>
-  <prop id="ncc_03hamburger.swf" name="Burger" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="11858" money="" sharing="">
+  <prop id="ncc_03hamburger.swf" name="Burger" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="11858" money="" sharing="" handstyle="flat">
     <tag>cat:Food and Drink</tag>
 	<tag>bun</tag>
 	<tag>burger</tag>
@@ -3929,7 +3929,7 @@
 	<tag>food</tag>
 	<tag>meat</tag>
   </prop>
-  <prop id="ncc_03chickenroll.swf" name="Burrito" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="11858" money="" sharing="">
+  <prop id="ncc_03chickenroll.swf" name="Burrito" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="11858" money="" sharing="" handstyle="flat">
     <tag>cat:Food and Drink</tag>
 	<tag>burrito</tag>
 	<tag>food</tag>
@@ -4017,17 +4017,17 @@
 	<tag>day</tag>
 	<tag>office</tag>
   </prop>
-  <prop id="cc_camera.swf" name="Camera" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9009" money="" sharing="">
+  <prop id="cc_camera.swf" name="Camera" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9009" money="" sharing="" handstyle="flat">
     <tag>cat:Technology</tag>
 	<tag>camera</tag>
 	<tag>photography</tag>
   </prop>
-  <prop id="cc_camera_with_flash.swf" name="Camera" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9010" money="" sharing="">
+  <prop id="cc_camera_with_flash.swf" name="Camera" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9010" money="" sharing="" handstyle="flat">
     <tag>cat:Technology</tag>
 	<tag>camera</tag>
 	<tag>photography</tag>
   </prop>
-  <prop id="cc_walking_stick.swf" name="Cane" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9032" money="" sharing="">
+  <prop id="cc_walking_stick.swf" name="Cane" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9032" money="" sharing="" handstyle="stick">
     <tag>cat:Others</tag>
 	<tag>cane</tag>
 	<tag>senior</tag>
@@ -4294,7 +4294,7 @@
   <prop id="chips.swf" name="Chips" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="11858" money="" sharing="">
     <tag>cat:Food and Drink</tag>
   </prop>
-  <prop id="ncc_03chocolate.swf" name="Chocolate Bar" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="11858" money="" sharing="">
+  <prop id="ncc_03chocolate.swf" name="Chocolate Bar" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="11858" money="" sharing="" handstyle="flat">
     <tag>cat:Food and Drink</tag>
 	<tag>bar</tag>
 	<tag>bars</tag>
@@ -4375,7 +4375,7 @@
 	<tag>glass</tag>
 	<tag>glasses</tag>
   </prop>
-  <prop id="coffee.swf" name="Coffee" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="8948" money="" sharing="">
+  <prop id="coffee.swf" name="Coffee" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="8948" money="" sharing="" handstyle="flat">
 	<tag>cat:Food and Drink</tag>
 	<tag>beverage</tag>
 	<tag>coffee</tag>
@@ -4413,7 +4413,7 @@
 	<tag>tomb</tag>
 	<tag>tombstone</tag>
   </prop>
-  <prop id="coin_gold.swf" name="Coin" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="12248" money="" sharing="">
+  <prop id="coin_gold.swf" name="Coin" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="12248" money="" sharing="" handstyle="flat">
     <tag>cat:Money and Finance</tag>
 	<tag>affluence</tag>
 	<tag>bank</tag>
@@ -4425,7 +4425,7 @@
     <tag>gold</tag>
     <tag>money</tag>
   </prop>
-  <prop id="coin_silver.swf" name="Coin" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="12248" money="" sharing="">
+  <prop id="coin_silver.swf" name="Coin" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="12248" money="" sharing="" handstyle="flat">
     <tag>cat:Money and Finance</tag>
 	<tag>affluence</tag>
 	<tag>bank</tag>
@@ -4437,7 +4437,7 @@
     <tag>money</tag>
     <tag>silver</tag>
   </prop>
-  <prop id="coin_bronze.swf" name="Coin" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="12248" money="" sharing="">
+  <prop id="coin_bronze.swf" name="Coin" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="12248" money="" sharing="" handstyle="flat">
     <tag>cat:Money and Finance</tag>
 	<tag>affluence</tag>
 	<tag>bank</tag>
@@ -4448,7 +4448,7 @@
 	<tag>currency</tag>
     <tag>money</tag>
   </prop>
-  <prop id="cola_bottle.swf" name="Cola Bottle" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="11858" money="" sharing="">
+  <prop id="cola_bottle.swf" name="Cola Bottle" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="11858" money="" sharing="" handstyle="flat">
 	<tag>cat:Food and Drink</tag>
 	<tag>beverage</tag>
 	<tag>bottle</tag>
@@ -4556,7 +4556,7 @@
 	<tag>kitchen</tag>
 	<tag>mug</tag>
   </prop>
-  <prop id="cupcake.swf" name="Cupcake" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="11363" money="" sharing="">
+  <prop id="cupcake.swf" name="Cupcake" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="11363" money="" sharing="" handstyle="flat">
     <tag>cat:Food and Drink</tag>
 	<tag>bake</tag>
 	<tag>baked</tag>
@@ -4647,7 +4647,7 @@
 	<tag>healthcare</tag>
 	<tag>medical</tag>
   </prop>
-  <prop id="cc_diamond_ring.swf" name="Diamond Ring" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9013" money="" sharing="">
+  <prop id="cc_diamond_ring.swf" name="Diamond Ring" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9013" money="" sharing="" handstyle="flat">
     <tag>cat:Retail</tag>
 	<tag>diamond</tag>
 	<tag>ring</tag>
@@ -4707,7 +4707,7 @@
     <tag>cat:Buildings and Structures</tag>
 	<tag>door</tag>
   </prop>
-  <prop id="ncc_03donut.swf" name="Donut" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="11858" money="" sharing="">
+  <prop id="ncc_03donut.swf" name="Donut" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="11858" money="" sharing="" handstyle="flat">
     <tag>cat:Food and Drink</tag>
 	<tag>bake</tag>
 	<tag>baked</tag>
@@ -4819,7 +4819,7 @@
   <prop id="falling_snow.swf" name="Falling Snow" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9027" money="" sharing="">
     <tag>cat:Nature</tag>
   </prop>
-  <prop id="cc_secretfolder.swf" name="File" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9027" money="" sharing="">
+  <prop id="cc_secretfolder.swf" name="File" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9027" money="" sharing="" handstyle="flat">
     <tag>cat:Office and School</tag>
 	<tag>classified</tag>
 	<tag>file</tag>
@@ -4834,7 +4834,7 @@
     <tag>burnt</tag>
     <tag>nature</tag>
   </prop>
-  <prop id="torch.swf" name="Fire Torch" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9027" money="" sharing="">
+  <prop id="torch.swf" name="Fire Torch" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9027" money="" sharing="" handstyle="stick">
     <tag>cat:Others</tag>
   </prop>
   <prop id="fireplace.swf" name="Fireplace" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9027" money="" sharing="">
@@ -4847,7 +4847,7 @@
     <tag>sport</tag>
     <tag>sports</tag>
   </prop>
-  <prop id="kitchen_fork.swf" name="Fork" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9022" money="" sharing="">
+  <prop id="kitchen_fork.swf" name="Fork" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9022" money="" sharing="" handstyle="stick">
 	<tag>cat:Kitchen</tag>
 	<tag>chew</tag>
 	<tag>chewing</tag>
@@ -4887,7 +4887,7 @@
   <prop id="frozen_pizza.swf" name="Frozen Pizza" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="11858" money="" sharing="">
     <tag>cat:Food and Drink</tag>
   </prop>
-  <prop id="ncc_03fries.swf" name="Fries" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="11858" money="" sharing="">
+  <prop id="ncc_03fries.swf" name="Fries" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="11858" money="" sharing="" handstyle="flat">
     <tag>cat:Food and Drink</tag>
 	<tag>food</tag>
 	<tag>french</tag>
@@ -4906,7 +4906,7 @@
 	<tag>waste</tag>
 	<tag>wasted</tag>
   </prop>
-  <prop id="garlic.swf" name="Garlic" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9041" money="" sharing="">
+  <prop id="garlic.swf" name="Garlic" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9041" money="" sharing="" handstyle="flat">
     <tag>cat:Food and Drink</tag>
 	<tag>food</tag>
 	<tag>veg</tag>
@@ -5055,7 +5055,7 @@
 	<tag>rock</tag>
 	<tag>rocking</tag>
   </prop>
-  <prop id="cc_hammer.swf" name="Hammer" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9016" money="" sharing="">
+  <prop id="cc_hammer.swf" name="Hammer" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9016" money="" sharing="" handstyle="stick">
     <tag>cat:Industrial and Hardware</tag>
 	<tag>tool</tag>
 	<tag>tools</tag>
@@ -5090,7 +5090,7 @@
     <tag>organ</tag>
     <tag>organs</tag>
   </prop>
-  <prop id="highlighter.swf" name="Highlighter" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9797" money="" sharing="">
+  <prop id="highlighter.swf" name="Highlighter" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9797" money="" sharing="" handstyle="stick">
     <tag>cat:Office and School</tag>
   </prop>
   <prop id="horse.swf" name="Horse" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="8966" money="" sharing="" >
@@ -5109,7 +5109,7 @@
     <tag>healthcare</tag>
 	<tag>medical</tag>
   </prop>
-  <prop id="ncc_03hotdog.swf" name="Hot Dog" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="11858" money="" sharing="">
+  <prop id="ncc_03hotdog.swf" name="Hot Dog" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="11858" money="" sharing="" handstyle="flat">
     <tag>cat:Food and Drink</tag>
 	<tag>food</tag>
 	<tag>meat</tag>
@@ -5149,7 +5149,7 @@
     <tag>buildings</tag>
     <tag>house</tag>
   </prop>
-  <prop id="ncc_03icecream02.swf" name="Ice Cream" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="11858" money="" sharing="">
+  <prop id="ncc_03icecream02.swf" name="Ice Cream" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="11858" money="" sharing="" handstyle="flat">
 	<tag>cat:Food and Drink</tag>
 	<tag>candies</tag>
 	<tag>candy</tag>
@@ -5312,7 +5312,7 @@
 	<tag>kitchen</tag>
 	<tag>kitchenware</tag>
   </prop>
-  <prop id="kitchen_knife.swf" name="Knife" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9022" money="" sharing="">
+  <prop id="kitchen_knife.swf" name="Knife" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9022" money="" sharing="" handstyle="stick">
 	<tag>cat:Kitchen</tag>
 	<tag>blade</tag>
 	<tag>blades</tag>
@@ -5346,7 +5346,7 @@
 	<tag>kitchen</tag>
 	<tag>kitchenware</tag>
   </prop>
-  <prop id="cc_wool_ball.swf" name="Knitting - Yarn Ball" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9034" money="" sharing="">
+  <prop id="cc_wool_ball.swf" name="Knitting - Yarn Ball" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9034" money="" sharing="" handstyle="flat">
     <tag>cat:Others</tag>
 	<tag>ball</tag>
 	<tag>balls</tag>
@@ -5429,7 +5429,7 @@
     <tag>organ</tag>
     <tag>organs</tag>
   </prop>
-  <prop id="magic_wand.swf" name="Magic Wand" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9797" money="" sharing="">
+  <prop id="magic_wand.swf" name="Magic Wand" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9797" money="" sharing="" handstyle="stick">
     <tag>cat:Others</tag>
 	<tag>magic</tag>
 	<tag>magician</tag>
@@ -5490,7 +5490,7 @@
     <tag>schooling</tag>
 	<tag>space</tag>
   </prop>
-  <prop id="cc_microphone.swf" name="Microphone" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9019" money="" sharing="">
+  <prop id="cc_microphone.swf" name="Microphone" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9019" money="" sharing="" handstyle="stick">
     <tag>cat:Technology</tag>
 	<tag>band</tag>
 	<tag>microphone</tag>
@@ -5516,7 +5516,7 @@
 	<tag>cooktop</tag>
     <tag>kitchen</tag>
   </prop>
-  <prop id="cc_milk.swf" name="Milk" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9021" money="" sharing="">
+  <prop id="cc_milk.swf" name="Milk" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9021" money="" sharing="" handstyle="flat">
 	<tag>cat:Food and Drink</tag>
 	<tag>beverage</tag>
 	<tag>glass</tag>
@@ -5526,7 +5526,7 @@
   <prop id="milk_carton.swf" name="Milk" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="11858" money="" sharing="">
     <tag>cat:Food and Drink</tag>
   </prop>
-  <prop id="milkshake.swf" name="Milkshake" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9021" money="" sharing="">
+  <prop id="milkshake.swf" name="Milkshake" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9021" money="" sharing="" handstyle="flat">
 	<tag>cat:Food and Drink</tag>
 	<tag>beverage</tag>
 	<tag>drink</tag>
@@ -5534,7 +5534,7 @@
   <prop id="mint_leaves.swf" name="Mint Leaves" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9021" money="" sharing="">
 	<tag>cat:Food and Drink</tag>
   </prop>
-  <prop id="mint_lemonade.swf" name="Mint Lemonade" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9021" money="" sharing="">
+  <prop id="mint_lemonade.swf" name="Mint Lemonade" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9021" money="" sharing="" handstyle="flat">
 	<tag>cat:Food and Drink</tag>
 	<tag>beverage</tag>
 	<tag>drink</tag>
@@ -5558,7 +5558,7 @@
 	<tag>mistletoe</tag>
 	<tag>xmas</tag>
   </prop>
-  <prop id="money.swf" name="Money" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9797" money="" sharing="">
+  <prop id="money.swf" name="Money" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9797" money="" sharing="" handstyle="flat">
     <tag>cat:Money and Finance</tag>
 	<tag>affluence</tag>
 	<tag>bank</tag>
@@ -5609,10 +5609,10 @@
 	<tag>exploding</tag>
 	<tag>explosion</tag>
   </prop>
-  <prop id="ncc_nail_polish01.swf" name="Nail Polish" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9022" money="" sharing="">
+  <prop id="ncc_nail_polish01.swf" name="Nail Polish" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9022" money="" sharing="" handstyle="flat">
     <tag>cat:Retail</tag>
   </prop>
-  <prop id="cc_necklace.swf" name="Necklace" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9022" money="" sharing="">
+  <prop id="cc_necklace.swf" name="Necklace" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9022" money="" sharing="" handstyle="stick">
     <tag>cat:Retail</tag>
 	<tag>accessories</tag>
     <tag>accessory</tag>
@@ -5704,7 +5704,7 @@
     <tag>manufacturing</tag>
     <tag>oil</tag>
   </prop>
-  <prop id="ncc_03onionring.swf" name="Onion Rings" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="11858" money="" sharing="">
+  <prop id="ncc_03onionring.swf" name="Onion Rings" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="11858" money="" sharing="" handstyle="flat">
     <tag>cat:Food and Drink</tag>
 	<tag>food</tag>
 	<tag>fried</tag>
@@ -5713,7 +5713,7 @@
 	<tag>ring</tag>
 	<tag>rings</tag>
   </prop>
-  <prop id="ncc_03orange.swf" name="Orange" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="11858" money="" sharing="">
+  <prop id="ncc_03orange.swf" name="Orange" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="11858" money="" sharing="" handstyle="flat">
     <tag>cat:Food and Drink</tag>
 	<tag>food</tag>
     <tag>fruit</tag>
@@ -5739,7 +5739,7 @@
 	<tag>ottoman</tag>
     <tag>stool</tag>
   </prop>
-  <prop id="cc_paint_roller.swf" name="Paint Roller" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9023" money="" sharing="">
+  <prop id="cc_paint_roller.swf" name="Paint Roller" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9023" money="" sharing="" handstyle="stick">
 	<tag>cat:Industrial and Hardware</tag>
 	<tag>paint</tag>
 	<tag>painting</tag>
@@ -5779,7 +5779,7 @@
   <prop id="pear.swf" name="Pear" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9023" money="" sharing="">
     <tag>cat:Food and Drink</tag>
   </prop>
-  <prop id="pen.swf" name="Pen" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9797" money="" sharing="">
+  <prop id="pen.swf" name="Pen" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9797" money="" sharing="" handstyle="stick">
     <tag>cat:Office and School</tag>
   </prop>
   <prop id="ncc_penstand.swf" name="Pen Holder" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="Y" aid="11924" money="" sharing="">
@@ -5794,7 +5794,7 @@
 	<tag>holder</tag>
 	<tag>pen</tag>
   </prop>
-  <prop id="pencil.swf" name="Pencil" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9797" money="" sharing="">
+  <prop id="pencil.swf" name="Pencil" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9797" money="" sharing="" handstyle="stick">
     <tag>cat:Office and School</tag>
 	<tag>academy</tag>
     <tag>academic</tag>
@@ -5917,7 +5917,7 @@
 	<tag>weapon</tag>
 	<tag>weapons</tag>
   </prop>
-  <prop id="ncc_03pizza.swf" name="Pizza" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="11858" money="" sharing="">
+  <prop id="ncc_03pizza.swf" name="Pizza" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="11858" money="" sharing="" handstyle="flat">
     <tag>cat:Food and Drink</tag>
 	<tag>food</tag>
 	<tag>pizza</tag>
@@ -5969,7 +5969,7 @@
     <tag>vehicle</tag>
     <tag>vehicles</tag>
   </prop>
-  <prop id="ncc_03popcorn.swf" name="Popcorn" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="11858" money="" sharing="">
+  <prop id="ncc_03popcorn.swf" name="Popcorn" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="11858" money="" sharing="" handstyle="flat">
     <tag>cat:Food and Drink</tag>
 	<tag>food</tag>
 	<tag>popcorn</tag>
@@ -6043,7 +6043,7 @@
     <tag>arches</tag>
     <tag>nature</tag>
   </prop>
-  <prop id="razor.swf" name="Razor" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="11379" money="" sharing="">
+  <prop id="razor.swf" name="Razor" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="11379" money="" sharing="" handstyle="stick">
     <tag>cat:Others</tag>
 	<tag>beard</tag>
 	<tag>razor</tag>
@@ -6136,7 +6136,7 @@
   <prop id="ruler.swf" name="Ruler" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="Y" aid="11210" money="" sharing="" handstyle="stick">
     <tag>cat:Office and School</tag>
   </prop>
-  <prop id="sake_bottle.swf" name="Sake" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9033" money="" sharing="">
+  <prop id="sake_bottle.swf" name="Sake" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9033" money="" sharing="" handstyle="flat">
     <tag>cat:Food and Drink</tag>
 	<tag>alcohol</tag>
 	<tag>beverage</tag>
@@ -6162,7 +6162,7 @@
     <tag>schooling</tag>
 	<tag>space</tag>
   </prop>
-  <prop id="cc_saw.swf" name="Saw" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9025" money="" sharing="">
+  <prop id="cc_saw.swf" name="Saw" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9025" money="" sharing="" handstyle="stick">
     <tag>cat:Industrial and Hardware</tag>
 	<tag>carpentry</tag>
 	<tag>cut</tag>
@@ -6215,13 +6215,13 @@
 	<tag>projector</tag>
 	<tag>screen</tag>
   </prop>
-  <prop id="cc_screwdriver.swf" name="Screwdriver" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9026" money="" sharing="">
+  <prop id="cc_screwdriver.swf" name="Screwdriver" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9026" money="" sharing="" handstyle="stick">
     <tag>cat:Industrial and Hardware</tag>
 	<tag>tool</tag>
 	<tag>tools</tag>
 	<tag>screwdriver</tag>
   </prop>
-  <prop id="msp_dish02" name="Serving Platter" holdable="1" placeable="1" wearable="" facing="left" thumb="msp_dish02_cc_tray_closed.swf" enable="Y" is_premium="N" aid="9634" money="" sharing="">
+  <prop id="msp_dish02" name="Serving Platter" holdable="" placeable="1" wearable="" facing="left" thumb="msp_dish02_cc_tray_closed.swf" enable="Y" is_premium="N" aid="9634" money="" sharing="">
     <state id="msp_dish02_cc_tray_closed.swf" name="Covered" enable="Y" default="Y" />
     <state id="msp_dish02_cc_tray_open.swf" name="Uncovered" enable="Y" />
     <colorset enable="Y" aid="9637">
@@ -6477,7 +6477,7 @@
     <tag>sport</tag>
     <tag>sports</tag>
   </prop>
-  <prop id="ncc_03soda.swf" name="Soda" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="11858" money="" sharing="">
+  <prop id="ncc_03soda.swf" name="Soda" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="11858" money="" sharing="" handstyle="flat">
 	<tag>cat:Food and Drink</tag>
 	<tag>beverage</tag>
 	<tag>bottle</tag>
@@ -6487,7 +6487,7 @@
 	<tag>pop</tag>
 	<tag>soda</tag>
   </prop>
-  <prop id="coke1.swf" name="Soda Can" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="11858" money="" sharing="">
+  <prop id="coke1.swf" name="Soda Can" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="11858" money="" sharing="" handstyle="flat">
 	<tag>cat:Food and Drink</tag>
 	<tag>beverage</tag>
 	<tag>coke</tag>
@@ -6552,7 +6552,7 @@
   <prop id="canned_soup.swf" name="Soup" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="11858" money="" sharing="">
     <tag>cat:Food and Drink</tag>
   </prop>
-  <prop id="kitchen_spoon.swf" name="Spoon" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9022" money="" sharing="">
+  <prop id="kitchen_spoon.swf" name="Spoon" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9022" money="" sharing="" handstyle="stick">
     <tag>cat:Kitchen</tag>
 	<tag>chew</tag>
 	<tag>chewing</tag>
@@ -6643,7 +6643,7 @@
     <state id="msp_strawberry_strawberry_slice.swf" name="Slice" enable="Y" />
     <tag>cat:Food and Drink</tag>
   </prop>
-  <prop id="teddy_bear.swf" name="Stuffed Bear" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="8966" money="" sharing="" >
+  <prop id="teddy_bear.swf" name="Stuffed Bear" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="8966" money="" sharing="" handstyle="flat">
     <tag>cat:Retail</tag>
 	<tag>animal</tag>
     <tag>animals</tag>
@@ -6702,7 +6702,7 @@
     <tag>weapon</tag>
 	<tag>weapons</tag>
   </prop>
-  <prop id="tshirt.swf" name="T-Shirt" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="11858" money="" sharing="">
+  <prop id="tshirt.swf" name="T-Shirt" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="11858" money="" sharing="">
     <tag>cat:Retail</tag>
 	<tag>boutique</tag>
   </prop>
@@ -6744,7 +6744,7 @@
 	<tag>office</tag>
 	<tag>tablet</tag>
   </prop>
-  <prop id="ncc_03mexicoroll.swf" name="Taco" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="11858" money="" sharing="">
+  <prop id="ncc_03mexicoroll.swf" name="Taco" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="11858" money="" sharing="" handstyle="flat">
     <tag>cat:Food and Drink</tag>
 	<tag>beef</tag>
 	<tag>food</tag>
@@ -6837,7 +6837,7 @@
 	<tag>tomb</tag>
 	<tag>tombstone</tag>
   </prop>
-  <prop id="cc_tool_box.swf" name="Toolbox" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9031" money="" sharing="">
+  <prop id="cc_tool_box.swf" name="Toolbox" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9031" money="" sharing="" handstyle="stick">
 	<tag>cat:Industrial and Hardware</tag>
 	<tag>box</tag>
 	<tag>boxes</tag>
@@ -6891,7 +6891,7 @@
 	<tag>treasure</tag>
 	<tag>trunk</tag>
   </prop>
-  <prop id="ncc_03treasuremap.swf" name="Treasure Map" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="10522" money="" sharing="">
+  <prop id="ncc_03treasuremap.swf" name="Treasure Map" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="10522" money="" sharing="" handstyle="flat">
     <tag>cat:Maps</tag>
 	<tag>atlas</tag>
 	<tag>booty</tag>
@@ -7088,7 +7088,7 @@
   <prop id="waste_basket.swf" name="Waste Basket" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="10748" money="" sharing="">
     <tag>cat:Office and School</tag>
   </prop>
-  <prop id="water_bottle.swf" name="Water Bottle" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="11858" money="" sharing="">
+  <prop id="water_bottle.swf" name="Water Bottle" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="11858" money="" sharing="" handstyle="flat">
 	<tag>cat:Food and Drink</tag>
 	<tag>beverage</tag>
 	<tag>bottle</tag>
@@ -7157,7 +7157,7 @@
 	<tag>window</tag>
 	<tag>windows</tag>
   </prop>
-  <prop id="wine.swf" name="Wine" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9797" money="" sharing="">
+  <prop id="wine.swf" name="Wine" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9797" money="" sharing="" handstyle="stick">
     <tag>cat:Food and Drink</tag>
 	<tag>alcohol</tag>
 	<tag>bar</tag>
@@ -7166,7 +7166,7 @@
 	<tag>booze</tag>
     <tag>wine</tag>
   </prop>
-  <prop id="cc_wine1.swf" name="Wine Bottle" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9033" money="" sharing="">
+  <prop id="cc_wine1.swf" name="Wine Bottle" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9033" money="" sharing="" handstyle="flat">
     <tag>cat:Food and Drink</tag>
 	<tag>alcohol</tag>
 	<tag>beverage</tag>
@@ -7211,12 +7211,12 @@
   <prop id="wooden_sign.swf" name="Wooden Sign" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="10534" money="" sharing="">
     <tag>cat:Signs</tag>
   </prop>
-  <prop id="ncc_03yogurt.swf" name="Yogurt" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="11858" money="" sharing="">
+  <prop id="ncc_03yogurt.swf" name="Yogurt" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="11858" money="" sharing="" handstyle="flat">
     <tag>cat:Food and Drink</tag>
 	<tag>food</tag>
     <tag>yogurt</tag>
   </prop>
-  <prop id="ncc_03yogurt02.swf" name="Yogurt" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="11858" money="" sharing="">
+  <prop id="ncc_03yogurt02.swf" name="Yogurt" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="11858" money="" sharing="" handstyle="flat">
     <tag>cat:Food and Drink</tag>
 	<tag>food</tag>
     <tag>fruit</tag>
