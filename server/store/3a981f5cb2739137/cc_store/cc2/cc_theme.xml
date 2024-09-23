@@ -863,10 +863,10 @@
 		</actionpack>
 
 		<actionpack id="standard" name="Standard" money="0" sharing="0" enable="Y">
-			<action id="stand" name="Standing" loop="Y" totalframe="1" enable="Y" is_motion="N" category="Poses">
+			<action id="stand" name="Stand" loop="Y" totalframe="1" enable="Y" is_motion="N" category="Poses">
 				<selection type="facial" facial_id="head_neutral"/>
 			</action>
-			<action id="sit" name="Sitting" loop="Y" totalframe="1" enable="Y" is_motion="N" category="Poses">
+			<action id="sit" name="Sit" loop="Y" totalframe="1" enable="Y" is_motion="N" category="Poses">
 				<selection type="facial" facial_id="head_neutral"/>
 			</action>
 			<action id="lie_down" name="Lie down" loop="Y" totalframe="1" enable="Y" is_motion="N" category="Poses">
