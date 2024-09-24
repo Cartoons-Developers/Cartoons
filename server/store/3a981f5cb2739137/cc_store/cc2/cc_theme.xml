@@ -682,7 +682,7 @@
 				<selection type="facial" facial_id="head_inlove"/>
 			</action>
 			<action id="ro_gethit01" name="Slapped" loop="Y" totalframe="50" enable="Y" is_motion="N" category="Daily Life">
-				<selection type="facial" facial_id="head_gethit"/>
+				<selection type="facial" facial_id="head_sad"/>
 			</action>
 			<action id="ro_hug01" name="Hug" loop="Y" totalframe="1" enable="Y" is_motion="N" category="Daily Life">
 				<selection type="facial" facial_id="head_dream"/>
