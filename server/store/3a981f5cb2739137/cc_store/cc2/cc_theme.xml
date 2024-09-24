@@ -672,10 +672,10 @@
 
 
 		<actionpack id="romanticguy" name="Romantic Guy" money="0" sharing="0" enable="Y">
-			<action id="ro_beg01" name="Propose" loop="Y" totalframe="24" enable="Y" is_motion="N" category="Emotions">
+			<action id="ro_beg01" name="Propose" loop="Y" totalframe="24" enable="Y" is_motion="N" category="Daily Life">
 				<selection type="facial" facial_id="head_happy"/>
 			</action>
-			<action id="ro_beg01_still" name="Propose" loop="Y" totalframe="1" enable="Y" is_motion="N" category="Emotions">
+			<action id="ro_beg01_still" name="Propose" loop="Y" totalframe="1" enable="Y" is_motion="N" category="Daily Life">
 				<selection type="facial" facial_id="head_happy"/>
 			</action>
 			<action id="ro_first_love" name="In Love" loop="Y" totalframe="50" enable="Y" is_motion="N" category="Daily Life">
@@ -936,7 +936,7 @@
 				<selection type="facial" facial_id="head_neutral"/>
 			</action>
 			<action id="zombie_scare" name="Scare Others" loop="Y" totalframe="28" enable="Y" is_motion="N" category="Daily Life">
-				<selection type="facial" facial_id="head_evil"/>
+				<selection type="facial" facial_id="head_scheming"/>
 			</action>
 		</actionpack>
 
