@@ -743,9 +743,6 @@
 			<action id="rof_kiss05b" name="Blow kiss" loop="Y" totalframe="50" enable="Y" is_motion="N" category="Daily Life">
 				<selection type="facial" facial_id="head_dream"/>
 			</action>
-			<action id="rof_run_cry" name="Run - Crying" loop="Y" totalframe="16" enable="Y" is_motion="Y" category="Emotions">
-				<selection type="facial" facial_id="head_cry"/>
-			</action>
 			<action id="rof_shy01" name="Shy" loop="Y" totalframe="40" enable="Y" is_motion="N" category="Emotions">
 				<selection type="facial" facial_id="head_shy"/>
 			</action>
