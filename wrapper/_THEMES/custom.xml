@@ -7037,6 +7037,11 @@
 	<tag>space</tag>
 	<tag>venus</tag>
   </prop>
+  <prop id="msp_volcano" name="Volcano" holdable="" placeable="1" wearable="" facing="left" thumb="msp_volcano_volcano_still.swf" enable="Y" is_premium="N" aid="12143" money="" sharing="">
+    <state id="msp_volcano_volcano_still.swf" name="Still" enable="Y" default="Y" />
+    <state id="msp_volcano_volcano_explode.swf" name="Erupting" enable="Y" />
+	<tag>cat:Nature</tag>
+  </prop>
   <prop id="msp_ncc_vision" name="Vision Chart" holdable="" placeable="1" wearable="" facing="left" thumb="msp_ncc_vision_ncc_vision_chart01.swf" enable="Y" is_premium="N" aid="11310" money="" sharing="">
     <state id="msp_ncc_vision_ncc_vision_chart01.swf" name="clear" enable="Y" default="Y" />
     <state id="msp_ncc_vision_ncc_vision_chart02.swf" name="blurred" enable="Y" />
