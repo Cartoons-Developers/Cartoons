@@ -1,5 +1,760 @@
 <?xml version="1.0" encoding="utf-8"?>
 <theme id="common" name="Common">
+  <prop id="ncc_03apple.swf" name="Apple" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="N" is_premium="N" aid="11858" money="" sharing="" handstyle="flat">
+    <tag>cat:Food and Drink</tag>
+	<tag>apple</tag>
+    <tag>food</tag>
+    <tag>fruit</tag>
+    <tag>fruits</tag>
+  </prop>
+  <prop id="ncc_02baton01.swf" name="Baton" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="N" is_premium="N" aid="11048" money="" sharing="" handstyle="stick">
+    <tag>cat:Others</tag>
+    <tag>baton</tag>
+	<tag>cop</tag>
+	<tag>cops</tag>
+    <tag>hero</tag>
+    <tag>heroes</tag>
+    <tag>heroic</tag>
+    <tag>patrol</tag>
+    <tag>police</tag>
+    <tag>weapon</tag>
+	<tag>weapons</tag>
+  </prop>
+  <prop id="cc_basketball.swf" name="Basketball" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="N" is_premium="N" aid="9628" money="" sharing="" handstyle="flat">
+    <colorset enable="N" aid="9629">
+      <color r="ccColorA">0xFA722F</color>
+    </colorset>
+    <c_parts enable="N">
+      <c_area oc="">ccColorA</c_area>
+    </c_parts>
+    <tag>cat:Sports and Fitness</tag>
+    <tag>backboard</tag>
+    <tag>ball</tag>
+	<tag>balls</tag>
+    <tag>basketball</tag>
+    <tag>sport</tag>
+    <tag>sports</tag>
+  </prop>
+  <prop id="msp_ncc_02cup" name="Beer" holdable="1" placeable="1" wearable="" facing="left" thumb="msp_ncc_02cup_ncc_02cup01.swf" enable="N" is_premium="Y" aid="12249" money="" sharing="" handstyle="stick">
+    <state id="msp_ncc_02cup_ncc_02cup01.swf" name="full" enable="N" default="Y" />
+    <state id="msp_ncc_02cup_ncc_02cup02.swf" name="empty" enable="N" />
+    <tag>cat:Food and Drink</tag>
+	<tag>alcohol</tag>
+    <tag>bar</tag>
+	<tag>bars</tag>
+	<tag>beer</tag>
+	<tag>beverage</tag>
+	<tag>booze</tag>
+	<tag>cup</tag>
+    <tag>drink</tag>
+	<tag>glass</tag>
+	<tag>glasses</tag>
+  </prop>
+  <prop id="beer_bottle.swf" name="Beer Bottle" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="N" is_premium="N" aid="9033" money="" sharing="" handstyle="flat">
+    <tag>cat:Food and Drink</tag>
+	<tag>alcohol</tag>
+    <tag>bar</tag>
+	<tag>bars</tag>
+	<tag>beer</tag>
+	<tag>beverage</tag>
+	<tag>booze</tag>
+	<tag>bottle</tag>
+	<tag>bottles</tag>
+  </prop>
+  <prop id="cc_binoculars.swf" name="Binoculars" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="N" is_premium="N" aid="9555" money="" sharing="" handstyle="flat">
+    <colorset enable="N" aid="9556">
+      <color r="ccColorA">0x676863</color>
+    </colorset>
+    <c_parts enable="N">
+      <c_area oc="">ccColorA</c_area>
+    </c_parts>
+    <tag>cat:Travel and Tourism</tag>
+	<tag>adventure</tag>
+	<tag>adventures</tag>
+    <tag>binoculars</tag>
+    <tag>observation</tag>
+    <tag>observe</tag>
+    <tag>search</tag>
+  </prop>
+  <prop id="cc_cake.swf" name="Birthday Cake" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="N" is_premium="N" aid="9008" money="" sharing="">
+    <tag>cat:Food and Drink</tag>
+	<tag>bake</tag>
+	<tag>baked</tag>
+	<tag>baker</tag>
+	<tag>bakery</tag>
+	<tag>baking</tag>
+	<tag>birthday</tag>
+	<tag>cake</tag>
+	<tag>candies</tag>
+	<tag>candy</tag>
+    <tag>food</tag>
+  </prop>
+  <prop id="bottle.swf" name="Bottle" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9033" money="" sharing="">
+    <tag>cat:Food and Drink</tag>
+	<tag>bottle</tag>
+	<tag>bottles</tag>
+	<tag>glass</tag>
+	<tag>glasses</tag>
+  </prop>
+  <prop id="whiskey_bottle.swf" name="Bottle" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="N" is_premium="N" aid="10636" money="" sharing="" handstyle="flat">
+    <tag>cat:Food and Drink</tag>
+	<tag>alcohol</tag>
+	<tag>bar</tag>
+	<tag>bars</tag>
+	<tag>beverage</tag>
+	<tag>booze</tag>
+	<tag>bourbon</tag>
+    <tag>drink</tag>
+	<tag>rye</tag>
+	<tag>whiskey</tag>
+	<tag>whisky</tag>
+  </prop>
+  <prop id="cc_rose.swf" name="Bouquet" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="N" is_premium="N" aid="9024" money="" sharing="" handstyle="stick">
+    <tag>cat:Nature</tag>
+	<tag>bouquet</tag>
+    <tag>flower</tag>
+    <tag>flowers</tag>
+    <tag>nature</tag>
+	<tag>plant</tag>
+  </prop>
+  <prop id="cc_briefcase.swf" name="Briefcase" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="N" is_premium="N" aid="9007" money="" sharing="" handstyle="stick">
+    <tag>cat:Office and School</tag>
+	<tag>business</tag>
+	<tag>briefcase</tag>
+	<tag>office</tag>
+	<tag>suitcase</tag>
+  </prop>
+  <prop id="ncc_03hamburger.swf" name="Burger" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="N" is_premium="N" aid="11858" money="" sharing="" handstyle="flat">
+    <tag>cat:Food and Drink</tag>
+	<tag>bun</tag>
+	<tag>burger</tag>
+	<tag>cheeseburger</tag>
+	<tag>food</tag>
+	<tag>meat</tag>
+  </prop>
+  <prop id="ncc_03chickenroll.swf" name="Burrito" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="N" is_premium="N" aid="11858" money="" sharing="" handstyle="flat">
+    <tag>cat:Food and Drink</tag>
+	<tag>burrito</tag>
+	<tag>food</tag>
+  </prop>
+  <prop id="cc_camera.swf" name="Camera" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="N" is_premium="N" aid="9009" money="" sharing="" handstyle="flat">
+    <tag>cat:Technology</tag>
+	<tag>camera</tag>
+	<tag>photography</tag>
+  </prop>
+  <prop id="cc_camera_with_flash.swf" name="Camera" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="N" is_premium="N" aid="9010" money="" sharing="" handstyle="flat">
+    <tag>cat:Technology</tag>
+	<tag>camera</tag>
+	<tag>photography</tag>
+  </prop>
+  <prop id="cc_walking_stick.swf" name="Cane" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="N" is_premium="N" aid="9032" money="" sharing="" handstyle="stick">
+    <tag>cat:Others</tag>
+	<tag>cane</tag>
+	<tag>senior</tag>
+	<tag>stick</tag>
+  </prop>
+  <prop id="ncc_02carrot.swf" name="Carrot" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="N" is_premium="N" aid="12108" money="" sharing="" handstyle="stick">
+    <tag>cat:Food and Drink</tag>
+	<tag>carrot</tag>
+	<tag>carrots</tag>
+	<tag>food</tag>
+	<tag>veg</tag>
+	<tag>vege</tag>
+	<tag>vegetable</tag>
+	<tag>vegetables</tag>
+	<tag>veggie</tag>
+	<tag>veggies</tag>
+  </prop>
+  <prop id="candy_cane.swf" name="Candy Cane" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="N" is_premium="N" aid="12108" money="" sharing="" handstyle="stick">
+    <tag>cat:Food and Drink</tag>
+  </prop>
+  <prop id="ncc_03chocolate.swf" name="Chocolate Bar" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="N" is_premium="N" aid="11858" money="" sharing="" handstyle="flat">
+    <tag>cat:Food and Drink</tag>
+	<tag>bar</tag>
+	<tag>bars</tag>
+	<tag>black</tag>
+	<tag>candies</tag>
+	<tag>candy</tag>
+	<tag>chocolate</tag>
+	<tag>food</tag>
+  </prop>
+  <prop id="coffee.swf" name="Coffee" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="N" is_premium="N" aid="8948" money="" sharing="" handstyle="flat">
+	<tag>cat:Food and Drink</tag>
+	<tag>beverage</tag>
+	<tag>coffee</tag>
+	<tag>drink</tag>
+  </prop>
+  <prop id="office_pentry_coffee.swf" name="Coffee" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="N" is_premium="N" aid="8948" money="" sharing="">
+	<tag>cat:Food and Drink</tag>
+	<tag>beverage</tag>
+	<tag>coffee</tag>
+	<tag>drink</tag>
+  </prop>
+  <prop id="coin_gold.swf" name="Coin" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="N" is_premium="N" aid="12248" money="" sharing="" handstyle="flat">
+    <tag>cat:Money and Finance</tag>
+	<tag>affluence</tag>
+	<tag>bank</tag>
+	<tag>banking</tag>
+	<tag>coin</tag>
+	<tag>coins</tag>
+	<tag>currencies</tag>
+	<tag>currency</tag>
+    <tag>gold</tag>
+    <tag>money</tag>
+  </prop>
+  <prop id="coin_silver.swf" name="Coin" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="N" is_premium="N" aid="12248" money="" sharing="" handstyle="flat">
+    <tag>cat:Money and Finance</tag>
+	<tag>affluence</tag>
+	<tag>bank</tag>
+	<tag>banking</tag>
+	<tag>coin</tag>
+	<tag>coins</tag>
+	<tag>currencies</tag>
+	<tag>currency</tag>
+    <tag>money</tag>
+    <tag>silver</tag>
+  </prop>
+  <prop id="coin_bronze.swf" name="Coin" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="N" is_premium="N" aid="12248" money="" sharing="" handstyle="flat">
+    <tag>cat:Money and Finance</tag>
+	<tag>affluence</tag>
+	<tag>bank</tag>
+	<tag>banking</tag>
+	<tag>coin</tag>
+	<tag>coins</tag>
+	<tag>currencies</tag>
+	<tag>currency</tag>
+    <tag>money</tag>
+  </prop>
+  <prop id="cola_bottle.swf" name="Cola Bottle" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="N" is_premium="N" aid="11858" money="" sharing="" handstyle="flat">
+	<tag>cat:Food and Drink</tag>
+	<tag>beverage</tag>
+	<tag>bottle</tag>
+	<tag>bottles</tag>
+	<tag>coke</tag>
+	<tag>drink</tag>
+	<tag>pop</tag>
+	<tag>soda</tag>
+  </prop>
+  <prop id="cup01.swf" name="Cup" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="N" is_premium="N" aid="11250" money="" sharing="" handstyle="flat">
+	<tag>cat:Kitchen</tag>
+	<tag>cup</tag>
+	<tag>kitchen</tag>
+	<tag>mug</tag>
+  </prop>
+  <prop id="cupcake.swf" name="Cupcake" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="N" is_premium="N" aid="11363" money="" sharing="" handstyle="flat">
+    <tag>cat:Food and Drink</tag>
+	<tag>bake</tag>
+	<tag>baked</tag>
+	<tag>baker</tag>
+	<tag>bakery</tag>
+	<tag>baking</tag>
+	<tag>cake</tag>
+	<tag>candies</tag>
+	<tag>candy</tag>
+	<tag>cream</tag>
+	<tag>cup</tag>
+	<tag>cupcake</tag>
+	<tag>dessert</tag>
+	<tag>food</tag>
+	<tag>mug</tag>
+  </prop>
+  <prop id="cc_diamond_ring.swf" name="Diamond Ring" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="N" is_premium="N" aid="9013" money="" sharing="" handstyle="flat">
+    <tag>cat:Retail</tag>
+	<tag>diamond</tag>
+	<tag>ring</tag>
+	<tag>rings</tag>
+	<tag>wedding</tag>
+  </prop>
+  <prop id="ncc_03donut.swf" name="Donut" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="N" is_premium="N" aid="11858" money="" sharing="" handstyle="flat">
+    <tag>cat:Food and Drink</tag>
+	<tag>bake</tag>
+	<tag>baked</tag>
+	<tag>baker</tag>
+	<tag>bakery</tag>
+	<tag>baking</tag>
+	<tag>candies</tag>
+	<tag>candy</tag>
+	<tag>dessert</tag>
+	<tag>donut</tag>
+	<tag>doughnut</tag>
+	<tag>food</tag>
+  </prop>
+  <prop id="electric_drill.swf" name="Drill" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="N" is_premium="N" aid="3333" money="" sharing="" handstyle="stick">
+    <tag>cat:Industrial and Hardware</tag>
+	<tag>tool</tag>
+	<tag>tools</tag>
+  </prop>
+  <prop id="ncc_03drinks.swf" name="Drink" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="N" is_premium="N" aid="10924" money="" sharing="" handstyle="flat">
+	<tag>cat:Food and Drink</tag>
+	<tag>beverage</tag>
+	<tag>cup</tag>
+	<tag>drink</tag>
+	<tag>soda</tag>
+  </prop>
+  <prop id="egg_small.swf" name="Egg" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="N" is_premium="N" aid="5011" money="" sharing="" handstyle="flat">
+    <tag>cat:Food and Drink</tag>
+  </prop>
+  <prop id="msp_esegg" name="Easter Egg" holdable="1" placeable="1" wearable="" facing="left" thumb="msp_esegg_ncces_03egg01.swf" enable="N" is_premium="Y" aid="12369" money="" sharing="" handstyle="flat">
+    <tag>cat:Food and Drink</tag>
+	<state id="msp_esegg_ncces_03egg01.swf" name="style 1" enable="N" default="Y"/>
+    <state id="msp_esegg_ncces_03egg02.swf" name="style 2" enable="N"/>
+    <state id="msp_esegg_ncces_03egg03.swf" name="style 3" enable="N"/>
+  </prop>
+  <prop id="cc_secretfolder.swf" name="File" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="N" is_premium="N" aid="9027" money="" sharing="" handstyle="flat">
+    <tag>cat:Office and School</tag>
+	<tag>classified</tag>
+	<tag>file</tag>
+	<tag>secret</tag>
+  </prop>
+  <prop id="torch.swf" name="Fire Torch" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="N" is_premium="N" aid="9027" money="" sharing="" handstyle="stick">
+    <tag>cat:Others</tag>
+  </prop>
+  <prop id="kitchen_fork.swf" name="Fork" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9022" money="" sharing="" handstyle="stick">
+	<tag>cat:Kitchen</tag>
+	<tag>chew</tag>
+	<tag>chewing</tag>
+	<tag>cutlery</tag>
+	<tag>kitchen</tag>
+	<tag>tableware</tag>
+  </prop>
+  <prop id="ncc_03fries.swf" name="Fries" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="N" is_premium="N" aid="11858" money="" sharing="" handstyle="flat">
+    <tag>cat:Food and Drink</tag>
+	<tag>food</tag>
+	<tag>french</tag>
+	<tag>fried</tag>
+	<tag>fries</tag>
+	<tag>potato</tag>
+	<tag>potatoes</tag>
+  </prop>
+  <prop id="garlic.swf" name="Garlic" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="N" is_premium="N" aid="9041" money="" sharing="" handstyle="flat">
+    <tag>cat:Food and Drink</tag>
+	<tag>food</tag>
+	<tag>veg</tag>
+	<tag>vege</tag>
+	<tag>vegetable</tag>
+	<tag>vegetables</tag>
+	<tag>veggie</tag>
+	<tag>veggies</tag>
+  </prop>
+  <prop id="green_beer.swf" name="Green Beer" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="N" is_premium="Y" aid="12249" money="" sharing="" handstyle="stick">
+    <tag>cat:Food and Drink</tag>
+	<tag>alcohol</tag>
+    <tag>bar</tag>
+	<tag>bars</tag>
+	<tag>beer</tag>
+	<tag>beverage</tag>
+	<tag>booze</tag>
+	<tag>cup</tag>
+    <tag>drink</tag>
+	<tag>glass</tag>
+	<tag>glasses</tag>
+  </prop>
+  <prop id="cc_hammer.swf" name="Hammer" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="N" is_premium="N" aid="9016" money="" sharing="" handstyle="stick">
+    <tag>cat:Industrial and Hardware</tag>
+	<tag>tool</tag>
+	<tag>tools</tag>
+  </prop>
+  <prop id="highlighter.swf" name="Highlighter" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="N" is_premium="N" aid="9797" money="" sharing="" handstyle="stick">
+    <tag>cat:Office and School</tag>
+  </prop>
+  <prop id="ncc_03hotdog.swf" name="Hot Dog" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="N" is_premium="N" aid="11858" money="" sharing="" handstyle="flat">
+    <tag>cat:Food and Drink</tag>
+	<tag>food</tag>
+	<tag>meat</tag>
+  </prop>
+  <prop id="ncc_hotdog_stand.swf" name="Hot Dog Stand" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="N" is_premium="N" aid="12199" money="" sharing="">
+    <tag>cat:Food and Drink</tag>
+	<tag>cart</tag>
+	<tag>food</tag>
+  </prop>
+  <prop id="ncc_03icecream02.swf" name="Ice Cream" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="N" is_premium="N" aid="11858" money="" sharing="" handstyle="flat">
+	<tag>cat:Food and Drink</tag>
+	<tag>candies</tag>
+	<tag>candy</tag>
+    <tag>cream</tag>
+	<tag>dessert</tag>
+    <tag>food</tag>
+	<tag>ice</tag>
+  </prop>
+  <prop id="ncc_02icecream01.swf" name="Ice Cream Cone" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="N" is_premium="N" aid="12176" money="" sharing="" handstyle="stick">
+	<tag>cat:Food and Drink</tag>
+	<tag>candies</tag>
+	<tag>candy</tag>
+	<tag>cream</tag>
+	<tag>dessert</tag>
+	<tag>food</tag>
+	<tag>ice</tag>
+  </prop>
+  <prop id="icecream_cone.swf" name="Ice Cream Cone" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="N" is_premium="N" aid="12176" money="" sharing="" handstyle="stick">
+	<tag>cat:Food and Drink</tag>
+	<tag>candies</tag>
+	<tag>candy</tag>
+	<tag>cream</tag>
+	<tag>dessert</tag>
+	<tag>food</tag>
+	<tag>ice</tag>
+  </prop>
+  <prop id="iced_chocolate.swf" name="Iced Chocolate" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="N" is_premium="N" aid="9021" money="" sharing="">
+	<tag>cat:Food and Drink</tag>
+	<tag>beverage</tag>
+	<tag>drink</tag>
+  </prop>
+  <prop id="katana.swf" name="Katana" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="N" is_premium="N" aid="3342" money="" sharing="" handstyle="stick">
+    <tag>cat:Others</tag>
+	<tag>blade</tag>
+	<tag>blades</tag>
+	<tag>sharp</tag>
+	<tag>sword</tag>
+	<tag>weapon</tag>
+	<tag>weapons</tag>
+  </prop>
+  <prop id="katana_in_sheath.swf" name="Katana" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="N" is_premium="N" aid="3343" money="" sharing="" handstyle="stick">
+    <tag>cat:Others</tag>
+	<tag>blade</tag>
+	<tag>blades</tag>
+	<tag>sharp</tag>
+	<tag>sword</tag>
+	<tag>weapon</tag>
+	<tag>weapons</tag>
+  </prop>
+  <prop id="kitchen_knife.swf" name="Knife" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="N" is_premium="N" aid="9022" money="" sharing="" handstyle="stick">
+	<tag>cat:Kitchen</tag>
+	<tag>blade</tag>
+	<tag>blades</tag>
+	<tag>chop</tag>
+	<tag>chopping</tag>
+	<tag>cook</tag>
+	<tag>cooked</tag>
+	<tag>cooking</tag>
+	<tag>cut</tag>
+	<tag>cutler</tag>
+	<tag>cutlery</tag>
+	<tag>cutter</tag>
+	<tag>cutting</tag>
+	<tag>kitchen</tag>
+	<tag>kitchenware</tag>
+	<tag>weapon</tag>
+	<tag>weapons</tag>
+  </prop>
+  <prop id="cc_wool_ball.swf" name="Knitting - Yarn Ball" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="N" is_premium="N" aid="9034" money="" sharing="" handstyle="flat">
+    <tag>cat:Others</tag>
+	<tag>ball</tag>
+	<tag>balls</tag>
+	<tag>knitting</tag>
+	<tag>wool</tag>
+    <tag>yarn</tag>
+  </prop>
+  <prop id="magic_wand.swf" name="Magic Wand" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="N" is_premium="N" aid="9797" money="" sharing="" handstyle="stick">
+    <tag>cat:Others</tag>
+	<tag>magic</tag>
+	<tag>magician</tag>
+    <tag>wand</tag>
+  </prop>
+  <prop id="cc_microphone.swf" name="Microphone" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="N" is_premium="N" aid="9019" money="" sharing="" handstyle="stick">
+    <tag>cat:Technology</tag>
+	<tag>band</tag>
+	<tag>microphone</tag>
+	<tag>sing</tag>
+  </prop>
+  <prop id="cc_milk.swf" name="Milk" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="N" is_premium="N" aid="9021" money="" sharing="" handstyle="flat">
+	<tag>cat:Food and Drink</tag>
+	<tag>beverage</tag>
+	<tag>glass</tag>
+	<tag>glasses</tag>
+	<tag>drink</tag>
+  </prop>
+  <prop id="milkshake.swf" name="Milkshake" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="N" is_premium="N" aid="9021" money="" sharing="" handstyle="flat">
+	<tag>cat:Food and Drink</tag>
+	<tag>beverage</tag>
+	<tag>drink</tag>
+  </prop>
+  <prop id="mint_lemonade.swf" name="Mint Lemonade" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="N" is_premium="N" aid="9021" money="" sharing="" handstyle="flat">
+	<tag>cat:Food and Drink</tag>
+	<tag>beverage</tag>
+	<tag>drink</tag>
+	<tag>glass</tag>
+	<tag>glasses</tag>
+  </prop>
+  <prop id="money.swf" name="Money" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="N" is_premium="N" aid="9797" money="" sharing="" handstyle="flat">
+    <tag>cat:Money and Finance</tag>
+	<tag>affluence</tag>
+	<tag>bank</tag>
+	<tag>banking</tag>
+	<tag>banknote</tag>
+	<tag>banknotes</tag>
+	<tag>cash</tag>
+	<tag>currencies</tag>
+	<tag>currency</tag>
+    <tag>money</tag>
+  </prop>
+  <prop id="ncc_nail_polish01.swf" name="Nail Polish" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="N" is_premium="N" aid="9022" money="" sharing="" handstyle="flat">
+    <tag>cat:Retail</tag>
+  </prop>
+  <prop id="cc_necklace.swf" name="Necklace" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="N" is_premium="N" aid="9022" money="" sharing="" handstyle="stick">
+    <tag>cat:Retail</tag>
+	<tag>accessories</tag>
+    <tag>accessory</tag>
+    <tag>bracelet</tag>
+    <tag>necklace</tag>
+  </prop>
+  <prop id="ncc_03onionring.swf" name="Onion Rings" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="N" is_premium="N" aid="11858" money="" sharing="" handstyle="flat">
+    <tag>cat:Food and Drink</tag>
+	<tag>food</tag>
+	<tag>fried</tag>
+	<tag>onion</tag>
+	<tag>onions</tag>
+	<tag>ring</tag>
+	<tag>rings</tag>
+  </prop>
+  <prop id="ncc_03orange.swf" name="Orange" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="N" is_premium="N" aid="11858" money="" sharing="" handstyle="flat">
+    <tag>cat:Food and Drink</tag>
+	<tag>food</tag>
+    <tag>fruit</tag>
+	<tag>orange</tag>
+  </prop>
+  <prop id="cc_paint_roller.swf" name="Paint Roller" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="N" is_premium="N" aid="9023" money="" sharing="" handstyle="stick">
+	<tag>cat:Industrial and Hardware</tag>
+	<tag>paint</tag>
+	<tag>painting</tag>
+	<tag>roller</tag>
+  </prop>
+  <prop id="ncc_03paper.swf" name="Paper" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="N" is_premium="N" aid="12111" money="" sharing="" handstyle="flat">
+    <tag>cat:Office and School</tag>
+	<tag>paper</tag>
+  </prop>
+  <prop id="pen.swf" name="Pen" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="N" is_premium="N" aid="9797" money="" sharing="" handstyle="stick">
+    <tag>cat:Office and School</tag>
+  </prop>
+  <prop id="pencil.swf" name="Pencil" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="N" is_premium="N" aid="9797" money="" sharing="" handstyle="stick">
+    <tag>cat:Office and School</tag>
+	<tag>academy</tag>
+    <tag>academic</tag>
+    <tag>classroom</tag>
+    <tag>learn</tag>
+    <tag>learning</tag>
+    <tag>school</tag>
+    <tag>schooling</tag>
+  </prop>
+  <prop id="msp_ncc_gun_usp40b" name="Pistol" holdable="1" placeable="1" wearable="" facing="left" thumb="msp_ncc_gun_usp40b_ncc_gun_still.swf" enable="N" is_premium="Y" aid="11653" money="" sharing="" handstyle="gun">
+    <state id="msp_ncc_gun_usp40b_ncc_gun_loop.swf" name="Keep shooting" enable="N" />
+    <state id="msp_ncc_gun_usp40b_ncc_gun_once.swf" name="Shoot once" enable="N" />
+    <state id="msp_ncc_gun_usp40b_ncc_gun_still.swf" name="Still" enable="N" default="Y" />
+	<tag>cat:Others</tag>
+	<tag>pistol</tag>
+	<tag>shoot</tag>
+	<tag>shooting</tag>
+	<tag>shot</tag>
+	<tag>weapon</tag>
+	<tag>weapons</tag>
+  </prop>
+  <prop id="ncc_03pizza.swf" name="Pizza" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="N" is_premium="N" aid="11858" money="" sharing="" handstyle="flat">
+    <tag>cat:Food and Drink</tag>
+	<tag>food</tag>
+	<tag>pizza</tag>
+  </prop>
+  <prop id="ncc_03popcorn.swf" name="Popcorn" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="N" is_premium="N" aid="11858" money="" sharing="" handstyle="flat">
+    <tag>cat:Food and Drink</tag>
+	<tag>food</tag>
+	<tag>popcorn</tag>
+  </prop>
+  <prop id="razor.swf" name="Razor" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="N" is_premium="N" aid="11379" money="" sharing="" handstyle="stick">
+    <tag>cat:Others</tag>
+	<tag>beard</tag>
+	<tag>razor</tag>
+	<tag>shave</tag>
+	<tag>shaver</tag>
+  </prop>
+  <prop id="sake_bottle.swf" name="Sake" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="N" is_premium="N" aid="9033" money="" sharing="" handstyle="flat">
+    <tag>cat:Food and Drink</tag>
+	<tag>alcohol</tag>
+	<tag>beverage</tag>
+	<tag>booze</tag>
+	<tag>bottle</tag>
+	<tag>bottles</tag>
+  </prop>
+  <prop id="cc_saw.swf" name="Saw" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="N" is_premium="N" aid="9025" money="" sharing="" handstyle="stick">
+    <tag>cat:Industrial and Hardware</tag>
+	<tag>carpentry</tag>
+	<tag>cut</tag>
+	<tag>cutler</tag>
+	<tag>cutlery</tag>
+	<tag>cutter</tag>
+	<tag>cutting</tag>
+	<tag>tool</tag>
+  </prop>
+  <prop id="cc_screwdriver.swf" name="Screwdriver" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="N" is_premium="N" aid="9026" money="" sharing="" handstyle="stick">
+    <tag>cat:Industrial and Hardware</tag>
+	<tag>tool</tag>
+	<tag>tools</tag>
+	<tag>screwdriver</tag>
+  </prop>
+  <prop id="ncc_02spatula.swf" name="Spatula" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="N" is_premium="N" aid="10948" money="" sharing="" handstyle="stick">
+    <tag>cat:Kitchen</tag>
+	<tag>cook</tag>
+	<tag>cooked</tag>
+	<tag>cooking</tag>
+	<tag>kitchen</tag>
+	<tag>spatula</tag>
+  </prop>
+  <prop id="msp_iphone" name="Smartphone" holdable="1" placeable="1" wearable="" facing="left" thumb="msp_iphone_ncc_03iphone.swf" enable="N" is_premium="N" aid="12188" money="" sharing="" handstyle="flat">
+    <state id="msp_iphone_ncc_03iphone.swf" name="top" enable="N" default="Y" />
+    <state id="msp_iphone_ncc_03iphone_front.swf" name="front" enable="N" />
+    <state id="msp_iphone_ncc_03iphone_on.swf" name="top - on" enable="N" />
+    <state id="msp_iphone_ncc_03iphone_onfront.swf" name="front - on" enable="N" />
+    <state id="msp_iphone_ncc_03iphone_onside.swf" name="side - on" enable="N" />
+    <state id="msp_iphone_ncc_03iphone_side.swf" name="side" enable="N" />
+    <tag>cat:Technology</tag>
+	<tag>cell</tag>
+	<tag>cellphone</tag>
+	<tag>cellular</tag>
+	<tag>iphone</tag>
+	<tag>phone</tag>
+    <tag>telephone</tag>
+  </prop>
+  <prop id="ncc_03soda.swf" name="Soda" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="N" is_premium="N" aid="11858" money="" sharing="" handstyle="flat">
+	<tag>cat:Food and Drink</tag>
+	<tag>beverage</tag>
+	<tag>bottle</tag>
+	<tag>bottles</tag>
+	<tag>coke</tag>
+	<tag>drink</tag>
+	<tag>pop</tag>
+	<tag>soda</tag>
+  </prop>
+  <prop id="coke1.swf" name="Soda Can" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="N" is_premium="N" aid="11858" money="" sharing="" handstyle="flat">
+	<tag>cat:Food and Drink</tag>
+	<tag>beverage</tag>
+	<tag>coke</tag>
+	<tag>drink</tag>
+	<tag>pop</tag>
+	<tag>soda</tag>
+  </prop>
+  <prop id="kitchen_spoon.swf" name="Spoon" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="N" is_premium="N" aid="9022" money="" sharing="" handstyle="stick">
+    <tag>cat:Kitchen</tag>
+	<tag>chew</tag>
+	<tag>chewing</tag>
+	<tag>cutlery</tag>
+	<tag>kitchen</tag>
+	<tag>spoon</tag>
+	<tag>tableware</tag>
+  </prop>
+  <prop id="teddy_bear.swf" name="Stuffed Bear" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="N" is_premium="N" aid="8966" money="" sharing="" handstyle="flat">
+    <tag>cat:Retail</tag>
+	<tag>animal</tag>
+    <tag>animals</tag>
+    <tag>bear</tag>
+    <tag>bears</tag>
+  </prop>
+  <prop id="ncc_02pirate_sword.swf" name="Sword" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="N" is_premium="Y" aid="12393" money="" sharing="" handstyle="stick">
+    <tag>cat:Others</tag>
+	<tag>attack</tag>
+	<tag>attacked</tag>
+	<tag>attacking</tag>
+	<tag>battle</tag>
+	<tag>blade</tag>
+	<tag>blades</tag>
+	<tag>broadsword</tag>
+	<tag>pirate</tag>
+	<tag>sharp</tag>
+	<tag>sword</tag>
+    <tag>weapon</tag>
+	<tag>weapons</tag>
+  </prop>
+  <prop id="msp_ipad" name="Tablet" holdable="1" placeable="1" wearable="" facing="left" thumb="msp_ipad_ncc_03ipad.swf" enable="N" is_premium="N" aid="12181" money="" sharing="" handstyle="flat">
+    <state id="msp_ipad_ncc_03ipad.swf" name="top" enable="N" default="Y" />
+    <state id="msp_ipad_ncc_03ipad_front.swf" name="front" enable="N" />
+    <state id="msp_ipad_ncc_03ipad_on.swf" name="top - on" enable="N" />
+    <state id="msp_ipad_ncc_03ipad_onfront.swf" name="front - on" enable="N" />
+    <state id="msp_ipad_ncc_03ipad_onside.swf" name="side - on" enable="N" />
+    <state id="msp_ipad_ncc_03ipad_side.swf" name="side" enable="N" />
+    <tag>cat:Technology</tag>
+	<tag>business</tag>
+	<tag>ipad</tag>
+	<tag>office</tag>
+	<tag>tablet</tag>
+  </prop>
+  <prop id="ncc_03mexicoroll.swf" name="Taco" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="N" is_premium="N" aid="11858" money="" sharing="" handstyle="flat">
+    <tag>cat:Food and Drink</tag>
+	<tag>beef</tag>
+	<tag>food</tag>
+	<tag>veg</tag>
+	<tag>vege</tag>
+	<tag>vegetable</tag>
+	<tag>vegetables</tag>
+	<tag>veggie</tag>
+	<tag>veggies</tag>
+  </prop>
+  <prop id="nccha_02spooky_testube02.swf" name="Test Tube" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="N" is_premium="Y" aid="11210" money="" sharing="" handstyle="stick">
+    <tag>cat:Office and School</tag>
+	<tag>academy</tag>
+    <tag>academic</tag>
+    <tag>classroom</tag>
+    <tag>learn</tag>
+    <tag>learning</tag>
+    <tag>quiz</tag>
+    <tag>school</tag>
+    <tag>schooling</tag>
+    <tag>science</tag>
+    <tag>scientist</tag>
+    <tag>teach</tag>
+    <tag>teacher</tag>
+    <tag>teaching</tag>
+  </prop>
+  <prop id="cc_tool_box.swf" name="Toolbox" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="N" is_premium="N" aid="9031" money="" sharing="" handstyle="stick">
+	<tag>cat:Industrial and Hardware</tag>
+	<tag>box</tag>
+	<tag>boxes</tag>
+	<tag>tool</tag>
+	<tag>toolbox</tag>
+	<tag>tools</tag>
+  </prop>
+  <prop id="ncc_03treasuremap.swf" name="Treasure Map" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="N" is_premium="N" aid="10522" money="" sharing="" handstyle="flat">
+    <tag>cat:Maps</tag>
+	<tag>atlas</tag>
+	<tag>booty</tag>
+	<tag>map</tag>
+	<tag>maps</tag>
+	<tag>paper</tag>
+	<tag>pirate</tag>
+	<tag>treasure</tag>
+  </prop>
+  <prop id="water_bottle.swf" name="Water Bottle" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="N" is_premium="N" aid="11858" money="" sharing="" handstyle="flat">
+	<tag>cat:Food and Drink</tag>
+	<tag>beverage</tag>
+	<tag>bottle</tag>
+	<tag>bottles</tag>
+	<tag>drink</tag>
+  </prop>
+  <prop id="wine.swf" name="Wine" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="N" is_premium="N" aid="9797" money="" sharing="" handstyle="stick">
+    <tag>cat:Food and Drink</tag>
+	<tag>alcohol</tag>
+	<tag>bar</tag>
+	<tag>bars</tag>
+	<tag>beverage</tag>
+	<tag>booze</tag>
+    <tag>wine</tag>
+  </prop>
+  <prop id="cc_wine1.swf" name="Wine Bottle" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="N" is_premium="N" aid="9033" money="" sharing="" handstyle="flat">
+    <tag>cat:Food and Drink</tag>
+	<tag>alcohol</tag>
+	<tag>beverage</tag>
+	<tag>booze</tag>
+	<tag>bottle</tag>
+	<tag>bottles</tag>
+    <tag>wine</tag>
+  </prop>
+  <prop id="ncc_03yogurt.swf" name="Yogurt" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="N" is_premium="N" aid="11858" money="" sharing="" handstyle="flat">
+    <tag>cat:Food and Drink</tag>
+	<tag>food</tag>
+    <tag>yogurt</tag>
+  </prop>
+  <prop id="ncc_03yogurt02.swf" name="Yogurt" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="N" is_premium="N" aid="11858" money="" sharing="" handstyle="flat">
+    <tag>cat:Food and Drink</tag>
+	<tag>food</tag>
+    <tag>fruit</tag>
+    <tag>yogurt</tag>
+  </prop>
+
 	<bubble id="Mail Ray Stuff" x="-90" y="-45" w="180" h="90" rotate="0" type="BLANK" enable="Y" is_premium="N"
 		aid="30362" money="0" sharing="0" hasTail="0" display_order="1">
 		<body taily="65" tailx="90" linergb="0" rgb="0xFFFFFF" />
