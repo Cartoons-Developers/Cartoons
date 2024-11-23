@@ -5895,6 +5895,9 @@
     <tag>sleeping</tag>
     <tag>sleepy</tag>
   </prop>
+  <prop id="pineapple.swf" name="Pineapple" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="11377" money="" sharing="">
+    <tag>cat:Food and Drink</tag>
+  </prop>
   <prop id="msp_pirateship" name="Pirate Ship" holdable="" placeable="1" wearable="" facing="left" thumb="msp_pirateship_ncc_pirateship_still.swf" enable="Y" is_premium="Y" aid="12415" money="" sharing="">
     <state id="msp_pirateship_ncc_pirateship_still.swf" name="still" enable="Y" default="Y" />
     <state id="msp_pirateship_ncc_pirateship_move.swf" name="floating" enable="Y" />
