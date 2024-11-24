@@ -89,7 +89,7 @@
 	<tag>candy</tag>
     <tag>food</tag>
   </prop>
-  <prop id="bottle.swf" name="Bottle" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9033" money="" sharing="">
+  <prop id="bottle.swf" name="Bottle" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="N" is_premium="N" aid="9033" money="" sharing="">
     <tag>cat:Food and Drink</tag>
 	<tag>bottle</tag>
 	<tag>bottles</tag>
@@ -309,7 +309,7 @@
   <prop id="torch.swf" name="Fire Torch" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="N" is_premium="N" aid="9027" money="" sharing="" handstyle="stick">
     <tag>cat:Others</tag>
   </prop>
-  <prop id="kitchen_fork.swf" name="Fork" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9022" money="" sharing="" handstyle="stick">
+  <prop id="kitchen_fork.swf" name="Fork" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="N" is_premium="N" aid="9022" money="" sharing="" handstyle="stick">
 	<tag>cat:Kitchen</tag>
 	<tag>chew</tag>
 	<tag>chewing</tag>
