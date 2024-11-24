@@ -666,7 +666,7 @@
 		<actionpack id="sing" name="Lead Singer" money="0" sharing="0" enable="Y">
 			<action id="sing_01_normal" name="Sing" loop="Y" totalframe="50" enable="Y" is_motion="N" category="Arts and Music">
 				<selection type="facial" facial_id="head_talkneutral"/>
-				<prop id="cc_microphone.swf" theme="custom" aid="9019" />
+				<prop id="cc_microphone.swf" theme="common" aid="9019" />
 			</action>
 		</actionpack>
 
