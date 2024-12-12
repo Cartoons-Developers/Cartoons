@@ -7494,6 +7494,12 @@
   <char id="316" name="Casual" cc_theme_id="family" thumbnail_url="thumbnails/316.png" copyable="Y">
     <tags>family,_free,_cat:Casual,_tag:casual man male,_sticky_filter_guy</tags>
   </char>
+  <char id="339" name="Casual" cc_theme_id="family" thumbnail_url="thumbnails/339.png" copyable="Y">
+    <tags>family,_free,_cat:Casual,_tag:casual man male,_sticky_filter_guy</tags>
+  </char>
+  <char id="340" name="Casual" cc_theme_id="family" thumbnail_url="thumbnails/257.png" copyable="Y">
+    <tags>family,_free,_cat:Casual,_tag:casual female lady woman,_sticky_filter_girl</tags>
+  </char>
   <char id="261" name="Casual - Pride Month" cc_theme_id="family" thumbnail_url="thumbnails/261.png" copyable="Y">
     <tags>family,_free,_cat:Casual,_tag:casual glasses lgbt lgbtq man male month pride rainbow,_sticky_filter_guy</tags>
   </char>
@@ -7521,7 +7527,7 @@
   <char id="112" name="Construction Worker" cc_theme_id="family" thumbnail_url="thumbnails/112.png" copyable="Y">
     <tags>family,_free,_cat:Industrial,_tag:boot boots construction hat hardhat factories factory industrial industry laborer labourer man manufacture manufacturing manual male other professions safe ssfety vault worker,_sticky_filter_guy</tags>
   </char>
-  <char id="113" name="Construction Worker" cc_theme_id="family" thumbnail_url="thumbnails/112.png" copyable="Y">
+  <char id="113" name="Construction Worker" cc_theme_id="family" thumbnail_url="thumbnails/113.png" copyable="Y">
     <tags>family,_free,_cat:Industrial,_tag:boot boots construction hat hardhat factories factory industrial industry laborer labourer man manufacture manufacturing manual male other professions safe ssfety vault worker,_sticky_filter_guy</tags>
   </char>
   <char id="114" name="Construction Worker" cc_theme_id="family" thumbnail_url="thumbnails/114.png" copyable="Y">
@@ -7592,6 +7598,9 @@
   </char>
   <char id="242" name="Farmer" cc_theme_id="family" thumbnail_url="thumbnails/242.png" copyable="Y">
     <tags>family,_free,_cat:Other Professions,_tag:boot boots dungarees farmer man male other overalls professions rancher,_sticky_filter_guy</tags>
+  </char>
+  <char id="344" name="Farmer" cc_theme_id="family" thumbnail_url="thumbnails/344.png" copyable="Y">
+    <tags>family,_free,_cat:Other Professions,_tag:boot boots cap dungarees farmer female hat lady other overalls professions rancher woman,_sticky_filter_girl</tags>
   </char>
   <char id="189" name="Fast Food Worker" cc_theme_id="family" thumbnail_url="thumbnails/189.png" copyable="Y">
     <tags>family,_free,_cat:Catering,_tag:abattoir apron butcher butchery burger catering fast fastfood food kitchen man male restaurant worker,_sticky_filter_guy</tags>
@@ -7748,6 +7757,9 @@
   </char>
   <char id="238" name="Kid" cc_theme_id="family" thumbnail_url="thumbnails/238.png" copyable="Y">
     <tags>family,_free,_cat:Casual,_tag:casual child children female girl kid kids pigtails student,_sticky_filter_littlegirl</tags>
+  </char>
+  <char id="342" name="Kid" cc_theme_id="family" thumbnail_url="thumbnails/342.png" copyable="Y">
+    <tags>family,_free,_cat:Casual,_tag:afro boy casual child children kid kids male student,_sticky_filter_littleguy</tags>
   </char>
   <char id="233" name="Kid - Bunny Ears" cc_theme_id="family" thumbnail_url="thumbnails/233.png" copyable="Y">
     <tags>family,_free,_cat:Holidays and Costumes,_tag:bunny boy easter child children kid kids male,_sticky_filter_littleguy</tags>
@@ -7935,6 +7947,9 @@
   <char id="313" name="Office Professional" cc_theme_id="family" thumbnail_url="thumbnails/313.png" copyable="Y">
     <tags>family,_free,_cat:Healthcare,_tag:business elder elderlies elderly man male mask office professional worker,_sticky_filter_fatguy</tags>
   </char>
+  <char id="343" name="Office Professional" cc_theme_id="family" thumbnail_url="thumbnails/343.png" copyable="Y">
+    <tags>family,_free,_cat:Office,_tag:business man male office worker,_sticky_filter_guy</tags>
+  </char>
   <char id="075" name="Pajamas" cc_theme_id="family" thumbnail_url="thumbnails/075.png" copyable="Y">
     <tags>family,_free,_cat:Casual,_tag:asleep bedroom domestic home homeware household man male pajama pajamas pj pjs pyjama pyjamas sleep sleeping sleepy,_sticky_filter_guy</tags>
   </char>
@@ -8060,6 +8075,9 @@
   </char>
   <char id="309" name="Senior" cc_theme_id="family" thumbnail_url="thumbnails/309.png" copyable="Y">
     <tags>family,_free,_cat:Healthcare,_tag:casual elder elderlies elderly female glasses mask lady woman,_sticky_filter_girl</tags>
+  </char>
+  <char id="341" name="Senior" cc_theme_id="family" thumbnail_url="thumbnails/150.png" copyable="Y">
+    <tags>family,_free,_cat:Casual,_tag:casual elder elderlies elderly man male,_sticky_filter_guy</tags>
   </char>
   <char id="210" name="Skeleton" cc_theme_id="family" thumbnail_url="thumbnails/210.png" copyable="Y">
     <tags>family,_free,_cat:Holidays and Costumes,_tag:halloween holiday holidays hols monster skeleton zombie,_sticky_filter_guy</tags>
