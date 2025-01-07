@@ -4906,7 +4906,7 @@
 	<tag>waste</tag>
 	<tag>wasted</tag>
   </prop>
-  <prop id="garlic.swf" name="Garlic" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9041" money="" sharing="" handstyle="flat">
+  <prop id="garlic.swf" name="Garlic" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9041" money="" sharing="">
     <tag>cat:Food and Drink</tag>
 	<tag>food</tag>
 	<tag>veg</tag>
