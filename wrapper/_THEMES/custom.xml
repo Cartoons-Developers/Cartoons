@@ -3422,7 +3422,7 @@
 	<tag>couch</tag>
     <tag>furniture</tag>
   </prop>
-  <prop id="amputee_leg.swf" name="Artificial Leg" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="12108" money="" sharing="" handstyle="stick">
+  <prop id="amputee_leg.swf" name="Artificial Leg" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="12108" money="" sharing="">
     <tag>cat:Healthcare</tag>
 	<tag>arificial</tag>
 	<tag>healthcare</tag>
@@ -3525,7 +3525,7 @@
     <tag>weapon</tag>
 	<tag>weapons</tag>
   </prop>
-  <prop id="bar_counter.swf" name="Bar Table" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="11048" money="" sharing="" handstyle="stick">
+  <prop id="bar_counter.swf" name="Bar Table" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="11048" money="" sharing="">
     <tag>cat:Furniture and Fixtures</tag>
 	<tag>bar</tag>
 	<tag>bars</tag>
