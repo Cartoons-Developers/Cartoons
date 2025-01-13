@@ -3808,7 +3808,7 @@
 	<tag>glass</tag>
 	<tag>glasses</tag>
   </prop>
-  <prop id="bottle.swf" name="Bottle" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9033" money="" sharing="">
+  <prop id="bottle.swf" name="Bottle" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9033" money="" sharing="" handstyle="flat">
     <tag>cat:Food and Drink</tag>
 	<tag>bottle</tag>
 	<tag>bottles</tag>
