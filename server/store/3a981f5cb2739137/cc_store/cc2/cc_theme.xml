@@ -2521,6 +2521,9 @@
 	<component type="facedecoration" id="dog_ears" path="dog_ears" name="dog_ears" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
 		<state id="default" filename="default.swf"/>
 	</component>
+	<component type="facedecoration" id="mouse_ears" path="mouse_ears" name="mouse_ears" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
 	<component type="facedecoration" id="091" path="091" name="091" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
 		<state id="default" filename="default.swf"/>
 	</component>
