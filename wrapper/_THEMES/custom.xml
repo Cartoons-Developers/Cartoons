@@ -5179,7 +5179,7 @@
 	<tag>food</tag>
 	<tag>ice</tag>
   </prop>
-  <prop id="iced_chocolate.swf" name="Iced Chocolate" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9021" money="" sharing="">
+  <prop id="iced_chocolate.swf" name="Iced Chocolate" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9021" money="" sharing="" handstyle="flat">
 	<tag>cat:Food and Drink</tag>
 	<tag>beverage</tag>
 	<tag>drink</tag>
@@ -5516,7 +5516,7 @@
 	<tag>cooktop</tag>
     <tag>kitchen</tag>
   </prop>
-  <prop id="cc_milk.swf" name="Milk" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9021" money="" sharing="" handstyle="flat">
+  <prop id="cc_milk.swf" name="Milk" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9021" money="" sharing="" handstyle="stick">
 	<tag>cat:Food and Drink</tag>
 	<tag>beverage</tag>
 	<tag>glass</tag>
@@ -6139,7 +6139,7 @@
   <prop id="ruler.swf" name="Ruler" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="Y" aid="11210" money="" sharing="" handstyle="stick">
     <tag>cat:Office and School</tag>
   </prop>
-  <prop id="sake_bottle.swf" name="Sake" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9033" money="" sharing="" handstyle="flat">
+  <prop id="sake_bottle.swf" name="Sake" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9033" money="" sharing="" handstyle="stick">
     <tag>cat:Food and Drink</tag>
 	<tag>alcohol</tag>
 	<tag>beverage</tag>
