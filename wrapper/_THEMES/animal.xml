@@ -42,6 +42,12 @@
   <char id="330" name="Lion" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
     <tags>cc2,_free,_cat:Animals</tags>
   </char>
+  <char id="335" name="Mouse" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
+    <tags>cc2,_free,_cat:Animals</tags>
+  </char>
+  <char id="336" name="Mouse" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
+    <tags>cc2,_free,_cat:Animals</tags>
+  </char>
   <char id="331" name="Rabbit" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
     <tags>cc2,_free,_cat:Animals</tags>
   </char>
@@ -52,12 +58,6 @@
     <tags>cc2,_free,_cat:Animals</tags>
   </char>
   <char id="334" name="Raccoon" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
-    <tags>cc2,_free,_cat:Animals</tags>
-  </char>
-  <char id="335" name="Rat" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
-    <tags>cc2,_free,_cat:Animals</tags>
-  </char>
-  <char id="336" name="Rat" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
     <tags>cc2,_free,_cat:Animals</tags>
   </char>
   <char id="337" name="Squirrel" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
