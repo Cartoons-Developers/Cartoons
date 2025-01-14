@@ -3454,6 +3454,9 @@
       <c_area oc="">ccLowerMain</c_area>
     </c_parts>
   </prop>
+  <prop id="backpack.swf" name="Backpack" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="Y" aid="11151" money="" sharing="">
+    <tag>cat:Office and School</tag>
+  </prop>
   <prop id="msp_nccha_balloon02" name="Balloon" holdable="" placeable="1" wearable="" facing="left" thumb="msp_nccha_balloon02_nccha_balloon03.swf" enable="Y" is_premium="Y" aid="11151" money="" sharing="">
     <state id="msp_nccha_balloon02_nccha_balloon03.swf" name="hovering" enable="Y" default="Y" />
     <state id="msp_nccha_balloon02_nccha_balloon04.swf" name="still" enable="Y" />
