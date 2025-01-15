@@ -1,3 +1,69 @@
 <?xml version="1.0" encoding="utf-8"?>
-<theme id="action" name="Lil' Peepz" cc_theme_id="cc2">
+<theme id="action" name="Animals" cc_theme_id="cc2">
+  <char id="317" name="Bear" cc_theme_id="cc2" thumbnail_url="thumbnails/317.png" copyable="Y">
+    <tags>cc2,_free,_cat:Animals</tags>
+  </char>
+  <char id="318" name="Bear" cc_theme_id="cc2" thumbnail_url="thumbnails/318.png" copyable="Y">
+    <tags>cc2,_free,_cat:Animals</tags>
+  </char>
+  <char id="319" name="Bird" cc_theme_id="cc2" thumbnail_url="thumbnails/319.png" copyable="Y">
+    <tags>cc2,_free,_cat:Animals</tags>
+  </char>
+  <char id="320" name="Bird" cc_theme_id="cc2" thumbnail_url="thumbnails/320.png" copyable="Y">
+    <tags>cc2,_free,_cat:Animals</tags>
+  </char>
+  <char id="321" name="Cat" cc_theme_id="cc2" thumbnail_url="thumbnails/321.png" copyable="Y">
+    <tags>cc2,_free,_cat:Animals</tags>
+  </char>
+  <char id="322" name="Cat" cc_theme_id="cc2" thumbnail_url="thumbnails/322.png" copyable="Y">
+    <tags>cc2,_free,_cat:Animals</tags>
+  </char>
+  <char id="323" name="Deer" cc_theme_id="cc2" thumbnail_url="thumbnails/323.png" copyable="Y">
+    <tags>cc2,_free,_cat:Animals</tags>
+  </char>
+  <char id="324" name="Deer" cc_theme_id="cc2" thumbnail_url="thumbnails/324.png" copyable="Y">
+    <tags>cc2,_free,_cat:Animals</tags>
+  </char>
+  <char id="325" name="Fox" cc_theme_id="cc2" thumbnail_url="thumbnails/325.png" copyable="Y">
+    <tags>cc2,_free,_cat:Animals</tags>
+  </char>
+  <char id="326" name="Fox" cc_theme_id="cc2" thumbnail_url="thumbnails/326.png" copyable="Y">
+    <tags>cc2,_free,_cat:Animals</tags>
+  </char>
+  <char id="327" name="Lemur" cc_theme_id="cc2" thumbnail_url="thumbnails/327.png" copyable="Y">
+    <tags>cc2,_free,_cat:Animals</tags>
+  </char>
+  <char id="328" name="Lemur" cc_theme_id="cc2" thumbnail_url="thumbnails/328.png" copyable="Y">
+    <tags>cc2,_free,_cat:Animals</tags>
+  </char>
+  <char id="329" name="Lion" cc_theme_id="cc2" thumbnail_url="thumbnails/329.png" copyable="Y">
+    <tags>cc2,_free,_cat:Animals</tags>
+  </char>
+  <char id="330" name="Lion" cc_theme_id="cc2" thumbnail_url="thumbnails/330.png" copyable="Y">
+    <tags>cc2,_free,_cat:Animals</tags>
+  </char>
+  <char id="335" name="Mouse" cc_theme_id="cc2" thumbnail_url="thumbnails/335.png" copyable="Y">
+    <tags>cc2,_free,_cat:Animals</tags>
+  </char>
+  <char id="336" name="Mouse" cc_theme_id="cc2" thumbnail_url="thumbnails/336.png" copyable="Y">
+    <tags>cc2,_free,_cat:Animals</tags>
+  </char>
+  <char id="331" name="Rabbit" cc_theme_id="cc2" thumbnail_url="thumbnails/331.png" copyable="Y">
+    <tags>cc2,_free,_cat:Animals</tags>
+  </char>
+  <char id="332" name="Rabbit" cc_theme_id="cc2" thumbnail_url="thumbnails/332.png" copyable="Y">
+    <tags>cc2,_free,_cat:Animals</tags>
+  </char>
+  <char id="333" name="Raccoon" cc_theme_id="cc2" thumbnail_url="thumbnails/333.png" copyable="Y">
+    <tags>cc2,_free,_cat:Animals</tags>
+  </char>
+  <char id="334" name="Raccoon" cc_theme_id="cc2" thumbnail_url="thumbnails/334.png" copyable="Y">
+    <tags>cc2,_free,_cat:Animals</tags>
+  </char>
+  <char id="337" name="Squirrel" cc_theme_id="cc2" thumbnail_url="thumbnails/337.png" copyable="Y">
+    <tags>cc2,_free,_cat:Animals</tags>
+  </char>
+  <char id="338" name="Squirrel" cc_theme_id="cc2" thumbnail_url="thumbnails/338.png" copyable="Y">
+    <tags>cc2,_free,_cat:Animals</tags>
+  </char>
 </theme>
