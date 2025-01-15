@@ -1,4 +1,4 @@
-<cc_theme id="cc2" studio_theme_id="action" name="Urban" xsi:noNamespaceSchemaLocation="http://alvin.goanimate.org/schema/cc_library_theme.xsd" version="2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<cc_theme id="cc2" studio_theme_id="animal" name="Urban" xsi:noNamespaceSchemaLocation="http://alvin.goanimate.org/schema/cc_library_theme.xsd" version="2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<color r="ccSkinColor" component_type="bodyshape" enable="Y">
 		<choice>0xEAD2B0</choice>
 		<choice>0xEBC9AF</choice>
