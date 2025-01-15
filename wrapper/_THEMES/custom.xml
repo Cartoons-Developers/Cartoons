@@ -7995,6 +7995,9 @@
   <char id="008" name="Police" cc_theme_id="family" thumbnail_url="thumbnails/008.png" copyable="Y">
     <tags>family,_free,_cat:Government,_tag:badge cap cop cops elder elderlies elderly government hat hero heroes heroic law legal man male officer police,_sticky_filter_guy</tags>
   </char>
+  <char id="345" name="Police" cc_theme_id="family" thumbnail_url="thumbnails/345.png" copyable="Y">
+    <tags>family,_free,_cat:Government,_tag:badge cap cop cops female government hat hero heroes heroic lady law legal officer police woman,_sticky_filter_guy</tags>
+  </char>
   <char id="295" name="Politician" cc_theme_id="family" thumbnail_url="thumbnails/295.png" copyable="Y">
     <tags>family,_free,_cat:Office,_tag:apprentice business candidate election elections office other politics politician presidential professions suit,_sticky_filter_girl</tags>
   </char>
