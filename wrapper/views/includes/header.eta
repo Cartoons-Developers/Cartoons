@@ -8,4 +8,8 @@
 	    	</div>
 			<a href="/go_full?tray=custom" class="button_big">CREATE A VIDEO</a>
 		</nav>
+		
+    <form style="visibility: hidden" enctype='multipart/form-data' action='/upload_movie' method='post'>
+	    <input id='file' type="file" onchange="this.form.submit()" name='import' />
+    </form>
 </header>
