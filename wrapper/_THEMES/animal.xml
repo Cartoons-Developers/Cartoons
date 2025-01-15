@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <theme id="animal" name="Animals" cc_theme_id="cc2">
-  <char id="317" name="Bear" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
+  <char id="317" name="Bear" cc_theme_id="cc2" thumbnail_url="thumbnails/317.png" copyable="Y">
     <tags>cc2,_free,_cat:Animals</tags>
   </char>
-  <char id="318" name="Bear" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
+  <char id="318" name="Bear" cc_theme_id="cc2" thumbnail_url="thumbnails/318.png" copyable="Y">
     <tags>cc2,_free,_cat:Animals</tags>
   </char>
   <char id="319" name="Bird" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
@@ -42,10 +42,10 @@
   <char id="330" name="Lion" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
     <tags>cc2,_free,_cat:Animals</tags>
   </char>
-  <char id="335" name="Mouse" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
+  <char id="335" name="Mouse" cc_theme_id="cc2" thumbnail_url="thumbnails/335.png" copyable="Y">
     <tags>cc2,_free,_cat:Animals</tags>
   </char>
-  <char id="336" name="Mouse" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
+  <char id="336" name="Mouse" cc_theme_id="cc2" thumbnail_url="thumbnails/336.png" copyable="Y">
     <tags>cc2,_free,_cat:Animals</tags>
   </char>
   <char id="331" name="Rabbit" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
