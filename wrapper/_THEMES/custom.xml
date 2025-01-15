@@ -4514,6 +4514,9 @@
   <prop id="whipped_cream.swf" name="Cream" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="10636" money="" sharing="">
     <tag>cat:Food and Drink</tag>
   </prop>
+  <prop id="credit_card.swf" name="Credit Card" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="12248" money="" sharing="" handstyle="flat">
+    <tag>cat:Money and Finance</tag>
+  </prop>
   <prop id="creepy_tree.swf" name="Creepy Tree" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="12198" money="" sharing="">
     <tag>cat:Nature</tag>
 	<tag>dead</tag>
