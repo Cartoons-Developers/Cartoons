@@ -7503,6 +7503,9 @@
   <char id="340" name="Casual" cc_theme_id="family" thumbnail_url="thumbnails/340.png" copyable="Y">
     <tags>family,_free,_cat:Casual,_tag:casual female lady woman,_sticky_filter_girl</tags>
   </char>
+  <char id="346" name="Casual" cc_theme_id="family" thumbnail_url="thumbnails/346.png" copyable="Y">
+    <tags>family,_free,_cat:Casual,_tag:casual female lady woman,_sticky_filter_girl</tags>
+  </char>
   <char id="261" name="Casual - Pride Month" cc_theme_id="family" thumbnail_url="thumbnails/261.png" copyable="Y">
     <tags>family,_free,_cat:Casual,_tag:casual glasses lgbt lgbtq man male month pride rainbow,_sticky_filter_guy</tags>
   </char>
@@ -7651,6 +7654,12 @@
     <tags>family,_free,_cat:Special Occasions,_tag:academy academic cap child children college education female girl graduate graduation hat kid kids occasions pigtails special student,_sticky_filter_littlegirl</tags>
   </char>
   <char id="117" name="Hijab" cc_theme_id="family" thumbnail_url="thumbnails/117.png" copyable="Y">
+    <tags>family,_free,_cat:Casual,_tag:casual female headscarf hijab lady woman,_sticky_filter_girl</tags>
+  </char>
+  <char id="347" name="Hijab" cc_theme_id="family" thumbnail_url="thumbnails/347.png" copyable="Y">
+    <tags>family,_free,_cat:Casual,_tag:casual female headscarf hijab lady woman,_sticky_filter_girl</tags>
+  </char>
+  <char id="348" name="Hijab" cc_theme_id="family" thumbnail_url="thumbnails/348.png" copyable="Y">
     <tags>family,_free,_cat:Casual,_tag:casual female headscarf hijab lady woman,_sticky_filter_girl</tags>
   </char>
   <char id="119" name="Hiker" cc_theme_id="family" thumbnail_url="thumbnails/119.png" copyable="Y">
