@@ -7962,6 +7962,9 @@
   <char id="343" name="Office Professional" cc_theme_id="family" thumbnail_url="thumbnails/343.png" copyable="Y">
     <tags>family,_free,_cat:Office,_tag:business man male office worker,_sticky_filter_guy</tags>
   </char>
+  <char id="349" name="Office Professional" cc_theme_id="family" thumbnail_url="thumbnails/349.png" copyable="Y">
+    <tags>family,_free,_cat:Office,_tag:beard business elder elderlies elderly man male office professional turban worker,_sticky_filter_fatguy</tags>
+  </char>
   <char id="075" name="Pajamas" cc_theme_id="family" thumbnail_url="thumbnails/075.png" copyable="Y">
     <tags>family,_free,_cat:Casual,_tag:asleep bedroom domestic home homeware household man male pajama pajamas pj pjs pyjama pyjamas sleep sleeping sleepy,_sticky_filter_guy</tags>
   </char>
