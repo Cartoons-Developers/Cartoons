@@ -86,7 +86,7 @@ module.exports = async function (req, res, url) {
 					type: "application/x-shockwave-flash",
 					id: "char_creator",
 					width: '100%', 
-					height: '600', 
+					height: '100%', 
 					class: "char_object"
 				},
 				params: {
@@ -168,7 +168,7 @@ module.exports = async function (req, res, url) {
 		} case "/exporter": {
 			filename = "app/exporter";
 			extra = {
-				title: "Video Player",
+				title: "Video Exporter",
 				attrs: {
 					data: SWF_URL + '/exporter.swf',
 					type: 'application/x-shockwave-flash', width: '100%', height: '100%',
