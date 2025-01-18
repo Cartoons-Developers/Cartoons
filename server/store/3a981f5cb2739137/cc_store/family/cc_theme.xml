@@ -9545,7 +9545,7 @@
       <state id="walk" filename="walk.swf" />
 	<tag>_sticky_filter_littlegirl</tag>
     </component>
-    <component type="lower_body" id="adam_116" path="adam_116" name="adam_116" thumb="thumbnail.swf" display_order="140" money="0" sharing="0" enable="Y">
+    <component type="lower_body" id="adam_115" path="adam_115" name="adam_115" thumb="thumbnail.swf" display_order="140" money="0" sharing="0" enable="Y">
       <state id="dance" filename="dance.swf" />
       <state id="default" filename="default.swf" />
       <state id="excited" filename="excited.swf" />
