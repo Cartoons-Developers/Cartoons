@@ -6145,7 +6145,7 @@
   <prop id="ruler.swf" name="Ruler" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="Y" aid="11210" money="" sharing="" handstyle="stick">
     <tag>cat:Office and School</tag>
   </prop>
-  <prop id="sake_bottle.swf" name="Sake" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9033" money="" sharing="" handstyle="stick">
+  <prop id="sake_bottle.swf" name="Sake" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9033" money="" sharing="" handstyle="flat">
     <tag>cat:Food and Drink</tag>
 	<tag>alcohol</tag>
 	<tag>beverage</tag>
@@ -7171,7 +7171,7 @@
 	<tag>window</tag>
 	<tag>windows</tag>
   </prop>
-  <prop id="wine.swf" name="Wine" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9797" money="" sharing="" handstyle="stick">
+  <prop id="wine.swf" name="Wine" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9797" money="" sharing="" handstyle="flat">
     <tag>cat:Food and Drink</tag>
 	<tag>alcohol</tag>
 	<tag>bar</tag>
