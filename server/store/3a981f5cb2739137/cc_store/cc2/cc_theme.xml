@@ -1511,10 +1511,10 @@
 		<library type="GoBehindBody" id="bird_tail" path="bird_tail" name="bird_tail" thumb="bird_tail_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
 		<library type="GoBehindBody" id="bunny_tail" path="bunny_tail" name="bunny_tail" thumb="bunny_tail_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
 		<library type="GoBehindBody" id="custom_cat_tail" path="custom_cat_tail" name="custom_cat_tail" thumb="custom_cat_tail_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
-		<library type="GoBehindBody" id="custom_cat_tail_striped_longer" path="custom_cat_tail_striped_longer" name="custom_cat_tail_striped_longer" thumb="custom_cat_tail_striped_longer_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
 		<library type="GoBehindBody" id="deer_tail" path="deer_tail" name="deer_tail" thumb="deer_tail_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
 		<library type="GoBehindBody" id="dog_tail" path="dog_tail" name="dog_tail" thumb="dog_tail_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
 		<library type="GoBehindBody" id="fox_tail" path="fox_tail" name="fox_tail" thumb="fox_tail_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
+		<library type="GoBehindBody" id="lemur_tail" path="lemur_tail" name="lemur_tail" thumb="lemur_tail_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
 		<library type="GoBehindBody" id="lion_tail" path="lion_tail" name="lion_tail" thumb="lion_tail_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
 		<library type="GoBehindBody" id="raccoon_tail" path="raccoon_tail" name="raccoon_tail" thumb="raccoon_tail_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
 		<library type="GoBehindBody" id="mouse_tail" path="mouse_tail" name="mouse_tail" thumb="mouse_tail_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
