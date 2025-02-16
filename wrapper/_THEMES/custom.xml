@@ -5689,6 +5689,11 @@
 	<tag>desk</tag>
 	<tag>office</tag>
   </prop>
+  <prop id="office_tower.swf" name="Office Tower" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="10547" money="" sharing="">
+    <tag>cat:Office and School</tag>
+	<tag>business</tag>
+	<tag>office</tag>
+  </prop>
   <prop id="battlefield_oil_drum01.swf" name="Oil Drum" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9674" money="" sharing="">
     <tag>cat:Industrial and Hardware</tag>
 	<tag>barrel</tag>
@@ -7166,6 +7171,14 @@
 	<tag>windows</tag>
   </prop>
   <prop id="bedroom_window.swf" name="Window" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="9797" money="" sharing="">
+    <tag>cat:Buildings and Structures</tag>
+	<tag>glass</tag>
+	<tag>window</tag>
+	<tag>windows</tag>
+  </prop>
+  <prop id="msp_window03.swf" name="Window" holdable="" placeable="1" wearable="" facing="left" thumb="msp_window03_ncc_window03_front.swf" enable="Y" is_premium="N" aid="9797" money="" sharing="">
+    <state id="msp_window03_ncc_window03_front.swf" name="front" enable="Y" default="Y" />
+    <state id="msp_window03_ncc_window03_side.swf" name="side" enable="Y" />
     <tag>cat:Buildings and Structures</tag>
 	<tag>glass</tag>
 	<tag>window</tag>
