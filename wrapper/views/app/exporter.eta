@@ -25,5 +25,68 @@
 			<%~ it.extra.object(it.extra.attrs, it.extra.params) %>
 		</main>
 	</body>
-</html>
+	
+	<script>
+		const id = "<%~ it.extra.params.flashvars.movieId %>";
+		const player = document.getElementById("obj");
+		const $progressBar = $(".progress_bar");
+		const $exporterFrame = $("#exporter_frame_preview");
+		let currentScene = 0;
+		let movieData = {};
+
+		$.ajax({
+			url: "/api/movie/get_info",
+			method: "GET",
+			data: {
+				id: id
+			},
+		}).done((d) => {
+			movieData = d;
+		}).catch((e) => {
+			/************/
+			console.error("Failure to get movie data. Error:", e);
+		});
+
+		/* exporter events */
+		function notifyMovieEnded() {
+			sendFramesToServer();
+		}
+		function onSceneEnter() {
+			currentScene++;
+			$progressBar.css("width", currentScene / movieData.sceneCount * 100 + "px");
+			const currentFrame = player.getPhotoArray(true)[0];
+			$exporterFrame.attr("src", "data:image/png;base64," + currentFrame);
+		}
+
+		function sendFramesToServer() {
+			/* cut out duplicate frames */
+			/** @type {{
+			 * 	duration: number
+				guid: string
+				startFrom: number
+			 * }[]}
+			 */
+			const scenes = player.getSceneInfoArray();
+			/** @type {string[]} */
+			const frames = player.getPhotoArray();
+			for (const scene of scenes) {
+				frames.splice(scene.startFrom, 1);
+			}
+			$.ajax({
+				url: "/export/video_complete",
+				method: "POST",
+				data: JSON.stringify({
+					frames: frames,
+					id: id
+				}),
+				dataType: "json",
+				contentType: "application/json"
+			}).done((d) => {
+				console.log(d);
+			}).catch((e) => {
+				console.error("Failure to send frames to the server. Error:", e);
+			});
+		}
+
+	</script>
 </html>
