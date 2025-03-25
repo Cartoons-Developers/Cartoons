@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Export Video</title>
+    <link rel="stylesheet" type="text/css" href="/pages/css/global.css">
+    <link rel="stylesheet" type="text/css" href="/pages/css/exporter.css">
+</head>
+<body>
+    <%~ includeFile("./includes/header", { env: it.env }) %>
+    <main>
+        <h1>Export Video</h1>
+        <p>Click the button below to export your video as an MP4 file.</p>
+        <button id="exportButton">Export as MP4</button>
+    </main>
+    <%~ includeFile("./includes/footer", { env: it.env }) %>
+
+    <script src="/pages/js/jquery.js"></script>
+    <script>
+        document.getElementById('exportButton').addEventListener('click', function() {
+            const movieId = new URLSearchParams(window.location.search).get('movieId');
+            window.location.href = `/exporter/download?movieId=${movieId}`;
+        });
+    </script>
+</body>
+</html>
