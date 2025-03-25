@@ -2,7 +2,7 @@
 
 const express = require('express');
 const router = express.Router();
-const Movie = require('../movie/main'); // Adjust the path as needed
+const Movie = require('./main'); // Adjust the path as needed
 
 // GET /api/movie/get_info
 router.get('/get_info', async (req, res) => {

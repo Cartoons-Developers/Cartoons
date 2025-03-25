@@ -18,12 +18,12 @@ module.exports = async function (req, res) {
 	console.log("Repairing movie:", mId);
 	try {
 		// check if the mid is valid
-		if (mId.length != 7) throw "Sorry.";
+		if (mId.length != 7) throw "Repaired.";
 		await Movie.repair(mId);
 		res.setHeader("Content-Type", "application/json");
 		res.end('{"status":"ok"}');
 	} catch (e) {
-		console.error("This movie is beyond repair.", e);
+		console.error("Sorry, I'm afraid I won't let you do that.", e);
 		res.statusCode = 404;
 		res.setHeader("Content-Type", "application/json");
 		res.end('{"status":"error"}');
