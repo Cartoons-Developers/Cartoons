@@ -1,49 +1,6 @@
-const express = require('express');  // Add express for serving the HTML file
-const ffmpeg = require('fluent-ffmpeg');
-const fs = require('fs');
-const path = require('path');
-
-// Create an express app
-const app = express();
-
-// Middleware to serve static files
-app.use(express.static(path.join(__dirname, 'wrapper/views')));
-
-// Route to serve the exporter HTML page
-app.get('/exporter', (req, res) => {
-    res.sendFile(path.join(__dirname, 'wrapper/views/exporter.eta'));
-});
-
-// Route to handle MP4 conversion and download
-app.get('/exporter/download', (req, res) => {
-    const movieId = req.query.movieId;
-    const inputPath = `_SAVED/${movieId}.xml`; // Source extension set to XML
-    const outputPath = `_SAVED/${movieId}.mp4`;
-
-    ffmpeg(inputPath)
-        .output(outputPath)
-        .on('end', () => {
-            res.download(outputPath, `${movieId}.mp4`, (err) => {
-                if (err) {
-                    console.error('Error downloading the file:', err);
-                    res.status(500).send('Internal Server Error');
-                } else {
-                    // Optionally, delete the file after download
-                    fs.unlink(outputPath, (err) => {
-                        if (err) {
-                            console.error('Error deleting the file:', err);
-                        }
-                    });
-                }
-            });
-        })
-        .on('error', (err) => {
-            console.error('Error converting the video:', err);
-            res.status(500).send('Internal Server Error');
-        })
-        .run();
-});
-
+/**
+ * start wrapper: offline's server
+ */
 // modules
 const http = require("http");
 const url = require("url");
