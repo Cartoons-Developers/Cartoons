@@ -13274,7 +13274,9 @@
   <component type="nose" id="017" path="017" name="017" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
     <state id="default" filename="default.swf" />
 	<tag>_sticky_filter_guy</tag>
+	<tag>_sticky_filter_girl</tag>
 	<tag>_sticky_filter_fatguy</tag>
+	<tag>_sticky_filter_fatgirl</tag>
 	<tag>_sticky_filter_buff</tag>
   </component>
   <component type="nose" id="022" path="022" name="022" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
