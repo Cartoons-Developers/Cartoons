@@ -18,7 +18,7 @@ module.exports = async function (req, res) {
 	console.log("Repairing movie:", mId);
 	try {
 		// check if the mid is valid
-		if (mId.length != 7) throw "fuck off";
+		if (mId.length != 7) throw "Sorry.";
 		await Movie.repair(mId);
 		res.setHeader("Content-Type", "application/json");
 		res.end('{"status":"ok"}');

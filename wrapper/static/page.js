@@ -203,8 +203,8 @@ module.exports = async function (req, res, url) {
 	// Handle video export request
 	if (url.pathname === "/exporter/download") {
 		const movieId = query.movieId;
-		const inputPath = `/_SAVED/` + movieId + `.xml`;
-		const outputPath = `/_SAVED/` + movieId +`.mp4`;
+		const inputPath = `${process.env.SAVED_FOLDER}/${movieId}.xml`;
+		const outputPath = `${process.env.SAVED_FOLDER}/${movieId}.mp4`;
 
 		ffmpeg(inputPath)
 			.output(outputPath)
