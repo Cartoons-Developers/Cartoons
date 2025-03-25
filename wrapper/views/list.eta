@@ -115,7 +115,7 @@
 				',top=' + (screen.height / 2 - 360));
 		}
 		function popupExport(id) {
-    window.open(`/exporter?movieId=${id}`, 'MsgWindow', 'width=1280,height=720,left=' + (screen.width / 2 - 640) +
+    window.open(`/exporter?movieId=` + id, 'MsgWindow', 'width=1280,height=720,left=' + (screen.width / 2 - 640) +
         ',top=' + (screen.height / 2 - 360));
 }
 

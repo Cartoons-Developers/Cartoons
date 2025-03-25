@@ -173,7 +173,7 @@ module.exports = async function (req, res, url) {
 				title: "Video Exporter",
 				attrs: {
 					data: SWF_URL + '/exporter.swf',
-					type: 'application/x-shockwave-flash', width: '100%', height: '100%',
+					type: 'application/x-shockwave-flash',
 				},
 				params: {
 					flashvars: {
@@ -203,13 +203,13 @@ module.exports = async function (req, res, url) {
 	// Handle video export request
 	if (url.pathname === "/exporter/download") {
 		const movieId = query.movieId;
-		const inputPath = `/_SAVED/${movieId}.xml`;
-		const outputPath = `/_SAVED/${movieId}.mp4`;
+		const inputPath = `/_SAVED/` + movieId + `.xml`;
+		const outputPath = `/_SAVED/` + movieId +`.mp4`;
 
 		ffmpeg(inputPath)
 			.output(outputPath)
 			.on('end', () => {
-				res.download(outputPath, `${movieId}.mp4`, (err) => {
+				res.download(outputPath, movieId +`.mp4`, (err) => {
 					if (err) {
 						console.error('Error downloading the file:', err);
 						res.status(500).send('Internal Server Error');
