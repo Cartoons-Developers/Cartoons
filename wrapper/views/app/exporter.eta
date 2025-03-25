@@ -15,7 +15,6 @@
     </main>
     <%~ includeFile("./includes/footer", { env: it.env }) %>
 
-    <script src="/pages/js/jquery.js"></script>
     <script>
         document.getElementById('exportButton').addEventListener('click', function() {
             const movieId = new URLSearchParams(window.location.search).get('movieId');

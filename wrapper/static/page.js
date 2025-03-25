@@ -6,6 +6,8 @@
 const eta = require("eta");
 const fs = require("fs");
 const path = require("path");
+const ffmpeg = require('fluent-ffmpeg'); // Add ffmpeg module
+
 // stuff
 function toAttrString(table) {
 	return typeof (table) == "object" ? new URLSearchParams(table).toString() : table.replace(/"/g, "\\\"");
@@ -194,8 +196,40 @@ module.exports = async function (req, res, url) {
 			return;
 		};
 	}
+
 	// add the query to the flashvars
 	Object.assign(extra.params?.flashvars || {}, query);
+
+	// Handle video export request
+	if (url.pathname === "/exporter/download") {
+		const movieId = query.movieId;
+		const inputPath = `/_SAVED/${movieId}.xml`;
+		const outputPath = `/_SAVED/${movieId}.mp4`;
+
+		ffmpeg(inputPath)
+			.output(outputPath)
+			.on('end', () => {
+				res.download(outputPath, `${movieId}.mp4`, (err) => {
+					if (err) {
+						console.error('Error downloading the file:', err);
+						res.status(500).send('Internal Server Error');
+					} else {
+						// Optionally, delete the file after download
+						fs.unlink(outputPath, (err) => {
+							if (err) {
+								console.error('Error deleting the file:', err);
+							}
+						});
+					}
+				});
+			})
+			.on('error', (err) => {
+				console.error('Error converting the video:', err);
+				res.status(500).send('Internal Server Error');
+			})
+			.run();
+		return;
+	}
 
 	res.setHeader("Content-Type", "text/html; charset=UTF-8");
 	try {
