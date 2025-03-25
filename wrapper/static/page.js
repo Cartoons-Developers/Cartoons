@@ -173,7 +173,7 @@ module.exports = async function (req, res, url) {
 				title: "Video Exporter",
 				attrs: {
 					data: SWF_URL + '/exporter.swf',
-					type: 'application/x-shockwave-flash',
+					type: 'application/x-shockwave-flash', width: '100%', height: '100%',
 				},
 				params: {
 					flashvars: {

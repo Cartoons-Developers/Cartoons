@@ -1,25 +1,29 @@
-<!DOCTYPE html>
 <html>
-<head>
-    <meta charset="UTF-8">
-    <title>Export Video</title>
-    <link rel="stylesheet" type="text/css" href="/pages/css/global.css">
-    <link rel="stylesheet" type="text/css" href="/pages/css/exporter.css">
-</head>
-<body>
-    <%~ includeFile("./includes/header", { env: it.env }) %>
-    <main>
-        <h1>Export Video</h1>
-        <p>Click the button below to export your video as an MP4 file.</p>
-        <button id="exportButton">Export as MP4</button>
-    </main>
-    <%~ includeFile("./includes/footer", { env: it.env }) %>
+	<head>
+		<meta charset="UTF-8" />
+		<link rel="icon" href="/favicon.ico" type="image/png" />
+		<title><%= it.extra.title %></title>
+		<link rel="stylesheet" type="text/css" href="/pages/css/modern-normalize.css">
+		<link rel="stylesheet" type="text/css" href="/pages/css/global.css">
+		<link rel="stylesheet" type="text/css" href="/pages/css/exporter.css">
+	</head>
 
-    <script>
-        document.getElementById('exportButton').addEventListener('click', function() {
-            const movieId = new URLSearchParams(window.location.search).get('movieId');
-            window.location.href = `/exporter/download?movieId=${movieId}`;
-        });
-    </script>
-</body>
+	<body style="margin:0px">
+		<main>
+			<h1>Export a video</h1>
+			<div class="before_export">
+
+			</div>
+			<div class="during_export">
+				<div class="export_progress"><div class="progress_bar"></div></div>
+				<small>Note: progress bar may not be accurate.</small>
+				<img id="exporter_frame_preview" src="" alt="Current scene"/>
+			</div>
+			<div class="after_export">
+
+			</div>
+			<%~ it.extra.object(it.extra.attrs, it.extra.params) %>
+		</main>
+	</body>
+</html>
 </html>
