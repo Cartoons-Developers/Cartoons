@@ -72,9 +72,9 @@ module.exports = async function (req, res, url) {
 					}
 
 					if (meta.subtype == "video") {
-						meta.ext = "flv";
+						meta.ext = "mp4";
 						const oldPath = `${process.env.CACHÉ_FOLDER}/t.mp4`;
-						const newPath = `${process.env.CACHÉ_FOLDER}/t.flv`;
+						const newPath = `${process.env.CACHÉ_FOLDER}/t.mp4`;
 						await new Promise((resolve, rej) => {
 							// save the temp files
 							const writeStream = fs.createWriteStream(oldPath);
