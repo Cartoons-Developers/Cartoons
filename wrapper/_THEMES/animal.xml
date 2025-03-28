@@ -24,10 +24,10 @@
   <char id="324" name="Deer" cc_theme_id="cc2" thumbnail_url="thumbnails/324.png" copyable="Y">
     <tags>cc2,_free,_cat:Animals</tags>
   </char>
-  <char id="354" name="Dog" cc_theme_id="cc2" thumbnail_url="thumbnails/321.png" copyable="Y">
+  <char id="354" name="Dog" cc_theme_id="cc2" thumbnail_url="thumbnails/354.png" copyable="Y">
     <tags>cc2,_free,_cat:Animals</tags>
   </char>
-  <char id="355" name="Dog" cc_theme_id="cc2" thumbnail_url="thumbnails/322.png" copyable="Y">
+  <char id="355" name="Dog" cc_theme_id="cc2" thumbnail_url="thumbnails/355.png" copyable="Y">
     <tags>cc2,_free,_cat:Animals</tags>
   </char>
   <char id="325" name="Fox" cc_theme_id="cc2" thumbnail_url="thumbnails/325.png" copyable="Y">
@@ -66,10 +66,10 @@
   <char id="334" name="Raccoon" cc_theme_id="cc2" thumbnail_url="thumbnails/334.png" copyable="Y">
     <tags>cc2,_free,_cat:Animals</tags>
   </char>
-  <char id="352" name="Skunk" cc_theme_id="cc2" thumbnail_url="thumbnails/337.png" copyable="Y">
+  <char id="352" name="Skunk" cc_theme_id="cc2" thumbnail_url="thumbnails/352.png" copyable="Y">
     <tags>cc2,_free,_cat:Animals</tags>
   </char>
-  <char id="353" name="Skunk" cc_theme_id="cc2" thumbnail_url="thumbnails/338.png" copyable="Y">
+  <char id="353" name="Skunk" cc_theme_id="cc2" thumbnail_url="thumbnails/353.png" copyable="Y">
     <tags>cc2,_free,_cat:Animals</tags>
   </char>
   <char id="337" name="Squirrel" cc_theme_id="cc2" thumbnail_url="thumbnails/337.png" copyable="Y">
