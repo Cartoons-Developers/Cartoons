@@ -2843,6 +2843,9 @@
 	<component type="faceshape" id="eye_marking" path="eye_marking" name="eye_marking" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
 		<state id="default" filename="default.swf"/>
 	</component>
+	<component type="faceshape" id="head_stripe" path="head_stripe" name="head_stripe" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
 	<component type="faceshape" id="mouth_marking" path="mouth_marking" name="mouth_marking" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
 		<state id="default" filename="default.swf"/>
 	</component>
