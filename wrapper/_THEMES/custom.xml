@@ -5012,6 +5012,9 @@
 	<tag>animal</tag>
     <tag>animals</tag>
   </prop>
+  <prop id="government_building.swf" name="Government Building" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="10547" money="" sharing="">
+    <tag>cat:Buildings and Structures</tag>
+  </prop>
   <prop id="grapes.swf" name="Grapes" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="11858" money="" sharing="">
     <tag>cat:Food and Drink</tag>
     <tag>food</tag>
@@ -5690,7 +5693,7 @@
 	<tag>office</tag>
   </prop>
   <prop id="office_tower.swf" name="Office Tower" holdable="" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="10547" money="" sharing="">
-    <tag>cat:Office and School</tag>
+    <tag>cat:Buildings and Structures</tag>
 	<tag>business</tag>
 	<tag>office</tag>
   </prop>
