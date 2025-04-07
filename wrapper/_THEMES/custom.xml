@@ -7534,6 +7534,18 @@
   <char id="356" name="Casual" cc_theme_id="family" thumbnail_url="thumbnails/356.png" copyable="Y">
     <tags>family,_free,_cat:Casual,_tag:casual female lady woman,_sticky_filter_girl</tags>
   </char>
+  <char id="358" name="Casual" cc_theme_id="family" thumbnail_url="thumbnails/358.png" copyable="Y">
+    <tags>family,_free,_cat:Casual,_tag:cap casual hat man male,_sticky_filter_guy</tags>
+  </char>
+  <char id="359" name="Casual" cc_theme_id="family" thumbnail_url="thumbnails/359.png" copyable="Y">
+    <tags>family,_free,_cat:Casual,_tag:casual man male,_sticky_filter_guy</tags>
+  </char>
+  <char id="360" name="Casual" cc_theme_id="family" thumbnail_url="thumbnails/360.png" copyable="Y">
+    <tags>family,_free,_cat:Casual,_tag:casual earring earrings female lady woman,_sticky_filter_girl</tags>
+  </char>
+  <char id="362" name="Casual" cc_theme_id="family" thumbnail_url="thumbnails/362.png" copyable="Y">
+    <tags>family,_free,_cat:Casual,_tag:casual female lady woman,_sticky_filter_girl</tags>
+  </char>
   <char id="261" name="Casual - Pride Month" cc_theme_id="family" thumbnail_url="thumbnails/261.png" copyable="Y">
     <tags>family,_free,_cat:Casual,_tag:casual glasses lgbt lgbtq man male month pride rainbow,_sticky_filter_guy</tags>
   </char>
@@ -8175,6 +8187,9 @@
   </char>
   <char id="228" name="Student" cc_theme_id="family" thumbnail_url="thumbnails/228.png" copyable="Y">
     <tags>family,_free,_cat:Casual,_tag:academy academic casual college education man male university,_sticky_filter_guy</tags>
+  </char>
+  <char id="357" name="Student" cc_theme_id="family" thumbnail_url="thumbnails/357.png" copyable="Y">
+    <tags>family,_free,_cat:Casual,_tag:academy academic casual college education female lady university woman,_sticky_filter_girl</tags>
   </char>
   <char id="047" name="Superhero" cc_theme_id="family" thumbnail_url="thumbnails/047.png" copyable="Y">
     <tags>family,_free,_cat:Holidays and Costumes,_tag:boot boots costume costumes glove gloves hero heroes heroic holiday holidays hols mask man male other professions superhero,_sticky_filter_buff</tags>
